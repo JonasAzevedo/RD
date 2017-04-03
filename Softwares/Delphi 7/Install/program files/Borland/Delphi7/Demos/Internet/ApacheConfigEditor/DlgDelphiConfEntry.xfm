@@ -1,0 +1,111 @@
+inherited DlgBuildEntry: TDlgBuildEntry
+  Left = 463
+  Top = 140
+  Width = 515
+  Height = 270
+  VertScrollBar.Range = 253
+  HorzScrollBar.Range = 505
+  Caption = 'Build Module Entry Wizard'
+  PixelsPerInch = 96
+  inherited Bevel1: TBevel
+    Top = 24
+    Width = 497
+    Height = 185
+  end
+  inherited OKBtn: TButton
+    Left = 126
+    Top = 228
+  end
+  inherited CancelBtn: TButton
+    Left = 206
+    Top = 228
+  end
+  object HelpBtn: TButton
+    Left = 286
+    Top = 228
+    Width = 75
+    Height = 25
+    Caption = '&Help'
+    TabOrder = 2
+  end
+  object LabelModuleLocation: TLabel
+    Left = 16
+    Top = 42
+    Width = 155
+    Height = 13
+    Caption = 'Location of Module Binary Image'
+  end
+  object EditModuleLocation: TEdit
+    Left = 16
+    Top = 58
+    Width = 473
+    Height = 24
+    Anchors = [akLeft, akTop, akRight]
+    Font.Color = clBlack
+    Font.Height = 13
+    Font.Name = 'Helvetica'
+    Font.Pitch = fpVariable
+    Font.Style = []
+    Font.Weight = 40
+    ParentFont = False
+    TabOrder = 4
+  end
+  object EditExportedSymbol: TEdit
+    Left = 16
+    Top = 106
+    Width = 217
+    Height = 21
+    TabOrder = 5
+  end
+  object Label2: TLabel
+    Left = 16
+    Top = 90
+    Width = 128
+    Height = 13
+    Caption = 'Exported Symbol in Module'
+  end
+  object Label4: TLabel
+    Left = 16
+    Top = 136
+    Width = 64
+    Height = 13
+    Caption = 'Content Type'
+  end
+  object EditContentType: TEdit
+    Left = 16
+    Top = 152
+    Width = 217
+    Height = 21
+    TabOrder = 8
+  end
+  object EditLocationEntry: TEdit
+    Left = 248
+    Top = 152
+    Width = 241
+    Height = 21
+    Anchors = [akLeft, akTop, akRight]
+    TabOrder = 9
+  end
+  object Label5: TLabel
+    Left = 248
+    Top = 136
+    Width = 124
+    Height = 13
+    Caption = 'Location (Virtual Directory)'
+  end
+  object EditModuleName: TEdit
+    Left = 248
+    Top = 106
+    Width = 241
+    Height = 21
+    Anchors = [akLeft, akTop, akRight]
+    TabOrder = 11
+  end
+  object Label3: TLabel
+    Left = 250
+    Top = 88
+    Width = 66
+    Height = 13
+    Caption = 'Module Name'
+  end
+end

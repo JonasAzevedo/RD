@@ -1,0 +1,85 @@
+;WHAT'S NEW, IDE HELP
+:Link d7new.hlp
+:Link d7.hlp
+
+;DEVELOPER'S GUIDE
+:Link d7prog.hlp
+:Link d7dbd.hlp
+:Link d7dap.hlp
+:Link d7cw.hlp
+:Link d7com.hlp
+
+;OTHER BORLAND IDE HELP
+:Link d7etm.hlp
+:Link d7pce.hlp
+:Link d7rdw.hlp
+:Link d7xmlmap.hlp
+:Link d7dbx.hlp
+:Link d7derrs.hlp
+:Link d7dopts.hlp
+
+;OBJECT AND COMPONENT REFERENCES
+:Link d7ref.hlp
+:Link d7vcl.hlp
+:Link d7clx.hlp
+:Link d7ilib.hlp
+:Link d7iota.hlp
+
+;INTERBASE EXPRESS COMPONENTS
+:Link d7ibx.hlp
+
+;OBJECT PASCAL REFERENCE
+:Link d7dlr.hlp
+
+;BORLAND TOOLS (d7XTRA)
+:Link d7xtra.hlp
+:Link sqlmon.hlp
+:Link sqlbuild.hlp
+:Link dbexplr3.hlp
+:Link winsight.hlp
+:Link imagedit.hlp
+:Link openhelp.hlp
+
+;BDE/COMMON BORLAND FILES
+:Link bde32.hlp
+:Link bdeadmin.hlp
+:Link datapump.hlp
+:Link localsql.hlp
+:Link sqllnk32.hlp
+:Link ibctrls.hlp
+:Link dbddesk.hlp
+
+;TEAMSOURCE
+:Link TeamSrc.hlp
+
+;THIRD-PARTY HELP
+;INDY COMPONENT REFERENCE
+:Link d7indy.hlp
+:Link Rave.hlp
+:Link Rave50DevGuide.hlp
+;NEWT
+:Link nia.hlp
+;QuickReports
+:Link quickrpt.hlp
+;Teechart
+:Link teechart.hlp
+
+;MSSDK HELP
+:Link 95guide.hlp
+:Link kbase.hlp
+:Link mapi.hlp
+:Link midl.hlp
+:Link misapi.hlp
+:Link mmedia.hlp
+:Link ole.hlp
+:Link opengl.hlp
+:Link pdh.hlp
+:Link penapi.hlp
+:Link progtech.hlp
+:Link rpc.hlp
+:Link setupapi.hlp
+:Link sock2.hlp
+:Link tapi.hlp
+:Link win32.hlp
+
+

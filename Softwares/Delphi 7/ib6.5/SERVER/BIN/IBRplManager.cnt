@@ -1,0 +1,56 @@
+:Base IBRPLMANAGER.HLP
+:Title IBReplicator Management Help
+1 Introduction=Introduction
+1 Using the replication manager
+2 Using the replication manager=Using_the_replication_manager
+2 Using the main window=The_main_window
+2 Using the field editor=Using_the_field_editor
+2 Using the mapping window=Using_the_mapping_window
+1 Defining replications
+2 Defining replications=Defining_replications
+2 Using configurations
+3 Choosing a configuration=Choosing_a_configuration
+3 The "Configuration databases" dialog=Maintaining_configurations
+2 Registering databases
+3 Registering databases=Registering_databases
+3 Database parameters=Database_parameters
+2 Defining replications
+3 Replication schemata
+4 Replication schemata=Replication_schemata
+4 Schema defaults
+5 The "Schema defaults" dialog=Schema_defaults
+5 Schema defaults: General=Schema_defaults__General
+5 Schema defaults: Event logging=Schema_defaults__Event_logging
+; next level + 1
+3 The "Schema properties" dialog=Schema_properties
+3 Source databases
+4 The "Source database" dialog=Source_database_properties
+4 Source database: Connection=Source_database__Connection
+4 Source database: Settings=Source_database__Settings
+4 Source database: Event logging=Source_database__Event_logging
+3 Target databases
+4 The "Target database" dialog=Target_database_properties
+4 Target database: Connection=Target_database__Connection
+4 Target database: Settings=Target_database__Settings
+3 Replicated tables and procedures
+4 Replicated tables and procedures=Replicated_tables_and_procedures
+4 Auto Generate Tables, Keys and Fields=Auto_Generate_Tables__Keys_and_Fields
+4 The "Table properties" dialog=Table_mapping_properties
+3 Replicated columns
+4 Mapping primary keys=Mapping_primary_keys
+4 Mapping data columns=Replicated_data_columns
+; next level + 1
+2 Creating system objects=Creating_system_objects
+1 Replication tools
+; next level + 1
+1 Notifying the server=Notifying_the_server
+2 Replication tools=Replication_tools
+2 Manual conflict resolution=Manual_conflict_resolution
+2 The replication monitor=Replication_monitor
+2 The replication scheduler=The_replication_scheduler
+2 The schema viewer=The_schema_viewer
+1 Bi-Directional and n-way Replication
+2 What is Bi-Directional Replication=What_is_Bi_Directional_Replication
+2 The special user called REPL=The_special_user_called_REPL
+2 Configuring Bi-Directional Replication=Configuring_Bi_Directional_Replication
+2 n-Way Replication=n_Way_Replication

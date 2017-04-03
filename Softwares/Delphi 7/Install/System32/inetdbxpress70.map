@@ -1,0 +1,164 @@
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000CB0H .text                   CODE
+ 0002:00000000 0000002CH .data                   DATA
+ 0002:0000002C 0000001DH .bss                    BSS
+
+
+Detailed map of segments
+
+ 0001:00000000 0000008E C=CODE     S=.text    G=(none)   M=System   ACBP=A9
+ 0001:00000090 000001EC C=CODE     S=.text    G=(none)   M=SysInit  ACBP=A9
+ 0001:0000027C 0000000E C=CODE     S=.text    G=(none)   M=SysUtils ACBP=A9
+ 0001:0000028C 0000000E C=CODE     S=.text    G=(none)   M=SysConst ACBP=A9
+ 0001:0000029C 00000038 C=CODE     S=.text    G=(none)   M=Windows  ACBP=A9
+ 0001:000002D4 0000000E C=CODE     S=.text    G=(none)   M=Types    ACBP=A9
+ 0001:000002E4 00000086 C=CODE     S=.text    G=(none)   M=Classes  ACBP=A9
+ 0001:0000036C 0000000E C=CODE     S=.text    G=(none)   M=ActiveX  ACBP=A9
+ 0001:0000037C 00000038 C=CODE     S=.text    G=(none)   M=Messages ACBP=A9
+ 0001:000003B4 0000000E C=CODE     S=.text    G=(none)   M=TypInfo  ACBP=A9
+ 0001:000003C4 0000000E C=CODE     S=.text    G=(none)   M=Variants ACBP=A9
+ 0001:000003D4 0000000E C=CODE     S=.text    G=(none)   M=VarUtils ACBP=A9
+ 0001:000003E4 0000000E C=CODE     S=.text    G=(none)   M=RTLConsts ACBP=A9
+ 0001:000003F4 00000036 C=CODE     S=.text    G=(none)   M=HTTPApp  ACBP=A9
+ 0001:0000042C 0000000E C=CODE     S=.text    G=(none)   M=Contnrs  ACBP=A9
+ 0001:0000043C 0000000E C=CODE     S=.text    G=(none)   M=Math     ACBP=A9
+ 0001:0000044C 0000000E C=CODE     S=.text    G=(none)   M=Masks    ACBP=A9
+ 0001:0000045C 0000000E C=CODE     S=.text    G=(none)   M=BrkrConst ACBP=A9
+ 0001:0000046C 0000000E C=CODE     S=.text    G=(none)   M=WebConst ACBP=A9
+ 0001:0000047C 0000000E C=CODE     S=.text    G=(none)   M=HTTPProd ACBP=A9
+ 0001:0000048C 0000000E C=CODE     S=.text    G=(none)   M=CopyPrsr ACBP=A9
+ 0001:0000049C 00000036 C=CODE     S=.text    G=(none)   M=DB       ACBP=A9
+ 0001:000004D4 0000000E C=CODE     S=.text    G=(none)   M=FMTBcd   ACBP=A9
+ 0001:000004E4 0000000E C=CODE     S=.text    G=(none)   M=DBConsts ACBP=A9
+ 0001:000004F4 0000000E C=CODE     S=.text    G=(none)   M=SqlTimSt ACBP=A9
+ 0001:00000504 0000000E C=CODE     S=.text    G=(none)   M=DateUtils ACBP=A9
+ 0001:00000514 0000000E C=CODE     S=.text    G=(none)   M=MaskUtils ACBP=A9
+ 0001:00000524 0000000E C=CODE     S=.text    G=(none)   M=ComObj   ACBP=A9
+ 0001:00000534 0000000E C=CODE     S=.text    G=(none)   M=ComConst ACBP=A9
+ 0001:00000544 0000007E C=CODE     S=.text    G=(none)   M=DBWeb    ACBP=A9
+ 0001:000005C4 0000000E C=CODE     S=.text    G=(none)   M=SqlExpr  ACBP=A9
+ 0001:000005D4 0000000E C=CODE     S=.text    G=(none)   M=DBXpress ACBP=A9
+ 0001:000005E4 0000000E C=CODE     S=.text    G=(none)   M=DBCommon ACBP=A9
+ 0001:000005F4 0000000E C=CODE     S=.text    G=(none)   M=DBConnAdmin ACBP=A9
+ 0001:00000604 0000000E C=CODE     S=.text    G=(none)   M=IniFiles ACBP=A9
+ 0001:00000614 0000000E C=CODE     S=.text    G=(none)   M=SqlConst ACBP=A9
+ 0001:00000624 0000000E C=CODE     S=.text    G=(none)   M=Registry ACBP=A9
+ 0001:00000634 00000514 C=CODE     S=.text    G=(none)   M=DBXpressWeb ACBP=A9
+ 0001:00000B48 00000165 C=CODE     S=.text    G=(none)   M=inetdbxpress ACBP=A9
+ 0002:00000000 0000002C C=DATA     S=.data    G=DGROUP   M=SysInit  ACBP=A9
+ 0002:00001000 00000010 C=BSS      S=.bss     G=DGROUP   M=SysInit  ACBP=A9
+ 0002:00001010 00000004 C=BSS      S=.bss     G=DGROUP   M=Windows  ACBP=A9
+ 0002:00001014 00000004 C=BSS      S=.bss     G=DGROUP   M=Messages ACBP=A9
+ 0002:00001018 00000004 C=BSS      S=.bss     G=DGROUP   M=DBXpressWeb ACBP=A9
+
+
+  Address         Publics by Name
+
+ 0002:00001014       .1
+ 0002:00001008       .1
+ 0002:00001018       .2
+ 0002:00001010       .3
+ 0001:00000C88       @GetPackageInfoTable
+ 0001:000001C8       @InitPkg
+ 0001:0000022C       @PackageLoad
+ 0001:00000C90       @PackageLoad
+ 0001:00000C9C       @PackageUnload
+ 0001:00000238       @PackageUnload
+ 0001:000000C8       AllocTlsBuffer
+ 0001:00000B40       DBXpressWeb
+ 0001:00000174       ExitProcessTLS
+ 0001:0000014C       ExitThreadTLS
+ 0001:00000B10       Finalization
+ 0001:00000244       Finalization
+ 0001:0000029C       Finalization
+ 0001:0000037C       Finalization
+ 0001:00000090       FreeLibrary
+ 0001:000000D4       GetTlsSize
+ 0002:00001004       HInstance
+ 0001:00000CA8       inetdbxpress
+ 0001:00000198       InitializeModule
+ 0001:00000120       InitProcessTLS
+ 0001:000000DC       InitThreadTLS
+ 0001:00000098       LocalAlloc
+ 0001:000000A0       LocalFree
+ 0001:000003AC       Messages
+ 0002:00000004       Module
+ 0002:00001000       ModuleIsLib
+ 0002:00001001       ModuleIsPackage
+ 0001:00000274       SysInit
+ 0001:000000A8       TlsAlloc
+ 0002:0000100C       tlsBuffer
+ 0001:000000B0       TlsFree
+ 0001:000000B8       TlsGetValue
+ 0002:00000000       TlsIndex
+ 0002:FFBFE000       TlsLast
+ 0002:0000001C       TlsProc
+ 0001:000000C0       TlsSetValue
+ 0001:000008D4       TSQLQueryTableProducer.Content
+ 0001:00000A88       TSQLQueryTableProducer.GetDataSet
+ 0001:00000A90       TSQLQueryTableProducer.Notification
+ 0001:00000AC0       TSQLQueryTableProducer.SetDataSet
+ 0001:00000AE0       TSQLQueryTableProducer.SetQuery
+ 0001:000001A4       UninitializeModule
+ 0001:000002CC       Windows
+
+
+  Address         Publics by Value
+
+ 0002:FFBFE000       TlsLast
+ 0001:00000090       FreeLibrary
+ 0001:00000098       LocalAlloc
+ 0001:000000A0       LocalFree
+ 0001:000000A8       TlsAlloc
+ 0001:000000B0       TlsFree
+ 0001:000000B8       TlsGetValue
+ 0001:000000C0       TlsSetValue
+ 0001:000000C8       AllocTlsBuffer
+ 0001:000000D4       GetTlsSize
+ 0001:000000DC       InitThreadTLS
+ 0001:00000120       InitProcessTLS
+ 0001:0000014C       ExitThreadTLS
+ 0001:00000174       ExitProcessTLS
+ 0001:00000198       InitializeModule
+ 0001:000001A4       UninitializeModule
+ 0001:000001C8       @InitPkg
+ 0001:0000022C       @PackageLoad
+ 0001:00000238       @PackageUnload
+ 0001:00000244       Finalization
+ 0001:00000274       SysInit
+ 0001:0000029C       Finalization
+ 0001:000002CC       Windows
+ 0001:0000037C       Finalization
+ 0001:000003AC       Messages
+ 0001:000008D4       TSQLQueryTableProducer.Content
+ 0001:00000A88       TSQLQueryTableProducer.GetDataSet
+ 0001:00000A90       TSQLQueryTableProducer.Notification
+ 0001:00000AC0       TSQLQueryTableProducer.SetDataSet
+ 0001:00000AE0       TSQLQueryTableProducer.SetQuery
+ 0001:00000B10       Finalization
+ 0001:00000B40       DBXpressWeb
+ 0001:00000C88       @GetPackageInfoTable
+ 0001:00000C90       @PackageLoad
+ 0001:00000C9C       @PackageUnload
+ 0001:00000CA8       inetdbxpress
+ 0002:00000000       TlsIndex
+ 0002:00000004       Module
+ 0002:0000001C       TlsProc
+ 0002:00001000       ModuleIsLib
+ 0002:00001001       ModuleIsPackage
+ 0002:00001004       HInstance
+ 0002:00001008       .1
+ 0002:0000100C       tlsBuffer
+ 0002:00001010       .3
+ 0002:00001014       .1
+ 0002:00001018       .2
+
+
+Bound resource files
+
+inetdbxpress.res
+C:\DOCUME~1\~KOKOP~1\LOCALS~1\Temp\dtf27A0.tmp
+
+
+Program entry point at 0001:00000CA8

@@ -1,0 +1,99 @@
+:Base IBConsole.hlp
+:Title IBConsole Help
+1 IB Console Overview=GENERAL_OVERVIEW@IBConsole.hlp;                          Brief Description of the IB Console interface.
+1 The IB Console Environment
+2 Connections Tree=FEATURES_TREE@IBConsole.hlp
+2 Main Status Bar=FEATURES_MAIN_STATUS_BAR@IBConsole.hlp;       Short description.
+2 Shortcuts and Popups=GENERAL_SHORTCUTS@IBConsole.hlp
+2 Toolbars=FEATURES_TOOLBARS@IBConsole.hlp;     description of toolbar features with direct links
+2 Right-side data pane
+3 ISQL Tab=TABS_ISQL@IBConsole.hlp
+3 Data Tab=TABS_DATA@IBConsole.hlp
+3 SQL Script Tab=TABS_SQL_SCRIPT@IBConsole.hlp
+3 Summary Tab=TABS_SUMMARY@IBConsole.hlp
+3 Definition Tab=TABS_DEFINITION@IBConsole.hlp
+3 Actions tab=TABS_ACTIONS@IBConsole.hlp
+2 Main Menu
+3 File Menu
+4 Print=GENERAL_PRINT@IBConsole.hlp;                          Information on printing.
+4 Exit=GENERAL_EXIT@IBConsole.hlp;                          How to exit.
+3 Edit Menu
+4 Undo=EDITING_UNDO@IBConsole.hlp>Main;                          Text editting commands.
+4 Cut=EDITING_CUT@IBConsole.hlp>Main;                       How To Cut Text.
+4 Copy=EDITING_COPY@IBConsole.hlp>Main;                       How To Copy Text
+4 Paste=EDITING_PASTE@IBConsole.hlp>Main;                       How To Paste Text
+4 Find=EDITING_FIND@IBConsole.hlp>Main;                       How to Find Text
+4 Select All=EDITING_SELECT_ALL@IBConsole.hlp>Main;                       How To Select All Text
+4 Clear Text=EDITING_CLEAR_TEXT@IBConsole.hlp>Main;                       How To Clear Text
+4 Preferences=GENERAL_PREFERENCES@IBConsole.hlp>Main;      System and ISQL preference settings
+3 Server Menu
+4 Register=SERVER_REGISTER@IBConsole.hlp>Main;                       Registering a server.
+4 Un-Register=SERVER_UNREGISTER@IBConsole.hlp>Main;                       Un-Registering a server.
+4 Login=SERVER_LOGIN@IBConsole.hlp>Main;                       Logging in to a server
+4 Logout=SERVER_LOGOUT@IBConsole.hlp>Main;                       Instruction to log out of a server.
+4 Diagnose Connection=FEATURES_DIAGNOSTICS@IBConsole.hlp>Main;                       How to diagnose DB Connections, SPX, TCP/IP and NetBeui
+4 Server Log=SERVER_SERVER_LOG@IBConsole.hlp>Main;                       
+4 Administration Log=SERVER_ADMINISTRATION_LOG@IBConsole.hlp>Main;                       
+4 User Security=SERVER_SECURITY@IBConsole.hlp>Main;                       Adding, Removing and Modifying users
+4 Add Certificates=CERTIFICATES_ADD@IBConsole.hlp
+4 Remove Certificate=CERTIFICATES_REMOVE@IBConsole.hlp
+4 Remove Backup File=BACKUP_CONFIGURATION_REMOVE@IBConsole.hlp>Main;                       Effects of removing a backup file.
+4 Backup File Properties=BACKUP_CONFIGURATION_PROPERTIES@IBConsole.hlp
+4 Properties=SERVER_PROPERTIES@IBConsole.hlp>Main;                       Short description of each displayed property.
+3 Database Menu
+4 Create=DATABASE_CREATE@IBConsole.hlp>Main;                       How To create a database.
+4 Drop=DATABASE_DROP@IBConsole.hlp>Main;                       How to Drop a database.l
+4 Register=DATABASE_REGISTER@IBConsole.hlp>Main;                       How to register a database.
+4 Un-Register=DATABASE_UNREGISTER@IBConsole.hlp>Main;                       How to un-register a database.
+4 Connect=DATABASE_CONNECT@IBConsole.hlp>Main;                       How to connect to a database.
+4 Disconnect=DATABASE_DISCONNECT@IBConsole.hlp>Main;                       Very short description of how to disconnect a database.
+4 Backup=DATABASE_BACKUP@IBConsole.hlp>Main;                       Initial stab at database backup.  .
+4 Restore=DATABASE_RESTORE@IBConsole.hlp>Main;                       .
+4 Properties=DATABASE_PROPERTIES@IBConsole.hlp>Main;                       .
+4 Maintenance
+5 Shutdown=DATABASE_SHUTDOWN@IBConsole.hlp>Main
+5 Restart=DATABASE_RESTART@IBConsole.hlp>Main
+5 Validation=DATABASE_VALIDATION@IBConsole.hlp>Main;                       
+5 Sweep=DATABASE_SWEEP@IBConsole.hlp>Main;           Full description entered.
+5 Transaction Recovery=TRANSACTIONS_RECOVERY@IBConsole.hlp>Main;                       .
+5 Statistics=DATABASE_STATISTICS@IBConsole.hlp>Main;                 Basically combined the three sections from Server Manager 5.0 and updated the contents.
+5 Current Activity=DATABASE_ACTIVITY@IBConsole.hlp>Main;                       Initial stab.  .
+3 Query Menu
+4 Load Script From File...=SCRIPTS_LOAD@IBConsole.hlp;                       Instructions on displaying and using dialog box. 
+4 Save Script To File...=SCRIPTS_SAVE@IBConsole.hlp>Main;                  Instructions on displaying and using save as dialog box.
+4 Execute Script=SCRIPTS_EXECUTE@IBConsole.hlp;                       Instructions.  Could use links to history list and committing.
+4 Previous Script=SCRIPTS_PREVIOUS@IBConsole.hlp;                       Instructions following description.
+4 Next Script=SCRIPTS_NEXT@IBConsole.hlp;                      Instructions following description.
+4 Save Output To File...=SCRIPTS_SAVE_RESULTS@IBConsole.hlp;                  Instructions on displaying and using save as dialog box.
+4 Commit Work=TRANSACTIONS_COMMIT@IBConsole.hlp>Main;                   Instructions following description
+4 Rollback Work=TRANSACTIONS_ROLLBACK@IBConsole.hlp>Main;                  Instructions following description
+3 View Menu
+4 Viewing Options=GENERAL_VIEW@IBConsole.hlp>Main;                   Each item has been described, but actual functionality is subject to change.
+4 Text Font=VIEW_FONT@IBConsole.hlp>Main;                   Short description and possible use provided.
+4 Refresh=VIEW_REFRESH@IBConsole.hlp>Main;                   Description and sample given on the need to refresh.
+4 Toolbars
+5 Standard Toolbar=TOOLBARS_STANDARD@IBConsole.hlp
+5 Server Toolbar=TOOLBARS_SERVER@IBConsole.hlp
+5 Edit Toolbar=TOOLBARS_EDIT@IBConsole.hlp
+5 Database Toolbar=TOOLBARS_DATABASE@IBConsole.hlp
+5 SQL Toolbar=TOOLBARS_ISQL@IBConsole.hlp
+1 Using IB Console
+2 Accessing Servers and Databases=HOW_TO_ACCESS_DATA@IBConsole.hlp
+2 Server Management
+3 Manage Server Certificates=SERVER_CERTIFICATES@IBConsole.hlp
+3 User Security
+4 Add a user=SECURITY_ADD_USER@IBConsole.hlp
+4 Delete a user=SECURITY_REMOVE_USER@IBConsole.hlp
+4 Change user information=SECURITY_MODIFY_USER@IBConsole.hlp
+3 Log files
+4 Administration Log=SERVER_ADMINISTRATION_LOG@IBConsole.hlp
+4 Server Log=SERVER_SERVER_LOG@IBConsole.hlp
+2 Database Management
+3 Backing up a database=DATABASE_BACKUP@IBConsole.hlp
+3 Restoring a database=DATABASE_RESTORE@IBConsole.hlp
+3 Creating a new database=DATABASE_CREATE@IBConsole.hlp
+3 Maintenance=DATABASE_SWEEP@IBConsole.hlp
+3 Checking for and repairing errors=DATABASE_VALIDATION@IBConsole.hlp
+2 SQL
+3 Viewing SQL Scripts=TABS_SQL_SCRIPT@IBConsole.hlp>Main
+3 Interactive SQL=TABS_ISQL@IBConsole.hlp>Main

@@ -1,0 +1,391 @@
+
+ Start         Length     Name                   Class
+ 0001:00000000 000026B0H .text                   CODE
+ 0002:00000000 00000054H .data                   DATA
+ 0002:00000054 00000075H .bss                    BSS
+
+
+Detailed map of segments
+
+ 0001:00000000 00000116 C=CODE     S=.text    G=(none)   M=System   ACBP=A9
+ 0001:00000118 000001EC C=CODE     S=.text    G=(none)   M=SysInit  ACBP=A9
+ 0001:00000304 00000046 C=CODE     S=.text    G=(none)   M=SysUtils ACBP=A9
+ 0001:0000034C 0000000E C=CODE     S=.text    G=(none)   M=SysConst ACBP=A9
+ 0001:0000035C 00000080 C=CODE     S=.text    G=(none)   M=Windows  ACBP=A9
+ 0001:000003DC 0000000E C=CODE     S=.text    G=(none)   M=Types    ACBP=A9
+ 0001:000003EC 00000016 C=CODE     S=.text    G=(none)   M=DesignIntf ACBP=A9
+ 0001:00000404 000000E6 C=CODE     S=.text    G=(none)   M=Controls ACBP=A9
+ 0001:000004EC 0000000E C=CODE     S=.text    G=(none)   M=ActnList ACBP=A9
+ 0001:000004FC 0000000E C=CODE     S=.text    G=(none)   M=Contnrs  ACBP=A9
+ 0001:0000050C 00000096 C=CODE     S=.text    G=(none)   M=Classes  ACBP=A9
+ 0001:000005A4 0000000E C=CODE     S=.text    G=(none)   M=ActiveX  ACBP=A9
+ 0001:000005B4 00000038 C=CODE     S=.text    G=(none)   M=Messages ACBP=A9
+ 0001:000005EC 0000000E C=CODE     S=.text    G=(none)   M=TypInfo  ACBP=A9
+ 0001:000005FC 0000000E C=CODE     S=.text    G=(none)   M=Variants ACBP=A9
+ 0001:0000060C 0000000E C=CODE     S=.text    G=(none)   M=VarUtils ACBP=A9
+ 0001:0000061C 0000000E C=CODE     S=.text    G=(none)   M=RTLConsts ACBP=A9
+ 0001:0000062C 0000000E C=CODE     S=.text    G=(none)   M=Math     ACBP=A9
+ 0001:0000063C 0000000E C=CODE     S=.text    G=(none)   M=ImgList  ACBP=A9
+ 0001:0000064C 00000038 C=CODE     S=.text    G=(none)   M=CommCtrl ACBP=A9
+ 0001:00000684 0000000E C=CODE     S=.text    G=(none)   M=Graphics ACBP=A9
+ 0001:00000694 0000000E C=CODE     S=.text    G=(none)   M=Consts   ACBP=A9
+ 0001:000006A4 0000012E C=CODE     S=.text    G=(none)   M=Forms    ACBP=A9
+ 0001:000007D4 0000000E C=CODE     S=.text    G=(none)   M=HelpIntfs ACBP=A9
+ 0001:000007E4 0000000E C=CODE     S=.text    G=(none)   M=MultiMon ACBP=A9
+ 0001:000007F4 00000038 C=CODE     S=.text    G=(none)   M=Imm      ACBP=A9
+ 0001:0000082C 0000000E C=CODE     S=.text    G=(none)   M=Menus    ACBP=A9
+ 0001:0000083C 0000000E C=CODE     S=.text    G=(none)   M=Themes   ACBP=A9
+ 0001:0000084C 0000000E C=CODE     S=.text    G=(none)   M=UxTheme  ACBP=A9
+ 0001:0000085C 0000000E C=CODE     S=.text    G=(none)   M=SyncObjs ACBP=A9
+ 0001:0000086C 0000000E C=CODE     S=.text    G=(none)   M=ComCtrls ACBP=A9
+ 0001:0000087C 00000038 C=CODE     S=.text    G=(none)   M=ShlObj   ACBP=A9
+ 0001:000008B4 00000038 C=CODE     S=.text    G=(none)   M=UrlMon   ACBP=A9
+ 0001:000008EC 00000038 C=CODE     S=.text    G=(none)   M=WinInet  ACBP=A9
+ 0001:00000924 00000038 C=CODE     S=.text    G=(none)   M=RegStr   ACBP=A9
+ 0001:0000095C 00000038 C=CODE     S=.text    G=(none)   M=ShellAPI ACBP=A9
+ 0001:00000994 0000000E C=CODE     S=.text    G=(none)   M=ListActns ACBP=A9
+ 0001:000009A4 0000000E C=CODE     S=.text    G=(none)   M=ExtCtrls ACBP=A9
+ 0001:000009B4 0000000E C=CODE     S=.text    G=(none)   M=StdCtrls ACBP=A9
+ 0001:000009C4 0000000E C=CODE     S=.text    G=(none)   M=WinHelpViewer ACBP=A9
+ 0001:000009D4 0000000E C=CODE     S=.text    G=(none)   M=StdActns ACBP=A9
+ 0001:000009E4 0000000E C=CODE     S=.text    G=(none)   M=Dialogs  ACBP=A9
+ 0001:000009F4 0000000E C=CODE     S=.text    G=(none)   M=Printers ACBP=A9
+ 0001:00000A04 00000038 C=CODE     S=.text    G=(none)   M=WinSpool ACBP=A9
+ 0001:00000A3C 00000038 C=CODE     S=.text    G=(none)   M=CommDlg  ACBP=A9
+ 0001:00000A74 00000038 C=CODE     S=.text    G=(none)   M=Dlgs     ACBP=A9
+ 0001:00000AAC 0000000E C=CODE     S=.text    G=(none)   M=StrUtils ACBP=A9
+ 0001:00000ABC 0000000E C=CODE     S=.text    G=(none)   M=Clipbrd  ACBP=A9
+ 0001:00000ACC 0000000E C=CODE     S=.text    G=(none)   M=FlatSB   ACBP=A9
+ 0001:00000ADC 0000000E C=CODE     S=.text    G=(none)   M=ToolWin  ACBP=A9
+ 0001:00000AEC 00000038 C=CODE     S=.text    G=(none)   M=RichEdit ACBP=A9
+ 0001:00000B24 0000000E C=CODE     S=.text    G=(none)   M=ExtActns ACBP=A9
+ 0001:00000B34 0000000E C=CODE     S=.text    G=(none)   M=Registry ACBP=A9
+ 0001:00000B44 0000000E C=CODE     S=.text    G=(none)   M=IniFiles ACBP=A9
+ 0001:00000B54 0000000E C=CODE     S=.text    G=(none)   M=ExtDlgs  ACBP=A9
+ 0001:00000B64 0000000E C=CODE     S=.text    G=(none)   M=Buttons  ACBP=A9
+ 0001:00000B74 0000000E C=CODE     S=.text    G=(none)   M=Mapi     ACBP=A9
+ 0001:00000B84 0000000E C=CODE     S=.text    G=(none)   M=ComStrs  ACBP=A9
+ 0001:00000B94 0000000E C=CODE     S=.text    G=(none)   M=DesignMenus ACBP=A9
+ 0001:00000BA4 0000009E C=CODE     S=.text    G=(none)   M=DesignEditors ACBP=A9
+ 0001:00000C44 0000000E C=CODE     S=.text    G=(none)   M=Proxies  ACBP=A9
+ 0001:00000C54 0000000E C=CODE     S=.text    G=(none)   M=DesignConst ACBP=A9
+ 0001:00000C64 0000001E C=CODE     S=.text    G=(none)   M=Grids    ACBP=A9
+ 0001:00000C84 0000000E C=CODE     S=.text    G=(none)   M=Mask     ACBP=A9
+ 0001:00000C94 0000000E C=CODE     S=.text    G=(none)   M=MaskUtils ACBP=A9
+ 0001:00000CA4 0000000E C=CODE     S=.text    G=(none)   M=DB       ACBP=A9
+ 0001:00000CB4 0000000E C=CODE     S=.text    G=(none)   M=FMTBcd   ACBP=A9
+ 0001:00000CC4 0000000E C=CODE     S=.text    G=(none)   M=DBConsts ACBP=A9
+ 0001:00000CD4 0000000E C=CODE     S=.text    G=(none)   M=SqlTimSt ACBP=A9
+ 0001:00000CE4 0000000E C=CODE     S=.text    G=(none)   M=DateUtils ACBP=A9
+ 0001:00000CF4 0000000E C=CODE     S=.text    G=(none)   M=ComObj   ACBP=A9
+ 0001:00000D04 0000000E C=CODE     S=.text    G=(none)   M=ComConst ACBP=A9
+ 0001:00000D14 00000016 C=CODE     S=.text    G=(none)   M=DBTables ACBP=A9
+ 0001:00000D2C 0000000E C=CODE     S=.text    G=(none)   M=SMINTF   ACBP=A9
+ 0001:00000D3C 00000016 C=CODE     S=.text    G=(none)   M=BDE      ACBP=A9
+ 0001:00000D54 0000000E C=CODE     S=.text    G=(none)   M=DBCommon ACBP=A9
+ 0001:00000D64 0000000E C=CODE     S=.text    G=(none)   M=bdeconst ACBP=A9
+ 0001:00000D74 000000BC C=CODE     S=.text    G=(none)   M=IBProc32 ACBP=A9
+ 0001:00000E30 00000080 C=CODE     S=.text    G=(none)   M=IBConst  ACBP=A9
+ 0001:00000EB0 00000F50 C=CODE     S=.text    G=(none)   M=IBCtrls  ACBP=A9
+ 0001:00001E00 000003DC C=CODE     S=.text    G=(none)   M=IBEvnts  ACBP=A9
+ 0001:000021DC 0000020C C=CODE     S=.text    G=(none)   M=IBReg    ACBP=A9
+ 0001:000023E8 000002C5 C=CODE     S=.text    G=(none)   M=Ibevnt   ACBP=A9
+ 0002:00000000 0000002C C=DATA     S=.data    G=DGROUP   M=SysInit  ACBP=A9
+ 0002:00001000 00000010 C=BSS      S=.bss     G=DGROUP   M=SysInit  ACBP=A9
+ 0002:00001010 00000004 C=BSS      S=.bss     G=DGROUP   M=Windows  ACBP=A9
+ 0002:00001014 00000004 C=BSS      S=.bss     G=DGROUP   M=Messages ACBP=A9
+ 0002:00001018 00000004 C=BSS      S=.bss     G=DGROUP   M=CommCtrl ACBP=A9
+ 0002:0000101C 00000004 C=BSS      S=.bss     G=DGROUP   M=Imm      ACBP=A9
+ 0002:00001020 00000004 C=BSS      S=.bss     G=DGROUP   M=ShlObj   ACBP=A9
+ 0002:00001024 00000004 C=BSS      S=.bss     G=DGROUP   M=UrlMon   ACBP=A9
+ 0002:00001028 00000004 C=BSS      S=.bss     G=DGROUP   M=WinInet  ACBP=A9
+ 0002:0000102C 00000004 C=BSS      S=.bss     G=DGROUP   M=RegStr   ACBP=A9
+ 0002:00001030 00000004 C=BSS      S=.bss     G=DGROUP   M=ShellAPI ACBP=A9
+ 0002:00001034 00000004 C=BSS      S=.bss     G=DGROUP   M=WinSpool ACBP=A9
+ 0002:00001038 00000004 C=BSS      S=.bss     G=DGROUP   M=CommDlg  ACBP=A9
+ 0002:0000103C 00000004 C=BSS      S=.bss     G=DGROUP   M=Dlgs     ACBP=A9
+ 0002:00001040 00000004 C=BSS      S=.bss     G=DGROUP   M=RichEdit ACBP=A9
+ 0002:00001044 00000004 C=BSS      S=.bss     G=DGROUP   M=IBProc32 ACBP=A9
+ 0002:00001048 00000004 C=BSS      S=.bss     G=DGROUP   M=IBConst  ACBP=A9
+ 0002:0000104C 0000001C C=BSS      S=.bss     G=DGROUP   M=IBCtrls  ACBP=A9
+ 0002:00001068 00000008 C=BSS      S=.bss     G=DGROUP   M=IBEvnts  ACBP=A9
+ 0002:00001070 00000004 C=BSS      S=.bss     G=DGROUP   M=IBReg    ACBP=A9
+
+
+  Address         Publics by Name
+
+ 0002:00001018       .1
+ 0002:0000101C       .1
+ 0002:00001048       .1
+ 0002:00001020       .1
+ 0002:00001030       .1
+ 0002:00001008       .1
+ 0002:00001038       .1
+ 0002:0000102C       .1
+ 0002:00001070       .1
+ 0002:00001028       .1
+ 0002:00001040       .1
+ 0002:0000103C       .1
+ 0002:00001024       .1
+ 0002:00001014       .1
+ 0002:0000106C       .2
+ 0002:00001044       .2
+ 0002:00001034       .3
+ 0002:00001010       .3
+ 0002:0000104C       .4
+ 0001:00002688       @GetPackageInfoTable
+ 0001:00000250       @InitPkg
+ 0001:00002690       @PackageLoad
+ 0001:000002B4       @PackageLoad
+ 0001:000002C0       @PackageUnload
+ 0001:0000269C       @PackageUnload
+ 0001:00000150       AllocTlsBuffer
+ 0001:0000035C       CloseHandle
+ 0001:0000067C       CommCtrl
+ 0001:00000A6C       CommDlg
+ 0001:00000364       CreateThread
+ 0001:0000036C       DeleteCriticalSection
+ 0001:00000AA4       Dlgs
+ 0001:00002000       EditAlerterEvents
+ 0001:00000374       EnterCriticalSection
+ 0001:000001FC       ExitProcessTLS
+ 0001:000001D4       ExitThreadTLS
+ 0001:000008B4       Finalization
+ 0001:00000AEC       Finalization
+ 0001:000003A4       Finalization
+ 0001:000005B4       Finalization
+ 0001:000023B0       Finalization
+ 0001:0000064C       Finalization
+ 0001:00000A3C       Finalization
+ 0001:000008EC       Finalization
+ 0001:000007F4       Finalization
+ 0001:00000A74       Finalization
+ 0001:00001DC8       Finalization
+ 0001:0000087C       Finalization
+ 0001:000021A4       Finalization
+ 0001:00000924       Finalization
+ 0001:00000DF8       Finalization
+ 0001:0000095C       Finalization
+ 0001:00000A04       Finalization
+ 0001:00000E78       Finalization
+ 0001:000002CC       Finalization
+ 0001:00000118       FreeLibrary
+ 0001:0000037C       FreeLibrary
+ 0001:00000384       GetProcAddress
+ 0001:0000015C       GetTlsSize
+ 0001:000013F0       HandleEvent
+ 0002:00001004       HInstance
+ 0001:00000EA8       IBConst
+ 0001:00001DF8       IBCtrls
+ 0002:00001068       IBEAEventsEditor
+ 0001:00001438       IBEventCallback
+ 0001:000026A8       Ibevnt
+ 0001:000021D4       IBEvnts
+ 0001:00000E28       IBProc32
+ 0001:000023E0       IBReg
+ 0001:00000824       Imm
+ 0001:0000038C       InitializeCriticalSection
+ 0001:00000220       InitializeModule
+ 0001:000001A8       InitProcessTLS
+ 0001:00000164       InitThreadTLS
+ 0002:00001060       IscCancelEvents
+ 0002:00001058       IscEventBlock
+ 0002:0000105C       IscEventCounts
+ 0002:00001054       IscFree
+ 0002:00001064       IscInterprete
+ 0002:00001050       IscQueEvents
+ 0001:00000394       LeaveCriticalSection
+ 0001:0000039C       LoadLibrary
+ 0001:00000120       LocalAlloc
+ 0001:00000128       LocalFree
+ 0001:000005E4       Messages
+ 0002:00000004       Module
+ 0002:00001000       ModuleIsLib
+ 0002:00001001       ModuleIsPackage
+ 0001:00002318       Register
+ 0001:00000954       RegStr
+ 0001:00000B1C       RichEdit
+ 0001:0000098C       ShellAPI
+ 0001:000008AC       ShlObj
+ 0001:000002FC       SysInit
+ 0001:000011D0       TIBComponent.GetNativeHandle
+ 0001:0000121C       TIBComponent.HandleIBErrors
+ 0001:0000130C       TIBComponent.IsInterbaseDatabase
+ 0001:0000135C       TIBComponent.SetDatabase
+ 0001:00001388       TIBComponent.ValidateDatabase
+ 0001:00002140       TIBEAEventsEditor.FormCreate
+ 0001:0000171C       TIBEventAlerter.CancelEvents
+ 0001:00001494       TIBEventAlerter.Create
+ 0001:000016BC       TIBEventAlerter.Destroy
+ 0001:000017E8       TIBEventAlerter.DoQueueEvents
+ 0001:0000184C       TIBEventAlerter.EventChange
+ 0001:000018CC       TIBEventAlerter.HandleEvent
+ 0001:00001A74       TIBEventAlerter.Loaded
+ 0001:00001AE4       TIBEventAlerter.Notification
+ 0001:00001B14       TIBEventAlerter.QueueEvents
+ 0001:00001BBC       TIBEventAlerter.RegisterEvents
+ 0001:00001CDC       TIBEventAlerter.SetDatabase
+ 0001:00001CCC       TIBEventAlerter.SetEvents
+ 0001:00001D0C       TIBEventAlerter.SetRegistered
+ 0001:00001D30       TIBEventAlerter.UnRegisterEvents
+ 0001:00001DA4       TIBEventAlerter.UpdateResultBuffer
+ 0001:000022AC       TIBEventListProperty.Edit
+ 0001:00002280       TIBEventListProperty.GetAttributes
+ 0001:00000130       TlsAlloc
+ 0002:0000100C       tlsBuffer
+ 0001:00000138       TlsFree
+ 0001:00000140       TlsGetValue
+ 0002:00000000       TlsIndex
+ 0002:BF70C000       TlsLast
+ 0002:0000001C       TlsProc
+ 0001:00000148       TlsSetValue
+ 0001:0000022C       UninitializeModule
+ 0001:000008E4       UrlMon
+ 0001:000003D4       Windows
+ 0001:0000091C       WinInet
+ 0001:00000A34       WinSpool
+
+
+  Address         Publics by Value
+
+ 0002:BF70C000       TlsLast
+ 0001:00000118       FreeLibrary
+ 0001:00000120       LocalAlloc
+ 0001:00000128       LocalFree
+ 0001:00000130       TlsAlloc
+ 0001:00000138       TlsFree
+ 0001:00000140       TlsGetValue
+ 0001:00000148       TlsSetValue
+ 0001:00000150       AllocTlsBuffer
+ 0001:0000015C       GetTlsSize
+ 0001:00000164       InitThreadTLS
+ 0001:000001A8       InitProcessTLS
+ 0001:000001D4       ExitThreadTLS
+ 0001:000001FC       ExitProcessTLS
+ 0001:00000220       InitializeModule
+ 0001:0000022C       UninitializeModule
+ 0001:00000250       @InitPkg
+ 0001:000002B4       @PackageLoad
+ 0001:000002C0       @PackageUnload
+ 0001:000002CC       Finalization
+ 0001:000002FC       SysInit
+ 0001:0000035C       CloseHandle
+ 0001:00000364       CreateThread
+ 0001:0000036C       DeleteCriticalSection
+ 0001:00000374       EnterCriticalSection
+ 0001:0000037C       FreeLibrary
+ 0001:00000384       GetProcAddress
+ 0001:0000038C       InitializeCriticalSection
+ 0001:00000394       LeaveCriticalSection
+ 0001:0000039C       LoadLibrary
+ 0001:000003A4       Finalization
+ 0001:000003D4       Windows
+ 0001:000005B4       Finalization
+ 0001:000005E4       Messages
+ 0001:0000064C       Finalization
+ 0001:0000067C       CommCtrl
+ 0001:000007F4       Finalization
+ 0001:00000824       Imm
+ 0001:0000087C       Finalization
+ 0001:000008AC       ShlObj
+ 0001:000008B4       Finalization
+ 0001:000008E4       UrlMon
+ 0001:000008EC       Finalization
+ 0001:0000091C       WinInet
+ 0001:00000924       Finalization
+ 0001:00000954       RegStr
+ 0001:0000095C       Finalization
+ 0001:0000098C       ShellAPI
+ 0001:00000A04       Finalization
+ 0001:00000A34       WinSpool
+ 0001:00000A3C       Finalization
+ 0001:00000A6C       CommDlg
+ 0001:00000A74       Finalization
+ 0001:00000AA4       Dlgs
+ 0001:00000AEC       Finalization
+ 0001:00000B1C       RichEdit
+ 0001:00000DF8       Finalization
+ 0001:00000E28       IBProc32
+ 0001:00000E78       Finalization
+ 0001:00000EA8       IBConst
+ 0001:000011D0       TIBComponent.GetNativeHandle
+ 0001:0000121C       TIBComponent.HandleIBErrors
+ 0001:0000130C       TIBComponent.IsInterbaseDatabase
+ 0001:0000135C       TIBComponent.SetDatabase
+ 0001:00001388       TIBComponent.ValidateDatabase
+ 0001:000013F0       HandleEvent
+ 0001:00001438       IBEventCallback
+ 0001:00001494       TIBEventAlerter.Create
+ 0001:000016BC       TIBEventAlerter.Destroy
+ 0001:0000171C       TIBEventAlerter.CancelEvents
+ 0001:000017E8       TIBEventAlerter.DoQueueEvents
+ 0001:0000184C       TIBEventAlerter.EventChange
+ 0001:000018CC       TIBEventAlerter.HandleEvent
+ 0001:00001A74       TIBEventAlerter.Loaded
+ 0001:00001AE4       TIBEventAlerter.Notification
+ 0001:00001B14       TIBEventAlerter.QueueEvents
+ 0001:00001BBC       TIBEventAlerter.RegisterEvents
+ 0001:00001CCC       TIBEventAlerter.SetEvents
+ 0001:00001CDC       TIBEventAlerter.SetDatabase
+ 0001:00001D0C       TIBEventAlerter.SetRegistered
+ 0001:00001D30       TIBEventAlerter.UnRegisterEvents
+ 0001:00001DA4       TIBEventAlerter.UpdateResultBuffer
+ 0001:00001DC8       Finalization
+ 0001:00001DF8       IBCtrls
+ 0001:00002000       EditAlerterEvents
+ 0001:00002140       TIBEAEventsEditor.FormCreate
+ 0001:000021A4       Finalization
+ 0001:000021D4       IBEvnts
+ 0001:00002280       TIBEventListProperty.GetAttributes
+ 0001:000022AC       TIBEventListProperty.Edit
+ 0001:00002318       Register
+ 0001:000023B0       Finalization
+ 0001:000023E0       IBReg
+ 0001:00002688       @GetPackageInfoTable
+ 0001:00002690       @PackageLoad
+ 0001:0000269C       @PackageUnload
+ 0001:000026A8       Ibevnt
+ 0002:00000000       TlsIndex
+ 0002:00000004       Module
+ 0002:0000001C       TlsProc
+ 0002:00001000       ModuleIsLib
+ 0002:00001001       ModuleIsPackage
+ 0002:00001004       HInstance
+ 0002:00001008       .1
+ 0002:0000100C       tlsBuffer
+ 0002:00001010       .3
+ 0002:00001014       .1
+ 0002:00001018       .1
+ 0002:0000101C       .1
+ 0002:00001020       .1
+ 0002:00001024       .1
+ 0002:00001028       .1
+ 0002:0000102C       .1
+ 0002:00001030       .1
+ 0002:00001034       .3
+ 0002:00001038       .1
+ 0002:0000103C       .1
+ 0002:00001040       .1
+ 0002:00001044       .2
+ 0002:00001048       .1
+ 0002:0000104C       .4
+ 0002:00001050       IscQueEvents
+ 0002:00001054       IscFree
+ 0002:00001058       IscEventBlock
+ 0002:0000105C       IscEventCounts
+ 0002:00001060       IscCancelEvents
+ 0002:00001064       IscInterprete
+ 0002:00001068       IBEAEventsEditor
+ 0002:0000106C       .2
+ 0002:00001070       .1
+
+
+Bound resource files
+
+Ibevnts.dfm
+ibevnt.res
+ibreg.dcr
+C:\DOCUME~1\~KOKOP~1\LOCALS~1\Temp\dtf2944.tmp
+
+
+Program entry point at 0001:000026A8

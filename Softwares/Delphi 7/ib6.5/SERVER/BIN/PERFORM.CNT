@@ -1,0 +1,29 @@
+:Base PERFORM.HLP
+:Title Performance Guidelines
+2 Performance Guidelines
+3 Overview=per_overview
+4 How the Optimizer Works=per_optomizer
+2 Index Performance
+3 Indices=per_indices
+4 Multiple Indices=per_multi_index
+2 Multi-Generational Architecture
+3 What is Multi-Generational Architecture=per_mga
+4 Garbage Collecting=per_garbage
+4 Sweeping=per_sweep
+4 Backup and Restore as Database Maintenance=per_backup
+2 Database Physical Properties
+3 Database Page Size=per_page_size
+3 Multi-File Databases=per_multi_file
+3 Database Shadows=per_shadow
+3 Database Statistics=per_serv_manager
+2 Changing Run-Time Properties
+3 Classic architecture=per_architecture
+3 Classic system configuration parameters=per_config_classic
+3 Superserver Architecture
+3 Introduction=per_superserver
+3 Cache size=per_cache_size
+3 Client Map Size=per_map
+3 Priority Class=per_priority
+3 Working Set=per_working
+4 Windows 95 Help Style Guide (Proposed)
+1	BORLAND CONFIDENTIAL	7/23/96

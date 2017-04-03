@@ -1,0 +1,563 @@
+
+ Start         Length     Name                   Class
+ 0001:00000000 00005FD4H .text                   CODE
+ 0002:00000000 000000A0H .data                   DATA
+ 0002:000000A0 00000055H .bss                    BSS
+
+
+Detailed map of segments
+
+ 0001:00000000 0000016E C=CODE     S=.text    G=(none)   M=System   ACBP=A9
+ 0001:00000170 000001EC C=CODE     S=.text    G=(none)   M=SysInit  ACBP=A9
+ 0001:0000035C 00000090 C=CODE     S=.text    G=(none)   M=MXDCONST ACBP=A9
+ 0001:000003EC 00000038 C=CODE     S=.text    G=(none)   M=Windows  ACBP=A9
+ 0001:00000424 0000000E C=CODE     S=.text    G=(none)   M=Types    ACBP=A9
+ 0001:00000434 00000038 C=CODE     S=.text    G=(none)   M=Messages ACBP=A9
+ 0001:0000046C 0000002E C=CODE     S=.text    G=(none)   M=SysUtils ACBP=A9
+ 0001:0000049C 0000000E C=CODE     S=.text    G=(none)   M=SysConst ACBP=A9
+ 0001:000004AC 0000005E C=CODE     S=.text    G=(none)   M=Classes  ACBP=A9
+ 0001:0000050C 0000000E C=CODE     S=.text    G=(none)   M=ActiveX  ACBP=A9
+ 0001:0000051C 0000000E C=CODE     S=.text    G=(none)   M=TypInfo  ACBP=A9
+ 0001:0000052C 0000000E C=CODE     S=.text    G=(none)   M=Variants ACBP=A9
+ 0001:0000053C 0000000E C=CODE     S=.text    G=(none)   M=VarUtils ACBP=A9
+ 0001:0000054C 0000000E C=CODE     S=.text    G=(none)   M=RTLConsts ACBP=A9
+ 0001:0000055C 00000116 C=CODE     S=.text    G=(none)   M=Controls ACBP=A9
+ 0001:00000674 0000000E C=CODE     S=.text    G=(none)   M=ActnList ACBP=A9
+ 0001:00000684 0000000E C=CODE     S=.text    G=(none)   M=Contnrs  ACBP=A9
+ 0001:00000694 0000000E C=CODE     S=.text    G=(none)   M=Math     ACBP=A9
+ 0001:000006A4 0000000E C=CODE     S=.text    G=(none)   M=ImgList  ACBP=A9
+ 0001:000006B4 00000038 C=CODE     S=.text    G=(none)   M=CommCtrl ACBP=A9
+ 0001:000006EC 0000000E C=CODE     S=.text    G=(none)   M=Graphics ACBP=A9
+ 0001:000006FC 0000000E C=CODE     S=.text    G=(none)   M=Consts   ACBP=A9
+ 0001:0000070C 0000014E C=CODE     S=.text    G=(none)   M=Forms    ACBP=A9
+ 0001:0000085C 0000000E C=CODE     S=.text    G=(none)   M=HelpIntfs ACBP=A9
+ 0001:0000086C 0000000E C=CODE     S=.text    G=(none)   M=MultiMon ACBP=A9
+ 0001:0000087C 00000038 C=CODE     S=.text    G=(none)   M=Imm      ACBP=A9
+ 0001:000008B4 0000000E C=CODE     S=.text    G=(none)   M=Menus    ACBP=A9
+ 0001:000008C4 0000000E C=CODE     S=.text    G=(none)   M=Themes   ACBP=A9
+ 0001:000008D4 0000000E C=CODE     S=.text    G=(none)   M=UxTheme  ACBP=A9
+ 0001:000008E4 0000000E C=CODE     S=.text    G=(none)   M=SyncObjs ACBP=A9
+ 0001:000008F4 00000016 C=CODE     S=.text    G=(none)   M=ComCtrls ACBP=A9
+ 0001:0000090C 00000038 C=CODE     S=.text    G=(none)   M=ShlObj   ACBP=A9
+ 0001:00000944 00000038 C=CODE     S=.text    G=(none)   M=UrlMon   ACBP=A9
+ 0001:0000097C 00000038 C=CODE     S=.text    G=(none)   M=WinInet  ACBP=A9
+ 0001:000009B4 00000038 C=CODE     S=.text    G=(none)   M=RegStr   ACBP=A9
+ 0001:000009EC 00000038 C=CODE     S=.text    G=(none)   M=ShellAPI ACBP=A9
+ 0001:00000A24 0000000E C=CODE     S=.text    G=(none)   M=ListActns ACBP=A9
+ 0001:00000A34 0000000E C=CODE     S=.text    G=(none)   M=ExtCtrls ACBP=A9
+ 0001:00000A44 0000001E C=CODE     S=.text    G=(none)   M=StdCtrls ACBP=A9
+ 0001:00000A64 0000000E C=CODE     S=.text    G=(none)   M=WinHelpViewer ACBP=A9
+ 0001:00000A74 0000000E C=CODE     S=.text    G=(none)   M=StdActns ACBP=A9
+ 0001:00000A84 0000001E C=CODE     S=.text    G=(none)   M=Dialogs  ACBP=A9
+ 0001:00000AA4 0000000E C=CODE     S=.text    G=(none)   M=Printers ACBP=A9
+ 0001:00000AB4 00000038 C=CODE     S=.text    G=(none)   M=WinSpool ACBP=A9
+ 0001:00000AEC 00000038 C=CODE     S=.text    G=(none)   M=CommDlg  ACBP=A9
+ 0001:00000B24 00000038 C=CODE     S=.text    G=(none)   M=Dlgs     ACBP=A9
+ 0001:00000B5C 0000000E C=CODE     S=.text    G=(none)   M=StrUtils ACBP=A9
+ 0001:00000B6C 0000000E C=CODE     S=.text    G=(none)   M=Clipbrd  ACBP=A9
+ 0001:00000B7C 0000000E C=CODE     S=.text    G=(none)   M=FlatSB   ACBP=A9
+ 0001:00000B8C 0000000E C=CODE     S=.text    G=(none)   M=ToolWin  ACBP=A9
+ 0001:00000B9C 00000038 C=CODE     S=.text    G=(none)   M=RichEdit ACBP=A9
+ 0001:00000BD4 0000000E C=CODE     S=.text    G=(none)   M=ExtActns ACBP=A9
+ 0001:00000BE4 0000000E C=CODE     S=.text    G=(none)   M=Registry ACBP=A9
+ 0001:00000BF4 0000000E C=CODE     S=.text    G=(none)   M=IniFiles ACBP=A9
+ 0001:00000C04 0000000E C=CODE     S=.text    G=(none)   M=ExtDlgs  ACBP=A9
+ 0001:00000C14 0000000E C=CODE     S=.text    G=(none)   M=Buttons  ACBP=A9
+ 0001:00000C24 0000000E C=CODE     S=.text    G=(none)   M=Mapi     ACBP=A9
+ 0001:00000C34 0000000E C=CODE     S=.text    G=(none)   M=ComStrs  ACBP=A9
+ 0001:00000C44 0000000E C=CODE     S=.text    G=(none)   M=DB       ACBP=A9
+ 0001:00000C54 0000000E C=CODE     S=.text    G=(none)   M=FMTBcd   ACBP=A9
+ 0001:00000C64 0000000E C=CODE     S=.text    G=(none)   M=DBConsts ACBP=A9
+ 0001:00000C74 0000000E C=CODE     S=.text    G=(none)   M=SqlTimSt ACBP=A9
+ 0001:00000C84 0000000E C=CODE     S=.text    G=(none)   M=DateUtils ACBP=A9
+ 0001:00000C94 0000000E C=CODE     S=.text    G=(none)   M=MaskUtils ACBP=A9
+ 0001:00000CA4 0000000E C=CODE     S=.text    G=(none)   M=ComObj   ACBP=A9
+ 0001:00000CB4 0000000E C=CODE     S=.text    G=(none)   M=ComConst ACBP=A9
+ 0001:00000CC4 0000000E C=CODE     S=.text    G=(none)   M=Grids    ACBP=A9
+ 0001:00000CD4 0000000E C=CODE     S=.text    G=(none)   M=Mask     ACBP=A9
+ 0001:00000CE4 0000000E C=CODE     S=.text    G=(none)   M=Mxconsts ACBP=A9
+ 0001:00000CF4 00000026 C=CODE     S=.text    G=(none)   M=MXGRID   ACBP=A9
+ 0001:00000D1C 00000066 C=CODE     S=.text    G=(none)   M=MXCOMMON ACBP=A9
+ 0001:00000D84 0000000E C=CODE     S=.text    G=(none)   M=Mxarrays ACBP=A9
+ 0001:00000D94 0000000E C=CODE     S=.text    G=(none)   M=BDE      ACBP=A9
+ 0001:00000DA4 0000000E C=CODE     S=.text    G=(none)   M=DBCommon ACBP=A9
+ 0001:00000DB4 00000046 C=CODE     S=.text    G=(none)   M=DBTables ACBP=A9
+ 0001:00000DFC 0000000E C=CODE     S=.text    G=(none)   M=SMINTF   ACBP=A9
+ 0001:00000E0C 0000000E C=CODE     S=.text    G=(none)   M=bdeconst ACBP=A9
+ 0001:00000E1C 0000001E C=CODE     S=.text    G=(none)   M=Mxstore  ACBP=A9
+ 0001:00000E3C 0000003E C=CODE     S=.text    G=(none)   M=MXTABLES ACBP=A9
+ 0001:00000E7C 0000000E C=CODE     S=.text    G=(none)   M=MXQEDCOM ACBP=A9
+ 0001:00000E8C 00000056 C=CODE     S=.text    G=(none)   M=MXQPARSE ACBP=A9
+ 0001:00000EE4 0000000E C=CODE     S=.text    G=(none)   M=MXPBAR   ACBP=A9
+ 0001:00000EF4 0000000E C=CODE     S=.text    G=(none)   M=MXBUTTON ACBP=A9
+ 0001:00000F04 00000026 C=CODE     S=.text    G=(none)   M=MXDB     ACBP=A9
+ 0001:00000F2C 00000016 C=CODE     S=.text    G=(none)   M=MXDCUBE  ACBP=A9
+ 0001:00000F44 00000026 C=CODE     S=.text    G=(none)   M=DesignIntf ACBP=A9
+ 0001:00000F6C 0000000E C=CODE     S=.text    G=(none)   M=DesignMenus ACBP=A9
+ 0001:00000F7C 000000AE C=CODE     S=.text    G=(none)   M=DesignEditors ACBP=A9
+ 0001:0000102C 0000000E C=CODE     S=.text    G=(none)   M=Proxies  ACBP=A9
+ 0001:0000103C 0000000E C=CODE     S=.text    G=(none)   M=DesignConst ACBP=A9
+ 0001:0000104C 00000056 C=CODE     S=.text    G=(none)   M=DesignWindows ACBP=A9
+ 0001:000010A4 0000000E C=CODE     S=.text    G=(none)   M=ComponentDesigner ACBP=A9
+ 0001:000010B4 0000000E C=CODE     S=.text    G=(none)   M=EditIntf ACBP=A9
+ 0001:000010C4 0000000E C=CODE     S=.text    G=(none)   M=VirtIntf ACBP=A9
+ 0001:000010D4 0000000E C=CODE     S=.text    G=(none)   M=Events   ACBP=A9
+ 0001:000010E4 0000000E C=CODE     S=.text    G=(none)   M=ToolUtils ACBP=A9
+ 0001:000010F4 0000000E C=CODE     S=.text    G=(none)   M=ToolsAPI ACBP=A9
+ 0001:00001104 0000000E C=CODE     S=.text    G=(none)   M=Update   ACBP=A9
+ 0001:00001114 0000000E C=CODE     S=.text    G=(none)   M=LibConst ACBP=A9
+ 0001:00001124 0000000E C=CODE     S=.text    G=(none)   M=Designer ACBP=A9
+ 0001:00001134 0000000E C=CODE     S=.text    G=(none)   M=StFilSys ACBP=A9
+ 0001:00001144 0000000E C=CODE     S=.text    G=(none)   M=IStreams ACBP=A9
+ 0001:00001154 0000000E C=CODE     S=.text    G=(none)   M=AxCtrls  ACBP=A9
+ 0001:00001164 0000000E C=CODE     S=.text    G=(none)   M=StdVCL   ACBP=A9
+ 0001:00001174 0000000E C=CODE     S=.text    G=(none)   M=TopLevels ACBP=A9
+ 0001:00001184 0000000E C=CODE     S=.text    G=(none)   M=TreeIntf ACBP=A9
+ 0001:00001194 0000000E C=CODE     S=.text    G=(none)   M=VCLEditors ACBP=A9
+ 0001:000011A4 000005D4 C=CODE     S=.text    G=(none)   M=MXDIMEDT ACBP=A9
+ 0001:00001778 00000026 C=CODE     S=.text    G=(none)   M=GqeDelph ACBP=A9
+ 0001:000017A0 00003550 C=CODE     S=.text    G=(none)   M=MXDSSQRY ACBP=A9
+ 0001:00004CF0 00000026 C=CODE     S=.text    G=(none)   M=chartreg ACBP=A9
+ 0001:00004D18 0000000E C=CODE     S=.text    G=(none)   M=TeCanvas ACBP=A9
+ 0001:00004D28 0000000E C=CODE     S=.text    G=(none)   M=Chart    ACBP=A9
+ 0001:00004D38 0000000E C=CODE     S=.text    G=(none)   M=TeeFunci ACBP=A9
+ 0001:00004D48 0000000E C=CODE     S=.text    G=(none)   M=TeEngine ACBP=A9
+ 0001:00004D58 0000000E C=CODE     S=.text    G=(none)   M=TeeProcs ACBP=A9
+ 0001:00004D68 0000000E C=CODE     S=.text    G=(none)   M=TeeConst ACBP=A9
+ 0001:00004D78 0000000E C=CODE     S=.text    G=(none)   M=PropertyCategories ACBP=A9
+ 0001:00004D88 0000000E C=CODE     S=.text    G=(none)   M=Masks    ACBP=A9
+ 0001:00004D98 0000000E C=CODE     S=.text    G=(none)   M=TeExport ACBP=A9
+ 0001:00004DA8 0000000E C=CODE     S=.text    G=(none)   M=ShapeEdi ACBP=A9
+ 0001:00004DB8 0000000E C=CODE     S=.text    G=(none)   M=TeeShape ACBP=A9
+ 0001:00004DC8 0000000E C=CODE     S=.text    G=(none)   M=Series   ACBP=A9
+ 0001:00004DD8 0000000E C=CODE     S=.text    G=(none)   M=BrushDlg ACBP=A9
+ 0001:00004DE8 0000000E C=CODE     S=.text    G=(none)   M=PenDlg   ACBP=A9
+ 0001:00004DF8 0000000E C=CODE     S=.text    G=(none)   M=GanttEdi ACBP=A9
+ 0001:00004E08 0000000E C=CODE     S=.text    G=(none)   M=GanttCh  ACBP=A9
+ 0001:00004E18 0000000E C=CODE     S=.text    G=(none)   M=TeePoEdi ACBP=A9
+ 0001:00004E28 0000000E C=CODE     S=.text    G=(none)   M=iEdiSeri ACBP=A9
+ 0001:00004E38 0000000E C=CODE     S=.text    G=(none)   M=iEdiPeri ACBP=A9
+ 0001:00004E48 0000000E C=CODE     S=.text    G=(none)   M=AxisIncr ACBP=A9
+ 0001:00004E58 0000000E C=CODE     S=.text    G=(none)   M=TeeLisB  ACBP=A9
+ 0001:00004E68 0000000E C=CODE     S=.text    G=(none)   M=TeeGally ACBP=A9
+ 0001:00004E78 0000000E C=CODE     S=.text    G=(none)   M=Arrowedi ACBP=A9
+ 0001:00004E88 0000000E C=CODE     S=.text    G=(none)   M=ArrowCha ACBP=A9
+ 0001:00004E98 0000000E C=CODE     S=.text    G=(none)   M=BubbleCh ACBP=A9
+ 0001:00004EA8 0000000E C=CODE     S=.text    G=(none)   M=FLineEdi ACBP=A9
+ 0001:00004EB8 0000000E C=CODE     S=.text    G=(none)   M=BarEdit  ACBP=A9
+ 0001:00004EC8 0000000E C=CODE     S=.text    G=(none)   M=Areaedit ACBP=A9
+ 0001:00004ED8 0000000E C=CODE     S=.text    G=(none)   M=PieEdit  ACBP=A9
+ 0001:00004EE8 0000000E C=CODE     S=.text    G=(none)   M=CustEdit ACBP=A9
+ 0001:00004EF8 0000000E C=CODE     S=.text    G=(none)   M=iEdiGene ACBP=A9
+ 0001:00004F08 0000000E C=CODE     S=.text    G=(none)   M=TeeStore ACBP=A9
+ 0001:00004F18 0000000E C=CODE     S=.text    G=(none)   M=TeePrevi ACBP=A9
+ 0001:00004F28 0000000E C=CODE     S=.text    G=(none)   M=iEditCha ACBP=A9
+ 0001:00004F38 0000000E C=CODE     S=.text    G=(none)   M=Axmaxmin ACBP=A9
+ 0001:00004F48 0000000E C=CODE     S=.text    G=(none)   M=iEdi3D   ACBP=A9
+ 0001:00004F58 0000000E C=CODE     S=.text    G=(none)   M=iEdiPage ACBP=A9
+ 0001:00004F68 0000000E C=CODE     S=.text    G=(none)   M=iEdiWall ACBP=A9
+ 0001:00004F78 0000000E C=CODE     S=.text    G=(none)   M=iEdiTitl ACBP=A9
+ 0001:00004F88 0000000E C=CODE     S=.text    G=(none)   M=iEdiPane ACBP=A9
+ 0001:00004F98 0000000E C=CODE     S=.text    G=(none)   M=iEdiLege ACBP=A9
+ 0001:00004FA8 0000000E C=CODE     S=.text    G=(none)   M=iEdiAxis ACBP=A9
+ 0001:00004FB8 0000000E C=CODE     S=.text    G=(none)   M=TeeAbout ACBP=A9
+ 0001:00004FC8 0000000E C=CODE     S=.text    G=(none)   M=DbEditCh ACBP=A9
+ 0001:00004FD8 0000000E C=CODE     S=.text    G=(none)   M=DbChart  ACBP=A9
+ 0001:00004FE8 00000016 C=CODE     S=.text    G=(none)   M=EditChar ACBP=A9
+ 0001:00005000 0000000E C=CODE     S=.text    G=(none)   M=MXPIVSRC ACBP=A9
+ 0001:00005010 0000000E C=CODE     S=.text    G=(none)   M=MXGRAPH  ACBP=A9
+ 0001:00005020 00000A7C C=CODE     S=.text    G=(none)   M=MXREG    ACBP=A9
+ 0001:00005A9C 00000535 C=CODE     S=.text    G=(none)   M=dcldss   ACBP=A9
+ 0002:00000000 0000002C C=DATA     S=.data    G=DGROUP   M=SysInit  ACBP=A9
+ 0002:00001000 00000010 C=BSS      S=.bss     G=DGROUP   M=SysInit  ACBP=A9
+ 0002:00001010 00000004 C=BSS      S=.bss     G=DGROUP   M=MXDCONST ACBP=A9
+ 0002:00001014 00000004 C=BSS      S=.bss     G=DGROUP   M=Windows  ACBP=A9
+ 0002:00001018 00000004 C=BSS      S=.bss     G=DGROUP   M=Messages ACBP=A9
+ 0002:0000101C 00000004 C=BSS      S=.bss     G=DGROUP   M=CommCtrl ACBP=A9
+ 0002:00001020 00000004 C=BSS      S=.bss     G=DGROUP   M=Imm      ACBP=A9
+ 0002:00001024 00000004 C=BSS      S=.bss     G=DGROUP   M=ShlObj   ACBP=A9
+ 0002:00001028 00000004 C=BSS      S=.bss     G=DGROUP   M=UrlMon   ACBP=A9
+ 0002:0000102C 00000004 C=BSS      S=.bss     G=DGROUP   M=WinInet  ACBP=A9
+ 0002:00001030 00000004 C=BSS      S=.bss     G=DGROUP   M=RegStr   ACBP=A9
+ 0002:00001034 00000004 C=BSS      S=.bss     G=DGROUP   M=ShellAPI ACBP=A9
+ 0002:00001038 00000004 C=BSS      S=.bss     G=DGROUP   M=WinSpool ACBP=A9
+ 0002:0000103C 00000004 C=BSS      S=.bss     G=DGROUP   M=CommDlg  ACBP=A9
+ 0002:00001040 00000004 C=BSS      S=.bss     G=DGROUP   M=Dlgs     ACBP=A9
+ 0002:00001044 00000004 C=BSS      S=.bss     G=DGROUP   M=RichEdit ACBP=A9
+ 0002:00001048 00000004 C=BSS      S=.bss     G=DGROUP   M=MXDIMEDT ACBP=A9
+ 0002:0000104C 00000004 C=BSS      S=.bss     G=DGROUP   M=MXDSSQRY ACBP=A9
+ 0002:00001050 00000004 C=BSS      S=.bss     G=DGROUP   M=MXREG    ACBP=A9
+
+
+  Address         Publics by Name
+
+ 0002:00001044       .1
+ 0002:00001008       .1
+ 0002:00001028       .1
+ 0002:00001010       .1
+ 0002:00001034       .1
+ 0002:00001024       .1
+ 0002:0000102C       .1
+ 0002:00001018       .1
+ 0002:00001020       .1
+ 0002:00001040       .1
+ 0002:00001030       .1
+ 0002:0000101C       .1
+ 0002:0000103C       .1
+ 0002:00001048       .2
+ 0002:00001050       .2
+ 0002:00001014       .3
+ 0002:00001038       .3
+ 0002:0000104C       .5
+ 0001:00005FAC       @GetPackageInfoTable
+ 0001:000002A8       @InitPkg
+ 0001:0000030C       @PackageLoad
+ 0001:00005FB4       @PackageLoad
+ 0001:00000318       @PackageUnload
+ 0001:00005FC0       @PackageUnload
+ 0001:000001A8       AllocTlsBuffer
+ 0001:00002114       CheckIfStringNull
+ 0001:000006E4       CommCtrl
+ 0001:00000B1C       CommDlg
+ 0001:00005FCC       dcldss
+ 0001:00000B54       Dlgs
+ 0001:00000254       ExitProcessTLS
+ 0001:0000022C       ExitThreadTLS
+ 0001:00000B24       Finalization
+ 0001:00000944       Finalization
+ 0001:0000090C       Finalization
+ 0001:0000087C       Finalization
+ 0001:000006B4       Finalization
+ 0001:0000097C       Finalization
+ 0001:00000434       Finalization
+ 0001:000003EC       Finalization
+ 0001:00000B9C       Finalization
+ 0001:00000324       Finalization
+ 0001:00001740       Finalization
+ 0001:000009B4       Finalization
+ 0001:00004CB8       Finalization
+ 0001:00005A64       Finalization
+ 0001:000009EC       Finalization
+ 0001:00000AEC       Finalization
+ 0001:00000AB4       Finalization
+ 0001:000003B4       Finalization
+ 0001:00000170       FreeLibrary
+ 0001:000001B4       GetTlsSize
+ 0002:00001004       HInstance
+ 0001:000008AC       Imm
+ 0001:00000278       InitializeModule
+ 0001:00000200       InitProcessTLS
+ 0001:000001BC       InitThreadTLS
+ 0001:00000178       LocalAlloc
+ 0001:00000180       LocalFree
+ 0001:00000464       Messages
+ 0002:00000004       Module
+ 0002:00001000       ModuleIsLib
+ 0002:00001001       ModuleIsPackage
+ 0001:000003E4       MXDCONST
+ 0001:00001770       MXDIMEDT
+ 0001:00004CE8       MXDSSQRY
+ 0001:00005A94       MXREG
+ 0001:00005888       Register
+ 0001:000009E4       RegStr
+ 0001:00000BCC       RichEdit
+ 0001:00000A1C       ShellAPI
+ 0001:0000093C       ShlObj
+ 0001:00001394       ShowDisplayDimEditor
+ 0001:00002048       ShowDSSQueryEditor
+ 0001:00000354       SysInit
+ 0001:00005348       TCubeEditor.ExecuteVerb
+ 0001:000053DC       TCubeEditor.GetVerb
+ 0001:00005404       TCubeEditor.GetVerbCount
+ 0001:0000566C       TDecisionGridDimsProperty.Edit
+ 0001:000055D0       TDecisionGridDimsProperty.GetAttributes
+ 0001:000055DC       TDecisionGridDimsProperty.GetValue
+ 0001:000014C0       TDimEditor.Activated
+ 0001:00001700       TDimEditor.DesignerClosed
+ 0001:00001738       TDimEditor.DimListBox1Click
+ 0001:000016F0       TDimEditor.ItemDeleted
+ 0001:00001724       TDimEditor.ItemsModified
+ 0001:000014D8       TDimEditor.UniqueName
+ 0001:000015BC       TDimEditor.UpdateList
+ 0001:000014FC       TDimEditor.UpdateSelection
+ 0001:0000576C       TDimensionMapProperty.Edit
+ 0001:00005734       TDimensionMapProperty.GetAttributes
+ 0001:00005740       TDimensionMapProperty.GetValue
+ 0001:00005140       TDQueryEditor.ExecuteVerb
+ 0001:000051A8       TDQueryEditor.GetVerb
+ 0001:000051C0       TDQueryEditor.GetVerbCount
+ 0001:00005454       TDSSChartCompEditor.Edit
+ 0001:0000306C       TDSSQueryEditor.ActiveDimListClick
+ 0001:000044CC       TDSSQueryEditor.ActiveDimListDragDrop
+ 0001:000044E4       TDSSQueryEditor.ActiveDimListDragOver
+ 0001:000045B4       TDSSQueryEditor.ActiveDimListKeyPress
+ 0001:000028E0       TDSSQueryEditor.AddAggClick
+ 0001:000026CC       TDSSQueryEditor.AddButtonClick
+ 0001:00003198       TDSSQueryEditor.AddCountStar
+ 0001:000033C4       TDSSQueryEditor.AddNewItem
+ 0001:00002930       TDSSQueryEditor.AddSummary
+ 0001:00004398       TDSSQueryEditor.average1Click
+ 0001:00003D24       TDSSQueryEditor.CancelQryModClick
+ 0001:00003624       TDSSQueryEditor.Count1Click
+ 0001:00004C88       TDSSQueryEditor.CountStarAvgClick
+ 0001:0000217C       TDSSQueryEditor.Create
+ 0001:00004990       TDSSQueryEditor.DatabaseComboChange
+ 0001:000049F4       TDSSQueryEditor.DatabaseComboExit
+ 0001:00004ACC       TDSSQueryEditor.DatabaseComboKeyDown
+ 0001:00004AE8       TDSSQueryEditor.DatabaseComboKeyPress
+ 0001:000021B4       TDSSQueryEditor.Destroy
+ 0001:00004028       TDSSQueryEditor.EditQryClick
+ 0001:00003004       TDSSQueryEditor.FieldListClick
+ 0001:00004184       TDSSQueryEditor.FieldListDblClick
+ 0001:00003164       TDSSQueryEditor.FieldListDisplay
+ 0001:00004534       TDSSQueryEditor.FieldListDragDrop
+ 0001:000044FC       TDSSQueryEditor.FieldListDragOver
+ 0001:00004580       TDSSQueryEditor.FieldListKeyPress
+ 0001:00004C74       TDSSQueryEditor.HelpButtonClick
+ 0001:00003128       TDSSQueryEditor.ListBoxUnSelect
+ 0001:0000362C       TDSSQueryEditor.OKButtonClick
+ 0001:000045DC       TDSSQueryEditor.PagerChanging
+ 0001:000039C8       TDSSQueryEditor.ProcessNewQuery
+ 0001:00003D5C       TDSSQueryEditor.ProcessNewQueryError
+ 0001:00002D54       TDSSQueryEditor.RemoveAggClick
+ 0001:00002B4C       TDSSQueryEditor.RemoveButtonClick
+ 0001:00003298       TDSSQueryEditor.RemoveCountStar
+ 0001:00004160       TDSSQueryEditor.SelectAllFieldsClick
+ 0001:0000478C       TDSSQueryEditor.SetDatabaseName
+ 0001:00003E48       TDSSQueryEditor.SetQueryEditState
+ 0001:00004630       TDSSQueryEditor.SetTableName
+ 0001:00003E2C       TDSSQueryEditor.ShowBoxChange
+ 0001:00004594       TDSSQueryEditor.ShowBoxKeyPress
+ 0001:0000222C       TDSSQueryEditor.SInitialize
+ 0001:0000361C       TDSSQueryEditor.Sum1Click
+ 0001:000030C4       TDSSQueryEditor.SummaryListClick
+ 0001:00004568       TDSSQueryEditor.SummaryListDragDrop
+ 0001:0000451C       TDSSQueryEditor.SummaryListDragOver
+ 0001:000045C8       TDSSQueryEditor.SummaryListKeyPress
+ 0001:00004BF0       TDSSQueryEditor.TableComboChange
+ 0001:00004B20       TDSSQueryEditor.TableComboExit
+ 0001:00004AFC       TDSSQueryEditor.TableComboKeyDown
+ 0001:00004B0C       TDSSQueryEditor.TableComboKeyPress
+ 0001:0000496C       TDSSQueryEditor.UpdateDataBaseList
+ 0001:00002530       TDSSQueryEditor.UpdateDimLists
+ 0001:0000244C       TDSSQueryEditor.UpdateFieldList
+ 0001:00002430       TDSSQueryEditor.UpdateLists
+ 0001:000026A0       TDSSQueryEditor.UpdateSQLBox
+ 0001:00004920       TDSSQueryEditor.UpdateTableList
+ 0001:00003C10       TDSSQueryEditor.UpdateTableName
+ 0001:000037C4       TDSSQueryEditor.VQBClick
+ 0001:000054D4       TGridEditor.ExecuteVerb
+ 0001:00005508       TGridEditor.GetVerb
+ 0001:00005520       TGridEditor.GetVerbCount
+ 0001:00000188       TlsAlloc
+ 0002:0000100C       tlsBuffer
+ 0001:00000190       TlsFree
+ 0001:00000198       TlsGetValue
+ 0002:00000000       TlsIndex
+ 0002:AFA69000       TlsLast
+ 0002:0000001C       TlsProc
+ 0001:000001A0       TlsSetValue
+ 0001:00005240       TSourceEditor.ExecuteVerb
+ 0001:00005284       TSourceEditor.GetVerb
+ 0001:000052CC       TSourceEditor.GetVerbCount
+ 0001:00005864       TSummaryMapProperty.Edit
+ 0001:0000582C       TSummaryMapProperty.GetAttributes
+ 0001:00005838       TSummaryMapProperty.GetValue
+ 0001:00000284       UninitializeModule
+ 0001:00000974       UrlMon
+ 0001:0000041C       Windows
+ 0001:000009AC       WinInet
+ 0001:00000AE4       WinSpool
+
+
+  Address         Publics by Value
+
+ 0002:AFA69000       TlsLast
+ 0001:00000170       FreeLibrary
+ 0001:00000178       LocalAlloc
+ 0001:00000180       LocalFree
+ 0001:00000188       TlsAlloc
+ 0001:00000190       TlsFree
+ 0001:00000198       TlsGetValue
+ 0001:000001A0       TlsSetValue
+ 0001:000001A8       AllocTlsBuffer
+ 0001:000001B4       GetTlsSize
+ 0001:000001BC       InitThreadTLS
+ 0001:00000200       InitProcessTLS
+ 0001:0000022C       ExitThreadTLS
+ 0001:00000254       ExitProcessTLS
+ 0001:00000278       InitializeModule
+ 0001:00000284       UninitializeModule
+ 0001:000002A8       @InitPkg
+ 0001:0000030C       @PackageLoad
+ 0001:00000318       @PackageUnload
+ 0001:00000324       Finalization
+ 0001:00000354       SysInit
+ 0001:000003B4       Finalization
+ 0001:000003E4       MXDCONST
+ 0001:000003EC       Finalization
+ 0001:0000041C       Windows
+ 0001:00000434       Finalization
+ 0001:00000464       Messages
+ 0001:000006B4       Finalization
+ 0001:000006E4       CommCtrl
+ 0001:0000087C       Finalization
+ 0001:000008AC       Imm
+ 0001:0000090C       Finalization
+ 0001:0000093C       ShlObj
+ 0001:00000944       Finalization
+ 0001:00000974       UrlMon
+ 0001:0000097C       Finalization
+ 0001:000009AC       WinInet
+ 0001:000009B4       Finalization
+ 0001:000009E4       RegStr
+ 0001:000009EC       Finalization
+ 0001:00000A1C       ShellAPI
+ 0001:00000AB4       Finalization
+ 0001:00000AE4       WinSpool
+ 0001:00000AEC       Finalization
+ 0001:00000B1C       CommDlg
+ 0001:00000B24       Finalization
+ 0001:00000B54       Dlgs
+ 0001:00000B9C       Finalization
+ 0001:00000BCC       RichEdit
+ 0001:00001394       ShowDisplayDimEditor
+ 0001:000014C0       TDimEditor.Activated
+ 0001:000014D8       TDimEditor.UniqueName
+ 0001:000014FC       TDimEditor.UpdateSelection
+ 0001:000015BC       TDimEditor.UpdateList
+ 0001:000016F0       TDimEditor.ItemDeleted
+ 0001:00001700       TDimEditor.DesignerClosed
+ 0001:00001724       TDimEditor.ItemsModified
+ 0001:00001738       TDimEditor.DimListBox1Click
+ 0001:00001740       Finalization
+ 0001:00001770       MXDIMEDT
+ 0001:00002048       ShowDSSQueryEditor
+ 0001:00002114       CheckIfStringNull
+ 0001:0000217C       TDSSQueryEditor.Create
+ 0001:000021B4       TDSSQueryEditor.Destroy
+ 0001:0000222C       TDSSQueryEditor.SInitialize
+ 0001:00002430       TDSSQueryEditor.UpdateLists
+ 0001:0000244C       TDSSQueryEditor.UpdateFieldList
+ 0001:00002530       TDSSQueryEditor.UpdateDimLists
+ 0001:000026A0       TDSSQueryEditor.UpdateSQLBox
+ 0001:000026CC       TDSSQueryEditor.AddButtonClick
+ 0001:000028E0       TDSSQueryEditor.AddAggClick
+ 0001:00002930       TDSSQueryEditor.AddSummary
+ 0001:00002B4C       TDSSQueryEditor.RemoveButtonClick
+ 0001:00002D54       TDSSQueryEditor.RemoveAggClick
+ 0001:00003004       TDSSQueryEditor.FieldListClick
+ 0001:0000306C       TDSSQueryEditor.ActiveDimListClick
+ 0001:000030C4       TDSSQueryEditor.SummaryListClick
+ 0001:00003128       TDSSQueryEditor.ListBoxUnSelect
+ 0001:00003164       TDSSQueryEditor.FieldListDisplay
+ 0001:00003198       TDSSQueryEditor.AddCountStar
+ 0001:00003298       TDSSQueryEditor.RemoveCountStar
+ 0001:000033C4       TDSSQueryEditor.AddNewItem
+ 0001:0000361C       TDSSQueryEditor.Sum1Click
+ 0001:00003624       TDSSQueryEditor.Count1Click
+ 0001:0000362C       TDSSQueryEditor.OKButtonClick
+ 0001:000037C4       TDSSQueryEditor.VQBClick
+ 0001:000039C8       TDSSQueryEditor.ProcessNewQuery
+ 0001:00003C10       TDSSQueryEditor.UpdateTableName
+ 0001:00003D24       TDSSQueryEditor.CancelQryModClick
+ 0001:00003D5C       TDSSQueryEditor.ProcessNewQueryError
+ 0001:00003E2C       TDSSQueryEditor.ShowBoxChange
+ 0001:00003E48       TDSSQueryEditor.SetQueryEditState
+ 0001:00004028       TDSSQueryEditor.EditQryClick
+ 0001:00004160       TDSSQueryEditor.SelectAllFieldsClick
+ 0001:00004184       TDSSQueryEditor.FieldListDblClick
+ 0001:00004398       TDSSQueryEditor.average1Click
+ 0001:000044CC       TDSSQueryEditor.ActiveDimListDragDrop
+ 0001:000044E4       TDSSQueryEditor.ActiveDimListDragOver
+ 0001:000044FC       TDSSQueryEditor.FieldListDragOver
+ 0001:0000451C       TDSSQueryEditor.SummaryListDragOver
+ 0001:00004534       TDSSQueryEditor.FieldListDragDrop
+ 0001:00004568       TDSSQueryEditor.SummaryListDragDrop
+ 0001:00004580       TDSSQueryEditor.FieldListKeyPress
+ 0001:00004594       TDSSQueryEditor.ShowBoxKeyPress
+ 0001:000045B4       TDSSQueryEditor.ActiveDimListKeyPress
+ 0001:000045C8       TDSSQueryEditor.SummaryListKeyPress
+ 0001:000045DC       TDSSQueryEditor.PagerChanging
+ 0001:00004630       TDSSQueryEditor.SetTableName
+ 0001:0000478C       TDSSQueryEditor.SetDatabaseName
+ 0001:00004920       TDSSQueryEditor.UpdateTableList
+ 0001:0000496C       TDSSQueryEditor.UpdateDataBaseList
+ 0001:00004990       TDSSQueryEditor.DatabaseComboChange
+ 0001:000049F4       TDSSQueryEditor.DatabaseComboExit
+ 0001:00004ACC       TDSSQueryEditor.DatabaseComboKeyDown
+ 0001:00004AE8       TDSSQueryEditor.DatabaseComboKeyPress
+ 0001:00004AFC       TDSSQueryEditor.TableComboKeyDown
+ 0001:00004B0C       TDSSQueryEditor.TableComboKeyPress
+ 0001:00004B20       TDSSQueryEditor.TableComboExit
+ 0001:00004BF0       TDSSQueryEditor.TableComboChange
+ 0001:00004C74       TDSSQueryEditor.HelpButtonClick
+ 0001:00004C88       TDSSQueryEditor.CountStarAvgClick
+ 0001:00004CB8       Finalization
+ 0001:00004CE8       MXDSSQRY
+ 0001:00005140       TDQueryEditor.ExecuteVerb
+ 0001:000051A8       TDQueryEditor.GetVerb
+ 0001:000051C0       TDQueryEditor.GetVerbCount
+ 0001:00005240       TSourceEditor.ExecuteVerb
+ 0001:00005284       TSourceEditor.GetVerb
+ 0001:000052CC       TSourceEditor.GetVerbCount
+ 0001:00005348       TCubeEditor.ExecuteVerb
+ 0001:000053DC       TCubeEditor.GetVerb
+ 0001:00005404       TCubeEditor.GetVerbCount
+ 0001:00005454       TDSSChartCompEditor.Edit
+ 0001:000054D4       TGridEditor.ExecuteVerb
+ 0001:00005508       TGridEditor.GetVerb
+ 0001:00005520       TGridEditor.GetVerbCount
+ 0001:000055D0       TDecisionGridDimsProperty.GetAttributes
+ 0001:000055DC       TDecisionGridDimsProperty.GetValue
+ 0001:0000566C       TDecisionGridDimsProperty.Edit
+ 0001:00005734       TDimensionMapProperty.GetAttributes
+ 0001:00005740       TDimensionMapProperty.GetValue
+ 0001:0000576C       TDimensionMapProperty.Edit
+ 0001:0000582C       TSummaryMapProperty.GetAttributes
+ 0001:00005838       TSummaryMapProperty.GetValue
+ 0001:00005864       TSummaryMapProperty.Edit
+ 0001:00005888       Register
+ 0001:00005A64       Finalization
+ 0001:00005A94       MXREG
+ 0001:00005FAC       @GetPackageInfoTable
+ 0001:00005FB4       @PackageLoad
+ 0001:00005FC0       @PackageUnload
+ 0001:00005FCC       dcldss
+ 0002:00000000       TlsIndex
+ 0002:00000004       Module
+ 0002:0000001C       TlsProc
+ 0002:00001000       ModuleIsLib
+ 0002:00001001       ModuleIsPackage
+ 0002:00001004       HInstance
+ 0002:00001008       .1
+ 0002:0000100C       tlsBuffer
+ 0002:00001010       .1
+ 0002:00001014       .3
+ 0002:00001018       .1
+ 0002:0000101C       .1
+ 0002:00001020       .1
+ 0002:00001024       .1
+ 0002:00001028       .1
+ 0002:0000102C       .1
+ 0002:00001030       .1
+ 0002:00001034       .1
+ 0002:00001038       .3
+ 0002:0000103C       .1
+ 0002:00001040       .1
+ 0002:00001044       .1
+ 0002:00001048       .2
+ 0002:0000104C       .5
+ 0002:00001050       .2
+
+
+Bound resource files
+
+MXDIMEDT.DFM
+MXDSSQRY.DFM
+dcldss.res
+mxreg.dcr
+C:\DOCUME~1\~KOKOP~1\LOCALS~1\Temp\dtf28CD.tmp
+
+
+Program entry point at 0001:00005FCC

@@ -1,0 +1,7 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Borland\Delphi\5.0\Version Control]
+"VCSManager"="C:\\Program Files\\Borland\\Delphi5\\Bin\\STDVCS32.DLL"
+"PublicPrjDir"="C:\\Program Files\\Borland\\Delphi5\\PVCS"
+"PrivatePrjDir"="C:\\Program Files\\Borland\\Delphi5\\PVCS"
+

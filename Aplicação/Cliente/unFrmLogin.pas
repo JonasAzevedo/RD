@@ -14,6 +14,7 @@ type
     edSenha: TEdit;
     bbCadastrarUsuario: TBitBtn;
     bbLogar: TBitBtn;
+    bbFechar: TBitBtn;
     procedure bbLogarClick(Sender: TObject);
     procedure bbFecharClick(Sender: TObject);
     procedure FormKeyPress(Sender: TObject; var Key: Char);
@@ -21,13 +22,14 @@ type
   private
     FbRealizouLogin: Boolean;
     FoUsuario: TUsuario;
+
     procedure RealizarLogin;
   protected
     procedure InicializarTela; override;
     procedure DestruirTela; override;
     procedure Limpar; override;
   public
-    property prpRealizouLogin: Boolean read FbRealizouLogin;  
+    property prpRealizouLogin: Boolean read FbRealizouLogin;
   end;
 
 implementation
@@ -48,9 +50,9 @@ end;
 
 procedure TfrmLogin.DestruirTela;
 begin
-  inherited;
   if Assigned(FoUsuario) then
     FreeAndNil(FoUsuario);
+  inherited;
 end;
 
 procedure TfrmLogin.Limpar;

@@ -1,0 +1,3 @@
+O que aconteceu é que o arquivo de registro se corrompeu, então vocês devem deletar o arquivo: registry.slm -, que está na pasta Borland, se não estiver lá procurem em C:Documents and Settings ou façam a pesquisa no computador pelo nome do arquivo acima.
+
+Após deletar o arquivo - registry.slm, dirijam-se à pasta Bin (no diretório onde o Delphi está instalado) e acionem o arquivo D7Reg.exe (se for Delphi7) que o registro será refeito.

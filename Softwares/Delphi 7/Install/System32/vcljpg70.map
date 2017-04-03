@@ -1,0 +1,505 @@
+
+ Start         Length     Name                   Class
+ 0001:00000000 00013C60H .text                   CODE
+ 0002:00000000 00000940H .data                   DATA
+ 0002:00000940 00000021H .bss                    BSS
+
+
+Detailed map of segments
+
+ 0001:00000000 00000136 C=CODE     S=.text    G=(none)   M=System   ACBP=A9
+ 0001:00000138 000001EC C=CODE     S=.text    G=(none)   M=SysInit  ACBP=A9
+ 0001:00000324 00000078 C=CODE     S=.text    G=(none)   M=Windows  ACBP=A9
+ 0001:0000039C 0000000E C=CODE     S=.text    G=(none)   M=Types    ACBP=A9
+ 0001:000003AC 0000001E C=CODE     S=.text    G=(none)   M=SysUtils ACBP=A9
+ 0001:000003CC 0000000E C=CODE     S=.text    G=(none)   M=SysConst ACBP=A9
+ 0001:000003DC 0000005E C=CODE     S=.text    G=(none)   M=Classes  ACBP=A9
+ 0001:0000043C 0000000E C=CODE     S=.text    G=(none)   M=ActiveX  ACBP=A9
+ 0001:0000044C 00000038 C=CODE     S=.text    G=(none)   M=Messages ACBP=A9
+ 0001:00000484 0000000E C=CODE     S=.text    G=(none)   M=TypInfo  ACBP=A9
+ 0001:00000494 0000000E C=CODE     S=.text    G=(none)   M=Variants ACBP=A9
+ 0001:000004A4 0000000E C=CODE     S=.text    G=(none)   M=VarUtils ACBP=A9
+ 0001:000004B4 0000000E C=CODE     S=.text    G=(none)   M=RTLConsts ACBP=A9
+ 0001:000004C4 000000A6 C=CODE     S=.text    G=(none)   M=Graphics ACBP=A9
+ 0001:0000056C 0000000E C=CODE     S=.text    G=(none)   M=Consts   ACBP=A9
+ 0001:0000057C 00000050 C=CODE     S=.text    G=(none)   M=JConsts  ACBP=A9
+ 0001:000005CC 000135D4 C=CODE     S=.text    G=(none)   M=jpeg     ACBP=A9
+ 0001:00013BA0 000000BD C=CODE     S=.text    G=(none)   M=vcljpg   ACBP=A9
+ 0002:00000000 0000002C C=DATA     S=.data    G=DGROUP   M=SysInit  ACBP=A9
+ 0002:0000002C 00000908 C=DATA     S=.data    G=DGROUP   M=jpeg     ACBP=A9
+ 0002:00001000 00000010 C=BSS      S=.bss     G=DGROUP   M=SysInit  ACBP=A9
+ 0002:00001010 00000004 C=BSS      S=.bss     G=DGROUP   M=Windows  ACBP=A9
+ 0002:00001014 00000004 C=BSS      S=.bss     G=DGROUP   M=Messages ACBP=A9
+ 0002:00001018 00000004 C=BSS      S=.bss     G=DGROUP   M=JConsts  ACBP=A9
+ 0002:0000101C 00000004 C=BSS      S=.bss     G=DGROUP   M=jpeg     ACBP=A9
+
+
+  Address         Publics by Name
+
+ 0001:0000E6E8       ..
+ 0002:000002D4       ..
+ 0001:0000EF10       ..
+ 0001:0000FA40       ..
+ 0001:00009E8C       ..
+ 0001:0000FB9C       ..
+ 0002:000004D4       ..
+ 0001:00009B98       ..
+ 0001:0000A15C       ..
+ 0001:00008B08       ..
+ 0001:000100D8       ..
+ 0001:0000D73C       ..
+ 0001:00008430       ..
+ 0001:0000D62C       ..
+ 0001:00007130       ..
+ 0002:000001C8       ..
+ 0001:000108DC       ..
+ 0001:000064E8       ..
+ 0001:00010F64       ..
+ 0001:00005F40       ..
+ 0001:0001188C       ..
+ 0001:00012E10       ..
+ 0001:00005954       ..
+ 0002:00000148       ..
+ 0002:00000874       ..
+ 0001:0000B6B0       ..
+ 0001:00004DC8       ..
+ 0002:000000C8       ..
+ 0001:000022D4       ..
+ 0001:00011DA4       ..
+ 0001:000040A0       ..
+ 0002:000000B8       ..
+ 0001:00003960       ..
+ 0001:0000349C       ..
+ 0001:00002F38       ..
+ 0002:00001014       .1
+ 0002:00001018       .1
+ 0002:00001008       .1
+ 0002:0000101C       .3
+ 0002:00001010       .3
+ 0001:00013C38       @GetPackageInfoTable
+ 0001:00000270       @InitPkg
+ 0001:0000D57C       @jcopy_block_row
+ 0001:0000D530       @jcopy_sample_rows
+ 0001:0000D508       @jdiv_round_up
+ 0001:0000709C       @jinit_1pass_quantizer
+ 0001:00008310       @jinit_2pass_quantizer
+ 0001:00010D18       @jinit_color_converter
+ 0001:0000631C       @jinit_color_deconverter
+ 0001:0000E63C       @jinit_compress_master
+ 0001:00010814       @jinit_c_coef_controller
+ 0001:0000FB18       @jinit_c_main_controller
+ 0001:0000F978       @jinit_c_master_control
+ 0001:00010030       @jinit_c_prep_controller
+ 0001:00011704       @jinit_downsampler
+ 0001:00009A84       @jinit_d_coef_controller
+ 0001:00008A28       @jinit_d_main_controller
+ 0001:00009DF8       @jinit_d_post_controller
+ 0001:00011D28       @jinit_forward_dct
+ 0001:00005914       @jinit_huff_decoder
+ 0001:00013A6C       @jinit_huff_encoder
+ 0001:00003454       @jinit_input_controller
+ 0001:0000A0E0       @jinit_inverse_dct
+ 0001:0000D3AC       @jinit_marker_reader
+ 0001:0000EEBC       @jinit_marker_writer
+ 0001:00004068       @jinit_master_decompress
+ 0001:00002E00       @jinit_memory_mgr
+ 0001:00005EC0       @jinit_merged_upsampler
+ 0001:00004D54       @jinit_phuff_decoder
+ 0001:00012834       @jinit_phuff_encoder
+ 0001:0000A640       @jinit_upsampler
+ 0001:0000D59C       @jpeg_abort
+ 0001:0000D614       @jpeg_alloc_huff_table
+ 0001:0000D5FC       @jpeg_alloc_quant_table
+ 0001:00012AE4       @jpeg_fdct_float
+ 0001:00012878       @jpeg_fdct_ifast
+ 0001:000051FC       @jpeg_fill_bit_buffer
+ 0001:00002F0C       @jpeg_free_large
+ 0001:00002EFC       @jpeg_free_small
+ 0001:000137B0       @jpeg_gen_optimal_table
+ 0001:00002F04       @jpeg_get_large
+ 0001:00002EF4       @jpeg_get_small
+ 0001:00005348       @jpeg_huff_decode
+ 0001:0000B674       @jpeg_idct_1x1
+ 0001:0000B484       @jpeg_idct_2x2
+ 0001:0000B0D0       @jpeg_idct_4x4
+ 0001:0000A858       @jpeg_idct_float
+ 0001:0000AC9C       @jpeg_idct_ifast
+ 0001:00012FA0       @jpeg_make_c_derived_tbl
+ 0001:00004F00       @jpeg_make_d_derived_tbl
+ 0001:00002F14       @jpeg_mem_available
+ 0001:00002F30       @jpeg_mem_init
+ 0001:00002F34       @jpeg_mem_term
+ 0001:00002F20       @jpeg_open_backing_store
+ 0001:0000D278       @jpeg_resync_to_restart
+ 0001:0000E400       @jpeg_suppress_tables
+ 0001:0000D518       @jround_up
+ 0001:0000D58C       @jzero_far
+ 0001:000002D4       @PackageLoad
+ 0001:00013C40       @PackageLoad
+ 0001:00013C4C       @PackageUnload
+ 0001:000002E0       @PackageUnload
+ 0001:00000170       AllocTlsBuffer
+ 0001:000013B0       BuildColorMap
+ 0001:00001308       BuildPalette
+ 0001:0000032C       CreateHalftonePalette
+ 0001:00000334       CreatePalette
+ 0001:0000033C       DeleteObject
+ 0001:00000990       EmitMessage
+ 0001:0000021C       ExitProcessTLS
+ 0001:000001F4       ExitThreadTLS
+ 0001:0000044C       Finalization
+ 0001:00000364       Finalization
+ 0001:00000594       Finalization
+ 0001:00013AB0       Finalization
+ 0001:000002EC       Finalization
+ 0001:00000998       FormatMessage
+ 0001:00000138       FreeLibrary
+ 0001:00000354       GetDC
+ 0001:00000344       GetDeviceCaps
+ 0001:0000034C       GetPaletteEntries
+ 0001:00000324       GetTickCount
+ 0001:0000017C       GetTlsSize
+ 0002:00001004       HInstance
+ 0001:00000C68       InitDecompressor
+ 0001:00001D9C       InitDefaults
+ 0001:00000240       InitializeModule
+ 0001:000001C8       InitProcessTLS
+ 0001:00000184       InitThreadTLS
+ 0001:00000904       InvalidOperation
+ 0001:000005C4       JConsts
+ 0001:00013AF0       jpeg
+ 0002:0000002C       JPEGDefaults
+ 0001:0000091C       JpegError
+ 0001:000039F0       jpeg_calc_output_dimensions
+ 0001:00002110       jpeg_consume_input
+ 0001:0000E328       jpeg_CreateCompress
+ 0001:00001DDC       jpeg_CreateDecompress
+ 0001:0000D5DC       jpeg_destroy
+ 0001:00001EAC       jpeg_destroy_decompress
+ 0001:0000E448       jpeg_finish_compress
+ 0001:00002224       jpeg_finish_decompress
+ 0001:000038D8       jpeg_finish_output
+ 0001:000021F0       jpeg_has_multiple_scans
+ 0001:000020A4       jpeg_read_header
+ 0001:0000373C       jpeg_read_scanlines
+ 0001:0000D420       jpeg_save_markers
+ 0001:0000DAC8       jpeg_set_colorspace
+ 0001:0000D954       jpeg_set_defaults
+ 0001:0000D858       jpeg_set_quality
+ 0001:0000DF30       jpeg_simple_progression
+ 0001:0000E148       jpeg_start_compress
+ 0001:000035B4       jpeg_start_decompress
+ 0001:00003878       jpeg_start_output
+ 0001:0000D6FC       jpeg_stdio_dest
+ 0001:00003548       jpeg_stdio_src
+ 0002:00000034       jpeg_std_error
+ 0001:0000E1BC       jpeg_write_scanlines
+ 0001:00000140       LocalAlloc
+ 0001:00000148       LocalFree
+ 0001:0000047C       Messages
+ 0002:00000004       Module
+ 0002:00001000       ModuleIsLib
+ 0002:00001001       ModuleIsPackage
+ 0001:00000994       OutputMessage
+ 0001:00000B50       ProgressCallback
+ 0001:00000C44       ReleaseContext
+ 0001:0000035C       ReleaseDC
+ 0001:0000099C       ResetErrorMgr
+ 0001:0000031C       SysInit
+ 0001:000009AC       TJPEGData.Destroy
+ 0001:000009DC       TJPEGData.FreeHandle
+ 0001:00000A98       TJPEGImage.Assign
+ 0001:00000B18       TJPEGImage.AssignTo
+ 0001:00000E74       TJPEGImage.CalcOutputDimensions
+ 0001:00000F00       TJPEGImage.Changed
+ 0001:00000F08       TJPEGImage.Compress
+ 0001:000009E0       TJPEGImage.Create
+ 0001:00000A54       TJPEGImage.Destroy
+ 0001:00001284       TJPEGImage.DIBNeeded
+ 0001:0000128C       TJPEGImage.Draw
+ 0001:000012AC       TJPEGImage.Equals
+ 0001:000012F4       TJPEGImage.FreeBitmap
+ 0001:00001438       TJPEGImage.GetBitmap
+ 0001:00001844       TJPEGImage.GetEmpty
+ 0001:00001870       TJPEGImage.GetGrayscale
+ 0001:000018F0       TJPEGImage.GetHeight
+ 0001:00001888       TJPEGImage.GetPalette
+ 0001:0000191C       TJPEGImage.GetWidth
+ 0001:00001948       TJPEGImage.JPEGNeeded
+ 0001:00001958       TJPEGImage.LoadFromClipboardFormat
+ 0001:00001978       TJPEGImage.LoadFromStream
+ 0001:0000199C       TJPEGImage.NewBitmap
+ 0001:000019B8       TJPEGImage.NewImage
+ 0001:000019E4       TJPEGImage.ReadData
+ 0001:00001A0C       TJPEGImage.ReadStream
+ 0001:00001B50       TJPEGImage.SaveToClipboardFormat
+ 0001:00001B7C       TJPEGImage.SaveToStream
+ 0001:00001BA4       TJPEGImage.SetGrayscale
+ 0001:00001BCC       TJPEGImage.SetHeight
+ 0001:00001C14       TJPEGImage.SetPalette
+ 0001:00001C6C       TJPEGImage.SetPerformance
+ 0001:00001C94       TJPEGImage.SetPixelFormat
+ 0001:00001CBC       TJPEGImage.SetScale
+ 0001:00001CE4       TJPEGImage.SetSmoothing
+ 0001:00001D08       TJPEGImage.SetWidth
+ 0001:00001D50       TJPEGImage.WriteData
+ 0001:00000150       TlsAlloc
+ 0002:0000100C       tlsBuffer
+ 0001:00000158       TlsFree
+ 0001:00000160       TlsGetValue
+ 0002:00000000       TlsIndex
+ 0002:BF7BB000       TlsLast
+ 0002:0000001C       TlsProc
+ 0001:00000168       TlsSetValue
+ 0001:0000024C       UninitializeModule
+ 0001:00013C58       vcljpg
+ 0001:00000394       Windows
+ 0001:00000890       _fflush
+ 0001:00000858       _fread
+ 0001:0000081C       _free
+ 0001:00000874       _fwrite
+ 0002:00000394       _jpeg_natural_order
+ 0001:0000080C       _malloc
+ 0001:00000844       _memcpy
+ 0001:0000082C       _memset
+ 0001:00000898       __ftol
+
+
+  Address         Publics by Value
+
+ 0002:BF7BB000       TlsLast
+ 0001:00000138       FreeLibrary
+ 0001:00000140       LocalAlloc
+ 0001:00000148       LocalFree
+ 0001:00000150       TlsAlloc
+ 0001:00000158       TlsFree
+ 0001:00000160       TlsGetValue
+ 0001:00000168       TlsSetValue
+ 0001:00000170       AllocTlsBuffer
+ 0001:0000017C       GetTlsSize
+ 0001:00000184       InitThreadTLS
+ 0001:000001C8       InitProcessTLS
+ 0001:000001F4       ExitThreadTLS
+ 0001:0000021C       ExitProcessTLS
+ 0001:00000240       InitializeModule
+ 0001:0000024C       UninitializeModule
+ 0001:00000270       @InitPkg
+ 0001:000002D4       @PackageLoad
+ 0001:000002E0       @PackageUnload
+ 0001:000002EC       Finalization
+ 0001:0000031C       SysInit
+ 0001:00000324       GetTickCount
+ 0001:0000032C       CreateHalftonePalette
+ 0001:00000334       CreatePalette
+ 0001:0000033C       DeleteObject
+ 0001:00000344       GetDeviceCaps
+ 0001:0000034C       GetPaletteEntries
+ 0001:00000354       GetDC
+ 0001:0000035C       ReleaseDC
+ 0001:00000364       Finalization
+ 0001:00000394       Windows
+ 0001:0000044C       Finalization
+ 0001:0000047C       Messages
+ 0001:00000594       Finalization
+ 0001:000005C4       JConsts
+ 0001:0000080C       _malloc
+ 0001:0000081C       _free
+ 0001:0000082C       _memset
+ 0001:00000844       _memcpy
+ 0001:00000858       _fread
+ 0001:00000874       _fwrite
+ 0001:00000890       _fflush
+ 0001:00000898       __ftol
+ 0001:00000904       InvalidOperation
+ 0001:0000091C       JpegError
+ 0001:00000990       EmitMessage
+ 0001:00000994       OutputMessage
+ 0001:00000998       FormatMessage
+ 0001:0000099C       ResetErrorMgr
+ 0001:000009AC       TJPEGData.Destroy
+ 0001:000009DC       TJPEGData.FreeHandle
+ 0001:000009E0       TJPEGImage.Create
+ 0001:00000A54       TJPEGImage.Destroy
+ 0001:00000A98       TJPEGImage.Assign
+ 0001:00000B18       TJPEGImage.AssignTo
+ 0001:00000B50       ProgressCallback
+ 0001:00000C44       ReleaseContext
+ 0001:00000C68       InitDecompressor
+ 0001:00000E74       TJPEGImage.CalcOutputDimensions
+ 0001:00000F00       TJPEGImage.Changed
+ 0001:00000F08       TJPEGImage.Compress
+ 0001:00001284       TJPEGImage.DIBNeeded
+ 0001:0000128C       TJPEGImage.Draw
+ 0001:000012AC       TJPEGImage.Equals
+ 0001:000012F4       TJPEGImage.FreeBitmap
+ 0001:00001308       BuildPalette
+ 0001:000013B0       BuildColorMap
+ 0001:00001438       TJPEGImage.GetBitmap
+ 0001:00001844       TJPEGImage.GetEmpty
+ 0001:00001870       TJPEGImage.GetGrayscale
+ 0001:00001888       TJPEGImage.GetPalette
+ 0001:000018F0       TJPEGImage.GetHeight
+ 0001:0000191C       TJPEGImage.GetWidth
+ 0001:00001948       TJPEGImage.JPEGNeeded
+ 0001:00001958       TJPEGImage.LoadFromClipboardFormat
+ 0001:00001978       TJPEGImage.LoadFromStream
+ 0001:0000199C       TJPEGImage.NewBitmap
+ 0001:000019B8       TJPEGImage.NewImage
+ 0001:000019E4       TJPEGImage.ReadData
+ 0001:00001A0C       TJPEGImage.ReadStream
+ 0001:00001B50       TJPEGImage.SaveToClipboardFormat
+ 0001:00001B7C       TJPEGImage.SaveToStream
+ 0001:00001BA4       TJPEGImage.SetGrayscale
+ 0001:00001BCC       TJPEGImage.SetHeight
+ 0001:00001C14       TJPEGImage.SetPalette
+ 0001:00001C6C       TJPEGImage.SetPerformance
+ 0001:00001C94       TJPEGImage.SetPixelFormat
+ 0001:00001CBC       TJPEGImage.SetScale
+ 0001:00001CE4       TJPEGImage.SetSmoothing
+ 0001:00001D08       TJPEGImage.SetWidth
+ 0001:00001D50       TJPEGImage.WriteData
+ 0001:00001D9C       InitDefaults
+ 0001:00001DDC       jpeg_CreateDecompress
+ 0001:00001EAC       jpeg_destroy_decompress
+ 0001:000020A4       jpeg_read_header
+ 0001:00002110       jpeg_consume_input
+ 0001:000021F0       jpeg_has_multiple_scans
+ 0001:00002224       jpeg_finish_decompress
+ 0001:000022D4       ..
+ 0001:00002E00       @jinit_memory_mgr
+ 0001:00002EF4       @jpeg_get_small
+ 0001:00002EFC       @jpeg_free_small
+ 0001:00002F04       @jpeg_get_large
+ 0001:00002F0C       @jpeg_free_large
+ 0001:00002F14       @jpeg_mem_available
+ 0001:00002F20       @jpeg_open_backing_store
+ 0001:00002F30       @jpeg_mem_init
+ 0001:00002F34       @jpeg_mem_term
+ 0001:00002F38       ..
+ 0001:00003454       @jinit_input_controller
+ 0001:0000349C       ..
+ 0001:00003548       jpeg_stdio_src
+ 0001:000035B4       jpeg_start_decompress
+ 0001:0000373C       jpeg_read_scanlines
+ 0001:00003878       jpeg_start_output
+ 0001:000038D8       jpeg_finish_output
+ 0001:00003960       ..
+ 0001:000039F0       jpeg_calc_output_dimensions
+ 0001:00004068       @jinit_master_decompress
+ 0001:000040A0       ..
+ 0001:00004D54       @jinit_phuff_decoder
+ 0001:00004DC8       ..
+ 0001:00004F00       @jpeg_make_d_derived_tbl
+ 0001:000051FC       @jpeg_fill_bit_buffer
+ 0001:00005348       @jpeg_huff_decode
+ 0001:00005914       @jinit_huff_decoder
+ 0001:00005954       ..
+ 0001:00005EC0       @jinit_merged_upsampler
+ 0001:00005F40       ..
+ 0001:0000631C       @jinit_color_deconverter
+ 0001:000064E8       ..
+ 0001:0000709C       @jinit_1pass_quantizer
+ 0001:00007130       ..
+ 0001:00008310       @jinit_2pass_quantizer
+ 0001:00008430       ..
+ 0001:00008A28       @jinit_d_main_controller
+ 0001:00008B08       ..
+ 0001:00009A84       @jinit_d_coef_controller
+ 0001:00009B98       ..
+ 0001:00009DF8       @jinit_d_post_controller
+ 0001:00009E8C       ..
+ 0001:0000A0E0       @jinit_inverse_dct
+ 0001:0000A15C       ..
+ 0001:0000A640       @jinit_upsampler
+ 0001:0000A858       @jpeg_idct_float
+ 0001:0000AC9C       @jpeg_idct_ifast
+ 0001:0000B0D0       @jpeg_idct_4x4
+ 0001:0000B484       @jpeg_idct_2x2
+ 0001:0000B674       @jpeg_idct_1x1
+ 0001:0000B6B0       ..
+ 0001:0000D278       @jpeg_resync_to_restart
+ 0001:0000D3AC       @jinit_marker_reader
+ 0001:0000D420       jpeg_save_markers
+ 0001:0000D508       @jdiv_round_up
+ 0001:0000D518       @jround_up
+ 0001:0000D530       @jcopy_sample_rows
+ 0001:0000D57C       @jcopy_block_row
+ 0001:0000D58C       @jzero_far
+ 0001:0000D59C       @jpeg_abort
+ 0001:0000D5DC       jpeg_destroy
+ 0001:0000D5FC       @jpeg_alloc_quant_table
+ 0001:0000D614       @jpeg_alloc_huff_table
+ 0001:0000D62C       ..
+ 0001:0000D6FC       jpeg_stdio_dest
+ 0001:0000D73C       ..
+ 0001:0000D858       jpeg_set_quality
+ 0001:0000D954       jpeg_set_defaults
+ 0001:0000DAC8       jpeg_set_colorspace
+ 0001:0000DF30       jpeg_simple_progression
+ 0001:0000E148       jpeg_start_compress
+ 0001:0000E1BC       jpeg_write_scanlines
+ 0001:0000E328       jpeg_CreateCompress
+ 0001:0000E400       @jpeg_suppress_tables
+ 0001:0000E448       jpeg_finish_compress
+ 0001:0000E63C       @jinit_compress_master
+ 0001:0000E6E8       ..
+ 0001:0000EEBC       @jinit_marker_writer
+ 0001:0000EF10       ..
+ 0001:0000F978       @jinit_c_master_control
+ 0001:0000FA40       ..
+ 0001:0000FB18       @jinit_c_main_controller
+ 0001:0000FB9C       ..
+ 0001:00010030       @jinit_c_prep_controller
+ 0001:000100D8       ..
+ 0001:00010814       @jinit_c_coef_controller
+ 0001:000108DC       ..
+ 0001:00010D18       @jinit_color_converter
+ 0001:00010F64       ..
+ 0001:00011704       @jinit_downsampler
+ 0001:0001188C       ..
+ 0001:00011D28       @jinit_forward_dct
+ 0001:00011DA4       ..
+ 0001:00012834       @jinit_phuff_encoder
+ 0001:00012878       @jpeg_fdct_ifast
+ 0001:00012AE4       @jpeg_fdct_float
+ 0001:00012E10       ..
+ 0001:00012FA0       @jpeg_make_c_derived_tbl
+ 0001:000137B0       @jpeg_gen_optimal_table
+ 0001:00013A6C       @jinit_huff_encoder
+ 0001:00013AB0       Finalization
+ 0001:00013AF0       jpeg
+ 0001:00013C38       @GetPackageInfoTable
+ 0001:00013C40       @PackageLoad
+ 0001:00013C4C       @PackageUnload
+ 0001:00013C58       vcljpg
+ 0002:00000000       TlsIndex
+ 0002:00000004       Module
+ 0002:0000001C       TlsProc
+ 0002:0000002C       JPEGDefaults
+ 0002:00000034       jpeg_std_error
+ 0002:000000B8       ..
+ 0002:000000C8       ..
+ 0002:00000148       ..
+ 0002:000001C8       ..
+ 0002:000002D4       ..
+ 0002:00000394       _jpeg_natural_order
+ 0002:000004D4       ..
+ 0002:00000874       ..
+ 0002:00001000       ModuleIsLib
+ 0002:00001001       ModuleIsPackage
+ 0002:00001004       HInstance
+ 0002:00001008       .1
+ 0002:0000100C       tlsBuffer
+ 0002:00001010       .3
+ 0002:00001014       .1
+ 0002:00001018       .1
+ 0002:0000101C       .3
+
+
+Bound resource files
+
+vcljpg.res
+C:\DOCUME~1\~KOKOP~1\LOCALS~1\Temp\dtf2758.tmp
+
+
+Program entry point at 0001:00013C58

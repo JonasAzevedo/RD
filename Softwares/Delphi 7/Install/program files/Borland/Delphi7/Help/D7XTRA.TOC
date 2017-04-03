@@ -1,0 +1,5 @@
+:Base d7xtra.hlp>main
+:Title Delphi Productivity Tools
+1 Delphi Productivity Tools
+2 Overview=BorlandToolsetOverview
+

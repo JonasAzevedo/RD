@@ -1,0 +1,26 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = BankAccount_CGI.exe BankAccount_Client.exe BankAccount_WAD.exe
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+BankAccount_CGI.exe: Server\BankAccount_CGI.dpr
+  $(DCC)
+
+BankAccount_Client.exe: Client\BankAccount_Client.dpr
+  $(DCC)
+
+BankAccount_WAD.exe: Server\BankAccount_WAD.dpr
+  $(DCC)
+
+

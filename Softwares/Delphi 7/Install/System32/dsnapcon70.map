@@ -1,0 +1,756 @@
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000C850H .text                   CODE
+ 0002:00000000 000000B0H .data                   DATA
+ 0002:000000B0 0000004DH .bss                    BSS
+
+
+Detailed map of segments
+
+ 0001:00000000 00000296 C=CODE     S=.text    G=(none)   M=System   ACBP=A9
+ 0001:00000298 000001EC C=CODE     S=.text    G=(none)   M=SysInit  ACBP=A9
+ 0001:00000484 0000010E C=CODE     S=.text    G=(none)   M=Variants ACBP=A9
+ 0001:00000594 00000096 C=CODE     S=.text    G=(none)   M=SysUtils ACBP=A9
+ 0001:0000062C 0000000E C=CODE     S=.text    G=(none)   M=SysConst ACBP=A9
+ 0001:0000063C 000000E8 C=CODE     S=.text    G=(none)   M=Windows  ACBP=A9
+ 0001:00000724 0000000E C=CODE     S=.text    G=(none)   M=Types    ACBP=A9
+ 0001:00000734 00000016 C=CODE     S=.text    G=(none)   M=VarUtils ACBP=A9
+ 0001:0000074C 0000023E C=CODE     S=.text    G=(none)   M=Classes  ACBP=A9
+ 0001:0000098C 0000007E C=CODE     S=.text    G=(none)   M=ActiveX  ACBP=A9
+ 0001:00000A0C 00000038 C=CODE     S=.text    G=(none)   M=Messages ACBP=A9
+ 0001:00000A44 0000000E C=CODE     S=.text    G=(none)   M=TypInfo  ACBP=A9
+ 0001:00000A54 0000000E C=CODE     S=.text    G=(none)   M=RTLConsts ACBP=A9
+ 0001:00000A64 0000000E C=CODE     S=.text    G=(none)   M=Midas    ACBP=A9
+ 0001:00000A74 00000056 C=CODE     S=.text    G=(none)   M=DB       ACBP=A9
+ 0001:00000ACC 0000000E C=CODE     S=.text    G=(none)   M=FMTBcd   ACBP=A9
+ 0001:00000ADC 0000000E C=CODE     S=.text    G=(none)   M=Math     ACBP=A9
+ 0001:00000AEC 0000000E C=CODE     S=.text    G=(none)   M=DBConsts ACBP=A9
+ 0001:00000AFC 0000000E C=CODE     S=.text    G=(none)   M=SqlTimSt ACBP=A9
+ 0001:00000B0C 0000000E C=CODE     S=.text    G=(none)   M=DateUtils ACBP=A9
+ 0001:00000B1C 0000000E C=CODE     S=.text    G=(none)   M=MaskUtils ACBP=A9
+ 0001:00000B2C 000000A6 C=CODE     S=.text    G=(none)   M=ComObj   ACBP=A9
+ 0001:00000BD4 0000000E C=CODE     S=.text    G=(none)   M=ComConst ACBP=A9
+ 0001:00000BE4 00000036 C=CODE     S=.text    G=(none)   M=DBClient ACBP=A9
+ 0001:00000C1C 0000000E C=CODE     S=.text    G=(none)   M=DBCommon ACBP=A9
+ 0001:00000C2C 0000000E C=CODE     S=.text    G=(none)   M=DSIntf   ACBP=A9
+ 0001:00000C3C 0000000E C=CODE     S=.text    G=(none)   M=MidConst ACBP=A9
+ 0001:00000C4C 0000003E C=CODE     S=.text    G=(none)   M=Provider ACBP=A9
+ 0001:00000C8C 00000086 C=CODE     S=.text    G=(none)   M=DataBkr  ACBP=A9
+ 0001:00000D14 00000066 C=CODE     S=.text    G=(none)   M=Registry ACBP=A9
+ 0001:00000D7C 0000000E C=CODE     S=.text    G=(none)   M=IniFiles ACBP=A9
+ 0001:00000D8C 00002D10 C=CODE     S=.text    G=(none)   M=MConnect ACBP=A9
+ 0001:00003A9C 00000A48 C=CODE     S=.text    G=(none)   M=TConnect ACBP=A9
+ 0001:000044E4 00000056 C=CODE     S=.text    G=(none)   M=ScktComp ACBP=A9
+ 0001:0000453C 0000000E C=CODE     S=.text    G=(none)   M=SyncObjs ACBP=A9
+ 0001:0000454C 00000060 C=CODE     S=.text    G=(none)   M=WinSock  ACBP=A9
+ 0001:000045AC 00000090 C=CODE     S=.text    G=(none)   M=WinInet  ACBP=A9
+ 0001:0000463C 00006678 C=CODE     S=.text    G=(none)   M=SConnect ACBP=A9
+ 0001:0000ACB4 00000600 C=CODE     S=.text    G=(none)   M=MidasCon ACBP=A9
+ 0001:0000B2B4 00000016 C=CODE     S=.text    G=(none)   M=Mtx      ACBP=A9
+ 0001:0000B2CC 00000998 C=CODE     S=.text    G=(none)   M=MtsRdm   ACBP=A9
+ 0001:0000BC64 00000A64 C=CODE     S=.text    G=(none)   M=ObjBrkr  ACBP=A9
+ 0001:0000C6C8 00000185 C=CODE     S=.text    G=(none)   M=dsnapcon ACBP=A9
+ 0002:00000000 0000002C C=DATA     S=.data    G=DGROUP   M=SysInit  ACBP=A9
+ 0002:0000002C 0000002C C=DATA     S=.data    G=DGROUP   M=SConnect ACBP=A9
+ 0002:00001000 00000010 C=BSS      S=.bss     G=DGROUP   M=SysInit  ACBP=A9
+ 0002:00001010 00000004 C=BSS      S=.bss     G=DGROUP   M=Windows  ACBP=A9
+ 0002:00001014 00000004 C=BSS      S=.bss     G=DGROUP   M=Messages ACBP=A9
+ 0002:00001018 00000004 C=BSS      S=.bss     G=DGROUP   M=MConnect ACBP=A9
+ 0002:0000101C 00000004 C=BSS      S=.bss     G=DGROUP   M=TConnect ACBP=A9
+ 0002:00001020 00000004 C=BSS      S=.bss     G=DGROUP   M=WinSock  ACBP=A9
+ 0002:00001024 00000004 C=BSS      S=.bss     G=DGROUP   M=WinInet  ACBP=A9
+ 0002:00001028 00000018 C=BSS      S=.bss     G=DGROUP   M=SConnect ACBP=A9
+ 0002:00001040 00000004 C=BSS      S=.bss     G=DGROUP   M=MidasCon ACBP=A9
+ 0002:00001044 00000004 C=BSS      S=.bss     G=DGROUP   M=MtsRdm   ACBP=A9
+ 0002:00001048 00000004 C=BSS      S=.bss     G=DGROUP   M=ObjBrkr  ACBP=A9
+
+
+  Address         Publics by Name
+
+ 0002:00001008       .1
+ 0002:00001014       .1
+ 0002:00001024       .1
+ 0002:00001020       .1
+ 0002:00001044       .2
+ 0002:0000101C       .2
+ 0002:00001010       .3
+ 0002:00001040       .3
+ 0002:00001038       .31
+ 0002:00001048       .5
+ 0002:00001018       .8
+ 0001:0000C828       @GetPackageInfoTable
+ 0001:000003D0       @InitPkg
+ 0001:0000C830       @PackageLoad
+ 0001:00000434       @PackageLoad
+ 0001:00000440       @PackageUnload
+ 0001:0000C83C       @PackageUnload
+ 0001:000002D0       AllocTlsBuffer
+ 0001:0000563C       CheckSignature
+ 0001:00000664       CloseHandle
+ 0001:00005AA4       CloseRegKey
+ 0001:0000066C       CreateSemaphore
+ 0001:000006B4       DispatchMessage
+ 0001:0000C848       dsnapcon
+ 0001:00005A00       EnumRegKey
+ 0001:0000037C       ExitProcessTLS
+ 0001:00000354       ExitThreadTLS
+ 0001:0000454C       FD_SET
+ 0001:0000455C       FD_ZERO
+ 0001:00003A64       Finalization
+ 0001:000006EC       Finalization
+ 0001:0000AC74       Finalization
+ 0001:0000044C       Finalization
+ 0001:0000B27C       Finalization
+ 0001:00004604       Finalization
+ 0001:00004574       Finalization
+ 0001:0000BC2C       Finalization
+ 0001:0000C690       Finalization
+ 0001:000044AC       Finalization
+ 0001:00000A0C       Finalization
+ 0001:00000674       FormatMessage
+ 0001:00000298       FreeLibrary
+ 0001:0000067C       FreeLibrary
+ 0001:00005998       FreeWinSock2
+ 0001:00005AAC       GetDataBrokerList
+ 0001:000006BC       GetDesktopWindow
+ 0001:00000684       GetLastError
+ 0001:000006C4       GetMessage
+ 0001:00001854       GetMIDASAppServerList
+ 0001:0000068C       GetModuleHandle
+ 0001:0000573C       GetPacketInterceptorList
+ 0001:00000694       GetProcAddress
+ 0001:000002DC       GetTlsSize
+ 0002:00001004       HInstance
+ 0001:000045AC       HttpOpenRequest
+ 0001:000045B4       HttpQueryInfo
+ 0001:000045BC       HttpSendRequest
+ 0002:0000103C       hWinSock2
+ 0001:0000AF8C       InitConnection
+ 0001:000003A0       InitializeModule
+ 0001:00000328       InitProcessTLS
+ 0001:000002E4       InitThreadTLS
+ 0001:000045FC       InternetAttemptConnect
+ 0001:000045C4       InternetCloseHandle
+ 0001:000045CC       InternetConnect
+ 0001:000045D4       InternetCrackUrl
+ 0001:000045DC       InternetErrorDlg
+ 0001:000045E4       InternetOpen
+ 0001:000045EC       InternetQueryDataAvailable
+ 0001:000045F4       InternetReadFile
+ 0001:0000069C       LoadLibrary
+ 0001:0000566C       LoadWinSock2
+ 0001:000002A0       LocalAlloc
+ 0001:000002A8       LocalFree
+ 0002:00000054       MaxStatusText
+ 0001:00003A94       MConnect
+ 0001:00000A3C       Messages
+ 0001:0000B2AC       MidasCon
+ 0002:00000004       Module
+ 0002:00001000       ModuleIsLib
+ 0002:00001001       ModuleIsPackage
+ 0001:000006CC       MsgWaitForMultipleObjects
+ 0001:0000BC5C       MtsRdm
+ 0001:0000C6C0       ObjBrkr
+ 0001:000059D0       OpenRegKey
+ 0001:000006D4       PeekMessage
+ 0001:000006DC       PostMessage
+ 0001:000006E4       PostThreadMessage
+ 0001:00005A4C       QueryRegKey
+ 0001:0000063C       RegCloseKey
+ 0001:00000644       RegEnumKey
+ 0001:0000064C       RegOpenKey
+ 0001:00000654       RegQueryValue
+ 0001:0000065C       RegQueryValueEx
+ 0001:000006A4       ReleaseSemaphore
+ 0001:0000ACAC       SConnect
+ 0001:00004564       select
+ 0001:00008708       SynchronizeException
+ 0001:0000047C       SysInit
+ 0001:0000275C       TCOMConnection.DoConnect
+ 0001:000026E4       TCOMConnection.SetConnected
+ 0001:000044DC       TConnect
+ 0001:00005EC4       TDataBlock.Clear
+ 0001:00005D04       TDataBlock.Create
+ 0001:00005D54       TDataBlock.Destroy
+ 0001:00005D88       TDataBlock.GetBytesReserved
+ 0001:00005D94       TDataBlock.GetMemory
+ 0001:00005E6C       TDataBlock.GetSignature
+ 0001:00005DDC       TDataBlock.GetSize
+ 0001:00005E1C       TDataBlock.GetStream
+ 0001:00005F6C       TDataBlock.IgnoreStream
+ 0001:00005F7C       TDataBlock.InitData
+ 0001:00005F30       TDataBlock.Read
+ 0001:00005E9C       TDataBlock.SetSignature
+ 0001:00005DFC       TDataBlock.SetSize
+ 0001:00005EF4       TDataBlock.Write
+ 0001:0000612C       TDataBlockInterpreter.AddDispatch
+ 0001:0000728C       TDataBlockInterpreter.CallCreateObject
+ 0001:00007380       TDataBlockInterpreter.CallFreeObject
+ 0001:00007440       TDataBlockInterpreter.CallGetIDsOfNames
+ 0001:000071D4       TDataBlockInterpreter.CallGetServerList
+ 0001:000075AC       TDataBlockInterpreter.CallInvoke
+ 0001:00006B58       TDataBlockInterpreter.CanCreateObject
+ 0001:00006194       TDataBlockInterpreter.CopyDataByRef
+ 0001:0000602C       TDataBlockInterpreter.Create
+ 0001:00006CA8       TDataBlockInterpreter.CreateObject
+ 0001:000060D4       TDataBlockInterpreter.Destroy
+ 0001:00007DE8       TDataBlockInterpreter.DoCreateObject
+ 0001:0000852C       TDataBlockInterpreter.DoCustomAction
+ 0001:00007A5C       TDataBlockInterpreter.DoException
+ 0001:00007EE0       TDataBlockInterpreter.DoFreeObject
+ 0001:00007AD8       TDataBlockInterpreter.DoGetAppServerList
+ 0001:00007F68       TDataBlockInterpreter.DoGetIDsOfNames
+ 0001:00007C60       TDataBlockInterpreter.DoGetServerList
+ 0001:000080D4       TDataBlockInterpreter.DoInvoke
+ 0001:00006158       TDataBlockInterpreter.GetVariantPointer
+ 0001:00006C08       TDataBlockInterpreter.InternalCreateObject
+ 0001:000078A4       TDataBlockInterpreter.InterpretData
+ 0001:00006E54       TDataBlockInterpreter.LockObject
+ 0001:000062E4       TDataBlockInterpreter.ReadArray
+ 0001:00006920       TDataBlockInterpreter.ReadVariant
+ 0001:00006EBC       TDataBlockInterpreter.ReleaseObject
+ 0001:0000614C       TDataBlockInterpreter.RemoveDispatch
+ 0001:00006D68       TDataBlockInterpreter.StoreObject
+ 0001:00006EB8       TDataBlockInterpreter.UnlockObject
+ 0001:00006604       TDataBlockInterpreter.WriteArray
+ 0001:00006F38       TDataBlockInterpreter.WriteVariant
+ 0001:00008530       TDataDispatch.Create
+ 0001:00008580       TDataDispatch.Destroy
+ 0001:000085DC       TDataDispatch.GetIDsOfNames
+ 0001:000085D0       TDataDispatch.GetTypeInfo
+ 0001:000085C0       TDataDispatch.GetTypeInfoCount
+ 0001:00008608       TDataDispatch.Invoke
+ 0001:000027F8       TDCOMConnection.Create
+ 0001:00002880       TDCOMConnection.DoConnect
+ 0001:00002860       TDCOMConnection.IsComputerNameStored
+ 0001:00002830       TDCOMConnection.SetComputerName
+ 0001:00001CC0       TDispatchAppServer.AS_ApplyUpdates
+ 0001:00001DE8       TDispatchAppServer.AS_DataRequest
+ 0001:00001FE4       TDispatchAppServer.AS_Execute
+ 0001:00001EDC       TDispatchAppServer.AS_GetParams
+ 0001:00001E74       TDispatchAppServer.AS_GetProviderNames
+ 0001:00001D5C       TDispatchAppServer.AS_GetRecords
+ 0001:00001F50       TDispatchAppServer.AS_RowRequest
+ 0001:00001BE8       TDispatchAppServer.Create
+ 0001:00001C64       TDispatchAppServer.GetIDsOfNames
+ 0001:00001C44       TDispatchAppServer.GetTypeInfo
+ 0001:00001C2C       TDispatchAppServer.GetTypeInfoCount
+ 0001:00002048       TDispatchAppServer.InterfaceSupportsErrorInfo
+ 0001:00001C8C       TDispatchAppServer.Invoke
+ 0001:0000207C       TDispatchAppServer.SafeCallException
+ 0001:000020A0       TDispatchConnection.Create
+ 0001:00002524       TDispatchConnection.DoDisconnect
+ 0001:000023C4       TDispatchConnection.GetConnected
+ 0001:00002598       TDispatchConnection.GetServer
+ 0001:00002674       TDispatchConnection.GetServerCLSID
+ 0001:0000226C       TDispatchConnection.GetServerGUID
+ 0001:000020E0       TDispatchConnection.GetServerList
+ 0001:00002218       TDispatchConnection.Notification
+ 0001:00002454       TDispatchConnection.SetConnected
+ 0001:00002248       TDispatchConnection.SetObjectBroker
+ 0001:000022AC       TDispatchConnection.SetServerGUID
+ 0001:00002328       TDispatchConnection.SetServerName
+ 0001:000040B0       TLocalConnection.AS_ApplyUpdates
+ 0001:00004260       TLocalConnection.AS_DataRequest
+ 0001:00004360       TLocalConnection.AS_Execute
+ 0001:000042E8       TLocalConnection.AS_GetParams
+ 0001:00003FB8       TLocalConnection.AS_GetProviderNames
+ 0001:00004144       TLocalConnection.AS_GetRecords
+ 0001:000041D0       TLocalConnection.AS_RowRequest
+ 0001:00003D28       TLocalConnection.Create
+ 0001:00003DFC       TLocalConnection.Destroy
+ 0001:00003D24       TLocalConnection.GetConnected
+ 0001:000043C4       TLocalConnection.GetProvider
+ 0001:00003D18       TLocalConnection.GetProviderCount
+ 0001:00003E50       TLocalConnection.GetProviderNames
+ 0001:00003E38       TLocalConnection.GetServer
+ 0001:00004454       TLocalConnection.InterfaceSupportsErrorInfo
+ 0001:00003F5C       TLocalConnection.Notification
+ 0001:00003FA0       TLocalConnection.RegisterProvider
+ 0001:00004488       TLocalConnection.SafeCallException
+ 0001:00003FAC       TLocalConnection.UnRegisterProvider
+ 0001:000002B0       TlsAlloc
+ 0002:0000100C       tlsBuffer
+ 0001:000002B8       TlsFree
+ 0001:000002C0       TlsGetValue
+ 0002:00000000       TlsIndex
+ 0002:BFB22000       TlsLast
+ 0002:0000001C       TlsProc
+ 0001:000002C8       TlsSetValue
+ 0001:0000AF4C       TMidasConnection.Create
+ 0001:0000AFF0       TMidasConnection.DoConnect
+ 0001:0000B224       TMidasConnection.DoDisconnect
+ 0001:0000B244       TMidasConnection.SetConnectType
+ 0001:0000B264       TMidasConnection.SetUseBroker
+ 0001:0000B62C       TMtsDataModule.Activate
+ 0001:0000B854       TMtsDataModule.AS_ApplyUpdates
+ 0001:0000B9DC       TMtsDataModule.AS_DataRequest
+ 0001:0000BBAC       TMtsDataModule.AS_Execute
+ 0001:0000BA5C       TMtsDataModule.AS_GetParams
+ 0001:0000B7C4       TMtsDataModule.AS_GetProviderNames
+ 0001:0000B930       TMtsDataModule.AS_GetRecords
+ 0001:0000BAF4       TMtsDataModule.AS_RowRequest
+ 0001:0000B7AC       TMtsDataModule.CallComplete
+ 0001:0000B6C8       TMtsDataModule.CanBePooled
+ 0001:0000B5F0       TMtsDataModule.Create
+ 0001:0000B698       TMtsDataModule.Deactivate
+ 0001:0000B730       TMtsDataModule.DisableCommit
+ 0001:0000B714       TMtsDataModule.EnableCommit
+ 0001:0000B784       TMtsDataModule.IsCallerInRole
+ 0001:0000B74C       TMtsDataModule.IsInTransaction
+ 0001:0000B768       TMtsDataModule.IsSecurityEnabled
+ 0001:0000B6F8       TMtsDataModule.SetAbort
+ 0001:0000B6DC       TMtsDataModule.SetComplete
+ 0001:00002B84       TOLEnterpriseConnection.DoConnect
+ 0001:00002AD0       TOLEnterpriseConnection.SetBrokerName
+ 0001:00002A90       TOLEnterpriseConnection.SetComputerName
+ 0001:0000A780       TPacketInterceptFactory.UpdateRegistry
+ 0001:0000C040       TServerCollection.Create
+ 0001:0000C07C       TServerCollection.FindServer
+ 0001:0000C17C       TServerCollection.GetBalancedName
+ 0001:0000C0CC       TServerCollection.GetItem
+ 0001:0000C0E0       TServerCollection.GetNextName
+ 0001:0000C270       TServerCollection.SetItem
+ 0001:0000BFD8       TServerItem.Create
+ 0001:0000C01C       TServerItem.GetDisplayName
+ 0001:0000371C       TSharedConnection.ConnectEvent
+ 0001:000036A0       TSharedConnection.Create
+ 0001:00003958       TSharedConnection.Destroy
+ 0001:000037CC       TSharedConnection.DoConnect
+ 0001:000038D8       TSharedConnection.DoDisconnect
+ 0001:0000373C       TSharedConnection.GetConnected
+ 0001:00003988       TSharedConnection.GetServer
+ 0001:00003928       TSharedConnection.Notification
+ 0001:000036DC       TSharedConnection.SetParentConnection
+ 0001:0000C278       TSimpleObjectBroker.Create
+ 0001:0000C2C4       TSimpleObjectBroker.Destroy
+ 0001:0000C5D4       TSimpleObjectBroker.GetComputerForGUID
+ 0001:0000C5E8       TSimpleObjectBroker.GetComputerForProgID
+ 0001:0000C5AC       TSimpleObjectBroker.GetNextComputer
+ 0001:0000C5FC       TSimpleObjectBroker.GetPortForComputer
+ 0001:0000C2F4       TSimpleObjectBroker.GetServerData
+ 0001:0000C610       TSimpleObjectBroker.IsServersStored
+ 0001:0000C540       TSimpleObjectBroker.LoadFromStream
+ 0001:0000C4E8       TSimpleObjectBroker.SaveToStream
+ 0001:0000C624       TSimpleObjectBroker.SetConnectStatus
+ 0001:0000C3FC       TSimpleObjectBroker.SetServerData
+ 0001:0000C680       TSimpleObjectBroker.SetServers
+ 0001:000098E4       TSocketConnection.Create
+ 0001:00009A24       TSocketConnection.CreateTransport
+ 0001:00009B20       TSocketConnection.DoConnect
+ 0001:00009924       TSocketConnection.IsAddressStored
+ 0001:000099A4       TSocketConnection.IsHostStored
+ 0001:00009944       TSocketConnection.SetAddress
+ 0001:000099C4       TSocketConnection.SetHost
+ 0001:000097D4       TSocketTransport.CheckInterceptor
+ 0001:000093C4       TSocketTransport.Create
+ 0001:00009408       TSocketTransport.Destroy
+ 0001:0000946C       TSocketTransport.GetConnected
+ 0001:00009440       TSocketTransport.GetWaitEvent
+ 0001:000098A4       TSocketTransport.InterceptIncoming
+ 0001:000098C4       TSocketTransport.InterceptOutgoing
+ 0001:0000955C       TSocketTransport.Receive
+ 0001:0000978C       TSocketTransport.Send
+ 0001:0000948C       TSocketTransport.SetConnected
+ 0001:00008A30       TStreamedConnection.Create
+ 0001:000091A4       TStreamedConnection.CreateTransport
+ 0001:00008AC4       TStreamedConnection.Destroy
+ 0001:00009084       TStreamedConnection.DoConnect
+ 0001:00009190       TStreamedConnection.DoDisconnect
+ 0001:0000906C       TStreamedConnection.DoError
+ 0001:00008F80       TStreamedConnection.GetHandle
+ 0001:00008B2C       TStreamedConnection.GetInterceptGUID
+ 0001:00008E48       TStreamedConnection.GetInterceptorList
+ 0001:000091B0       TStreamedConnection.GetInterpreter
+ 0001:00008DDC       TStreamedConnection.GetServerList
+ 0001:00008D60       TStreamedConnection.InternalClose
+ 0001:00008CA8       TStreamedConnection.InternalOpen
+ 0001:000091F8       TStreamedConnection.QueryInterface
+ 0001:00009250       TStreamedConnection.Send
+ 0001:00008B6C       TStreamedConnection.SetInterceptGUID
+ 0001:00008BE8       TStreamedConnection.SetInterceptName
+ 0001:00008C84       TStreamedConnection.SetSupportCallbacks
+ 0001:0000905C       TStreamedConnection.ThreadException
+ 0001:00008FFC       TStreamedConnection.ThreadReceivedStream
+ 0001:00009074       TStreamedConnection.TransportTerminated
+ 0001:00008FA8       TStreamedConnection.WndProc
+ 0001:00009220       TStreamedConnection._AddRef
+ 0001:00009238       TStreamedConnection._Release
+ 0001:00008640       TTransportThread.Create
+ 0001:000086D8       TTransportThread.Destroy
+ 0001:0000875C       TTransportThread.Execute
+ 0001:00009FE0       TWebConnection.Check
+ 0001:00009D00       TWebConnection.Create
+ 0001:00009F84       TWebConnection.CreateTransport
+ 0001:00009DEC       TWebConnection.Destroy
+ 0001:0000A62C       TWebConnection.DoConnect
+ 0001:00009E28       TWebConnection.GetInterpreter
+ 0001:0000A0D8       TWebConnection.GetWaitEvent
+ 0001:00009FC0       TWebConnection.IsURLStored
+ 0001:0000A2A4       TWebConnection.Receive
+ 0001:0000A4E0       TWebConnection.Send
+ 0001:00009E6C       TWebConnection.SetURL
+ 0001:0000A0E4       TWebConnection.Transport_GetConnected
+ 0001:0000A0F8       TWebConnection.Transport_SetConnected
+ 0001:000003AC       UninitializeModule
+ 0002:0000002C       VariantSize
+ 0001:000006AC       WaitForSingleObject
+ 0001:0000071C       Windows
+ 0001:00004634       WinInet
+ 0001:000045A4       WinSock
+ 0001:00002B10       WriteValue
+ 0002:00001030       WSACloseEvent
+ 0002:00001028       WSACreateEvent
+ 0002:00001034       WSAEventSelect
+ 0001:0000456C       WSAGetLastError
+ 0002:0000102C       WSAResetEvent
+
+
+  Address         Publics by Value
+
+ 0002:BFB22000       TlsLast
+ 0001:00000298       FreeLibrary
+ 0001:000002A0       LocalAlloc
+ 0001:000002A8       LocalFree
+ 0001:000002B0       TlsAlloc
+ 0001:000002B8       TlsFree
+ 0001:000002C0       TlsGetValue
+ 0001:000002C8       TlsSetValue
+ 0001:000002D0       AllocTlsBuffer
+ 0001:000002DC       GetTlsSize
+ 0001:000002E4       InitThreadTLS
+ 0001:00000328       InitProcessTLS
+ 0001:00000354       ExitThreadTLS
+ 0001:0000037C       ExitProcessTLS
+ 0001:000003A0       InitializeModule
+ 0001:000003AC       UninitializeModule
+ 0001:000003D0       @InitPkg
+ 0001:00000434       @PackageLoad
+ 0001:00000440       @PackageUnload
+ 0001:0000044C       Finalization
+ 0001:0000047C       SysInit
+ 0001:0000063C       RegCloseKey
+ 0001:00000644       RegEnumKey
+ 0001:0000064C       RegOpenKey
+ 0001:00000654       RegQueryValue
+ 0001:0000065C       RegQueryValueEx
+ 0001:00000664       CloseHandle
+ 0001:0000066C       CreateSemaphore
+ 0001:00000674       FormatMessage
+ 0001:0000067C       FreeLibrary
+ 0001:00000684       GetLastError
+ 0001:0000068C       GetModuleHandle
+ 0001:00000694       GetProcAddress
+ 0001:0000069C       LoadLibrary
+ 0001:000006A4       ReleaseSemaphore
+ 0001:000006AC       WaitForSingleObject
+ 0001:000006B4       DispatchMessage
+ 0001:000006BC       GetDesktopWindow
+ 0001:000006C4       GetMessage
+ 0001:000006CC       MsgWaitForMultipleObjects
+ 0001:000006D4       PeekMessage
+ 0001:000006DC       PostMessage
+ 0001:000006E4       PostThreadMessage
+ 0001:000006EC       Finalization
+ 0001:0000071C       Windows
+ 0001:00000A0C       Finalization
+ 0001:00000A3C       Messages
+ 0001:00001854       GetMIDASAppServerList
+ 0001:00001BE8       TDispatchAppServer.Create
+ 0001:00001C2C       TDispatchAppServer.GetTypeInfoCount
+ 0001:00001C44       TDispatchAppServer.GetTypeInfo
+ 0001:00001C64       TDispatchAppServer.GetIDsOfNames
+ 0001:00001C8C       TDispatchAppServer.Invoke
+ 0001:00001CC0       TDispatchAppServer.AS_ApplyUpdates
+ 0001:00001D5C       TDispatchAppServer.AS_GetRecords
+ 0001:00001DE8       TDispatchAppServer.AS_DataRequest
+ 0001:00001E74       TDispatchAppServer.AS_GetProviderNames
+ 0001:00001EDC       TDispatchAppServer.AS_GetParams
+ 0001:00001F50       TDispatchAppServer.AS_RowRequest
+ 0001:00001FE4       TDispatchAppServer.AS_Execute
+ 0001:00002048       TDispatchAppServer.InterfaceSupportsErrorInfo
+ 0001:0000207C       TDispatchAppServer.SafeCallException
+ 0001:000020A0       TDispatchConnection.Create
+ 0001:000020E0       TDispatchConnection.GetServerList
+ 0001:00002218       TDispatchConnection.Notification
+ 0001:00002248       TDispatchConnection.SetObjectBroker
+ 0001:0000226C       TDispatchConnection.GetServerGUID
+ 0001:000022AC       TDispatchConnection.SetServerGUID
+ 0001:00002328       TDispatchConnection.SetServerName
+ 0001:000023C4       TDispatchConnection.GetConnected
+ 0001:00002454       TDispatchConnection.SetConnected
+ 0001:00002524       TDispatchConnection.DoDisconnect
+ 0001:00002598       TDispatchConnection.GetServer
+ 0001:00002674       TDispatchConnection.GetServerCLSID
+ 0001:000026E4       TCOMConnection.SetConnected
+ 0001:0000275C       TCOMConnection.DoConnect
+ 0001:000027F8       TDCOMConnection.Create
+ 0001:00002830       TDCOMConnection.SetComputerName
+ 0001:00002860       TDCOMConnection.IsComputerNameStored
+ 0001:00002880       TDCOMConnection.DoConnect
+ 0001:00002A90       TOLEnterpriseConnection.SetComputerName
+ 0001:00002AD0       TOLEnterpriseConnection.SetBrokerName
+ 0001:00002B10       WriteValue
+ 0001:00002B84       TOLEnterpriseConnection.DoConnect
+ 0001:000036A0       TSharedConnection.Create
+ 0001:000036DC       TSharedConnection.SetParentConnection
+ 0001:0000371C       TSharedConnection.ConnectEvent
+ 0001:0000373C       TSharedConnection.GetConnected
+ 0001:000037CC       TSharedConnection.DoConnect
+ 0001:000038D8       TSharedConnection.DoDisconnect
+ 0001:00003928       TSharedConnection.Notification
+ 0001:00003958       TSharedConnection.Destroy
+ 0001:00003988       TSharedConnection.GetServer
+ 0001:00003A64       Finalization
+ 0001:00003A94       MConnect
+ 0001:00003D18       TLocalConnection.GetProviderCount
+ 0001:00003D24       TLocalConnection.GetConnected
+ 0001:00003D28       TLocalConnection.Create
+ 0001:00003DFC       TLocalConnection.Destroy
+ 0001:00003E38       TLocalConnection.GetServer
+ 0001:00003E50       TLocalConnection.GetProviderNames
+ 0001:00003F5C       TLocalConnection.Notification
+ 0001:00003FA0       TLocalConnection.RegisterProvider
+ 0001:00003FAC       TLocalConnection.UnRegisterProvider
+ 0001:00003FB8       TLocalConnection.AS_GetProviderNames
+ 0001:000040B0       TLocalConnection.AS_ApplyUpdates
+ 0001:00004144       TLocalConnection.AS_GetRecords
+ 0001:000041D0       TLocalConnection.AS_RowRequest
+ 0001:00004260       TLocalConnection.AS_DataRequest
+ 0001:000042E8       TLocalConnection.AS_GetParams
+ 0001:00004360       TLocalConnection.AS_Execute
+ 0001:000043C4       TLocalConnection.GetProvider
+ 0001:00004454       TLocalConnection.InterfaceSupportsErrorInfo
+ 0001:00004488       TLocalConnection.SafeCallException
+ 0001:000044AC       Finalization
+ 0001:000044DC       TConnect
+ 0001:0000454C       FD_SET
+ 0001:0000455C       FD_ZERO
+ 0001:00004564       select
+ 0001:0000456C       WSAGetLastError
+ 0001:00004574       Finalization
+ 0001:000045A4       WinSock
+ 0001:000045AC       HttpOpenRequest
+ 0001:000045B4       HttpQueryInfo
+ 0001:000045BC       HttpSendRequest
+ 0001:000045C4       InternetCloseHandle
+ 0001:000045CC       InternetConnect
+ 0001:000045D4       InternetCrackUrl
+ 0001:000045DC       InternetErrorDlg
+ 0001:000045E4       InternetOpen
+ 0001:000045EC       InternetQueryDataAvailable
+ 0001:000045F4       InternetReadFile
+ 0001:000045FC       InternetAttemptConnect
+ 0001:00004604       Finalization
+ 0001:00004634       WinInet
+ 0001:0000563C       CheckSignature
+ 0001:0000566C       LoadWinSock2
+ 0001:0000573C       GetPacketInterceptorList
+ 0001:00005998       FreeWinSock2
+ 0001:000059D0       OpenRegKey
+ 0001:00005A00       EnumRegKey
+ 0001:00005A4C       QueryRegKey
+ 0001:00005AA4       CloseRegKey
+ 0001:00005AAC       GetDataBrokerList
+ 0001:00005D04       TDataBlock.Create
+ 0001:00005D54       TDataBlock.Destroy
+ 0001:00005D88       TDataBlock.GetBytesReserved
+ 0001:00005D94       TDataBlock.GetMemory
+ 0001:00005DDC       TDataBlock.GetSize
+ 0001:00005DFC       TDataBlock.SetSize
+ 0001:00005E1C       TDataBlock.GetStream
+ 0001:00005E6C       TDataBlock.GetSignature
+ 0001:00005E9C       TDataBlock.SetSignature
+ 0001:00005EC4       TDataBlock.Clear
+ 0001:00005EF4       TDataBlock.Write
+ 0001:00005F30       TDataBlock.Read
+ 0001:00005F6C       TDataBlock.IgnoreStream
+ 0001:00005F7C       TDataBlock.InitData
+ 0001:0000602C       TDataBlockInterpreter.Create
+ 0001:000060D4       TDataBlockInterpreter.Destroy
+ 0001:0000612C       TDataBlockInterpreter.AddDispatch
+ 0001:0000614C       TDataBlockInterpreter.RemoveDispatch
+ 0001:00006158       TDataBlockInterpreter.GetVariantPointer
+ 0001:00006194       TDataBlockInterpreter.CopyDataByRef
+ 0001:000062E4       TDataBlockInterpreter.ReadArray
+ 0001:00006604       TDataBlockInterpreter.WriteArray
+ 0001:00006920       TDataBlockInterpreter.ReadVariant
+ 0001:00006B58       TDataBlockInterpreter.CanCreateObject
+ 0001:00006C08       TDataBlockInterpreter.InternalCreateObject
+ 0001:00006CA8       TDataBlockInterpreter.CreateObject
+ 0001:00006D68       TDataBlockInterpreter.StoreObject
+ 0001:00006E54       TDataBlockInterpreter.LockObject
+ 0001:00006EB8       TDataBlockInterpreter.UnlockObject
+ 0001:00006EBC       TDataBlockInterpreter.ReleaseObject
+ 0001:00006F38       TDataBlockInterpreter.WriteVariant
+ 0001:000071D4       TDataBlockInterpreter.CallGetServerList
+ 0001:0000728C       TDataBlockInterpreter.CallCreateObject
+ 0001:00007380       TDataBlockInterpreter.CallFreeObject
+ 0001:00007440       TDataBlockInterpreter.CallGetIDsOfNames
+ 0001:000075AC       TDataBlockInterpreter.CallInvoke
+ 0001:000078A4       TDataBlockInterpreter.InterpretData
+ 0001:00007A5C       TDataBlockInterpreter.DoException
+ 0001:00007AD8       TDataBlockInterpreter.DoGetAppServerList
+ 0001:00007C60       TDataBlockInterpreter.DoGetServerList
+ 0001:00007DE8       TDataBlockInterpreter.DoCreateObject
+ 0001:00007EE0       TDataBlockInterpreter.DoFreeObject
+ 0001:00007F68       TDataBlockInterpreter.DoGetIDsOfNames
+ 0001:000080D4       TDataBlockInterpreter.DoInvoke
+ 0001:0000852C       TDataBlockInterpreter.DoCustomAction
+ 0001:00008530       TDataDispatch.Create
+ 0001:00008580       TDataDispatch.Destroy
+ 0001:000085C0       TDataDispatch.GetTypeInfoCount
+ 0001:000085D0       TDataDispatch.GetTypeInfo
+ 0001:000085DC       TDataDispatch.GetIDsOfNames
+ 0001:00008608       TDataDispatch.Invoke
+ 0001:00008640       TTransportThread.Create
+ 0001:000086D8       TTransportThread.Destroy
+ 0001:00008708       SynchronizeException
+ 0001:0000875C       TTransportThread.Execute
+ 0001:00008A30       TStreamedConnection.Create
+ 0001:00008AC4       TStreamedConnection.Destroy
+ 0001:00008B2C       TStreamedConnection.GetInterceptGUID
+ 0001:00008B6C       TStreamedConnection.SetInterceptGUID
+ 0001:00008BE8       TStreamedConnection.SetInterceptName
+ 0001:00008C84       TStreamedConnection.SetSupportCallbacks
+ 0001:00008CA8       TStreamedConnection.InternalOpen
+ 0001:00008D60       TStreamedConnection.InternalClose
+ 0001:00008DDC       TStreamedConnection.GetServerList
+ 0001:00008E48       TStreamedConnection.GetInterceptorList
+ 0001:00008F80       TStreamedConnection.GetHandle
+ 0001:00008FA8       TStreamedConnection.WndProc
+ 0001:00008FFC       TStreamedConnection.ThreadReceivedStream
+ 0001:0000905C       TStreamedConnection.ThreadException
+ 0001:0000906C       TStreamedConnection.DoError
+ 0001:00009074       TStreamedConnection.TransportTerminated
+ 0001:00009084       TStreamedConnection.DoConnect
+ 0001:00009190       TStreamedConnection.DoDisconnect
+ 0001:000091A4       TStreamedConnection.CreateTransport
+ 0001:000091B0       TStreamedConnection.GetInterpreter
+ 0001:000091F8       TStreamedConnection.QueryInterface
+ 0001:00009220       TStreamedConnection._AddRef
+ 0001:00009238       TStreamedConnection._Release
+ 0001:00009250       TStreamedConnection.Send
+ 0001:000093C4       TSocketTransport.Create
+ 0001:00009408       TSocketTransport.Destroy
+ 0001:00009440       TSocketTransport.GetWaitEvent
+ 0001:0000946C       TSocketTransport.GetConnected
+ 0001:0000948C       TSocketTransport.SetConnected
+ 0001:0000955C       TSocketTransport.Receive
+ 0001:0000978C       TSocketTransport.Send
+ 0001:000097D4       TSocketTransport.CheckInterceptor
+ 0001:000098A4       TSocketTransport.InterceptIncoming
+ 0001:000098C4       TSocketTransport.InterceptOutgoing
+ 0001:000098E4       TSocketConnection.Create
+ 0001:00009924       TSocketConnection.IsAddressStored
+ 0001:00009944       TSocketConnection.SetAddress
+ 0001:000099A4       TSocketConnection.IsHostStored
+ 0001:000099C4       TSocketConnection.SetHost
+ 0001:00009A24       TSocketConnection.CreateTransport
+ 0001:00009B20       TSocketConnection.DoConnect
+ 0001:00009D00       TWebConnection.Create
+ 0001:00009DEC       TWebConnection.Destroy
+ 0001:00009E28       TWebConnection.GetInterpreter
+ 0001:00009E6C       TWebConnection.SetURL
+ 0001:00009F84       TWebConnection.CreateTransport
+ 0001:00009FC0       TWebConnection.IsURLStored
+ 0001:00009FE0       TWebConnection.Check
+ 0001:0000A0D8       TWebConnection.GetWaitEvent
+ 0001:0000A0E4       TWebConnection.Transport_GetConnected
+ 0001:0000A0F8       TWebConnection.Transport_SetConnected
+ 0001:0000A2A4       TWebConnection.Receive
+ 0001:0000A4E0       TWebConnection.Send
+ 0001:0000A62C       TWebConnection.DoConnect
+ 0001:0000A780       TPacketInterceptFactory.UpdateRegistry
+ 0001:0000AC74       Finalization
+ 0001:0000ACAC       SConnect
+ 0001:0000AF4C       TMidasConnection.Create
+ 0001:0000AF8C       InitConnection
+ 0001:0000AFF0       TMidasConnection.DoConnect
+ 0001:0000B224       TMidasConnection.DoDisconnect
+ 0001:0000B244       TMidasConnection.SetConnectType
+ 0001:0000B264       TMidasConnection.SetUseBroker
+ 0001:0000B27C       Finalization
+ 0001:0000B2AC       MidasCon
+ 0001:0000B5F0       TMtsDataModule.Create
+ 0001:0000B62C       TMtsDataModule.Activate
+ 0001:0000B698       TMtsDataModule.Deactivate
+ 0001:0000B6C8       TMtsDataModule.CanBePooled
+ 0001:0000B6DC       TMtsDataModule.SetComplete
+ 0001:0000B6F8       TMtsDataModule.SetAbort
+ 0001:0000B714       TMtsDataModule.EnableCommit
+ 0001:0000B730       TMtsDataModule.DisableCommit
+ 0001:0000B74C       TMtsDataModule.IsInTransaction
+ 0001:0000B768       TMtsDataModule.IsSecurityEnabled
+ 0001:0000B784       TMtsDataModule.IsCallerInRole
+ 0001:0000B7AC       TMtsDataModule.CallComplete
+ 0001:0000B7C4       TMtsDataModule.AS_GetProviderNames
+ 0001:0000B854       TMtsDataModule.AS_ApplyUpdates
+ 0001:0000B930       TMtsDataModule.AS_GetRecords
+ 0001:0000B9DC       TMtsDataModule.AS_DataRequest
+ 0001:0000BA5C       TMtsDataModule.AS_GetParams
+ 0001:0000BAF4       TMtsDataModule.AS_RowRequest
+ 0001:0000BBAC       TMtsDataModule.AS_Execute
+ 0001:0000BC2C       Finalization
+ 0001:0000BC5C       MtsRdm
+ 0001:0000BFD8       TServerItem.Create
+ 0001:0000C01C       TServerItem.GetDisplayName
+ 0001:0000C040       TServerCollection.Create
+ 0001:0000C07C       TServerCollection.FindServer
+ 0001:0000C0CC       TServerCollection.GetItem
+ 0001:0000C0E0       TServerCollection.GetNextName
+ 0001:0000C17C       TServerCollection.GetBalancedName
+ 0001:0000C270       TServerCollection.SetItem
+ 0001:0000C278       TSimpleObjectBroker.Create
+ 0001:0000C2C4       TSimpleObjectBroker.Destroy
+ 0001:0000C2F4       TSimpleObjectBroker.GetServerData
+ 0001:0000C3FC       TSimpleObjectBroker.SetServerData
+ 0001:0000C4E8       TSimpleObjectBroker.SaveToStream
+ 0001:0000C540       TSimpleObjectBroker.LoadFromStream
+ 0001:0000C5AC       TSimpleObjectBroker.GetNextComputer
+ 0001:0000C5D4       TSimpleObjectBroker.GetComputerForGUID
+ 0001:0000C5E8       TSimpleObjectBroker.GetComputerForProgID
+ 0001:0000C5FC       TSimpleObjectBroker.GetPortForComputer
+ 0001:0000C610       TSimpleObjectBroker.IsServersStored
+ 0001:0000C624       TSimpleObjectBroker.SetConnectStatus
+ 0001:0000C680       TSimpleObjectBroker.SetServers
+ 0001:0000C690       Finalization
+ 0001:0000C6C0       ObjBrkr
+ 0001:0000C828       @GetPackageInfoTable
+ 0001:0000C830       @PackageLoad
+ 0001:0000C83C       @PackageUnload
+ 0001:0000C848       dsnapcon
+ 0002:00000000       TlsIndex
+ 0002:00000004       Module
+ 0002:0000001C       TlsProc
+ 0002:0000002C       VariantSize
+ 0002:00000054       MaxStatusText
+ 0002:00001000       ModuleIsLib
+ 0002:00001001       ModuleIsPackage
+ 0002:00001004       HInstance
+ 0002:00001008       .1
+ 0002:0000100C       tlsBuffer
+ 0002:00001010       .3
+ 0002:00001014       .1
+ 0002:00001018       .8
+ 0002:0000101C       .2
+ 0002:00001020       .1
+ 0002:00001024       .1
+ 0002:00001028       WSACreateEvent
+ 0002:0000102C       WSAResetEvent
+ 0002:00001030       WSACloseEvent
+ 0002:00001034       WSAEventSelect
+ 0002:00001038       .31
+ 0002:0000103C       hWinSock2
+ 0002:00001040       .3
+ 0002:00001044       .2
+ 0002:00001048       .5
+
+
+Bound resource files
+
+dsnapcon.res
+C:\DOCUME~1\~KOKOP~1\LOCALS~1\Temp\dtf2721.tmp
+
+
+Program entry point at 0001:0000C848

@@ -1,0 +1,759 @@
+
+ Start         Length     Name                   Class
+ 0001:00000000 00007D10H .text                   CODE
+ 0002:00000000 00000080H .data                   DATA
+ 0002:00000080 00000151H .bss                    BSS
+
+
+Detailed map of segments
+
+ 0001:00000000 00000176 C=CODE     S=.text    G=(none)   M=System   ACBP=A9
+ 0001:00000178 000001EC C=CODE     S=.text    G=(none)   M=SysInit  ACBP=A9
+ 0001:00000364 00000086 C=CODE     S=.text    G=(none)   M=SysUtils ACBP=A9
+ 0001:000003EC 0000000E C=CODE     S=.text    G=(none)   M=SysConst ACBP=A9
+ 0001:000003FC 00000174 C=CODE     S=.text    G=(none)   M=Windows  ACBP=A9
+ 0001:00000570 0000000E C=CODE     S=.text    G=(none)   M=Types    ACBP=A9
+ 0001:00000580 000000CE C=CODE     S=.text    G=(none)   M=Classes  ACBP=A9
+ 0001:00000650 0000000E C=CODE     S=.text    G=(none)   M=ActiveX  ACBP=A9
+ 0001:00000660 00000038 C=CODE     S=.text    G=(none)   M=Messages ACBP=A9
+ 0001:00000698 0000000E C=CODE     S=.text    G=(none)   M=TypInfo  ACBP=A9
+ 0001:000006A8 0000000E C=CODE     S=.text    G=(none)   M=Variants ACBP=A9
+ 0001:000006B8 0000000E C=CODE     S=.text    G=(none)   M=VarUtils ACBP=A9
+ 0001:000006C8 0000000E C=CODE     S=.text    G=(none)   M=RTLConsts ACBP=A9
+ 0001:000006D8 00000386 C=CODE     S=.text    G=(none)   M=Controls ACBP=A9
+ 0001:00000A60 0000000E C=CODE     S=.text    G=(none)   M=ActnList ACBP=A9
+ 0001:00000A70 0000000E C=CODE     S=.text    G=(none)   M=Contnrs  ACBP=A9
+ 0001:00000A80 0000000E C=CODE     S=.text    G=(none)   M=Math     ACBP=A9
+ 0001:00000A90 0000000E C=CODE     S=.text    G=(none)   M=ImgList  ACBP=A9
+ 0001:00000AA0 00000038 C=CODE     S=.text    G=(none)   M=CommCtrl ACBP=A9
+ 0001:00000AD8 0000006E C=CODE     S=.text    G=(none)   M=Graphics ACBP=A9
+ 0001:00000B48 0000000E C=CODE     S=.text    G=(none)   M=Consts   ACBP=A9
+ 0001:00000B58 0000003E C=CODE     S=.text    G=(none)   M=Forms    ACBP=A9
+ 0001:00000B98 0000000E C=CODE     S=.text    G=(none)   M=HelpIntfs ACBP=A9
+ 0001:00000BA8 0000000E C=CODE     S=.text    G=(none)   M=MultiMon ACBP=A9
+ 0001:00000BB8 00000038 C=CODE     S=.text    G=(none)   M=Imm      ACBP=A9
+ 0001:00000BF0 0000000E C=CODE     S=.text    G=(none)   M=Menus    ACBP=A9
+ 0001:00000C00 0000000E C=CODE     S=.text    G=(none)   M=Themes   ACBP=A9
+ 0001:00000C10 0000000E C=CODE     S=.text    G=(none)   M=UxTheme  ACBP=A9
+ 0001:00000C20 0000000E C=CODE     S=.text    G=(none)   M=SyncObjs ACBP=A9
+ 0001:00000C30 0000000E C=CODE     S=.text    G=(none)   M=ComCtrls ACBP=A9
+ 0001:00000C40 00000038 C=CODE     S=.text    G=(none)   M=ShlObj   ACBP=A9
+ 0001:00000C78 00000038 C=CODE     S=.text    G=(none)   M=UrlMon   ACBP=A9
+ 0001:00000CB0 00000038 C=CODE     S=.text    G=(none)   M=WinInet  ACBP=A9
+ 0001:00000CE8 00000038 C=CODE     S=.text    G=(none)   M=RegStr   ACBP=A9
+ 0001:00000D20 00000038 C=CODE     S=.text    G=(none)   M=ShellAPI ACBP=A9
+ 0001:00000D58 0000000E C=CODE     S=.text    G=(none)   M=ListActns ACBP=A9
+ 0001:00000D68 0000000E C=CODE     S=.text    G=(none)   M=ExtCtrls ACBP=A9
+ 0001:00000D78 000000B6 C=CODE     S=.text    G=(none)   M=StdCtrls ACBP=A9
+ 0001:00000E30 0000000E C=CODE     S=.text    G=(none)   M=WinHelpViewer ACBP=A9
+ 0001:00000E40 0000000E C=CODE     S=.text    G=(none)   M=StdActns ACBP=A9
+ 0001:00000E50 0000000E C=CODE     S=.text    G=(none)   M=Dialogs  ACBP=A9
+ 0001:00000E60 0000000E C=CODE     S=.text    G=(none)   M=Printers ACBP=A9
+ 0001:00000E70 00000038 C=CODE     S=.text    G=(none)   M=WinSpool ACBP=A9
+ 0001:00000EA8 00000038 C=CODE     S=.text    G=(none)   M=CommDlg  ACBP=A9
+ 0001:00000EE0 00000038 C=CODE     S=.text    G=(none)   M=Dlgs     ACBP=A9
+ 0001:00000F18 0000000E C=CODE     S=.text    G=(none)   M=StrUtils ACBP=A9
+ 0001:00000F28 0000000E C=CODE     S=.text    G=(none)   M=Clipbrd  ACBP=A9
+ 0001:00000F38 0000000E C=CODE     S=.text    G=(none)   M=FlatSB   ACBP=A9
+ 0001:00000F48 0000000E C=CODE     S=.text    G=(none)   M=ToolWin  ACBP=A9
+ 0001:00000F58 00000038 C=CODE     S=.text    G=(none)   M=RichEdit ACBP=A9
+ 0001:00000F90 0000000E C=CODE     S=.text    G=(none)   M=ExtActns ACBP=A9
+ 0001:00000FA0 0000002E C=CODE     S=.text    G=(none)   M=Registry ACBP=A9
+ 0001:00000FD0 0000000E C=CODE     S=.text    G=(none)   M=IniFiles ACBP=A9
+ 0001:00000FE0 0000000E C=CODE     S=.text    G=(none)   M=ExtDlgs  ACBP=A9
+ 0001:00000FF0 00000046 C=CODE     S=.text    G=(none)   M=Buttons  ACBP=A9
+ 0001:00001038 0000000E C=CODE     S=.text    G=(none)   M=Mapi     ACBP=A9
+ 0001:00001048 0000000E C=CODE     S=.text    G=(none)   M=ComStrs  ACBP=A9
+ 0001:00001058 0000000E C=CODE     S=.text    G=(none)   M=DdeMan   ACBP=A9
+ 0001:00001068 00000038 C=CODE     S=.text    G=(none)   M=DDEml    ACBP=A9
+ 0001:000010A0 00000096 C=CODE     S=.text    G=(none)   M=DB       ACBP=A9
+ 0001:00001138 0000000E C=CODE     S=.text    G=(none)   M=FMTBcd   ACBP=A9
+ 0001:00001148 0000000E C=CODE     S=.text    G=(none)   M=DBConsts ACBP=A9
+ 0001:00001158 0000000E C=CODE     S=.text    G=(none)   M=SqlTimSt ACBP=A9
+ 0001:00001168 0000000E C=CODE     S=.text    G=(none)   M=DateUtils ACBP=A9
+ 0001:00001178 0000000E C=CODE     S=.text    G=(none)   M=MaskUtils ACBP=A9
+ 0001:00001188 0000000E C=CODE     S=.text    G=(none)   M=ComObj   ACBP=A9
+ 0001:00001198 0000000E C=CODE     S=.text    G=(none)   M=ComConst ACBP=A9
+ 0001:000011A8 000000B0 C=CODE     S=.text    G=(none)   M=RSCONSTS ACBP=A9
+ 0001:00001258 000026A3 C=CODE     S=.text    G=(none)   M=Report   ACBP=A9
+ 0001:000038FC 000000D6 C=CODE     S=.text    G=(none)   M=DBGrids  ACBP=A9
+ 0001:000039D4 00000036 C=CODE     S=.text    G=(none)   M=DBCtrls  ACBP=A9
+ 0001:00003A0C 0000000E C=CODE     S=.text    G=(none)   M=Mask     ACBP=A9
+ 0001:00003A1C 0000000E C=CODE     S=.text    G=(none)   M=VDBConsts ACBP=A9
+ 0001:00003A2C 0000000E C=CODE     S=.text    G=(none)   M=DBPWDlg  ACBP=A9
+ 0001:00003A3C 0000000E C=CODE     S=.text    G=(none)   M=DBLogDlg ACBP=A9
+ 0001:00003A4C 0000008E C=CODE     S=.text    G=(none)   M=Grids    ACBP=A9
+ 0001:00003ADC 0000002E C=CODE     S=.text    G=(none)   M=DBTables ACBP=A9
+ 0001:00003B0C 0000000E C=CODE     S=.text    G=(none)   M=SMINTF   ACBP=A9
+ 0001:00003B1C 0000000E C=CODE     S=.text    G=(none)   M=BDE      ACBP=A9
+ 0001:00003B2C 0000000E C=CODE     S=.text    G=(none)   M=DBCommon ACBP=A9
+ 0001:00003B3C 0000000E C=CODE     S=.text    G=(none)   M=bdeconst ACBP=A9
+ 0001:00003B4C 00003EFC C=CODE     S=.text    G=(none)   M=dblookup ACBP=A9
+ 0001:00007A48 000002C5 C=CODE     S=.text    G=(none)   M=vcldbx   ACBP=A9
+ 0002:00000000 0000002C C=DATA     S=.data    G=DGROUP   M=SysInit  ACBP=A9
+ 0002:0000002C 00000004 C=DATA     S=.data    G=DGROUP   M=Report   ACBP=A9
+ 0002:00001000 00000010 C=BSS      S=.bss     G=DGROUP   M=SysInit  ACBP=A9
+ 0002:00001010 00000004 C=BSS      S=.bss     G=DGROUP   M=Windows  ACBP=A9
+ 0002:00001014 00000004 C=BSS      S=.bss     G=DGROUP   M=Messages ACBP=A9
+ 0002:00001018 00000004 C=BSS      S=.bss     G=DGROUP   M=CommCtrl ACBP=A9
+ 0002:0000101C 00000004 C=BSS      S=.bss     G=DGROUP   M=Imm      ACBP=A9
+ 0002:00001020 00000004 C=BSS      S=.bss     G=DGROUP   M=ShlObj   ACBP=A9
+ 0002:00001024 00000004 C=BSS      S=.bss     G=DGROUP   M=UrlMon   ACBP=A9
+ 0002:00001028 00000004 C=BSS      S=.bss     G=DGROUP   M=WinInet  ACBP=A9
+ 0002:0000102C 00000004 C=BSS      S=.bss     G=DGROUP   M=RegStr   ACBP=A9
+ 0002:00001030 00000004 C=BSS      S=.bss     G=DGROUP   M=ShellAPI ACBP=A9
+ 0002:00001034 00000004 C=BSS      S=.bss     G=DGROUP   M=WinSpool ACBP=A9
+ 0002:00001038 00000004 C=BSS      S=.bss     G=DGROUP   M=CommDlg  ACBP=A9
+ 0002:0000103C 00000004 C=BSS      S=.bss     G=DGROUP   M=Dlgs     ACBP=A9
+ 0002:00001040 00000004 C=BSS      S=.bss     G=DGROUP   M=RichEdit ACBP=A9
+ 0002:00001044 00000004 C=BSS      S=.bss     G=DGROUP   M=DDEml    ACBP=A9
+ 0002:00001048 00000004 C=BSS      S=.bss     G=DGROUP   M=RSCONSTS ACBP=A9
+ 0002:0000104C 00000100 C=BSS      S=.bss     G=DGROUP   M=Report   ACBP=A9
+ 0002:0000114C 00000004 C=BSS      S=.bss     G=DGROUP   M=dblookup ACBP=A9
+
+
+  Address         Publics by Name
+
+ 0002:00001038       .1
+ 0002:00001048       .1
+ 0002:00001014       .1
+ 0002:00001018       .1
+ 0002:00001030       .1
+ 0002:00001008       .1
+ 0002:0000102C       .1
+ 0002:00001040       .1
+ 0002:00001028       .1
+ 0002:00001024       .1
+ 0002:00001044       .1
+ 0002:0000103C       .1
+ 0002:00001020       .1
+ 0002:0000101C       .1
+ 0002:00001034       .3
+ 0002:00001010       .3
+ 0002:0000114C       .5
+ 0002:0000104C       .6
+ 0001:00007CE8       @GetPackageInfoTable
+ 0001:000002B0       @InitPkg
+ 0001:00007CF0       @PackageLoad
+ 0001:00000314       @PackageLoad
+ 0001:00007CFC       @PackageUnload
+ 0001:00000320       @PackageUnload
+ 0001:000001B0       AllocTlsBuffer
+ 0002:00001108       APIDriverHandle
+ 0001:000017E8       APIDriverLoaded
+ 0001:000016BC       AsyncCallback
+ 0001:00000484       BeginPaint
+ 0001:0000048C       CallWindowProc
+ 0001:00001CCC       CleanUpStmt
+ 0001:000003FC       CloseHandle
+ 0001:00000AD0       CommCtrl
+ 0001:00000ED8       CommDlg
+ 0001:00000404       CreateProcess
+ 0001:00007A40       dblookup
+ 0001:00001098       DDEml
+ 0001:00000494       DefWindowProc
+ 0001:00000F10       Dlgs
+ 0002:00001104       DriverHandle
+ 0001:00001B04       DriverLoaded
+ 0001:0000049C       EndPaint
+ 0001:0000025C       ExitProcessTLS
+ 0001:00000234       ExitThreadTLS
+ 0001:0000046C       ExtTextOut
+ 0001:00000EA8       Finalization
+ 0001:0000032C       Finalization
+ 0001:000038AC       Finalization
+ 0001:00000660       Finalization
+ 0001:00007A10       Finalization
+ 0001:00000538       Finalization
+ 0001:00000C78       Finalization
+ 0001:00000F58       Finalization
+ 0001:00001068       Finalization
+ 0001:00000CB0       Finalization
+ 0001:00000E70       Finalization
+ 0001:00000EE0       Finalization
+ 0001:00000D20       Finalization
+ 0001:00000CE8       Finalization
+ 0001:00001220       Finalization
+ 0001:00000AA0       Finalization
+ 0001:00000C40       Finalization
+ 0001:00000BB8       Finalization
+ 0001:00003840       Finalize
+ 0001:000004A4       FindWindow
+ 0001:0000040C       FreeLibrary
+ 0001:00000178       FreeLibrary
+ 0001:000004AC       GetCapture
+ 0001:00000414       GetCurrentProcessId
+ 0001:00002D10       GetDataSize
+ 0001:000004B4       GetDC
+ 0001:00001C94       GetDecodedDateTime
+ 0001:000004BC       GetFocus
+ 0001:0000353C       GetNamesByField
+ 0001:000035C4       GetNamesByFieldDef
+ 0001:0000041C       GetProcAddress
+ 0001:000016F8       GetRootDir
+ 0001:000004C4       GetSystemMetrics
+ 0001:00000474       GetTextMetrics
+ 0002:00001110       GetThread
+ 0001:000001BC       GetTlsSize
+ 0001:000004CC       HideCaret
+ 0002:00001004       HInstance
+ 0001:00000BE8       Imm
+ 0001:000004D4       InflateRect
+ 0001:00001800       InitAPIDriver
+ 0001:00001B1C       InitDriver
+ 0001:000037E8       Initialize
+ 0001:00000280       InitializeModule
+ 0002:0000110C       InitObjects
+ 0001:00000208       InitProcessTLS
+ 0001:000001C4       InitThreadTLS
+ 0001:000004DC       LoadBitmap
+ 0001:00000424       LoadLibrary
+ 0001:00000180       LocalAlloc
+ 0001:00000188       LocalFree
+ 0001:0000052C       MakeLong
+ 0001:0000042C       MapViewOfFile
+ 0001:000004E4       MessageBeep
+ 0001:00000690       Messages
+ 0002:00000004       Module
+ 0002:00001000       ModuleIsLib
+ 0002:00001001       ModuleIsPackage
+ 0001:0000612C       MouseDragToGrid
+ 0001:00000434       OpenFileMapping
+ 0001:000004EC       PeekMessage
+ 0002:0000105C       ProcessId
+ 0001:00003744       ProcessRequest
+ 0001:00001C7C       RaiseError
+ 0001:00000D18       RegStr
+ 0001:000004F4       ReleaseDC
+ 0001:000038EC       Report
+ 0002:0000002C       ReportClassName
+ 0002:00001060       ReportManager
+ 0001:0000043C       ResetEvent
+ 0001:00000F88       RichEdit
+ 0001:00001250       RSCONSTS
+ 0002:00001130       RS_ByteVersion
+ 0002:00001120       RS_CloseReport
+ 0002:00001124       RS_CloseRS
+ 0002:00001134       RS_Connect
+ 0002:00001144       RS_Initiate
+ 0002:00001138       RS_IsBusy
+ 0002:00001140       RS_IsReportSmithPresent
+ 0002:0000112C       RS_LoadReport
+ 0002:00001114       RS_PrintReport
+ 0002:0000111C       RS_Recalc
+ 0002:00001148       RS_RegisterCallBack
+ 0002:0000113C       RS_RunMacro
+ 0002:00001128       RS_SetRecordLimit
+ 0002:00001118       RS_SetRepVar
+ 0001:0000047C       SelectObject
+ 0001:000004FC       SendMessage
+ 0001:00000444       SetErrorMode
+ 0001:0000044C       SetEvent
+ 0001:00000504       SetFocus
+ 0001:0000050C       SetParent
+ 0001:00000514       SetTimer
+ 0001:0000051C       SetWindowPos
+ 0002:00001058       SharedMem
+ 0001:00000D50       ShellAPI
+ 0001:00000C70       ShlObj
+ 0002:00001050       StartEvent
+ 0002:00001064       StmtHandles
+ 0002:00001054       SyncEvent
+ 0001:0000035C       SysInit
+ 0001:00007914       TComboButton.MouseDown
+ 0001:000079B8       TComboButton.MouseMove
+ 0001:00005108       TDBLookupCombo.CanEdit
+ 0001:000052F0       TDBLookupCombo.Change
+ 0001:00005FCC       TDBLookupCombo.CloseUp
+ 0001:00005D34       TDBLookupCombo.CMCancelMode
+ 0001:00005CF8       TDBLookupCombo.CMEnabledChanged
+ 0001:000062F4       TDBLookupCombo.CMEnter
+ 0001:0000627C       TDBLookupCombo.CMExit
+ 0001:00005CE4       TDBLookupCombo.CMFontChanged
+ 0001:00005D60       TDBLookupCombo.CMHintShow
+ 0001:00004EA8       TDBLookupCombo.Create
+ 0001:000058D8       TDBLookupCombo.CreateParams
+ 0001:000058F4       TDBLookupCombo.CreateWnd
+ 0001:0000555C       TDBLookupCombo.DataChange
+ 0001:00005048       TDBLookupCombo.Destroy
+ 0001:00006330       TDBLookupCombo.DoSelectAll
+ 0001:00005D70       TDBLookupCombo.DropDown
+ 0001:000050D8       TDBLookupCombo.Editable
+ 0001:00005790       TDBLookupCombo.EditingChange
+ 0001:00005834       TDBLookupCombo.FieldLinkActive
+ 0001:00005534       TDBLookupCombo.GetDataField
+ 0001:00005310       TDBLookupCombo.GetDataSource
+ 0001:000055FC       TDBLookupCombo.GetDisplayValue
+ 0001:000054D4       TDBLookupCombo.GetLookupDisplay
+ 0001:00005518       TDBLookupCombo.GetLookupField
+ 0001:000053F0       TDBLookupCombo.GetLookupSource
+ 0001:00005A34       TDBLookupCombo.GetMinHeight
+ 0001:0000635C       TDBLookupCombo.GetOptions
+ 0001:00005760       TDBLookupCombo.GetReadOnly
+ 0001:000055C8       TDBLookupCombo.GetValue
+ 0001:00005FDC       TDBLookupCombo.GridClick
+ 0001:00005138       TDBLookupCombo.KeyDown
+ 0001:00005218       TDBLookupCombo.KeyPress
+ 0001:0000636C       TDBLookupCombo.Loaded
+ 0001:000061FC       TDBLookupCombo.MouseMove
+ 0001:000060A8       TDBLookupCombo.NonEditMouseDown
+ 0001:00005088       TDBLookupCombo.Notification
+ 0001:00005550       TDBLookupCombo.SetDataField
+ 0001:0000531C       TDBLookupCombo.SetDataSource
+ 0001:00005610       TDBLookupCombo.SetDisplayValue
+ 0001:0000591C       TDBLookupCombo.SetEditRect
+ 0001:000054A4       TDBLookupCombo.SetLookupDisplay
+ 0001:000054F0       TDBLookupCombo.SetLookupField
+ 0001:000053FC       TDBLookupCombo.SetLookupSource
+ 0001:00006348       TDBLookupCombo.SetOptions
+ 0001:0000576C       TDBLookupCombo.SetReadOnly
+ 0001:00006018       TDBLookupCombo.SetStyle
+ 0001:00005658       TDBLookupCombo.SetValue
+ 0001:000057A8       TDBLookupCombo.UpdateData
+ 0001:000058A4       TDBLookupCombo.WMCut
+ 0001:00005D18       TDBLookupCombo.WMKillFocus
+ 0001:0000607C       TDBLookupCombo.WMLButtonDblClk
+ 0001:00006028       TDBLookupCombo.WMLButtonDown
+ 0001:00006054       TDBLookupCombo.WMLButtonUp
+ 0001:00005AB0       TDBLookupCombo.WMPaint
+ 0001:00005870       TDBLookupCombo.WMPaste
+ 0001:00006258       TDBLookupCombo.WMSetFocus
+ 0001:00005968       TDBLookupCombo.WMSize
+ 0001:00006B0C       TDBLookupList.CanEdit
+ 0001:00006EF0       TDBLookupList.CanGridAcceptKey
+ 0001:00007670       TDBLookupList.CMEnter
+ 0001:00007690       TDBLookupList.CMExit
+ 0001:00006384       TDBLookupList.Create
+ 0001:0000648C       TDBLookupList.CreateWnd
+ 0001:00006B30       TDBLookupList.DataChange
+ 0001:00006DA0       TDBLookupList.DefineFieldMap
+ 0001:0000644C       TDBLookupList.Destroy
+ 0001:0000699C       TDBLookupList.DoLookup
+ 0001:00007650       TDBLookupList.FieldLinkActive
+ 0001:00006AD8       TDBLookupList.GetDataField
+ 0001:000064E0       TDBLookupList.GetDataSource
+ 0001:0000658C       TDBLookupList.GetLookupSource
+ 0001:00006B00       TDBLookupList.GetReadOnly
+ 0001:000073D4       TDBLookupList.HighlightCell
+ 0001:00006BC0       TDBLookupList.InitFields
+ 0001:0000703C       TDBLookupList.KeyDown
+ 0001:000070CC       TDBLookupList.KeyPress
+ 0001:000075B8       TDBLookupList.LinkActive
+ 0001:000072FC       TDBLookupList.ListClick
+ 0001:0000778C       TDBLookupList.Loaded
+ 0001:00007108       TDBLookupList.MouseDown
+ 0001:00007254       TDBLookupList.MouseMove
+ 0001:000072A0       TDBLookupList.MouseUp
+ 0001:00006594       TDBLookupList.NewLayout
+ 0001:000064A4       TDBLookupList.Notification
+ 0001:0000751C       TDBLookupList.Paint
+ 0001:0000757C       TDBLookupList.Scroll
+ 0001:00006E50       TDBLookupList.SetColumnAttributes
+ 0001:00006AF4       TDBLookupList.SetDataField
+ 0001:000064EC       TDBLookupList.SetDataSource
+ 0001:00006858       TDBLookupList.SetDisplayValue
+ 0001:0000669C       TDBLookupList.SetLookupDisplay
+ 0001:000066C8       TDBLookupList.SetLookupField
+ 0001:000065C0       TDBLookupList.SetLookupSource
+ 0001:00007704       TDBLookupList.SetOptions
+ 0001:00006B24       TDBLookupList.SetReadOnly
+ 0001:000066F4       TDBLookupList.SetValue
+ 0001:00006B9C       TDBLookupList.UpdateData
+ 0001:00006ED8       TDBLookupList.WMSize
+ 0001:00000454       TerminateThread
+ 0001:00000190       TlsAlloc
+ 0002:0000100C       tlsBuffer
+ 0001:00000198       TlsFree
+ 0001:000001A0       TlsGetValue
+ 0002:00000000       TlsIndex
+ 0002:BFA77000       TlsLast
+ 0002:0000001C       TlsProc
+ 0001:000001A8       TlsSetValue
+ 0001:00007868       TPopupGrid.CanEdit
+ 0001:0000790C       TPopupGrid.CMHintShow
+ 0001:000077A4       TPopupGrid.Create
+ 0001:000077EC       TPopupGrid.CreateParams
+ 0001:00007800       TPopupGrid.CreateWnd
+ 0001:000078C4       TPopupGrid.LinkActive
+ 0001:00007888       TPopupGrid.MouseDown
+ 0001:00007848       TPopupGrid.WMLButtonUp
+ 0001:00002324       TReport.CloseApplication
+ 0001:00002220       TReport.CloseReport
+ 0001:00002258       TReport.Connect
+ 0001:00001D34       TReport.Create
+ 0001:00001DA4       TReport.Destroy
+ 0001:00002404       TReport.GetBusy
+ 0001:00001E04       TReport.GetInitialValues
+ 0001:00002368       TReport.GetReportHandle
+ 0001:000029A8       TReport.Notification
+ 0001:00002050       TReport.Print
+ 0001:00001FF4       TReport.RecalcReport
+ 0001:00002014       TReport.ReportActive
+ 0001:000025E0       TReport.Run
+ 0001:0000245C       TReport.RunApp
+ 0001:00002428       TReport.RunMacro
+ 0001:00002614       TReport.RunReport
+ 0001:00001DF4       TReport.SetInitialValues
+ 0001:00001E08       TReport.SetVariable
+ 0001:00001E40       TReport.SetVariableLines
+ 0001:00002084       TReport.StartApplication
+ 0001:00002038       TReport.UseRunTime
+ 0001:00002BC4       TReportManager.Add
+ 0001:00002C0C       TReportManager.AddDataSet
+ 0001:00002A78       TReportManager.Clear
+ 0001:000029D0       TReportManager.Create
+ 0001:00002A34       TReportManager.Destroy
+ 0001:00003390       TReportManager.EndSQL
+ 0001:00002D70       TReportManager.ExecuteSQL
+ 0001:00003650       TReportManager.GetColumnList
+ 0001:00003008       TReportManager.GetData
+ 0001:00002C5C       TReportManager.GetDataSet
+ 0001:000034B0       TReportManager.GetDataSetByName
+ 0001:00003404       TReportManager.GetDataSets
+ 0001:00003260       TReportManager.GetMemo
+ 0001:000031BC       TReportManager.GetNext
+ 0001:00002C74       TReportManager.GetReport
+ 0001:0000341C       TReportManager.GetTableList
+ 0001:00002BE0       TReportManager.Remove
+ 0001:00002AD4       TReportManager.ServerProc
+ 0001:00002C88       TReportManager.UpdateDataSets
+ 0001:00003370       TReportManager.ValidDataType
+ 0001:00002A98       TReportManager.WndProc
+ 0001:0000028C       UninitializeModule
+ 0001:0000045C       UnmapViewOfFile
+ 0001:00000CA8       UrlMon
+ 0001:00007D08       vcldbx
+ 0001:00000524       WaitForInputIdle
+ 0001:000037C0       WaitForRequest
+ 0001:00000464       WaitForSingleObject
+ 0001:00000568       Windows
+ 0001:00000CE0       WinInet
+ 0001:00000EA0       WinSpool
+
+
+  Address         Publics by Value
+
+ 0002:BFA77000       TlsLast
+ 0001:00000178       FreeLibrary
+ 0001:00000180       LocalAlloc
+ 0001:00000188       LocalFree
+ 0001:00000190       TlsAlloc
+ 0001:00000198       TlsFree
+ 0001:000001A0       TlsGetValue
+ 0001:000001A8       TlsSetValue
+ 0001:000001B0       AllocTlsBuffer
+ 0001:000001BC       GetTlsSize
+ 0001:000001C4       InitThreadTLS
+ 0001:00000208       InitProcessTLS
+ 0001:00000234       ExitThreadTLS
+ 0001:0000025C       ExitProcessTLS
+ 0001:00000280       InitializeModule
+ 0001:0000028C       UninitializeModule
+ 0001:000002B0       @InitPkg
+ 0001:00000314       @PackageLoad
+ 0001:00000320       @PackageUnload
+ 0001:0000032C       Finalization
+ 0001:0000035C       SysInit
+ 0001:000003FC       CloseHandle
+ 0001:00000404       CreateProcess
+ 0001:0000040C       FreeLibrary
+ 0001:00000414       GetCurrentProcessId
+ 0001:0000041C       GetProcAddress
+ 0001:00000424       LoadLibrary
+ 0001:0000042C       MapViewOfFile
+ 0001:00000434       OpenFileMapping
+ 0001:0000043C       ResetEvent
+ 0001:00000444       SetErrorMode
+ 0001:0000044C       SetEvent
+ 0001:00000454       TerminateThread
+ 0001:0000045C       UnmapViewOfFile
+ 0001:00000464       WaitForSingleObject
+ 0001:0000046C       ExtTextOut
+ 0001:00000474       GetTextMetrics
+ 0001:0000047C       SelectObject
+ 0001:00000484       BeginPaint
+ 0001:0000048C       CallWindowProc
+ 0001:00000494       DefWindowProc
+ 0001:0000049C       EndPaint
+ 0001:000004A4       FindWindow
+ 0001:000004AC       GetCapture
+ 0001:000004B4       GetDC
+ 0001:000004BC       GetFocus
+ 0001:000004C4       GetSystemMetrics
+ 0001:000004CC       HideCaret
+ 0001:000004D4       InflateRect
+ 0001:000004DC       LoadBitmap
+ 0001:000004E4       MessageBeep
+ 0001:000004EC       PeekMessage
+ 0001:000004F4       ReleaseDC
+ 0001:000004FC       SendMessage
+ 0001:00000504       SetFocus
+ 0001:0000050C       SetParent
+ 0001:00000514       SetTimer
+ 0001:0000051C       SetWindowPos
+ 0001:00000524       WaitForInputIdle
+ 0001:0000052C       MakeLong
+ 0001:00000538       Finalization
+ 0001:00000568       Windows
+ 0001:00000660       Finalization
+ 0001:00000690       Messages
+ 0001:00000AA0       Finalization
+ 0001:00000AD0       CommCtrl
+ 0001:00000BB8       Finalization
+ 0001:00000BE8       Imm
+ 0001:00000C40       Finalization
+ 0001:00000C70       ShlObj
+ 0001:00000C78       Finalization
+ 0001:00000CA8       UrlMon
+ 0001:00000CB0       Finalization
+ 0001:00000CE0       WinInet
+ 0001:00000CE8       Finalization
+ 0001:00000D18       RegStr
+ 0001:00000D20       Finalization
+ 0001:00000D50       ShellAPI
+ 0001:00000E70       Finalization
+ 0001:00000EA0       WinSpool
+ 0001:00000EA8       Finalization
+ 0001:00000ED8       CommDlg
+ 0001:00000EE0       Finalization
+ 0001:00000F10       Dlgs
+ 0001:00000F58       Finalization
+ 0001:00000F88       RichEdit
+ 0001:00001068       Finalization
+ 0001:00001098       DDEml
+ 0001:00001220       Finalization
+ 0001:00001250       RSCONSTS
+ 0001:000016BC       AsyncCallback
+ 0001:000016F8       GetRootDir
+ 0001:000017E8       APIDriverLoaded
+ 0001:00001800       InitAPIDriver
+ 0001:00001B04       DriverLoaded
+ 0001:00001B1C       InitDriver
+ 0001:00001C7C       RaiseError
+ 0001:00001C94       GetDecodedDateTime
+ 0001:00001CCC       CleanUpStmt
+ 0001:00001D34       TReport.Create
+ 0001:00001DA4       TReport.Destroy
+ 0001:00001DF4       TReport.SetInitialValues
+ 0001:00001E04       TReport.GetInitialValues
+ 0001:00001E08       TReport.SetVariable
+ 0001:00001E40       TReport.SetVariableLines
+ 0001:00001FF4       TReport.RecalcReport
+ 0001:00002014       TReport.ReportActive
+ 0001:00002038       TReport.UseRunTime
+ 0001:00002050       TReport.Print
+ 0001:00002084       TReport.StartApplication
+ 0001:00002220       TReport.CloseReport
+ 0001:00002258       TReport.Connect
+ 0001:00002324       TReport.CloseApplication
+ 0001:00002368       TReport.GetReportHandle
+ 0001:00002404       TReport.GetBusy
+ 0001:00002428       TReport.RunMacro
+ 0001:0000245C       TReport.RunApp
+ 0001:000025E0       TReport.Run
+ 0001:00002614       TReport.RunReport
+ 0001:000029A8       TReport.Notification
+ 0001:000029D0       TReportManager.Create
+ 0001:00002A34       TReportManager.Destroy
+ 0001:00002A78       TReportManager.Clear
+ 0001:00002A98       TReportManager.WndProc
+ 0001:00002AD4       TReportManager.ServerProc
+ 0001:00002BC4       TReportManager.Add
+ 0001:00002BE0       TReportManager.Remove
+ 0001:00002C0C       TReportManager.AddDataSet
+ 0001:00002C5C       TReportManager.GetDataSet
+ 0001:00002C74       TReportManager.GetReport
+ 0001:00002C88       TReportManager.UpdateDataSets
+ 0001:00002D10       GetDataSize
+ 0001:00002D70       TReportManager.ExecuteSQL
+ 0001:00003008       TReportManager.GetData
+ 0001:000031BC       TReportManager.GetNext
+ 0001:00003260       TReportManager.GetMemo
+ 0001:00003370       TReportManager.ValidDataType
+ 0001:00003390       TReportManager.EndSQL
+ 0001:00003404       TReportManager.GetDataSets
+ 0001:0000341C       TReportManager.GetTableList
+ 0001:000034B0       TReportManager.GetDataSetByName
+ 0001:0000353C       GetNamesByField
+ 0001:000035C4       GetNamesByFieldDef
+ 0001:00003650       TReportManager.GetColumnList
+ 0001:00003744       ProcessRequest
+ 0001:000037C0       WaitForRequest
+ 0001:000037E8       Initialize
+ 0001:00003840       Finalize
+ 0001:000038AC       Finalization
+ 0001:000038EC       Report
+ 0001:00004EA8       TDBLookupCombo.Create
+ 0001:00005048       TDBLookupCombo.Destroy
+ 0001:00005088       TDBLookupCombo.Notification
+ 0001:000050D8       TDBLookupCombo.Editable
+ 0001:00005108       TDBLookupCombo.CanEdit
+ 0001:00005138       TDBLookupCombo.KeyDown
+ 0001:00005218       TDBLookupCombo.KeyPress
+ 0001:000052F0       TDBLookupCombo.Change
+ 0001:00005310       TDBLookupCombo.GetDataSource
+ 0001:0000531C       TDBLookupCombo.SetDataSource
+ 0001:000053F0       TDBLookupCombo.GetLookupSource
+ 0001:000053FC       TDBLookupCombo.SetLookupSource
+ 0001:000054A4       TDBLookupCombo.SetLookupDisplay
+ 0001:000054D4       TDBLookupCombo.GetLookupDisplay
+ 0001:000054F0       TDBLookupCombo.SetLookupField
+ 0001:00005518       TDBLookupCombo.GetLookupField
+ 0001:00005534       TDBLookupCombo.GetDataField
+ 0001:00005550       TDBLookupCombo.SetDataField
+ 0001:0000555C       TDBLookupCombo.DataChange
+ 0001:000055C8       TDBLookupCombo.GetValue
+ 0001:000055FC       TDBLookupCombo.GetDisplayValue
+ 0001:00005610       TDBLookupCombo.SetDisplayValue
+ 0001:00005658       TDBLookupCombo.SetValue
+ 0001:00005760       TDBLookupCombo.GetReadOnly
+ 0001:0000576C       TDBLookupCombo.SetReadOnly
+ 0001:00005790       TDBLookupCombo.EditingChange
+ 0001:000057A8       TDBLookupCombo.UpdateData
+ 0001:00005834       TDBLookupCombo.FieldLinkActive
+ 0001:00005870       TDBLookupCombo.WMPaste
+ 0001:000058A4       TDBLookupCombo.WMCut
+ 0001:000058D8       TDBLookupCombo.CreateParams
+ 0001:000058F4       TDBLookupCombo.CreateWnd
+ 0001:0000591C       TDBLookupCombo.SetEditRect
+ 0001:00005968       TDBLookupCombo.WMSize
+ 0001:00005A34       TDBLookupCombo.GetMinHeight
+ 0001:00005AB0       TDBLookupCombo.WMPaint
+ 0001:00005CE4       TDBLookupCombo.CMFontChanged
+ 0001:00005CF8       TDBLookupCombo.CMEnabledChanged
+ 0001:00005D18       TDBLookupCombo.WMKillFocus
+ 0001:00005D34       TDBLookupCombo.CMCancelMode
+ 0001:00005D60       TDBLookupCombo.CMHintShow
+ 0001:00005D70       TDBLookupCombo.DropDown
+ 0001:00005FCC       TDBLookupCombo.CloseUp
+ 0001:00005FDC       TDBLookupCombo.GridClick
+ 0001:00006018       TDBLookupCombo.SetStyle
+ 0001:00006028       TDBLookupCombo.WMLButtonDown
+ 0001:00006054       TDBLookupCombo.WMLButtonUp
+ 0001:0000607C       TDBLookupCombo.WMLButtonDblClk
+ 0001:000060A8       TDBLookupCombo.NonEditMouseDown
+ 0001:0000612C       MouseDragToGrid
+ 0001:000061FC       TDBLookupCombo.MouseMove
+ 0001:00006258       TDBLookupCombo.WMSetFocus
+ 0001:0000627C       TDBLookupCombo.CMExit
+ 0001:000062F4       TDBLookupCombo.CMEnter
+ 0001:00006330       TDBLookupCombo.DoSelectAll
+ 0001:00006348       TDBLookupCombo.SetOptions
+ 0001:0000635C       TDBLookupCombo.GetOptions
+ 0001:0000636C       TDBLookupCombo.Loaded
+ 0001:00006384       TDBLookupList.Create
+ 0001:0000644C       TDBLookupList.Destroy
+ 0001:0000648C       TDBLookupList.CreateWnd
+ 0001:000064A4       TDBLookupList.Notification
+ 0001:000064E0       TDBLookupList.GetDataSource
+ 0001:000064EC       TDBLookupList.SetDataSource
+ 0001:0000658C       TDBLookupList.GetLookupSource
+ 0001:00006594       TDBLookupList.NewLayout
+ 0001:000065C0       TDBLookupList.SetLookupSource
+ 0001:0000669C       TDBLookupList.SetLookupDisplay
+ 0001:000066C8       TDBLookupList.SetLookupField
+ 0001:000066F4       TDBLookupList.SetValue
+ 0001:00006858       TDBLookupList.SetDisplayValue
+ 0001:0000699C       TDBLookupList.DoLookup
+ 0001:00006AD8       TDBLookupList.GetDataField
+ 0001:00006AF4       TDBLookupList.SetDataField
+ 0001:00006B00       TDBLookupList.GetReadOnly
+ 0001:00006B0C       TDBLookupList.CanEdit
+ 0001:00006B24       TDBLookupList.SetReadOnly
+ 0001:00006B30       TDBLookupList.DataChange
+ 0001:00006B9C       TDBLookupList.UpdateData
+ 0001:00006BC0       TDBLookupList.InitFields
+ 0001:00006DA0       TDBLookupList.DefineFieldMap
+ 0001:00006E50       TDBLookupList.SetColumnAttributes
+ 0001:00006ED8       TDBLookupList.WMSize
+ 0001:00006EF0       TDBLookupList.CanGridAcceptKey
+ 0001:0000703C       TDBLookupList.KeyDown
+ 0001:000070CC       TDBLookupList.KeyPress
+ 0001:00007108       TDBLookupList.MouseDown
+ 0001:00007254       TDBLookupList.MouseMove
+ 0001:000072A0       TDBLookupList.MouseUp
+ 0001:000072FC       TDBLookupList.ListClick
+ 0001:000073D4       TDBLookupList.HighlightCell
+ 0001:0000751C       TDBLookupList.Paint
+ 0001:0000757C       TDBLookupList.Scroll
+ 0001:000075B8       TDBLookupList.LinkActive
+ 0001:00007650       TDBLookupList.FieldLinkActive
+ 0001:00007670       TDBLookupList.CMEnter
+ 0001:00007690       TDBLookupList.CMExit
+ 0001:00007704       TDBLookupList.SetOptions
+ 0001:0000778C       TDBLookupList.Loaded
+ 0001:000077A4       TPopupGrid.Create
+ 0001:000077EC       TPopupGrid.CreateParams
+ 0001:00007800       TPopupGrid.CreateWnd
+ 0001:00007848       TPopupGrid.WMLButtonUp
+ 0001:00007868       TPopupGrid.CanEdit
+ 0001:00007888       TPopupGrid.MouseDown
+ 0001:000078C4       TPopupGrid.LinkActive
+ 0001:0000790C       TPopupGrid.CMHintShow
+ 0001:00007914       TComboButton.MouseDown
+ 0001:000079B8       TComboButton.MouseMove
+ 0001:00007A10       Finalization
+ 0001:00007A40       dblookup
+ 0001:00007CE8       @GetPackageInfoTable
+ 0001:00007CF0       @PackageLoad
+ 0001:00007CFC       @PackageUnload
+ 0001:00007D08       vcldbx
+ 0002:00000000       TlsIndex
+ 0002:00000004       Module
+ 0002:0000001C       TlsProc
+ 0002:0000002C       ReportClassName
+ 0002:00001000       ModuleIsLib
+ 0002:00001001       ModuleIsPackage
+ 0002:00001004       HInstance
+ 0002:00001008       .1
+ 0002:0000100C       tlsBuffer
+ 0002:00001010       .3
+ 0002:00001014       .1
+ 0002:00001018       .1
+ 0002:0000101C       .1
+ 0002:00001020       .1
+ 0002:00001024       .1
+ 0002:00001028       .1
+ 0002:0000102C       .1
+ 0002:00001030       .1
+ 0002:00001034       .3
+ 0002:00001038       .1
+ 0002:0000103C       .1
+ 0002:00001040       .1
+ 0002:00001044       .1
+ 0002:00001048       .1
+ 0002:0000104C       .6
+ 0002:00001050       StartEvent
+ 0002:00001054       SyncEvent
+ 0002:00001058       SharedMem
+ 0002:0000105C       ProcessId
+ 0002:00001060       ReportManager
+ 0002:00001064       StmtHandles
+ 0002:00001104       DriverHandle
+ 0002:00001108       APIDriverHandle
+ 0002:0000110C       InitObjects
+ 0002:00001110       GetThread
+ 0002:00001114       RS_PrintReport
+ 0002:00001118       RS_SetRepVar
+ 0002:0000111C       RS_Recalc
+ 0002:00001120       RS_CloseReport
+ 0002:00001124       RS_CloseRS
+ 0002:00001128       RS_SetRecordLimit
+ 0002:0000112C       RS_LoadReport
+ 0002:00001130       RS_ByteVersion
+ 0002:00001134       RS_Connect
+ 0002:00001138       RS_IsBusy
+ 0002:0000113C       RS_RunMacro
+ 0002:00001140       RS_IsReportSmithPresent
+ 0002:00001144       RS_Initiate
+ 0002:00001148       RS_RegisterCallBack
+ 0002:0000114C       .5
+
+
+Bound resource files
+
+vcldbx.res
+C:\DOCUME~1\~KOKOP~1\LOCALS~1\Temp\dtf2718.tmp
+
+
+Program entry point at 0001:00007D08

@@ -1,0 +1,21 @@
+
+The complete InterBase documentation set with full-text search
+is available online in Adobe Acrobat format. You can install
+the documentation set on your hard drive in the
+<ib_install_dir>\doc directory, or you can create shortcuts
+to it and browse the \doc directory of the InterBase CD-ROM.
+
+You can access all the books from the 2AllBooks.pdf in
+the doc directory.
+
+The SQL Reference is available in two formats: 
+The HTML version is in the <ib_install_dir>\doc\SqlRef directory 
+and the WinHelp version is in the <ib_install_dir>\bin directory.
+
+WINDOWS NT/2000 AND WINDOWS 98/ME
+To install the documentation, insert the InterBase CD-ROM
+and choose "InterBase 6: Documentation in PDF format"
+from the launcher.
+
+If you have Autorun disabled, run the setup.exe that is at
+the root of the CD-ROM.

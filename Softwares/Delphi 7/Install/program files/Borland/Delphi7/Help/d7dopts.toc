@@ -1,0 +1,16 @@
+:Base d7dopts.hlp>main
+:Title Delphi Compiler Options and Directives
+;
+1 Delphi Compiler Options and Directives
+2 Compiler directives overview=FHXR10869
+2 Delphi compiler directives (list)=CompilerDirectivesList
+2 Delphi command-line compiler
+3 Delphi command-line compiler overview=FHXR35942
+3 Delphi command-line compiler options=CommdlinCommandLineCompilerOptions
+3 Delphi compiler directives=CommdlinCompilerDirectiveOptions
+3 Delphi directory options=CommdlinDirectoryOptions
+3 Debug options=CommdlinDebugOptions
+3 Delphi configuration file=FHXR14693
+
+
+

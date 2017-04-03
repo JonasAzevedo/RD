@@ -3,7 +3,7 @@ unit unClasseBasica;
 interface
 
 uses
-  unFuncoes, ZDataset, unDM, Provider, DBClient, DB;
+  unFuncoes, unDM, ZDataset, Provider, DBClient, DB;
 
   type TBasica = class
     private
@@ -12,10 +12,12 @@ uses
 
       function GetCodigo: Integer;
       function GetMensagem: String;
+      function GetGenerator: String;
       function GetCdsDados: TClientDataSet;
       function GetFieldCodigo: TField;
       procedure SetMensagem(const psMensagem: String);
     protected
+      FsGenerator: String;
       FoFuncoes: TFuncoes;
       FoQryExecutar: TZQuery;
       FoQryDados: TZQuery;
@@ -23,9 +25,9 @@ uses
       FoCdsDados: TClientDataSet;
       FoFieldCodigo: TField;
 
-      procedure SetCodigo(const piCodigo: Integer);
-      function Atualizar: Boolean; virtual; abstract;
-      function Inserir: Boolean; virtual; abstract;
+      procedure SetCodigo(const pnCodigo: Integer);
+      function Atualizar: Integer; virtual; abstract;
+      function Inserir: Integer; virtual; abstract;
       function ValidarQryExecutarEstahAtivo: Boolean;
       function ValidarQryDadosEstahAtivo: Boolean;
       procedure IniciarTransacao;
@@ -35,10 +37,15 @@ uses
       procedure DefinirFieldsAcessoDados; virtual;
       procedure DefinirComponentesDadosParaNil; virtual;
       function ValidarFieldsAtivos: Boolean; virtual;
+      function ProcessarSalvamento: Integer; virtual;
+      procedure DefinirGenerator(const psGenerator: String);
       function ValidarPodeSalvar: Boolean;
+      function PegarCodigoUltimoRegistro: Integer;
+      procedure AtualizarCodigoRegistroInserido(const pnCodigo: Integer);
     public
       property prpCodigo: Integer read GetCodigo;
       property prpMensagem: String read GetMensagem write SetMensagem;
+      property prpGenerator: String read GetGenerator;
       property prpCdsDados: TClientDataSet read GetCdsDados;
       property prpFieldCodigo: TField read GetFieldCodigo;
 
@@ -48,11 +55,11 @@ uses
       function Editar: Boolean; virtual; abstract;
       function Novo: Boolean; virtual; abstract;
       function Salvar: Boolean; virtual;
-      function Deletar(const piCodigo: Integer): Boolean; virtual; abstract;
-      procedure DeletarCdsDados; virtual; abstract;
+      function Deletar(const pnCodigo: Integer): Boolean; virtual; abstract;
       procedure Cancelar; virtual; abstract;
+      procedure DeletarCdsDados;
       function ValidarCdsDadosEstahAtivo: Boolean;
-      function ValidarFieldCodigoEstahAtivo: Boolean;      
+      function ValidarFieldCodigoEstahAtivo: Boolean;
   end;
 
 implementation
@@ -66,6 +73,7 @@ constructor TBasica.Create;
 begin
   inherited;
   FoFuncoes := TFuncoes.Create;
+  DefinirGenerator(sSTRING_INDEFINIDO);
   Limpar;
   DefinirComponentesDadosParaNil;
   DefinirComponentesAcessoDados;
@@ -90,6 +98,11 @@ begin
   Result := FsMensagem;
 end;
 
+function TBasica.GetGenerator: String;
+begin
+  Result := FsGenerator;
+end;
+
 function TBasica.GetCdsDados: TClientDataSet;
 begin
   Result := FoCdsDados;
@@ -100,9 +113,9 @@ begin
   Result := FoFieldCodigo;
 end;
 
-procedure TBasica.SetCodigo(const piCodigo: Integer);
+procedure TBasica.SetCodigo(const pnCodigo: Integer);
 begin
-  FnCodigo := piCodigo;
+  FnCodigo := pnCodigo;
 end;
 
 procedure TBasica.SetMensagem(const psMensagem: String);
@@ -113,12 +126,16 @@ end;
 procedure TBasica.Limpar;
 begin
   FnCodigo := nNUMERO_INDEFINIDO;
-  FsMensagem := sSTRING_INDEFINIDO;
+  prpMensagem := sSTRING_INDEFINIDO;
 end;
 
 function TBasica.Salvar: Boolean;
+var
+  nProcessarSalvamento: Integer;
 begin
-  Result := ValidarPodeSalvar;
+  nProcessarSalvamento := ProcessarSalvamento;
+  Result := (nProcessarSalvamento <> nNUMERO_INDEFINIDO) and
+    (nProcessarSalvamento <> nCANCELA_SALVAMENTO);
 end;
 
 procedure TBasica.DefinirComponentesAcessoDados;
@@ -132,7 +149,7 @@ begin
     Exit;
 
   if (FoCdsDados.FindField(sFIELD_CODIGO) <> nil) then
-  FoFieldCodigo := FoCdsDados.FindField(sFIELD_CODIGO);
+    FoFieldCodigo := FoCdsDados.FindField(sFIELD_CODIGO);
 end;
 
 procedure TBasica.DefinirComponentesDadosParaNil;
@@ -151,6 +168,14 @@ end;
 function TBasica.ValidarQryDadosEstahAtivo: Boolean;
 begin
   Result := (FoQryDados <> nil);
+end;
+
+procedure TBasica.DeletarCdsDados;
+begin
+  if not(ValidarCdsDadosEstahAtivo) then
+    Exit;
+
+  FoCdsDados.Delete;
 end;
 
 function TBasica.ValidarCdsDadosEstahAtivo: Boolean;
@@ -183,6 +208,19 @@ begin
   Result := ValidarFieldCodigoEstahAtivo;
 end;
 
+function TBasica.ProcessarSalvamento: Integer;
+begin
+  Result := nPROCESSANDO_SALVAMENTO;
+
+  if not(ValidarPodeSalvar) then
+    Result := nCANCELA_SALVAMENTO;
+end;
+
+procedure TBasica.DefinirGenerator(const psGenerator: String);
+begin
+  FsGenerator := psGenerator;
+end;
+
 function TBasica.ValidarPodeSalvar: Boolean;
 begin
   Result := False;
@@ -199,13 +237,40 @@ begin
     Exit;
   end;
 
-  if FoCdsDados.IsEmpty then
+  (*if FoCdsDados.IsEmpty then
   begin
     prpMensagem := sMSG_NAO_HA_DADOS_PARA_SALVAR;
     Exit;
-  end;
+  end;*)
 
   Result := True;
+end;
+
+function TBasica.PegarCodigoUltimoRegistro: Integer;
+begin
+  Result := nNUMERO_INDEFINIDO;
+  FoQryExecutar.Close;
+  FoQryExecutar.SQL.Clear;
+  FoQryExecutar.SQL.Add('SELECT gen_id(' + prpGenerator + ', 0) FROM RDB$DATABASE');
+  FoQryExecutar.Open;
+
+  if (FoQryExecutar.IsEmpty) then
+    Exit;
+
+  Result := FoQryExecutar.FieldByName('gen_id').AsInteger;
+end;
+
+procedure TBasica.AtualizarCodigoRegistroInserido(const pnCodigo: Integer);
+begin
+  if not(ValidarCdsDadosEstahAtivo) then
+    Exit;
+
+  if not(ValidarFieldCodigoEstahAtivo) then
+    Exit;
+
+  prpCdsDados.Edit;
+  prpFieldCodigo.AsInteger := pnCodigo;
+  prpCdsDados.Post;
 end;
 
 end.

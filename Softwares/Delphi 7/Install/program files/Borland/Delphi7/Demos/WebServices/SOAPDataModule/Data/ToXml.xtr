@@ -1,0 +1,46 @@
+<XmlTransformation Version="1.0"><Transform Direction="ToXml"><SelectEach from="DATAPACKET\ROWDATA\ROW" dest="\Document\Row"><Select from="@StringField" dest="\StringField"/><Select from="@DateField" dest="\DateField"/><Select from="@CurrencyField" dest="\CurrencyField"/><Select from="@TimeField" dest="\TimeField"/><Select from="@FloatField" dest="\FloatField"/><Select from="@BooleanField" dest="\BooleanField"/></SelectEach></Transform><XmlSchema RootName="Document"><![CDATA[<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Document" type="DocumentType"/>
+  <xs:complexType name="DocumentType">
+    <xs:sequence>
+      <xs:element name="Row" type="RowType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Row" type="RowType"/>
+  <xs:complexType name="RowType">
+    <xs:sequence>
+      <xs:element name="StringField" type="StringFieldType"/>
+      <xs:element name="DateField" type="DateFieldType"/>
+      <xs:element name="CurrencyField" type="CurrencyFieldType"/>
+      <xs:element name="TimeField" type="TimeFieldType"/>
+      <xs:element name="FloatField" type="FloatFieldType"/>
+      <xs:element name="BooleanField" type="BooleanFieldType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="StringField" type="StringFieldType"/>
+  <xs:simpleType name="StringFieldType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="DateField" type="DateFieldType"/>
+  <xs:simpleType name="DateFieldType">
+    <xs:restriction base="xs:date"/>
+  </xs:simpleType>
+  <xs:element name="CurrencyField" type="CurrencyFieldType"/>
+  <xs:simpleType name="CurrencyFieldType">
+    <xs:restriction base="xs:float"/>
+  </xs:simpleType>
+  <xs:element name="TimeField" type="TimeFieldType"/>
+  <xs:simpleType name="TimeFieldType">
+    <xs:restriction base="xs:timeInstant"/>
+  </xs:simpleType>
+  <xs:element name="FloatField" type="FloatFieldType"/>
+  <xs:simpleType name="FloatFieldType">
+    <xs:restriction base="xs:float"/>
+  </xs:simpleType>
+  <xs:element name="BooleanField" type="BooleanFieldType"/>
+  <xs:simpleType name="BooleanFieldType">
+    <xs:restriction base="xs:boolean"/>
+  </xs:simpleType>
+</xs:schema>]]></XmlSchema><CdsSkeleton><![CDATA[<DATAPACKET Version="2.0"><METADATA><FIELDS><FIELD attrname="StringField" fieldtype="string" WIDTH="10"/><FIELD attrname="DateField" fieldtype="date"/><FIELD attrname="CurrencyField" fieldtype="r8"/><FIELD attrname="TimeField" fieldtype="dateTime"/><FIELD attrname="FloatField" fieldtype="r8"/><FIELD attrname="BooleanField" fieldtype="boolean"/></FIELDS><PARAMS/></METADATA><ROWDATA/><METADATA><FIELDS><FIELD attrname="StringField" fieldtype="string" WIDTH="10"/><FIELD attrname="DateField" fieldtype="date"/><FIELD attrname="CurrencyField" fieldtype="r8"/><FIELD attrname="TimeField" fieldtype="dateTime"/><FIELD attrname="FloatField" fieldtype="r8"/><FIELD attrname="BooleanField" fieldtype="boolean"/></FIELDS><PARAMS/></METADATA><ROWDATA/></DATAPACKET>
+]]></CdsSkeleton><XslTransform/><Skeleton><![CDATA[<?xml version="1.0"?>
+<Document><Row><StringField></StringField><DateField></DateField><CurrencyField></CurrencyField><TimeField></TimeField><FloatField></FloatField><BooleanField></BooleanField></Row></Document>
+]]></Skeleton></XmlTransformation>

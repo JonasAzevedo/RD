@@ -1,0 +1,46 @@
+;WHAT'S NEW, IDE HELP
+:Index What's New in Delphi =d7new.hlp
+:Index Delphi Help =d7.hlp
+
+;DEVELOPER'S GUIDE
+:Index Programming with Delphi =d7prog.hlp
+:Index Developing Database Applications =d7dbd.hlp
+:Index Developing Distributed Applications =d7dap.hlp
+:Index Creating Custom Components =d7cw.hlp
+:Index Developing COM-based Applications  =d7com.hlp
+
+;OTHER BORLAND IDE HELP
+:Index External Translation Manager =d7etm.hlp
+:Index Package Component Editor =d7pce.hlp
+:Index Resource DLL Wizard =d7rdw.hlp
+:Index XMLMapper =d7xmlmap.hlp
+:Index DBExpress =d7dbx.hlp
+:Index Delphi Compiler Messages and Warnings =d7derrs.hlp
+:Index Delphi Compiler Options and Directives =d7dopts.hlp
+
+;WINDOWS OBJECT AND COMPONENT REFERENCE
+;:Index Object and Component Reference (Common)=d7ref.hlp
+;:Index VCL Reference=d7vcl.hlp
+;:Index CLX Reference=d7clx.hlp
+;:Index Web Object and Component Reference (ILIB)=d7ilib.hlp
+;:Index Open Tools API (IOTA)=d7iota.hlp
+
+;INTERBASE EXPRESS COMPONENTS
+;:Index InterBase Express Help =d7ibx.hlp
+
+;OBJECT PASCAL REFERENCE
+:Index Object Pascal Reference =d7dlr.hlp
+
+;THIRD-PARTY HELP
+;Indy
+;:Index Indy=d7indy.hlp
+;:Index Rave Developers Guide=Rave50DevGuide.hlp
+;:Index Rave Reports=Rave.hlp
+;NEWT
+;:Index NEWT Intranet ActiveX=nia.hlp
+;QuickReports
+;:Index QuickReports=quickrpt.hlp
+;Teechart
+;:Index TeeChart=teechart.hlp
+
+;;;;

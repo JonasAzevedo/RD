@@ -1,0 +1,180 @@
+object DlgConfEntryIDents: TDlgConfEntryIDents
+  Left = 765
+  Top = 140
+  Width = 383
+  Height = 299
+  VertScrollBar.Range = 273
+  HorzScrollBar.Range = 369
+  ActiveControl = PageControlSingleEntries
+  Caption = 'Conf Entry Identifiers'
+  Color = clButton
+  Position = poScreenCenter
+  Scaled = False
+  OnShow = FormShow
+  PixelsPerInch = 120
+  object PageControlSingleEntries: TPageControl
+    Left = 0
+    Top = 0
+    Width = 369
+    Height = 249
+    ActivePage = tsSingleEntryList
+    Style = tsNoTabs
+    TabOrder = 0
+    object tsSingleEntryList: TTabSheet
+      Caption = 'tsSingleEntryList'
+      TabVisible = False
+      object GroupBoxSingle: TGroupBox
+        Left = 0
+        Top = 2
+        Width = 361
+        Height = 209
+        Caption = 'Single Identifiers'
+        TabOrder = 0
+        object lbSingleNames: TListBox
+          Left = 16
+          Top = 40
+          Width = 121
+          Height = 143
+          TabOrder = 0
+          OnClick = lbSingleNamesClick
+        end
+        object Label1: TLabel
+          Left = 19
+          Top = 22
+          Width = 37
+          Height = 16
+          Caption = 'Name'
+        end
+        object Label2: TLabel
+          Left = 152
+          Top = 24
+          Width = 87
+          Height = 16
+          Caption = 'Identifier String'
+        end
+        object Label3: TLabel
+          Left = 144
+          Top = 48
+          Width = 201
+          Height = 64
+          Caption = 
+            'This is the entry string to search for. It is Case Sensitive and' +
+            ' should be left justified. Click on an existing entry for an exa' +
+            'mple.'
+          WordWrap = True
+        end
+        object EditSingleEntryIdentValue: TEdit
+          Left = 144
+          Top = 128
+          Width = 201
+          Height = 24
+          TabOrder = 4
+        end
+        object ButtonSingleAdd: TButton
+          Left = 144
+          Top = 160
+          Width = 65
+          Height = 25
+          Caption = 'Add'
+          TabOrder = 5
+          OnClick = ButtonSingleAddClick
+        end
+        object ButtonSingleDelete: TButton
+          Left = 272
+          Top = 160
+          Width = 65
+          Height = 25
+          Caption = 'Delete'
+          TabOrder = 6
+          OnClick = ButtonSingleDeleteClick
+        end
+        object ButtonSingleModify: TButton
+          Left = 208
+          Top = 160
+          Width = 65
+          Height = 25
+          Caption = 'Modify'
+          TabOrder = 7
+          OnClick = ButtonSingleModifyClick
+        end
+      end
+    end
+    object tsSingleEntryEdit: TTabSheet
+      Caption = 'tsSingleEntryEdit'
+      ImageIndex = 1
+      TabVisible = False
+      object GroupBoxEditEntry: TGroupBox
+        Left = 8
+        Top = 8
+        Width = 353
+        Height = 217
+        Caption = 'Edit Entry'
+        TabOrder = 0
+        object Label4: TLabel
+          Left = 16
+          Top = 24
+          Width = 70
+          Height = 16
+          Caption = 'Entry Name'
+        end
+        object EditSingleEntryName: TEdit
+          Left = 16
+          Top = 41
+          Width = 321
+          Height = 24
+          TabOrder = 1
+        end
+        object Label5: TLabel
+          Left = 16
+          Top = 72
+          Width = 83
+          Height = 16
+          Caption = 'Entry Identifier'
+        end
+        object EditSingleEntryIdentifier: TEdit
+          Left = 16
+          Top = 94
+          Width = 321
+          Height = 24
+          TabOrder = 3
+        end
+        object ButtonSingleEntryEditDone: TButton
+          Left = 88
+          Top = 144
+          Width = 75
+          Height = 25
+          Caption = 'Done'
+          TabOrder = 4
+          OnClick = ButtonSingleEntryEditDoneClick
+        end
+        object ButtonSingleEntryEditCancel: TButton
+          Left = 200
+          Top = 144
+          Width = 75
+          Height = 25
+          Caption = 'Cancel'
+          TabOrder = 5
+          OnClick = ButtonSingleEntryEditCancelClick
+        end
+      end
+    end
+  end
+  object ButtonOK: TButton
+    Left = 88
+    Top = 248
+    Width = 75
+    Height = 25
+    Caption = 'OK'
+    TabOrder = 1
+    OnClick = ButtonOKClick
+  end
+  object ButtonCancel: TButton
+    Left = 192
+    Top = 248
+    Width = 75
+    Height = 25
+    Cancel = True
+    Caption = 'Cancel'
+    TabOrder = 2
+  end
+end

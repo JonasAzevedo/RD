@@ -1,0 +1,1857 @@
+
+ Start         Length     Name                   Class
+ 0001:00000000 00020EBCH .text                   CODE
+ 0002:00000000 000002F4H .data                   DATA
+ 0002:000002F4 000008F5H .bss                    BSS
+
+
+Detailed map of segments
+
+ 0001:00000000 00000286 C=CODE     S=.text    G=(none)   M=System   ACBP=A9
+ 0001:00000288 000001EC C=CODE     S=.text    G=(none)   M=SysInit  ACBP=A9
+ 0001:00000474 0000010E C=CODE     S=.text    G=(none)   M=SysUtils ACBP=A9
+ 0001:00000584 0000000E C=CODE     S=.text    G=(none)   M=SysConst ACBP=A9
+ 0001:00000594 00000108 C=CODE     S=.text    G=(none)   M=Windows  ACBP=A9
+ 0001:0000069C 0000000E C=CODE     S=.text    G=(none)   M=Types    ACBP=A9
+ 0001:000006AC 00000038 C=CODE     S=.text    G=(none)   M=Messages ACBP=A9
+ 0001:000006E4 000001CE C=CODE     S=.text    G=(none)   M=Classes  ACBP=A9
+ 0001:000008B4 00000016 C=CODE     S=.text    G=(none)   M=ActiveX  ACBP=A9
+ 0001:000008CC 0000006E C=CODE     S=.text    G=(none)   M=TypInfo  ACBP=A9
+ 0001:0000093C 00000096 C=CODE     S=.text    G=(none)   M=Variants ACBP=A9
+ 0001:000009D4 0000000E C=CODE     S=.text    G=(none)   M=VarUtils ACBP=A9
+ 0001:000009E4 0000000E C=CODE     S=.text    G=(none)   M=RTLConsts ACBP=A9
+ 0001:000009F4 00000046 C=CODE     S=.text    G=(none)   M=Graphics ACBP=A9
+ 0001:00000A3C 0000000E C=CODE     S=.text    G=(none)   M=Consts   ACBP=A9
+ 0001:00000A4C 000001C6 C=CODE     S=.text    G=(none)   M=Controls ACBP=A9
+ 0001:00000C14 00000036 C=CODE     S=.text    G=(none)   M=ActnList ACBP=A9
+ 0001:00000C4C 0000000E C=CODE     S=.text    G=(none)   M=Contnrs  ACBP=A9
+ 0001:00000C5C 0000000E C=CODE     S=.text    G=(none)   M=Math     ACBP=A9
+ 0001:00000C6C 0000002E C=CODE     S=.text    G=(none)   M=ImgList  ACBP=A9
+ 0001:00000C9C 00000038 C=CODE     S=.text    G=(none)   M=CommCtrl ACBP=A9
+ 0001:00000CD4 0000017E C=CODE     S=.text    G=(none)   M=Forms    ACBP=A9
+ 0001:00000E54 0000000E C=CODE     S=.text    G=(none)   M=HelpIntfs ACBP=A9
+ 0001:00000E64 0000000E C=CODE     S=.text    G=(none)   M=MultiMon ACBP=A9
+ 0001:00000E74 00000038 C=CODE     S=.text    G=(none)   M=Imm      ACBP=A9
+ 0001:00000EAC 00000066 C=CODE     S=.text    G=(none)   M=Menus    ACBP=A9
+ 0001:00000F14 0000000E C=CODE     S=.text    G=(none)   M=Themes   ACBP=A9
+ 0001:00000F24 0000000E C=CODE     S=.text    G=(none)   M=UxTheme  ACBP=A9
+ 0001:00000F34 0000000E C=CODE     S=.text    G=(none)   M=SyncObjs ACBP=A9
+ 0001:00000F44 00000026 C=CODE     S=.text    G=(none)   M=ComCtrls ACBP=A9
+ 0001:00000F6C 00000038 C=CODE     S=.text    G=(none)   M=ShlObj   ACBP=A9
+ 0001:00000FA4 00000038 C=CODE     S=.text    G=(none)   M=UrlMon   ACBP=A9
+ 0001:00000FDC 00000038 C=CODE     S=.text    G=(none)   M=WinInet  ACBP=A9
+ 0001:00001014 00000038 C=CODE     S=.text    G=(none)   M=RegStr   ACBP=A9
+ 0001:0000104C 00000038 C=CODE     S=.text    G=(none)   M=ShellAPI ACBP=A9
+ 0001:00001084 0000000E C=CODE     S=.text    G=(none)   M=ListActns ACBP=A9
+ 0001:00001094 0000003E C=CODE     S=.text    G=(none)   M=ExtCtrls ACBP=A9
+ 0001:000010D4 000001AE C=CODE     S=.text    G=(none)   M=StdCtrls ACBP=A9
+ 0001:00001284 0000000E C=CODE     S=.text    G=(none)   M=WinHelpViewer ACBP=A9
+ 0001:00001294 0000000E C=CODE     S=.text    G=(none)   M=StdActns ACBP=A9
+ 0001:000012A4 00000026 C=CODE     S=.text    G=(none)   M=Dialogs  ACBP=A9
+ 0001:000012CC 0000000E C=CODE     S=.text    G=(none)   M=Printers ACBP=A9
+ 0001:000012DC 00000038 C=CODE     S=.text    G=(none)   M=WinSpool ACBP=A9
+ 0001:00001314 00000038 C=CODE     S=.text    G=(none)   M=CommDlg  ACBP=A9
+ 0001:0000134C 00000038 C=CODE     S=.text    G=(none)   M=Dlgs     ACBP=A9
+ 0001:00001384 0000000E C=CODE     S=.text    G=(none)   M=StrUtils ACBP=A9
+ 0001:00001394 0000000E C=CODE     S=.text    G=(none)   M=Clipbrd  ACBP=A9
+ 0001:000013A4 0000000E C=CODE     S=.text    G=(none)   M=FlatSB   ACBP=A9
+ 0001:000013B4 0000000E C=CODE     S=.text    G=(none)   M=ToolWin  ACBP=A9
+ 0001:000013C4 00000038 C=CODE     S=.text    G=(none)   M=RichEdit ACBP=A9
+ 0001:000013FC 0000000E C=CODE     S=.text    G=(none)   M=ExtActns ACBP=A9
+ 0001:0000140C 0000000E C=CODE     S=.text    G=(none)   M=Registry ACBP=A9
+ 0001:0000141C 0000000E C=CODE     S=.text    G=(none)   M=IniFiles ACBP=A9
+ 0001:0000142C 0000000E C=CODE     S=.text    G=(none)   M=ExtDlgs  ACBP=A9
+ 0001:0000143C 00000016 C=CODE     S=.text    G=(none)   M=Buttons  ACBP=A9
+ 0001:00001454 0000000E C=CODE     S=.text    G=(none)   M=Mapi     ACBP=A9
+ 0001:00001464 0000000E C=CODE     S=.text    G=(none)   M=ComStrs  ACBP=A9
+ 0001:00001474 0000039E C=CODE     S=.text    G=(none)   M=DB       ACBP=A9
+ 0001:00001814 0000000E C=CODE     S=.text    G=(none)   M=FMTBcd   ACBP=A9
+ 0001:00001824 0000000E C=CODE     S=.text    G=(none)   M=DBConsts ACBP=A9
+ 0001:00001834 0000000E C=CODE     S=.text    G=(none)   M=SqlTimSt ACBP=A9
+ 0001:00001844 0000000E C=CODE     S=.text    G=(none)   M=DateUtils ACBP=A9
+ 0001:00001854 0000000E C=CODE     S=.text    G=(none)   M=MaskUtils ACBP=A9
+ 0001:00001864 0000000E C=CODE     S=.text    G=(none)   M=ComObj   ACBP=A9
+ 0001:00001874 0000000E C=CODE     S=.text    G=(none)   M=ComConst ACBP=A9
+ 0001:00001884 00000406 C=CODE     S=.text    G=(none)   M=DBTables ACBP=A9
+ 0001:00001C8C 0000000E C=CODE     S=.text    G=(none)   M=SMINTF   ACBP=A9
+ 0001:00001C9C 00000046 C=CODE     S=.text    G=(none)   M=BDE      ACBP=A9
+ 0001:00001CE4 0000000E C=CODE     S=.text    G=(none)   M=DBCommon ACBP=A9
+ 0001:00001CF4 0000000E C=CODE     S=.text    G=(none)   M=bdeconst ACBP=A9
+ 0001:00001D04 0000000E C=CODE     S=.text    G=(none)   M=LibHelp  ACBP=A9
+ 0001:00001D14 00000980 C=CODE     S=.text    G=(none)   M=Dbedit   ACBP=A9
+ 0001:00002694 00000036 C=CODE     S=.text    G=(none)   M=DesignIntf ACBP=A9
+ 0001:000026CC 0000000E C=CODE     S=.text    G=(none)   M=DesignMenus ACBP=A9
+ 0001:000026DC 000000FE C=CODE     S=.text    G=(none)   M=DesignEditors ACBP=A9
+ 0001:000027DC 0000001E C=CODE     S=.text    G=(none)   M=Proxies  ACBP=A9
+ 0001:000027FC 0000000E C=CODE     S=.text    G=(none)   M=DesignConst ACBP=A9
+ 0001:0000280C 0000000E C=CODE     S=.text    G=(none)   M=ExptIntf ACBP=A9
+ 0001:0000281C 0000000E C=CODE     S=.text    G=(none)   M=ToolIntf ACBP=A9
+ 0001:0000282C 0000000E C=CODE     S=.text    G=(none)   M=FileIntf ACBP=A9
+ 0001:0000283C 00000036 C=CODE     S=.text    G=(none)   M=VirtIntf ACBP=A9
+ 0001:00002874 0000000E C=CODE     S=.text    G=(none)   M=EditIntf ACBP=A9
+ 0001:00002884 000009FC C=CODE     S=.text    G=(none)   M=QBE      ACBP=A9
+ 0001:00003280 00000840 C=CODE     S=.text    G=(none)   M=Ixedit   ACBP=A9
+ 0001:00003AC0 000000CE C=CODE     S=.text    G=(none)   M=DbExplIF ACBP=A9
+ 0001:00003B90 0000000E C=CODE     S=.text    G=(none)   M=DBLogDlg ACBP=A9
+ 0001:00003BA0 0000000E C=CODE     S=.text    G=(none)   M=VDBConsts ACBP=A9
+ 0001:00003BB0 0000001E C=CODE     S=.text    G=(none)   M=ExplMisc ACBP=A9
+ 0001:00003BD0 0000002E C=CODE     S=.text    G=(none)   M=DbxCtrl  ACBP=A9
+ 0001:00003C00 0000000E C=CODE     S=.text    G=(none)   M=ExplDx   ACBP=A9
+ 0001:00003C10 0000000E C=CODE     S=.text    G=(none)   M=RegExp   ACBP=A9
+ 0001:00003C20 0000000E C=CODE     S=.text    G=(none)   M=ReConst  ACBP=A9
+ 0001:00003C30 0000000E C=CODE     S=.text    G=(none)   M=DbxConst ACBP=A9
+ 0001:00003C40 0000000E C=CODE     S=.text    G=(none)   M=DbxDrag  ACBP=A9
+ 0001:00003C50 00000036 C=CODE     S=.text    G=(none)   M=DrpCtrls ACBP=A9
+ 0001:00003C88 0000007E C=CODE     S=.text    G=(none)   M=DSDesign ACBP=A9
+ 0001:00003D08 00000056 C=CODE     S=.text    G=(none)   M=DesignWindows ACBP=A9
+ 0001:00003D60 0000000E C=CODE     S=.text    G=(none)   M=ComponentDesigner ACBP=A9
+ 0001:00003D70 0000000E C=CODE     S=.text    G=(none)   M=Events   ACBP=A9
+ 0001:00003D80 0000000E C=CODE     S=.text    G=(none)   M=ToolUtils ACBP=A9
+ 0001:00003D90 00000016 C=CODE     S=.text    G=(none)   M=ToolsAPI ACBP=A9
+ 0001:00003DA8 0000000E C=CODE     S=.text    G=(none)   M=Update   ACBP=A9
+ 0001:00003DB8 0000000E C=CODE     S=.text    G=(none)   M=LibConst ACBP=A9
+ 0001:00003DC8 0000000E C=CODE     S=.text    G=(none)   M=Designer ACBP=A9
+ 0001:00003DD8 0000000E C=CODE     S=.text    G=(none)   M=StFilSys ACBP=A9
+ 0001:00003DE8 0000003E C=CODE     S=.text    G=(none)   M=IStreams ACBP=A9
+ 0001:00003E28 0000000E C=CODE     S=.text    G=(none)   M=AxCtrls  ACBP=A9
+ 0001:00003E38 0000000E C=CODE     S=.text    G=(none)   M=StdVCL   ACBP=A9
+ 0001:00003E48 0000000E C=CODE     S=.text    G=(none)   M=TopLevels ACBP=A9
+ 0001:00003E58 00000216 C=CODE     S=.text    G=(none)   M=TreeIntf ACBP=A9
+ 0001:00004070 0000000E C=CODE     S=.text    G=(none)   M=VCLEditors ACBP=A9
+ 0001:00004080 0000000E C=CODE     S=.text    G=(none)   M=DsnDBCst ACBP=A9
+ 0001:00004090 000000F6 C=CODE     S=.text    G=(none)   M=DBCtrls  ACBP=A9
+ 0001:00004188 0000000E C=CODE     S=.text    G=(none)   M=Mask     ACBP=A9
+ 0001:00004198 0000000E C=CODE     S=.text    G=(none)   M=DBPWDlg  ACBP=A9
+ 0001:000041A8 0000000E C=CODE     S=.text    G=(none)   M=DSDefine ACBP=A9
+ 0001:000041B8 0000000E C=CODE     S=.text    G=(none)   M=DSAdd    ACBP=A9
+ 0001:000041C8 0000001E C=CODE     S=.text    G=(none)   M=DBGrids  ACBP=A9
+ 0001:000041E8 0000000E C=CODE     S=.text    G=(none)   M=Grids    ACBP=A9
+ 0001:000041F8 00000016 C=CODE     S=.text    G=(none)   M=DrTable  ACBP=A9
+ 0001:00004210 00004250 C=CODE     S=.text    G=(none)   M=DRIntf   ACBP=A9
+ 0001:00008460 000006FC C=CODE     S=.text    G=(none)   M=DrpBDECt ACBP=A9
+ 0001:00008B5C 000003A2 C=CODE     S=.text    G=(none)   M=DBXTARG  ACBP=A9
+ 0001:00008F00 0000297C C=CODE     S=.text    G=(none)   M=Updsqled ACBP=A9
+ 0001:0000B87C 00000136 C=CODE     S=.text    G=(none)   M=FileCtrl ACBP=A9
+ 0001:0000B9B4 00000C0C C=CODE     S=.text    G=(none)   M=DbCombo  ACBP=A9
+ 0001:0000C5C0 0000003E C=CODE     S=.text    G=(none)   M=dblookup ACBP=A9
+ 0001:0000C600 00003AC0 C=CODE     S=.text    G=(none)   M=DataForm ACBP=A9
+ 0001:000100C0 000017C0 C=CODE     S=.text    G=(none)   M=DataModl ACBP=A9
+ 0001:00011880 000059EC C=CODE     S=.text    G=(none)   M=FrmExprt ACBP=A9
+ 0001:0001726C 00000046 C=CODE     S=.text    G=(none)   M=DbExplFm ACBP=A9
+ 0001:000172B4 0000000E C=CODE     S=.text    G=(none)   M=PropExpl ACBP=A9
+ 0001:000172C4 0000000E C=CODE     S=.text    G=(none)   M=LstBtns  ACBP=A9
+ 0001:000172D4 0000000E C=CODE     S=.text    G=(none)   M=DbBlobFm ACBP=A9
+ 0001:000172E4 0000000E C=CODE     S=.text    G=(none)   M=DbFmMisc ACBP=A9
+ 0001:000172F4 0000000E C=CODE     S=.text    G=(none)   M=ExplDb   ACBP=A9
+ 0001:00017304 0000000E C=CODE     S=.text    G=(none)   M=dbinpreq ACBP=A9
+ 0001:00017314 00000016 C=CODE     S=.text    G=(none)   M=DbExcept ACBP=A9
+ 0001:0001732C 0000000E C=CODE     S=.text    G=(none)   M=SaveAs   ACBP=A9
+ 0001:0001733C 0000000E C=CODE     S=.text    G=(none)   M=NewAlias ACBP=A9
+ 0001:0001734C 0000000E C=CODE     S=.text    G=(none)   M=AboutDbx ACBP=A9
+ 0001:0001735C 0000000E C=CODE     S=.text    G=(none)   M=ExplDr   ACBP=A9
+ 0001:0001736C 0000000E C=CODE     S=.text    G=(none)   M=DbSql    ACBP=A9
+ 0001:0001737C 0000000E C=CODE     S=.text    G=(none)   M=DbBde    ACBP=A9
+ 0001:0001738C 0000000E C=CODE     S=.text    G=(none)   M=BDETable ACBP=A9
+ 0001:0001739C 0000000E C=CODE     S=.text    G=(none)   M=DsOrder  ACBP=A9
+ 0001:000173AC 0000000E C=CODE     S=.text    G=(none)   M=DsIndex  ACBP=A9
+ 0001:000173BC 0000000E C=CODE     S=.text    G=(none)   M=DsRange  ACBP=A9
+ 0001:000173CC 0000000E C=CODE     S=.text    G=(none)   M=DsFilter ACBP=A9
+ 0001:000173DC 0000001E C=CODE     S=.text    G=(none)   M=DbxUiAdd ACBP=A9
+ 0001:000173FC 0000000E C=CODE     S=.text    G=(none)   M=OraErrs  ACBP=A9
+ 0001:0001740C 0000000E C=CODE     S=.text    G=(none)   M=SelectDr ACBP=A9
+ 0001:0001741C 0000000E C=CODE     S=.text    G=(none)   M=NewDr    ACBP=A9
+ 0001:0001742C 0000000E C=CODE     S=.text    G=(none)   M=ExptFile ACBP=A9
+ 0001:0001743C 0000000E C=CODE     S=.text    G=(none)   M=QOptions ACBP=A9
+ 0001:0001744C 0000000E C=CODE     S=.text    G=(none)   M=ScrptErr ACBP=A9
+ 0001:0001745C 0000000E C=CODE     S=.text    G=(none)   M=CfgComRa ACBP=A9
+ 0001:0001746C 0000000E C=CODE     S=.text    G=(none)   M=CfgComm  ACBP=A9
+ 0001:0001747C 0000000E C=CODE     S=.text    G=(none)   M=VerInfo  ACBP=A9
+ 0001:0001748C 0000000E C=CODE     S=.text    G=(none)   M=CfgRev   ACBP=A9
+ 0001:0001749C 0000000E C=CODE     S=.text    G=(none)   M=ExplImp  ACBP=A9
+ 0001:000174AC 0000000E C=CODE     S=.text    G=(none)   M=ExplImpV ACBP=A9
+ 0001:000174BC 00001304 C=CODE     S=.text    G=(none)   M=Dbxplor  ACBP=A9
+ 0001:000187C0 000006C4 C=CODE     S=.text    G=(none)   M=DbCmds   ACBP=A9
+ 0001:00018E84 00000350 C=CODE     S=.text    G=(none)   M=DBExpt   ACBP=A9
+ 0001:000191D4 000006CC C=CODE     S=.text    G=(none)   M=DSAttrS  ACBP=A9
+ 0001:000198A0 000007B0 C=CODE     S=.text    G=(none)   M=DSAttrA  ACBP=A9
+ 0001:0001A050 0000006E C=CODE     S=.text    G=(none)   M=ColnEdit ACBP=A9
+ 0001:0001A0C0 0000000E C=CODE     S=.text    G=(none)   M=ActnPopup ACBP=A9
+ 0001:0001A0D0 0000000E C=CODE     S=.text    G=(none)   M=ActnCtrls ACBP=A9
+ 0001:0001A0E0 0000000E C=CODE     S=.text    G=(none)   M=GraphUtil ACBP=A9
+ 0001:0001A0F0 0000000E C=CODE     S=.text    G=(none)   M=ActnMan  ACBP=A9
+ 0001:0001A100 0000000E C=CODE     S=.text    G=(none)   M=ActnColorMaps ACBP=A9
+ 0001:0001A110 0000000E C=CODE     S=.text    G=(none)   M=ActnMenus ACBP=A9
+ 0001:0001A120 0000000E C=CODE     S=.text    G=(none)   M=ShadowWnd ACBP=A9
+ 0001:0001A130 00000038 C=CODE     S=.text    G=(none)   M=MMSystem ACBP=A9
+ 0001:0001A168 0000000E C=CODE     S=.text    G=(none)   M=XPActnCtrls ACBP=A9
+ 0001:0001A178 00000016 C=CODE     S=.text    G=(none)   M=ToolWnds ACBP=A9
+ 0001:0001A190 000003F8 C=CODE     S=.text    G=(none)   M=CNCOLEDT ACBP=A9
+ 0001:0001A588 00000210 C=CODE     S=.text    G=(none)   M=GqeDelph ACBP=A9
+ 0001:0001A798 00000334 C=CODE     S=.text    G=(none)   M=tblrenam ACBP=A9
+ 0001:0001AACC 00000384 C=CODE     S=.text    G=(none)   M=TblDsgn  ACBP=A9
+ 0001:0001AE50 0000000E C=CODE     S=.text    G=(none)   M=Report   ACBP=A9
+ 0001:0001AE60 0000000E C=CODE     S=.text    G=(none)   M=DdeMan   ACBP=A9
+ 0001:0001AE70 00000038 C=CODE     S=.text    G=(none)   M=DDEml    ACBP=A9
+ 0001:0001AEA8 0000000E C=CODE     S=.text    G=(none)   M=RSCONSTS ACBP=A9
+ 0001:0001AEB8 00000036 C=CODE     S=.text    G=(none)   M=DBReg    ACBP=A9
+ 0001:0001AEF0 0000000E C=CODE     S=.text    G=(none)   M=DBColnEd ACBP=A9
+ 0001:0001AF00 0000000E C=CODE     S=.text    G=(none)   M=DBActRes ACBP=A9
+ 0001:0001AF10 0000000E C=CODE     S=.text    G=(none)   M=DBActns  ACBP=A9
+ 0001:0001AF20 0000002E C=CODE     S=.text    G=(none)   M=FldLinks ACBP=A9
+ 0001:0001AF50 0000005E C=CODE     S=.text    G=(none)   M=DsnDb    ACBP=A9
+ 0001:0001AFB0 00000126 C=CODE     S=.text    G=(none)   M=DiagramSupport ACBP=A9
+ 0001:0001B0D8 0000000E C=CODE     S=.text    G=(none)   M=DiagramViewModels ACBP=A9
+ 0001:0001B0E8 0000000E C=CODE     S=.text    G=(none)   M=ModelPrimitives ACBP=A9
+ 0001:0001B0F8 0000000E C=CODE     S=.text    G=(none)   M=ModelFactories ACBP=A9
+ 0001:0001B108 0000000E C=CODE     S=.text    G=(none)   M=ModelDesigner ACBP=A9
+ 0001:0001B118 0000000E C=CODE     S=.text    G=(none)   M=ModelViews ACBP=A9
+ 0001:0001B128 0000000E C=CODE     S=.text    G=(none)   M=ModelTypes ACBP=A9
+ 0001:0001B138 0000000E C=CODE     S=.text    G=(none)   M=ModelClasses ACBP=A9
+ 0001:0001B148 0000000E C=CODE     S=.text    G=(none)   M=StringScanner ACBP=A9
+ 0001:0001B158 0000000E C=CODE     S=.text    G=(none)   M=ModelUtils ACBP=A9
+ 0001:0001B168 0000000E C=CODE     S=.text    G=(none)   M=ModelCaps ACBP=A9
+ 0001:0001B178 0000000E C=CODE     S=.text    G=(none)   M=ModelControl ACBP=A9
+ 0001:0001B188 0000000E C=CODE     S=.text    G=(none)   M=EditorViewSupport ACBP=A9
+ 0001:0001B198 0000000E C=CODE     S=.text    G=(none)   M=StrEdit  ACBP=A9
+ 0001:0001B1A8 0000000E C=CODE     S=.text    G=(none)   M=ValueEdit ACBP=A9
+ 0001:0001B1B8 0000000E C=CODE     S=.text    G=(none)   M=ValEdit  ACBP=A9
+ 0001:0001B1C8 0000000E C=CODE     S=.text    G=(none)   M=StringsEdit ACBP=A9
+ 0001:0001B1D8 0000561C C=CODE     S=.text    G=(none)   M=BDEReg   ACBP=A9
+ 0001:000207F4 000006C5 C=CODE     S=.text    G=(none)   M=dclbde   ACBP=A9
+ 0002:00000000 00000030 C=DATA     S=.data    G=DGROUP   M=SysInit  ACBP=A9
+ 0002:00000030 0000000C C=DATA     S=.data    G=DGROUP   M=QBE      ACBP=A9
+ 0002:0000003C 00000026 C=DATA     S=.data    G=DGROUP   M=DRIntf   ACBP=A9
+ 0002:00000064 00000010 C=DATA     S=.data    G=DGROUP   M=DataForm ACBP=A9
+ 0002:00000074 000000B4 C=DATA     S=.data    G=DGROUP   M=FrmExprt ACBP=A9
+ 0002:00000128 00000014 C=DATA     S=.data    G=DGROUP   M=Dbxplor  ACBP=A9
+ 0002:0000013C 00000010 C=DATA     S=.data    G=DGROUP   M=TblDsgn  ACBP=A9
+ 0002:0000014C 0000009A C=DATA     S=.data    G=DGROUP   M=BDEReg   ACBP=A9
+ 0002:00001000 00000010 C=BSS      S=.bss     G=DGROUP   M=SysInit  ACBP=A9
+ 0002:00001010 00000004 C=BSS      S=.bss     G=DGROUP   M=Windows  ACBP=A9
+ 0002:00001014 00000004 C=BSS      S=.bss     G=DGROUP   M=Messages ACBP=A9
+ 0002:00001018 00000004 C=BSS      S=.bss     G=DGROUP   M=CommCtrl ACBP=A9
+ 0002:0000101C 00000004 C=BSS      S=.bss     G=DGROUP   M=Imm      ACBP=A9
+ 0002:00001020 00000004 C=BSS      S=.bss     G=DGROUP   M=ShlObj   ACBP=A9
+ 0002:00001024 00000004 C=BSS      S=.bss     G=DGROUP   M=UrlMon   ACBP=A9
+ 0002:00001028 00000004 C=BSS      S=.bss     G=DGROUP   M=WinInet  ACBP=A9
+ 0002:0000102C 00000004 C=BSS      S=.bss     G=DGROUP   M=RegStr   ACBP=A9
+ 0002:00001030 00000004 C=BSS      S=.bss     G=DGROUP   M=ShellAPI ACBP=A9
+ 0002:00001034 00000004 C=BSS      S=.bss     G=DGROUP   M=WinSpool ACBP=A9
+ 0002:00001038 00000004 C=BSS      S=.bss     G=DGROUP   M=CommDlg  ACBP=A9
+ 0002:0000103C 00000004 C=BSS      S=.bss     G=DGROUP   M=Dlgs     ACBP=A9
+ 0002:00001040 00000004 C=BSS      S=.bss     G=DGROUP   M=RichEdit ACBP=A9
+ 0002:00001044 00000004 C=BSS      S=.bss     G=DGROUP   M=Dbedit   ACBP=A9
+ 0002:00001048 00000030 C=BSS      S=.bss     G=DGROUP   M=QBE      ACBP=A9
+ 0002:00001078 00000004 C=BSS      S=.bss     G=DGROUP   M=Ixedit   ACBP=A9
+ 0002:0000107C 00000016 C=BSS      S=.bss     G=DGROUP   M=DRIntf   ACBP=A9
+ 0002:00001094 00000004 C=BSS      S=.bss     G=DGROUP   M=DrpBDECt ACBP=A9
+ 0002:00001098 00000004 C=BSS      S=.bss     G=DGROUP   M=DBXTARG  ACBP=A9
+ 0002:0000109C 00000004 C=BSS      S=.bss     G=DGROUP   M=Updsqled ACBP=A9
+ 0002:000010A0 00000004 C=BSS      S=.bss     G=DGROUP   M=DbCombo  ACBP=A9
+ 0002:000010A4 00000404 C=BSS      S=.bss     G=DGROUP   M=DataForm ACBP=A9
+ 0002:000014A8 00000404 C=BSS      S=.bss     G=DGROUP   M=DataModl ACBP=A9
+ 0002:000018AC 00000004 C=BSS      S=.bss     G=DGROUP   M=FrmExprt ACBP=A9
+ 0002:000018B0 00000008 C=BSS      S=.bss     G=DGROUP   M=Dbxplor  ACBP=A9
+ 0002:000018B8 00000008 C=BSS      S=.bss     G=DGROUP   M=DbCmds   ACBP=A9
+ 0002:000018C0 00000004 C=BSS      S=.bss     G=DGROUP   M=DBExpt   ACBP=A9
+ 0002:000018C4 00000004 C=BSS      S=.bss     G=DGROUP   M=DSAttrS  ACBP=A9
+ 0002:000018C8 00000004 C=BSS      S=.bss     G=DGROUP   M=DSAttrA  ACBP=A9
+ 0002:000018CC 00000004 C=BSS      S=.bss     G=DGROUP   M=MMSystem ACBP=A9
+ 0002:000018D0 00000004 C=BSS      S=.bss     G=DGROUP   M=CNCOLEDT ACBP=A9
+ 0002:000018D4 0000000C C=BSS      S=.bss     G=DGROUP   M=GqeDelph ACBP=A9
+ 0002:000018E0 00000008 C=BSS      S=.bss     G=DGROUP   M=tblrenam ACBP=A9
+ 0002:000018E8 00000004 C=BSS      S=.bss     G=DGROUP   M=TblDsgn  ACBP=A9
+ 0002:000018EC 00000004 C=BSS      S=.bss     G=DGROUP   M=DDEml    ACBP=A9
+ 0002:000018F0 00000004 C=BSS      S=.bss     G=DGROUP   M=BDEReg   ACBP=A9
+
+
+  Address         Publics by Name
+
+ 0002:0000107C       .1
+ 0002:00001048       .1
+ 0002:000018D4       .1
+ 0002:00001008       .1
+ 0002:00001040       .1
+ 0002:0000103C       .1
+ 0002:00001038       .1
+ 0002:00001030       .1
+ 0002:0000102C       .1
+ 0002:00001028       .1
+ 0002:00001024       .1
+ 0002:00001020       .1
+ 0002:0000101C       .1
+ 0002:00001018       .1
+ 0002:000018EC       .1
+ 0002:00001014       .1
+ 0002:000018C0       .1
+ 0002:00001094       .1
+ 0002:000018F0       .12
+ 0002:000018BC       .2
+ 0002:00001098       .2
+ 0002:000018C8       .2
+ 0002:000014A8       .2
+ 0002:000018E8       .2
+ 0002:000010A4       .2
+ 0002:000018C4       .2
+ 0002:00001078       .2
+ 0002:000018E4       .2
+ 0002:00001044       .2
+ 0002:000018AC       .3
+ 0002:00001034       .3
+ 0002:00001010       .3
+ 0002:000018B0       .3
+ 0002:0000109C       .3
+ 0002:000018D0       .3
+ 0002:000010A0       .4
+ 0002:000018CC       .7
+ 0001:00020E94       @GetPackageInfoTable
+ 0001:000003C0       @InitPkg
+ 0001:00000424       @PackageLoad
+ 0001:00020E9C       @PackageLoad
+ 0001:00020EA8       @PackageUnload
+ 0001:00000430       @PackageUnload
+ 0001:00006324       AddAttrs
+ 0001:00007C40       AddConstraint
+ 0001:00007E48       AddQueryConstraints
+ 0001:00007D98       AddTableConstraints
+ 0001:000002C0       AllocTlsBuffer
+ 0001:0000060C       AnsiToOem
+ 0001:000069BC       AssociateAttr
+ 0002:0000014C       AttributeMenus
+ 0001:0001D380       Backslash
+ 0001:000207E0       BDEReg
+ 0001:0001A66C       BuildQuery
+ 0001:0001501C       CheckAliasDrive
+ 0001:0000C8B0       CheckFieldName
+ 0001:00002BF4       CheckOpenSQLEditor
+ 0001:00007B98       ClearOldConstraints
+ 0001:00000594       CloseHandle
+ 0001:00002B8C       CloseVQB
+ 0001:0001A580       CNCOLEDT
+ 0001:00000CCC       CommCtrl
+ 0001:00001344       CommDlg
+ 0001:0001AB84       Confirm
+ 0002:000000B0       ControlWidths
+ 0001:000148F4       CreateControls
+ 0001:00008674       CreateDatabase
+ 0001:000089E4       CreateDroppedControl
+ 0001:00008908       CreateField
+ 0001:00006F70       CreateField
+ 0001:0000059C       CreateFileMapping
+ 0001:00004668       CreateLinks
+ 0001:000049D0       CreateList
+ 0001:000005A4       CreateProcess
+ 0001:00008460       CreateStoredProc
+ 0001:000084A8       CreateStoredProcControl
+ 0001:0000850C       CreateTable
+ 0001:00008548       CreateTableControl
+ 0001:00004AF4       CurrentDictionary
+ 0002:00000038       CursorName
+ 0002:000018B8       DatabaseCommands
+ 0001:00018458       DatabaseExplorer
+ 0001:000177B8       Databases
+ 0001:0000FFF4       DataForm
+ 0001:00011838       DataModl
+ 0001:00018E7C       DbCmds
+ 0001:0000C5B8       DbCombo
+ 0001:0000268C       Dbedit
+ 0001:000191CC       DBExpt
+ 0002:00000034       DBName
+ 0001:000177A0       DbXDelphi
+ 0002:000018B4       DbXFileSystem
+ 0001:000187B8       Dbxplor
+ 0001:00008E8C       DBXTARG
+ 0001:00020EB4       dclbde
+ 0001:0001AEA0       DDEml
+ 0001:0001D3E4       Delimit
+ 0002:000000A4       DetailTable
+ 0002:00001080       Dictionary
+ 0001:000067A4       DictionaryActive
+ 0001:0000678C       DictionaryDeactivate
+ 0001:0000137C       Dlgs
+ 0001:000081B8       DRIntf
+ 0001:00008B54       DrpBDECt
+ 0001:0001A048       DSAttrA
+ 0001:00019898       DSAttrS
+ 0001:00002094       EditDatabase
+ 0001:00003674       EditIndexFiles
+ 0001:00009508       EditUpdateSQL
+ 0001:00002DB4       ExecBuilder
+ 0002:000001C4       ExistsActions
+ 0001:0000036C       ExitProcessTLS
+ 0001:00000344       ExitThreadTLS
+ 0001:00018468       ExploreDatabase
+ 0001:0001859C       ExploreDataset
+ 0002:00001084       FieldToAttribute
+ 0001:00003A88       Finalization
+ 0001:00008168       Finalization
+ 0001:00003240       Finalization
+ 0001:00008B24       Finalization
+ 0001:00008E5C       Finalization
+ 0001:0000B844       Finalization
+ 0001:0000C588       Finalization
+ 0001:0000265C       Finalization
+ 0001:00011808       Finalization
+ 0001:000013C4       Finalization
+ 0001:0000134C       Finalization
+ 0001:00001314       Finalization
+ 0001:000012DC       Finalization
+ 0001:0000104C       Finalization
+ 0001:00017200       Finalization
+ 0001:00001014       Finalization
+ 0001:00000FDC       Finalization
+ 0001:00000FA4       Finalization
+ 0001:00000F6C       Finalization
+ 0001:00000E74       Finalization
+ 0001:00000C9C       Finalization
+ 0001:000006AC       Finalization
+ 0001:00000664       Finalization
+ 0001:0001870C       Finalization
+ 0001:00018E4C       Finalization
+ 0001:00019184       Finalization
+ 0001:00019868       Finalization
+ 0001:0001A018       Finalization
+ 0001:0001A130       Finalization
+ 0001:0001A550       Finalization
+ 0001:0000043C       Finalization
+ 0001:0001A758       Finalization
+ 0001:0001AA94       Finalization
+ 0001:0001ADD0       Finalization
+ 0001:0001AE70       Finalization
+ 0001:0002076C       Finalization
+ 0001:0000FFC4       Finalization
+ 0001:000068CC       FindAttrID
+ 0001:00008860       FindAttrs
+ 0001:000086B4       FindControlClass
+ 0001:000067E4       FindDatabaseID
+ 0001:00006B60       FindFieldClass
+ 0001:00006A70       FindFieldClassName
+ 0001:00006858       FindFieldID
+ 0001:0000681C       FindTableID
+ 0001:000005AC       FreeLibrary
+ 0001:00000288       FreeLibrary
+ 0001:000124A8       FreeList
+ 0001:00017264       FrmExprt
+ 0001:0000C8F8       GenerateName
+ 0001:0000A5B8       GenFieldList
+ 0001:00000614       GetActiveWindow
+ 0001:00019B34       GetAssociateAttributes
+ 0001:00006894       GetAttrID
+ 0001:00006904       GetAttrName
+ 0001:0000699C       GetAttrNames
+ 0001:00007164       GetControlClass
+ 0001:000097B8       GetDataFieldNames
+ 0001:00005658       GetDefault
+ 0001:00006C40       GetDefaultFieldClass
+ 0001:000005FC       GetDeviceCaps
+ 0001:000089A0       GetField
+ 0001:000005B4       GetLastError
+ 0001:000034F8       GetPath
+ 0001:000005BC       GetProcAddress
+ 0001:0000554C       GetProp
+ 0001:000124D8       GetQuoteChar
+ 0001:00009570       GetSelectedItems
+ 0001:00003168       GetSQL
+ 0001:000098F0       GetSQLTableNames
+ 0001:0000061C       GetSystemMetrics
+ 0001:000085AC       GetTable
+ 0001:000087BC       GetTableDesc
+ 0001:00000604       GetTextMetrics
+ 0001:000002CC       GetTlsSize
+ 0001:0000D2E8       GetTotalHeight
+ 0001:0000D288       GetTotalWidth
+ 0001:00007BD0       GetValue
+ 0001:000005C4       GlobalFree
+ 0001:000005CC       GlobalLock
+ 0001:000005D4       GlobalUnlock
+ 0001:0001A790       GqeDelph
+ 0002:000018D8       GQEHandle
+ 0001:0001A62C       GQELoadAttempted
+ 0001:0001A638       GQELoaded
+ 0002:000018DC       GQEProc
+ 0001:00007960       HasConstraints
+ 0002:00000068       HeightPad
+ 0002:00001004       HInstance
+ 0001:00004958       IDToObject
+ 0002:00000074       Images
+ 0001:00000EA4       Imm
+ 0001:00013040       InitChoices
+ 0001:0000ADB0       InitFromDataSet
+ 0001:0000AE00       InitFromUpdateSQL
+ 0001:00000390       InitializeModule
+ 0001:00000318       InitProcessTLS
+ 0001:000002D4       InitThreadTLS
+ 0001:00002968       InitVQB
+ 0001:0001E12C       IsDatabaseOpen
+ 0001:00009A1C       IsKatakana
+ 0001:00006718       IsNullID
+ 0001:0000CC40       IsUnique
+ 0001:00003AB8       Ixedit
+ 0002:0000108C       LastDatabaseID
+ 0002:00001088       LastDatabaseName
+ 0001:00000624       LoadBitmap
+ 0001:0001A588       LoadGQE
+ 0001:0000062C       LoadIcon
+ 0001:000005DC       LoadLibrary
+ 0001:00000290       LocalAlloc
+ 0002:000000A8       LocalFilter
+ 0001:00000298       LocalFree
+ 0001:000005E4       MapViewOfFile
+ 0002:00000070       Margin
+ 0002:000001C8       Masks
+ 0002:000000A0       MasterTable
+ 0002:0000006C       MaxWidth
+ 0001:000006DC       Messages
+ 0001:0001A160       MMSystem
+ 0002:00000008       Module
+ 0002:00001000       ModuleIsLib
+ 0002:00001001       ModuleIsPackage
+ 0001:0001D340       NeedsBackslashing
+ 0001:000069F8       NewAttr
+ 0002:00000044       NullAttrID
+ 0002:0000004C       NullDatabaseID
+ 0002:0000005C       NullFieldID
+ 0002:0000003C       NullID
+ 0002:00000054       NullTableID
+ 0001:00004968       ObjectToID
+ 0001:00000634       OemToAnsi
+ 0001:00007624       OpenConstraints
+ 0001:0000672C       OpenDictionary
+ 0001:00002BA4       OpenQuery
+ 0001:00007808       OpenTableConstraints
+ 0001:000076DC       OpenTableConstraintsByName
+ 0001:00009944       ParseUpdateSQL
+ 0001:0000063C       PostMessage
+ 0001:0000BEB0       ProcessAlias
+ 0002:00000134       ProcTypes
+ 0002:00000004       PtrToNil
+ 0001:00003278       QBE
+ 0001:000028E0       QBEError
+ 0001:00004210       QualifyTableName
+ 0001:00008708       QualifyTableName
+ 0001:000042F8       QualifyTableNameByName
+ 0002:00001058       QueryAttach
+ 0002:00001074       QueryAttachHandle
+ 0002:00001054       QueryConnect
+ 0002:0000105C       QueryCreateStream
+ 0002:00001060       QueryDeleteStream
+ 0002:00001064       QueryDetach
+ 0002:00001068       QueryDisconnect
+ 0002:0000106C       QueryErrorMsg
+ 0002:00001070       QueryGetHandle
+ 0001:00007878       QueryHasConstraints
+ 0002:00001050       QueryRun
+ 0001:0000AA2C       QuotedTableName
+ 0001:00019130       Register
+ 0001:000200D4       Register
+ 0001:00001044       RegStr
+ 0002:000000AC       RemoteFilter
+ 0001:000013F4       RichEdit
+ 0001:00019438       SaveAttributesAsDlg
+ 0001:00009718       SelectAll
+ 0001:00000644       SendMessage
+ 0001:0000064C       SetActiveWindow
+ 0001:000005EC       SetErrorMode
+ 0001:000177F4       SetModified
+ 0001:000053F8       SetProp
+ 0001:00009608       SetSelectedItems
+ 0001:0000107C       ShellAPI
+ 0001:00000F9C       ShlObj
+ 0001:000177D0       ShowSelection
+ 0002:0000009C       SimpleTable
+ 0001:0001F128       SprigBDEImpliedDatabaseName
+ 0001:0001F190       SprigBDEImpliedSessionName
+ 0001:0001F0D4       SprigBDESessionName
+ 0001:000123C8       StripDetail
+ 0001:00012434       StripMaster
+ 0001:00000654       Succeeded
+ 0001:0000C870       SWrite
+ 0001:000101FC       SWrite
+ 0001:0000046C       SysInit
+ 0001:0001ABF4       TableDesigner
+ 0002:0000013C       TableDesignMenu
+ 0001:0001ACF8       TableDesignRename
+ 0001:00007828       TableHasConstraints
+ 0002:000018E0       TableRenameForm
+ 0002:00000128       TableTypes
+ 0001:00017C78       TActiveEO.Create
+ 0001:00017CF8       TActiveEO.Destroy
+ 0001:00017D30       TActiveEO.SetMI
+ 0001:0000C158       TAliasDrive.AddAliases
+ 0001:0000C168       TAliasDrive.BuildList
+ 0001:0000C1F4       TAliasDrive.Click
+ 0001:0000C074       TAliasDrive.Create
+ 0001:0000C0E8       TAliasDrive.Destroy
+ 0001:0000C14C       TAliasDrive.FreeBitmaps
+ 0001:0000C120       TAliasDrive.LoadBitmaps
+ 0001:0000C2A0       TAliasDrive.SetAlias
+ 0001:0000C3F8       TAliasFileListBox.Create
+ 0001:0000C440       TAliasFileListBox.Destroy
+ 0001:0000C470       TAliasFileListBox.ReadBitmaps
+ 0001:0000C4A4       TAliasFileListBox.ReadFileNames
+ 0001:0000C378       TAliasListBox.BuildList
+ 0001:0000C300       TAliasListBox.Create
+ 0001:0000C348       TAliasListBox.Destroy
+ 0001:0000C3E8       TAliasListBox.SetAliasBitmap
+ 0001:0001E788       TAliasNameProperty.GetValueList
+ 0001:00019BB4       TAssociateAttributes.AddToList
+ 0001:00019BA8       TAssociateAttributes.CancelBtnClick
+ 0001:00019C6C       TAssociateAttributes.EditChange
+ 0001:00019E68       TAssociateAttributes.EditKeyDown
+ 0001:00019EB8       TAssociateAttributes.Execute
+ 0001:00019BC8       TAssociateAttributes.FormCreate
+ 0001:0001A000       TAssociateAttributes.HelpBtnClick
+ 0001:00019DBC       TAssociateAttributes.ListBoxClick
+ 0001:00019E40       TAssociateAttributes.ListBoxDblClick
+ 0001:00019B9C       TAssociateAttributes.OKBtnClick
+ 0001:0001E530       TBatchMoveEditor.ExecuteVerb
+ 0001:0001E53C       TBatchMoveEditor.GetVerb
+ 0001:0001E550       TBatchMoveEditor.GetVerbCount
+ 0001:0001FF70       TBatchMoveSprig.AnyProblems
+ 0001:0001FF88       TBatchMoveSprig.Caption
+ 0001:00020764       TBDEDataSetSprig.GetDSDesignerClass
+ 0001:0001CFC8       TBDEDesigner.AssociateAttributes
+ 0001:0001D0A8       TBDEDesigner.AttributeClick
+ 0001:0001D200       TBDEDesigner.BeginCreateFields
+ 0001:0001CC88       TBDEDesigner.CheckAttribute
+ 0001:0001CB38       TBDEDesigner.Destroy
+ 0001:0001D488       TBDEDesigner.DoCreateField
+ 0001:0001D314       TBDEDesigner.EndCreateFields
+ 0001:0001CD50       TBDEDesigner.FindFieldInfo
+ 0001:0001D1B0       TBDEDesigner.GetControlClass
+ 0001:0001CCC4       TBDEDesigner.GetFieldInfo
+ 0001:0001CBE4       TBDEDesigner.GetTableDesc
+ 0001:0001D950       TBDEDesigner.InitializeMenu
+ 0001:0001CB6C       TBDEDesigner.QualifyTableName
+ 0001:0001CE5C       TBDEDesigner.RetrieveAttributes
+ 0001:0001CEDC       TBDEDesigner.SaveAttributes
+ 0001:0001CF2C       TBDEDesigner.SaveAttributesAs
+ 0001:0001D060       TBDEDesigner.UnassociateAttributes
+ 0001:0001DA20       TBDEDesigner.UpdateMenus
+ 0001:0001AE3C       TblDsgn
+ 0001:0001AAC4       tblrenam
+ 0001:0001A4D0       TCheckConstraintsProperty.GetEditorClass
+ 0001:0001A520       TConstraintEditor.FormShow
+ 0001:0001A4D8       TConstraintEditor.ReadDictionaryCommandClick
+ 0001:00018C24       TDatabaseCommands.DatabaseCommandsCreate
+ 0001:00018DA0       TDatabaseCommands.DatabaseCommandsDestroy
+ 0001:00018AC0       TDatabaseCommands.DatabaseExplorerCommandExecute
+ 0001:00018BC4       TDatabaseCommands.DatabaseFormWizardCommandExecute
+ 0001:00018DB4       TDatabaseCommands.DatabaseFormWizardCommandUpdate
+ 0001:00018A3C       TDatabaseCommands.DatabaseMenuClick
+ 0001:00018AC8       TDatabaseCommands.DatabaseSQLMonitorCommandExecute
+ 0001:00018A58       TDatabaseCommands.ShutDownSQLMonitor
+ 0001:0001E418       TDatabaseEditor.ExecuteVerb
+ 0001:0001E480       TDatabaseEditor.GetVerb
+ 0001:0001E4A8       TDatabaseEditor.GetVerbCount
+ 0001:0001E6B8       TDatabaseNameProperty.GetValueList
+ 0001:0001F730       TDatabaseSprig.AnyProblems
+ 0001:0001F744       TDatabaseSprig.Caption
+ 0001:0001F91C       TDatabaseSprig.DragDropTo
+ 0001:0001FA04       TDatabaseSprig.DragOverTo
+ 0001:0001F818       TDatabaseSprig.FigureParent
+ 0001:0001F714       TDatabaseSprig.Name
+ 0001:0001FA4C       TDatabaseSprig.PaletteOverTo
+ 0001:0000CD08       TDataForm.CreateControl
+ 0001:0000EE20       TDataForm.CreateCppSource
+ 0001:0000D32C       TDataForm.CreateField
+ 0001:0000D04C       TDataForm.CreateGrid
+ 0001:0000E0A4       TDataForm.CreateHdrSource
+ 0001:0000CC90       TDataForm.CreateName
+ 0001:0000DE08       TDataForm.CreateRes
+ 0001:0000F3DC       TDataForm.CreateSource
+ 0001:0000DD48       TDataForm.FormCreate
+ 0001:0000CAD0       TDataForm.GetMaxControlValue
+ 0001:0000D224       TDataForm.NextPass
+ 0001:0000CE98       TDataForm.RestructureForm
+ 0001:00010C28       TDataMod.CreateCppSource
+ 0001:0001042C       TDataMod.CreateHdrSource
+ 0001:00010240       TDataMod.CreateRes
+ 0001:00011124       TDataMod.CreateSource
+ 0001:0001023C       TDataMod.DataModuleCreate
+ 0001:0001DBB8       TDBDataSetEditor.ExecuteVerb
+ 0001:0001DBB0       TDBDataSetEditor.GetDSDesignerClass
+ 0001:0001DBF0       TDBDataSetEditor.GetVerb
+ 0001:0001DC30       TDBDataSetEditor.GetVerbCount
+ 0001:0001F1F8       TDBDataSetSprig.AnyProblems
+ 0001:0001F3AC       TDBDataSetSprig.DragDropTo
+ 0001:0001F498       TDBDataSetSprig.DragOverTo
+ 0001:0001F21C       TDBDataSetSprig.FigureParent
+ 0001:0001F4D4       TDBDataSetSprig.PaletteOverTo
+ 0001:0001F510       TDBDataSetSprig.Reparent
+ 0001:00002314       TDBEditForm.AliasNameChange
+ 0001:00002324       TDBEditForm.AliasNameDropDown
+ 0001:00002520       TDBEditForm.ClearButtonClick
+ 0001:0000239C       TDBEditForm.DefaultsButtonClick
+ 0001:00002358       TDBEditForm.DriverNameChange
+ 0001:00002368       TDBEditForm.DriverNameDropDown
+ 0001:000020FC       TDBEditForm.Edit
+ 0001:00002638       TDBEditForm.FormCreate
+ 0001:00002644       TDBEditForm.HelpButtonClick
+ 0001:00002534       TDBEditForm.OkButtonClick
+ 0001:00008CB4       TDbXDataDragTarget.DragDrop
+ 0001:00008BF4       TDbXDataDragTarget.DragOver
+ 0001:00017E1C       TDbXDelphi.Create
+ 0001:00018008       TDbXDelphi.CreateModule
+ 0001:00017F14       TDbXDelphi.DbEvent
+ 0001:00017ED8       TDbXDelphi.Destroy
+ 0001:00017F24       TDbXDelphi.Edit
+ 0001:00017FF8       TDbXDelphi.FindModule
+ 0001:000180A8       TDbXDelphi.GetStream
+ 0001:00017F98       TDbXDelphi.IsEditing
+ 0001:00018408       TDbXDelphi.LoadForm
+ 0001:00018304       TDbXDelphi.SavePath
+ 0001:000181CC       TDbXDelphi.SaveStream
+ 0001:0001786C       TDbXFileSystem.Create
+ 0001:00017AE0       TDbXFileSystem.DeleteFile
+ 0001:000178D0       TDbXFileSystem.Destroy
+ 0001:00017A84       TDbXFileSystem.FileAge
+ 0001:00017AEC       TDbXFileSystem.FileExists
+ 0001:0001793C       TDbXFileSystem.FindAEO
+ 0001:00017904       TDbXFileSystem.Free
+ 0001:00017B1C       TDbXFileSystem.GetBackupFileName
+ 0001:0001798C       TDbXFileSystem.GetFileStream
+ 0001:00017908       TDbXFileSystem.GetIDString
+ 0001:00017B08       TDbXFileSystem.GetTempFileName
+ 0001:00017AD4       TDbXFileSystem.IsFileBased
+ 0001:00017AB0       TDbXFileSystem.IsReadOnly
+ 0001:00017AA4       TDbXFileSystem.RenameFile
+ 0001:00017A24       TDbXFileSystem.SaveFileStream
+ 0001:00017D70       TDbXStream.Create
+ 0001:00017DC8       TDbXStream.Destroy
+ 0001:00017E04       TDbXStream.SetModifyTime
+ 0001:0001F5F0       TDefaultSessionSprig.Caption
+ 0001:0001F68C       TDefaultSessionSprig.ItemClass
+ 0001:0001F694       TDefaultSessionSprig.UniqueName
+ 0001:000052C8       TDictionary.Associate
+ 0001:00004A34       TDictionary.Create
+ 0001:00004AC0       TDictionary.Destroy
+ 0001:00004F10       TDictionary.FindAttr
+ 0001:00004CF8       TDictionary.FindDatabase
+ 0001:00004E1C       TDictionary.FindField
+ 0001:00004C04       TDictionary.FindID
+ 0001:00004F40       TDictionary.FindLinkTarget
+ 0001:00004C50       TDictionary.FindObject
+ 0001:00004D28       TDictionary.FindTable
+ 0001:00004FD8       TDictionary.GetAttr
+ 0001:0000503C       TDictionary.GetAttrNames
+ 0001:000050D8       TDictionary.GetParent
+ 0001:00005214       TDictionary.Link
+ 0001:00005148       TDictionary.NewAttr
+ 0001:00004B78       TDictionary.SetActive
+ 0001:00005370       TDictionary.SetAttrID
+ 0001:000053B4       TDictionary.SetFieldID
+ 0001:00005120       TDictionary.SetParent
+ 0001:000052EC       TDictionary.Unassociate
+ 0001:00006490       TDictionaryValueList.ConvertToAttrNames
+ 0001:00006410       TDictionaryValueList.ConvertToFieldNames
+ 0001:00006384       TDictionaryValueList.CreateFromAttr
+ 0001:00006554       TDictionaryValueList.CreateFromDefaults
+ 0001:00006510       TDictionaryValueList.CreateFromField
+ 0001:00006598       TDictionaryValueList.FilterMatching
+ 0001:0001E858       TDriverNameProperty.GetValueList
+ 0001:00017C70       TEONotifier.ComponentRenamed
+ 0001:00017B30       TEONotifier.Create
+ 0001:00017B6C       TEONotifier.Notify
+ 0001:00016948       TFormExpert.AddButtonClick
+ 0001:00016818       TFormExpert.AddToBindList
+ 0001:00015078       TFormExpert.AliasDriveListChange
+ 0001:000154C8       TFormExpert.AliasFileListClick
+ 0001:0001552C       TFormExpert.AliasFileListDblClick
+ 0001:00012B30       TFormExpert.AliasPath
+ 0001:0001524C       TFormExpert.AliasPathListChange
+ 0001:000167E0       TFormExpert.BindingListClick
+ 0001:00016DEC       TFormExpert.BindListClick
+ 0001:00015654       TFormExpert.Button1Click
+ 0001:000156BC       TFormExpert.Button2Click
+ 0001:000157A8       TFormExpert.Button3Click
+ 0001:00015870       TFormExpert.Button4Click
+ 0001:000132E0       TFormExpert.ChangePages
+ 0001:00017064       TFormExpert.CheckBind
+ 0001:00016A7C       TFormExpert.ClearButtonClick
+ 0001:00012AE8       TFormExpert.Create
+ 0001:000141FC       TFormExpert.CreateField
+ 0001:00014A0C       TFormExpert.CreateForm
+ 0001:00013B40       TFormExpert.CreateOptionClick
+ 0001:0001652C       TFormExpert.CreateQueryClick
+ 0001:000164F4       TFormExpert.CreateTableClick
+ 0001:00013B68       TFormExpert.DataSourceListClick
+ 0001:00016BF0       TFormExpert.DeleteButtonClick
+ 0001:00016050       TFormExpert.DoDragOver
+ 0001:0001645C       TFormExpert.DownButtonClick
+ 0001:00015DC8       TFormExpert.FileEditChange
+ 0001:00016620       TFormExpert.FileEditKeyPress
+ 0001:000131A8       TFormExpert.FillFieldList
+ 0001:000153F4       TFormExpert.FilterListChange
+ 0001:00017168       TFormExpert.FormAndModuleClick
+ 0001:00017160       TFormExpert.FormClick
+ 0001:00017188       TFormExpert.FormCloseQuery
+ 0001:00012C94       TFormExpert.FormCreate
+ 0001:00012FBC       TFormExpert.FormDestroy
+ 0001:00016580       TFormExpert.FormPaint
+ 0001:00012C7C       TFormExpert.FreeChoice
+ 0001:00013BAC       TFormExpert.GenBindVar
+ 0001:00013DB4       TFormExpert.GenSelect
+ 0001:00015A1C       TFormExpert.GetFirstSelection
+ 0001:00017170       TFormExpert.HelpButtonClick
+ 0001:00016E10       TFormExpert.IndexListChange
+ 0001:000130A0       TFormExpert.Init
+ 0001:00012C58       TFormExpert.InitChoice
+ 0001:00013128       TFormExpert.InitFilter
+ 0001:0001455C       TFormExpert.InitQuery
+ 0001:000142D4       TFormExpert.InitTable
+ 0001:00015B20       TFormExpert.InsertSelected
+ 0001:00013B78       TFormExpert.LayoutButtonClick
+ 0001:000162FC       TFormExpert.ListDblClick
+ 0001:00016228       TFormExpert.ListDragDrop
+ 0001:00016164       TFormExpert.ListDragOver
+ 0001:000161E0       TFormExpert.MoveDragList
+ 0001:00015CC0       TFormExpert.MoveItems
+ 0001:00015A50       TFormExpert.MoveSelected
+ 0001:00013958       TFormExpert.NextButtonClick
+ 0001:00015C00       TFormExpert.OrderFieldList
+ 0001:00016564       TFormExpert.PosButtonClick
+ 0001:00013A54       TFormExpert.PrevButtonClick
+ 0001:00013560       TFormExpert.ProcessPage0
+ 0001:00013570       TFormExpert.ProcessPage1
+ 0001:00013794       TFormExpert.ProcessPage2
+ 0001:00013838       TFormExpert.ProcessPage3
+ 0001:00013880       TFormExpert.ProcessPage4
+ 0001:000138A8       TFormExpert.ProcessPage5
+ 0001:00015990       TFormExpert.RemoveMatch
+ 0001:00015548       TFormExpert.SetButtons
+ 0001:00015DB0       TFormExpert.SetFileEditText
+ 0001:00014FFC       TFormExpert.SetFilter
+ 0001:00015610       TFormExpert.SetItem
+ 0001:00013AF8       TFormExpert.SetLayOut
+ 0001:000163D0       TFormExpert.UpButtonClick
+ 0001:000128AC       TFormModuleCreator.Create
+ 0001:000129F4       TFormModuleCreator.FormCreated
+ 0001:000129F8       TFormModuleCreator.GetAncestorName
+ 0001:00012A0C       TFormModuleCreator.GetCreatorType
+ 0001:00012A30       TFormModuleCreator.GetExisting
+ 0001:00012A34       TFormModuleCreator.GetFileSystem
+ 0001:00012A40       TFormModuleCreator.GetFormName
+ 0001:00012A54       TFormModuleCreator.GetImplFileName
+ 0001:00012A68       TFormModuleCreator.GetIntfFileName
+ 0001:00012A7C       TFormModuleCreator.GetMainForm
+ 0001:00012A80       TFormModuleCreator.GetOwner
+ 0001:00012A94       TFormModuleCreator.GetShowForm
+ 0001:00012A98       TFormModuleCreator.GetShowSource
+ 0001:00012A9C       TFormModuleCreator.GetUnnamed
+ 0001:00012AA0       TFormModuleCreator.NewFormFile
+ 0001:00012AB8       TFormModuleCreator.NewImplSource
+ 0001:00012AD0       TFormModuleCreator.NewIntfSource
+ 0001:00018FF4       TFormTemplate.AfterSave
+ 0001:00018FF8       TFormTemplate.BeforeSave
+ 0001:00018FFC       TFormTemplate.Destroyed
+ 0001:000190D0       TFormTemplate.Execute
+ 0001:00019050       TFormTemplate.GetAuthor
+ 0001:00019018       TFormTemplate.GetComment
+ 0001:0001902C       TFormTemplate.GetGlyph
+ 0001:00019094       TFormTemplate.GetIDString
+ 0001:00019004       TFormTemplate.GetName
+ 0001:00019074       TFormTemplate.GetPage
+ 0001:00019088       TFormTemplate.GetState
+ 0001:00019000       TFormTemplate.Modified
+ 0001:0001FA94       TImpliedDatabaseSprig.AnyProblems
+ 0001:0001FAA0       TImpliedDatabaseSprig.Caption
+ 0001:0001FACC       TImpliedDatabaseSprig.DragDropTo
+ 0001:0001FB98       TImpliedDatabaseSprig.DragOverTo
+ 0001:0001FBD8       TImpliedDatabaseSprig.FigureParent
+ 0001:0001FCCC       TImpliedDatabaseSprig.ItemClass
+ 0001:0001FCD4       TImpliedDatabaseSprig.UniqueName
+ 0001:0001F6C4       TImpliedSessionSprig.Caption
+ 0001:0001F6F8       TImpliedSessionSprig.ItemClass
+ 0001:0001F700       TImpliedSessionSprig.UniqueName
+ 0001:000038BC       TIndexFiles.AddClick
+ 0001:00003970       TIndexFiles.AddEmpty
+ 0001:00003A24       TIndexFiles.ClearClick
+ 0001:000039C4       TIndexFiles.DeleteClick
+ 0001:00003A4C       TIndexFiles.FormCreate
+ 0001:00003A70       TIndexFiles.HelpClick
+ 0001:000035F0       TIndexFiles.IsDBaseTable
+ 0001:000038B4       TIndexFiles.ListBox1Click
+ 0001:0000399C       TIndexFiles.RemoveEmpty
+ 0001:00003838       TIndexFiles.SetButtons
+ 0001:0001EBD0       TIndexFilesProperty.Edit
+ 0001:0001EB74       TIndexFilesProperty.GetAttributes
+ 0001:0001EB80       TIndexFilesProperty.GetValue
+ 0001:00004918       TLinks.CreateHandle
+ 0001:000046F4       TLinks.GetTarget
+ 0001:000047A0       TLinks.SetSource
+ 0001:0000485C       TLinks.SetTarget
+ 0001:000002A0       TlsAlloc
+ 0002:0000100C       tlsBuffer
+ 0001:000002A8       TlsFree
+ 0001:000002B0       TlsGetValue
+ 0002:00000000       TlsIndex
+ 0002:AFE0E000       TlsLast
+ 0002:00000020       TlsProc
+ 0001:000002B8       TlsSetValue
+ 0001:00005C24       TNameMap.Clear
+ 0001:00005BAC       TNameMap.Create
+ 0001:00005BF0       TNameMap.Destroy
+ 0001:00005C5C       TNameMap.Map
+ 0001:00005D3C       TNameMap.MapFrom
+ 0001:00005CDC       TNameMap.MapTo
+ 0001:0001FCE8       TNestedTableSprig.ParentProperty
+ 0001:00007B54       TNullValidator.ConstraintValid
+ 0001:000127F4       TOTAFile.Create
+ 0001:00012844       TOTAFile.Destroy
+ 0001:00012874       TOTAFile.GetAge
+ 0001:0001288C       TOTAFile.GetSource
+ 0001:0001EA80       TProcedureNameProperty.AutoFill
+ 0001:0001EAA0       TProcedureNameProperty.GetValueList
+ 0001:00007B94       TQueryConstraintValidator.ConstraintValid
+ 0001:00007B58       TQueryConstraintValidator.Create
+ 0001:0001DCBC       TQueryEditor.ExecuteVerb
+ 0001:0001DDC8       TQueryEditor.GetVerb
+ 0001:0001DE24       TQueryEditor.GetVerbCount
+ 0001:0001FF38       TQueryMasterDetailBridge.Caption
+ 0001:0001FF4C       TQueryMasterDetailBridge.GetOmegaSource
+ 0001:0001FF58       TQueryMasterDetailBridge.OmegaIslandClass
+ 0001:0001FF60       TQueryMasterDetailBridge.RemoveMasterFieldsAsWell
+ 0001:0001FF64       TQueryMasterDetailBridge.SetOmegaSource
+ 0001:0001DEEC       TQueryParamsProperty.GetColOptions
+ 0001:0001FD94       TQuerySprig.AnyProblems
+ 0001:000074A0       TQueryTableList.Create
+ 0001:00019580       TSaveAttributesAs.AddToList
+ 0001:0001955C       TSaveAttributesAs.CancelBtnClick
+ 0001:00019714       TSaveAttributesAs.Execute
+ 0001:00019594       TSaveAttributesAs.FormCreate
+ 0001:00019568       TSaveAttributesAs.HelpBtnClick
+ 0001:000194AC       TSaveAttributesAs.OKBtnClick
+ 0001:0001E600       TSessionNameProperty.GetValueList
+ 0001:0001F574       TSessionSprig.AnyProblems
+ 0001:0001F584       TSessionSprig.Caption
+ 0001:0001F55C       TSessionSprig.Name
+ 0001:000099D0       TSQLParser.Create
+ 0001:00009D1C       TSQLParser.GetSelectTableNames
+ 0001:00009E5C       TSQLParser.GetUpdateFields
+ 0001:00009E14       TSQLParser.GetUpdateTableName
+ 0001:00009F8C       TSQLParser.GetWhereFields
+ 0001:00009A34       TSQLParser.NextToken
+ 0001:00009CDC       TSQLParser.Reset
+ 0001:00009CF8       TSQLParser.TokenSymbolIs
+ 0001:0001DF78       TStoredProcEditor.ExecuteVerb
+ 0001:0001DFB8       TStoredProcEditor.GetVerb
+ 0001:0001DFF8       TStoredProcEditor.GetVerbCount
+ 0001:0001E0B8       TStoredProcParamsProperty.Edit
+ 0001:0001FDBC       TStoredProcSprig.AnyProblems
+ 0001:0001FDE0       TStoredProcSprig.Caption
+ 0001:0001E2A4       TTableEditor.ExecuteVerb
+ 0001:0001E324       TTableEditor.GetVerb
+ 0001:0001E36C       TTableEditor.GetVerbCount
+ 0001:0001E27C       TTableEditor.IndexToAction
+ 0001:0001E1F0       TTableEditor.UpdateActions
+ 0001:0001EE10       TTableFieldLinkProperty.Edit
+ 0001:0001EFB8       TTableFieldLinkProperty.GetFieldNamesForIndex
+ 0001:0001EFF0       TTableFieldLinkProperty.GetIndexBased
+ 0001:0001F008       TTableFieldLinkProperty.GetIndexDefs
+ 0001:0001F014       TTableFieldLinkProperty.GetIndexFieldNames
+ 0001:0001F028       TTableFieldLinkProperty.GetIndexName
+ 0001:0001F03C       TTableFieldLinkProperty.GetMasterFields
+ 0001:0001F050       TTableFieldLinkProperty.SetIndexFieldNames
+ 0001:0001F05C       TTableFieldLinkProperty.SetIndexName
+ 0001:0001F0C8       TTableFieldLinkProperty.SetMasterFields
+ 0001:00007388       TTableItem.Create
+ 0001:00007430       TTableList.Add
+ 0001:000073D4       TTableList.Destroy
+ 0001:0000741C       TTableList.GetItems
+ 0001:0001FE5C       TTableMasterDetailBridge.CanEdit
+ 0001:0001FEC8       TTableMasterDetailBridge.Caption
+ 0001:0001FE60       TTableMasterDetailBridge.Edit
+ 0001:0001FE3C       TTableMasterDetailBridge.GetOmegaSource
+ 0001:0001FE48       TTableMasterDetailBridge.OmegaIslandClass
+ 0001:0001FE50       TTableMasterDetailBridge.SetOmegaSource
+ 0001:0001E928       TTableNameProperty.AutoFill
+ 0001:0001E948       TTableNameProperty.GetValueList
+ 0001:0001A968       TTableRenameForm.Execute
+ 0001:0001FD14       TTableSprig.AnyProblems
+ 0001:0001FD38       TTableSprig.Caption
+ 0001:00005DFC       TTransferValueList.AddInstance
+ 0001:00005F20       TTransferValueList.AddInstanceDefaults
+ 0001:00006040       TTransferValueList.AddRecord
+ 0001:000060E8       TTransferValueList.UpdateInstance
+ 0001:00006220       TTransferValueList.UpdateRecord
+ 0001:0000B7AC       TUpdateSQLEditForm.ClearAllClick
+ 0001:0000A0C0       TUpdateSQLEditForm.DatabaseOpen
+ 0001:0000B5E8       TUpdateSQLEditForm.DefaultButtonClick
+ 0001:0000A10C       TUpdateSQLEditForm.Edit
+ 0001:0000B704       TUpdateSQLEditForm.FormCloseQuery
+ 0001:0000B528       TUpdateSQLEditForm.FormCreate
+ 0001:0000B6A8       TUpdateSQLEditForm.FormDestroy
+ 0001:0000A4F8       TUpdateSQLEditForm.GenDeleteSQL
+ 0001:0000B640       TUpdateSQLEditForm.GenerateButtonClick
+ 0001:0000AAE4       TUpdateSQLEditForm.GenerateSQL
+ 0001:0000A784       TUpdateSQLEditForm.GenInsertSQL
+ 0001:0000A878       TUpdateSQLEditForm.GenModifySQL
+ 0001:0000A3A4       TUpdateSQLEditForm.GenWhereClause
+ 0001:0000ACE4       TUpdateSQLEditForm.GetDataSetFieldNames
+ 0001:0000AD24       TUpdateSQLEditForm.GetTableFieldNames
+ 0001:0000B6C8       TUpdateSQLEditForm.GetTableFieldsButtonClick
+ 0001:0000AD74       TUpdateSQLEditForm.GetTableRef
+ 0001:0000B534       TUpdateSQLEditForm.HelpButtonClick
+ 0001:0000AF34       TUpdateSQLEditForm.InitGenerateOptions
+ 0001:0000B028       TUpdateSQLEditForm.InitUpdateTableNames
+ 0001:0000B5B4       TUpdateSQLEditForm.OkButtonClick
+ 0001:0000B674       TUpdateSQLEditForm.PageControlChanging
+ 0001:0000B654       TUpdateSQLEditForm.PrimaryKeyButtonClick
+ 0001:0000B78C       TUpdateSQLEditForm.SelectAllClick
+ 0001:0000B20C       TUpdateSQLEditForm.SelectPrimaryKeyFields
+ 0001:0000B110       TUpdateSQLEditForm.SetButtonStates
+ 0001:0000B394       TUpdateSQLEditForm.SetDefaultSelections
+ 0001:0000B6F0       TUpdateSQLEditForm.SettingsChanged
+ 0001:0000B444       TUpdateSQLEditForm.ShowWait
+ 0001:0000B838       TUpdateSQLEditForm.SQLMemoKeyPress
+ 0001:0000B54C       TUpdateSQLEditForm.StatementTypeClick
+ 0001:0000B494       TUpdateSQLEditForm.TempTable
+ 0001:0000B778       TUpdateSQLEditForm.UpdateTableNameChange
+ 0001:0000B780       TUpdateSQLEditForm.UpdateTableNameClick
+ 0001:0001ED9C       TUpdateSQLEditor.ExecuteVerb
+ 0001:0001EDF4       TUpdateSQLEditor.GetVerb
+ 0001:0001EE08       TUpdateSQLEditor.GetVerbCount
+ 0001:0002008C       TUpdateSQLSprig.AnyProblems
+ 0001:00005808       TValueList.Add
+ 0001:000058F4       TValueList.AddValues
+ 0001:00005980       TValueList.Clear
+ 0001:00005790       TValueList.Create
+ 0001:000059B8       TValueList.Delete
+ 0001:000057D4       TValueList.Destroy
+ 0001:000059E0       TValueList.Find
+ 0001:000059E8       TValueList.FindValue
+ 0001:00005A28       TValueList.GetCount
+ 0001:00005A30       TValueList.GetNames
+ 0001:00005A50       TValueList.GetValues
+ 0001:00005ACC       TValueList.IndexOf
+ 0001:00005B0C       TValueList.Remove
+ 0001:00005A74       TValueList.SetNames
+ 0001:000069DC       UnassociateAttr
+ 0001:0000039C       UninitializeModule
+ 0001:00019604       UniqueAttrName
+ 0001:0001A650       UnloadGQE
+ 0001:000005F4       UnmapViewOfFile
+ 0001:00006CF8       UpdateAttr
+ 0001:00007F5C       UpdateConstraints
+ 0001:00008010       UpdateDataset
+ 0001:00006EE8       UpdateField
+ 0001:0000B874       Updsqled
+ 0001:00000FD4       UrlMon
+ 0002:0000104C       VQBHandle
+ 0002:00000030       VQBLoadAttempted
+ 0001:00002B74       VQBLoaded
+ 0002:00000064       WidthPad
+ 0001:00000694       Windows
+ 0001:0000100C       WinInet
+ 0001:0000130C       WinSpool
+ 0002:000010A8       WriteBuffer
+ 0002:000014AC       WriteBuffer
+
+
+  Address         Publics by Value
+
+ 0002:AFE0E000       TlsLast
+ 0001:00000288       FreeLibrary
+ 0001:00000290       LocalAlloc
+ 0001:00000298       LocalFree
+ 0001:000002A0       TlsAlloc
+ 0001:000002A8       TlsFree
+ 0001:000002B0       TlsGetValue
+ 0001:000002B8       TlsSetValue
+ 0001:000002C0       AllocTlsBuffer
+ 0001:000002CC       GetTlsSize
+ 0001:000002D4       InitThreadTLS
+ 0001:00000318       InitProcessTLS
+ 0001:00000344       ExitThreadTLS
+ 0001:0000036C       ExitProcessTLS
+ 0001:00000390       InitializeModule
+ 0001:0000039C       UninitializeModule
+ 0001:000003C0       @InitPkg
+ 0001:00000424       @PackageLoad
+ 0001:00000430       @PackageUnload
+ 0001:0000043C       Finalization
+ 0001:0000046C       SysInit
+ 0001:00000594       CloseHandle
+ 0001:0000059C       CreateFileMapping
+ 0001:000005A4       CreateProcess
+ 0001:000005AC       FreeLibrary
+ 0001:000005B4       GetLastError
+ 0001:000005BC       GetProcAddress
+ 0001:000005C4       GlobalFree
+ 0001:000005CC       GlobalLock
+ 0001:000005D4       GlobalUnlock
+ 0001:000005DC       LoadLibrary
+ 0001:000005E4       MapViewOfFile
+ 0001:000005EC       SetErrorMode
+ 0001:000005F4       UnmapViewOfFile
+ 0001:000005FC       GetDeviceCaps
+ 0001:00000604       GetTextMetrics
+ 0001:0000060C       AnsiToOem
+ 0001:00000614       GetActiveWindow
+ 0001:0000061C       GetSystemMetrics
+ 0001:00000624       LoadBitmap
+ 0001:0000062C       LoadIcon
+ 0001:00000634       OemToAnsi
+ 0001:0000063C       PostMessage
+ 0001:00000644       SendMessage
+ 0001:0000064C       SetActiveWindow
+ 0001:00000654       Succeeded
+ 0001:00000664       Finalization
+ 0001:00000694       Windows
+ 0001:000006AC       Finalization
+ 0001:000006DC       Messages
+ 0001:00000C9C       Finalization
+ 0001:00000CCC       CommCtrl
+ 0001:00000E74       Finalization
+ 0001:00000EA4       Imm
+ 0001:00000F6C       Finalization
+ 0001:00000F9C       ShlObj
+ 0001:00000FA4       Finalization
+ 0001:00000FD4       UrlMon
+ 0001:00000FDC       Finalization
+ 0001:0000100C       WinInet
+ 0001:00001014       Finalization
+ 0001:00001044       RegStr
+ 0001:0000104C       Finalization
+ 0001:0000107C       ShellAPI
+ 0001:000012DC       Finalization
+ 0001:0000130C       WinSpool
+ 0001:00001314       Finalization
+ 0001:00001344       CommDlg
+ 0001:0000134C       Finalization
+ 0001:0000137C       Dlgs
+ 0001:000013C4       Finalization
+ 0001:000013F4       RichEdit
+ 0001:00002094       EditDatabase
+ 0001:000020FC       TDBEditForm.Edit
+ 0001:00002314       TDBEditForm.AliasNameChange
+ 0001:00002324       TDBEditForm.AliasNameDropDown
+ 0001:00002358       TDBEditForm.DriverNameChange
+ 0001:00002368       TDBEditForm.DriverNameDropDown
+ 0001:0000239C       TDBEditForm.DefaultsButtonClick
+ 0001:00002520       TDBEditForm.ClearButtonClick
+ 0001:00002534       TDBEditForm.OkButtonClick
+ 0001:00002638       TDBEditForm.FormCreate
+ 0001:00002644       TDBEditForm.HelpButtonClick
+ 0001:0000265C       Finalization
+ 0001:0000268C       Dbedit
+ 0001:000028E0       QBEError
+ 0001:00002968       InitVQB
+ 0001:00002B74       VQBLoaded
+ 0001:00002B8C       CloseVQB
+ 0001:00002BA4       OpenQuery
+ 0001:00002BF4       CheckOpenSQLEditor
+ 0001:00002DB4       ExecBuilder
+ 0001:00003168       GetSQL
+ 0001:00003240       Finalization
+ 0001:00003278       QBE
+ 0001:000034F8       GetPath
+ 0001:000035F0       TIndexFiles.IsDBaseTable
+ 0001:00003674       EditIndexFiles
+ 0001:00003838       TIndexFiles.SetButtons
+ 0001:000038B4       TIndexFiles.ListBox1Click
+ 0001:000038BC       TIndexFiles.AddClick
+ 0001:00003970       TIndexFiles.AddEmpty
+ 0001:0000399C       TIndexFiles.RemoveEmpty
+ 0001:000039C4       TIndexFiles.DeleteClick
+ 0001:00003A24       TIndexFiles.ClearClick
+ 0001:00003A4C       TIndexFiles.FormCreate
+ 0001:00003A70       TIndexFiles.HelpClick
+ 0001:00003A88       Finalization
+ 0001:00003AB8       Ixedit
+ 0001:00004210       QualifyTableName
+ 0001:000042F8       QualifyTableNameByName
+ 0001:00004668       CreateLinks
+ 0001:000046F4       TLinks.GetTarget
+ 0001:000047A0       TLinks.SetSource
+ 0001:0000485C       TLinks.SetTarget
+ 0001:00004918       TLinks.CreateHandle
+ 0001:00004958       IDToObject
+ 0001:00004968       ObjectToID
+ 0001:000049D0       CreateList
+ 0001:00004A34       TDictionary.Create
+ 0001:00004AC0       TDictionary.Destroy
+ 0001:00004AF4       CurrentDictionary
+ 0001:00004B78       TDictionary.SetActive
+ 0001:00004C04       TDictionary.FindID
+ 0001:00004C50       TDictionary.FindObject
+ 0001:00004CF8       TDictionary.FindDatabase
+ 0001:00004D28       TDictionary.FindTable
+ 0001:00004E1C       TDictionary.FindField
+ 0001:00004F10       TDictionary.FindAttr
+ 0001:00004F40       TDictionary.FindLinkTarget
+ 0001:00004FD8       TDictionary.GetAttr
+ 0001:0000503C       TDictionary.GetAttrNames
+ 0001:000050D8       TDictionary.GetParent
+ 0001:00005120       TDictionary.SetParent
+ 0001:00005148       TDictionary.NewAttr
+ 0001:00005214       TDictionary.Link
+ 0001:000052C8       TDictionary.Associate
+ 0001:000052EC       TDictionary.Unassociate
+ 0001:00005370       TDictionary.SetAttrID
+ 0001:000053B4       TDictionary.SetFieldID
+ 0001:000053F8       SetProp
+ 0001:0000554C       GetProp
+ 0001:00005658       GetDefault
+ 0001:00005790       TValueList.Create
+ 0001:000057D4       TValueList.Destroy
+ 0001:00005808       TValueList.Add
+ 0001:000058F4       TValueList.AddValues
+ 0001:00005980       TValueList.Clear
+ 0001:000059B8       TValueList.Delete
+ 0001:000059E0       TValueList.Find
+ 0001:000059E8       TValueList.FindValue
+ 0001:00005A28       TValueList.GetCount
+ 0001:00005A30       TValueList.GetNames
+ 0001:00005A50       TValueList.GetValues
+ 0001:00005A74       TValueList.SetNames
+ 0001:00005ACC       TValueList.IndexOf
+ 0001:00005B0C       TValueList.Remove
+ 0001:00005BAC       TNameMap.Create
+ 0001:00005BF0       TNameMap.Destroy
+ 0001:00005C24       TNameMap.Clear
+ 0001:00005C5C       TNameMap.Map
+ 0001:00005CDC       TNameMap.MapTo
+ 0001:00005D3C       TNameMap.MapFrom
+ 0001:00005DFC       TTransferValueList.AddInstance
+ 0001:00005F20       TTransferValueList.AddInstanceDefaults
+ 0001:00006040       TTransferValueList.AddRecord
+ 0001:000060E8       TTransferValueList.UpdateInstance
+ 0001:00006220       TTransferValueList.UpdateRecord
+ 0001:00006324       AddAttrs
+ 0001:00006384       TDictionaryValueList.CreateFromAttr
+ 0001:00006410       TDictionaryValueList.ConvertToFieldNames
+ 0001:00006490       TDictionaryValueList.ConvertToAttrNames
+ 0001:00006510       TDictionaryValueList.CreateFromField
+ 0001:00006554       TDictionaryValueList.CreateFromDefaults
+ 0001:00006598       TDictionaryValueList.FilterMatching
+ 0001:00006718       IsNullID
+ 0001:0000672C       OpenDictionary
+ 0001:0000678C       DictionaryDeactivate
+ 0001:000067A4       DictionaryActive
+ 0001:000067E4       FindDatabaseID
+ 0001:0000681C       FindTableID
+ 0001:00006858       FindFieldID
+ 0001:00006894       GetAttrID
+ 0001:000068CC       FindAttrID
+ 0001:00006904       GetAttrName
+ 0001:0000699C       GetAttrNames
+ 0001:000069BC       AssociateAttr
+ 0001:000069DC       UnassociateAttr
+ 0001:000069F8       NewAttr
+ 0001:00006A70       FindFieldClassName
+ 0001:00006B60       FindFieldClass
+ 0001:00006C40       GetDefaultFieldClass
+ 0001:00006CF8       UpdateAttr
+ 0001:00006EE8       UpdateField
+ 0001:00006F70       CreateField
+ 0001:00007164       GetControlClass
+ 0001:00007388       TTableItem.Create
+ 0001:000073D4       TTableList.Destroy
+ 0001:0000741C       TTableList.GetItems
+ 0001:00007430       TTableList.Add
+ 0001:000074A0       TQueryTableList.Create
+ 0001:00007624       OpenConstraints
+ 0001:000076DC       OpenTableConstraintsByName
+ 0001:00007808       OpenTableConstraints
+ 0001:00007828       TableHasConstraints
+ 0001:00007878       QueryHasConstraints
+ 0001:00007960       HasConstraints
+ 0001:00007B54       TNullValidator.ConstraintValid
+ 0001:00007B58       TQueryConstraintValidator.Create
+ 0001:00007B94       TQueryConstraintValidator.ConstraintValid
+ 0001:00007B98       ClearOldConstraints
+ 0001:00007BD0       GetValue
+ 0001:00007C40       AddConstraint
+ 0001:00007D98       AddTableConstraints
+ 0001:00007E48       AddQueryConstraints
+ 0001:00007F5C       UpdateConstraints
+ 0001:00008010       UpdateDataset
+ 0001:00008168       Finalization
+ 0001:000081B8       DRIntf
+ 0001:00008460       CreateStoredProc
+ 0001:000084A8       CreateStoredProcControl
+ 0001:0000850C       CreateTable
+ 0001:00008548       CreateTableControl
+ 0001:000085AC       GetTable
+ 0001:00008674       CreateDatabase
+ 0001:000086B4       FindControlClass
+ 0001:00008708       QualifyTableName
+ 0001:000087BC       GetTableDesc
+ 0001:00008860       FindAttrs
+ 0001:00008908       CreateField
+ 0001:000089A0       GetField
+ 0001:000089E4       CreateDroppedControl
+ 0001:00008B24       Finalization
+ 0001:00008B54       DrpBDECt
+ 0001:00008BF4       TDbXDataDragTarget.DragOver
+ 0001:00008CB4       TDbXDataDragTarget.DragDrop
+ 0001:00008E5C       Finalization
+ 0001:00008E8C       DBXTARG
+ 0001:00009508       EditUpdateSQL
+ 0001:00009570       GetSelectedItems
+ 0001:00009608       SetSelectedItems
+ 0001:00009718       SelectAll
+ 0001:000097B8       GetDataFieldNames
+ 0001:000098F0       GetSQLTableNames
+ 0001:00009944       ParseUpdateSQL
+ 0001:000099D0       TSQLParser.Create
+ 0001:00009A1C       IsKatakana
+ 0001:00009A34       TSQLParser.NextToken
+ 0001:00009CDC       TSQLParser.Reset
+ 0001:00009CF8       TSQLParser.TokenSymbolIs
+ 0001:00009D1C       TSQLParser.GetSelectTableNames
+ 0001:00009E14       TSQLParser.GetUpdateTableName
+ 0001:00009E5C       TSQLParser.GetUpdateFields
+ 0001:00009F8C       TSQLParser.GetWhereFields
+ 0001:0000A0C0       TUpdateSQLEditForm.DatabaseOpen
+ 0001:0000A10C       TUpdateSQLEditForm.Edit
+ 0001:0000A3A4       TUpdateSQLEditForm.GenWhereClause
+ 0001:0000A4F8       TUpdateSQLEditForm.GenDeleteSQL
+ 0001:0000A5B8       GenFieldList
+ 0001:0000A784       TUpdateSQLEditForm.GenInsertSQL
+ 0001:0000A878       TUpdateSQLEditForm.GenModifySQL
+ 0001:0000AA2C       QuotedTableName
+ 0001:0000AAE4       TUpdateSQLEditForm.GenerateSQL
+ 0001:0000ACE4       TUpdateSQLEditForm.GetDataSetFieldNames
+ 0001:0000AD24       TUpdateSQLEditForm.GetTableFieldNames
+ 0001:0000AD74       TUpdateSQLEditForm.GetTableRef
+ 0001:0000ADB0       InitFromDataSet
+ 0001:0000AE00       InitFromUpdateSQL
+ 0001:0000AF34       TUpdateSQLEditForm.InitGenerateOptions
+ 0001:0000B028       TUpdateSQLEditForm.InitUpdateTableNames
+ 0001:0000B110       TUpdateSQLEditForm.SetButtonStates
+ 0001:0000B20C       TUpdateSQLEditForm.SelectPrimaryKeyFields
+ 0001:0000B394       TUpdateSQLEditForm.SetDefaultSelections
+ 0001:0000B444       TUpdateSQLEditForm.ShowWait
+ 0001:0000B494       TUpdateSQLEditForm.TempTable
+ 0001:0000B528       TUpdateSQLEditForm.FormCreate
+ 0001:0000B534       TUpdateSQLEditForm.HelpButtonClick
+ 0001:0000B54C       TUpdateSQLEditForm.StatementTypeClick
+ 0001:0000B5B4       TUpdateSQLEditForm.OkButtonClick
+ 0001:0000B5E8       TUpdateSQLEditForm.DefaultButtonClick
+ 0001:0000B640       TUpdateSQLEditForm.GenerateButtonClick
+ 0001:0000B654       TUpdateSQLEditForm.PrimaryKeyButtonClick
+ 0001:0000B674       TUpdateSQLEditForm.PageControlChanging
+ 0001:0000B6A8       TUpdateSQLEditForm.FormDestroy
+ 0001:0000B6C8       TUpdateSQLEditForm.GetTableFieldsButtonClick
+ 0001:0000B6F0       TUpdateSQLEditForm.SettingsChanged
+ 0001:0000B704       TUpdateSQLEditForm.FormCloseQuery
+ 0001:0000B778       TUpdateSQLEditForm.UpdateTableNameChange
+ 0001:0000B780       TUpdateSQLEditForm.UpdateTableNameClick
+ 0001:0000B78C       TUpdateSQLEditForm.SelectAllClick
+ 0001:0000B7AC       TUpdateSQLEditForm.ClearAllClick
+ 0001:0000B838       TUpdateSQLEditForm.SQLMemoKeyPress
+ 0001:0000B844       Finalization
+ 0001:0000B874       Updsqled
+ 0001:0000BEB0       ProcessAlias
+ 0001:0000C074       TAliasDrive.Create
+ 0001:0000C0E8       TAliasDrive.Destroy
+ 0001:0000C120       TAliasDrive.LoadBitmaps
+ 0001:0000C14C       TAliasDrive.FreeBitmaps
+ 0001:0000C158       TAliasDrive.AddAliases
+ 0001:0000C168       TAliasDrive.BuildList
+ 0001:0000C1F4       TAliasDrive.Click
+ 0001:0000C2A0       TAliasDrive.SetAlias
+ 0001:0000C300       TAliasListBox.Create
+ 0001:0000C348       TAliasListBox.Destroy
+ 0001:0000C378       TAliasListBox.BuildList
+ 0001:0000C3E8       TAliasListBox.SetAliasBitmap
+ 0001:0000C3F8       TAliasFileListBox.Create
+ 0001:0000C440       TAliasFileListBox.Destroy
+ 0001:0000C470       TAliasFileListBox.ReadBitmaps
+ 0001:0000C4A4       TAliasFileListBox.ReadFileNames
+ 0001:0000C588       Finalization
+ 0001:0000C5B8       DbCombo
+ 0001:0000C870       SWrite
+ 0001:0000C8B0       CheckFieldName
+ 0001:0000C8F8       GenerateName
+ 0001:0000CAD0       TDataForm.GetMaxControlValue
+ 0001:0000CC40       IsUnique
+ 0001:0000CC90       TDataForm.CreateName
+ 0001:0000CD08       TDataForm.CreateControl
+ 0001:0000CE98       TDataForm.RestructureForm
+ 0001:0000D04C       TDataForm.CreateGrid
+ 0001:0000D224       TDataForm.NextPass
+ 0001:0000D288       GetTotalWidth
+ 0001:0000D2E8       GetTotalHeight
+ 0001:0000D32C       TDataForm.CreateField
+ 0001:0000DD48       TDataForm.FormCreate
+ 0001:0000DE08       TDataForm.CreateRes
+ 0001:0000E0A4       TDataForm.CreateHdrSource
+ 0001:0000EE20       TDataForm.CreateCppSource
+ 0001:0000F3DC       TDataForm.CreateSource
+ 0001:0000FFC4       Finalization
+ 0001:0000FFF4       DataForm
+ 0001:000101FC       SWrite
+ 0001:0001023C       TDataMod.DataModuleCreate
+ 0001:00010240       TDataMod.CreateRes
+ 0001:0001042C       TDataMod.CreateHdrSource
+ 0001:00010C28       TDataMod.CreateCppSource
+ 0001:00011124       TDataMod.CreateSource
+ 0001:00011808       Finalization
+ 0001:00011838       DataModl
+ 0001:000123C8       StripDetail
+ 0001:00012434       StripMaster
+ 0001:000124A8       FreeList
+ 0001:000124D8       GetQuoteChar
+ 0001:000127F4       TOTAFile.Create
+ 0001:00012844       TOTAFile.Destroy
+ 0001:00012874       TOTAFile.GetAge
+ 0001:0001288C       TOTAFile.GetSource
+ 0001:000128AC       TFormModuleCreator.Create
+ 0001:000129F4       TFormModuleCreator.FormCreated
+ 0001:000129F8       TFormModuleCreator.GetAncestorName
+ 0001:00012A0C       TFormModuleCreator.GetCreatorType
+ 0001:00012A30       TFormModuleCreator.GetExisting
+ 0001:00012A34       TFormModuleCreator.GetFileSystem
+ 0001:00012A40       TFormModuleCreator.GetFormName
+ 0001:00012A54       TFormModuleCreator.GetImplFileName
+ 0001:00012A68       TFormModuleCreator.GetIntfFileName
+ 0001:00012A7C       TFormModuleCreator.GetMainForm
+ 0001:00012A80       TFormModuleCreator.GetOwner
+ 0001:00012A94       TFormModuleCreator.GetShowForm
+ 0001:00012A98       TFormModuleCreator.GetShowSource
+ 0001:00012A9C       TFormModuleCreator.GetUnnamed
+ 0001:00012AA0       TFormModuleCreator.NewFormFile
+ 0001:00012AB8       TFormModuleCreator.NewImplSource
+ 0001:00012AD0       TFormModuleCreator.NewIntfSource
+ 0001:00012AE8       TFormExpert.Create
+ 0001:00012B30       TFormExpert.AliasPath
+ 0001:00012C58       TFormExpert.InitChoice
+ 0001:00012C7C       TFormExpert.FreeChoice
+ 0001:00012C94       TFormExpert.FormCreate
+ 0001:00012FBC       TFormExpert.FormDestroy
+ 0001:00013040       InitChoices
+ 0001:000130A0       TFormExpert.Init
+ 0001:00013128       TFormExpert.InitFilter
+ 0001:000131A8       TFormExpert.FillFieldList
+ 0001:000132E0       TFormExpert.ChangePages
+ 0001:00013560       TFormExpert.ProcessPage0
+ 0001:00013570       TFormExpert.ProcessPage1
+ 0001:00013794       TFormExpert.ProcessPage2
+ 0001:00013838       TFormExpert.ProcessPage3
+ 0001:00013880       TFormExpert.ProcessPage4
+ 0001:000138A8       TFormExpert.ProcessPage5
+ 0001:00013958       TFormExpert.NextButtonClick
+ 0001:00013A54       TFormExpert.PrevButtonClick
+ 0001:00013AF8       TFormExpert.SetLayOut
+ 0001:00013B40       TFormExpert.CreateOptionClick
+ 0001:00013B68       TFormExpert.DataSourceListClick
+ 0001:00013B78       TFormExpert.LayoutButtonClick
+ 0001:00013BAC       TFormExpert.GenBindVar
+ 0001:00013DB4       TFormExpert.GenSelect
+ 0001:000141FC       TFormExpert.CreateField
+ 0001:000142D4       TFormExpert.InitTable
+ 0001:0001455C       TFormExpert.InitQuery
+ 0001:000148F4       CreateControls
+ 0001:00014A0C       TFormExpert.CreateForm
+ 0001:00014FFC       TFormExpert.SetFilter
+ 0001:0001501C       CheckAliasDrive
+ 0001:00015078       TFormExpert.AliasDriveListChange
+ 0001:0001524C       TFormExpert.AliasPathListChange
+ 0001:000153F4       TFormExpert.FilterListChange
+ 0001:000154C8       TFormExpert.AliasFileListClick
+ 0001:0001552C       TFormExpert.AliasFileListDblClick
+ 0001:00015548       TFormExpert.SetButtons
+ 0001:00015610       TFormExpert.SetItem
+ 0001:00015654       TFormExpert.Button1Click
+ 0001:000156BC       TFormExpert.Button2Click
+ 0001:000157A8       TFormExpert.Button3Click
+ 0001:00015870       TFormExpert.Button4Click
+ 0001:00015990       TFormExpert.RemoveMatch
+ 0001:00015A1C       TFormExpert.GetFirstSelection
+ 0001:00015A50       TFormExpert.MoveSelected
+ 0001:00015B20       TFormExpert.InsertSelected
+ 0001:00015C00       TFormExpert.OrderFieldList
+ 0001:00015CC0       TFormExpert.MoveItems
+ 0001:00015DB0       TFormExpert.SetFileEditText
+ 0001:00015DC8       TFormExpert.FileEditChange
+ 0001:00016050       TFormExpert.DoDragOver
+ 0001:00016164       TFormExpert.ListDragOver
+ 0001:000161E0       TFormExpert.MoveDragList
+ 0001:00016228       TFormExpert.ListDragDrop
+ 0001:000162FC       TFormExpert.ListDblClick
+ 0001:000163D0       TFormExpert.UpButtonClick
+ 0001:0001645C       TFormExpert.DownButtonClick
+ 0001:000164F4       TFormExpert.CreateTableClick
+ 0001:0001652C       TFormExpert.CreateQueryClick
+ 0001:00016564       TFormExpert.PosButtonClick
+ 0001:00016580       TFormExpert.FormPaint
+ 0001:00016620       TFormExpert.FileEditKeyPress
+ 0001:000167E0       TFormExpert.BindingListClick
+ 0001:00016818       TFormExpert.AddToBindList
+ 0001:00016948       TFormExpert.AddButtonClick
+ 0001:00016A7C       TFormExpert.ClearButtonClick
+ 0001:00016BF0       TFormExpert.DeleteButtonClick
+ 0001:00016DEC       TFormExpert.BindListClick
+ 0001:00016E10       TFormExpert.IndexListChange
+ 0001:00017064       TFormExpert.CheckBind
+ 0001:00017160       TFormExpert.FormClick
+ 0001:00017168       TFormExpert.FormAndModuleClick
+ 0001:00017170       TFormExpert.HelpButtonClick
+ 0001:00017188       TFormExpert.FormCloseQuery
+ 0001:00017200       Finalization
+ 0001:00017264       FrmExprt
+ 0001:000177A0       DbXDelphi
+ 0001:000177B8       Databases
+ 0001:000177D0       ShowSelection
+ 0001:000177F4       SetModified
+ 0001:0001786C       TDbXFileSystem.Create
+ 0001:000178D0       TDbXFileSystem.Destroy
+ 0001:00017904       TDbXFileSystem.Free
+ 0001:00017908       TDbXFileSystem.GetIDString
+ 0001:0001793C       TDbXFileSystem.FindAEO
+ 0001:0001798C       TDbXFileSystem.GetFileStream
+ 0001:00017A24       TDbXFileSystem.SaveFileStream
+ 0001:00017A84       TDbXFileSystem.FileAge
+ 0001:00017AA4       TDbXFileSystem.RenameFile
+ 0001:00017AB0       TDbXFileSystem.IsReadOnly
+ 0001:00017AD4       TDbXFileSystem.IsFileBased
+ 0001:00017AE0       TDbXFileSystem.DeleteFile
+ 0001:00017AEC       TDbXFileSystem.FileExists
+ 0001:00017B08       TDbXFileSystem.GetTempFileName
+ 0001:00017B1C       TDbXFileSystem.GetBackupFileName
+ 0001:00017B30       TEONotifier.Create
+ 0001:00017B6C       TEONotifier.Notify
+ 0001:00017C70       TEONotifier.ComponentRenamed
+ 0001:00017C78       TActiveEO.Create
+ 0001:00017CF8       TActiveEO.Destroy
+ 0001:00017D30       TActiveEO.SetMI
+ 0001:00017D70       TDbXStream.Create
+ 0001:00017DC8       TDbXStream.Destroy
+ 0001:00017E04       TDbXStream.SetModifyTime
+ 0001:00017E1C       TDbXDelphi.Create
+ 0001:00017ED8       TDbXDelphi.Destroy
+ 0001:00017F14       TDbXDelphi.DbEvent
+ 0001:00017F24       TDbXDelphi.Edit
+ 0001:00017F98       TDbXDelphi.IsEditing
+ 0001:00017FF8       TDbXDelphi.FindModule
+ 0001:00018008       TDbXDelphi.CreateModule
+ 0001:000180A8       TDbXDelphi.GetStream
+ 0001:000181CC       TDbXDelphi.SaveStream
+ 0001:00018304       TDbXDelphi.SavePath
+ 0001:00018408       TDbXDelphi.LoadForm
+ 0001:00018458       DatabaseExplorer
+ 0001:00018468       ExploreDatabase
+ 0001:0001859C       ExploreDataset
+ 0001:0001870C       Finalization
+ 0001:000187B8       Dbxplor
+ 0001:00018A3C       TDatabaseCommands.DatabaseMenuClick
+ 0001:00018A58       TDatabaseCommands.ShutDownSQLMonitor
+ 0001:00018AC0       TDatabaseCommands.DatabaseExplorerCommandExecute
+ 0001:00018AC8       TDatabaseCommands.DatabaseSQLMonitorCommandExecute
+ 0001:00018BC4       TDatabaseCommands.DatabaseFormWizardCommandExecute
+ 0001:00018C24       TDatabaseCommands.DatabaseCommandsCreate
+ 0001:00018DA0       TDatabaseCommands.DatabaseCommandsDestroy
+ 0001:00018DB4       TDatabaseCommands.DatabaseFormWizardCommandUpdate
+ 0001:00018E4C       Finalization
+ 0001:00018E7C       DbCmds
+ 0001:00018FF4       TFormTemplate.AfterSave
+ 0001:00018FF8       TFormTemplate.BeforeSave
+ 0001:00018FFC       TFormTemplate.Destroyed
+ 0001:00019000       TFormTemplate.Modified
+ 0001:00019004       TFormTemplate.GetName
+ 0001:00019018       TFormTemplate.GetComment
+ 0001:0001902C       TFormTemplate.GetGlyph
+ 0001:00019050       TFormTemplate.GetAuthor
+ 0001:00019074       TFormTemplate.GetPage
+ 0001:00019088       TFormTemplate.GetState
+ 0001:00019094       TFormTemplate.GetIDString
+ 0001:000190D0       TFormTemplate.Execute
+ 0001:00019130       Register
+ 0001:00019184       Finalization
+ 0001:000191CC       DBExpt
+ 0001:00019438       SaveAttributesAsDlg
+ 0001:000194AC       TSaveAttributesAs.OKBtnClick
+ 0001:0001955C       TSaveAttributesAs.CancelBtnClick
+ 0001:00019568       TSaveAttributesAs.HelpBtnClick
+ 0001:00019580       TSaveAttributesAs.AddToList
+ 0001:00019594       TSaveAttributesAs.FormCreate
+ 0001:00019604       UniqueAttrName
+ 0001:00019714       TSaveAttributesAs.Execute
+ 0001:00019868       Finalization
+ 0001:00019898       DSAttrS
+ 0001:00019B34       GetAssociateAttributes
+ 0001:00019B9C       TAssociateAttributes.OKBtnClick
+ 0001:00019BA8       TAssociateAttributes.CancelBtnClick
+ 0001:00019BB4       TAssociateAttributes.AddToList
+ 0001:00019BC8       TAssociateAttributes.FormCreate
+ 0001:00019C6C       TAssociateAttributes.EditChange
+ 0001:00019DBC       TAssociateAttributes.ListBoxClick
+ 0001:00019E40       TAssociateAttributes.ListBoxDblClick
+ 0001:00019E68       TAssociateAttributes.EditKeyDown
+ 0001:00019EB8       TAssociateAttributes.Execute
+ 0001:0001A000       TAssociateAttributes.HelpBtnClick
+ 0001:0001A018       Finalization
+ 0001:0001A048       DSAttrA
+ 0001:0001A130       Finalization
+ 0001:0001A160       MMSystem
+ 0001:0001A4D0       TCheckConstraintsProperty.GetEditorClass
+ 0001:0001A4D8       TConstraintEditor.ReadDictionaryCommandClick
+ 0001:0001A520       TConstraintEditor.FormShow
+ 0001:0001A550       Finalization
+ 0001:0001A580       CNCOLEDT
+ 0001:0001A588       LoadGQE
+ 0001:0001A62C       GQELoadAttempted
+ 0001:0001A638       GQELoaded
+ 0001:0001A650       UnloadGQE
+ 0001:0001A66C       BuildQuery
+ 0001:0001A758       Finalization
+ 0001:0001A790       GqeDelph
+ 0001:0001A968       TTableRenameForm.Execute
+ 0001:0001AA94       Finalization
+ 0001:0001AAC4       tblrenam
+ 0001:0001AB84       Confirm
+ 0001:0001ABF4       TableDesigner
+ 0001:0001ACF8       TableDesignRename
+ 0001:0001ADD0       Finalization
+ 0001:0001AE3C       TblDsgn
+ 0001:0001AE70       Finalization
+ 0001:0001AEA0       DDEml
+ 0001:0001CB38       TBDEDesigner.Destroy
+ 0001:0001CB6C       TBDEDesigner.QualifyTableName
+ 0001:0001CBE4       TBDEDesigner.GetTableDesc
+ 0001:0001CC88       TBDEDesigner.CheckAttribute
+ 0001:0001CCC4       TBDEDesigner.GetFieldInfo
+ 0001:0001CD50       TBDEDesigner.FindFieldInfo
+ 0001:0001CE5C       TBDEDesigner.RetrieveAttributes
+ 0001:0001CEDC       TBDEDesigner.SaveAttributes
+ 0001:0001CF2C       TBDEDesigner.SaveAttributesAs
+ 0001:0001CFC8       TBDEDesigner.AssociateAttributes
+ 0001:0001D060       TBDEDesigner.UnassociateAttributes
+ 0001:0001D0A8       TBDEDesigner.AttributeClick
+ 0001:0001D1B0       TBDEDesigner.GetControlClass
+ 0001:0001D200       TBDEDesigner.BeginCreateFields
+ 0001:0001D314       TBDEDesigner.EndCreateFields
+ 0001:0001D340       NeedsBackslashing
+ 0001:0001D380       Backslash
+ 0001:0001D3E4       Delimit
+ 0001:0001D488       TBDEDesigner.DoCreateField
+ 0001:0001D950       TBDEDesigner.InitializeMenu
+ 0001:0001DA20       TBDEDesigner.UpdateMenus
+ 0001:0001DBB0       TDBDataSetEditor.GetDSDesignerClass
+ 0001:0001DBB8       TDBDataSetEditor.ExecuteVerb
+ 0001:0001DBF0       TDBDataSetEditor.GetVerb
+ 0001:0001DC30       TDBDataSetEditor.GetVerbCount
+ 0001:0001DCBC       TQueryEditor.ExecuteVerb
+ 0001:0001DDC8       TQueryEditor.GetVerb
+ 0001:0001DE24       TQueryEditor.GetVerbCount
+ 0001:0001DEEC       TQueryParamsProperty.GetColOptions
+ 0001:0001DF78       TStoredProcEditor.ExecuteVerb
+ 0001:0001DFB8       TStoredProcEditor.GetVerb
+ 0001:0001DFF8       TStoredProcEditor.GetVerbCount
+ 0001:0001E0B8       TStoredProcParamsProperty.Edit
+ 0001:0001E12C       IsDatabaseOpen
+ 0001:0001E1F0       TTableEditor.UpdateActions
+ 0001:0001E27C       TTableEditor.IndexToAction
+ 0001:0001E2A4       TTableEditor.ExecuteVerb
+ 0001:0001E324       TTableEditor.GetVerb
+ 0001:0001E36C       TTableEditor.GetVerbCount
+ 0001:0001E418       TDatabaseEditor.ExecuteVerb
+ 0001:0001E480       TDatabaseEditor.GetVerb
+ 0001:0001E4A8       TDatabaseEditor.GetVerbCount
+ 0001:0001E530       TBatchMoveEditor.ExecuteVerb
+ 0001:0001E53C       TBatchMoveEditor.GetVerb
+ 0001:0001E550       TBatchMoveEditor.GetVerbCount
+ 0001:0001E600       TSessionNameProperty.GetValueList
+ 0001:0001E6B8       TDatabaseNameProperty.GetValueList
+ 0001:0001E788       TAliasNameProperty.GetValueList
+ 0001:0001E858       TDriverNameProperty.GetValueList
+ 0001:0001E928       TTableNameProperty.AutoFill
+ 0001:0001E948       TTableNameProperty.GetValueList
+ 0001:0001EA80       TProcedureNameProperty.AutoFill
+ 0001:0001EAA0       TProcedureNameProperty.GetValueList
+ 0001:0001EB74       TIndexFilesProperty.GetAttributes
+ 0001:0001EB80       TIndexFilesProperty.GetValue
+ 0001:0001EBD0       TIndexFilesProperty.Edit
+ 0001:0001ED9C       TUpdateSQLEditor.ExecuteVerb
+ 0001:0001EDF4       TUpdateSQLEditor.GetVerb
+ 0001:0001EE08       TUpdateSQLEditor.GetVerbCount
+ 0001:0001EE10       TTableFieldLinkProperty.Edit
+ 0001:0001EFB8       TTableFieldLinkProperty.GetFieldNamesForIndex
+ 0001:0001EFF0       TTableFieldLinkProperty.GetIndexBased
+ 0001:0001F008       TTableFieldLinkProperty.GetIndexDefs
+ 0001:0001F014       TTableFieldLinkProperty.GetIndexFieldNames
+ 0001:0001F028       TTableFieldLinkProperty.GetIndexName
+ 0001:0001F03C       TTableFieldLinkProperty.GetMasterFields
+ 0001:0001F050       TTableFieldLinkProperty.SetIndexFieldNames
+ 0001:0001F05C       TTableFieldLinkProperty.SetIndexName
+ 0001:0001F0C8       TTableFieldLinkProperty.SetMasterFields
+ 0001:0001F0D4       SprigBDESessionName
+ 0001:0001F128       SprigBDEImpliedDatabaseName
+ 0001:0001F190       SprigBDEImpliedSessionName
+ 0001:0001F1F8       TDBDataSetSprig.AnyProblems
+ 0001:0001F21C       TDBDataSetSprig.FigureParent
+ 0001:0001F3AC       TDBDataSetSprig.DragDropTo
+ 0001:0001F498       TDBDataSetSprig.DragOverTo
+ 0001:0001F4D4       TDBDataSetSprig.PaletteOverTo
+ 0001:0001F510       TDBDataSetSprig.Reparent
+ 0001:0001F55C       TSessionSprig.Name
+ 0001:0001F574       TSessionSprig.AnyProblems
+ 0001:0001F584       TSessionSprig.Caption
+ 0001:0001F5F0       TDefaultSessionSprig.Caption
+ 0001:0001F68C       TDefaultSessionSprig.ItemClass
+ 0001:0001F694       TDefaultSessionSprig.UniqueName
+ 0001:0001F6C4       TImpliedSessionSprig.Caption
+ 0001:0001F6F8       TImpliedSessionSprig.ItemClass
+ 0001:0001F700       TImpliedSessionSprig.UniqueName
+ 0001:0001F714       TDatabaseSprig.Name
+ 0001:0001F730       TDatabaseSprig.AnyProblems
+ 0001:0001F744       TDatabaseSprig.Caption
+ 0001:0001F818       TDatabaseSprig.FigureParent
+ 0001:0001F91C       TDatabaseSprig.DragDropTo
+ 0001:0001FA04       TDatabaseSprig.DragOverTo
+ 0001:0001FA4C       TDatabaseSprig.PaletteOverTo
+ 0001:0001FA94       TImpliedDatabaseSprig.AnyProblems
+ 0001:0001FAA0       TImpliedDatabaseSprig.Caption
+ 0001:0001FACC       TImpliedDatabaseSprig.DragDropTo
+ 0001:0001FB98       TImpliedDatabaseSprig.DragOverTo
+ 0001:0001FBD8       TImpliedDatabaseSprig.FigureParent
+ 0001:0001FCCC       TImpliedDatabaseSprig.ItemClass
+ 0001:0001FCD4       TImpliedDatabaseSprig.UniqueName
+ 0001:0001FCE8       TNestedTableSprig.ParentProperty
+ 0001:0001FD14       TTableSprig.AnyProblems
+ 0001:0001FD38       TTableSprig.Caption
+ 0001:0001FD94       TQuerySprig.AnyProblems
+ 0001:0001FDBC       TStoredProcSprig.AnyProblems
+ 0001:0001FDE0       TStoredProcSprig.Caption
+ 0001:0001FE3C       TTableMasterDetailBridge.GetOmegaSource
+ 0001:0001FE48       TTableMasterDetailBridge.OmegaIslandClass
+ 0001:0001FE50       TTableMasterDetailBridge.SetOmegaSource
+ 0001:0001FE5C       TTableMasterDetailBridge.CanEdit
+ 0001:0001FE60       TTableMasterDetailBridge.Edit
+ 0001:0001FEC8       TTableMasterDetailBridge.Caption
+ 0001:0001FF38       TQueryMasterDetailBridge.Caption
+ 0001:0001FF4C       TQueryMasterDetailBridge.GetOmegaSource
+ 0001:0001FF58       TQueryMasterDetailBridge.OmegaIslandClass
+ 0001:0001FF60       TQueryMasterDetailBridge.RemoveMasterFieldsAsWell
+ 0001:0001FF64       TQueryMasterDetailBridge.SetOmegaSource
+ 0001:0001FF70       TBatchMoveSprig.AnyProblems
+ 0001:0001FF88       TBatchMoveSprig.Caption
+ 0001:0002008C       TUpdateSQLSprig.AnyProblems
+ 0001:000200D4       Register
+ 0001:00020764       TBDEDataSetSprig.GetDSDesignerClass
+ 0001:0002076C       Finalization
+ 0001:000207E0       BDEReg
+ 0001:00020E94       @GetPackageInfoTable
+ 0001:00020E9C       @PackageLoad
+ 0001:00020EA8       @PackageUnload
+ 0001:00020EB4       dclbde
+ 0002:00000000       TlsIndex
+ 0002:00000004       PtrToNil
+ 0002:00000008       Module
+ 0002:00000020       TlsProc
+ 0002:00000030       VQBLoadAttempted
+ 0002:00000034       DBName
+ 0002:00000038       CursorName
+ 0002:0000003C       NullID
+ 0002:00000044       NullAttrID
+ 0002:0000004C       NullDatabaseID
+ 0002:00000054       NullTableID
+ 0002:0000005C       NullFieldID
+ 0002:00000064       WidthPad
+ 0002:00000068       HeightPad
+ 0002:0000006C       MaxWidth
+ 0002:00000070       Margin
+ 0002:00000074       Images
+ 0002:0000009C       SimpleTable
+ 0002:000000A0       MasterTable
+ 0002:000000A4       DetailTable
+ 0002:000000A8       LocalFilter
+ 0002:000000AC       RemoteFilter
+ 0002:000000B0       ControlWidths
+ 0002:00000128       TableTypes
+ 0002:00000134       ProcTypes
+ 0002:0000013C       TableDesignMenu
+ 0002:0000014C       AttributeMenus
+ 0002:000001C4       ExistsActions
+ 0002:000001C8       Masks
+ 0002:00001000       ModuleIsLib
+ 0002:00001001       ModuleIsPackage
+ 0002:00001004       HInstance
+ 0002:00001008       .1
+ 0002:0000100C       tlsBuffer
+ 0002:00001010       .3
+ 0002:00001014       .1
+ 0002:00001018       .1
+ 0002:0000101C       .1
+ 0002:00001020       .1
+ 0002:00001024       .1
+ 0002:00001028       .1
+ 0002:0000102C       .1
+ 0002:00001030       .1
+ 0002:00001034       .3
+ 0002:00001038       .1
+ 0002:0000103C       .1
+ 0002:00001040       .1
+ 0002:00001044       .2
+ 0002:00001048       .1
+ 0002:0000104C       VQBHandle
+ 0002:00001050       QueryRun
+ 0002:00001054       QueryConnect
+ 0002:00001058       QueryAttach
+ 0002:0000105C       QueryCreateStream
+ 0002:00001060       QueryDeleteStream
+ 0002:00001064       QueryDetach
+ 0002:00001068       QueryDisconnect
+ 0002:0000106C       QueryErrorMsg
+ 0002:00001070       QueryGetHandle
+ 0002:00001074       QueryAttachHandle
+ 0002:00001078       .2
+ 0002:0000107C       .1
+ 0002:00001080       Dictionary
+ 0002:00001084       FieldToAttribute
+ 0002:00001088       LastDatabaseName
+ 0002:0000108C       LastDatabaseID
+ 0002:00001094       .1
+ 0002:00001098       .2
+ 0002:0000109C       .3
+ 0002:000010A0       .4
+ 0002:000010A4       .2
+ 0002:000010A8       WriteBuffer
+ 0002:000014A8       .2
+ 0002:000014AC       WriteBuffer
+ 0002:000018AC       .3
+ 0002:000018B0       .3
+ 0002:000018B4       DbXFileSystem
+ 0002:000018B8       DatabaseCommands
+ 0002:000018BC       .2
+ 0002:000018C0       .1
+ 0002:000018C4       .2
+ 0002:000018C8       .2
+ 0002:000018CC       .7
+ 0002:000018D0       .3
+ 0002:000018D4       .1
+ 0002:000018D8       GQEHandle
+ 0002:000018DC       GQEProc
+ 0002:000018E0       TableRenameForm
+ 0002:000018E4       .2
+ 0002:000018E8       .2
+ 0002:000018EC       .1
+ 0002:000018F0       .12
+
+
+Bound resource files
+
+c:\tp\db\Dbedit.dfm
+c:\tp\db\Ixedit.dfm
+c:\tp\db\UpdSqlEd.dfm
+dbcombo.res
+DataForm.dfm
+datamodl.dfm
+FrmExprt.dfm
+frmexprt.res
+DbCmds.dfm
+c:\tp\db\template.res
+c:\tp\db\DSAttrS.dfm
+c:\tp\db\DSAttrA.dfm
+c:\tp\db\CnColEdt.dfm
+c:\tp\db\tblrenam.dfm
+dclbde.res
+c:\tp\db\bdereg.dcr
+C:\DOCUME~1\~KOKOP~1\LOCALS~1\Temp\dtf2801.tmp
+
+
+Program entry point at 0001:00020EB4

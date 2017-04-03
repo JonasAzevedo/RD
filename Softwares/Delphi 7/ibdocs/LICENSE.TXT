@@ -1,0 +1,336 @@
+INTERBASE MEDIA KIT
+
+LICENSE STATEMENT AND LIMITED WARRANTY
+
+IMPORTANT - READ CAREFULLY
+This License Statement and Limited Warranty constitutes a legal agreement 
+("License Agreement") between you (either as an individual or a single entity) 
+and Borland Software Corporation ("Borland") for the software product (the 
+"Software" or "InterBase") identified above, including any software, media, 
+and accompanying on-line or printed documentation.
+
+BY DOWNLOADING, INSTALLING, COPYING, OR OTHERWISE USING THE SOFTWARE, YOU 
+ACKNOWLEDGE THAT YOU HAVE READ THIS LICENSE AGREEMENT, UNDERSTAND IT, AND 
+AGREE TO BE BOUND BY ALL OF THE TERMS AND CONDITIONS OF THIS LICENSE 
+AGREEMENT.  If you are the original purchaser of this Software and you do not 
+agree with the terms and conditions of this License Agreement promptly return 
+the unused Software to the place from which you obtained it for a full refund.
+
+Upon your acceptance of the terms and conditions of this License Agreement, 
+Borland grants you the right to use the Software in the manner provided below.
+
+This Software is owned by Borland or its suppliers and is protected by 
+copyright law and international copyright treaty. Therefore you must treat 
+this Software like any other copyrighted material, (e.g. a book), except that 
+you may either make one copy of the Software solely for backup or archival 
+purposes or transfer the Software to a single hard disk provided you keep the 
+original solely for backup or archival purposes.
+
+Except as provided in this License Agreement, you may not transfer, rent, 
+lease, lend, copy, modify, translate, sublicense, time-share or electronically 
+transmit or receive the Software, media or documentation.  You acknowledge 
+that the Software in source code form remains a confidential trade secret of 
+Borland or its suppliers and therefore you agree not to modify the Software or 
+attempt to decipher, de-compile, disassemble or reverse engineer the Software, 
+except to the extent applicable laws specifically prohibit such restriction.
+
+If you purchased this Software as an upgrade, it constitutes a single product 
+together with the product that you upgraded, and may not be used to increase 
+the total number of licensed copies of the Software.  You may use the upgraded 
+product only in accordance with this License Agreement and you may not 
+transfer this Software or the product you upgraded unless they are transferred 
+together as a single product.
+
+This Software is subject to U.S. Commerce Department export restrictions, and 
+is intended for use in the country or countries into which Borland released 
+it. You agree to fully comply with all laws and regulations of the United 
+States and other countries ("Export Laws") to assure that neither the Software 
+nor any direct products thereof are (1) exported directly or indirectly in 
+violation of Export Laws or (2) are used for any purpose prohibited by Export 
+Laws including without limitation nuclear, chemical or biological weapons 
+production. In particular but without limitation, none of the Software or 
+underlying information or technology may be downloaded or otherwise exported 
+or re-exported (i) into (or to a national or resident of) Cuba, Haiti, Iraq, 
+Libya, Yugoslavia, North Korea, Iran, or Syria or (ii) to anyone on the US 
+Treasury Department's list of Specially Designated Nationals or the US 
+Commerce Department's Table of Deny Orders.  By downloading and/or installing 
+the Software, you are agreeing to the foregoing and you are representing and 
+warranting that you are not located in, under control of, or a national or 
+resident of any such country or on any such list.
+
+GENERAL TERMS WHICH APPLY TO THE INTERBASE MEDIA KIT The Software includes a 
+number of components, including, (a) the INTERBASE SERVER SOFTWARE ("Server 
+Software"), (b) the INTERBASE CLIENT SOFTWARE ("Client Software"), (c) the 
+INTERBASE PRECOMPILER SOFTWARE ("Precompiler Software"), and (d) the INTERBASE 
+DESKTOP EDITION SOFTWARE ("InterBase Desktop Edition"). In order to install 
+and use these components, you must purchase additional licenses from Borland. 
+The Software also includes the (i) INTERCLIENT / INTERSERVER JDBC DRIVER 
+("InterClient Software"), (ii) EASYSOFT ODBC DRIVER ("Easysoft Software") and 
+(iii) IBREPLICATOR ("IB Replicator Software"), each of which is subject to 
+this License Agreement.  You may also purchase additional Internet Access 
+Licenses to use the Software through the Internet.
+
+ADDITIONAL TERMS WHICH APPLY TO INTERBASE DESKTOP EDITION
+You may use the InterBase Desktop Edition Software only if you have purchased 
+a InterBase Desktop Edition Activation License from Borland.  The InterBase 
+Desktop Edition Activation License allows you to install a single copy of the 
+InterBase Desktop Edition Software on a single computer for your internal data 
+processing needs and to access this copy of the InterBase Desktop Edition 
+Software by logging into the same computer on which it is installed. The 
+InterBase Desktop Edition Software may also be used as Client Software to 
+connect with Server Software located on a computer other than the computer on 
+which the InterBase Desktop Edition Software is installed.
+
+ADDITIONAL TERMS WHICH APPLY TO THE SERVER SOFTWARE
+You may use the Server Software only if you have purchased a Server Activation 
+License from Borland.  The Server Activation License allows you to use the 
+Server Software on a single computer network for supporting your internal data 
+processing needs.  You may install the Server Software on the hard disk of a 
+single computer for each Server Activation License you purchase.  In order to 
+connect your users to the Server Software you must purchase as many 
+Simultaneous User Licenses as you have simultaneous users on that Server.
+
+ADDITIONAL TERMS WHICH APPLY TO THE CLIENT SOFTWARE
+You may use the Client Software only if you have purchased at least one 
+Simultaneous User License from Borland. You may install the Client Software on 
+as many computers as you wish.  Each Simultaneous User License allows you to 
+use the Client Software to connect a single user to the Server Software. You 
+may use the Client Software to connect as many simultaneous users to the 
+Server Software as you have Simultaneous User Licenses for that Server.
+
+All users accessing the InterBase Server in any manner other than as members 
+of the general public through an unrestricted-access Internet application must 
+be licensed as Simultaneous Users.
+
+You must provide safeguards to ensure that the number of such simultaneous 
+users does not exceed the total number of Simultaneous User Licenses.  If the 
+number of simultaneous users exceeds the number of Simultaneous User Licenses, 
+you must purchase additional licenses from Borland.
+
+If you use multiplexing software or hardware to reduce the number of users 
+directly connected to the Server Software, the number of simultaneous users 
+must be measured as the number of distinct inputs to the multiplexing front 
+end.
+
+If any of your users connect to the Server Software via an unrestricted-access 
+Internet application you must purchase an Internet Access License from 
+Borland. For terms governing public access to an InterBase database from the 
+Internet, see the section in this document entitled Additional Terms Which 
+Apply To Internet Access To The Server Software.
+
+Regardless of system configuration, no user may make more than four 
+simultaneous connections to the Server Software.  If any user requires more 
+than four simultaneous connections to the Server Software you may obtain the 
+right to make an additional four connections for each additional Simultaneous 
+User License you purchase from Borland.  Each Simultaneous User License also 
+contains a version number.  Each Simultaneous User License allows you to 
+connect Client Software to the Server Software only if the Simultaneous User 
+License has a major version number which is the same as the major version 
+number of the Server Software. (The major version number is the integer to the 
+left of the leftmost decimal point).
+
+ADDITIONAL TERMS WHICH APPLY TO THE IB REPLICATOR SOFTWARE
+You may use or deploy the IB Replicator Software only if you have purchased 
+the appropriate IB Replicator Software License from Borland. Purchase of 
+InterBase does not include deployment or redistribution rights for the IB 
+Replicator Software. The IB Replicator Software License allows you to use the 
+IB Replicator Software on a single computer for supporting your internal data 
+processing needs.  You may install the IB Replicator Software on the hard disk 
+of a single computer for each "Replication Server" license you purchase. Each 
+InterBase Server which controls any source or target database, requires a 
+"Replicant" license. This means that a server which runs the IB Replicator 
+Software AND which controls a source/target database needs BOTH a "Replication 
+Server" license and a "Replicant" license. If InterBase Desktop Edition is 
+installed, then ONLY a "Replication Server Lite" license must be obtained. If 
+you wish to redistribute applications which use the IB Replicator Software you 
+must purchase the appropriate multi-user licenses, available separately from 
+Borland.  For more information on the IB Replicator Software and IB Replicator 
+Software Licenses, see Borland 's World Wide Web site at 
+http://www.borland.com, or contact your local Borland sales office.
+
+ADDITIONAL TERMS WHICH APPLY TO INTERNET ACCESS TO THE SERVER SOFTWARE
+If you allow unrestricted access for users to connect to the InterBase Server 
+Software through an Internet application as members of the general public, you 
+must purchase (a) an Internet Access License for Licensed Users, or (b) an 
+Internet Access License for Unlimited Users. If you implement any mechanism 
+which restricts access to the InterBase Internet application to specific users 
+or categories of users so that it is not available to any member of the 
+general public, access is not considered unrestricted.
+
+(a) The Internet Access License for Licensed Users allows you to connect a 
+limited number of general public users to the InterBase Server software 
+through the Internet.  It allows you to use your existing Simultaneous User 
+Licenses to connect a single general public user to the Server Software for 
+each Simultaneous User License you have. It does not, however, increase the 
+total number of simultaneous users who may access the Server Software. The 
+total number of simultaneous users from all sources may not exceed the number 
+of Simultaneous User Licenses you have purchased.
+
+(b) The Internet Access License for Unlimited Users allows you to connect an 
+unlimited number of general public users to the InterBase Server software 
+through the Internet.
+
+Both Internet Access Licenses described in (a) and (b) above are available 
+only if access to the InterBase Internet application is unrestricted. If you 
+require a password or any other method to restrict such access to the Server 
+Software, then you must purchase Simultaneous User Licenses for each 
+simultaneous user that is granted access to the Server Software.  For example, 
+users who access the Server Software through a LAN, WAN or Client/Server 
+system must be licensed as simultaneous users.  Users who access the Server 
+Software through a web site that employs a password or other restriction, for 
+example an Intranet or Extranet, must be licensed as simultaneous users.
+
+In all cases, you must provide safeguards to ensure that the number of actual 
+simultaneous users, except as provided in (b) above, does not exceed the total 
+number of Simultaneous User Licenses you have purchased.
+
+ADDITIONAL TERMS WHICH APPLY TO PROGRAMS COMPILED WITH THE SOFTWARE
+You may write and compile your own applications using the Software including 
+the InterClient Software and any libraries and source code included with the 
+Software for such purpose so long as (a) your application is a product which 
+operates in conjunction with the Software, (b) you do not use Borland's name, 
+logo or trademark, or any name, logo or trademark of any product of Borland 
+(including the Software) to market your software product, (c) you include 
+Borland's copyright notice as part of the sign-on message for your software 
+product, (d) you agree to indemnify, hold harmless, and defend Borland and its 
+suppliers from and against any claims or lawsuits, including attorney's fees, 
+that arise out of your use or distribution of your application software 
+product, and (e) your program is not merely a set or subset of the Software or 
+any libraries or source code included with the Software.  In addition, in 
+order to use the Precompiler Software to build your applications, you must 
+purchase a Precompiler License from Borland.
+
+ADDITIONAL TERMS WHICH APPLY TO THE EVALUATION PERIOD
+If you have obtained permission from Borland to evaluate the Software, you may 
+install the Software on a temporary basis for evaluation purposes only.  The 
+evaluation period is limited to 90 days from the date the Software is 
+installed ("Evaluation Period").  Upon completion of the Evaluation Period 
+your license to use the Software expires.
+
+During the Evaluation Period, you may install the Server Software on a single 
+(1) computer network on a temporary basis for evaluation purposes only. During 
+the Evaluation Period, you may use the Client Software to connect up to five 
+(5) simultaneous users to the Server Software on a temporary basis for 
+evaluation purposes only.
+
+During the Evaluation Period, you can write and compile applications which use 
+the Software for your own personal, non-commercial use on the computers on 
+which you have installed the Software, but you do not have a right to 
+distribute or otherwise share those applications or any of the files of the 
+Software which may be required to support those applications.
+
+THE SOFTWARE CONTAINS A TIME-OUT FEATURE THAT DISABLES ITS OPERATION AFTER THE 
+EXPIRATION OF THE EVALUATION PERIOD.  APPLICATIONS THAT YOU CREATE DURING THE 
+EVALUATION PERIOD MAY REQUIRE THE SOFTWARE IN ORDER TO RUN. UPON EXPIRATION OF 
+THE EVALUATION PERIOD, THOSE APPLICATIONS WILL NO LONGER RUN.  YOU SHOULD 
+THEREFORE TAKE PRECAUTIONS TO AVOID ANY LOSS OF DATA THAT MIGHT RESULT.
+
+DURING THE EVALUATION PERIOD, THE SOFTWARE IS PROVIDED ON AN "AS IS" BASIS 
+"WITH ALL FAULTS." YOU ASSUME THE ENTIRE RISK AS TO THE QUALITY AND 
+PERFORMANCE OF THE SOFTWARE DURING THE EVALUATION PERIOD.  SHOULD THE SOFTWARE 
+PROVE DEFECTIVE DURING THE EVALUATION PERIOD, YOU, AND NOT BORLAND OR ITS 
+SUPPLIERS, ASSUME THE ENTIRE COST OF ALL NECESSARY SERVICING AND REPAIR.
+
+In order to use the Software after the Evaluation Period, you must purchase a 
+Server License and as many Simultaneous User Licenses as you have simultaneous 
+users.  If you do not purchase additional licenses from Borland, you agree to 
+destroy or permanently delete the Software from your computer upon expiration 
+of the Evaluation Period, and not to reinstall a new copy of the Software.
+
+LIMITED WARRANTY AND LIMITATION OF LIABILITY
+Borland warrants that the Software, as updated and when properly used, will 
+perform substantially in accordance with its accompanying documentation, and 
+the Software media will be free from defects in materials and workmanship, for 
+a period of ninety (90) days from the date of receipt.  Any implied warranties 
+on the Software are limited to ninety (90) days.  Some states or jurisdictions 
+do not allow limitations on duration of an implied warranty, so the above 
+limitation may not apply to you.
+
+Borland's and its suppliers' entire liability and your exclusive remedy shall 
+be, at Borland's option, either (a) return of the price paid, or (b) repair or 
+replacement of the Software that does not meet the Limited Warranty and which 
+is returned to Borland with a copy of your receipt. DO NOT RETURN ANY PRODUCT 
+UNTIL YOU HAVE CALLED THE BORLAND CUSTOMER SERVICE DEPARTMENT AND OBTAINED A 
+RETURN AUTHORIZATION NUMBER.  This Limited Warranty is void if Software fails 
+as a result of accident, abuse, or misapplication.  Any replacement Software 
+will be warranted for the remainder of the original warranty period or thirty 
+(30) days, whichever is longer.  Outside the United States, neither these 
+remedies nor any product support services offered by Borland are available 
+without proof of purchase from an authorized non-U.S. source.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, BORLAND AND ITS SUPPLIERS 
+DISCLAIM ALL OTHER WARRANTIES, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT 
+LIMITED TO, ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
+PARTICULAR PURPOSE, NON-INFRINGEMENT OR TITLE, WITH REGARD TO THE SOFTWARE AND 
+THE ACCOMPANYING DOCUMENTATION.  THIS LIMITED WARRANTY GIVES YOU SPECIFIC 
+LEGAL RIGHTS. YOU MAY HAVE OTHERS, WHICH VARY FROM STATE TO STATE OR 
+JURISDICTION TO JURISDICTION. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE 
+LAW, IN NO EVENT SHALL BORLAND OR ITS SUPPLIERS BE LIABLE FOR ANY DAMAGES 
+WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF BUSINESS 
+PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, OR ANY OTHER 
+PECUNIARY LOSS) ARISING OUT OF THE USE OF OR INABILITY TO USE THIS BORLAND 
+PRODUCT EVEN IF BORLAND HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. 
+IN ANY CASE, BORLAND'S ENTIRE LIABILITY UNDER ANY PROVISION OF THIS LICENSE 
+AGREEMENT SHALL BE LIMITED TO THE GREATER OF THE AMOUNT ACTUALLY PAID BY YOU 
+FOR THE SOFTWARE OR US$25.
+
+Notwithstanding the above, if you have entered into a support agreement with 
+Borland with respect to the Software, Borland's entire liability regarding 
+support services shall be governed by the terms of that agreement. Because 
+some states and jurisdictions do not allow the exclusion or limitation of 
+liability, the above limitations may not apply to you.
+
+HIGH RISK ACTIVITIES
+The Software is not fault-tolerant and is not designed, manufactured or 
+intended for use or resale as on-line control equipment in hazardous 
+environments requiring fail-safe performance, such as in the operation of 
+nuclear facilities, aircraft navigation or communication systems, air traffic 
+control, direct life support machines, or weapons systems, in which the 
+failure of the Software could lead directly to death, personal injury, or 
+severe physical or environmental damage ("High Risk Activities"). Borland and 
+its suppliers specifically disclaim any express or implied warranty of fitness 
+for High Risk Activities.
+
+RESTRICTED RIGHTS LEGEND
+If the Software is acquired for or on behalf of the United States of America, 
+its agencies and/or instrumentalities ("U.S. Government"), it is provided with 
+Restricted Rights. Use, duplication, or disclosure by the U.S. Government is 
+subject to restrictions as set forth in subparagraph (c)(1)(ii) of the Rights 
+in Technical Data and Computer Software clause at DFARS 252.227-7013 or 
+subparagraphs (c)(1) and (2) of the Commercial Computer Software - Restricted 
+Rights at 48 CFR 52.227-19, as applicable. Manufacturer is Borland Software 
+Corporation, 100 Enterprise Way, Scotts Valley, California, 95066-3249, U.S.A.
+
+GENERAL PROVISIONS
+This Agreement constitutes the entire agreement between you and Borland with 
+regard to the subject matter hereof and supersedes all prior or 
+contemporaneous oral or written communications, representations, 
+understandings or agreements not specifically incorporated herein. This 
+License Agreement may only be modified in writing signed by you and an 
+authorized officer of Borland.  If any provision of this License Agreement is 
+found void or unenforceable, the remainder will remain valid and enforceable 
+according to its terms. If any remedy provided is determined to have failed 
+for its essential purpose, all limitations of liability and exclusions of 
+damages set forth in the Limited Warranty shall remain in effect.
+
+This License Agreement shall be construed, interpreted and governed by the 
+laws of the State of California, U.S.A., without regard to conflicts of laws 
+principles thereof or of any other jurisdiction, and you hereby consent to the 
+exclusive jurisdiction of the state and federal courts sitting in the State of 
+California for all causes of action arising in connection with this Agreement. 
+This License Agreement gives you specific legal rights; you may have others 
+which vary from state to state and from country to country.  Borland reserves 
+all rights not specifically granted in this License Agreement.
+
+Copyright © 1992-2001 Borland Software Corporation.  All rights reserved. 
+Covered by U.S. Patents: 5,826,253; 5,675,818; 5,644,768; 5,592,664, and 
+other issued and pending patents.
+
+IF YOU AGREE TO THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT, please 
+press the "I ACCEPT" button below.  This will be the legal equivalent of your 
+signature on a written contract, and equally binding.  You must agree to these 
+terms and conditions in order to download and install the Software.  If you do 
+not agree with these terms and conditions, you should press the "I DO NOT 
+ACCEPT" button below to exit this download process, as Borland is unwilling to 
+license the Software to you in such case.
+

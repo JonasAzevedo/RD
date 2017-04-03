@@ -1,0 +1,23 @@
+object EditForm: TEditForm
+  Left = 314
+  Top = 223
+  Width = 357
+  Height = 267
+  ActiveControl = memText
+  Caption = 'EditForm'
+  Color = clBackground
+  FormStyle = fsMDIChild
+  Position = poDefault
+  OnClose = FormClose
+  PixelsPerInch = 75
+  TextHeight = 15
+  TextWidth = 7
+  object memText: TMemo
+    Left = 0
+    Top = 0
+    Width = 357
+    Height = 267
+    Align = alClient
+    TabOrder = 0
+  end
+end

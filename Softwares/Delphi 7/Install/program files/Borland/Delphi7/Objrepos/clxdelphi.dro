@@ -1,0 +1,127 @@
+[Repository Pages]
+Forms=
+Dialogs=
+Projects=
+Data Modules= 
+
+[/root/kylix/objrepos/okcancl1]
+Type=FormTemplate
+Name=Standard Dialog (Horizontal)
+Page=Dialogs
+Icon=/root/kylix/objrepos/okcancl1.ico
+Description=OK, Cancel along bottom of dialog.
+Author=Borland
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=
+
+[/root/kylix/objrepos/okcnhlp1]
+Type=FormTemplate
+Name=Dialog with Help (Horizontal)
+Page=Dialogs
+Icon=/root/kylix/objrepos/okcnhlp1.ico
+Description=OK, Cancel, Help along bottom of dialog. This is an Inherited Form.
+Author=Borland
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=/root/kylix/objrepos/okcancl1
+
+[/root/kylix/objrepos/okcancl2]
+Type=FormTemplate
+Name=Standard Dialog (Vertical)
+Page=Dialogs
+Icon=/root/kylix/objrepos/okcancl2.ico
+Description=OK, Cancel along right edge.
+Author=Borland
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=
+
+[/root/kylix/objrepos/okcnhlp2]
+Type=FormTemplate
+Name=Dialog with Help (Vertical)
+Page=Dialogs
+Icon=/root/kylix/objrepos/okcnhlp2.ico
+Description=OK, Cancel, Help along right edge. This is an Inherited Form.
+Author=Borland
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=/root/kylix/objrepos/okcancl2
+
+[/root/kylix/objrepos/about]
+Type=FormTemplate
+Name=About box
+Page=Forms
+Icon=/root/kylix/objrepos/about.ico
+Description=Generic About box dialog.
+Author=Borland
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=
+
+[/root/kylix/objrepos/ClxRecError]
+Type=FormTemplate
+Name=Reconcile Error Dialog
+Page=Forms
+Icon=/root/kylix/objrepos/ClxRecError.ico
+Description=Reconcile Error dialog.
+Author=Borland
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=
+
+[/root/kylix/objrepos/tabpgdlg]
+Type=FormTemplate
+Name=Tabbed pages
+Page=Forms
+Icon=/root/kylix/objrepos/tabpgdlg.ico
+Description=Generic tabbed pages dialog with OK, Cancel, and Help buttons.
+Author=Borland
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=
+
+[/root/kylix/objrepos/password]
+Type=FormTemplate
+Name=Password Dialog
+Page=Dialogs
+Icon=/root/kylix/objrepos/password.ico
+Description=Generic password entry form.
+Author=Borland
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=
+
+[/root/kylix/objrepos/duallist]
+Type=FormTemplate
+Name=Dual list box
+Page=Forms
+Icon=/root/kylix/objrepos/duallist.ico
+Description=Dialog box with two list boxes. Supports moving items from one list to the other.
+Author=Borland
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=
+
+[/root/kylix/objrepos/employee]
+Type=FormTemplate
+Name=Employee Data
+Page=Data Modules
+Icon=/root/kylix/objrepos/employee.ico
+Description=Data module that contains Employee Database.
+Author=Borland
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=
+
+[/root/kylix/objrepos/mddata]
+Type=FormTemplate
+Name=Master Detail Data
+Page=Forms
+Icon=/root/kylix/objrepos/mddata.ico
+Description=Master Detail form template
+Author=Borland
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=
+

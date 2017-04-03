@@ -1,0 +1,389 @@
+// Clean utilies will read each line, 
+// It ignores lines staring with /
+// It ignores bland lines
+// NetManage Beta 1, files dated 2/26/96
+
+// Programmatic IDs
+
+NMCT.FTPCT
+NMCT.FTPCT.1
+NMCT.FTPDirItem
+NMCT.FTPDirItem.1
+NMCT.HTTPCT
+NMCT.HTTPCT.1
+NMCT.NNTPCT
+NMCT.NNTPCT.1
+NMCT.POPCT
+NMCT.POPCT.1
+NMCT.SMTPCT
+NMCT.SMTPCT.1
+NMOCOD.DocHeader
+NMOCOD.DocHeader.1
+NMOCOD.DocHeaders
+NMOCOD.DocHeaders.1
+NMOCOD.DocInput
+NMOCOD.DocInput.1
+NMOCOD.DocOutput
+NMOCOD.DocOutput.1
+NMOCOD.icError
+NMOCOD.icError.1
+NMOCOD.icErrors
+NMOCOD.icErrors.1
+NMWEB.HTMLCtl
+NMWEB.HTMLCtl.1
+NMWEB.HTMLAttr
+NMWEB.HTMLAttr.1
+NMWEB.HTMLAttrs
+NMWEB.HTMLAttrs.1
+NMWEB.HTMLElement
+NMWEB.HTMLElement.1
+NMWEB.HTMLElements
+NMWEB.HTMLElements.1
+NMWEB.HTMLForm
+NMWEB.HTMLForm.1
+NMWEB.HTMLForms
+NMWEB.HTMLForms.1
+NMWINSOCK.UDP
+NMWINSOCK.UDP.1
+NMWINSOCK.TCP
+NMWINSOCK.TCP.1
+
+
+//C:\projects\shared\ocx\ocxshare\ocod\GUIDSPPG.H(20):DEFINE_GUID(CLSID_AuthClientPropertyPage, 0xde8f4ff0, 0x5dd8, 0x11cf, 0xaa, 0xa6, 0x0, 0x20, 0xaf, 0x2c, 0xee, 0x5e);
+{de8f4ff0-5dd8-11cf-aaa6-0020af2cee5e}
+//c:\projects\shared\ocx\ocxshare\ocod\GUIDSPPG.H(17):DEFINE_GUID(CLSID_ClientPropertyPage, 0xda4abce0, 0x5dd8, 0x11cf, 0xaa, 0xa6, 0x0, 0x20, 0xaf, 0x2c, 0xee, 0x5e);
+{da4abce0-5dd8-11cf-aaa6-0020af2cee5e}
+//c:\projects\shared\ocx\ocxshare\ocod\DOCHD.ODL(40):        uuid(80570ac0-55ce-11cf-804c-00a02424e927),
+{80570ac0-55ce-11cf-804c-00a02424e927}
+//c:\projects\shared\ocx\ocxshare\ocod\DOCHDS.ODL(55):        uuid(1ee0bfd0-55ac-11cf-804c-00a02424e927),
+{1ee0bfd0-55ac-11cf-804c-00a02424e927}
+//c:\projects\shared\ocx\ocxshare\ocod\DOCIN.ODL(106):        uuid(8b252c10-5596-11cf-804c-00a02424e927),
+{8b252c10-5596-11cf-804c-00a02424e927}
+//c:\projects\shared\ocx\ocxshare\ocod\DOCOUT.ODL(88):        uuid(b9a13690-55c0-11cf-804c-00a02424e927),
+{b9a13690-55c0-11cf-804c-00a02424e927}
+//c:\projects\shared\nmocx\FTPCT\FTPCT.ODL(66):    uuid(6de007f0-5598-11cf-8389-0020af697014),
+{6de007f0-5598-11cf-8389-0020af697014}
+//c:\projects\shared\nmocx\FTPCT\GUIDS.H(22):DEFINE_GUID(CLSID_ftpctGeneralPage, 0x72bd69c0, 0x5598, 0x11cf, 0x83, 0x89, 0x00, 0x20, 0xaf, 0x69, 0x70, 0x14);
+{72bd69c0-5598-11cf-8389-0020af697014}
+//c:\projects\shared\nmocx\FTPCT\FTPCT.ODL(370):	uuid(7185af80-5598-11cf-8389-0020af697014),
+{7185af80-5598-11cf-8389-0020af697014}
+//c:\projects\shared\nmocx\FTPCT\FTPCT.ODL(125):	uuid(bc18a3c0-563e-11cf-838a-0020af697014),
+{bc18a3c0-563e-11cf-838a-0020af697014}
+//c:\projects\shared\nmocx\HTML\HTML.ODL(67):    uuid(60996320-55d3-11cf-804c-00a02424e927),
+{60996320-55d3-11cf-804c-00a02424e927}
+//c:\projects\shared\nmocx\HTML\GUIDS.H(19):DEFINE_GUID(CLSID_HTMLGeneralPage, 0x65753dc0, 0x55d3, 0x11cf, 0x80, 0x4c, 0x00, 0xa0, 0x24, 0x24, 0xe9, 0x27);
+{65753dc0-55d3-11cf-804c-00a02424e927}
+//c:\projects\shared\nmocx\HTML\HTML.ODL(264):        uuid(3d25aee0-5696-11cf-804c-00a02424e927),
+{3d25aee0-5696-11cf-804c-00a02424e927}
+//c:\projects\shared\nmocx\HTML\HTML.ODL(315):        uuid(4e196b60-5696-11cf-804c-00a02424e927),
+{4e196b60-5696-11cf-804c-00a02424e927}
+//c:\projects\shared\nmocx\HTML\HTML.ODL(600):        uuid(643f0ab0-55d3-11cf-804c-00a02424e927),
+{643f0ab0-55d3-11cf-804c-00a02424e927}
+//c:\projects\shared\nmocx\HTML\HTML.ODL(115):        uuid(03c8df00-5696-11cf-804c-00a02424e927),
+{03c8df00-5696-11cf-804c-00a02424e927}
+//c:\projects\shared\nmocx\HTML\HTML.ODL(168):        uuid(140b59c0-5696-11cf-804c-00a02424e927),
+{140b59c0-5696-11cf-804c-00a02424e927}
+//c:\projects\shared\nmocx\HTML\HTML.ODL(217):        uuid(258bab80-5696-11cf-804c-00a02424e927),
+{258bab80-5696-11cf-804c-00a02424e927}
+//c:\projects\shared\nmocx\HTTPCT\HTTPCT.ODL(66):    uuid(6a617420-55dd-11cf-a97f-0020af3f87b5),
+{6a617420-55dd-11cf-a97f-0020af3f87b5}
+//c:\projects\shared\nmocx\HTTPCT\HTTPCT.ODL(184):        uuid(6e08a2e0-55dd-11cf-a97f-0020af3f87b5),
+{6e08a2e0-55dd-11cf-a97f-0020af3f87b5}
+//c:\projects\shared\nmocx\HTTPCT\GUIDS.H(21):DEFINE_GUID(CLSID_HTTPCTGeneralPage, 0x6f405d20, 0x55dd, 0x11cf, 0xa9, 0x7f, 0x00, 0x20, 0xaf, 0x3f, 0x87, 0xb5);
+{6f405d20-55dd-11cf-a97f-0020af3f87b5}
+//c:\projects\shared\ocx\ocxshare\ocod\ERRCOLL.ODL(41):        uuid(16312220-574e-11cf-804c-00a02424e927),
+{16312220-574e-11cf-804c-00a02424e927}
+//c:\projects\shared\ocx\ocxshare\ocod\ERRCOLL.ODL(100):        uuid(8e495f20-5749-11cf-804c-00a02424e927),
+{8e495f20-5749-11cf-804c-00a02424e927}
+//c:\projects\shared\ocx\ocxshare\ocod\NMOCOD.ODL(54):    uuid(1c714b50-55ac-11cf-804c-00a02424e927),
+{1c714b50-55ac-11cf-804c-00a02424e927}
+//c:\projects\shared\nmocx\NNTPCT\NNTPCT.ODL(66):    uuid(80abbe10-5595-11cf-96e7-0080c7c3c284),
+{80abbe10-5595-11cf-96e7-0080c7c3c284}
+//c:\projects\shared\nmocx\NNTPCT\GUIDS.H(21):DEFINE_GUID(CLSID_nntpctGeneralPage, 0x858aa710, 0x5595, 0x11cf, 0x96, 0xe7, 0x00, 0x80, 0xc7, 0xc3, 0xc2, 0x84);
+{858aa710-5595-11cf-96e7-0080c7c3c284}
+//c:\projects\shared\nmocx\NNTPCT\NNTPCT.ODL(247):    uuid(8452ecd0-5595-11cf-96e7-0080c7c3c284),
+{8452ecd0-5595-11cf-96e7-0080c7c3c284}
+//c:\projects\shared\nmocx\POPCT\POPCT.ODL(66):    uuid(fd2f9730-5217-11cf-a674-0020af6a0bf2),
+{fd2f9730-5217-11cf-a674-0020af6a0bf2}
+//c:\projects\shared\nmocx\POPCT\POPCT.ODL(189):    uuid(00d6c5f0-5218-11cf-a674-0020af6a0bf2),
+{00d6c5f0-5218-11cf-a674-0020af6a0bf2}
+//c:\projects\shared\nmocx\POPCT\GUIDS.H(22):DEFINE_GUID(CLSID_popctOtherPage       , 0xb4b79ca0, 0x54ee, 0x11cf, 0xa6, 0x74, 0x00, 0x20, 0xaf, 0x6a, 0x0b, 0xf2);
+{b4b79ca0-54ee-11cf-a674-0020af6a0bf2}
+//c:\projects\shared\nmocx\SMTPCT\SMTPCT.ODL(66):    uuid(b14c3b60-55be-11cf-96e7-0080c7c3c284),
+{b14c3b60-55be-11cf-96e7-0080c7c3c284}
+//c:\projects\shared\nmocx\SMTPCT\GUIDS.H(20):DEFINE_GUID(CLSID_smtpctGeneralPage, 0xb60c94a0, 0x55be, 0x11cf, 0x96, 0xe7, 0x00, 0x80, 0xc7, 0xc3, 0xc2, 0x84);
+{b60c94a0-55be-11cf-96e7-0080c7c3c284}
+//c:\projects\shared\nmocx\SMTPCT\SMTPCT.ODL(151):        uuid(b4d4da60-55be-11cf-96e7-0080c7c3c284),
+{b4d4da60-55be-11cf-96e7-0080c7c3c284}
+//c:\projects\shared\nmocx\WINSCK\WINSCK.ODL(66):    uuid(ad03b780-5298-11cf-aaa2-0020af2cee5e),
+{ad03b780-5298-11cf-aaa2-0020af2cee5e}
+//c:\projects\shared\nmocx\WINSCK\GUIDS.H(19):DEFINE_GUID(CLSID_WinsockGeneralPage, 0xb1dc83c0, 0x5298, 0x11cf, 0xaa, 0xa2, 0x00, 0x20, 0xaf, 0x2c, 0xee, 0x5e);
+{b1dc83c0-5298-11cf-aaa2-0020af2cee5e}
+//c:\projects\shared\nmocx\WINSCK\WINSCK.ODL(204):	uuid(b0a650b0-5298-11cf-aaa2-0020af2cee5e),
+{b0a650b0-5298-11cf-aaa2-0020af2cee5e}
+//c:\projects\shared\nmocx\WINSCK\WINSCK.ODL(285):	uuid(cf4cfc80-5298-11cf-aaa2-0020af2cee5e),
+{cf4cfc80-5298-11cf-aaa2-0020af2cee5e}
+
+// Clean utilies will read each line, 
+// It ignores lines staring with /
+// It ignores bland lines
+// Microsoft Beta 1, files dated 3/16/96
+
+// Programmatic IDs
+
+NMCT.FTPCT
+NMCT.FTPCT.1
+NMCT.FTPDirItem
+NMCT.FTPDirItem.1
+NMCT.HTTPCT
+NMCT.HTTPCT.1
+NMCT.NNTPCT
+NMCT.NNTPCT.1
+NMCT.POPCT
+NMCT.POPCT.1
+NMCT.SMTPCT
+NMCT.SMTPCT.1
+NMOCOD.DocHeader
+NMOCOD.DocHeader.1
+NMOCOD.DocHeaders
+NMOCOD.DocHeaders.1
+NMOCOD.DocInput
+NMOCOD.DocInput.1
+NMOCOD.DocOutput
+NMOCOD.DocOutput.1
+NMOCOD.icError
+NMOCOD.icError.1
+NMOCOD.icErrors
+NMOCOD.icErrors.1
+NMWEB.HTMLCtl
+NMWEB.HTMLCtl.1
+NMWEB.HTMLAttr
+NMWEB.HTMLAttr.1
+NMWEB.HTMLAttrs
+NMWEB.HTMLAttrs.1
+NMWEB.HTMLElement
+NMWEB.HTMLElement.1
+NMWEB.HTMLElements
+NMWEB.HTMLElements.1
+NMWEB.HTMLForm
+NMWEB.HTMLForm.1
+NMWEB.HTMLForms
+NMWEB.HTMLForms.1
+NMWINSOCK.Winsock UDP Control
+NMWINSOCK.Winsock UDP Control.1
+NMWINSOCK.Winsock TCP Control
+NMWINSOCK.Winsock TCP Control.1
+
+
+//C:\projects\shared\ocx\ocxshare\ocod\GUIDSPPG.H(20):DEFINE_GUID(CLSID_AuthClientPropertyPage, 0xde8f4ff0, 0x5dd8, 0x11cf, 0xaa, 0xa6, 0x0, 0x20, 0xaf, 0x2c, 0xee, 0x5e);
+{de8f4ff0-5dd8-11cf-aaa6-0020af2cee5e}
+//c:\projects\shared\ocx\ocxshare\ocod\GUIDSPPG.H(17):DEFINE_GUID(CLSID_ClientPropertyPage, 0xda4abce0, 0x5dd8, 0x11cf, 0xaa, 0xa6, 0x0, 0x20, 0xaf, 0x2c, 0xee, 0x5e);
+{da4abce0-5dd8-11cf-aaa6-0020af2cee5e}
+//c:\projects\shared\ocx\ocxshare\ocod\DOCHD.ODL(40):        uuid(80570ac0-55ce-11cf-804c-00a02424e927),
+{80570ac0-55ce-11cf-804c-00a02424e927}
+//c:\projects\shared\ocx\ocxshare\ocod\DOCHDS.ODL(55):        uuid(1ee0bfd0-55ac-11cf-804c-00a02424e927),
+{1ee0bfd0-55ac-11cf-804c-00a02424e927}
+//c:\projects\shared\ocx\ocxshare\ocod\DOCIN.ODL(106):        uuid(8b252c10-5596-11cf-804c-00a02424e927),
+{8b252c10-5596-11cf-804c-00a02424e927}
+//c:\projects\shared\ocx\ocxshare\ocod\DOCOUT.ODL(88):        uuid(b9a13690-55c0-11cf-804c-00a02424e927),
+{b9a13690-55c0-11cf-804c-00a02424e927}
+//c:\projects\shared\nmocx\FTPCT\FTPCT.ODL(66):    uuid(6de007f0-5598-11cf-8389-0020af697014),
+{6de007f0-5598-11cf-8389-0020af697014}
+//c:\projects\shared\nmocx\FTPCT\GUIDS.H(22):DEFINE_GUID(CLSID_ftpctGeneralPage, 0x72bd69c0, 0x5598, 0x11cf, 0x83, 0x89, 0x00, 0x20, 0xaf, 0x69, 0x70, 0x14);
+{72bd69c0-5598-11cf-8389-0020af697014}
+//c:\projects\shared\nmocx\FTPCT\FTPCT.ODL(370):	uuid(7185af80-5598-11cf-8389-0020af697014),
+{7185af80-5598-11cf-8389-0020af697014}
+//c:\projects\shared\nmocx\FTPCT\FTPCT.ODL(125):	uuid(bc18a3c0-563e-11cf-838a-0020af697014),
+{bc18a3c0-563e-11cf-838a-0020af697014}
+//c:\projects\shared\nmocx\HTML\HTML.ODL(67):    uuid(60996320-55d3-11cf-804c-00a02424e927),
+{60996320-55d3-11cf-804c-00a02424e927}
+//c:\projects\shared\nmocx\HTML\GUIDS.H(19):DEFINE_GUID(CLSID_HTMLGeneralPage, 0x65753dc0, 0x55d3, 0x11cf, 0x80, 0x4c, 0x00, 0xa0, 0x24, 0x24, 0xe9, 0x27);
+{65753dc0-55d3-11cf-804c-00a02424e927}
+//c:\projects\shared\nmocx\HTML\HTML.ODL(264):        uuid(3d25aee0-5696-11cf-804c-00a02424e927),
+{3d25aee0-5696-11cf-804c-00a02424e927}
+//c:\projects\shared\nmocx\HTML\HTML.ODL(315):        uuid(4e196b60-5696-11cf-804c-00a02424e927),
+{4e196b60-5696-11cf-804c-00a02424e927}
+//c:\projects\shared\nmocx\HTML\HTML.ODL(600):        uuid(643f0ab0-55d3-11cf-804c-00a02424e927),
+{643f0ab0-55d3-11cf-804c-00a02424e927}
+//c:\projects\shared\nmocx\HTML\HTML.ODL(115):        uuid(03c8df00-5696-11cf-804c-00a02424e927),
+{03c8df00-5696-11cf-804c-00a02424e927}
+//c:\projects\shared\nmocx\HTML\HTML.ODL(168):        uuid(140b59c0-5696-11cf-804c-00a02424e927),
+{140b59c0-5696-11cf-804c-00a02424e927}
+//c:\projects\shared\nmocx\HTML\HTML.ODL(217):        uuid(258bab80-5696-11cf-804c-00a02424e927),
+{258bab80-5696-11cf-804c-00a02424e927}
+//c:\projects\shared\nmocx\HTTPCT\HTTPCT.ODL(66):    uuid(6a617420-55dd-11cf-a97f-0020af3f87b5),
+{6a617420-55dd-11cf-a97f-0020af3f87b5}
+//c:\projects\shared\nmocx\HTTPCT\HTTPCT.ODL(184):        uuid(6e08a2e0-55dd-11cf-a97f-0020af3f87b5),
+{6e08a2e0-55dd-11cf-a97f-0020af3f87b5}
+//c:\projects\shared\nmocx\HTTPCT\GUIDS.H(21):DEFINE_GUID(CLSID_HTTPCTGeneralPage, 0x6f405d20, 0x55dd, 0x11cf, 0xa9, 0x7f, 0x00, 0x20, 0xaf, 0x3f, 0x87, 0xb5);
+{6f405d20-55dd-11cf-a97f-0020af3f87b5}
+//c:\projects\shared\ocx\ocxshare\ocod\ERRCOLL.ODL(41):        uuid(16312220-574e-11cf-804c-00a02424e927),
+{16312220-574e-11cf-804c-00a02424e927}
+//c:\projects\shared\ocx\ocxshare\ocod\ERRCOLL.ODL(100):        uuid(8e495f20-5749-11cf-804c-00a02424e927),
+{8e495f20-5749-11cf-804c-00a02424e927}
+//c:\projects\shared\ocx\ocxshare\ocod\NMOCOD.ODL(54):    uuid(1c714b50-55ac-11cf-804c-00a02424e927),
+{1c714b50-55ac-11cf-804c-00a02424e927}
+//c:\projects\shared\nmocx\NNTPCT\NNTPCT.ODL(66):    uuid(80abbe10-5595-11cf-96e7-0080c7c3c284),
+{80abbe10-5595-11cf-96e7-0080c7c3c284}
+//c:\projects\shared\nmocx\NNTPCT\GUIDS.H(21):DEFINE_GUID(CLSID_nntpctGeneralPage, 0x858aa710, 0x5595, 0x11cf, 0x96, 0xe7, 0x00, 0x80, 0xc7, 0xc3, 0xc2, 0x84);
+{858aa710-5595-11cf-96e7-0080c7c3c284}
+//c:\projects\shared\nmocx\NNTPCT\NNTPCT.ODL(247):    uuid(8452ecd0-5595-11cf-96e7-0080c7c3c284),
+{8452ecd0-5595-11cf-96e7-0080c7c3c284}
+//c:\projects\shared\nmocx\POPCT\POPCT.ODL(66):    uuid(fd2f9730-5217-11cf-a674-0020af6a0bf2),
+{fd2f9730-5217-11cf-a674-0020af6a0bf2}
+//c:\projects\shared\nmocx\POPCT\POPCT.ODL(189):    uuid(00d6c5f0-5218-11cf-a674-0020af6a0bf2),
+{00d6c5f0-5218-11cf-a674-0020af6a0bf2}
+//c:\projects\shared\nmocx\POPCT\GUIDS.H(22):DEFINE_GUID(CLSID_popctOtherPage       , 0xb4b79ca0, 0x54ee, 0x11cf, 0xa6, 0x74, 0x00, 0x20, 0xaf, 0x6a, 0x0b, 0xf2);
+{b4b79ca0-54ee-11cf-a674-0020af6a0bf2}
+//c:\projects\shared\nmocx\SMTPCT\SMTPCT.ODL(66):    uuid(b14c3b60-55be-11cf-96e7-0080c7c3c284),
+{b14c3b60-55be-11cf-96e7-0080c7c3c284}
+//c:\projects\shared\nmocx\SMTPCT\GUIDS.H(20):DEFINE_GUID(CLSID_smtpctGeneralPage, 0xb60c94a0, 0x55be, 0x11cf, 0x96, 0xe7, 0x00, 0x80, 0xc7, 0xc3, 0xc2, 0x84);
+{b60c94a0-55be-11cf-96e7-0080c7c3c284}
+//c:\projects\shared\nmocx\SMTPCT\SMTPCT.ODL(151):        uuid(b4d4da60-55be-11cf-96e7-0080c7c3c284),
+{b4d4da60-55be-11cf-96e7-0080c7c3c284}
+//c:\projects\shared\nmocx\WINSCK\WINSCK.ODL(66):    uuid(ad03b780-5298-11cf-aaa2-0020af2cee5e),
+{ad03b780-5298-11cf-aaa2-0020af2cee5e}
+//c:\projects\shared\nmocx\WINSCK\GUIDS.H(19):DEFINE_GUID(CLSID_WinsockGeneralPage, 0xb1dc83c0, 0x5298, 0x11cf, 0xaa, 0xa2, 0x00, 0x20, 0xaf, 0x2c, 0xee, 0x5e);
+{b1dc83c0-5298-11cf-aaa2-0020af2cee5e}
+//c:\projects\shared\nmocx\WINSCK\WINSCK.ODL(204):	uuid(b0a650b0-5298-11cf-aaa2-0020af2cee5e),
+{b0a650b0-5298-11cf-aaa2-0020af2cee5e}
+//c:\projects\shared\nmocx\WINSCK\WINSCK.ODL(285):	uuid(cf4cfc80-5298-11cf-aaa2-0020af2cee5e),
+{cf4cfc80-5298-11cf-aaa2-0020af2cee5e}
+
+// Clean utilies will read each line, 
+// It ignores lines staring with /
+// It ignores bland lines
+// Microsoft Beta 2, files dated 4/25/96
+
+// Programmatic IDs
+
+MSICP.FTP Control
+MSICP.FTP Control.1
+MSICP.FTPDirItem
+MSICP.FTPDirItem.1
+MSICP.HTTP Control
+MSICP.HTTP Control.1
+MSICP.NNTP Control
+MSICP.NNTP Control.1
+MSICP.POP Control
+MSICP.POP Control.1
+MSICP.SMTP Control
+MSICP.SMTP Control.1
+NMOCOD.DocHeader
+NMOCOD.DocHeader.1
+NMOCOD.DocHeaders
+NMOCOD.DocHeaders.1
+NMOCOD.DocInput
+NMOCOD.DocInput.1
+NMOCOD.DocOutput
+NMOCOD.DocOutput.1
+NMOCOD.icError
+NMOCOD.icError.1
+NMOCOD.icErrors
+NMOCOD.icErrors.1
+MSICP.HTML Control
+MSICP.HTML Control.1
+MSICP.HTMLAttr
+MSICP.HTMLAttr.1
+MSICP.HTMLAttrs
+MSICP.HTMLAttrs.1
+MSICP.HTMLElement
+MSICP.HTMLElement.1
+MSICP.HTMLElements
+MSICP.HTMLElements.1
+MSICP.HTMLForm
+MSICP.HTMLForm.1
+MSICP.HTMLForms
+MSICP.HTMLForms.1
+MSICP.UDP Control
+MSICP.UDP Control.1
+MSICP.TCP Control
+MSICP.TCP Control.1
+
+// UUIDs, must have {} around UUIDs
+
+//C:\projects\shared\ocx\ocxshare\ocod\GUIDSPPG.H(20):DEFINE_GUID(CLSID_AuthClientPropertyPage, 0xde8f4ff0, 0x5dd8, 0x11cf, 0xaa, 0xa6, 0x0, 0x20, 0xaf, 0x2c, 0xee, 0x5e);
+{de8f4ff0-5dd8-11cf-aaa6-0020af2cee5e}
+//c:\projects\shared\ocx\ocxshare\ocod\GUIDSPPG.H(17):DEFINE_GUID(CLSID_ClientPropertyPage, 0xda4abce0, 0x5dd8, 0x11cf, 0xaa, 0xa6, 0x0, 0x20, 0xaf, 0x2c, 0xee, 0x5e);
+{da4abce0-5dd8-11cf-aaa6-0020af2cee5e}
+//c:\projects\shared\nmocx\FTPCT\GUIDS.H(22):DEFINE_GUID(CLSID_ftpctGeneralPage, 0x72bd69c0, 0x5598, 0x11cf, 0x83, 0x89, 0x00, 0x20, 0xaf, 0x69, 0x70, 0x14);
+{72bd69c0-5598-11cf-8389-0020af697014}
+//c:\projects\shared\nmocx\HTML\GUIDS.H(19):DEFINE_GUID(CLSID_HTMLGeneralPage, 0x65753dc0, 0x55d3, 0x11cf, 0x80, 0x4c, 0x00, 0xa0, 0x24, 0x24, 0xe9, 0x27);
+{65753dc0-55d3-11cf-804c-00a02424e927}
+//c:\projects\shared\nmocx\HTTPCT\GUIDS.H(21):DEFINE_GUID(CLSID_HTTPCTGeneralPage, 0x6f405d20, 0x55dd, 0x11cf, 0xa9, 0x7f, 0x00, 0x20, 0xaf, 0x3f, 0x87, 0xb5);
+{6f405d20-55dd-11cf-a97f-0020af3f87b5}
+//c:\projects\shared\nmocx\NNTPCT\GUIDS.H(21):DEFINE_GUID(CLSID_nntpctGeneralPage, 0x858aa710, 0x5595, 0x11cf, 0x96, 0xe7, 0x00, 0x80, 0xc7, 0xc3, 0xc2, 0x84);
+{858aa710-5595-11cf-96e7-0080c7c3c284}
+//c:\projects\shared\nmocx\POPCT\GUIDS.H(22):DEFINE_GUID(CLSID_popctOtherPage       , 0xb4b79ca0, 0x54ee, 0x11cf, 0xa6, 0x74, 0x00, 0x20, 0xaf, 0x6a, 0x0b, 0xf2);
+{b4b79ca0-54ee-11cf-a674-0020af6a0bf2}
+//c:\projects\shared\nmocx\SMTPCT\GUIDS.H(20):DEFINE_GUID(CLSID_smtpctGeneralPage, 0xb60c94a0, 0x55be, 0x11cf, 0x96, 0xe7, 0x00, 0x80, 0xc7, 0xc3, 0xc2, 0x84);
+{b60c94a0-55be-11cf-96e7-0080c7c3c284}
+//c:\projects\shared\nmocx\WINSCK\GUIDS.H(19):DEFINE_GUID(CLSID_WinsockGeneralPage, 0xb1dc83c0, 0x5298, 0x11cf, 0xaa, 0xa2, 0x00, 0x20, 0xaf, 0x2c, 0xee, 0x5e);
+{b1dc83c0-5298-11cf-aaa2-0020af2cee5e}
+
+
+//c:\projects\shared\ocx\ocxshare\ocod\DOCHD.ODL
+{B7FC3591-8CE7-11cf-9754-00AA00C00908}
+//c:\projects\shared\ocx\ocxshare\ocod\DOCHDS.ODL(55):
+{B7FC3593-8CE7-11cf-9754-00AA00C00908}
+//c:\projects\shared\ocx\ocxshare\ocod\DOCIN.ODL(106):
+{B7FC3596-8CE7-11cf-9754-00AA00C00908}
+//c:\projects\shared\ocx\ocxshare\ocod\DOCOUT.ODL(88):        
+{B7FC3598-8CE7-11cf-9754-00AA00C00908}
+
+//c:\projects\shared\nmocx\FTPCT\FTPCT.ODL(66):    
+{B7FC3542-8CE7-11cf-9754-00AA00C00908}
+//c:\projects\shared\nmocx\FTPCT\FTPCT.ODL(370):	
+{B7FC354C-8CE7-11cf-9754-00AA00C00908}
+//c:\projects\shared\nmocx\FTPCT\FTPCT.ODL(125):
+{B7FC3544-8CE7-11cf-9754-00AA00C00908}
+
+//c:\projects\shared\nmocx\HTML\HTML.ODL(67):    {60996320-55d3-11cf-804c-00a02424e927}
+{B7FC354D-8CE7-11cf-9754-00AA00C00908}
+//c:\projects\shared\nmocx\HTML\HTML.ODL(264):        {3d25aee0-5696-11cf-804c-00a02424e927}
+{B7FC3559-8CE7-11cf-9754-00AA00C00908}
+//c:\projects\shared\nmocx\HTML\HTML.ODL(315):        {4e196b60-5696-11cf-804c-00a02424e927}
+{B7FC355B-8CE7-11cf-9754-00AA00C00908}
+//c:\projects\shared\nmocx\HTML\HTML.ODL(600):        {643f0ab0-55d3-11cf-804c-00a02424e927}
+{B7FC355E-8CE7-11cf-9754-00AA00C00908}
+//c:\projects\shared\nmocx\HTML\HTML.ODL(115):        {03c8df00-5696-11cf-804c-00a02424e927}
+{B7FC3550-8CE7-11cf-9754-00AA00C00908}
+//c:\projects\shared\nmocx\HTML\HTML.ODL(168):        {140b59c0-5696-11cf-804c-00a02424e927}
+{B7FC3554-8CE7-11cf-9754-00AA00C00908}
+//c:\projects\shared\nmocx\HTML\HTML.ODL(217):        {258bab80-5696-11cf-804c-00a02424e927}
+{B7FC3557-8CE7-11cf-9754-00AA00C00908}
+
+//c:\projects\shared\nmocx\HTTPCT\HTTPCT.ODL(66):    {6a617420-55dd-11cf-a97f-0020af3f87b5}
+{B7FC355F-8CE7-11cf-9754-00AA00C00908}
+//c:\projects\shared\nmocx\HTTPCT\HTTPCT.ODL(184):        {6e08a2e0-55dd-11cf-a97f-0020af3f87b5}
+{B7FC3563-8CE7-11cf-9754-00AA00C00908}
+
+//c:\projects\shared\ocx\ocxshare\ocod\ERRCOLL.ODL(41):        {16312220-574e-11cf-804c-00a02424e927}
+{B7FC35A1-8CE7-11cf-9754-00AA00C00908}
+//c:\projects\shared\ocx\ocxshare\ocod\ERRCOLL.ODL(100):        {8e495f20-5749-11cf-804c-00a02424e927}
+{B7FC35A3-8CE7-11cf-9754-00AA00C00908}
+//c:\projects\shared\ocx\ocxshare\ocod\NMOCOD.ODL(54):    {1c714b50-55ac-11cf-804c-00a02424e927}
+{B7FC35A4-8CE7-11cf-9754-00AA00C00908}
+
+//c:\projects\shared\nmocx\NNTPCT\NNTPCT.ODL(66):    {80abbe10-5595-11cf-96e7-0080c7c3c284}
+{B7FC3564-8CE7-11cf-9754-00AA00C00908}
+//c:\projects\shared\nmocx\NNTPCT\NNTPCT.ODL(247):    {8452ecd0-5595-11cf-96e7-0080c7c3c284}
+{B7FC3568-8CE7-11cf-9754-00AA00C00908}
+
+//c:\projects\shared\nmocx\POPCT\POPCT.ODL(66):    {fd2f9730-5217-11cf-a674-0020af6a0bf2}
+{B7FC356A-8CE7-11cf-9754-00AA00C00908}
+//c:\projects\shared\nmocx\POPCT\POPCT.ODL(189):    {00d6c5f0-5218-11cf-a674-0020af6a0bf2}
+{B7FC356E-8CE7-11cf-9754-00AA00C00908}
+
+//c:\projects\shared\nmocx\SMTPCT\SMTPCT.ODL(66):    {b14c3b60-55be-11cf-96e7-0080c7c3c284}
+{B7FC3570-8CE7-11cf-9754-00AA00C00908}
+//c:\projects\shared\nmocx\SMTPCT\SMTPCT.ODL(151):        {b4d4da60-55be-11cf-96e7-0080c7c3c284}
+{B7FC3573-8CE7-11cf-9754-00AA00C00908}
+
+//c:\projects\shared\nmocx\WINSCK\WINSCK.ODL(66):    {ad03b780-5298-11cf-aaa2-0020af2cee5e}
+{B7FC3580-8CE7-11cf-9754-00AA00C00908}
+//c:\projects\shared\nmocx\WINSCK\WINSCK.ODL(204):	{b0a650b0-5298-11cf-aaa2-0020af2cee5e}
+{B7FC3584-8CE7-11cf-9754-00AA00C00908}
+//c:\projects\shared\nmocx\WINSCK\WINSCK.ODL(285):	{cf4cfc80-5298-11cf-aaa2-0020af2cee5e}
+{B7FC3587-8CE7-11cf-9754-00AA00C00908}
+

@@ -1,9 +1,9 @@
 object DM: TDM
   OldCreateOrder = False
-  Left = 459
+  Left = 385
   Top = 133
-  Height = 479
-  Width = 566
+  Height = 452
+  Width = 534
   object zConnection: TZConnection
     Protocol = 'firebird-2.1'
     HostName = '127.0.0.1'
@@ -21,8 +21,8 @@ object DM: TDM
       'FROM usuarios'
       'WHERE 1=2;')
     Params = <>
-    Left = 40
-    Top = 104
+    Left = 32
+    Top = 74
     object qryUsuariosCODIGO: TIntegerField
       FieldName = 'CODIGO'
       Required = True
@@ -44,15 +44,15 @@ object DM: TDM
   end
   object dspUsuarios: TDataSetProvider
     DataSet = qryUsuarios
-    Left = 40
-    Top = 152
+    Left = 32
+    Top = 122
   end
   object cdsUsuarios: TClientDataSet
     Aggregates = <>
     Params = <>
     ProviderName = 'dspUsuarios'
-    Left = 40
-    Top = 200
+    Left = 32
+    Top = 170
     object cdsUsuariosCODIGO: TIntegerField
       FieldName = 'CODIGO'
       Required = True
@@ -80,7 +80,7 @@ object DM: TDM
       'WHERE 1=2;')
     Params = <>
     Left = 224
-    Top = 104
+    Top = 74
     object qryTiposCamposCODIGO: TIntegerField
       FieldName = 'CODIGO'
       Required = True
@@ -94,14 +94,14 @@ object DM: TDM
   object dspTiposCampos: TDataSetProvider
     DataSet = qryTiposCampos
     Left = 224
-    Top = 152
+    Top = 122
   end
   object cdsTiposCampos: TClientDataSet
     Aggregates = <>
     Params = <>
     ProviderName = 'dspTiposCampos'
     Left = 224
-    Top = 200
+    Top = 170
     object cdsTiposCamposCODIGO: TIntegerField
       FieldName = 'CODIGO'
       Required = True
@@ -123,7 +123,7 @@ object DM: TDM
       'WHERE C.codigo_usuario = -1;')
     Params = <>
     Left = 120
-    Top = 104
+    Top = 74
     object qryCamposCODIGO: TIntegerField
       FieldName = 'CODIGO'
       Required = True
@@ -154,7 +154,7 @@ object DM: TDM
   object dspCampos: TDataSetProvider
     DataSet = qryCampos
     Left = 120
-    Top = 152
+    Top = 122
   end
   object cdsCampos: TClientDataSet
     Aggregates = <>
@@ -162,7 +162,7 @@ object DM: TDM
     ProviderName = 'dspCampos'
     OnNewRecord = cdsCamposNewRecord
     Left = 120
-    Top = 200
+    Top = 170
     object cdsCamposCODIGO: TIntegerField
       FieldName = 'CODIGO'
       Required = True
@@ -193,12 +193,12 @@ object DM: TDM
   object qryContatos: TZQuery
     Connection = zConnection
     SQL.Strings = (
-      'SELECT *'
-      'FROM contatos'
+      'SELECT C.*'
+      'FROM contatos C'
       'WHERE 1=2;')
     Params = <>
     Left = 336
-    Top = 104
+    Top = 74
     object qryContatosCODIGO: TIntegerField
       FieldName = 'CODIGO'
       Required = True
@@ -224,7 +224,7 @@ object DM: TDM
   object dspContatos: TDataSetProvider
     DataSet = qryContatos
     Left = 336
-    Top = 152
+    Top = 122
   end
   object cdsContatos: TClientDataSet
     Aggregates = <>
@@ -232,7 +232,7 @@ object DM: TDM
     ProviderName = 'dspContatos'
     OnNewRecord = cdsContatosNewRecord
     Left = 336
-    Top = 200
+    Top = 170
     object cdsContatosCODIGO: TIntegerField
       FieldName = 'CODIGO'
       Required = True
@@ -255,77 +255,13 @@ object DM: TDM
       Required = True
     end
   end
-  object qryContatosCampos: TZQuery
-    Connection = zConnection
-    SQL.Strings = (
-      'SELECT *'
-      'FROM contato_campo'
-      'WHERE 1=2;')
-    Params = <>
-    Left = 440
-    Top = 96
-    object qryContatosCamposCODIGO: TIntegerField
-      FieldName = 'CODIGO'
-      Required = True
-    end
-    object qryContatosCamposCODIGO_CONTATO: TIntegerField
-      FieldName = 'CODIGO_CONTATO'
-      Required = True
-    end
-    object qryContatosCamposCODIGO_CAMPO: TIntegerField
-      FieldName = 'CODIGO_CAMPO'
-      Required = True
-    end
-    object qryContatosCamposVALOR: TStringField
-      FieldName = 'VALOR'
-      Required = True
-      Size = 500
-    end
-    object qryContatosCamposDATA_CADASTRO: TDateTimeField
-      FieldName = 'DATA_CADASTRO'
-      Required = True
-    end
-  end
-  object dspContatosCampos: TDataSetProvider
-    DataSet = qryContatosCampos
-    Left = 440
-    Top = 144
-  end
-  object cdsContatosCampos: TClientDataSet
-    Aggregates = <>
-    Params = <>
-    ProviderName = 'dspContatosCampos'
-    Left = 440
-    Top = 200
-    object cdsContatosCamposCODIGO: TIntegerField
-      FieldName = 'CODIGO'
-      Required = True
-    end
-    object cdsContatosCamposCODIGO_CONTATO: TIntegerField
-      FieldName = 'CODIGO_CONTATO'
-      Required = True
-    end
-    object cdsContatosCamposCODIGO_CAMPO: TIntegerField
-      FieldName = 'CODIGO_CAMPO'
-      Required = True
-    end
-    object cdsContatosCamposVALOR: TStringField
-      FieldName = 'VALOR'
-      Required = True
-      Size = 500
-    end
-    object cdsContatosCamposDATA_CADASTRO: TDateTimeField
-      FieldName = 'DATA_CADASTRO'
-      Required = True
-    end
-  end
   object qryExecutar: TZQuery
     Connection = zConnection
     Params = <>
-    Left = 128
-    Top = 16
+    Left = 193
+    Top = 246
   end
-  object qryCamposConfigContato: TZQuery
+  object qryContatoCampos: TZQuery
     Connection = zConnection
     SQL.Strings = (
       'SELECT'
@@ -344,79 +280,79 @@ object DM: TDM
       'WHERE C.codigo_usuario = 1'
       'AND 1=2;')
     Params = <>
-    Left = 275
-    Top = 264
-    object qryCamposConfigContatocodigo_campo: TIntegerField
+    Left = 435
+    Top = 74
+    object qryContatoCamposcodigo_campo: TIntegerField
       FieldName = 'codigo_campo'
       Required = True
     end
-    object qryCamposConfigContatonome_campo: TStringField
+    object qryContatoCamposnome_campo: TStringField
       FieldName = 'nome_campo'
       Required = True
       Size = 100
     end
-    object qryCamposConfigContatocodigo_tipo_campo: TIntegerField
+    object qryContatoCamposcodigo_tipo_campo: TIntegerField
       FieldName = 'codigo_tipo_campo'
       Required = True
     end
-    object qryCamposConfigContatodescricao_tipo_campo: TStringField
+    object qryContatoCamposdescricao_tipo_campo: TStringField
       FieldName = 'descricao_tipo_campo'
       Required = True
       Size = 100
     end
-    object qryCamposConfigContatocodigo_contato_campo: TIntegerField
+    object qryContatoCamposcodigo_contato_campo: TIntegerField
       FieldName = 'codigo_contato_campo'
       Required = True
     end
-    object qryCamposConfigContatocodigo_contato: TIntegerField
+    object qryContatoCamposcodigo_contato: TIntegerField
       FieldName = 'codigo_contato'
       Required = True
     end
-    object qryCamposConfigContatovalor: TStringField
+    object qryContatoCamposvalor: TStringField
       FieldName = 'valor'
       Required = True
       Size = 500
     end
   end
-  object dspCamposConfigContato: TDataSetProvider
-    DataSet = qryCamposConfigContato
-    Left = 275
-    Top = 312
+  object dspContatoCampos: TDataSetProvider
+    DataSet = qryContatoCampos
+    Left = 435
+    Top = 122
   end
-  object cdsCamposConfigContato: TClientDataSet
+  object cdsContatoCampos: TClientDataSet
     Aggregates = <>
     Params = <>
-    ProviderName = 'dspCamposConfigContato'
+    ProviderName = 'dspContatoCampos'
     OnNewRecord = cdsCamposNewRecord
-    Left = 275
-    Top = 368
-    object cdsCamposConfigContatocodigo_campo: TIntegerField
+    Left = 435
+    Top = 170
+    object cdsContatoCamposcodigo_campo: TIntegerField
       FieldName = 'codigo_campo'
       Required = True
     end
-    object cdsCamposConfigContatonome_campo: TStringField
+    object cdsContatoCamposnome_campo: TStringField
       FieldName = 'nome_campo'
       Required = True
       Size = 100
     end
-    object cdsCamposConfigContatocodigo_tipo_campo: TIntegerField
+    object cdsContatoCamposcodigo_tipo_campo: TIntegerField
       FieldName = 'codigo_tipo_campo'
       Required = True
     end
-    object cdsCamposConfigContatodescricao_tipo_campo: TStringField
+    object cdsContatoCamposdescricao_tipo_campo: TStringField
       FieldName = 'descricao_tipo_campo'
       Required = True
       Size = 100
     end
-    object cdsCamposConfigContatocodigo_contato_campo: TIntegerField
+    object cdsContatoCamposcodigo_contato_campo: TIntegerField
       FieldName = 'codigo_contato_campo'
       Required = True
     end
-    object cdsCamposConfigContatocodigo_contato: TIntegerField
+    object cdsContatoCamposcodigo_contato: TIntegerField
       FieldName = 'codigo_contato'
       Required = True
     end
-    object cdsCamposConfigContatovalor: TStringField
+    object cdsContatoCamposvalor: TStringField
       FieldName = 'valor'
       Required = True
       Size = 500
@@ -435,8 +371,8 @@ object DM: TDM
       'WHERE C.codigo_usuario = 1'
       'AND 1=2')
     Params = <>
-    Left = 147
-    Top = 264
+    Left = 76
+    Top = 246
     object qryCriarCamposConfigcodigo_campo: TIntegerField
       FieldName = 'codigo_campo'
       Required = True
@@ -458,16 +394,16 @@ object DM: TDM
   end
   object dspCriarCamposConfig: TDataSetProvider
     DataSet = qryCriarCamposConfig
-    Left = 147
-    Top = 312
+    Left = 76
+    Top = 294
   end
   object cdsCriarCamposConfig: TClientDataSet
     Aggregates = <>
     Params = <>
     ProviderName = 'dspCriarCamposConfig'
     OnNewRecord = cdsCamposNewRecord
-    Left = 147
-    Top = 368
+    Left = 76
+    Top = 350
     object cdsCriarCamposConfigcodigo_campo: TIntegerField
       FieldName = 'codigo_campo'
       Required = True
@@ -485,6 +421,36 @@ object DM: TDM
       FieldName = 'descricao_tipo_campo'
       Required = True
       Size = 100
+    end
+  end
+  object cdsContatosCamposEdicao: TClientDataSet
+    Active = True
+    Aggregates = <>
+    Params = <>
+    Left = 313
+    Top = 246
+    Data = {
+      6F0000009619E0BD0100000018000000040000000000030000006F0006636F64
+      69676F04000100000000000E636F6469676F5F636F6E7461746F040001000000
+      00000C636F6469676F5F63616D706F04000100000000000576616C6F72020049
+      000000010005574944544802000200F4010000}
+    object cdsContatosCamposEdicaocodigo: TIntegerField
+      FieldName = 'codigo'
+    end
+    object cdsContatosCamposEdicaocodigo_contato: TIntegerField
+      FieldName = 'codigo_contato'
+    end
+    object cdsContatosCamposEdicaocodigo_campo: TIntegerField
+      FieldName = 'codigo_campo'
+    end
+    object cdsContatosCamposEdicaovalor: TStringField
+      FieldName = 'valor'
+      Size = 500
+    end
+    object cdsContatosCamposEdicaocc_contatoNovo: TIntegerField
+      FieldKind = fkCalculated
+      FieldName = 'cc_contatoNovo'
+      Calculated = True
     end
   end
 end

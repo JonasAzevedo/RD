@@ -15,7 +15,6 @@ type
     grDados: TDBGrid;
     bbNovo: TBitBtn;
     bbEditar: TBitBtn;
-    bbSalvar: TBitBtn;
     bbExcluir: TBitBtn;
     bbFechar: TBitBtn;
     lblTipoCampo: TLabel;
@@ -24,15 +23,14 @@ type
     dbLkCbBxTipoCampo: TDBLookupComboBox;
     dsDados: TDataSource;
     dsTiposCampos: TDataSource;
-    bbConfirmar: TBitBtn;
+    bbSalvar: TBitBtn;
     bbCancelar: TBitBtn;
     procedure bbNovoClick(Sender: TObject);
-    procedure bbSalvarClick(Sender: TObject);
     procedure bbEditarClick(Sender: TObject);
     procedure bbExcluirClick(Sender: TObject);
     procedure pgCadastroCamposChanging(Sender: TObject; var AllowChange: Boolean);
     procedure bbbCancelarClick(Sender: TObject);
-    procedure bbConfirmarClick(Sender: TObject);
+    procedure bbSalvarClick(Sender: TObject);
     procedure bbFecharClick(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure grDadosDblClick(Sender: TObject);
@@ -40,9 +38,9 @@ type
     procedure pgCadastroCamposChange(Sender: TObject);
   private
     FoCampos: TCampo;
-    function VerificarPreencheuDadosAbaEdicao: Boolean;
-    function ValidarPodeRetornarAbaDados: Boolean;
+    function ValidarDadosAntesSalvar: Boolean;
     procedure InserirAtualizar(const poModoInsercao: TModoInsercao);
+    function SalvarDados: Boolean;
   protected
     procedure InicializarTela; override;
     procedure DestruirTela; override;
@@ -90,15 +88,6 @@ begin
   InserirAtualizar(tmiAtualizar);
 end;
 
-procedure TfrmCampos.bbSalvarClick(Sender: TObject);
-begin
-  inherited;
-  if not(FoCampos.Salvar) then
-    MessageDlg(FoCampos.prpMensagem, mtInformation, [mbOK], 0)
-  else
-    FoCampos.CarregarCamposParaCadastro;
-end;
-
 procedure TfrmCampos.bbExcluirClick(Sender: TObject);
 begin
   inherited;
@@ -129,16 +118,15 @@ begin
     MessageDlg(FoCampos.prpMensagem, mtInformation, [mbOK], 0);
 end;
 
-function TfrmCampos.VerificarPreencheuDadosAbaEdicao: Boolean;
+function TfrmCampos.ValidarDadosAntesSalvar: Boolean;
 begin
   Result := (Trim(dbEdNome.Text) <> sSTRING_INDEFINIDO) and (dbLkCbBxTipoCampo.KeyValue <> null);
-end;
 
-function TfrmCampos.ValidarPodeRetornarAbaDados: Boolean;
-begin
-  Result := VerificarPreencheuDadosAbaEdicao;
   if not(Result) then
+  begin
     MessageDlg(sMSG_DEVE_SER_INFORMADO_NOME_TIPO_CAMPO, mtInformation, [mbOK], 0);
+    FoFuncoes.FocarComponente(dbEdNome);
+  end;
 end;
 
 procedure TfrmCampos.InserirAtualizar(const poModoInsercao: TModoInsercao);
@@ -162,12 +150,27 @@ begin
   end;
 end;
 
+function TfrmCampos.SalvarDados: Boolean;
+begin
+  Result := False;
+  if not(ValidarDadosAntesSalvar) then
+    Exit;
+
+  if not(FoCampos.Salvar) then
+    MessageDlg(FoCampos.prpMensagem, mtInformation, [mbOK], 0)
+  else
+    pgCadastroCampos.ActivePageIndex := nABA_DADOS;
+end;
+
 procedure TfrmCampos.pgCadastroCamposChanging(Sender: TObject;
   var AllowChange: Boolean);
 begin
   inherited;
   if (pgCadastroCampos.ActivePage = tsEdicao) then
-    AllowChange := ValidarPodeRetornarAbaDados;
+    AllowChange := SalvarDados;
+
+  if (pgCadastroCampos.ActivePage = tsDados) then
+    AllowChange := False;
 end;
 
 procedure TfrmCampos.bbbCancelarClick(Sender: TObject);
@@ -180,11 +183,11 @@ begin
   pgCadastroCampos.ActivePageIndex := nABA_DADOS;
 end;
 
-procedure TfrmCampos.bbConfirmarClick(Sender: TObject);
+procedure TfrmCampos.bbSalvarClick(Sender: TObject);
 begin
   inherited;
-  if ValidarPodeRetornarAbaDados then
-    pgCadastroCampos.ActivePageIndex := nABA_DADOS;
+  if not(SalvarDados) then
+    Exit;
 end;
 
 procedure TfrmCampos.bbFecharClick(Sender: TObject);

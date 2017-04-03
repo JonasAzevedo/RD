@@ -1,0 +1,75 @@
+// This is a comment line
+//
+// each line has
+//    subtype:component:nt name:unix name:dir offset:version
+//
+// subtype:vbgk
+//vbgk\vbgkrun:gatekeeper:gatekeeper.exe:gatekeeper:bin:04.00.00.B1.01
+//vbgk\vbgkrun:gkconfig:gkconfig.exe:gkconfig:bin:04.00.00.B1.01
+// subtype:vbcrdev
+vbcr\vbcrdev:ir2idl:ir2idl.exe:ir2idl:bin:
+vbcr\vbcrdev:idl2ir:idl2ir.exe:idl2ir:bin:
+//vbcr\vbcrdev:idl2java:idl2java.exe:idl2java:bin:04.00.00.B1.01
+vbcr\vbcrdev:idl2cpp:idl2cpp.exe:idl2cpp:bin:
+vbcr\vbcrdev:irep:irep.exe:irep:bin:
+//vbcr\vbcrdev:java2idl:java2idl.exe:java2idl:bin:04.00.00.B1.01
+//vbcr\vbcrdev:java2iiop:java2iiop.exe:java2iiop:bin:04.00.00.B1.01
+vbcr\vbcrdev:oad:oad.exe:oad:bin:
+//vbcr\vbcrdev:oadj:oadj.exe:oadj:bin:04.00.00.B1.01
+vbcr\vbcrdev:oadutil:oadutil.exe:oadutil:bin:
+//vbcr\vbcrdev:orbeline:orbeline.exe:orbeline:bin:04.00.00.B1.01
+vbcr\vbcrdev:printIOR:printIOR.exe:printIOR:bin:
+vbcr\vbcrdev:vregedit:vregedit.exe:vregedit:bin:
+//vbcr\vbcrdev:vbdebug:vbdebug.exe:vbdebug:bin:03.04.00.B1.01
+//vbcr\vbcrdev:vbjc:vbjc.exe:vbjc:bin:04.00.00.B1.01
+vbcr\vbcrdev:vbdev.jar:vbdev.jar:vbdev.jar:lib:04.05.01.C1.08
+vbcr\vbcrdev:vbcdev.jar:vbcdev.jar:vbcdev.jar:lib:04.05.00.C1.02
+// subtype:vbcrrun
+vbcr\vbcrrun:nameserv:nameserv.exe:nameserv:bin:
+vbcr\vbcrrun:osagent:osagent.exe:osagent:bin:04.05.00.C1.01
+vbcr\vbcrrun:osfind:osfind.exe:osfind:bin:
+//vbcr\vbcrrun:vbcertrq:vbcertrq.exe:vbcertrq:bin:04.00.00.B1.01
+//vbcr\vbcrdev:vbj:vbj.exe:vbj:bin:04.00.00.B1.01
+vbcr\vbcrrun:vbver:vbver.exe:vbver:bin:03.02.03.C1.01
+//vbcr\vbcrrun:vregedit:vregedit.exe:vregedit:bin:04.00.00.B1.01
+vbcr\vbcrrun:orb:orb.dll:orb:bin:
+vbcr\vbcrrun:orb_d:orb_d.dll:orb_d:bin:
+vbcr\vbcrrun:orb_r:orb_r.dll:orb_r:bin:
+vbcr\vbcrrun:orb_rd:orb_rd.dll:orb_rd:bin:
+vbcr\vbcrrun:vport:vport.dll:vport:bin:
+vbcr\vbcrrun:vport_d:vport_d.dll:vport_d:bin:
+vbcr\vbcrrun:vport_r:vport_r.dll:vport_r:bin:
+vbcr\vbcrrun:vport_rd:vport_rd.dll:vport_rd:bin:
+vbcr\vbcrrun:cosnm:cosnm.dll:cosnm:bin:
+vbcr\vbcrrun:cosnm_d:cosnm_d.dll:cosnm_d:bin:
+vbcr\vbcrrun:cosnm_r:cosnm_r.dll:cosnm_r:bin:
+vbcr\vbcrrun:cosnm_rd:cosnm_rd.dll:cosnm_rd:bin:
+vbcr\vbcrrun:cosev:cosev.dll:cosev:bin:
+vbcr\vbcrrun:cosev_d:cosev_d.dll:cosev_d:bin:
+vbcr\vbcrrun:cosev_r:cosev_r.dll:cosev_r:bin:
+vbcr\vbcrrun:cosev_rd:cosev_rd.dll:cosev_rd:bin:
+// borland c++ builder files
+vbcr\vbcrrun:orb_b:orb_b.dll:orb_b:bin:
+vbcr\vbcrrun:orb_br:orb_br.dll:orb_br:bin:04.05.00.C1.01
+vbcr\vbcrrun:orb_bd:orb_bd.dll:orb_bd:bin:
+vbcr\vbcrrun:orb_brd:orb_brd.dll:orb_brd:bin:
+vbcr\vbcrrun:vport_b:vport_b.dll:vport_b:bin:
+vbcr\vbcrrun:vport_br:vport_br.dll:vport_br:bin:04.05.00.C1.01
+vbcr\vbcrrun:vport_bd:vport_bd.dll:vport_bd:bin:
+vbcr\vbcrrun:vport_brd:vport_brd.dll:vport_brd:bin:
+vbcr\vbcrrun:cosnm_b:cosnm_b.dll:cosnm_b:bin:
+vbcr\vbcrrun:cosnm_br:cosnm_br.dll:cosnm_br:bin:04.05.00.C1.01
+vbcr\vbcrrun:cosnm_bd:cosnm_bd.dll:cosnm_bd:bin:
+vbcr\vbcrrun:cosnm_brd:cosnm_brd.dll:cosnm_brd:bin:
+vbcr\vbcrrun:cosev_b:cosev_b.dll:cosev_b:bin:
+vbcr\vbcrrun:cosev_br:cosev_br.dll:cosev_br:bin:04.05.00.C1.01
+vbcr\vbcrrun:cosev_bd:cosev_bd.dll:cosev_bd:bin:
+vbcr\vbcrrun:cosev_brd:cosev_brd.dll:cosev_brd:bin:
+//vbcr\vbcrrun:vbjruntime:vbjruntime.dll:vbjruntime:bin:04.00.00.B1.01
+//vbcr\vbcrrun:vbcpp.jar:vbcpp.jar:vbcpp.jar:lib:04.00.00.A1.05
+vbcr\vbcrdev:vbjorb.jar:vbjorb.jar:vbjorb.jar:lib:04.05.01.C1.08
+// the STL files
+vbcr\vbcrrun:orb_pr:orb_pr.dll:orb_pr:bin:
+vbcr\vbcrrun:vport_pr:vport_pr.dll:vport_pr:bin:
+vbcr\vbcrrun:cosnm_pr:cosnm_pr.dll:cosnm_pr:bin:
+vbcr\vbcrrun:cosev_pr:cosev_pr.dll:cosev_pr:bin:

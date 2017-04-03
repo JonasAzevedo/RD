@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, ComCtrls, ToolWin, ExtCtrls;
+  Dialogs, StdCtrls, ComCtrls, ToolWin, ExtCtrls, ImgList;
 
 type
   TfrmPrincipal = class(TForm)
@@ -14,11 +14,14 @@ type
     tlBtCampos: TToolButton;
     tlBtContatos: TToolButton;
     Timer: TTimer;
+    ImageList: TImageList;
+    tlBtSeparador: TToolButton;
+    tlBtFechar: TToolButton;
     procedure tlBtMeuUsuarioClick(Sender: TObject);
     procedure tlBtCamposClick(Sender: TObject);
     procedure TimerTimer(Sender: TObject);
-    procedure FormCreate(Sender: TObject);
     procedure tlBtContatosClick(Sender: TObject);
+    procedure tlBtFecharClick(Sender: TObject);
   private
     procedure AbrirTelaMeuUsuario;
     procedure AbrirTelaCampos;
@@ -88,12 +91,13 @@ end;
 
 procedure TfrmPrincipal.TimerTimer(Sender: TObject);
 begin
+  StatusBar.Panels[0].Text := 'Usuário: ' + TUsuarioSingleton.ObterInstancia.prpUsuario.prpNome;
   StatusBar.Panels[1].Text := DateToStr(Date) + ' - ' + TimeToStr(Now);
 end;
 
-procedure TfrmPrincipal.FormCreate(Sender: TObject);
+procedure TfrmPrincipal.tlBtFecharClick(Sender: TObject);
 begin
-  StatusBar.Panels[0].Text := 'Usuário: ' + TUsuarioSingleton.ObterInstancia.prpUsuario.prpNome;
+  Close;
 end;
 
 end.

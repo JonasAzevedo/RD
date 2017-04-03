@@ -1,0 +1,18 @@
+:BASE d7new.hlp>main
+:TITLE What's New in Delphi 7
+;
+1 What's New
+2 Overview=HC_MHelpWhatsNew
+2 IDE changes=IDEfeatures
+2 Web changes=Internetfeatures
+2 COM changes=COMdev
+2 Database changes=Databasefeatures
+2 Component library changes=VCLchanges
+2 Runtime library changes=RTLchanges
+2 Compiler changes=Compilerchanges
+2 Rave Reports support=RAVE
+2 ModelMaker support=ModelMaker
+2 Documentation changes=documentation
+1 Upgrade and compatibility issues
+2 Overview=upgrading
+; end of TOC

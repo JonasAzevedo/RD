@@ -1,0 +1,116 @@
+:Base d7ibx.hlp>main
+;
+1 InterBase Express Reference
+2 Getting started with InterBase Express=GS_IBXGettingStarted
+
+2 Object and Component Listing, by Unit
+
+3 IBBatch
+4 TIBInputDelimitedFile=TIBInputDelimitedFile
+4 TIBOutputDelimitedFile=TIBOutputDelimitedFile
+
+3 IBCustomDataSet
+4 TIBDataLink=TIBDataLink
+4 TIBDataSetUpdateObject=TIBDataSetUpdateObject
+4 TIBDSBlobStream=TIBDSBlobStream
+4 TIBGeneratorField=TIBGeneratorField
+4 TIBStringField=TIBStringField
+
+3 IBDatabaseInfo
+4 TIBDatabaseInfo=TIBDatabaseInfo
+
+3 IBDataBase
+4 IIBEventNotifier=IIBEventNotifier
+4 TIBBase=TIBBase
+4 TIBDatabase=TIBDatabase
+4 TIBTransaction=TIBTransaction
+
+3 IBEvents
+4 TIBEvents=TIBEvents
+
+3 IBExtract
+4 TIBExtract=TIBExtract
+
+3 IBInstall
+4 TIBSetup=TIBSetup
+4 TIBUnInstall=TIBUnInstall
+4 TInstallOptions=TInstallOptions
+
+3 IBQuery
+4 TIBQuery=TIBQuery
+
+3 IBServices
+4 TIBCustomService=TIBCustomService
+4 TIBLicensingService=TIBLicensingService
+4 TIBServerProperties=TIBServerProperties
+4 TIBStatisticalService=TIBStatisticalService
+
+3 IBSQLMonitor
+4 TIBSQLMonitor=TIBSQLMonitor
+
+3 IBSQL
+4 TIBSQL=TIBSQL
+4 TIBXSQLDA=TIBXSQLDA
+4 TIBXSQLVAR=TIBXSQLVAR
+
+3 IBStoredProc
+4 TIBStoredProc=TIBStoredProc
+
+3 IBTable
+4 TIBMasterDataLink=TIBMasterDataLink
+
+3 IBUpdateSQL
+4 TIBUpdateSQL=TIBUpdateSQL
+
+3 IB
+4 EIBInterBaseError=EIBInterBaseError
+4 EIBInterbaseRoleError=EIBInterbaseRoleError
+
+3 undefined
+4 EIBClientError=EIBClientError
+
+2 Alphabetical Object and Component Listing
+
+3 EI
+4 EIBClientError=EIBClientError
+4 EIBInterBaseError=EIBInterBaseError
+4 EIBInterbaseRoleError=EIBInterbaseRoleError
+
+3 I
+4 IIBEventNotifier=IIBEventNotifier
+
+3 TI
+4 TIBBase=TIBBase
+4 TIBCustomService=TIBCustomService
+4 TIBDatabase=TIBDatabase
+4 TIBDatabaseInfo=TIBDatabaseInfo
+4 TIBDataLink=TIBDataLink
+4 TIBDataSetUpdateObject=TIBDataSetUpdateObject
+4 TIBDSBlobStream=TIBDSBlobStream
+4 TIBEvents=TIBEvents
+4 TIBExtract=TIBExtract
+4 TIBGeneratorField=TIBGeneratorField
+4 TIBInputDelimitedFile=TIBInputDelimitedFile
+4 TIBLicensingService=TIBLicensingService
+4 TIBMasterDataLink=TIBMasterDataLink
+4 TIBOutputDelimitedFile=TIBOutputDelimitedFile
+4 TIBQuery=TIBQuery
+4 TIBServerProperties=TIBServerProperties
+4 TIBSetup=TIBSetup
+4 TIBSQL=TIBSQL
+4 TIBSQLMonitor=TIBSQLMonitor
+4 TIBStatisticalService=TIBStatisticalService
+4 TIBStoredProc=TIBStoredProc
+4 TIBStringField=TIBStringField
+4 TIBTransaction=TIBTransaction
+4 TIBUnInstall=TIBUnInstall
+4 TIBUpdateSQL=TIBUpdateSQL
+4 TIBXSQLDA=TIBXSQLDA
+4 TIBXSQLVAR=TIBXSQLVAR
+4 TInstallOptions=TInstallOptions
+
+2 Categorical Routines Listing
+
+2 Routines Listing, by Unit
+
+2 Alphabetical Routines Listing

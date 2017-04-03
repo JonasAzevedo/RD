@@ -1,0 +1,37 @@
+:Base PVCS.HLP
+:Title PVCS Version Manager Help Contents
+1 PVCS Version Manager
+2 About PVCS Version Control=About_PVCS_Version_Control
+2 How Version Manager Stores Data=How_Version_Manager_Stores_Data
+2 The PVCS Project Window=PVCS_Project_Window
+2 The PVCS Toolbar=PVCS_Toolbar
+2 About PVCS Product Support=Product_Support
+2 Getting Started
+3 Getting started with PVCS Version Manager=Place_a_Project_Under_PVCS_Version_Control
+3 Set data directories=Set_Data_Directories
+3 Create a PVCS project=Create_a_PVCS_Project
+3 Add a file to a PVCS project=Add_a_File_to_a_PVCS_Project
+3 Create an archive=Create_an_Archive
+2 Checking In and Checking Out
+3 Check out a file=Check_Out_a_File
+3 Check in a file=Check_In_a_File
+2 Using Version Labels
+3 Add a version label=Add_a_Version_Label
+3 Delete a version label=Delete_a_Version_Label
+3 Edit a version label=Edit_a_Version_Label
+2 Locking and Unlocking Revisions
+3 Lock a revision=Lock_a_Revision
+3 Unlock a revision=Unlock_a_Revision
+2 Generating Reports
+3 Display the Archive Report=Display_the_Archive_Report
+3 Display the Visual Difference Report=Display_the_Visual_Difference_Report
+3 View the Visual Difference Report=View_Difference_Report
+2 Managing Archive Directories
+3 Manage archive directories=Manage_Archive_Directories
+2 Glossary
+3 archive=Archive
+3 lock=Lock
+3 revision=Revision
+3 tip=Tip
+3 version label=Version_Label
+3 workfile=Workfile

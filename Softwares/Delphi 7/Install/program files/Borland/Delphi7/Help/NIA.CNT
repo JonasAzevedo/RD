@@ -1,0 +1,949 @@
+:Base NIA.HLP
+:Title NEWT IntraNet ActiveX Help
+1 Welcome to NEWT IntraNet ActiveX
+2 Introduction to NEWT IntraNet ActiveX=IDH_Introduction_to_NEWT_IntraNet_ActiveX
+2 How to Use This Help System=IDH_How_to_Use_This_Help_System
+2 Conventions=IDH_Conventions
+2 Readme File=IDH_Readme_File
+2 Installation Requirements=IDH_Installation_Requirements
+2 Customer Support=IDH_Customer_Support
+2 Your Comments Are Welcome=IDH_Your_Comments_Are_Welcome
+1 Getting Started
+2 About NEWT IntraNet ActiveX=IDH_About_NEWT_IntraNet_ActiveX
+2 ActiveX Control Groups=IDH_ActiveX_Control_Groups
+2 Summary of ActiveX Controls=IDH_Summary_of_ActiveX_Controls
+2 Supported Environments=IDH_Supported_Environments
+2 Control Architecture
+3 ActiveX Control Architecture=IDH_ActiveX_Control_Architecture
+3 DocStream=IDH_DocStream
+3 DocInput and DocOutput Objects=IDH_DocInput_and_DocOutput_Objects
+3 icError Object and Collection=IDH_icError_Object_and_Collection
+3 DocHeader Object and Collection=IDH_DocHeader_Object_and_Collection
+2 Properties, Methods, and Events
+3 Properties, Methods, and Events=IDH_Properties_Methods_and_Events
+3 Object Descriptions=IDH_Object_Descriptions
+3 Property Descriptions=IDH_Property_Descriptions
+3 Method Descriptions=IDH_Method_Descriptions
+3 Event Descriptions=IDH_Event_Descriptions
+1 Common Control Objects
+2 Common Control Objects=IDH_Common_Control_Objects
+2 DocInput Object
+3 DocInput Object Overview=IDH_DocInput_Object_Overview
+3 DocInput Object Properties
+4 BytesTotal=IDH_BytesTotal_DocInput_Object_Property
+4 BytesTransferred=IDH_BytesTransferred_DocInput_Object_Property
+4 DocLink=IDH_DocLink_DocInput_Object_Property
+4 FileName=IDH_FileName_DocInput_Object_Property
+4 Headers=IDH_Headers_DocInput_Object_Property
+4 PushStreamMode=IDH_PushStreamMode_DocInput_Object_Property
+4 State=IDH_State_DocInput_Object_Property
+4 Suspended=IDH_Suspended_DocInput_Object_Property
+3 DocInput Object Methods
+4 GetData=IDH_GetData_DocInput_Object_Method
+4 PushStream=IDH_PushStream_DocInput_Object_Method
+4 SetData=IDH_SetData_DocInput_Object_Method
+4 Suspend=IDH_Suspend_DocInput_Object_Method
+3 DocInput Object Events
+4 DocInput Object Events=IDH_DocInput_Object_Events
+4 DocInput=IDH_DocInput_DocInput_Object_Event
+2 DocOutput Objects
+3 DocOutput Object Overview=IDH_DocOutput_Object_Overview
+3 DocOutput Object Properties
+4 AppendToFile=IDH_AppendToFile_DocOutput_Object_Property
+4 BytesTotal=IDH_BytesTotal_DocOutput_Object_Property
+4 BytesTransferred=IDH_BytesTransferred_DocOutput_Object_Property
+4 DocLink=IDH_DocLink_DocOutput_Object_Property
+4 FileName=IDH_FileName_DocOutput_Object_Property
+4 Headers=IDH_Headers_DocOutput_Object_Property
+4 PushStreamMode=IDH_PushStreamMode_DocOutput_Object_Property
+4 State=IDH_State_DocOutput_Object_Property
+4 Suspended=IDH_Suspended_DocOutput_Object_Property
+3 DocOutput Object Methods
+4 GetData=IDH_GetData_DocOutput_Object_Method
+4 SetData=IDH_SetData_DocOutput_Object_Method
+4 Suspend=IDH_Suspend_DocOutput_Object_Method
+3 DocOutput Object Events
+4 DocOutput Object Events=IDH_DocOutput_Object_Events
+4 DocOutput=IDH_DocOutput_DocOutput_Object_Event
+2 DocHeaders Collection
+3 DocHeaders Collection Overview=IDH_DocHeaders_Collection_Overview
+3 DocHeaders Collection Properties
+4 Count=IDH_Count_DocHeaders_Collection_Property
+4 Text=IDH_Text_DocHeaders_Collection_Property
+3 DocHeaders Collection Methods
+4 Add=IDH_Add_DocHeaders_Collection_Method
+4 Clear=IDH_Clear_DocHeaders_Collection_Method
+4 Item=IDH_Item_DocHeaders_Collection_Method
+4 Remove=IDH_Remove_DocHeaders_Collection_Method
+3 DocHeader Item Properties
+4 DocHeader Item Overview=IDH_DocHeader_Item_Overview
+4 Name=IDH_Name_DocHeader_Item_Property
+4 Value=IDH_Value_DocHeader_Item_Property
+2 icErrors Collection
+3 icErrors Collection Overview=IDH_icErrors_Collection_Overview
+3 icErrors Collection Properties
+4 Count=IDH_Count_icErrors_Collection_Property
+4 Source=IDH_Source_icErrors_Collection_Property
+3 icErrors Collection Methods
+4 Clear=IDH_Clear_icErrors_Collection_Method
+4 Item=IDH_Item_icErrors_Collection_Method
+2 icError Item
+3 icError Item Overview=IDH_icError_Item_Overview
+3 Code=IDH_Code_IcError_Item_Property
+3 Description=IDH_Description_IcError_Item_Property
+3 Type=IDH_Type_IcError_Item_Property
+1 CGI ActiveX Control
+2 CGI ActiveX Control Overview=IDH_CGI_ActiveX_Control_Overview
+2 CGI Properties, Methods, and Events=IDH_CGI_Properties_Methods_and_Events
+2 Using the CGI Control=IDH_Using_the_CGI_Control
+2 CGI Properties
+3 DecodedString=IDH_DecodedString_CGI_Property
+3 DocInput=IDH_DocInput_CGI_Property
+3 EnvironmentStrings=IDH_EnvironmentStrings_CGI_Property
+3 IsRawData=IDH_IsRawData_CGI_Property
+3 QueryItem=IDH_QueryItem_CGI_Property
+3 QueryItemString=IDH_QueryItemString_CGI_Property
+3 RequestMethod=IDH_RequestMethod_CGI_Property
+3 SplitResults=IDH_SplitResults_CGI_Property
+2 EnvironmentStrings Collection Property
+3 EnvironmentStrings Collection=IDH_EnvironmentStrings_Collection
+3 Count=IDH_Count_EnvironmentStrings_Collection_Property
+2 EnvironmentString Item Properties
+3 EnvironmentString Item=IDH_EnvironmentString_Item
+3 Name=IDH_Name_EnvironmentString_Item_Property
+3 Value=IDH_Value_EnvironmentString_Item_Property
+2 QueryItems Collection Property
+3 QueryItems Collection=IDH_QueryItems_Collection
+3 Count=IDH_Count_QueryItems_Collection_Property
+2 QueryItem Item Properties
+3 QueryItem Item=IDH_QueryItem_Item
+3 Name=IDH_Name_QueryItem_Item_Property
+3 Value=IDH_Value_QueryItem_Item_Property
+2 SplitResults Collection Property
+3 SplitResults Collection=IDH_SplitResults_Collection
+3 Count=IDH_Count_SplitResults_Collection_Property
+2 SplitResult Item Properties
+3 SplitResult Item=IDH_SplitResult_Item
+3 Value=IDH_Value_SplitResults_Item_Property
+2 CGI Methods
+3 AboutBox=IDH_AboutBox_CGI_Method
+3 Decode=IDH_Decode_CGI_Method
+3 SendDoc=IDH_SendDoc_CGI_Method
+3 SendReplyMessage=IDH_SendReplyMessage_CGI_Method
+3 SplitString=IDH_SplitString_CGI_Method
+3 QueryItems Collection Method
+4 Item=IDH_Item_QueryItems_Collection_Method
+3 SplitResults Collection Method
+4 SplitResults Collection Method=IDH_SplitResults_Collection_Method
+4 Item=IDH_Item_SplitResults_Collection_Method
+3 EnvironmentStrings Collection Method
+4 EnvironmentStrings Collection Method=IDH_EnvironmentStrings_Collection_Method
+4 Item=IDH_Item_EnvironmentStrings_Collection_Method
+2 CGI Events
+3 DocInput=IDH_DocInput_CGI_Event
+3 Error=IDH_Error_CGI_Event
+2 Sample Sessions
+3 Handling Subscription Requests Sample=IDH_Handling_Subscription_Requests_Sample
+3 Non-URL-Encoded Sample=IDH_Non_URL_Encoded_Sample
+1 FTP Client ActiveX Control
+2 FTP Client ActiveX Control Overview=IDH_FTP_Client_ActiveX_Control_Overview
+2 Using the FTP Control=IDH_Using_the_FTP_Control
+2 FTP Property Pages=IDH_FTP_Property_Pages
+2 FTP Sample Session=IDH_FTP_Sample_Session
+2 FTP Localization=IDH_FTP_Localization
+2 FTP Properties
+3 FTP Properties=IDH_FTP_Properties
+3 AppendToFile=IDH_AppendToFile_FTP_Property
+3 Blocking=IDH_Blocking_FTP_Property
+3 BlockResult=IDH_BlockResult_FTP_Property
+3 Busy=IDH_Busy_FTP_Property
+3 DocInput=IDH_DocInput_FTP_Property
+3 DocOutput=IDH_DocOutput_FTP_Property
+3 EnableTimer=IDH_EnableTimer_FTP_Property
+3 Errors=IDH_Errors_FTP_Property
+3 Firewall=IDH_Firewall_FTP_Property
+3 LocalPort=IDH_LocalPort_FTP_Property
+3 Logging=IDH_Logging_FTP_Property
+3 ListItemNotify=IDH_ListItemNotify_FTP_Property
+3 NotificationMode=IDH_NotificationMode_FTP_Property
+3 Operation=IDH_Operation_FTP_Property
+3 PassiveMode=IDH_PassiveMode_FTP_Property
+3 Password=IDH_Password_FTP_Property
+3 ProtocolState=IDH_ProtocolState_FTP_Property
+3 ProtocolStateString=IDH_ProtocolStateString_FTP_Property
+3 RemoteFile=IDH_RemoteFile_FTP_Property
+3 RemoteHost=IDH_RemoteHost_FTP_Property
+3 RemotePort=IDH_RemotePort_FTP_Property
+3 ReplyCode=IDH_ReplyCode_FTP_Property
+3 ReplyString=IDH_ReplyString_FTP_Property
+3 SleepTime=IDH_SleepTime_FTP_Property
+3 SocketHandle=IDH_SocketHandle_FTP_Property
+3 State=IDH_State_FTP_Property
+3 StateString=IDH_StateString_FTP_Property
+3 Timeout=IDH_Timeout_FTP_Property
+3 URL=IDH_URL_FTP_Property
+3 UserId=IDH_UserId_FTP_Property
+2 FTP Methods
+3 FTP Methods=IDH_FTP_Methods
+3 Abort=IDH_Abort_FTP_Method
+3 AboutBox=IDH_AboutBox_FTP_Method
+3 Account=IDH_Account_FTP_Method
+3 Authenticate=IDH_Authenticate_FTP_Method
+3 Cancel=IDH_Cancel_FTP_Method
+3 ChangeDir=IDH_ChangeDir_FTP_Method
+3 Connect=IDH_Connect_FTP_Method
+3 CreateDir=IDH_CreateDir_FTP_Method
+3 DeleteDir=IDH_DeleteDir_FTP_Method
+3 DeleteFile=IDH_DeleteFile_FTP_Method
+3 Execute=IDH_Execute_FTP_Method
+3 GetDoc=IDH_GetDoc_FTP_Method
+3 GetFile=IDH_GetFile_FTP_Method
+3 Help=IDH_Help_FTP_Method
+3 List=IDH_List_FTP_Method
+3 Mode=IDH_Mode_FTP_Method
+3 NameList=IDH_NameList_FTP_Method
+3 NOOP=IDH_NOOP_FTP_Method
+3 ParentDir=IDH_ParentDir_FTP_Method
+3 PrintDir=IDH_PrintDir_FTP_Method
+3 PutFile=IDH_PutFile_FTP_Method
+3 Quit=IDH_Quit_FTP_Method
+3 ReInitialize=IDH_ReInitialize_FTP_Method
+3 SendDoc=IDH_SendDoc_FTP_Method
+3 Site=IDH_Site_FTP_Method
+3 Status=IDH_Status_FTP_Method
+3 System=IDH_System_FTP_Method
+3 Type=IDH_Type_FTP_Method
+2 FTP Events
+3 FTP Events=IDH_FTP_Events
+3 Abort=IDH_Abort_FTP_Event
+3 Account=IDH_Account_FTP_Event
+3 Busy=IDH_Busy_FTP_Event
+3 Cancel=IDH_Cancel_FTP_Event
+3 ChangeDir=IDH_ChangeDir_FTP_Event
+3 CreateDir=IDH_CreateDir_FTP_Event
+3 DeleteDir=IDH_DeleteDir_FTP_Event
+3 DelFile=IDH_DelFile_FTP_Event
+3 DocInput=IDH_DocInput_FTP_Event
+3 DocOutput=IDH_DocOutput_FTP_Event
+3 Error=IDH_Error_FTP_Event
+3 Execute=IDH_Execute_FTP_Event
+3 FirewallStateChanged=IDH_FirewallStateChanged_FTP_Event
+3 Help=IDH_Help_FTP_Event
+3 ListItem=IDH_ListItem_FTP_Event
+3 Log=IDH_Log_FTP_Event
+3 Mode=IDH_Mode_FTP_Event
+3 NOOP=IDH_NOOP_FTP_Event
+3 ParentDir=IDH_ParentDir_FTP_Event
+3 PrintDir=IDH_PrintDir_FTP_Event
+3 ProtocolStateChanged=IDH_ProtocolStateChanged_FTP_Event
+3 ReInitialize=IDH_ReInitialize_FTP_Event
+3 Site=IDH_Site_FTP_Event
+3 StateChanged=IDH_StateChanged_FTP_Event
+3 System=IDH_System_FTP_Event
+3 TimeOut=IDH_TimeOut_FTP_Event
+3 Type=IDH_Type_FTP_Event
+2 Firewall Object
+3 Firewall FTP Object=IDH_Firewall_FTP_Object
+3 Firewall FTP Properties
+4 Host=IDH_Host_Firewall_FTP_Property
+4 Mode=IDH_Mode_Firewall_FTP_Property
+4 Password=IDH_Password_Firewall_FTP_Property
+4 Port Firewall=IDH_Port_Firewall_FTP_Property
+4 State Firewall=IDH_State_Firewall_FTP_Property
+4 StateString=IDH_StateString_Firewall_FTP_Property
+4 UserId=IDH_UserId_Firewall_FTP_Property
+2 FTPDirItem Object
+3 FTPDirItem Object=IDH_FTPDirItem_Object
+3 FTPDirItem Object Example=IDH_FTPDirItem_Object_Example
+3 FTPDirItem Object Properties=IDH_FTPDirItem_Object_Properties
+3 Attributes=IDH_Attributes_FTPDirItem_Property
+3 Date=IDH_Date_FTPDirItem_Property
+3 Detail=IDH_Detail_FTPDirItem_Property
+3 FileName=IDH_FileName_FTPDirItem_Property
+3 Size=IDH_Size_FTPDirItem_Property
+1 HTML ActiveX Control
+2 HTML ActiveX Control Overview=IDH_HTML_ActiveX_Control_Overview
+2 HTML ActiveX Features=IDH_HTML_ActiveX_Features
+2 Retrieving HTML Data=IDH_Retrieving_HTML_Data
+2 DocStreams=IDH_DocStreams
+2 Non-Visual HTML Parser=IDH_Non_Visual_HTML_Parser
+2 Using the HTML Control=IDH_Using_the_HTML_Control
+2 HTML Limitations=IDH_HTML_Limitations
+2 HTML Properties, Methods and Events=IDH_HTML_Properties_Methods_and_Events
+2 HTML Properties
+3 BackColor=IDH_BackColor_HTML_Property
+3 BackImage=IDH_BackImage_HTML_Property
+3 BaseURL=IDH_BaseURL_HTML_Property
+3 Blocking=IDH_Blocking_HTML_Property
+3 BlockResult=IDH_BlockResult_HTML_Property
+3 DeferRetrieval=IDH_DeferRetrieval_HTML_Property
+3 DocBackColor=IDH_DocBackColor_HTML_Property
+3 DocForeColor=IDH_DocForeColor_HTML_Property
+3 DocInput=IDH_DocInput_HTML_Property
+3 DocLinkColor=IDH_DocLinkColor_HTML_Property
+3 DocOutput=IDH_DocOutput_HTML_Property
+3 DocVisitedColor=IDH_DocVisitedColor_HTML_Property
+3 ElemNotification=IDH_ElemNotification_HTML_Property
+3 Errors=IDH_Errors_HTML_Property
+3 FixedFont=IDH_FixedFont_HTML_Property
+3 Font=IDH_Font_HTML_Property
+3 ForeColor=IDH_ForeColor_HTML_Property
+3 Forms=IDH_Forms_HTML_Property
+3 HasSelection=IDH_HasSelection_HTML_Property
+3 Heading1Font=IDH_Heading1Font_HTML_Property
+3 Heading2Font=IDH_Heading2Font_HTML_Property
+3 Heading3Font=IDH_Heading3Font_HTML_Property
+3 Heading4Font=IDH_Heading4Font_HTML_Property
+3 Heading5Font=IDH_Heading5Font_HTML_Property
+3 Heading6Font=IDH_Heading6Font_HTML_Property
+3 hWnd=IDH_hWnd_HTML_Property
+3 IsPrintingDone=IDH_IsPrintingDone_HTML_Property
+3 LayoutDone=IDH_LayoutDone_HTML_Property
+3 LinkColor=IDH_LinkColor_HTML_Property
+3 ParseDone=IDH_ParseDone_HTML_Property
+3 Redraw=IDH_Redraw_HTML_Property
+3 RequestURL=IDH_RequestURL_HTML_Property
+3 RetainSource=IDH_RetainSource_HTML_Property
+3 RetrieveBytesDone=IDH_RetrieveBytesDone_HTML_Property
+3 RetrieveBytesTotal=IDH_RetrieveBytesTotal_HTML_Property
+3 SleepTime=IDH_SleepTime_HTML_Property
+3 SourceText=IDH_SourceText_HTML_Property
+3 TimeOut=IDH_TimeOut_HTML_Property
+3 TotalHeight=IDH_TotalHeight_HTML_Property
+3 TotalWidth=IDH_TotalWidth_HTML_Property
+3 UnderlineLinks=IDH_UnderlineLinks_HTMLv_Property
+3 URL=IDH_URL_HTML_Property
+3 UseDocColors=IDH_UseDocColors_HTML Property
+3 ViewSource=IDH_ViewSource_HTML Property
+3 VisibleColor=IDH_VisibleColor_HTML_Property
+3 VisitedColor=IDH_VisitedColor_HTML Property
+2 HTML Methods
+3 AboutBox=IDH_AboutBox_HTML_Method
+3 AutoPrint=IDH_AutoPrint_HTML_Method
+3 BeginPrinting=IDH_BeginPrinting_HTML_Method
+3 Cancel=IDH_Cancel_HTML_Method
+3 EndPrinting=IDH_EndPrinting_HTML_Method
+3 GetPlainText=IDH_GetPlainText_HTML_Method
+3 PrintPage=IDH_PrintPage_HTML_Method
+3 RequestAllEmbedded=IDH_RequestAllEmbedded_HTML_Method
+3 RequestDoc=IDH_RequestDoc_HTML_Method
+3 SelectAll=IDH_SelectAll_HTML_Method
+2 HTML Events
+3 HTML Events=IDH_HTML_Events
+3 BeginRetrieval=IDH_BeginRetrieval_HTML_Event
+3 Click=IDH_Click_HTML_Event
+3 DblClick=IDH_DblClick_HTML_Event
+3 DocInput=IDH_DocInput_HTML_Event
+3 DocOutput=IDH_DocOutput_HTML_Event
+3 DoNewElement=IDH_DoNewElement_HTML_Event
+3 DoRequestDoc=IDH_DoRequestDoc_HTML_Event
+3 DoRequestEmbedded=IDH_DoRequestEmbedded_HTML_Event
+3 DoRequestSubmit=IDH_DoRequestSubmit_HTML_Event
+3 EndRetrieval=IDH_EndRetrieval_HTML_Event
+3 Error=IDH_Error_HTML_Event
+3 GotFocus=IDH_GotFocus_HTML_Event
+3 KeyDown=IDH_KeyDown_HTML_Event
+3 KeyPress=IDH_KeyPress_HTML_Event
+3 KeyUp=IDH_KeyUp_HTML_Event
+3 LayoutComplete=IDH_LayoutComplete_HTML_Event
+3 LostFocus=IDH_LostFocus_HTML_Event
+3 MouseDown=IDH_MouseDown_HTML_Event
+3 MouseMove=IDH_MouseMove_HTML_Event
+3 MouseUp=IDH_MouseUp_HTML_Event
+3 ParseComplete=IDH_ParseComplete_HTML_Event
+3 TimeOut=IDH_TimeOut_HTML_Event
+3 UpdateRetrieval=IDH_UpdateRetrieval_HTML_Event
+2 HTMLAttrs Collection
+3 HTMLAttrs Collection=IDH_HTMLAttrs_Collection
+3 Count=IDH_Count_HTMLAttrs_Collection_Property
+3 Item=IDH_Item_HTMLAttrs_Collection_Method
+2 HTMLAttr Item
+3 HTMLAttr Item=IDH_HTMLAttr_Item
+3 HTMLAttr Item Properties=IDH_HTMLAttr_Item_Properties
+3 Name=IDH_Name_HTMLAttr_Item_Property
+3 Value=IDH_Value_HTMLAttr_Item_Property
+2 HTMLForms Collection
+3 HTMLForms Collection=IDH_HTMLForms_Collection
+3 HTMLForms Collection Properties=IDH_HTMLForms_Collection_Properties
+3 Count HTMLForms Collection Property=IDH_Count_HTMLForms_Collection_Property
+3 HTMLForms Collection Methods=IDH_HTMLForms_Collection_Methods
+3 Item HTMLForms Collection Method=IDH_Item_HTMLForms_Collection_Method
+2 HTMLForm Item
+3 HTMLForm Item=IDH_HTMLForm_Item
+3 Method=IDH_Method_HTMLForm_Item_Property
+3 URL=IDH_URL_HTMLForm_Item_Property
+3 URLEncodedBody=IDH_URLEncodedBody_HTMLForms_Item_Property
+3 RequestSubmit=IDH_RequestSubmit_HTMLForm_Item_Method
+2 HTML Sample Sessions
+3 HTML Sample Sessions=IDH_HTML_Sample_Sessions
+3 HTML Session 1=IDH_HTML_Session_1
+3 HTML Session 2=IDH_HTML_Session_2
+3 HTML Session 3=IDH_HTML_Session_3
+1 HTTP Client ActiveX Control
+2 HTTP Client ActiveX Control Overview=IDH_HTTP_Client_ActiveX_Control_Overview
+2 Using the HTTP Control=IDH_Using_the_HTTP_Client_Control
+2 HTTP Localization=IDH_HTTP_Localization
+2 HTTP Client Properties
+3 Blocking=IDH_Blocking_HTTP_Client_Property
+3 BlockResult=IDH_BlockResult_HTTP_Client_Property
+3 Busy=IDH_Busy_HTTP_Client_Property
+3 DocInput=IDH_DocInput_HTTP_Client_Property
+3 DocOutput=IDH_DocOutput_HTTP_Client_Property
+3 Document=IDH_Document_HTTP_Client_Property
+3 EnableTimer=IDH_EnableTimer_HTTP_Client_Property
+3 Errors=IDH_Errors_HTTP_Client_Property
+3 LocalPort=IDH_LocalPort_HTTP_Client_Property
+3 Logging=IDH_Logging_HTTP_Client_Property
+3 Method=IDH_Method_HTTP_Client_Property
+3 NotificationMode=IDH_NotificationMode_HTTP_Client_Property
+3 ProtocolState=IDH_ProtocolState_HTTP_Client_Property
+3 ProtocolStateString=IDH_ProtocolStateString_HTTP_Client_Property
+3 RemoteHost=IDH_RemoteHost_HTTP_Client_Property
+3 RemotePort=IDH_RemotePort_HTTP_Client_Property
+3 ReplyCode=IDH_ReplyCode_HTTP_Client_Property
+3 ReplyString=IDH_ReplyString_HTTP_Client_Property
+3 SleepTime=IDH_SleepTime_HTTP_Client_Property
+3 SocketHandle=IDH_SocketHandle_HTTP_Client_Property
+3 State=IDH_State_HTTP_Client_Property
+3 StateString=IDH_StateString_HTTP_Client_Property
+3 Timeout=IDH_Timeout_HTTP_Client_Property
+3 URL=IDH_URL_HTTP_Client_Property
+2 HTTP Client Methods
+3 AboutBox=IDH_AboutBox_HTTP_Client_Method
+3 Cancel=IDH_Cancel_HTTP_Client_Method
+3 GetDoc=IDH_GetDoc_HTTP_Client_Method
+3 SendDoc=IDH_SendDoc_HTTP_Client_Method
+2 HTTP Client Events
+3 HTTP Client Events=IDH_HTTP_Client_Events
+3 Busy=IDH_Busy_HTTP_Client_Event
+3 Cancel=IDH_Cancel_HTTP Client Event
+3 DocInput=IDH_DocInput_HTTP_Client_Event
+3 DocOutput=IDH_DocOutput_HTTP_Client_Event
+3 Error=IDH_Error_HTTP_Client_Event
+3 Log=IDH_Log_HTTP_Client_Event
+3 ProtocolStateChanged=IDH_ProtocolStateChanged_HTTP_Client_Event
+3 StateChanged=IDH_StateChanged_HTTP_Client_Event
+3 TimeOut=IDH_TimeOut_HTTP_Client_Event
+2 HTTP Client Sample Sessions
+3 HTTP Sample Sessions=IDH_HTTP_Sample_Sessions
+3 Receiving a Reply=IDH_Receiving_a_Reply
+3 Sending a Request Using DocStream=IDH_Sending_a_Request_Using_DocStream
+3 Processing Errors=IDH_Processing_Errors
+2 HTTP Proxy Object
+3 HTTP Proxy Object=IDH_HTTP_Proxy_Object
+3 HTTP Proxy Object Properties
+4 Host=IDH_Host_HTTP_Proxy_Property
+4 Mode=IDH_Mode_HTTP_Proxy_Property
+4 Port=IDH_Port_HTTP_Proxy_Property
+1 HTTP Server ActiveX Control
+2 HTTP Server ActiveX Control Overview=HTTP_Server_ActiveX_Control_Overview
+2 HTTP Server Sample Session=IDH_HTTP_Server_Sample_Session
+2 HTTP Server Properties
+3 Blocking=IDH_Blocking_HTTP_Server_Property
+3 BlockResult=IDH_BlockResult_HTTP_Server_Property
+3 DefaultDocument=IDH_DefaultDocument_HTTP_Server_Property
+3 Errors=IDH_Errors_HTTP_Server_Property
+3 LocalPort=IDH_LocalPort_HTTP_Server_Property
+3 ListenPort=IDH_ListenPort_HTTP_Server_Property
+3 MaxConnections=IDH_MaxConnections_HTTP_Server_Property
+3 RootDirectory=IDH_RootDirectory_HTTP_Server_Property
+3 Sessions=IDH_Sessions_HTTP_Server_Property
+3 SleepTime=IDH_SleepTime_HTTP_Server_Property
+3 SocketHandle=IDH_SocketHandle_HTTP_Server_Property
+2 Sessions Collection Properties
+3 Count=IDH_Count_Sessions_Collection_Property
+2 Session Item Properties
+3 DocInput=IDH_DocInput_Session_Item_Property_HTTP
+3 DocOutput=IDH_DocOutput_Session_Item_Property
+3 Document=IDH_Document_Session_Item_Property
+3 Method=IDH_Method_Session_Item_Property
+3 NotificationMode=IDH_NotificationMode_Session_Item_Property
+3 RemoteHostIP=IDH_RemoteHostIP_Session_Item_Property
+3 RemoteHostName=IDH_RemoteHostName_Session_Item_Property
+3 RemotePort=IDH_RemotePort_Session_Item_Property_HTTP
+3 ReplyString=IDH_ReplyString_Session_Item_Property_HTTP
+3 State=IDH_State_Session_Item_Property
+3 StateString=IDH_StateString_Session_Item_Property_HTTP
+3 Tag=IDH_Tag_Session_Item_Property
+3 ThreadID=IDH_ThreadID_Session_Item_Property_HTTP
+3 Timeout=IDH_Timeout_Session_Item_Property_HTTP
+2 HTTP Server Methods
+3 HTTP Server Methods=IDH_HTTP_Server_Methods
+3 AboutBox=IDH_AboutBox_HTTP_Server_Method
+3 CloseAll=IDH_CloseAll_HTTP_Server_Method
+3 Start=IDH_Start_HTTP_Server_Method
+3 Stop=IDH_Stop_HTTP_Server_Method
+2 Sessions Collection Method
+3 Item=IDH_Item_Sessions_Collection_Method_Internet_Server
+2 Session Item Methods
+3 Close=IDH_Close_Session_Item_Method
+3 ReplyDoc=IDH_ReplyDoc_Session_Item_Method_HTTP
+3 SendData=IDH_SendData_Session_Item_Method_HTTP
+2 HTTP Server Events
+3 HTTP Server Events=IDH_HTTP_Server_Events
+3 Accept=IDH_Accept_HTTP_Server_Event
+3 CloseAll=IDH_CloseAll_HTTP_Server_Event
+3 DocInput=IDH_DocInput_HTTP_Server_Event
+3 DocOutput=IDH_DocOutput_HTTP_Server_Event
+3 Error=IDH_Error_HTTP_Server_Event
+3 RemoteHostName=IDH_RemoteHostName_HTTP_Server_Event
+3 Request=IDH_Request_HTTP_Server_Event
+3 StateChanged=IDH_StateChanged_HTTP_Server_Event
+3 TimeOut=IDH_TimeOut_HTTP_Server_Event
+1 Internet Client ActiveX Control
+2 Internet Client ActiveX Control Overview=IDH_Internet_Client_ActiveX_Control_Overview
+2 Internet Client Properties, Methods, and Events=IDH_Internet_Client_Properties_Methods_and_Events
+2 Internet Client Sample Session=IDH_Internet_Client_Sample_Session
+2 Internet Client Properties
+3 Blocking=IDH_Blocking_Internet_Client_Property
+3 BlockResult=IDH_BlockResult_Internet_Client_Property
+3 DataTerminator=IDH_DataTerminator_Internet_Client_Property
+3 DocInput=IDH_DocInput_Internet_Client_Property
+3 DocOutput=IDH_DocOutput_Internet_Client_Property
+3 EnableTimer=IDH_EnableTimer_Internet_Client_Property
+3 Errors=IDH_Errors_Internet_Client_Property
+3 LocalPort=IDH_LocalPort_Internet_Client_Property
+3 Logging=IDH_Logging_Internet_Client_Property
+3 NotificationMode=IDH_NotificationMode_Internet_Client_Property
+3 ParsingMode=IDH_ParsingMode_Internet_Client_Property
+3 ProtocolState=IDH_ProtocolState_Internet_Client_Property
+3 ProtocolStateString=IDH_ProtocolStateString_Internet_Client_Property
+3 RemoteHost=IDH_RemoteHost_Internet_Client_Property
+3 RemotePort=IDH_RemotePort_Internet_Client_Property
+3 ReplyString=IDH_ReplyString_Internet_Client_Property
+3 ReplyTerminator=IDH_ReplyTerminator_Internet_Client_Property
+3 SleepTime=IDH_SleepTime_Internet_Client_Property
+3 SocketHandle=IDH_SocketHandle_Internet_Client_Property
+3 State=IDH_State_Internet_Client_Property
+3 StateString=IDH_StateString_Internet_Client_Property
+3 Timeout=IDH_Timeout_Internet_Client_Property
+2 Internet Client Methods
+3 Cancel=IDH_Cancel_Internet_Client_Method
+3 Connect=IDH_Connect_Internet_Client_Method
+3 Disconnect=IDH_Disconnect_ Internet_Client_Method
+3 PutDoc=IDH_PutDoc_Internet_Client_Method
+3 SendData=IDH_SendData_ Internet_Client_Method
+2 Internet Client Events
+3 Internet Client Events=IDH_Internet_Client_Events
+3 Cancel=IDH_Cancel_Internet_Client_Event
+3 DocInput=IDH_DocInput_ Internet_Client_Event
+3 DocOutput=IDH_DocOutput_ Internet_Client_Event
+3 Error=IDH_Error_ Internet_Client_Event
+3 Log=IDH_Log_ Internet_Client_Event
+3 ProtocolStateChanged=IDH_ProtocolStateChanged_Internet_Client_Event
+3 StateChanged=IDH_StateChanged_ Internet_Client_Event
+3 TimeOut=IDH_TimeOut_ Internet_Client_Event
+3 Reply=IDH_Reply_Internet_Client_Event
+1 Internet Server ActiveX Control
+2 Internet Server ActiveX Control Overview=IDH_Internet_Server_ActiveX_Control_Overview
+2 Internet Server Properties
+3 Blocking=IDH_Blocking_Internet_Server_Property
+3 BlockResult=IDH_BlockResult_Internet_Server_Property
+3 Errors=IDH_Errors_Internet_Server_Property
+3 ListenPort=IDH_ListenPort_Internet_Server_Property
+3 LocalPort=IDH_LocalPort_Internet_Server_Property
+3 MaxConnections=IDH_MaxConnections_Internet_Server_Property
+3 Sessions=IDH_Sessions_Internet_Server_Property
+3 SleepTime=IDH_SleepTime_Internet_Server_Property
+3 SocketHandle=IDH_SocketHandle_Internet_Server_Property
+2 Sessions Collection Property
+3 Count=IDH_Count_Sessions_Collection_Property_Internet_Server
+2 Session Item Properties
+3 DataTerminator=IDH_DataTerminator_Session_Item_Property
+3 DocInput=IDH_DocInput_Session_Item_Property_Internet_Server
+3 DocOutput=IDH_DocOutput_Session_Item_Property_Internet_Server
+3 DocOutput=IDH_DocOutput_Session_Item_Property
+3 NotificationMode=IDH_NotificationMode_Session_Item_Property
+3 ParsingMode=IDH_ParsingMode_Session_Item_Property
+3 RemoteHostIP=IDH_RemoteHostIP_Session_Item_Property_Internet_Server
+3 RemoteHostName=IDH_RemoteHostName_Session_Item_Property_Internet_Server
+3 RemotePort=IDH_RemotePort_Session_Item_Property_Internet_Server
+3 ReplyString=IDH_ReplyString_Session_Item_Property_Internet_Server
+3 RequestTerminator=IDH_RequestTerminator_Session_Item_Property
+3 State=IDH_State_Session_Item_Property_Internet_Server
+3 StateString=IDH_StateString_Session_Item_Property_Internet_Server
+3 Tag=IDH_Tag_Session_Item_Property
+3 ThreadID=IDH_ThreadID_Session_Item_Property_Internet_Server
+3 Timeout=IDH_Timeout_Session_Item_Property_Internet_Server
+2 Internet Server Methods
+3 AboutBox=IDH_AboutBox_Internet_Server_Method
+3 CloseAll=IDH_CloseAll_Internet_Server_Method
+3 Start=IDH_Start_Internet_Server_Method
+3 Stop=IDH_Stop_Internet_Server_Method
+2 Sessions Collection Method
+3 Item=IDH_Item_Sessions_Collection_Method
+2 Session Item Methods
+3 Close=IDH_Close_Session_Item_Method
+3 ReplyDoc=IDH_ReplyDoc_Session_Item_Method_Internet_Server
+3 SendData=IDH_SendData_Session_Item_Method_Internet_Server
+2 Internet Server Events
+3 Internet Server Events=IDH_Internet_Server_Events
+3 Accept=IDH_Accept_Internet_Server_Event
+3 CloseAll=IDH_CloseAll_Internet_Server_Event
+3 DocInput=IDH_DocInput_Internet_Server_Event
+3 DocOutput=IDH_DocOutput_Internet_Server_Event
+3 Error=IDH_Error_Internet_Server_Event
+3 RemoteHostName=IDH_RemoteHostName_Internet_Server_Event
+3 Request=IDH_Request_Internet_Server_Event
+3 StateChanged=IDH_StateChanged_Internet_Server_Event
+3 TimeOut=IDH_TimeOut_Internet_Server_Event
+2 Internet Server Sample Sessions
+3 Internet Server Sample Session=IDH_Internet_Server_Sample_Session
+3 Finger Server Sample=IDH_Finger_Server_Sample
+3 FTP Server Sample=IDH_FTP_Server_Sample
+1 MIME ActiveX Control (with UUEncode)
+2 MIME (with UUEncode) ActiveX Control Overview=IDH_MIME_with_UUEncode_ActiveX_Control_Overview
+2 MIME Object Model Details=IDH_MIME_Object_Model_Details
+2 MIME Properties
+3 Attachments=IDH_Attachments_MIME_Property
+3 Blocking=IDH_Blocking_MIME_Property
+3 BlockResult=IDH_BlockResult_MIME_Property
+3 Body=IDH_Body_MIME_Property
+3 DocInput=IDH_DocInput_MIME_Property
+3 DocOutput=IDH_DocOutput_MIME_Property
+3 Filename=IDH_Filename_MIME_Property
+3 From=IDH_From_MIME_Property
+3 Headers=IDH_Headers_MIME_Property
+3 SleepTime=IDH_SleepTime_MIME_Property
+3 Subject=IDH_Subject_MIME_Property
+3 SubType=IDH_SubType_MIME_Property
+3 To=IDH_To_MIME_Property
+3 Type=IDH_Type_MIME_Property
+3 Attachments Collection Property
+4 Attachments Collection Property=IDH_Attachments_Collection_Property
+4 Count=IDH_Count_Attachments_Collection_Property
+3 Attachment Item Properties
+4 Attachment Item Property=IDH_Attachment_Item_Property
+4 AttachmentSize=IDH_AttachmentSize_Attachment_Item_Property
+4 Body=IDH_Body_Attachment_Item_Property
+4 Description=IDH_Description_Attachment_Item_Property
+4 EncodingFormat=IDH_EncodingFormat_Attachment_Item_Property
+4 FileName=IDH_FileName_Attachment_Item_Property
+4 MIMEType=IDH_MIMEType_Attachment_Item_Property
+4 MIMETypeString=IDH_MIMETypeString_Attachment_Item_Property
+4 SubType=IDH_SubType_Attachment_Item_Property
+4 Type=IDH_Type_Attachment_Item_Property
+3 Headers Collection Property
+4 Headers Collection Property=IDH_Headers_Collection_Property
+4 Count=IDH_Count_Header_Collection_Property
+3 Header Item Property
+4 Header Item=IDH_Header_Item
+4 Name=IDH_Name_Header_Item_Property
+4 Value=IDH_Value_Header_Item_Property
+2 MIME Methods
+3 Compose=IDH_Compose_MIME_Method
+3 Decode=IDH_Decode_MIME_Method
+3 Encode=IDH_Encode_MIME_Method
+3 Load=IDH_Load_MIME_Method
+3 UUDecode=IDH_UUDecode_MIME_Method
+3 UUEncode=IDH_UUEncode_MIME_Method
+3 Attachments Collection Method
+4 Append=IDH_Append_Attachment_Collection_Method
+4 Clear=IDH_Clear_Attachment_Collection_Method
+4 Item=IDH_Item_Attachment_Collection_Method
+4 Remove=IDH_Remove_Attachment_Collection_Method
+4 Save=IDH_Save_Attachment_Item_Method
+3 Attachment Item Method
+4 Attachment Item Method=IDH_Attachment_Item_Method
+4 Save=IDH_Save_Attachment_Item_Method
+3 Headers Collection Methods
+4 Headers Collection Method=IDH_Headers_Collection_Method
+4 Add=IDH_Add_Headers_Collection_Method
+4 Clear=IDH_Clear_Headers_Collection_Method
+4 Item=IDH_Item_Headers_Collection_Method
+4 Remove=IDH_Remove_Headers_Collection_Method
+4 Text=IDH_Text_Headers_Collection_Method
+2 MIME Events
+3 MIME Events=IDH_MIME_Events
+3 DocInput=IDH_DocInput_MIME_Event
+3 DocOutput=IDH_DocOutput_MIME_Event
+3 Error=IDH_Error_MIME_Event
+2 MIME TypeContsants
+3 MIMETypeConstants=IDH_MIMETypeConstants
+3 EncodingFormatConstants=IDH_EncodingFormatConstants
+2 MIME Sample Sessions
+3 MIME Sample Sessions=IDH_MIME_Sample_Sessions
+3 Using DocLink=IDH_Using_DocLink
+3 Using PushStream=IDH_Using_PushStream
+3 Receiving a Message=IDH_Receiving_a_Message
+3 Low-Level Utilities=IDH_Low_Level_Utilities
+3 Example of MIME Multipart Message=IDH_Example_of_MIME_Multipart_Message
+1 NNTP Client ActiveX Control
+2 NNTP Client ActiveX Control Overview=IDH_NNTP_Client_ActiveX_Control_Overview
+2 NNTP Commands=IDH_NNTP_Commands
+2 Using the NNTP Control=IDH_Using_the_NNTP_Control
+2 NNTP Sample Session=IDH_NNTP_Sample_Session
+2 NNTP Properties
+3 ArticleNumbersSupported=IDH_ArticleNumbersSupported_NNTP_Property
+3 Blocking=IDH_Blocking_NNTP_Property
+3 BlockResult=IDH_BlockResult_NNTP_Property
+3 Busy=IDH_Busy_NNTP_Property
+3 DocInput=IDH_DocInput_NNTP_Property
+3 DocOutput=IDH_DocOutput_NNTP_Property
+3 EnableTimer=IDH_EnableTimer_NNTP_Property
+3 Errors=IDH_Errors_NNTP_Property
+3 LocalPort=IDH_LocalPort_NTTP_Property
+3 LastUpdate=IDH_LastUpdate_NNTP_Property
+3 Logging=IDH_Logging_NNTP_Property
+3 NotificationMode=IDH_NotificationMode_NNTP_Property
+3 OverviewSupported=IDH_OverviewSupported_NNTP_Property
+3 PostingAllowed=IDH_PostingAllowed_NNTP_Property
+3 ProtocolState=IDH_ProtocolState_NNTP_Property
+3 ProtocolStateString=IDH_ProtocolStateString_NNTP_Property
+3 RemoteHost=IDH_RemoteHost_NNTP_Property
+3 RemotePort=IDH_RemotePort_NNTP_Property
+3 ReplyCode=IDH_ReplyCode_NNTP_Property
+3 ReplyString=IDH_ReplyString_NNTP_Property
+3 SleepTime=IDH_SleepTime_NNTP_Property
+3 SocketHandle=IDH_SocketHandle_NNTP_Property
+3 State=IDH_State_NNTP_Property
+3 StateString=IDH_StateString_NNTP_Property
+3 Timeout=IDH_Timeout_NNTP_Property
+3 URL=IDH_URL_NNTP_Property
+2 NNTP Methods
+3 AboutBox=IDH_AboutBox_NNTP_Method
+3 Cancel=IDH_Cancel_NNTP_Method
+3 Connect=IDH_Connect_NNTP_Method
+3 GetAdministrationFile=IDH_GetAdministrationFile_NNTP_Method
+3 GetArticleByArticleNumber=IDH_GetArticleByArticleNumber_NNTP_Method
+3 GetArticleByMessageID=IDH_GetArticleByMessageID_NNTP_Method
+3 GetArticleHeaders=IDH_GetArticleHeaders_NNTP_Method
+3 GetArticleNumbers=IDH_GetArticleNumbers_NNTP_Method
+3 GetBodyByArticleNumber=IDH_GetBodyByArticleNumber_NNTP_Method
+3 GetBodyByMessageID=IDH_GetBodyByMessageID_NNTP_Method
+3 GetDoc=IDH_GetDoc_NNTP_Method
+3 GetHeaderByArticleNumber=IDH_GetHeaderByArticleNumber_NNTP_Method
+3 GetHeaderByMessageID=IDH_GetHeaderByMessageID_NNTP_Method
+3 GetOverview=IDH_GetOverview_NNTP_Method
+3 GetOverviewFormat=IDH_GetOverviewFormat_NNTP_Method
+3 GetStatByArticleNumber=IDH_GetStatByArticleNumber_NNTP_Method
+3 ListGroups=IDH_ListGroups_NNTP_Method
+3 ListGroupDescriptions=IDH_ListGroupDescriptions_NNTP_Method
+3 ListNewGroups=IDH_ListNewGroups_NNTP_Method
+3 Quit=IDH_Quit_NNTP_Method
+3 SelectGroup=IDH_SelectGroup_NNTP_Method
+3 SendDoc=IDH_SendDoc_NNTP_Method
+3 SetLastArticle=IDH_SetLastArticle_NNTP_Method
+3 SetNextArticle=IDH_SetNextArticle_NNTP_Method
+2 NNTP Events
+3 NNTP Events=IDH_NNTP_Events
+3 ArticleStatus=IDH_ArticleStatus_NNTP_Event
+3 AuthenticateRequest=IDH_AuthenticateRequest_NNTP_Event
+3 AuthenticateResponse=IDH_AuthenticateResponse_NNTP_Event
+3 Banner=IDH_Banner_NNTP_Event
+3 Busy=IDH_Busy_NNTP_Event
+3 Cancel=IDH_Cancel_NNTP_Event
+3 DocInput=IDH_DocInput_NNTP_Event
+3 DocOutput=IDH_DocOutput_NNTP_Event
+3 Error=IDH_Error_NNTP_Event
+3 LastArticle=IDH_LastArticle_NNTP_Event
+3 Log=IDH_Log_NNTP_Event
+3 NextArticle=IDH_NextArticle_NNTP_Event
+3 ProtocolStateChanged=IDH_ProtocolStateChanged_NNTP_Event
+3 SelectGroup=IDH_SelectGroup_NNTP_Event
+3 StateChanged=IDH_StateChanged_NNTP_Event
+3 TimeOut=IDH_TimeOut_NNTP_Event
+1 POP Client ActiveX Control
+2 POP Client ActiveX Control Overview=IDH_POP_Client_ActiveX_Control_Overview
+2 POP3 Commands=IDH_POP3_Commands
+2 Using the POP Client Control=IDH_Using_the_POP_Client_Control
+2 POP Client Properties
+3 Blocking=IDH_Blocking_POP_Client_Property
+3 BlockResult=IDH_BlockResult_POP_Client_Property
+3 Busy=IDH_Busy_POP_Client_Property
+3 DocOutput=IDH_DocOutput_POP_Client_Property
+3 EnableTimer=IDH_EnableTimer_POP_Client_Property
+3 Errors=IDH_Errors_POP_Client_Property
+3 LocalPort=IDH_LocalPort_POP_Client_Property
+3 Logging=IDH_Logging_POP_Client_Property
+3 MessageCount=IDH_MessageCount_POP_Client_Property
+3 NotificationMode=IDH_NotificationMode_POP_Client_Property
+3 Password=IDH_Password_POP_Client_Property
+3 ProtocolState=IDH_ProtocolState_POP_Client_Property
+3 ProtocolStateString=IDH_ProtocolStateString_POP_Client_Property
+3 RemoteHost=IDH_RemoteHost_POP_Client_Property
+3 RemotePort=IDH_RemotePort_POP_Client_Property
+3 ReplyCode=IDH_ReplyCode_POP_Client_Property
+3 ReplyString=IDH_ReplyString_POP_Client_Property
+3 SleepTime=IDH_SleepTime_POP_Client_Property
+3 SocketHandle=IDH_SocketHandle_POP_Client_Property
+3 State=IDH_State_POP_Client_Property
+3 StateString=IDH_StateString_POP_Client_Property
+3 Timeout=IDH_Timeout_POP_Client_Property
+3 TopLines=IDH_TopLines_POP_Client_Property
+3 TopSupported=IDH_TopSupported_POP_Client_Property
+3 URL=IDH_URL_POP_Client_Property
+3 UserId=IDH_UserId_POP_Client_Property
+2 POP Client Methods
+3 POP=IDH_POP_Client_Methods
+3 AboutBox=IDH_AboutBox_POP_Client_Method
+3 Authenticate=IDH_Authenticate_POP_Client_Method
+3 Cancel=IDH_Cancel_POP_Client_Method
+3 Connect=IDH_Connect_POP_Client_Method
+3 Delete=IDH_Delete_POP_Client_Method
+3 GetDoc=IDH_GetDoc_POP_Client_Method
+3 Last=IDH_Last_POP_Client_Method
+3 MessageSize=IDH_MessageSize_POP_Client_Method
+3 NOOP=IDH_NOOP_POP_Client_Method
+3 Quit=IDH_Quit_POP_Client_Method
+3 RefreshMessageCount=IDH_RefreshMessageCount_POP_Client_Method
+3 Reset=IDH_Reset_POP_Client_Method
+3 RetrieveMessage=IDH_RetrieveMessage_POP_Client_Method
+3 TopMessage=IDH_TopMessage_POP_Client_Method
+2 POP Client Events
+3 POP=IDH_POP_Client_Events
+3 Busy=IDH_Busy_POP_Client_Event
+3 Cancel=IDH_Cancel_POP_Client_Event
+3 Delete=IDH_Delete_POP_Client_Event
+3 DocOutput=IDH_DocOutput_POP_Client_Event
+3 Error=IDH_Error_POP_Client_Event
+3 Last=IDH_Last_POP_Client_Event
+3 Log=IDH_Log_POP_Client_Event
+3 MessageSize=IDH_MessageSize_POP_Client_Event
+3 NOOP=IDH_NOOP_POP_Client_Event
+3 ProtocolStateChanged=IDH_ProtocolStateChanged_POP_Client_Event
+3 RefreshMessageCount=IDH_RefreshMessageCount_POP_Client_Event
+3 Reset=IDH_Reset_POP_Client_Event
+3 StateChanged=IDH_StateChanged_POP_Client_Event
+3 TimeOut=IDH_TimeOut_POP_Client_Event
+2 POP Sample Sessions
+3 POP Sample Session=IDH_POP_Sample_Session
+3 Connecting=IDH_Connecting
+3 Authentication=IDH_Authentication
+3 Retrieval=IDH_Retrieval
+3 Receiving a Reply=IDH_Receiving_a_Reply
+1 SMTP Client ActiveX Control
+2 SMTP Client ActiveX Control Overview=IDH_SMTP_Client_ActiveX_Control_Overview
+2 Using the SMTP Control=IDH_Using_the_SMTP_Control
+2 SMTP Sample Session=IDH_SMTP_Sample_Session
+2 SMTP Properties
+3 Blocking=IDH_Blocking_SMTP_Property
+3 BlockResult=IDH_BlockResult_SMTP_Property
+3 Busy=IDH_Busy_SMTP_Property
+3 DocInput=IDH_DocInput_SMTP_Property
+3 EnableTimer=IDH_EnableTimer_SMTP_Property
+3 Errors=IDH_Errors_SMTP_Property
+3 Logging=IDH_Logging_SMTP_Property
+3 NotificationMode=IDH_NotificationMode_SMTP_Property
+3 ProtocolState=IDH_ProtocolState_SMTP_Property
+3 ProtocolStateString=IDH_ProtocolStateString_SMTP_Property
+3 RemoteHost=IDH_RemoteHost_SMTP_Property
+3 RemotePort=IDH_RemotePort_SMTP_Property
+3 ReplyCode=IDH_ReplyCode_SMTP_Property
+3 ReplyString=IDH_ReplyString_SMTP_Property
+3 SleepTime=IDH_SleepTime_SMTP_Property
+3 SocketHandle=IDH_SocketHandle_SMTP_Property
+3 State=IDH_State_SMTP_Property
+3 StateString=IDH_StateString_SMTP_Property
+3 Timeout=IDH_Timeout_SMTP_Property
+3 URL=IDH_URL_SMTP_Property
+2 SMTP Methods
+3 AboutBox=IDH_AboutBox_SMTP_Method
+3 Cancel=IDH_Cancel_SMTP_Method
+3 Connect=IDH_Connect_SMTP_Method
+3 Expand=IDH_Expand_SMTP_Method
+3 Help=IDH_Help_SMTP_Method
+3 NOOP=IDH_NOOP_SMTP_Method
+3 Quit=IDH_Quit_SMTP_Method
+3 Reset=IDH_Reset_SMTP_Method
+3 SendDoc=IDH_SendDoc_SMTP_Method
+3 Verify=IDH_Verify_SMTP_Method
+2 SMTP Events
+3 SMTP Events=IDH_SMTP_Events
+3 Busy=IDH_Busy_SMTP_Event
+3 Cancel=IDH_Cancel_SMTP_Event
+3 DocInput=IDH_DocInput_SMTP_Event
+3 Error=IDH_Error_SMTP_Event
+3 Expand=IDH_Expand_SMTP_Event
+3 Help=IDH_Help_SMTP_Event
+3 Log=IDH_Log_SMTP_Event
+3 NOOP=IDH_NOOP_SMTP_Event
+3 ProtocolStateChanged=IDH_ProtocolStateChanged_SMTP_Event
+3 Reset=IDH_Reset_SMTP_Event
+3 StateChanged=IDH_StateChanged_SMTP_Event
+3 TimeOut=IDH_TimeOut_SMTP_Event
+3 Verify=IDH_Verify_SMTP_Event
+1 WinSock ActiveX Controls
+2 WinSock ActiveX Controls=IDH_WinSock_ActiveX_Controls
+2 WinSock TCP
+3 WinSock TCP ActiveX Control Overview=IDH_WinSock_TCP_ActiveX_Control_Overview
+3 Using the TCP Control=IDH_Using_the_TCP_Control
+3 TCP Localization=IDH_TCP_Localization
+3 TCP Properties
+4 TCP Properties=IDH_TCP_Properties
+4 BytesReceived=IDH_BytesReceived_TCP_Property
+4 LocalHostName=IDH_LocalHostName_TCP_Property
+4 LocalIP=IDH_LocalIP_TCP_Property
+4 LocalPort=IDH_LocalPort_TCP_Property
+4 RemoteHost=IDH_RemoteHost_TCP_Property
+4 RemoteHostIP=IDH_RemoteHostIP_TCP_Property
+4 RemotePort=IDH_RemotePort_TCP_Property
+4 SocketHandle=IDH_SocketHandle_TCP_Property
+4 State=IDH_State_TCP_Property
+4 TCP Property Page=IDH_TCP_Property_Page
+3 TCP Methods
+4 AboutBox=IDH_AboutBox_TCP_Method
+4 Accept=IDH_Accept_TCP_Method
+4 Close=IDH_Close_TCP_Method
+4 Connect=IDH_Connect_TCP_Method
+4 GetData=IDH_GetData_TCP_Method
+4 Listen=IDH_Listen_TCP_Method
+4 PeekData=IDH_PeekData_TCP_Method
+4 SendData=IDH_SendDataTCP_Method
+3 TCP Events
+4 Close=IDH_Close_TCP_Event
+4 Connect=IDH_Connect_TCP_Event
+4 ConnectionRequest=IDH_ConnectionRequest_TCP_Event
+4 DataArrival=IDH_DataArrival_TCP_Event
+4 Error=IDH_Error_TCP_Event
+4 SendComplete=IDH_SendComplete_TCP_Event
+4 SendProgress=IDH_SendProgress_TCP_Event
+3 TCP Sample Sessions
+4 TCP Sample Session=IDH_TCP_Sample_Session
+4 TCP Client=IDH_TCP_Client
+4 TCP Server=IDH_TCP_Server
+2 WinSock UDP
+3 WinSock UDP ActiveX Control OVerview=IDH_WinSock_UDP_ActiveX_Control_Overview
+3 Using the UDP Control=IDH_Using_the_UDP_Control
+3 UDP Localization=IDH_UDP_Localization
+3 UDP Sample Session=IDH_UDP_Sample_Session
+3 UDP Properties
+4 LocalHostName=IDH_LocalHostName_UDP_Property
+4 LocalIP=IDH_LocalIP_UDP_Property
+4 LocalPort=IDH_LocalPort_UDP_Property
+4 RemoteHost=IDH_RemoteHost_UDP_Property
+4 RemoteHostIP=IDH_RemoteHostIP_UDP_Property
+4 RemotePort=IDH_RemotePort_UDP_Property
+4 SocketHandle=IDH_SocketHandle_UDP_Property
+4 UDP Property Page=IDH_UDP_Property_Page
+3 UDP Methods
+4 AboutBox=IDH_AboutBox_UDP_Method
+4 GetData=IDH_GetData_UDP_Method
+4 SendData=IDH_SendData_UDP_Method
+3 UDP Events
+4 DataArrival=IDH_DataArrival_UDP_Event
+4 Error=IDH_Error_UDP_Event
+1 Reference
+2 NEWT Intranet ActiveX Redistribution
+3 Redistribution of ActiveX Controls=IDH_Redistribution_of_ActiveX_Controls@NIA.HLP>(w95sec)
+3 Distributable Files=IDH_Distributable_Files@Nia.hlp>(w95sec)
+3 Installation Process=IDH_Installation_Process@Nia.hlp>(w95sec)
+3 Compatibility Issues=IDH_Compatibility_Issues@Nia.hlp>(w95sec)
+3 ActiveX Removal Instructions=IDH_ActiveX_Removal_Instructions@NIA.HLP>(w95sec)
+3 File Descriptions=IDH_File_Descriptions@Nia.hlp>(w95sec)
+3 Important Licensing Information=IDH_Important_Licensing_Information@NIA.HLP>(w95sec)
+3 Troubleshooting=IDH_Troubleshooting@Nia.hlp>(w95sec)
+2 Error Codes and Messages
+3 Error Codes and Messages=IDH_Error_Codes_and_Messages@Nia.hlp>gloss
+3 Common Errors=IDH_Common_Errors@Nia.hlp>gloss
+3 CGI Error Codes=IDH_CGI_Error_Codes@Nia.hlp>gloss
+3 FTP Error Codes=IDH_FTP_Error_Codes@Nia.hlp>gloss
+3 HTTP Error Codes=IDH_HTTP_Error_Codes@Nia.hlp>gloss
+3 HTML Error Codes=IDH_HTML_Error_Codes@Nia.hlp>gloss
+3 MIME Error Codes=IDH_MIME_Error_Codes@Nia.hlp>gloss
+3 NNTP Error Codes=IDH_NNTP_Error_Codes@Nia.hlp>gloss
+3 POP Error Codes=IDH_POP_Error_Codes@Nia.hlp>gloss
+3 SMTP Error Codes=IDH_SMTP_Error_Codes@Nia.hlp>gloss
+3 WinSock Error Codes=IDH_WinSock_Error_Codes@Nia.hlp>gloss
+1 Glossary
+2 Glossary=IDH_Glossary@Nia.hlp>gloss

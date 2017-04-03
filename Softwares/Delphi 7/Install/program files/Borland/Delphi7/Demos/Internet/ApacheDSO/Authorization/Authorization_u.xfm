@@ -1,0 +1,15 @@
+object WebModule1: TWebModule1
+  OldCreateOrder = False
+  Actions = <
+    item
+      Default = True
+      Name = 'WebActionItem1'
+      OnAction = WebModule1Actions0Action
+    end>
+  Left = 193
+  Top = 127
+  Height = 238
+  HorizontalOffset = -8
+  VerticalOffset = -8
+  Width = 406
+end

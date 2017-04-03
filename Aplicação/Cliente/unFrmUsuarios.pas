@@ -19,19 +19,19 @@ type
     edEmail: TEdit;
     edNome: TEdit;
     bbSalvar: TBitBtn;
-    bbFecha: TBitBtn;
+    bbFechar: TBitBtn;
     cbMostrarSenha: TCheckBox;
-    bbExcluir: TBitBtn;
-    procedure bbFechaClick(Sender: TObject);
+    procedure bbFecharClick(Sender: TObject);
     procedure bbSalvarClick(Sender: TObject);
     procedure cbMostrarSenhaClick(Sender: TObject);
   private
     FoUsuario: TUsuario;
+
     procedure MostrarSenha(const pbMostrar: Boolean);
     procedure CarregarDadosUsuarioLogado;
   protected
     procedure InicializarTela; override;
-    procedure DestruirTela; virtual;
+    procedure DestruirTela; override;
     procedure Limpar; override;
   public
   end;
@@ -86,7 +86,7 @@ begin
   end;
 end;
 
-procedure TfrmUsuarios.bbFechaClick(Sender: TObject);
+procedure TfrmUsuarios.bbFecharClick(Sender: TObject);
 begin
   inherited;
   Self.Close;
@@ -95,15 +95,18 @@ end;
 procedure TfrmUsuarios.bbSalvarClick(Sender: TObject);
 begin
   inherited;
-  FoUsuario.Limpar;
   FoUsuario.prpNome := Trim(edNome.Text);
   FoUsuario.prpEmail := Trim(edEmail.Text);
   FoUsuario.prpSenha := Trim(edSenha.Text);
   FoUsuario.prpConfirmacaoSenha := Trim(edConfirmarSenha.Text);
+
   if not(FoUsuario.Salvar) then
     MessageDlg(FoUsuario.prpMensagem, mtInformation, [mbOk], 0)
   else
+  begin
     MessageDlg(sMSG_USUARIO_SALVO_COM_SUCESSO, mtInformation, [mbOk], 0);
+    TUsuarioSingleton.ObterInstancia.DefinirUsuario(FoUsuario.prpCodigo);
+  end;
 end;
 
 procedure TfrmUsuarios.cbMostrarSenhaClick(Sender: TObject);

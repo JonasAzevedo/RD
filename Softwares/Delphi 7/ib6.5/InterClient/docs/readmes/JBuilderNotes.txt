@@ -1,0 +1,334 @@
+
+JBuilder Integration Notes (JBuilderNotes.txt)
+InterClient 2.50
+Last modified: 19-Nov-2001
+
+__________________________________________________________________
+Contents:
+     I. JBuilder .config and .library (JBuilder 4)
+    II. JBuilder.INI and Library.INI (JBuilder 1-3)
+   III. JBuilder 3, Solaris Edition 
+    IV. Using borland.sql.dataset (JBuilder 1-3)
+
+__________________________________________________________________
+I. JBuilder .config and .library (JBuilder 4)
+
+NOTE: JBuilder must *not* be running while installing InterClient.
+
+After installing your InterClient JDBC driver, use the steps below 
+to set it up for use with JBuilder. Currently, the InterClient
+installation does not automatically create the .config and .library
+files for InterClient that are required by JBuilder 4. Please 
+follow the instructions below and manually create the required 
+files.
+
+Note: Uninstalled drivers are red on the Drivers list in the 
+Connection Property dialog box and cannot be selected for use in 
+JBuilder. You must install the InterClient JDBC driver first 
+before setting it up in JBuilder. 
+
+Creating the .library and .config files:
+---------------------------------------
+
+There are three steps to adding a database driver to JBuilder: 
+1. Creating a library file which contains the driver's classes, 
+   typically a JAR file, and any other auxiliary files such 
+   as documentation and source. 
+2. Deriving a .config file from the library file which JBuilder 
+   adds to its classpath at start-up. 
+3. Adding the new library to your project, or to the Default project 
+   if you want it available for all new projects. 
+
+The first two steps can be accomplished in one dialog box: 
+1. Open JBuilder and choose Tools|Enterprise Setup. Click the 
+   Database Drivers tab which displays .config files 
+   for all the currently known database drivers. 
+2. Click Add to add a new driver, then New to create a new library 
+   file for the driver. The library file is used to add the driver 
+   to the required libraries list for projects. Note: You can also 
+   create a new library under Tools|Configure Libraries, but since 
+   you would then have to use Enterprise Setup to derive the .config 
+   file, it is simpler to do it all here. 
+3. Type a name and select a location for the new file in the 
+   Create New Library dialog box. 
+4. Click Add, and browse to the location of the driver. You can 
+   select the directory containing the driver and all it's support 
+   files, or you can select just the archive file for the driver. 
+   Either will work. JBuilder will extract the information it needs. 
+5. Click OK to close the file browser. This displays the new library 
+   at the bottom of the library list and selects it. 
+6. Click OK. JBuilder creates a new .library file in the JBuilder 
+   /lib directory with the name you specified (for example, 
+   InterClient.library). It also returns you to the Database Drivers 
+   page which displays the name of the corresponding .config file 
+   in the list which will be derived from the library file 
+   (for example, InterClient.config). 
+7. Select the new .config file in the database driver list and 
+   click OK. This places the .config file in the JBuilder /lib/ext 
+   directory. 
+8. Close and restart JBuilder so the changes to the database drivers 
+   will take effect, and the new driver will be put on the JBuilder 
+   classpath. 
+
+Important: If you make changes to the .library file after the 
+.config file has been derived, you must re-generate the .config 
+file using Enterprise Setup, then restart JBuilder. 
+
+Adding the InterClient JDBC driver to projects:
+----------------------------------------------
+
+Projects run from within JBuilder use only the classpath defined 
+for that project. Therefore, to make sure the JDBC driver is 
+available for all new projects that will need it, define the 
+library and add it to your default list of required libraries. 
+This is done from within JBuilder using the following steps: 
+
+1. Start JBuilder and close any open projects. 
+2. Choose Project|Default Project Properties. 
+3. Select the Required Libraries tab on the Paths page, then click 
+   the Add button. 
+4. Select the new JDBC driver from the library list and click OK. 
+5. Click OK to close the Default Project Properties dialog box. 
+
+Note: You can also add the JDBC driver to an existing project. 
+Just open the project, then choose Project|Properties and use 
+the same process as above. 
+
+Please take a look at "Database Application Developer's Guide" in
+the JBuilder 4 documentation set. The following tutorial might be 
+useful, 
+"Tutorial: Connecting to a database using InterClient JDBC drivers"
+
+
+__________________________________________________________________
+II. JBuilder.INI and Library.INI (Jbuilder 1-3)
+
+NOTE: JBuilder must *not* be running in order for the InterClient
+Install to properly modify JBuilder INI settings.
+
+For JBuilder 1, the InterClient installation appends interclient.jar 
+to both ClassPath and IDEClassPath in the JBuilder.INI file.  
+JBuilder.INI is located in the JBuilder 1 bin directory.
+
+For JBuilder 2, the InterClient installation appends interclient.jar
+to IDEClassPath as before.  But now InterClient 2.50 is added to the
+[Java_Default_Paths] Libraries setting in the JBuilder.INI file.
+A library entry for InterClient is created in the new JBuilder 2 
+Library.INI file.  Both JBuilder.INI and Library.INI are located in 
+the JBuilder 2 bin directory.
+
+Here are the JBuilder 2 INI file modifications (assuming an install
+directory of C:\InterClient):
+
+JBuilder.INI
+
+    [Java_Global]
+    IDEClassPath=C:\InterClient\interclient.jar;...
+    HelpZips=.\interclient.zip;...
+
+    [Java_Default_Paths]
+    Libraries=InterClient 2.50;...
+
+Library.INI
+
+    [Library_InterClient 2.50]
+    ClassPath=C:\InterClient\interclient.jar
+    DocPath=C:\InterClient\docs
+    Features=3
+
+The JBuilder 2 help system is extended with the addition
+of an interclient.zip in the JBuilder doc directory, and
+an interclient.dat file in the JBuilder doc\interclient
+directory. 
+
+To integrate InterClient documentation with the JBuilder help
+system, perform these steps:
+1) Edit the HelpZips setting in JBuilder.INI to include
+   .\interclient.zip, if it is not already.
+2) Copy interclient.zip from the InterClient jbuilder_help 
+   directory to the JBuilder doc directory.  interclient.zip
+   replaces an older file in the JBuilder distribution.
+3) Copy interclient.dat from the InterClient jbuilder_help
+   directory to the JBuilder doc\interclient directory.
+   Replace the older file if necessary.  interclient.dat 
+   replaces an older file in the JBuilder distribution.
+
+For both JBuilder 1 and 2, these changes can only be made by
+the InterClient install if JBuilder is installed before installing 
+InterClient.  Furthermore, the InterClient 2.50 library may not
+be added to the default paths for pre-existing projects.  Follow
+the steps below for adding the InterClient 2.50 library to your
+project.
+
+If interclient.jar is not in the IDEClassPath for your project
+then the interbase.interclient.Driver will not be loaded.
+
+The InterClient 2.50 library may be added to your project as follows:
+1) Select File | Project Properties from the JBuilder menu.
+2) Click the Add button.
+3) Select InterClient 2.50 and click the Ok button.
+   Note: If InterClient 2.50 is not available
+         then click the New button to create
+         an InterClient 2.50 library and follow
+         the instructions below starting at step 4.
+
+To create an InterClient library (if not already created by the
+InterClient installation) perform these steps:
+1)  Choose File | Project Properties.
+2)  Choose Libraries.
+3)  Choose New.
+4)  In the Name field, type "InterClient". 
+    Press the Edit button next to the Class path field.
+5)  Choose Add Zip/JAR.
+6)  Enter the interclient.jar file from the InterClient directory
+    into the File name field.
+7)  Choose Open.
+8)  Chose OK from the next two dialog boxes.
+9)  From the Properties page, choose Add.
+10) Select InterClient, and choose OK.
+11) From the Properties page, choose OK.
+
+If you want this change to affect all future projects, choose 
+Tools | Default Project Properties and follow the steps above 
+starting with step 2.
+
+Uninstalling InterClient does not remove JBuilder.INI and 
+Library.INI settings for InterClient.  These can be removed 
+manually if desired.
+
+For JBuilder 3, make the following changes manually to integrate
+InterClient into the JBuilder environment.  InterClient help
+documentation is included with JBuilder 3, so no additional steps are
+necessary to integrate it into the JBuilder 3 help system.
+
+First, define an InterClient library and add it to your JBuilder
+projects which use InterClient.  This is done from within JBuilder by
+the following steps:
+
+    1. Choose Project | Properties.
+    2. Choose Libraries.
+    3. Choose New.
+    4. In the Name field, type InterClient. Press the Edit button next
+       to the Class path field.
+    5. Choose Add Archive...
+    6. Specify the path to the Interclient.jar file, which is in the 
+       InterClient directory.
+    7. Choose the OK button in this, and the next dialog box.  This
+       'builds' the library's dependency files.
+    8. From the Project Properties dialog, choose Add.
+    9. Select InterClient, and choose OK.
+   10. Finally, choose OK to close the Project Properties dialog.
+
+Next, update the classpath used by JBuilder to allow live database
+data obtained via the InterClient driver to appear during design-time
+in the JBuilder UI designer.  Because this requires changes to
+configuration files used by JBuilder, you must first exit JBuilder
+before following these steps:
+
+    1. Exit JBuilder.
+    2. Make a backup of the file, <JBuilder3>\bin\JBuilder.ini
+    3. Now open the original JBuilder.ini file using Notepad or your
+       favorite text editor.
+    4. Find the section headed by, "[JavaVM_Properties]"
+    5. Within a few lines after that, there will be a line that
+       begins with, "Djava.class.path=..."
+    6. At the end of that line, add a semicolon and then the path to 
+       where you have installed interclient.jar.  For example:
+
+       Djava.class.path=<pre-existing path info>;D:\InterBase\InterClient\interclient.jar;
+
+       But be sure to use the path where you have located 
+       interclient.jar on your machine.  Note, as with any Java 
+       classpath, there should not be any spaces in the directory
+       names for this path statement.
+    7. Save the file you are editing.
+
+__________________________________________________________________
+III. JBuilder 3, Solaris Edition
+
+JBuilder 3, Solaris Edition, will make use of your shell's CLASSPATH
+environment variable when you launch JBuilder using the provided
+'jbuilder' launch script (located in the /bin subdirectory of your
+jbuilder installation).  Thus in order for the JBuilder UI designer to
+show live data obtained via the InterClient driver at design time, you
+need only add interclient.jar to the CLASSPATH variable for your shell
+environment before launching JBuilder.  For example:
+
+% setenv CLASSPATH ${CLASSPATH}:/usr/interclient/interclient.jar
+% /usr/local/jbuilder/bin/jbuilder
+
+Projects run from within JBuilder use only the classpath defined for
+that project.  Thus, to use InterClient with your projects, you need
+to define an InterClient library and add it to each of your JBuilder
+projects which use InterClient.  This is done from within JBuilder by
+the following steps:
+
+    1. Choose Project | Properties.
+    2. Click the Required Libraries tab.
+    3. Choose Add to add a library to your project.
+    4. Choose New to define a new InterClient library.  If you've
+       already created one, skip to step 8 below.
+    5. In the Name field, type InterClient.
+    6. Press the Add button and locate the interclient.jar file
+       beneath the root directory of your InterClient installation.
+    7. Press OK to save the new InterClient library definition.
+    8. Select the InterClient library in the library list, and
+       press OK to add it to your project.
+    9. Press OK to save the updated properties for your project.
+
+__________________________________________________________________
+IV. Using borland.sql.dataset
+
+JDBC-specific classes originally in borland.jbcl.dataset (JBuilder 1)
+and borland.sql.dataset (JBuilder 2) have been moved to a new package,
+com.borland.dx.sql.dataset (JBuilder 3).  See JBuilder's HintsAndTips
+file for information about incompatibilities among different versions
+of JBuilder.
+
+Here is how to establish a database connection with the dataset package
+that comes with Professional and Enterprise (Client/Server) versions of
+JBuilder :
+
+  import com.borland.dx.sql.dataset.*;
+
+  Database database = null;
+  QueryDataSet queryDataSet = null;
+  try {
+    database = new Database ();
+    database.setConnection (
+      new ConnectionDescriptor (
+        "jdbc:interbase://server/c:/databases/employee.gdb",
+        "SYSDBA",
+        "masterkey", 
+        false, 
+        "interbase.interclient.Driver"));
+    queryDataSet = new QueryDataSet ();
+    queryDataSet.setQuery (
+      new QueryDescriptor (
+        database, 
+        "select * from employee", 
+        null, 
+        true, 
+        false));
+  }
+  catch (DataSetException e) {
+    e.printStackTrace ();
+  }
+
+Depending on your version of JBuilder, the Database, QueryDataSet, 
+QueryDescriptor, and ConnectionDescriptor classes may reside in 
+the borland.jbcl.dataset (JBuilder 1), 
+borland.sql.dataset (JBuilder 2), or com.borland.dx.sql.dataset
+package (JBuilder 3).  If the code above produces the error 
+
+  "cannot access directory borland/sql" 
+
+with your version of JBuilder, then import the package
+appropriate for your version of JBuilder.
+For more information, see the JBuilder Developing Database Applications
+Guide in the JBuilder help system.
+
+__________________________________________________________________
+Copyright (c) 2001 Borland Software Corporation
+All rights reserved.
+

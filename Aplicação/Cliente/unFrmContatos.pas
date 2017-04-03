@@ -14,14 +14,13 @@ type
     grDados: TDBGrid;
     bbNovo: TBitBtn;
     bbEditar: TBitBtn;
-    bbSalvar: TBitBtn;
     bbExcluir: TBitBtn;
     bbFechar: TBitBtn;
     tsEdicao: TTabSheet;
     lblEmail: TLabel;
     lblNome: TLabel;
     dbEdNome: TDBEdit;
-    bbConfirmar: TBitBtn;
+    bbSalvar: TBitBtn;
     bbCancelar: TBitBtn;
     dsDados: TDataSource;
     dbEdEmail: TDBEdit;
@@ -29,12 +28,11 @@ type
     lblCamposConfiguraveis: TLabel;
     procedure bbNovoClick(Sender: TObject);
     procedure bbEditarClick(Sender: TObject);
-    procedure bbSalvarClick(Sender: TObject);
     procedure bbExcluirClick(Sender: TObject);
     procedure pgCadastroContatosChanging(Sender: TObject;
       var AllowChange: Boolean);
     procedure bbCancelarClick(Sender: TObject);
-    procedure bbConfirmarClick(Sender: TObject);
+    procedure bbSalvarClick(Sender: TObject);
     procedure bbFecharClick(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure grDadosDblClick(Sender: TObject);
@@ -43,26 +41,26 @@ type
     FoContatos: TContato;
     FoObjetosCamposConfig: TObjectList;
 
-    function VerificarPreencheuDadosAbaEdicao: Boolean;
-    function ValidarPodeRetornarAbaDados: Boolean;
     procedure InserirAtualizar(const poModoInsercao: TModoInsercao);
     function VerificarEmailValido: Boolean;
     procedure CriarComponenteDescricaoCampo(const pnCodigoCampo: Integer;
       const psNomeCampo: String; var pnTopo: Integer);
     procedure CriarComponenteEdicaoCampo(const pnCodigoCampo: Integer;
       const psNomeCampo: String; const pnCodigoTipoCampo: Integer; var pnTopo: Integer);
-    procedure CriarComponenteEdicaoCampoTexto(const pnCodigoCampo: Integer;
-      const psNomeCampo: String; var pnTopo: Integer);
-    procedure CriarComponenteEdicaoCampoAreaTexto(const pnCodigoCampo: Integer;
-      const psNomeCampo: String; var pnTopo: Integer);
+    procedure CriarComponenteEdicaoCampoTexto(const pnCodigoCampo: Integer; var pnTopo: Integer);
+    procedure CriarComponenteEdicaoCampoAreaTexto(const pnCodigoCampo: Integer; var pnTopo: Integer);
     procedure CriarComponenteEdicaoCampoCaixaSelecao(const pnCodigoCampo: Integer;
       const psNomeCampo: String; var pnTopo: Integer);
     procedure CriarCamposConfiguraveisParaCadastro;
-    procedure CarregarValoresCamposConfiguraveis(const piCodigoContato: Integer);
+    procedure CarregarValoresCamposConfiguraveis(const pnCodigoContato: Integer);
     procedure LimparValoresCamposConfiguraveies;
-    procedure CarregarValoresCampos(const piCodigoCampo: Integer; const psValor: String);
+    procedure CarregarValoresCampos(const pnCodigoCampo: Integer; const psValor: String);
     procedure CalcularNovoTopo(const pnTopoComponenteAtual: Integer;
       const pnHeightComponenteAtual: Integer; const pnAdicional: Integer; var pnTopo: Integer);
+    procedure ConfirmarCamposConfiguraveis;
+    function SalvarDados: Boolean;
+    function ValidarDadosAntesSalvar: Boolean;
+    procedure PosicionarScrollBoxInicio;
   protected
     procedure InicializarTela; override;
     procedure DestruirTela; override;
@@ -124,25 +122,8 @@ begin
 
   CarregarValoresCamposConfiguraveis(nCodigoContato);
   pgCadastroContatos.ActivePageIndex := nABA_EDICAO;
+  PosicionarScrollBoxInicio;
   FoFuncoes.FocarComponente(dbEdEmail);
-end;
-
-function TfrmContatos.ValidarPodeRetornarAbaDados: Boolean;
-begin
-  Result := VerificarPreencheuDadosAbaEdicao;
-  if not(Result) then
-  begin
-    MessageDlg(sMSG_DEVE_SER_INFORMADO_EMAIL, mtInformation, [mbOK], 0);
-    FoFuncoes.FocarComponente(dbEdEmail);
-  end;
-end;
-
-function TfrmContatos.VerificarPreencheuDadosAbaEdicao: Boolean;
-begin
-  Result := Trim(dbEdEmail.Text) <> sSTRING_INDEFINIDO;
-
-  if Result then
-    Result := VerificarEmailValido;
 end;
 
 procedure TfrmContatos.bbNovoClick(Sender: TObject);
@@ -157,15 +138,6 @@ begin
   InserirAtualizar(tmiAtualizar);
 end;
 
-procedure TfrmContatos.bbSalvarClick(Sender: TObject);
-begin
-  inherited;
-  if not(FoContatos.Salvar) then
-    MessageDlg(FoContatos.prpMensagem, mtInformation, [mbOK], 0)
-  else
-    FoContatos.CarregarContatosParaCadastro;
-end;
-
 procedure TfrmContatos.bbExcluirClick(Sender: TObject);
 begin
   inherited;
@@ -174,12 +146,6 @@ begin
 
   if not(FoContatos.ValidarFieldCodigoEstahAtivo) then
     Exit;
-
-  if (FoContatos.prpFieldCodigo.AsInteger = nNUMERO_INDEFINIDO) then
-  begin
-    FoContatos.DeletarCdsDados;
-    Exit;
-  end;
 
   if (MessageDlg(sMSG_DESEJA_CONTINUAR_DELECAO_CONTATO, mtConfirmation, [mbYes, mbNo], 0) = mrNo) then
     Exit;
@@ -198,7 +164,10 @@ procedure TfrmContatos.pgCadastroContatosChanging(Sender: TObject;
 begin
   inherited;
   if (pgCadastroContatos.ActivePage = tsEdicao) then
-    AllowChange := ValidarPodeRetornarAbaDados;
+    AllowChange := SalvarDados;
+
+  if (pgCadastroContatos.ActivePage = tsDados) then
+    AllowChange := False;    
 end;
 
 procedure TfrmContatos.bbCancelarClick(Sender: TObject);
@@ -211,11 +180,11 @@ begin
   pgCadastroContatos.ActivePageIndex := nABA_DADOS;
 end;
 
-procedure TfrmContatos.bbConfirmarClick(Sender: TObject);
+procedure TfrmContatos.bbSalvarClick(Sender: TObject);
 begin
   inherited;
-  if ValidarPodeRetornarAbaDados then
-    pgCadastroContatos.ActivePageIndex := nABA_DADOS;
+  if not(SalvarDados) then
+    Exit;
 end;
 
 procedure TfrmContatos.bbFecharClick(Sender: TObject);
@@ -224,8 +193,7 @@ begin
   Close;
 end;
 
-procedure TfrmContatos.FormClose(Sender: TObject;
-  var Action: TCloseAction);
+procedure TfrmContatos.FormClose(Sender: TObject; var Action: TCloseAction);
 begin
   inherited;
   if (MessageDlg(sMSG_DESEJA_FECHAR_TELA, mtConfirmation, [mbYes, mbNo], 0) = mrNo) then
@@ -257,7 +225,7 @@ begin
   oLabel := TLabel.Create(scBxCamposConfig);
   oLabel.Parent := scBxCamposConfig;
   oLabel.Caption := psNomeCampo + ':';
-  oLabel.Name := sIDENTIFICADOR_LABEL + psNomeCampo;
+  oLabel.Name := sPREFIXO_LABEL + IntToStr(pnCodigoCampo);
   oLabel.Tag := pnCodigoCampo;
   oLabel.Left := nLEFT_COMPONENTES;
   oLabel.Top := pnTopo;
@@ -271,24 +239,23 @@ procedure TfrmContatos.CriarComponenteEdicaoCampo(const pnCodigoCampo: Integer;
 begin
   case pnCodigoTipoCampo of
     nCODIGO_TIPO_CAMPO_TEXTO:
-      CriarComponenteEdicaoCampoTexto(pnCodigoCampo, psNomeCampo, pnTopo);
+      CriarComponenteEdicaoCampoTexto(pnCodigoCampo, pnTopo);
 
     nCODIGO_TIPO_CAMPO_AREA_TEXTO:
-      CriarComponenteEdicaoCampoAreaTexto(pnCodigoCampo, psNomeCampo, pnTopo);
+      CriarComponenteEdicaoCampoAreaTexto(pnCodigoCampo, pnTopo);
 
     nCODIGO_TIPO_CAMPO_CAIXA_SELECAO:
       CriarComponenteEdicaoCampoCaixaSelecao(pnCodigoCampo, psNomeCampo, pnTopo);
   end;
 end;
 
-procedure TfrmContatos.CriarComponenteEdicaoCampoTexto(const pnCodigoCampo: Integer;
-  const psNomeCampo: String; var pnTopo: Integer);
+procedure TfrmContatos.CriarComponenteEdicaoCampoTexto(const pnCodigoCampo: Integer; var pnTopo: Integer);
 var
   oEdit: TEdit;
 begin
   oEdit := TEdit.Create(scBxCamposConfig);
   oEdit.Parent := scBxCamposConfig;
-  oEdit.Name := sIDENTIFICADOR_EDIT + psNomeCampo;
+  oEdit.Name := sPREFIXO_EDIT + IntToStr(pnCodigoCampo);
   oEdit.Tag := pnCodigoCampo;
   oEdit.Left := nLEFT_COMPONENTES;
   oEdit.Top := pnTopo;
@@ -300,21 +267,20 @@ begin
   CalcularNovoTopo(oEdit.Top, oEdit.Height, nESPACO_ENTRE_CAMPOS, pnTopo);
 end;
 
-procedure TfrmContatos.CriarComponenteEdicaoCampoAreaTexto(const pnCodigoCampo: Integer;
-  const psNomeCampo: String; var pnTopo: Integer);
+procedure TfrmContatos.CriarComponenteEdicaoCampoAreaTexto(const pnCodigoCampo: Integer; var pnTopo: Integer);
 var
   oMemo: TMemo;
 begin
   oMemo := TMemo.Create(scBxCamposConfig);
   oMemo.Parent := scBxCamposConfig;
-  oMemo.Name := sIDENTIFICADOR_MEMO + psNomeCampo;
+  oMemo.Name := sPREFIXO_MEMO + IntToStr(pnCodigoCampo);
   oMemo.Tag := pnCodigoCampo;
   oMemo.Left := nLEFT_COMPONENTES;
   oMemo.Top := pnTopo;
   oMemo.Width := nWIDTH_COMPONENTES;
   oMemo.Height := nHEIGHT_COMPONENTE_EDICAO_AREA_TEXTO;
   oMemo.Text := sSTRING_INDEFINIDO;
-  oMemo.MaxLength := nMAX_LENGTH_COMPONENTES;  
+  oMemo.MaxLength := nMAX_LENGTH_COMPONENTES;
   FoObjetosCamposConfig.Add(oMemo);
   CalcularNovoTopo(oMemo.Top, oMemo.Height, nESPACO_ENTRE_CAMPOS, pnTopo);
 end;
@@ -326,7 +292,8 @@ var
 begin
   oCheckBox := TCheckBox.Create(scBxCamposConfig);
   oCheckBox.Parent := scBxCamposConfig;
-  oCheckBox.Name := sIDENTIFICADOR_CAIXA_SELECAO + psNomeCampo;
+  oCheckBox.Name := sPREFIXO_CAIXA_SELECAO + IntToStr(pnCodigoCampo);
+  oCheckBox.Caption := psNomeCampo;
   oCheckBox.Tag := pnCodigoCampo;
   oCheckBox.Left := nLEFT_COMPONENTES;
   oCheckBox.Top := pnTopo;
@@ -368,7 +335,7 @@ var
   oFieldNomeCampo: TField;
   oFieldCodigoTipoCampo: TField;
 begin
-  if not(FoContatos.ValidarCdsCriarCamposConfig) then
+  if not(FoContatos.ValidarCdsCriarCamposConfigEstahAtivo) then
     Exit;
 
   FoContatos.CarregarCamposConfiguraveis;
@@ -396,7 +363,8 @@ begin
   FoContatos.prpCdsCriarCamposConfig.First;
   while not(FoContatos.prpCdsCriarCamposConfig.Eof) do
   begin
-    CriarComponenteDescricaoCampo(oFieldCodigoCampo.AsInteger, oFieldNomeCampo.AsString, nTopo);
+    if (oFieldCodigoTipoCampo.AsInteger <> nCODIGO_TIPO_CAMPO_CAIXA_SELECAO) then
+      CriarComponenteDescricaoCampo(oFieldCodigoCampo.AsInteger, oFieldNomeCampo.AsString, nTopo);
     CriarComponenteEdicaoCampo(oFieldCodigoCampo.AsInteger, oFieldNomeCampo.AsString,
       oFieldCodigoTipoCampo.AsInteger, nTopo);
 
@@ -404,52 +372,51 @@ begin
   end;
 end;
 
-procedure TfrmContatos.CarregarValoresCamposConfiguraveis(const piCodigoContato: Integer);
+procedure TfrmContatos.CarregarValoresCamposConfiguraveis(const pnCodigoContato: Integer);
 var
   oFieldCodigoCampo: TField;
   oFieldValor: TField;
 begin
   LimparValoresCamposConfiguraveies;
 
-  if not(FoContatos.ValidarCdsCamposConfigContatoEstahAtivo) then
+  if not(FoContatos.ValidarCdsContatoCamposEstahAtivo) then
     Exit;
 
-  if (piCodigoContato = nNUMERO_INDEFINIDO) then
+  if (pnCodigoContato = nNUMERO_INDEFINIDO) then
     Exit;
 
-  FoContatos.CarregarValoresCamposConfiguraveis(piCodigoContato);
+  FoContatos.CarregarValoresCamposConfiguraveis(pnCodigoContato);
 
-  if (FoContatos.prpCdsCamposConfigContato.IsEmpty) then
+  if (FoContatos.prpCdsContatoCampos.IsEmpty) then
     Exit;
 
   oFieldCodigoCampo := nil;
   oFieldValor := nil;
 
-  if (FoContatos.prpCdsCamposConfigContato.FindField(sFIELD_CAMPO_CONFIG_CONTATO_CODIGO_CAMPO) <> nil) then
-    oFieldCodigoCampo := FoContatos.prpCdsCamposConfigContato.FindField(sFIELD_CAMPO_CONFIG_CONTATO_CODIGO_CAMPO);
+  if (FoContatos.prpCdsContatoCampos.FindField(sFIELD_CAMPO_CONFIG_CONTATO_CODIGO_CAMPO) <> nil) then
+    oFieldCodigoCampo := FoContatos.prpCdsContatoCampos.FindField(sFIELD_CAMPO_CONFIG_CONTATO_CODIGO_CAMPO);
 
-  if (FoContatos.prpCdsCamposConfigContato.FindField(sFIELD_CAMPO_CONFIG_CONTATO_VALOR) <> nil) then
-    oFieldValor := FoContatos.prpCdsCamposConfigContato.FindField(sFIELD_CAMPO_CONFIG_CONTATO_VALOR);
+  if (FoContatos.prpCdsContatoCampos.FindField(sFIELD_CAMPO_CONFIG_CONTATO_VALOR) <> nil) then
+    oFieldValor := FoContatos.prpCdsContatoCampos.FindField(sFIELD_CAMPO_CONFIG_CONTATO_VALOR);
 
   if (not(Assigned(oFieldCodigoCampo))) or (not(Assigned(oFieldValor))) then
     Exit;
 
-  FoContatos.prpCdsCamposConfigContato.First;
-  while not(FoContatos.prpCdsCamposConfigContato.Eof) do
+  FoContatos.prpCdsContatoCampos.First;
+  while not(FoContatos.prpCdsContatoCampos.Eof) do
   begin
     CarregarValoresCampos(oFieldCodigoCampo.AsInteger, oFieldValor.AsString);
-    FoContatos.prpCdsCamposConfigContato.Next;
+    FoContatos.prpCdsContatoCampos.Next;
   end;
 end;
 
-
-procedure TfrmContatos.CarregarValoresCampos(const piCodigoCampo: Integer; const psValor: String);
+procedure TfrmContatos.CarregarValoresCampos(const pnCodigoCampo: Integer; const psValor: String);
 var
   i: Integer;
 begin
   for i:=0 to scBxCamposConfig.ComponentCount-1 do
   begin
-    if (scBxCamposConfig.Components[i].Tag <> piCodigoCampo) then
+    if (scBxCamposConfig.Components[i].Tag <> pnCodigoCampo) then
       Continue;
 
     if (scBxCamposConfig.Components[i] is TEdit) then
@@ -466,7 +433,7 @@ begin
 
     if (scBxCamposConfig.Components[i] is TCheckBox) then
     begin
-      TCheckBox(scBxCamposConfig.Components[i]).Checked := (psValor <> sNUMERO_INDEFINIDO);
+      TCheckBox(scBxCamposConfig.Components[i]).Checked := (psValor = sSIM);
       Break;
     end;
   end;
@@ -478,7 +445,118 @@ begin
   pnTopo := pnTopoComponenteAtual + pnHeightComponenteAtual + pnAdicional;
 end;
 
+procedure TfrmContatos.ConfirmarCamposConfiguraveis;
+var
+  i: Integer;
+  oFieldCodigoContato: TField;
+  oFieldCC_ContatoNovo: TField;
+  oFieldCodigoCampo: TField;
+  oFieldValor: TField;
+
+  function VerificarComponenteValido(poComponente: TComponent): Boolean;
+  begin
+    Result := (poComponente is TEdit) or (poComponente is TMemo) or (poComponente is TCheckBox);
+  end;
+
+  function DefinirFieldsAcessoDados: Boolean;
+  begin
+    if (FoContatos.prpCdsContatosCamposEdicao.FindField(sFIELD_CONTATO_CAMPO_CODIGO_CONTATO) <> nil) then
+      oFieldCodigoContato := FoContatos.prpCdsContatosCamposEdicao.FindField(sFIELD_CONTATO_CAMPO_CODIGO_CONTATO);
+
+    if (FoContatos.prpCdsContatosCamposEdicao.FindField(sFIELD_CONTATO_CAMPO_CC_CONTATO_NOVO) <> nil) then
+      oFieldCC_ContatoNovo := FoContatos.prpCdsContatosCamposEdicao.FindField(sFIELD_CONTATO_CAMPO_CC_CONTATO_NOVO);
+
+    if (FoContatos.prpCdsContatosCamposEdicao.FindField(sFIELD_CONTATO_CAMPO_CODIGO_CAMPO) <> nil) then
+      oFieldCodigoCampo := FoContatos.prpCdsContatosCamposEdicao.FindField(sFIELD_CONTATO_CAMPO_CODIGO_CAMPO);
+
+    if (FoContatos.prpCdsContatosCamposEdicao.FindField(sFIELD_CONTATO_CAMPO_VALOR) <> nil) then
+      oFieldValor := FoContatos.prpCdsContatosCamposEdicao.FindField(sFIELD_CONTATO_CAMPO_VALOR);
+
+    Result := (Assigned(oFieldCodigoContato)) and (Assigned(oFieldCC_ContatoNovo)) and
+      (Assigned(oFieldCodigoCampo)) and (Assigned(oFieldValor));
+  end;
+
+begin
+  if not(FoContatos.ValidarCdsContatosCamposEdicaoEstahAtivo) then
+    Exit;
+
+  if not(FoContatos.prpCdsContatosCamposEdicao.Active) then
+    FoContatos.prpCdsContatosCamposEdicao.Active := True;
+
+  FoContatos.prpCdsContatosCamposEdicao.EmptyDataSet;
+
+  if not(DefinirFieldsAcessoDados) then
+    Exit;
+
+  for i:=0 to scBxCamposConfig.ComponentCount-1 do
+  begin
+    if not(VerificarComponenteValido(scBxCamposConfig.Components[i])) then
+      Continue;
+
+    FoContatos.prpCdsContatosCamposEdicao.Append;
+
+    if (FoContatos.prpCodigo = nNUMERO_INDEFINIDO) then
+    begin
+      oFieldCodigoContato.AsInteger := FoContatos.prpCdsDados.RecNo;
+      oFieldCC_ContatoNovo.AsInteger := nNOVO_REGISTRO;
+    end
+    else
+    begin
+      oFieldCodigoContato.AsInteger := FoContatos.prpCodigo;
+      oFieldCC_ContatoNovo.AsInteger := nREGISTRO_JAH_EXISTENTE;
+    end;
+
+    oFieldCodigoCampo.AsInteger := scBxCamposConfig.Components[i].Tag;
+
+    if (scBxCamposConfig.Components[i] is TEdit) then
+      oFieldValor.AsString := TEdit(scBxCamposConfig.Components[i]).Text
+
+    else if (scBxCamposConfig.Components[i] is TMemo) then
+      oFieldValor.AsString := TMemo(scBxCamposConfig.Components[i]).Text
+
+    else if (scBxCamposConfig.Components[i] is TCheckBox) then
+    begin
+      if (TCheckBox(scBxCamposConfig.Components[i]).Checked) then
+        oFieldValor.AsString := sSIM
+      else
+        oFieldValor.AsString := sNAO;
+    end;
+
+    FoContatos.prpCdsContatosCamposEdicao.Post;
+  end;
+end;
+
+function TfrmContatos.SalvarDados: Boolean;
+begin
+  Result := False;
+  if not(ValidarDadosAntesSalvar) then
+    Exit;
+
+  ConfirmarCamposConfiguraveis;
+
+  if not(FoContatos.Salvar) then
+    MessageDlg(FoContatos.prpMensagem, mtInformation, [mbOK], 0)
+  else
+    pgCadastroContatos.ActivePageIndex := nABA_DADOS;
+end;
+
+function TfrmContatos.ValidarDadosAntesSalvar: Boolean;
+begin
+  Result := (Trim(dbEdEmail.Text) <> sSTRING_INDEFINIDO);
+
+  if Result then
+    Result := VerificarEmailValido;  
+
+  if not(Result) then
+  begin
+    MessageDlg(sMSG_DEVE_SER_INFORMADO_EMAIL_VALIDO, mtInformation, [mbOK], 0);
+    FoFuncoes.FocarComponente(dbEdEmail);
+  end;
+end;
+
+procedure TfrmContatos.PosicionarScrollBoxInicio;
+begin
+  scBxCamposConfig.VertScrollBar.Position := 0;
+end;
+
 end.
-
-
-

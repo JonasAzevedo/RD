@@ -1,0 +1,438 @@
+
+
+Delphi 7
+Installation Notes
+
+
+=======================================================
+CONTENTS
+
+* ABOUT THE INSTALLER
+* PRODUCT COEXISTENCE ISSUES
+* INSTALLING FOR MULTIPLE USERS [WINNT/2000/XP ONLY]
+* GENERAL INSTALLATION NOTES
+* KNOWN INSTALLATION ISSUES
+* REGISTERING THIS PRODUCT
+* UNINSTALLING THIS PRODUCT
+
+
+
+=======================================================
+
+ABOUT THE INSTALLER
+
+This product uses the Microsoft Installer (MSI) 2.0
+service to perform the installation. Among the more
+significant changes are:
+
+* In many cases, rebooting after installation is no
+  longer necessary. The Borland Debugger kernel and
+  other Borland components are automatically registered
+  during installation. However, the installer may
+  update some Windows system components, which will
+  require you to reboot at the end of the installation.
+  In addition, if you are installing on Windows 95/98
+  or Windows Me, you may wish to reboot to have your
+  PATH environment updated.
+
+* An installation maintenance mode is available by
+  simply rerunning the installation. The maintenance
+  dialog lets you add or remove features, repair the
+  installation, or remove the product. Choosing
+  "Modify" lets you install features that you did not
+  previously install, or remove features that you no
+  longer use. Choosing "Repair" causes the installer to
+  search for and reinstall any files that are missing
+  or damaged. "Remove" uninstalls the product.
+
+* On Windows 2000 and higher (including Windows XP),
+  the Microsoft Installer service provides an auto-
+  repair feature that constantly tries to detect and
+  repair damaged applications. One of the ways that it
+  does this is by monitoring the installed directory
+  structure of an application. If you delete or rename
+  any of the directories installed by Delphi 7, the
+  Microsoft Installer will detect this and will,
+  without warning, attempt to restore the missing
+  directories. To prevent the auto-repair function from
+  being unintentionally invoked, you should not
+  manually delete or rename any of the installed Delphi
+  7 directories. To add or remove features, always use
+  the installer application.
+
+Setup will install MDAC 2.7 if it fails to detect MDAC
+2.7 or later on your machine. You might get a reboot
+prompt at the end of installation if MDAC 2.7 was
+installed by the Setup program.
+
+=======================================================
+PRODUCT COEXISTENCE ISSUES
+
+Using the Web App Debugger in Delphi 6 (or) C++Builder 6
+after uninstalling Delphi 7
+-------------------------------------------------------
+
+If you install Delphi 7 on a machine on which either
+Delphi 6 or C++Builder 6 is installed, then uninstall
+Delphi 7, the Web App Debugger will no longer work as
+expected.
+
+Solution: After uninstalling Delphi 7, you can
+reregister the WebApp Debugger by running the following
+from your Delphi6\Bin (or) CBuilder6\Bin directory:
+
+1.   Run ServerInfo for the Web App Debugger:
+     serverinfo
+
+2.   Use the tregsvr utility to reregister the debugger
+     library: tregsvr weblib.tlb
+
+
+=======================================================
+INSTALLING FOR MULTIPLE USERS [WINNT/2000/XP ONLY]
+
+[Note: This section applies only to installations on
+Windows NT, 2000, and later Windows operating systems,
+including XP. It does not apply to installations on
+Windows 95, 98, or Me systems.]
+
+The procedure for installing and uninstalling Delphi 7
+for multiple users on Windows NT and Windows 2000
+systems has changed.
+
+The new installation procedure no longer requires each
+user to install Delphi 7 separately. The product is
+installed only once, by any user with Administrator
+privileges, and is immediately available to all users
+of the same machine. It is also available to any new
+users you may add later.
+
+In releases prior to Delphi 6 or C++Builder 6, an
+Administrator installed the product, and all other
+users of the same machine who needed to use product had
+to install it separately using the "Registry Only"
+option.
+
+The new uninstallation procedure has also changed. The
+Administrator who initially installed the product must
+first uninstall it (through the Control Panel's
+Add/Remove Programs applet); after that, all other
+users of the product must log in and run the provided
+D7RegClean.exe utility in order to remove user-specific
+data from the Windows registry. (Note: D7RegClean.exe
+is installed to your \Bin directory and is also
+available on your CD in the \Info\Extras folder.)
+
+
+
+Cautions
+--------
+
+* Some utilities, such as the Image Editor, the Package
+  Collection Editor, Database Desktop, and the
+  XMLMapper, will not work correctly until the Delphi 7
+  IDE is run at least once. This is because the IDE
+  copies a set of global registry entries from
+  HKEY_LOCAL_MACHINE to the user's registry space. In
+  the past, the installation program performed this
+  task.
+
+* If you perform a partial install, then add other
+  components later, the new components will not
+  automatically appear in the IDE. To make the new
+  packages appear, you can manually add them to the IDE
+  using the Install Packages dialog (Component menu).
+
+=======================================================
+GENERAL INSTALLATION NOTES
+
+The following items describe known issues, behavior,
+and functionality that can affect installation of this
+product. For other installation issues, including how
+to remove the product, see the INSTALL document at the
+root of your CD.
+
+Minimum system requirements
+---------------------------
+
+* Intel Pentium 166 MHz or higher (P2 400 MHz
+  recommended)
+* Microsoft Windows 98, 2000, and XP
+* 256 Mb
+* Approximate hard disk space required for a full
+  install: 475 Mb (Enterprise edition)
+* CD-ROM drive
+* VGA or higher resolution monitor
+* Mouse or other pointing device
+
+
+Back up your BDE configuration
+------------------------------
+
+This product includes Borland Database Engine (BDE).
+Unless you specify other than the default
+setup directories during installation, Delphi 7 will
+overwrite your existing 32-bit BDE and SQL Links
+installations, so it is strongly recommended that you
+back up all current BDE configuration files before
+installing this release.
+
+Installation directory
+----------------------
+
+By default, this release installs into the directory
+
+ \Program Files\Borland\Delphi7
+
+Product release notes and most other documentation
+assumes these defaults.
+
+WARNING:
+    Do not install Delphi 7 in a directory that
+    contains an older version of Delphi. Always install
+    a new version of Delphi in a new directory.
+    Different versions of Delphi can coexist on the
+    same system, but each version must be installed in
+    its own directory.
+
+If you've installed this product before
+---------------------------------------
+
+You can install to the same machine (though to a
+different location) as another version of the product.
+If you want to install to the same directory as an
+existing version, uninstall the existing version first.
+In either case, you should back up your IDAPI.CFG file
+(if one is present) and any other important data,
+including existing projects that you intend to use with
+this version.
+
+Performing a Custom installation
+--------------------------------
+
+To conserve disk space, you can perform a custom
+installation, selecting only the options you require.
+To do so, select the Custom radio button in the Setup
+Type dialog during installation. Disk space required
+for the total custom installation and individual
+options is displayed as you select or deselect options.
+
+
+Just-In-Time Debugging
+----------------------
+
+If the installer detects that another application is
+registered as your Just-In-Time debugger, you will be
+asked if you want to change this setting to use the
+Delphi 7 debugger. For proper operation of this
+release, you should choose to update this setting.
+
+To preserve your existing AEDebug settings for later
+restoration, follow these steps:
+
+1. Run Regedit.
+2. Select the AEDebug key
+        HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\
+        Windows NT\CurrentVersion\AEDebug\Debugger
+3. Choose Registry|Export Registry File.
+4. Name and save the file containing the AEDebug key.
+
+To restore the AEDebug settings:
+
+1. Run Regedit.
+2. Choose Registry|Import Registry File.
+3. Specify the file in which you saved the AEDebug key.
+
+Manually registering the debugger kernel
+----------------------------------------
+
+The new installer does not, in most cases, require you
+to reboot after installation. The Borland Debugger
+Kernel is automatically registered by the new
+installer. If, however, you receive "BORdbk70 not
+registered" errors when running the program, then you
+will need to manually register the debugger.
+
+To manually register the debugger, open a command
+window, cd to the Debugger Kernel location (default
+
+c:\program files\common files\borland
+ \shared\debugger\bordbk70.dll)
+
+and run the Microsoft Register Server utility with the
+following command:
+
+regsvr32 bordbk70.dll
+
+Note:
+ If REGSVR32 is not on your path, switch to your
+ Windows\System directory and run the utility with  a
+ full path specification to the Debugger Kernel file.
+
+
+Installer may require additional temporary space
+------------------------------------------------
+
+If the drive containing the folder specified in your
+TEMP environment variable is low on space, the Installer
+may halt with an error message noting the shortage. If
+this occurs, you'll need to assign your TEMP variable to
+a folder on a drive with more disk space, then rerun
+the installation.
+
+
+=======================================================
+KNOWN INSTALLATION ISSUES
+
+
+JRE, InterBase paths require manual entry
+-----------------------------------------
+
+Neither the VisiBroker 4 nor Java Runtime Environment
+(JRE) installers set your PATH or CLASSPATH
+specifications to point to the JRE installation
+location. Unless you manually set these environment
+variables, programs requiring the JRE (including all
+VisiBroker programs except the OSAgent and the console,
+which uses a batch file) will not run.  The InterBase
+Administration components IBInstall and IBUninstall
+will not work correctly unless you manually add the
+<InterBase> location (default C:\Program
+Files\Borland\InterBase) to your PATH variable.
+
+
+Installer may misreport disk space requirements
+on Windows 95/98/ME
+-----------------------------------------------
+
+On Windows 95, 98, and Me systems, the Microsoft
+Windows Installer may misreport the amount of disk
+space required by Delphi 7. The Installer may report
+that it needs more than 2GB of disk space. Delphi 7
+does not require this much space. To work around this
+issue, exit the Installer and restart the installation.
+
+
+=======================================================
+REGISTERING THIS PRODUCT
+
+TRIAL EDITION
+
+To activate this product, you must obtain an activation
+file. You must obtain from the Borland Web site:
+
+  http://www.borland.com/products/downloads
+
+The Software License for Trial products will be emailed to
+you upon submission of the form on that site. Your
+evaluation period begins on the day you submit your request
+for an authorization key.
+
+
+PROFESSIONAL AND ENTERPRISE EDITIONS
+
+To activate this product, you must obtain a Serial Number
+and Authorization Key.
+
+The Serial Number and Authorization Key are supplied with
+your CD.
+
+You must also register the product after activation.
+
+The Registration dialog, which appears on first use
+after activation, offers three registration methods:
+Online (direct registration through a secure connection),
+by telephone, or through a Web form.
+
+Each of the Registration options is driven by wizards,
+with Help provided where necessary.
+
+NOTE: Online activation and registration requires an active
+      Internet connection. The process uses port 443 for
+      the transaction;  if there is a problem using that
+      port, an attempt is made through port 8080. If your
+      machine is protected by a firewall and the process
+      fails, you must either contact your system
+      administrator to request that the ports noted above
+      be made available, or use an alternate registration
+      method, such as telephone or Web registration. Online
+      registration also requires that all users of this
+      copy of the software use the same software
+      registration account when registering.
+
+REGISTRATION DEFERRAL
+
+All editions require registration.  Registration for
+the Professional and Enterprise editions may be
+deferred.  The Trial edition will NOT run without a
+valid Software License.  The software license contains
+the registration information.
+
+If you try to run the Trial edition without a valid
+Software License, you will be directed where to go to
+obtain one.
+
+
+If you choose to defer registration, you can register
+later by running the registration program D7Reg.exe
+in the bin directory of your installation, or in the
+Delphi 7 program group in your start menu.
+
+
+=======================================================
+UNINSTALLING THIS PRODUCT
+
+
+To uninstall this release from your computer, you can
+perform either the following:
+
+*  Open the Control Panel and double-click the
+   Add/Remove Programs icon. Select Borland Delphi 7
+   from the list and click the Add/Remove button.
+   Follow the instructions.
+
+
+Notes:
+
+* During installation you're asked if you want to save
+  a copy of the installation database to your hard disk
+  drive. Doing so will allow you to uninstall without
+  inserting the product CD. However, if the local copy
+  of the installation database becomes damaged or is
+  erased, the CD may be required to uninstall the
+  product. The installation database ("Borland Delphi
+  7.msi") can be found in the Install directory on your
+  CD.
+
+* Delphi 7 and other dbExpress-based applications use
+  the registry key
+
+     HKEY_CURRENT_USER\Software\Borland\DBExpress
+
+  to locate the database configuration files
+  (dbxconnections.ini and dbxdrivers.ini).
+
+  When uninstalling Delphi 7, you are asked if you want
+  to remove the dbExpress registry keys. If you know
+  that you are not using any other dbExpress-based
+  applications, you can answer Yes. If other dbExpress
+  applications exists on your computer, you should
+  answer No.
+
+  If you do not delete the dbExpress registry entries
+  and you later reinstall Delphi 7 to a different
+  location, you will need to manually delete this
+  registry key for dbExpress to recognize your new
+  configuration file location.
+
+
+=======================================================
+Copyright (c) 2002 Borland Software Corporation.
+All rights reserved.
+
+
+
+
+
+
+

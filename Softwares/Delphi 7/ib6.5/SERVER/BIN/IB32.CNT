@@ -1,0 +1,71 @@
+:Base IB32.HLP
+:Title InterBase Help
+:Index Communication Diagnostics Help=comdg32.hlp
+:Index InterBase Glossary=ibgloss.hlp
+:Index InterBase Tutorial=tutorial.hlp
+:Index Server Manager Help=ibmgr32.hlp
+:Index Windows ISQL Help=wisql32.hlp
+:Link wisql32.hlp
+:Link wisql32.hlp
+:Link wisql32.hlp
+:Link wisql32.hlp
+:Link wisql32.hlp
+1 Documentation Roadmap=ib_doc_map
+1 Getting started
+2 Introduction to database objects
+3 Overview=ib_db_obj
+3 Tables=intro_tables
+3 Columns=intro_cols
+3 Data types=intro_data_types
+3 Domains=intro_doms
+3 Referential integrity constraints=intro_cons
+3 Indexes=intro_idx
+3 Views=intro_views
+3 Stored procedures=intro_stor_procs
+3 Triggers=intro_trigs
+3 Generators=intro_gens
+3 Security=intro_sec
+2 Designing a database
+3 Overview=ib_db_design
+3 Design a framework=design_framework
+3 Collecting and analyzing objects=collect_objs
+3 Mapping entities and attributes=map_ents_atts
+3 Determining unique attributes=unique_atts
+3 Developing a set of rules=set_rules
+3 Selecting a data type=select_data_type
+3 Choosing international character sets=choose_char_sets
+3 Specifying domains=specify_doms
+3 Setting default values and NULL status=def_val_null
+3 Defining constraints=def_constraints
+3 Establishing relationships between objects=establish_obj_rels
+3 How to normalize a database=normal_db
+3 Eliminating repeating groups=no_repeat_grps
+3 Removing partially-dependent columns=part_depend_cols
+3 Removing transitively-dependent columns=trans_depend_cols
+3 How to choose indexes=choose_idxs
+3 InterBase-specific design suggestions=ib_suggest
+;
+1 How to create a database
+2 Overview=how_create_dbs
+2 General procedures
+3 Using a data definition file=data_def_file
+3 Creating a single-file database=single_file_db
+3 Creating a multi-file database=multi_file_db
+3 Specifying user name and password=spec_name_pass
+3 Specifying database page size=spec_page_size
+3 Specifying the default character set=spec_def_char_set
+3 How to alter databases=how_alter_dbs
+3 How to drop databases=how_drop_dbs
+3 How to extract metadata from existing databases=how_extract_dbs
+;
+1 Data definition with Windows ISQL
+:include tutorial.cnt
+;
+1 InterBase tools
+:include ibmgr32.cnt
+:include wisql32.cnt
+2 Troubleshooting: ComDiag
+:include comdg32.cnt
+;
+1 Glossary
+:include ibgloss.cnt

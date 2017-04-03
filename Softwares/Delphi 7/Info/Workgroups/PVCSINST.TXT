@@ -1,0 +1,79 @@
+===========================================================
+PVCS Installation Instructions
+===========================================================
+
+Use the following instructions to create a Workgroups menu 
+and enable Delphi 5 access to an installed copy of the 
+PVCS version control system.
+
+Prerequisite:
+   InterSolv's PVCS application must be installed and
+   its location included on your system path.
+   
+Instructions for enabling PVCS:
+
+1. Close Delphi.
+
+2. Copy the following file from your Delphi 5 CD to any 
+   folder on your local drive:
+   
+   \Info\Workgroups\PVCS.REG
+
+3. Use Notepad (or another text editor) to open the copied 
+   PVCS.REG file on your local drive.
+   
+4. Edit the paths to match the directory into which you
+   installed Delphi 5. If, for example, you installed
+   Delphi to D:\delphi, you would change the three path 
+   strings in the .REG file from,
+   
+   REGEDIT4
+   
+   [HKEY_CURRENT_USER\Software\Borland\Delphi\5.0\Version Control]
+   "VCSManager"="C:\\Program Files\\Borland\\Delphi5\\Bin\\STDVCS32.DLL"
+   "PublicPrjDir"="C:\\Program Files\\Borland\\Delphi5\\PVCS"
+   "PrivatePrjDir"="C:\\Program Files\\Borland\\Delphi5\\PVCS"
+
+   to,
+   
+   REGEDIT4
+      
+   [HKEY_CURRENT_USER\Software\Borland\Delphi\5.0\Version Control]
+   "VCSManager"="D:\\Delphi\\Bin\\STDVCS32.DLL"
+   "PublicPrjDir"="D:\\Delphi\\PVCS"
+   "PrivatePrjDir"="D:\\Delphi\\PVCS"
+
+5. Save the file.
+
+6. Execute PVCS.REG by double-clicking the file name in 
+   Windows Explorer (or by choosing it and selecting 
+   "Merge" from the right-click popup menu).
+
+7. Copy the following files from your Delphi 5 CD to your 
+   Delphi installation directory's \Bin folder:
+
+   \Info\Workgroups\STDVCS32.DLL
+   \Info\Workgroups\CFOLDER.DLL
+   \Info\Workgroups\DFOLDER.DLL
+
+8. Restart Delphi. The WorkGroups menu should now be 
+   available and functional.
+   
+To integrate the supplied PVCS Help files into your
+Delphi 5 Help system:
+
+1. Copy the following files from your Delphi 5 CD to your 
+   Delphi installation directory's \Help folder:
+   
+   \Info\Workgroups\PVCS.HLP   
+   \Info\Workgroups\PVCS.CNT
+   
+2. Choose Customize from the Delphi Help menu to start
+   Openhelp.
+
+3. Add PVCS to the Contents and Index lists. (If you 
+   encounter difficulties with this step, see Openhelp's 
+   online Help file for details on how to add entries to 
+   and remove entries from an Openhelp project.)
+
+###

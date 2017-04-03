@@ -1,0 +1,70 @@
+object Form1: TForm1
+  Left = 373
+  Top = 112
+  Width = 783
+  Height = 540
+  VertScrollBar.Range = 19
+  HorzScrollBar.Range = 220
+  ActiveControl = DirectoryTreeView1
+  Caption = 'CLX Explorer'
+  Color = clBackground
+  PixelsPerInch = 96
+  TextHeight = 13
+  TextWidth = 6
+  object Splitter1: TSplitter
+    Left = 217
+    Top = 0
+    Height = 521
+  end
+  object DirectoryTreeView1: TDirectoryTreeView
+    Left = 0
+    Top = 0
+    Width = 217
+    Height = 521
+    Align = alLeft
+    TabOrder = 0
+    OnChange = DirectoryTreeView1Change
+  end
+  object FileListView1: TFileListView
+    Left = 220
+    Top = 0
+    Width = 563
+    Height = 521
+    Align = alClient
+    Directory.FileMask = '*.*'
+    PopupMenu = PopupMenu1
+    TabOrder = 1
+    OnChange = FileListView1Change
+    OnSelectItem = FileListView1SelectItem
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Top = 521
+    Width = 783
+    Height = 19
+    Panels = <>
+    SimplePanel = True
+  end
+  object PopupMenu1: TPopupMenu
+    OnPopup = PopupMenu1Popup
+    Left = 440
+    Top = 232
+    object ViewStyle1: TMenuItem
+      Caption = 'View Style'
+      object List1: TMenuItem
+        Caption = 'List'
+        RadioItem = True
+        OnClick = List1Click
+      end
+      object Report1: TMenuItem
+        Caption = 'Report'
+        RadioItem = True
+        OnClick = Report1Click
+      end
+    end
+    object ReadOnly1: TMenuItem
+      Caption = 'Read Only'
+      OnClick = ReadOnly1Click
+    end
+  end
+end

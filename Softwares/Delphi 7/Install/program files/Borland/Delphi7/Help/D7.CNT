@@ -1,0 +1,7 @@
+:Base d7.HLP>main
+:Title Delphi Help
+
+:Include d7.ohc
+:Include d7.ohi
+:Include d7.ohl
+:Include d7xtra.ohl

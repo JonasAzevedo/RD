@@ -1,0 +1,6 @@
+:Base d7derrs.hlp>main
+:Title Delphi Compiler Messages and Warnings
+;
+1 Delphi Compiler Messages and Warnings
+2 List of error messages and warnings=compilererrors
+

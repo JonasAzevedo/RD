@@ -1,0 +1,523 @@
+
+ Start         Length     Name                   Class
+ 0001:00000000 00006014H .text                   CODE
+ 0002:00000000 00000050H .data                   DATA
+ 0002:00000050 0000006DH .bss                    BSS
+
+
+Detailed map of segments
+
+ 0001:00000000 000001AE C=CODE     S=.text    G=(none)   M=System   ACBP=A9
+ 0001:000001B0 000001EC C=CODE     S=.text    G=(none)   M=SysInit  ACBP=A9
+ 0001:0000039C 00000058 C=CODE     S=.text    G=(none)   M=Windows  ACBP=A9
+ 0001:000003F4 0000000E C=CODE     S=.text    G=(none)   M=Types    ACBP=A9
+ 0001:00000404 00000038 C=CODE     S=.text    G=(none)   M=Messages ACBP=A9
+ 0001:0000043C 000000A6 C=CODE     S=.text    G=(none)   M=SysUtils ACBP=A9
+ 0001:000004E4 0000000E C=CODE     S=.text    G=(none)   M=SysConst ACBP=A9
+ 0001:000004F4 0000009E C=CODE     S=.text    G=(none)   M=Classes  ACBP=A9
+ 0001:00000594 0000000E C=CODE     S=.text    G=(none)   M=ActiveX  ACBP=A9
+ 0001:000005A4 0000000E C=CODE     S=.text    G=(none)   M=TypInfo  ACBP=A9
+ 0001:000005B4 0000000E C=CODE     S=.text    G=(none)   M=Variants ACBP=A9
+ 0001:000005C4 0000000E C=CODE     S=.text    G=(none)   M=VarUtils ACBP=A9
+ 0001:000005D4 0000000E C=CODE     S=.text    G=(none)   M=RTLConsts ACBP=A9
+ 0001:000005E4 0000000E C=CODE     S=.text    G=(none)   M=Graphics ACBP=A9
+ 0001:000005F4 0000000E C=CODE     S=.text    G=(none)   M=Consts   ACBP=A9
+ 0001:00000604 000000EE C=CODE     S=.text    G=(none)   M=Controls ACBP=A9
+ 0001:000006F4 00000016 C=CODE     S=.text    G=(none)   M=ActnList ACBP=A9
+ 0001:0000070C 0000000E C=CODE     S=.text    G=(none)   M=Contnrs  ACBP=A9
+ 0001:0000071C 0000000E C=CODE     S=.text    G=(none)   M=Math     ACBP=A9
+ 0001:0000072C 0000000E C=CODE     S=.text    G=(none)   M=ImgList  ACBP=A9
+ 0001:0000073C 00000038 C=CODE     S=.text    G=(none)   M=CommCtrl ACBP=A9
+ 0001:00000774 0000012E C=CODE     S=.text    G=(none)   M=Forms    ACBP=A9
+ 0001:000008A4 0000000E C=CODE     S=.text    G=(none)   M=HelpIntfs ACBP=A9
+ 0001:000008B4 0000000E C=CODE     S=.text    G=(none)   M=MultiMon ACBP=A9
+ 0001:000008C4 00000038 C=CODE     S=.text    G=(none)   M=Imm      ACBP=A9
+ 0001:000008FC 00000046 C=CODE     S=.text    G=(none)   M=Menus    ACBP=A9
+ 0001:00000944 0000000E C=CODE     S=.text    G=(none)   M=Themes   ACBP=A9
+ 0001:00000954 0000000E C=CODE     S=.text    G=(none)   M=UxTheme  ACBP=A9
+ 0001:00000964 0000000E C=CODE     S=.text    G=(none)   M=SyncObjs ACBP=A9
+ 0001:00000974 00000016 C=CODE     S=.text    G=(none)   M=ComCtrls ACBP=A9
+ 0001:0000098C 00000038 C=CODE     S=.text    G=(none)   M=ShlObj   ACBP=A9
+ 0001:000009C4 00000038 C=CODE     S=.text    G=(none)   M=UrlMon   ACBP=A9
+ 0001:000009FC 00000038 C=CODE     S=.text    G=(none)   M=WinInet  ACBP=A9
+ 0001:00000A34 00000038 C=CODE     S=.text    G=(none)   M=RegStr   ACBP=A9
+ 0001:00000A6C 00000038 C=CODE     S=.text    G=(none)   M=ShellAPI ACBP=A9
+ 0001:00000AA4 0000000E C=CODE     S=.text    G=(none)   M=ListActns ACBP=A9
+ 0001:00000AB4 0000000E C=CODE     S=.text    G=(none)   M=ExtCtrls ACBP=A9
+ 0001:00000AC4 00000016 C=CODE     S=.text    G=(none)   M=StdCtrls ACBP=A9
+ 0001:00000ADC 0000000E C=CODE     S=.text    G=(none)   M=WinHelpViewer ACBP=A9
+ 0001:00000AEC 0000000E C=CODE     S=.text    G=(none)   M=StdActns ACBP=A9
+ 0001:00000AFC 0000001E C=CODE     S=.text    G=(none)   M=Dialogs  ACBP=A9
+ 0001:00000B1C 0000000E C=CODE     S=.text    G=(none)   M=Printers ACBP=A9
+ 0001:00000B2C 00000038 C=CODE     S=.text    G=(none)   M=WinSpool ACBP=A9
+ 0001:00000B64 00000038 C=CODE     S=.text    G=(none)   M=CommDlg  ACBP=A9
+ 0001:00000B9C 00000038 C=CODE     S=.text    G=(none)   M=Dlgs     ACBP=A9
+ 0001:00000BD4 0000000E C=CODE     S=.text    G=(none)   M=StrUtils ACBP=A9
+ 0001:00000BE4 0000000E C=CODE     S=.text    G=(none)   M=Clipbrd  ACBP=A9
+ 0001:00000BF4 0000000E C=CODE     S=.text    G=(none)   M=FlatSB   ACBP=A9
+ 0001:00000C04 0000000E C=CODE     S=.text    G=(none)   M=ToolWin  ACBP=A9
+ 0001:00000C14 00000038 C=CODE     S=.text    G=(none)   M=RichEdit ACBP=A9
+ 0001:00000C4C 0000000E C=CODE     S=.text    G=(none)   M=ExtActns ACBP=A9
+ 0001:00000C5C 0000003E C=CODE     S=.text    G=(none)   M=Registry ACBP=A9
+ 0001:00000C9C 00000016 C=CODE     S=.text    G=(none)   M=IniFiles ACBP=A9
+ 0001:00000CB4 0000000E C=CODE     S=.text    G=(none)   M=ExtDlgs  ACBP=A9
+ 0001:00000CC4 0000000E C=CODE     S=.text    G=(none)   M=Buttons  ACBP=A9
+ 0001:00000CD4 0000000E C=CODE     S=.text    G=(none)   M=Mapi     ACBP=A9
+ 0001:00000CE4 0000000E C=CODE     S=.text    G=(none)   M=ComStrs  ACBP=A9
+ 0001:00000CF4 0000000E C=CODE     S=.text    G=(none)   M=FileCtrl ACBP=A9
+ 0001:00000D04 00000036 C=CODE     S=.text    G=(none)   M=ToolsAPI ACBP=A9
+ 0001:00000D3C 0000000E C=CODE     S=.text    G=(none)   M=DesignIntf ACBP=A9
+ 0001:00000D4C 0000000E C=CODE     S=.text    G=(none)   M=DesignMenus ACBP=A9
+ 0001:00000D5C 00000845 C=CODE     S=.text    G=(none)   M=FileList ACBP=A9
+ 0001:000015A4 0000001E C=CODE     S=.text    G=(none)   M=ProcessUtil ACBP=A9
+ 0001:000015C4 0000000E C=CODE     S=.text    G=(none)   M=PipeUtil ACBP=A9
+ 0001:000015D4 00001AC0 C=CODE     S=.text    G=(none)   M=MainForm ACBP=A9
+ 0001:00003094 00002D36 C=CODE     S=.text    G=(none)   M=ProjectWizardUnit ACBP=A9
+ 0001:00005DCC 00000245 C=CODE     S=.text    G=(none)   M=Idl2PasWizardPkg ACBP=A9
+ 0002:00000000 0000002C C=DATA     S=.data    G=DGROUP   M=SysInit  ACBP=A9
+ 0002:0000002C 00000007 C=DATA     S=.data    G=DGROUP   M=FileList ACBP=A9
+ 0002:00000034 0000000C C=DATA     S=.data    G=DGROUP   M=ProjectWizardUnit ACBP=A9
+ 0002:00001000 00000010 C=BSS      S=.bss     G=DGROUP   M=SysInit  ACBP=A9
+ 0002:00001010 00000004 C=BSS      S=.bss     G=DGROUP   M=Windows  ACBP=A9
+ 0002:00001014 00000004 C=BSS      S=.bss     G=DGROUP   M=Messages ACBP=A9
+ 0002:00001018 00000004 C=BSS      S=.bss     G=DGROUP   M=CommCtrl ACBP=A9
+ 0002:0000101C 00000004 C=BSS      S=.bss     G=DGROUP   M=Imm      ACBP=A9
+ 0002:00001020 00000004 C=BSS      S=.bss     G=DGROUP   M=ShlObj   ACBP=A9
+ 0002:00001024 00000004 C=BSS      S=.bss     G=DGROUP   M=UrlMon   ACBP=A9
+ 0002:00001028 00000004 C=BSS      S=.bss     G=DGROUP   M=WinInet  ACBP=A9
+ 0002:0000102C 00000004 C=BSS      S=.bss     G=DGROUP   M=RegStr   ACBP=A9
+ 0002:00001030 00000004 C=BSS      S=.bss     G=DGROUP   M=ShellAPI ACBP=A9
+ 0002:00001034 00000004 C=BSS      S=.bss     G=DGROUP   M=WinSpool ACBP=A9
+ 0002:00001038 00000004 C=BSS      S=.bss     G=DGROUP   M=CommDlg  ACBP=A9
+ 0002:0000103C 00000004 C=BSS      S=.bss     G=DGROUP   M=Dlgs     ACBP=A9
+ 0002:00001040 00000004 C=BSS      S=.bss     G=DGROUP   M=RichEdit ACBP=A9
+ 0002:00001044 00000008 C=BSS      S=.bss     G=DGROUP   M=FileList ACBP=A9
+ 0002:0000104C 00000014 C=BSS      S=.bss     G=DGROUP   M=MainForm ACBP=A9
+ 0002:00001060 0000000C C=BSS      S=.bss     G=DGROUP   M=ProjectWizardUnit ACBP=A9
+
+
+  Address         Publics by Name
+
+ 0002:0000103C       .1
+ 0002:00001020       .1
+ 0002:00001018       .1
+ 0002:0000101C       .1
+ 0002:00001038       .1
+ 0002:00001008       .1
+ 0002:00001014       .1
+ 0002:00001030       .1
+ 0002:00001040       .1
+ 0002:0000102C       .1
+ 0002:00001028       .1
+ 0002:00001024       .1
+ 0002:0000104C       .2
+ 0002:00001048       .2
+ 0002:00001064       .21
+ 0002:00001034       .3
+ 0002:00001010       .3
+ 0001:00005FEC       @GetPackageInfoTable
+ 0001:000002E8       @InitPkg
+ 0001:0000034C       @PackageLoad
+ 0001:00005FF4       @PackageLoad
+ 0001:00006000       @PackageUnload
+ 0001:00000358       @PackageUnload
+ 0001:00000EC4       AddFileToPath
+ 0001:00001B78       AddQuotes
+ 0001:00001C94       AddSpace
+ 0001:000020A0       AddSwitch
+ 0001:000001E8       AllocTlsBuffer
+ 0001:0000076C       CommCtrl
+ 0001:00000B94       CommDlg
+ 0002:00001050       DelReg
+ 0001:00000BCC       Dlgs
+ 0001:00005628       DoneApplet
+ 0001:00000294       ExitProcessTLS
+ 0001:0000026C       ExitThreadTLS
+ 0002:0000002C       FileAttributes
+ 0001:00000F8C       FileAttrToFileType
+ 0001:00001004       FileAttrToStr
+ 0001:00001584       FileList
+ 0002:00001044       FileList1
+ 0001:00000FD8       FileTypeToFileAttr
+ 0001:0000122C       FileTypeToStr
+ 0001:00000C14       Finalization
+ 0001:00000B2C       Finalization
+ 0001:00000A34       Finalization
+ 0001:00005D40       Finalization
+ 0001:00000A6C       Finalization
+ 0001:000009FC       Finalization
+ 0001:00000B9C       Finalization
+ 0001:000009C4       Finalization
+ 0001:00000B64       Finalization
+ 0001:0000098C       Finalization
+ 0001:000008C4       Finalization
+ 0001:0000073C       Finalization
+ 0001:00001548       Finalization
+ 0001:00000404       Finalization
+ 0001:00000364       Finalization
+ 0001:000003BC       Finalization
+ 0001:00002D24       Finalization
+ 0001:000001B0       FreeLibrary
+ 0001:00004070       GetActiveProject
+ 0001:00003FA8       GetActiveProjectGroup
+ 0001:0000039C       GetShortPathName
+ 0001:000001F4       GetTlsSize
+ 0002:00001004       HInstance
+ 0001:0000600C       Idl2PasWizardPkg
+ 0001:000008F4       Imm
+ 0001:00005588       InitApplet
+ 0001:000002B8       InitializeModule
+ 0001:00000240       InitProcessTLS
+ 0001:000001FC       InitThreadTLS
+ 0002:00000034       IsDelphi
+ 0001:000003A4       LoadIcon
+ 0001:000001B8       LocalAlloc
+ 0001:000001C0       LocalFree
+ 0001:00002D68       MainForm
+ 0002:00001060       MenuWizardImpl
+ 0001:00000434       Messages
+ 0002:00000004       Module
+ 0002:00001000       ModuleIsLib
+ 0002:00001001       ModuleIsPackage
+ 0001:00005D94       ProjectWizardUnit
+ 0002:00000038       PROJ_EXT
+ 0001:00003EE8       Register
+ 0001:00000A64       RegStr
+ 0001:00000C44       RichEdit
+ 0002:00001054       sDelphiPath
+ 0001:00000A9C       ShellAPI
+ 0001:000009BC       ShlObj
+ 0001:00001C04       ShortPath
+ 0002:0000105C       sJavaKey
+ 0002:00001058       sJavaVMPath
+ 0001:000010E0       StrToFileAttr
+ 0001:000011DC       StrToFileType
+ 0001:000003AC       Succeeded
+ 0002:00001068       sUsesString
+ 0001:00000394       SysInit
+ 0001:00001248       TFileList.Create
+ 0001:000012B4       TFileList.Destroy
+ 0001:000012E8       TFileList.Execute
+ 0001:00001488       TFileList.FileCount
+ 0001:00001494       TFileList.GetFileName
+ 0001:000014B0       TFileList.GetItems
+ 0001:00001538       TFileList.SetAddPath
+ 0001:000014B4       TFileList.SetFileName
+ 0001:000014C8       TFileList.SetFileType
+ 0001:000014C4       TFileList.SetItems
+ 0001:000014E8       TFileList.SetMask
+ 0001:00001510       TFileList.SetPath
+ 0001:000040C8       TIDL2PasClientAppWizard.Execute
+ 0001:00004430       TIDL2PasClientAppWizard.GetAuthor
+ 0001:00004454       TIDL2PasClientAppWizard.GetComment
+ 0001:00004468       TIDL2PasClientAppWizard.GetGlyph
+ 0001:0000448C       TIDL2PasClientAppWizard.GetIDString
+ 0001:000044C8       TIDL2PasClientAppWizard.GetName
+ 0001:000044DC       TIDL2PasClientAppWizard.GetPage
+ 0001:000044F0       TIDL2PasClientAppWizard.GetState
+ 0001:00002C80       TIDL2PasFormWizard.actFileRemoveExecute
+ 0001:00002CE8       TIDL2PasFormWizard.actFileRemoveUpdate
+ 0001:000024CC       TIDL2PasFormWizard.actGenFilesExecute
+ 0001:00002C58       TIDL2PasFormWizard.actGenFilesUpdate
+ 0001:000022D8       TIDL2PasFormWizard.btnAddClick
+ 0001:00001CF0       TIDL2PasFormWizard.Create
+ 0001:00001D34       TIDL2PasFormWizard.FormCreate
+ 0001:0000214C       TIDL2PasFormWizard.GenerateCmdLineOptions
+ 0001:0000242C       TIDL2PasFormWizard.ListBox1MouseMove
+ 0001:000059D8       TIDL2PasMenuWizard.AfterSave
+ 0001:000059DC       TIDL2PasMenuWizard.BeforeSave
+ 0001:00005934       TIDL2PasMenuWizard.Create
+ 0001:0000597C       TIDL2PasMenuWizard.Destroy
+ 0001:000059E0       TIDL2PasMenuWizard.Destroyed
+ 0001:000059E4       TIDL2PasMenuWizard.Execute
+ 0001:0000598C       TIDL2PasMenuWizard.GetIDString
+ 0001:000059C4       TIDL2PasMenuWizard.GetName
+ 0001:00005A2C       TIDL2PasMenuWizard.GetState
+ 0001:00005A38       TIDL2PasMenuWizard.Modified
+ 0001:000044FC       TIDL2PasServerAppWizard.Execute
+ 0001:00004904       TIDL2PasServerAppWizard.GetAuthor
+ 0001:00004928       TIDL2PasServerAppWizard.GetComment
+ 0001:0000493C       TIDL2PasServerAppWizard.GetGlyph
+ 0001:00004960       TIDL2PasServerAppWizard.GetIDString
+ 0001:0000499C       TIDL2PasServerAppWizard.GetName
+ 0001:000049B0       TIDL2PasServerAppWizard.GetPage
+ 0001:000049C4       TIDL2PasServerAppWizard.GetState
+ 0001:00004B64       TIDLProjectCreator.Create
+ 0001:00004BB0       TIDLProjectCreator.GetCreatorType
+ 0001:00004BD8       TIDLProjectCreator.GetExisting
+ 0001:00004BFC       TIDLProjectCreator.GetFileName
+ 0001:00004E28       TIDLProjectCreator.GetFileSystem
+ 0001:00004E34       TIDLProjectCreator.GetOptionFileName
+ 0001:00004E40       TIDLProjectCreator.GetOwner
+ 0001:00004E4C       TIDLProjectCreator.GetShowSource
+ 0001:00004E50       TIDLProjectCreator.GetUnnamed
+ 0001:00004E54       TIDLProjectCreator.NewDefaultModule
+ 0001:00004F18       TIDLProjectCreator.NewOptionSource
+ 0001:00004F24       TIDLProjectCreator.NewProjectResource
+ 0001:00004F28       TIDLProjectCreator.NewProjectSource
+ 0001:000001C8       TlsAlloc
+ 0002:0000100C       tlsBuffer
+ 0001:000001D0       TlsFree
+ 0001:000001D8       TlsGetValue
+ 0002:00000000       TlsIndex
+ 0002:FFBF8000       TlsLast
+ 0002:0000001C       TlsProc
+ 0001:000001E0       TlsSetValue
+ 0001:00005BA8       TMenuWizardImpl.destroy
+ 0001:00005A3C       TMenuWizardImpl.Init
+ 0001:00005C84       TMenuWizardImpl.RegenerateIDL1Click
+ 0001:00005190       TModuleCreator.CreateModule
+ 0001:000052E8       TModuleCreator.FormCreated
+ 0001:000052EC       TModuleCreator.GetAncestorName
+ 0001:000052F8       TModuleCreator.GetCreatorType
+ 0001:0000531C       TModuleCreator.GetExisting
+ 0001:00005320       TModuleCreator.GetFileSystem
+ 0001:0000532C       TModuleCreator.GetFormName
+ 0001:00005340       TModuleCreator.GetImplFileName
+ 0001:000054E8       TModuleCreator.GetIntfFileName
+ 0001:000054F4       TModuleCreator.GetMainForm
+ 0001:000054F8       TModuleCreator.GetOwner
+ 0001:00005504       TModuleCreator.GetShowForm
+ 0001:00005508       TModuleCreator.GetShowSource
+ 0001:0000550C       TModuleCreator.GetUnnamed
+ 0001:00005510       TModuleCreator.NewFormFile
+ 0001:00005520       TModuleCreator.NewImplSource
+ 0001:00005578       TModuleCreator.NewIntfSource
+ 0001:0000562C       TModuleFile.GetAge
+ 0001:00005644       TModuleFile.GetSource
+ 0001:000058C0       TModuleFileBase.CreateModuleFile
+ 0001:00004F70       TProjectFile.CreateNamedProject
+ 0001:00004FFC       TProjectFile.GetAge
+ 0001:00005014       TProjectFile.GetSource
+ 0001:000049D0       TSampleIDLWizard.Execute
+ 0001:00004AA8       TSampleIDLWizard.GetAuthor
+ 0001:00004ACC       TSampleIDLWizard.GetComment
+ 0001:00004AE0       TSampleIDLWizard.GetGlyph
+ 0001:00004B00       TSampleIDLWizard.GetIDString
+ 0001:00004B30       TSampleIDLWizard.GetName
+ 0001:00004B44       TSampleIDLWizard.GetPage
+ 0001:00004B58       TSampleIDLWizard.GetState
+ 0001:000002C4       UninitializeModule
+ 0001:000009F4       UrlMon
+ 0001:000003EC       Windows
+ 0001:00000A2C       WinInet
+ 0001:00000B5C       WinSpool
+
+
+  Address         Publics by Value
+
+ 0002:FFBF8000       TlsLast
+ 0001:000001B0       FreeLibrary
+ 0001:000001B8       LocalAlloc
+ 0001:000001C0       LocalFree
+ 0001:000001C8       TlsAlloc
+ 0001:000001D0       TlsFree
+ 0001:000001D8       TlsGetValue
+ 0001:000001E0       TlsSetValue
+ 0001:000001E8       AllocTlsBuffer
+ 0001:000001F4       GetTlsSize
+ 0001:000001FC       InitThreadTLS
+ 0001:00000240       InitProcessTLS
+ 0001:0000026C       ExitThreadTLS
+ 0001:00000294       ExitProcessTLS
+ 0001:000002B8       InitializeModule
+ 0001:000002C4       UninitializeModule
+ 0001:000002E8       @InitPkg
+ 0001:0000034C       @PackageLoad
+ 0001:00000358       @PackageUnload
+ 0001:00000364       Finalization
+ 0001:00000394       SysInit
+ 0001:0000039C       GetShortPathName
+ 0001:000003A4       LoadIcon
+ 0001:000003AC       Succeeded
+ 0001:000003BC       Finalization
+ 0001:000003EC       Windows
+ 0001:00000404       Finalization
+ 0001:00000434       Messages
+ 0001:0000073C       Finalization
+ 0001:0000076C       CommCtrl
+ 0001:000008C4       Finalization
+ 0001:000008F4       Imm
+ 0001:0000098C       Finalization
+ 0001:000009BC       ShlObj
+ 0001:000009C4       Finalization
+ 0001:000009F4       UrlMon
+ 0001:000009FC       Finalization
+ 0001:00000A2C       WinInet
+ 0001:00000A34       Finalization
+ 0001:00000A64       RegStr
+ 0001:00000A6C       Finalization
+ 0001:00000A9C       ShellAPI
+ 0001:00000B2C       Finalization
+ 0001:00000B5C       WinSpool
+ 0001:00000B64       Finalization
+ 0001:00000B94       CommDlg
+ 0001:00000B9C       Finalization
+ 0001:00000BCC       Dlgs
+ 0001:00000C14       Finalization
+ 0001:00000C44       RichEdit
+ 0001:00000EC4       AddFileToPath
+ 0001:00000F8C       FileAttrToFileType
+ 0001:00000FD8       FileTypeToFileAttr
+ 0001:00001004       FileAttrToStr
+ 0001:000010E0       StrToFileAttr
+ 0001:000011DC       StrToFileType
+ 0001:0000122C       FileTypeToStr
+ 0001:00001248       TFileList.Create
+ 0001:000012B4       TFileList.Destroy
+ 0001:000012E8       TFileList.Execute
+ 0001:00001488       TFileList.FileCount
+ 0001:00001494       TFileList.GetFileName
+ 0001:000014B0       TFileList.GetItems
+ 0001:000014B4       TFileList.SetFileName
+ 0001:000014C4       TFileList.SetItems
+ 0001:000014C8       TFileList.SetFileType
+ 0001:000014E8       TFileList.SetMask
+ 0001:00001510       TFileList.SetPath
+ 0001:00001538       TFileList.SetAddPath
+ 0001:00001548       Finalization
+ 0001:00001584       FileList
+ 0001:00001B78       AddQuotes
+ 0001:00001C04       ShortPath
+ 0001:00001C94       AddSpace
+ 0001:00001CF0       TIDL2PasFormWizard.Create
+ 0001:00001D34       TIDL2PasFormWizard.FormCreate
+ 0001:000020A0       AddSwitch
+ 0001:0000214C       TIDL2PasFormWizard.GenerateCmdLineOptions
+ 0001:000022D8       TIDL2PasFormWizard.btnAddClick
+ 0001:0000242C       TIDL2PasFormWizard.ListBox1MouseMove
+ 0001:000024CC       TIDL2PasFormWizard.actGenFilesExecute
+ 0001:00002C58       TIDL2PasFormWizard.actGenFilesUpdate
+ 0001:00002C80       TIDL2PasFormWizard.actFileRemoveExecute
+ 0001:00002CE8       TIDL2PasFormWizard.actFileRemoveUpdate
+ 0001:00002D24       Finalization
+ 0001:00002D68       MainForm
+ 0001:00003EE8       Register
+ 0001:00003FA8       GetActiveProjectGroup
+ 0001:00004070       GetActiveProject
+ 0001:000040C8       TIDL2PasClientAppWizard.Execute
+ 0001:00004430       TIDL2PasClientAppWizard.GetAuthor
+ 0001:00004454       TIDL2PasClientAppWizard.GetComment
+ 0001:00004468       TIDL2PasClientAppWizard.GetGlyph
+ 0001:0000448C       TIDL2PasClientAppWizard.GetIDString
+ 0001:000044C8       TIDL2PasClientAppWizard.GetName
+ 0001:000044DC       TIDL2PasClientAppWizard.GetPage
+ 0001:000044F0       TIDL2PasClientAppWizard.GetState
+ 0001:000044FC       TIDL2PasServerAppWizard.Execute
+ 0001:00004904       TIDL2PasServerAppWizard.GetAuthor
+ 0001:00004928       TIDL2PasServerAppWizard.GetComment
+ 0001:0000493C       TIDL2PasServerAppWizard.GetGlyph
+ 0001:00004960       TIDL2PasServerAppWizard.GetIDString
+ 0001:0000499C       TIDL2PasServerAppWizard.GetName
+ 0001:000049B0       TIDL2PasServerAppWizard.GetPage
+ 0001:000049C4       TIDL2PasServerAppWizard.GetState
+ 0001:000049D0       TSampleIDLWizard.Execute
+ 0001:00004AA8       TSampleIDLWizard.GetAuthor
+ 0001:00004ACC       TSampleIDLWizard.GetComment
+ 0001:00004AE0       TSampleIDLWizard.GetGlyph
+ 0001:00004B00       TSampleIDLWizard.GetIDString
+ 0001:00004B30       TSampleIDLWizard.GetName
+ 0001:00004B44       TSampleIDLWizard.GetPage
+ 0001:00004B58       TSampleIDLWizard.GetState
+ 0001:00004B64       TIDLProjectCreator.Create
+ 0001:00004BB0       TIDLProjectCreator.GetCreatorType
+ 0001:00004BD8       TIDLProjectCreator.GetExisting
+ 0001:00004BFC       TIDLProjectCreator.GetFileName
+ 0001:00004E28       TIDLProjectCreator.GetFileSystem
+ 0001:00004E34       TIDLProjectCreator.GetOptionFileName
+ 0001:00004E40       TIDLProjectCreator.GetOwner
+ 0001:00004E4C       TIDLProjectCreator.GetShowSource
+ 0001:00004E50       TIDLProjectCreator.GetUnnamed
+ 0001:00004E54       TIDLProjectCreator.NewDefaultModule
+ 0001:00004F18       TIDLProjectCreator.NewOptionSource
+ 0001:00004F24       TIDLProjectCreator.NewProjectResource
+ 0001:00004F28       TIDLProjectCreator.NewProjectSource
+ 0001:00004F70       TProjectFile.CreateNamedProject
+ 0001:00004FFC       TProjectFile.GetAge
+ 0001:00005014       TProjectFile.GetSource
+ 0001:00005190       TModuleCreator.CreateModule
+ 0001:000052E8       TModuleCreator.FormCreated
+ 0001:000052EC       TModuleCreator.GetAncestorName
+ 0001:000052F8       TModuleCreator.GetCreatorType
+ 0001:0000531C       TModuleCreator.GetExisting
+ 0001:00005320       TModuleCreator.GetFileSystem
+ 0001:0000532C       TModuleCreator.GetFormName
+ 0001:00005340       TModuleCreator.GetImplFileName
+ 0001:000054E8       TModuleCreator.GetIntfFileName
+ 0001:000054F4       TModuleCreator.GetMainForm
+ 0001:000054F8       TModuleCreator.GetOwner
+ 0001:00005504       TModuleCreator.GetShowForm
+ 0001:00005508       TModuleCreator.GetShowSource
+ 0001:0000550C       TModuleCreator.GetUnnamed
+ 0001:00005510       TModuleCreator.NewFormFile
+ 0001:00005520       TModuleCreator.NewImplSource
+ 0001:00005578       TModuleCreator.NewIntfSource
+ 0001:00005588       InitApplet
+ 0001:00005628       DoneApplet
+ 0001:0000562C       TModuleFile.GetAge
+ 0001:00005644       TModuleFile.GetSource
+ 0001:000058C0       TModuleFileBase.CreateModuleFile
+ 0001:00005934       TIDL2PasMenuWizard.Create
+ 0001:0000597C       TIDL2PasMenuWizard.Destroy
+ 0001:0000598C       TIDL2PasMenuWizard.GetIDString
+ 0001:000059C4       TIDL2PasMenuWizard.GetName
+ 0001:000059D8       TIDL2PasMenuWizard.AfterSave
+ 0001:000059DC       TIDL2PasMenuWizard.BeforeSave
+ 0001:000059E0       TIDL2PasMenuWizard.Destroyed
+ 0001:000059E4       TIDL2PasMenuWizard.Execute
+ 0001:00005A2C       TIDL2PasMenuWizard.GetState
+ 0001:00005A38       TIDL2PasMenuWizard.Modified
+ 0001:00005A3C       TMenuWizardImpl.Init
+ 0001:00005BA8       TMenuWizardImpl.destroy
+ 0001:00005C84       TMenuWizardImpl.RegenerateIDL1Click
+ 0001:00005D40       Finalization
+ 0001:00005D94       ProjectWizardUnit
+ 0001:00005FEC       @GetPackageInfoTable
+ 0001:00005FF4       @PackageLoad
+ 0001:00006000       @PackageUnload
+ 0001:0000600C       Idl2PasWizardPkg
+ 0002:00000000       TlsIndex
+ 0002:00000004       Module
+ 0002:0000001C       TlsProc
+ 0002:0000002C       FileAttributes
+ 0002:00000034       IsDelphi
+ 0002:00000038       PROJ_EXT
+ 0002:00001000       ModuleIsLib
+ 0002:00001001       ModuleIsPackage
+ 0002:00001004       HInstance
+ 0002:00001008       .1
+ 0002:0000100C       tlsBuffer
+ 0002:00001010       .3
+ 0002:00001014       .1
+ 0002:00001018       .1
+ 0002:0000101C       .1
+ 0002:00001020       .1
+ 0002:00001024       .1
+ 0002:00001028       .1
+ 0002:0000102C       .1
+ 0002:00001030       .1
+ 0002:00001034       .3
+ 0002:00001038       .1
+ 0002:0000103C       .1
+ 0002:00001040       .1
+ 0002:00001044       FileList1
+ 0002:00001048       .2
+ 0002:0000104C       .2
+ 0002:00001050       DelReg
+ 0002:00001054       sDelphiPath
+ 0002:00001058       sJavaVMPath
+ 0002:0000105C       sJavaKey
+ 0002:00001060       MenuWizardImpl
+ 0002:00001064       .21
+ 0002:00001068       sUsesString
+
+
+Bound resource files
+
+MainForm.dfm
+idlnew.res
+Idl2PasWizardPkg.res
+C:\DOCUME~1\~KOKOP~1\LOCALS~1\Temp\dtf28FF.tmp
+
+
+Program entry point at 0001:0000600C

@@ -1,0 +1,87 @@
+===========================================================
+Note: The FIF libraries that were supplied in the
+\INFO\EXTRAS folder in previous versions of Delphi are no
+longer available due to discontinued development and
+support by the vendor, Iterated Systems.
+===========================================================
+
+The following is a description of the add-in units 
+available in the \INFO\EXTRAS directory on your Delphi CD.
+
+\INFO\EXTRAS\COMCTL
+-----------------------------------------------------------
+This includes the comctl32.dll from Internet Explorer 
+version 5.0. This is supplied for compatibility reasons.
+
+\INFO\EXTRAS\JPEG
+-----------------------------------------------------------
+   This directory includes the Delphi unit files
+   JConsts.pas and JPeg.pas, which were used to generate
+   the .DCU files installed with Delphi.  The JPeg unit
+   (and the .DCUs installed with Delphi) defines a graphic
+   class (TJPEGImage) and its helper object (TJPEGData).
+   The .DCUs installed with Delphi are completely self-
+   sufficient -- you do not need any of the files in the
+   INFO\EXTRAS\JPEG directory to use these.  However, if
+   you wish to read or alter the JPEG source, you may edit
+   the unit files in the JPEG directory. If you recompile
+   the units in the INFO\EXTRAS\JPEG directory, you must
+   link in the object files for the Independent JPEG
+   group's (IPG) implementation of the JPEG compression/
+   decompression standard. The OBJ files in this JPEG
+   library are included in the OBJ subdirectory. If you
+   wish to view the source files for those OBJ files, you
+   can look in the SRC directory. The SRC directory also
+   includes a readme file that provides more information,
+   including distribution information.
+   
+\INFO\EXTRAS\REGCLEANUTILITY
+-----------------------------------------------------------
+This is the source to the D7REGCLEAN.EXE utility found in 
+the \bin directory. This tool will clean up user settings in 
+the registry.
+
+
+\INFO\EXTRAS\REGFLIP
+-----------------------------------------------------------
+RegFlip is a utility that will allow you to add, remove, and
+edit settings for Just In Time Debuggers in the Windows 
+registry.
+
+\INFO\EXTRAS\SENDKEYS
+-----------------------------------------------------------
+  This unit includes two functions provided by Ken
+  Henderson that simulate popular Visual Basic routines:
+  Sendkeys and AppActivate. SendKeys can send only key-
+  strokes that are available directly from the keyboard. It
+  does not send so-called "dead keys" -- special key
+  combinations used in some languages.
+  
+
+\INFO\EXTRAS\TRANSLATION MGR
+-----------------------------------------------------------
+Information on how to install the External Translation 
+Manager on a translator's machine, and how to send and 
+receive Delphi projects for translation.
+
+\INFO\EXTRAS\ZLIB
+-----------------------------------------------------------
+   This directory includes the Delphi ZLIB unit file, which
+   implements utilities for compressing and decompressing
+   information using the freely distributable library
+   written by Jean-loup Gailly and Mark Adler.  This unit
+   provides two stream objects, TCompressionStream and
+   TDecompressionStream, that can be used to compress
+   information as it is written or decompress information
+   as it is read. It also includes the global CompressBuf
+   and DecompressBuf procedures to compress and decompress
+   information using buffers. To use the ZLIB unit, you
+   must link the OBJ files in the OBJ directory to your
+   Delphi application. The C source for these .OBJ files is
+   included in the SRC directory, along with a readme file
+   that provides more information about the library and a
+   disclaimer by the authors.
+ 
+===========================================================
+Copyright (c) 2002 Borland Software Corporation. All rights
+reserved.

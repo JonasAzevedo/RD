@@ -1,0 +1,8 @@
+:Base sqlbuild.hlp>main
+:Title SQL Builder Help
+:Index SQL Builder Help=SQLBUILD.HLP
+
+;CNT section
+;============
+:INCLUDE SQLBUILD.TOC
+

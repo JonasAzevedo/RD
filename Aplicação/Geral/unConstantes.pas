@@ -6,9 +6,15 @@ type
   TModoInsercao = (tmiAtualizar, tmiInserir);
 
 const
+  sNAO = '0';
+  sSIM = '1';
   nNUMERO_INDEFINIDO = -1;
   sSTRING_INDEFINIDO = '';
   sNUMERO_INDEFINIDO = '-1';
+  nCANCELA_SALVAMENTO = -999;
+  nPROCESSANDO_SALVAMENTO = 0;
+  nREGISTRO_JAH_EXISTENTE = 0;
+  nNOVO_REGISTRO = 1;
   nABA_DADOS = 0;
   nABA_EDICAO = 1;
   sESCONDER_SENHA = '*';
@@ -24,10 +30,10 @@ const
   sIDENTIFICADOR_PASSWORD = 'password';
 
   //componentes campos configuráveis
-  sIDENTIFICADOR_LABEL = 'lbl';
-  sIDENTIFICADOR_EDIT = 'ed';
-  sIDENTIFICADOR_MEMO = 'mm';
-  sIDENTIFICADOR_CAIXA_SELECAO = 'cb';
+  sPREFIXO_LABEL = 'lbl';
+  sPREFIXO_EDIT = 'ed';
+  sPREFIXO_MEMO = 'mm';
+  sPREFIXO_CAIXA_SELECAO = 'cb';
   nINICIO_TOPO_COMPONENTES = 40;
   nLEFT_COMPONENTES = 30;
   nWIDTH_COMPONENTES = 550;
@@ -43,6 +49,11 @@ const
   nCODIGO_TIPO_CAMPO_AREA_TEXTO = 2;
   nCODIGO_TIPO_CAMPO_CAIXA_SELECAO = 3;
 
+  //generator
+  sGEN_ID_CAMPOS = 'GEN_CAMPOS';
+  sGEN_ID_USUARIOS = 'GEN_USUARIOS';
+  sGEN_ID_CONTATOS = 'GEN_CONTATOS';
+
   //campos dataSet's
   sFIELD_CODIGO = 'codigo';
   sFIELD_CAMPO_CODIGO_USUARIO = 'codigo_usuario';
@@ -56,8 +67,18 @@ const
   sFIELD_CAMPO_CONFIG_CONTATO_CODIGO_CAMPO = 'codigo_campo';
   sFIELD_CAMPO_CONFIG_CONTATO_NOME_CAMPO = 'nome_campo';
   sFIELD_CAMPO_CONFIG_CONTATO_CODIGO_TIPO_CAMPO = 'codigo_tipo_campo';
-  sFIELD_CAMPO_CONFIG_CONTATO_CODIGO_CONTATO_CAMPO = 'codigo_contato_campo';
-  sFIELD_CAMPO_CONFIG_CONTATO_VALOR = 'valor';  
+  qsFIELD_CAMPO_CONFIG_CONTATO_CODIGO_CONTATO_CAMPO = 'codigo_contato_campo';
+  sFIELD_CAMPO_CONFIG_CONTATO_VALOR = 'valor';
+  sFIELD_CONTATO_CAMPO_EDICAO_CODIGO_CONTATO = 'codigo_contato';
+  sFIELD_CONTATO_CAMPO_EDICAO_CODIGO_CAMPO = 'codigo_campo';
+  sFIELD_CONTATO_CAMPO_EDICAO_VALOR = 'valor';
+  sFIELD_USUARIO_EMAIL = 'email';
+  sFIELD_USUARIO_NOME = 'nome';
+  sFIELD_USUARIO_SENHA = 'senha';
+  sFIELD_CONTATO_CAMPO_CODIGO_CONTATO = 'codigo_contato';
+  sFIELD_CONTATO_CAMPO_CC_CONTATO_NOVO = 'cc_contatoNovo';
+  sFIELD_CONTATO_CAMPO_CODIGO_CAMPO = 'codigo_campo';
+  sFIELD_CONTATO_CAMPO_VALOR = 'valor';
 
   //mensagens
   sMSG_ARQUIVO_CONFIGURACAO_NAO_EXISTE = 'Não foi encontrado o arquivo de configuração do sistema.';
@@ -73,18 +94,18 @@ const
   sMSG_OCORREU_ERRO_SALVAR_CONTATO = 'Ocorreu um erro ao salvar os contatos.';
   sMSG_OCORREU_ERRO_SALVAR_USUARIO = 'Ocorreu um erro ao salvar o usuário.';
   sMSG_OCORREU_ERRO_DELETAR_CAMPO_DO_USUARIO = 'Ocorreu um erro ao deletar o campo do usuário.';
-  sMSG_OCORREU_ERRO_DELETAR_CONTATO = 'Ocorreu um erro ao deletar o contato.';  
+  sMSG_OCORREU_ERRO_DELETAR_CONTATO = 'Ocorreu um erro ao deletar o contato.';
   sMSG_NAO_HA_DADOS_PARA_SALVAR = 'Não há dados para salvar.';
   sMSG_OCORREU_ERRO_SALVAR_REGISTRO = 'Ocorreu um erro ao salvar o registro.';
   sMSG_REGISTRO_DELETADO = 'Registro deletado.';
-  sMSG_DEVE_SER_INFORMADO_EMAIL = 'Deve ser informado um email válido.';
+  sMSG_DEVE_SER_INFORMADO_EMAIL_VALIDO = 'Deve ser informado um email válido.';
   sMSG_DEVE_SER_INFORMADO_NOME_TIPO_CAMPO = 'Deve ser informado um nome e um tipo de campo.';
   sMSG_DESEJA_FECHAR_TELA = 'Deseja mesmo fechar a tela?';
   sMSG_DESEJA_CONTINUAR_DELECAO_CAMPO = 'Este campo pode estar sendo utilizado em algum contato. Deseja continuar com a deleção do referido campo?';
   sMSG_DESEJA_CONTINUAR_DELECAO_CONTATO = 'Todos os campos configuráveis do contato também serão deletados. Deseja continuar com a deleção do referido contato?';
   sMSG_OCORREU_PARA_ACESSAR_DADOS = 'Ocorreu um erro para acessar os dados.';
+  sMSG_OCORREU_ERRO_SALVAR_CAMPOS_CONTATO = 'Ocorreu um erro ao salvar os campos do contato.';
 
 implementation
-
 
 end.

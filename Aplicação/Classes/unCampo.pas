@@ -19,12 +19,13 @@ uses
       function GetNome: String;
       procedure SetNome(const psNome: String);
     protected
-      function Atualizar: Boolean; override;
-      function Inserir: Boolean; override;
+      function Atualizar: Integer; override;
+      function Inserir: Integer; override;
       procedure DefinirComponentesAcessoDados; override;
       procedure DefinirFieldsAcessoDados; override;
       procedure DefinirComponentesDadosParaNil; override;
       function ValidarFieldsAtivos: Boolean; override;
+      function ProcessarSalvamento: Integer; override;
     public
       property prpNome: String read GetNome write SetNome;
 
@@ -34,8 +35,7 @@ uses
       function Editar: Boolean; override;
       function Novo: Boolean; override;
       function Salvar: Boolean; override;
-      function Deletar(const piCodigo: Integer): Boolean; override;
-      procedure DeletarCdsDados; override;
+      function Deletar(const pnCodigo: Integer): Boolean; override;
       procedure Cancelar; override;
       procedure CarregarCamposParaCadastro;
       procedure DefinirDescricaoTipoCampo;
@@ -51,6 +51,7 @@ uses
 constructor TCampo.Create;
 begin
   inherited;
+  DefinirGenerator(sGEN_ID_CAMPOS);
 end;
 
 destructor TCampo.Destroy;
@@ -97,72 +98,36 @@ end;
 function TCampo.Salvar: Boolean;
 begin
   Result := inherited Salvar;
-
-  if not(Result) then
-    Exit;
-
-  IniciarTransacao;
-  try
-    try
-      FoCdsDados.First;
-      while not(FoCdsDados.Eof) do
-      begin
-        if (FoFieldCodigo.AsInteger = nNUMERO_INDEFINIDO) then
-          Result := Inserir
-        else
-          Result := Atualizar;
-
-        if not(Result) then
-        begin
-          prpMensagem := sMSG_OCORREU_ERRO_SALVAR_CAMPOS_DO_USUARIO;
-          Exit;
-        end;
-
-        FoCdsDados.Next;
-      end;
-    finally
-      if not(Result) then
-        RollbackTransacao
-      else
-        ComitarTransacao;
-    end;
-  except
-    prpMensagem := sMSG_OCORREU_ERRO_SALVAR_CAMPOS_DO_USUARIO;
-    RollbackTransacao;
-  end;
-
-  Result := True;
 end;
 
-function TCampo.Deletar(const piCodigo: Integer): Boolean;
+function TCampo.Deletar(const pnCodigo: Integer): Boolean;
 begin
-  Result := False;
   try
     IniciarTransacao;
 
-    //xxxxx - deletar todos os contatos campos
+    //deleta os campos dos contatos
+    FoQryExecutar.Close;
+    FoQryExecutar.SQL.Clear;
+    FoQryExecutar.SQL.Add('DELETE FROM contato_campo ');
+    FoQryExecutar.SQL.Add('WHERE codigo_campo = :pCodigoCampo');
+    FoQryExecutar.ParamByName('pCodigoCampo').AsInteger := pnCodigo;
+    FoQryExecutar.ExecSQL;
 
+    //deleta o campos
     FoQryExecutar.Close;
     FoQryExecutar.SQL.Clear;
     FoQryExecutar.SQL.Add('DELETE FROM campos ');
     FoQryExecutar.SQL.Add('WHERE codigo = :pCodigo');
-    FoQryExecutar.ParamByName('pCodigo').AsInteger := piCodigo;
+    FoQryExecutar.ParamByName('pCodigo').AsInteger := pnCodigo;
     FoQryExecutar.ExecSQL;
 
     ComitarTransacao;
     Result := True;
   except
+    Result := False;
     prpMensagem := sMSG_OCORREU_ERRO_DELETAR_CAMPO_DO_USUARIO;
     RollbackTransacao;
   end;
-end;
-
-procedure TCampo.DeletarCdsDados;
-begin
-  if not(ValidarCdsDadosEstahAtivo) then
-    Exit;
-
-  FoCdsDados.Delete;
 end;
 
 procedure TCampo.Cancelar;
@@ -170,33 +135,40 @@ begin
   FoCdsDados.Cancel;
 end;
 
-function TCampo.Atualizar: Boolean;
+function TCampo.Atualizar: Integer;
 begin
-  Result := False;
-  FoQryExecutar.Close;
-  FoQryExecutar.SQL.Clear;
-  FoQryExecutar.SQL.Add('UPDATE campos ');
-  FoQryExecutar.SQL.Add('SET codigo_tipo_campo = :pCodigoTipoCampo, nome = :pNome ');
-  FoQryExecutar.SQL.Add('WHERE codigo = :pCodigo');
-  FoQryExecutar.ParamByName('pCodigoTipoCampo').AsInteger := FoFieldCodigoTipoCampo.AsInteger;
-  FoQryExecutar.ParamByName('pNome').AsString := FoFieldNome.AsString;
-  FoQryExecutar.ParamByName('pCodigo').AsInteger := FoFieldCodigo.AsInteger;
-  FoQryExecutar.ExecSQL;
-  Result := True;
+  try
+    FoQryExecutar.Close;
+    FoQryExecutar.SQL.Clear;
+    FoQryExecutar.SQL.Add('UPDATE campos ');
+    FoQryExecutar.SQL.Add('SET codigo_tipo_campo = :pCodigoTipoCampo, nome = :pNome ');
+    FoQryExecutar.SQL.Add('WHERE codigo = :pCodigo');
+    FoQryExecutar.ParamByName('pCodigoTipoCampo').AsInteger := FoFieldCodigoTipoCampo.AsInteger;
+    FoQryExecutar.ParamByName('pNome').AsString := FoFieldNome.AsString;
+    FoQryExecutar.ParamByName('pCodigo').AsInteger := FoFieldCodigo.AsInteger;
+    FoQryExecutar.ExecSQL;
+    Result := FoFieldCodigo.AsInteger;
+  except
+    Result := nNUMERO_INDEFINIDO;
+  end;
 end;
 
-function TCampo.Inserir: Boolean;
+function TCampo.Inserir: Integer;
 begin
-  Result := False;
-  FoQryExecutar.Close;
-  FoQryExecutar.SQL.Clear;
-  FoQryExecutar.SQL.Add('INSERT INTO campos (codigo_usuario, codigo_tipo_campo, nome) ');
-  FoQryExecutar.SQL.Add('VALUES (:pCodigoUsuario, :pCodigoTipoCampo, :pNome)');
-  FoQryExecutar.ParamByName('pCodigoUsuario').AsInteger := FoFieldCodigoUsuario.AsInteger;
-  FoQryExecutar.ParamByName('pCodigoTipoCampo').AsInteger := FoFieldCodigoTipoCampo.AsInteger;
-  FoQryExecutar.ParamByName('pNome').AsString := FoFieldNome.AsString;
-  FoQryExecutar.ExecSQL;
-  Result := True;
+  try
+    FoQryExecutar.Close;
+    FoQryExecutar.SQL.Clear;
+    FoQryExecutar.SQL.Add('INSERT INTO campos (codigo_usuario, codigo_tipo_campo, nome) ');
+    FoQryExecutar.SQL.Add('VALUES (:pCodigoUsuario, :pCodigoTipoCampo, :pNome)');
+    FoQryExecutar.ParamByName('pCodigoUsuario').AsInteger := FoFieldCodigoUsuario.AsInteger;
+    FoQryExecutar.ParamByName('pCodigoTipoCampo').AsInteger := FoFieldCodigoTipoCampo.AsInteger;
+    FoQryExecutar.ParamByName('pNome').AsString := FoFieldNome.AsString;
+    FoQryExecutar.ExecSQL;
+    Result := PegarCodigoUltimoRegistro;
+    AtualizarCodigoRegistroInserido(Result);
+  except
+    Result := nNUMERO_INDEFINIDO;
+  end;
 end;
 
 procedure TCampo.DefinirComponentesAcessoDados;
@@ -252,6 +224,40 @@ begin
     and (Assigned(FoFieldNome));
 end;
 
+function TCampo.ProcessarSalvamento: Integer;
+begin
+  Result := inherited ProcessarSalvamento;
+
+  if (Result = nNUMERO_INDEFINIDO) or (Result = nCANCELA_SALVAMENTO) then
+    Exit;
+
+  Result := nNUMERO_INDEFINIDO;
+
+  IniciarTransacao;
+  try
+    try
+      if (FoFieldCodigo.AsInteger = nNUMERO_INDEFINIDO) then
+        Result := Inserir
+      else
+        Result := Atualizar;
+
+      if (Result = nNUMERO_INDEFINIDO) then
+      begin
+        prpMensagem := sMSG_OCORREU_ERRO_SALVAR_CAMPOS_DO_USUARIO;
+        Exit;
+      end;
+    finally
+      if (Result = nNUMERO_INDEFINIDO) then
+        RollbackTransacao
+      else
+        ComitarTransacao;
+    end;
+  except
+    prpMensagem := sMSG_OCORREU_ERRO_SALVAR_CAMPOS_DO_USUARIO;
+    RollbackTransacao;
+  end;
+end;
+
 procedure TCampo.CarregarCamposParaCadastro;
 begin
   //carrega os campos
@@ -262,7 +268,8 @@ begin
   FoQryDados.SQL.Add('C.nome, TC.descricao AS "desc_tipo_campo", C.data_cadastro ');
   FoQryDados.SQL.Add('FROM campos C ');
   FoQryDados.SQL.Add('JOIN "TIPOS_ CAMPOS" TC ON C.codigo_tipo_campo = TC.codigo ');
-  FoQryDados.SQL.Add('WHERE C.codigo_usuario = :pCodigoUsuario');
+  FoQryDados.SQL.Add('WHERE C.codigo_usuario = :pCodigoUsuario ');
+  FoQryDados.SQL.Add('ORDER BY C.codigo');
   FoQryDados.ParamByName('pCodigoUsuario').AsInteger := TUsuarioSingleton.ObterInstancia.prpCodigoUsuario;
   FoQryDados.Open;
   FoCdsDados.Open;

@@ -1,0 +1,6 @@
+#define PRODUCT_NAME 101
+
+STRINGTABLE
+{
+PRODUCT_NAME, "Borland Delphi"
+}

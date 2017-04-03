@@ -59,6 +59,8 @@ function TInicializacao.ConectarBancoDados: Boolean;
 begin
   Result := False;
 
+  DM.zConnection.Connected := False;
+
   if not(CarregarArquivoConfiguracoes) then
     Exit;
   try

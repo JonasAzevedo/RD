@@ -1,0 +1,15 @@
+#define MSG_APPNOTFOUND 102
+#define MSG_NTONLY 103
+#define MSG_UNKNOWNOS 104
+#define MSG_WARNING 105
+#define TITLE_WARNING 106
+
+STRINGTABLE
+{
+MSG_APPNOTFOUND, "Cannot detect Delphi 7.0"
+MSG_NTONLY, "This application works only on Windows NT or greater."
+MSG_UNKNOWNOS, "Cannot determine the version of Windows which is installed."
+MSG_WARNING, "This will permanently erase your user settings for Delphi 7.0.\nAre you sure you want to do this?"
+TITLE_WARNING, "Warning"
+}
+

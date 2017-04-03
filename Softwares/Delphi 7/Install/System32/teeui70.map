@@ -1,0 +1,1587 @@
+
+ Start         Length     Name                   Class
+ 0001:00000000 000162BCH .text                   CODE
+ 0002:00000000 000000E0H .data                   DATA
+ 0002:000000E0 000000B5H .bss                    BSS
+
+
+Detailed map of segments
+
+ 0001:00000000 00000196 C=CODE     S=.text    G=(none)   M=System   ACBP=A9
+ 0001:00000198 000001EC C=CODE     S=.text    G=(none)   M=SysInit  ACBP=A9
+ 0001:00000384 0000006C C=CODE     S=.text    G=(none)   M=Windows  ACBP=A9
+ 0001:000003F0 0000000E C=CODE     S=.text    G=(none)   M=Types    ACBP=A9
+ 0001:00000400 00000038 C=CODE     S=.text    G=(none)   M=Messages ACBP=A9
+ 0001:00000438 00000086 C=CODE     S=.text    G=(none)   M=SysUtils ACBP=A9
+ 0001:000004C0 0000000E C=CODE     S=.text    G=(none)   M=SysConst ACBP=A9
+ 0001:000004D0 0000015E C=CODE     S=.text    G=(none)   M=Classes  ACBP=A9
+ 0001:00000630 0000000E C=CODE     S=.text    G=(none)   M=ActiveX  ACBP=A9
+ 0001:00000640 0000000E C=CODE     S=.text    G=(none)   M=TypInfo  ACBP=A9
+ 0001:00000650 0000000E C=CODE     S=.text    G=(none)   M=Variants ACBP=A9
+ 0001:00000660 0000000E C=CODE     S=.text    G=(none)   M=VarUtils ACBP=A9
+ 0001:00000670 0000000E C=CODE     S=.text    G=(none)   M=RTLConsts ACBP=A9
+ 0001:00000680 000000BE C=CODE     S=.text    G=(none)   M=Graphics ACBP=A9
+ 0001:00000740 0000000E C=CODE     S=.text    G=(none)   M=Consts   ACBP=A9
+ 0001:00000750 000002D6 C=CODE     S=.text    G=(none)   M=Controls ACBP=A9
+ 0001:00000A28 0000000E C=CODE     S=.text    G=(none)   M=ActnList ACBP=A9
+ 0001:00000A38 0000000E C=CODE     S=.text    G=(none)   M=Contnrs  ACBP=A9
+ 0001:00000A48 0000000E C=CODE     S=.text    G=(none)   M=Math     ACBP=A9
+ 0001:00000A58 0000000E C=CODE     S=.text    G=(none)   M=ImgList  ACBP=A9
+ 0001:00000A68 00000038 C=CODE     S=.text    G=(none)   M=CommCtrl ACBP=A9
+ 0001:00000AA0 0000019E C=CODE     S=.text    G=(none)   M=Forms    ACBP=A9
+ 0001:00000C40 0000000E C=CODE     S=.text    G=(none)   M=HelpIntfs ACBP=A9
+ 0001:00000C50 0000000E C=CODE     S=.text    G=(none)   M=MultiMon ACBP=A9
+ 0001:00000C60 00000038 C=CODE     S=.text    G=(none)   M=Imm      ACBP=A9
+ 0001:00000C98 0000000E C=CODE     S=.text    G=(none)   M=Menus    ACBP=A9
+ 0001:00000CA8 0000000E C=CODE     S=.text    G=(none)   M=Themes   ACBP=A9
+ 0001:00000CB8 0000000E C=CODE     S=.text    G=(none)   M=UxTheme  ACBP=A9
+ 0001:00000CC8 0000000E C=CODE     S=.text    G=(none)   M=SyncObjs ACBP=A9
+ 0001:00000CD8 000000CE C=CODE     S=.text    G=(none)   M=ComCtrls ACBP=A9
+ 0001:00000DA8 00000038 C=CODE     S=.text    G=(none)   M=ShlObj   ACBP=A9
+ 0001:00000DE0 00000038 C=CODE     S=.text    G=(none)   M=UrlMon   ACBP=A9
+ 0001:00000E18 00000038 C=CODE     S=.text    G=(none)   M=WinInet  ACBP=A9
+ 0001:00000E50 00000038 C=CODE     S=.text    G=(none)   M=RegStr   ACBP=A9
+ 0001:00000E88 00000038 C=CODE     S=.text    G=(none)   M=ShellAPI ACBP=A9
+ 0001:00000EC0 0000000E C=CODE     S=.text    G=(none)   M=ListActns ACBP=A9
+ 0001:00000ED0 00000076 C=CODE     S=.text    G=(none)   M=ExtCtrls ACBP=A9
+ 0001:00000F48 0000012E C=CODE     S=.text    G=(none)   M=StdCtrls ACBP=A9
+ 0001:00001078 0000000E C=CODE     S=.text    G=(none)   M=WinHelpViewer ACBP=A9
+ 0001:00001088 0000000E C=CODE     S=.text    G=(none)   M=StdActns ACBP=A9
+ 0001:00001098 0000002E C=CODE     S=.text    G=(none)   M=Dialogs  ACBP=A9
+ 0001:000010C8 0000000E C=CODE     S=.text    G=(none)   M=Printers ACBP=A9
+ 0001:000010D8 00000038 C=CODE     S=.text    G=(none)   M=WinSpool ACBP=A9
+ 0001:00001110 00000038 C=CODE     S=.text    G=(none)   M=CommDlg  ACBP=A9
+ 0001:00001148 00000038 C=CODE     S=.text    G=(none)   M=Dlgs     ACBP=A9
+ 0001:00001180 0000000E C=CODE     S=.text    G=(none)   M=StrUtils ACBP=A9
+ 0001:00001190 0000000E C=CODE     S=.text    G=(none)   M=Clipbrd  ACBP=A9
+ 0001:000011A0 0000000E C=CODE     S=.text    G=(none)   M=FlatSB   ACBP=A9
+ 0001:000011B0 0000000E C=CODE     S=.text    G=(none)   M=ToolWin  ACBP=A9
+ 0001:000011C0 00000038 C=CODE     S=.text    G=(none)   M=RichEdit ACBP=A9
+ 0001:000011F8 0000000E C=CODE     S=.text    G=(none)   M=ExtActns ACBP=A9
+ 0001:00001208 0000002E C=CODE     S=.text    G=(none)   M=Registry ACBP=A9
+ 0001:00001238 0000000E C=CODE     S=.text    G=(none)   M=IniFiles ACBP=A9
+ 0001:00001248 00000016 C=CODE     S=.text    G=(none)   M=ExtDlgs  ACBP=A9
+ 0001:00001260 0000000E C=CODE     S=.text    G=(none)   M=Buttons  ACBP=A9
+ 0001:00001270 0000000E C=CODE     S=.text    G=(none)   M=Mapi     ACBP=A9
+ 0001:00001280 0000000E C=CODE     S=.text    G=(none)   M=ComStrs  ACBP=A9
+ 0001:00001290 000001AE C=CODE     S=.text    G=(none)   M=Chart    ACBP=A9
+ 0001:00001440 0000006E C=CODE     S=.text    G=(none)   M=TeCanvas ACBP=A9
+ 0001:000014B0 0000000E C=CODE     S=.text    G=(none)   M=TeeFunci ACBP=A9
+ 0001:000014C0 00000296 C=CODE     S=.text    G=(none)   M=TeEngine ACBP=A9
+ 0001:00001758 00000116 C=CODE     S=.text    G=(none)   M=TeeProcs ACBP=A9
+ 0001:00001870 0000000E C=CODE     S=.text    G=(none)   M=TeeConst ACBP=A9
+ 0001:00001880 00000504 C=CODE     S=.text    G=(none)   M=Axmaxmin ACBP=A9
+ 0001:00001D84 00000B70 C=CODE     S=.text    G=(none)   M=AxisIncr ACBP=A9
+ 0001:000028F4 00000036 C=CODE     S=.text    G=(none)   M=PenDlg   ACBP=A9
+ 0001:0000292C 0000011E C=CODE     S=.text    G=(none)   M=Series   ACBP=A9
+ 0001:00002A4C 00001988 C=CODE     S=.text    G=(none)   M=TeeGally ACBP=A9
+ 0001:000043D4 00001AF0 C=CODE     S=.text    G=(none)   M=TeeLisB  ACBP=A9
+ 0001:00005EC4 0000001E C=CODE     S=.text    G=(none)   M=BrushDlg ACBP=A9
+ 0001:00005EE4 00000794 C=CODE     S=.text    G=(none)   M=iEdiPeri ACBP=A9
+ 0001:00006678 000038C4 C=CODE     S=.text    G=(none)   M=iEdiSeri ACBP=A9
+ 0001:00009F3C 00001D04 C=CODE     S=.text    G=(none)   M=iEdiAxis ACBP=A9
+ 0001:0000BC40 000008D8 C=CODE     S=.text    G=(none)   M=iEdiLege ACBP=A9
+ 0001:0000C518 00000AC0 C=CODE     S=.text    G=(none)   M=iEdiPane ACBP=A9
+ 0001:0000CFD8 000006A8 C=CODE     S=.text    G=(none)   M=iEdiTitl ACBP=A9
+ 0001:0000D680 00000690 C=CODE     S=.text    G=(none)   M=iEdiWall ACBP=A9
+ 0001:0000DD10 00000016 C=CODE     S=.text    G=(none)   M=TeePrevi ACBP=A9
+ 0001:0000DD28 00000016 C=CODE     S=.text    G=(none)   M=TeExport ACBP=A9
+ 0001:0000DD40 00000C7C C=CODE     S=.text    G=(none)   M=TeeStore ACBP=A9
+ 0001:0000E9BC 00000810 C=CODE     S=.text    G=(none)   M=iEdiGene ACBP=A9
+ 0001:0000F1CC 00000600 C=CODE     S=.text    G=(none)   M=iEdiPage ACBP=A9
+ 0001:0000F7CC 00000AA8 C=CODE     S=.text    G=(none)   M=iEdi3D   ACBP=A9
+ 0001:00010274 00001438 C=CODE     S=.text    G=(none)   M=iEditCha ACBP=A9
+ 0001:000116AC 00000036 C=CODE     S=.text    G=(none)   M=DB       ACBP=A9
+ 0001:000116E4 0000000E C=CODE     S=.text    G=(none)   M=FMTBcd   ACBP=A9
+ 0001:000116F4 0000000E C=CODE     S=.text    G=(none)   M=DBConsts ACBP=A9
+ 0001:00011704 0000000E C=CODE     S=.text    G=(none)   M=SqlTimSt ACBP=A9
+ 0001:00011714 0000000E C=CODE     S=.text    G=(none)   M=DateUtils ACBP=A9
+ 0001:00011724 0000000E C=CODE     S=.text    G=(none)   M=MaskUtils ACBP=A9
+ 0001:00011734 0000000E C=CODE     S=.text    G=(none)   M=ComObj   ACBP=A9
+ 0001:00011744 0000000E C=CODE     S=.text    G=(none)   M=ComConst ACBP=A9
+ 0001:00011754 0000000E C=CODE     S=.text    G=(none)   M=DbChart  ACBP=A9
+ 0001:00011764 00000549 C=CODE     S=.text    G=(none)   M=DbEditCh ACBP=A9
+ 0001:00011CB0 000008BC C=CODE     S=.text    G=(none)   M=TeePoEdi ACBP=A9
+ 0001:0001256C 00000600 C=CODE     S=.text    G=(none)   M=CustEdit ACBP=A9
+ 0001:00012B6C 000005E8 C=CODE     S=.text    G=(none)   M=Areaedit ACBP=A9
+ 0001:00013154 00000904 C=CODE     S=.text    G=(none)   M=BarEdit  ACBP=A9
+ 0001:00013A58 00000AAC C=CODE     S=.text    G=(none)   M=PieEdit  ACBP=A9
+ 0001:00014504 00000308 C=CODE     S=.text    G=(none)   M=FLineEdi ACBP=A9
+ 0001:0001480C 00000066 C=CODE     S=.text    G=(none)   M=TeeShape ACBP=A9
+ 0001:00014874 00000974 C=CODE     S=.text    G=(none)   M=ShapeEdi ACBP=A9
+ 0001:000151E8 0000000E C=CODE     S=.text    G=(none)   M=GanttCh  ACBP=A9
+ 0001:000151F8 0000049C C=CODE     S=.text    G=(none)   M=GanttEdi ACBP=A9
+ 0001:00015694 0000002E C=CODE     S=.text    G=(none)   M=ArrowCha ACBP=A9
+ 0001:000156C4 00000538 C=CODE     S=.text    G=(none)   M=Arrowedi ACBP=A9
+ 0001:00015BFC 0000000E C=CODE     S=.text    G=(none)   M=BubbleCh ACBP=A9
+ 0001:00015C0C 00000318 C=CODE     S=.text    G=(none)   M=EditChar ACBP=A9
+ 0001:00015F24 00000395 C=CODE     S=.text    G=(none)   M=teeui    ACBP=A9
+ 0002:00000000 0000002C C=DATA     S=.data    G=DGROUP   M=SysInit  ACBP=A9
+ 0002:0000002C 00000002 C=DATA     S=.data    G=DGROUP   M=iEdiPane ACBP=A9
+ 0002:00000030 00000002 C=DATA     S=.data    G=DGROUP   M=iEdiWall ACBP=A9
+ 0002:00000034 00000004 C=DATA     S=.data    G=DGROUP   M=iEditCha ACBP=A9
+ 0002:00000038 00000004 C=DATA     S=.data    G=DGROUP   M=DbEditCh ACBP=A9
+ 0002:00001000 00000010 C=BSS      S=.bss     G=DGROUP   M=SysInit  ACBP=A9
+ 0002:00001010 00000004 C=BSS      S=.bss     G=DGROUP   M=Windows  ACBP=A9
+ 0002:00001014 00000004 C=BSS      S=.bss     G=DGROUP   M=Messages ACBP=A9
+ 0002:00001018 00000004 C=BSS      S=.bss     G=DGROUP   M=CommCtrl ACBP=A9
+ 0002:0000101C 00000004 C=BSS      S=.bss     G=DGROUP   M=Imm      ACBP=A9
+ 0002:00001020 00000004 C=BSS      S=.bss     G=DGROUP   M=ShlObj   ACBP=A9
+ 0002:00001024 00000004 C=BSS      S=.bss     G=DGROUP   M=UrlMon   ACBP=A9
+ 0002:00001028 00000004 C=BSS      S=.bss     G=DGROUP   M=WinInet  ACBP=A9
+ 0002:0000102C 00000004 C=BSS      S=.bss     G=DGROUP   M=RegStr   ACBP=A9
+ 0002:00001030 00000004 C=BSS      S=.bss     G=DGROUP   M=ShellAPI ACBP=A9
+ 0002:00001034 00000004 C=BSS      S=.bss     G=DGROUP   M=WinSpool ACBP=A9
+ 0002:00001038 00000004 C=BSS      S=.bss     G=DGROUP   M=CommDlg  ACBP=A9
+ 0002:0000103C 00000004 C=BSS      S=.bss     G=DGROUP   M=Dlgs     ACBP=A9
+ 0002:00001040 00000004 C=BSS      S=.bss     G=DGROUP   M=RichEdit ACBP=A9
+ 0002:00001044 00000004 C=BSS      S=.bss     G=DGROUP   M=Axmaxmin ACBP=A9
+ 0002:00001048 00000004 C=BSS      S=.bss     G=DGROUP   M=AxisIncr ACBP=A9
+ 0002:0000104C 00000004 C=BSS      S=.bss     G=DGROUP   M=TeeGally ACBP=A9
+ 0002:00001050 00000004 C=BSS      S=.bss     G=DGROUP   M=TeeLisB  ACBP=A9
+ 0002:00001054 00000004 C=BSS      S=.bss     G=DGROUP   M=iEdiPeri ACBP=A9
+ 0002:00001058 00000008 C=BSS      S=.bss     G=DGROUP   M=iEdiSeri ACBP=A9
+ 0002:00001060 00000004 C=BSS      S=.bss     G=DGROUP   M=iEdiAxis ACBP=A9
+ 0002:00001064 00000004 C=BSS      S=.bss     G=DGROUP   M=iEdiLege ACBP=A9
+ 0002:00001068 00000004 C=BSS      S=.bss     G=DGROUP   M=iEdiPane ACBP=A9
+ 0002:0000106C 00000004 C=BSS      S=.bss     G=DGROUP   M=iEdiTitl ACBP=A9
+ 0002:00001070 00000004 C=BSS      S=.bss     G=DGROUP   M=iEdiWall ACBP=A9
+ 0002:00001074 00000004 C=BSS      S=.bss     G=DGROUP   M=TeeStore ACBP=A9
+ 0002:00001078 00000004 C=BSS      S=.bss     G=DGROUP   M=iEdiGene ACBP=A9
+ 0002:0000107C 00000004 C=BSS      S=.bss     G=DGROUP   M=iEdiPage ACBP=A9
+ 0002:00001080 00000004 C=BSS      S=.bss     G=DGROUP   M=iEdi3D   ACBP=A9
+ 0002:00001084 00000004 C=BSS      S=.bss     G=DGROUP   M=iEditCha ACBP=A9
+ 0002:00001088 00000004 C=BSS      S=.bss     G=DGROUP   M=DbEditCh ACBP=A9
+ 0002:0000108C 00000004 C=BSS      S=.bss     G=DGROUP   M=TeePoEdi ACBP=A9
+ 0002:00001090 00000004 C=BSS      S=.bss     G=DGROUP   M=CustEdit ACBP=A9
+ 0002:00001094 00000004 C=BSS      S=.bss     G=DGROUP   M=Areaedit ACBP=A9
+ 0002:00001098 00000004 C=BSS      S=.bss     G=DGROUP   M=BarEdit  ACBP=A9
+ 0002:0000109C 00000004 C=BSS      S=.bss     G=DGROUP   M=PieEdit  ACBP=A9
+ 0002:000010A0 00000004 C=BSS      S=.bss     G=DGROUP   M=FLineEdi ACBP=A9
+ 0002:000010A4 00000004 C=BSS      S=.bss     G=DGROUP   M=ShapeEdi ACBP=A9
+ 0002:000010A8 00000004 C=BSS      S=.bss     G=DGROUP   M=GanttEdi ACBP=A9
+ 0002:000010AC 00000004 C=BSS      S=.bss     G=DGROUP   M=Arrowedi ACBP=A9
+ 0002:000010B0 00000004 C=BSS      S=.bss     G=DGROUP   M=EditChar ACBP=A9
+
+
+  Address         Publics by Name
+
+ 0002:00001018       .1
+ 0002:00001074       .1
+ 0002:00001040       .1
+ 0002:0000103C       .1
+ 0002:00001038       .1
+ 0002:00001030       .1
+ 0002:0000102C       .1
+ 0002:00001008       .1
+ 0002:00001028       .1
+ 0002:00001024       .1
+ 0002:00001014       .1
+ 0002:00001020       .1
+ 0002:0000101C       .1
+ 0002:000010B0       .1
+ 0002:00001088       .1
+ 0002:00001090       .2
+ 0002:000010AC       .2
+ 0002:00001094       .2
+ 0002:00001054       .2
+ 0002:0000106C       .2
+ 0002:00001060       .2
+ 0002:00001078       .2
+ 0002:00001098       .2
+ 0002:00001070       .2
+ 0002:00001044       .2
+ 0002:0000108C       .2
+ 0002:00001068       .2
+ 0002:00001064       .2
+ 0002:00001058       .2
+ 0002:00001048       .2
+ 0002:0000107C       .2
+ 0002:000010A8       .2
+ 0002:00001080       .2
+ 0002:000010A4       .2
+ 0002:00001084       .2
+ 0002:000010A0       .2
+ 0002:0000109C       .2
+ 0002:00001050       .3
+ 0002:00001010       .3
+ 0002:00001034       .3
+ 0002:0000104C       .4
+ 0001:00016294       @GetPackageInfoTable
+ 0001:000002D0       @InitPkg
+ 0001:00000334       @PackageLoad
+ 0001:0001629C       @PackageLoad
+ 0001:00000340       @PackageUnload
+ 0001:000162A8       @PackageUnload
+ 0001:000117AC       AddField
+ 0001:000001D0       AllocTlsBuffer
+ 0001:00013140       Areaedit
+ 0001:00015BE8       Arrowedi
+ 0001:000028EC       AxisIncr
+ 0001:00001D7C       Axmaxmin
+ 0001:00013A44       BarEdit
+ 0001:00004340       ChangeAllSeriesGallery
+ 0001:0000430C       ChangeSeriesTypeGallery
+ 0001:0000EDD0       ChartExport
+ 0001:00009458       CheckFieldIsBlank
+ 0001:000094C8       CheckValidFields
+ 0001:00000A98       CommCtrl
+ 0001:00001140       CommDlg
+ 0001:0000E25C       ConvertTeeFileToText
+ 0001:00004290       CreateNewSeriesGallery
+ 0001:000031E4       CreateSeries
+ 0001:00007BE8       CreateTheSeriesForm
+ 0001:00012B58       CustEdit
+ 0001:00011C98       DbEditCh
+ 0001:00007620       DeleteCursorPrefix
+ 0001:00001178       Dlgs
+ 0001:00015F1C       EditChar
+ 0001:00015E70       EditChart
+ 0001:00015DB4       EditChartAxis
+ 0001:00015E78       EditChartLegend
+ 0001:00015C98       EditChartPage
+ 0001:00015E84       EditChartPart
+ 0001:00015CEC       EditChartTitle
+ 0001:00015D50       EditChartWall
+ 0001:00015E1C       EditDSSChart
+ 0001:00015C0C       EditFont
+ 0001:00015C40       EditSeries
+ 0001:00002330       EnableControls
+ 0001:0000D46C       EqualStrings
+ 0001:0000027C       ExitProcessTLS
+ 0001:00000254       ExitThreadTLS
+ 0001:00008304       FillSourcesForm
+ 0001:00007180       FillTeeFunctions
+ 0001:00013110       Finalization
+ 0001:00012B28       Finalization
+ 0001:00012528       Finalization
+ 0001:00011C5C       Finalization
+ 0001:000151A4       Finalization
+ 0001:00015650       Finalization
+ 0001:00011668       Finalization
+ 0001:00009F04       Finalization
+ 0001:0000439C       Finalization
+ 0001:00015BB8       Finalization
+ 0001:000028BC       Finalization
+ 0001:000147C8       Finalization
+ 0001:0001023C       Finalization
+ 0001:0000F794       Finalization
+ 0001:00001D4C       Finalization
+ 0001:0000F194       Finalization
+ 0001:000011C0       Finalization
+ 0001:00001148       Finalization
+ 0001:00001110       Finalization
+ 0001:000010D8       Finalization
+ 0001:0000E978       Finalization
+ 0001:00000E88       Finalization
+ 0001:00000E50       Finalization
+ 0001:00000E18       Finalization
+ 0001:00000DE0       Finalization
+ 0001:00000DA8       Finalization
+ 0001:00006640       Finalization
+ 0001:00000C60       Finalization
+ 0001:00000A68       Finalization
+ 0001:00000400       Finalization
+ 0001:000003B8       Finalization
+ 0001:0000BBFC       Finalization
+ 0001:00013A14       Finalization
+ 0001:0000034C       Finalization
+ 0001:0000DCD8       Finalization
+ 0001:0000D648       Finalization
+ 0001:000144C0       Finalization
+ 0001:00015EEC       Finalization
+ 0001:0000CFA0       Finalization
+ 0001:00005E8C       Finalization
+ 0001:0000C4E0       Finalization
+ 0001:00003660       FindChartXY
+ 0001:00007CDC       FindTab
+ 0001:000147F8       FLineEdi
+ 0001:00000198       FreeLibrary
+ 0001:00015680       GanttEdi
+ 0001:00015C14       GetChartEditClass
+ 0001:00004190       GetChartGalleryClass
+ 0001:00000384       GetCursorPos
+ 0001:000026FC       GetDateTimeStepText
+ 0001:00003124       GetDefaultGalleryFontSize
+ 0001:000109B0       GetEditingCaption
+ 0001:00004140       GetGallerySeriesName
+ 0001:0000276C       GetIncrementText
+ 0001:00010DA0       GetRegistryHelpPath
+ 0001:00010E9C       GetTeeChartHelpFile
+ 0001:00010EC8       GetTeeChartUserHelpFile
+ 0001:000001DC       GetTlsSize
+ 0001:0000038C       GetWindowPlacement
+ 0001:0000E3B4       HasColors
+ 0001:0000E410       HasLabels
+ 0001:0000E310       HasNoMandatoryValues
+ 0001:00007C9C       HideSeriesPage
+ 0001:00010A1C       HideTabs
+ 0002:00001004       HInstance
+ 0001:0001026C       iEdi3D
+ 0001:0000BC2C       iEdiAxis
+ 0001:0000F1C4       iEdiGene
+ 0001:0000C510       iEdiLege
+ 0001:0000F7C4       iEdiPage
+ 0001:0000CFD0       iEdiPane
+ 0001:00006670       iEdiPeri
+ 0001:00009F34       iEdiSeri
+ 0001:00011698       iEditCha
+ 0001:0000D678       iEdiTitl
+ 0001:0000DD08       iEdiWall
+ 0001:00000C90       Imm
+ 0001:00000394       InflateRect
+ 0001:000002A0       InitializeModule
+ 0001:00000228       InitProcessTLS
+ 0001:000001E4       InitThreadTLS
+ 0002:00000034       InternalOnCreateEditSeries
+ 0002:00000038       InternalOnGetDesignerNames
+ 0001:0000E250       LoadChartFromFile
+ 0001:0000E1F4       LoadChartFromFileCheck
+ 0001:0000E1E8       LoadChartFromStream
+ 0001:0000E04C       LoadChartFromStreamCheck
+ 0001:000001A0       LocalAlloc
+ 0001:000001A8       LocalFree
+ 0001:00000430       Messages
+ 0002:00000004       Module
+ 0002:00001000       ModuleIsLib
+ 0002:00001001       ModuleIsPackage
+ 0001:00005D1C       MoveList
+ 0001:00005DEC       MoveListAll
+ 0001:0000E7B4       NotMandatoryList
+ 0001:00011AC8       OnCreateEditDBChart
+ 0001:00011854       OnDBChartFillFields
+ 0001:00011764       OnDBChartGetSourceStyle
+ 0001:00011A50       OnDBChartIsDateTimeSource
+ 0001:00011A8C       OnDBChartIsValidComponentSource
+ 0001:000144F0       PieEdit
+ 0001:0000DF74       ReadChartData
+ 0001:0000DD7C       ReadLabel
+ 0001:0000DF1C       ReadSeriesData
+ 0001:0000DDC0       ReadSeriesPoint
+ 0001:00000E80       RegStr
+ 0001:000011F0       RichEdit
+ 0001:0000E75C       SaveChartToFile
+ 0001:0000E720       SaveChartToStream
+ 0001:0000E498       SeriesGuessContents
+ 0001:0000B6BC       SetAxisLabels
+ 0001:0000B8B4       SetAxisMinorTicks
+ 0001:0000B94C       SetAxisPositions
+ 0001:0000B840       SetAxisTicks
+ 0001:0000B8F4       SetAxisTitle
+ 0001:0000039C       SetCursor
+ 0001:0000CE60       SetShape
+ 0001:000087DC       SetTabDataSource
+ 0001:00008448       SetTabSeriesDatabase
+ 0001:000077B4       SetTabSeriesGeneral
+ 0001:00007704       SetTabSeriesMarks
+ 0001:000151D4       ShapeEdi
+ 0001:00000EB8       ShellAPI
+ 0001:00000DD8       ShlObj
+ 0001:000003A4       SmallPointToPoint
+ 0002:0000002C       Styles
+ 0002:00000030       Styles
+ 0001:0000037C       SysInit
+ 0001:00013034       TAreaSeriesEditor.BAreaColorClick
+ 0001:000130DC       TAreaSeriesEditor.BAreaLinePenClick
+ 0001:000130B8       TAreaSeriesEditor.BAreaLinesPenClick
+ 0001:00013098       TAreaSeriesEditor.CBAreaBrushChange
+ 0001:00012FF0       TAreaSeriesEditor.CBColorEachClick
+ 0001:000130F0       TAreaSeriesEditor.CBInvStairsClick
+ 0001:00013060       TAreaSeriesEditor.CBStairsClick
+ 0001:00012EC4       TAreaSeriesEditor.FormShow
+ 0001:00013018       TAreaSeriesEditor.GetAreaColor
+ 0001:00012F84       TAreaSeriesEditor.RefreshShape
+ 0001:00012FD8       TAreaSeriesEditor.RGMultiAreaClick
+ 0001:000130CC       TAreaSeriesEditor.SHAreaColorMouseUp
+ 0001:00015A64       TArrowSeriesEditor.BArrowColorClick
+ 0001:00015AB4       TArrowSeriesEditor.BBrushClick
+ 0001:00015A9C       TArrowSeriesEditor.BPenClick
+ 0001:000159F4       TArrowSeriesEditor.CBColorEachClick
+ 0001:00015BB0       TArrowSeriesEditor.FormCreate
+ 0001:00015B1C       TArrowSeriesEditor.FormShow
+ 0001:00015AF4       TArrowSeriesEditor.SEArrowHeightChange
+ 0001:00015ACC       TArrowSeriesEditor.SEArrowWidthChange
+ 0001:00015BA0       TArrowSeriesEditor.SHArrowColorMouseUp
+ 0001:00002430       TAxisIncrement.BitBtn1Click
+ 0001:0000268C       TAxisIncrement.CBExactClick
+ 0001:000026E0       TAxisIncrement.CBStepsChange
+ 0001:00001FE8       TAxisIncrement.FormShow
+ 0001:00002398       TAxisIncrement.RadioGroup1Click
+ 0001:000021C4       TAxisIncrement.SetEditText
+ 0001:00001BDC       TAxisMaxMin.BitBtn1Click
+ 0001:00001D40       TAxisMaxMin.BitBtn2Click
+ 0001:00001A94       TAxisMaxMin.FormShow
+ 0001:000138B8       TBarSeriesEditor.BBarBrushClick
+ 0001:00013920       TBarSeriesEditor.BBarColorClick
+ 0001:000138A4       TBarSeriesEditor.BBarPenClick
+ 0001:00013988       TBarSeriesEditor.CBBarSideMarginsClick
+ 0001:00013878       TBarSeriesEditor.CBBarStyleChange
+ 0001:000138F0       TBarSeriesEditor.CBColorEachClick
+ 0001:0001395C       TBarSeriesEditor.CBDarkBarClick
+ 0001:000139EC       TBarSeriesEditor.CBMarksAutoPositionClick
+ 0001:00013794       TBarSeriesEditor.CBYOriginClick
+ 0001:000137F4       TBarSeriesEditor.EYOriginChange
+ 0001:00013A0C       TBarSeriesEditor.FormCreate
+ 0001:000135C8       TBarSeriesEditor.FormShow
+ 0001:0001371C       TBarSeriesEditor.RefreshShape
+ 0001:000138CC       TBarSeriesEditor.RGMultiBarClick
+ 0001:000139B4       TBarSeriesEditor.SEBarOffsetChange
+ 0001:0001376C       TBarSeriesEditor.SEBarwidthChange
+ 0001:000139DC       TBarSeriesEditor.SHBarColorMouseUp
+ 0001:000111E0       TChartEditForm.BAddSeriesClick
+ 0001:00011658       TChartEditForm.BChangeTypeSeriesClick
+ 0001:0001126C       TChartEditForm.BCloneSeriesClick
+ 0001:000111A8       TChartEditForm.BCloseClick
+ 0001:00011240       TChartEditForm.BDeleteSeriesClick
+ 0001:000111D4       TChartEditForm.BMoveDownClick
+ 0001:000111C8       TChartEditForm.BMoveUPClick
+ 0001:0001124C       TChartEditForm.BRenameSeriesClick
+ 0001:00010870       TChartEditForm.CheckHelpFile
+ 0001:0001140C       TChartEditForm.FormCloseQuery
+ 0001:00010EF0       TChartEditForm.FormCreate
+ 0001:00010BB0       TChartEditForm.FormShow
+ 0001:000113F0       TChartEditForm.HelpClick
+ 0001:00011420       TChartEditForm.LBSeriesEditSeries
+ 0001:00011450       TChartEditForm.LBSeriesOtherItemsChange
+ 0001:00011480       TChartEditForm.LBSeriesRefreshButtons
+ 0001:00011380       TChartEditForm.MainPageChange
+ 0001:000111B4       TChartEditForm.MainPageChanging
+ 0001:00010F8C       TChartEditForm.Notebook1Change
+ 0001:00011278       TChartEditForm.SetTabSeries
+ 0001:0001139C       TChartEditForm.WMHelp
+ 0001:00007254       TChartEditSource.Destroy
+ 0001:00007388       TChartEditSources.ClearCombos
+ 0001:00007444       TChartEditSources.ClearValueSources
+ 0001:000072A8       TChartEditSources.Create
+ 0001:0000746C       TChartEditSources.Destroy
+ 0001:000073D0       TChartEditSources.SetSeries
+ 0001:00007314       TChartEditSources.SetSeriesDatabaseSource
+ 0001:00005AC4       TChartListBox.AddSeriesGallery
+ 0001:00005554       TChartListBox.ChangeTypeSeries
+ 0001:00004E84       TChartListBox.ClearItems
+ 0001:00005984       TChartListBox.CloneSeries
+ 0001:00004BC4       TChartListBox.Create
+ 0001:000057FC       TChartListBox.DeleteSeries
+ 0001:00004D5C       TChartListBox.Destroy
+ 0001:000055E8       TChartListBox.DoDblClick
+ 0001:00004E38       TChartListBox.DoRefresh
+ 0001:00005424       TChartListBox.FillSeries
+ 0001:00005C20       TChartListBox.GetShowActive
+ 0001:00005CBC       TChartListBox.GetShowColor
+ 0001:00005C90       TChartListBox.GetShowIcon
+ 0001:00005CEC       TChartListBox.GetShowTitle
+ 0001:00004F28       TChartListBox.LBSeriesClick
+ 0001:00004DD4       TChartListBox.LBSeriesDragDrop
+ 0001:0000537C       TChartListBox.LBSeriesDragOver
+ 0001:00004F30       TChartListBox.LBSeriesDrawItem
+ 0001:000059AC       TChartListBox.LBSeriesKeyUp
+ 0001:000056B0       TChartListBox.LBSeriesMouseDown
+ 0001:000057AC       TChartListBox.MoveCurrentDown
+ 0001:00005778       TChartListBox.MoveCurrentUp
+ 0001:00005B08       TChartListBox.Notification
+ 0001:000053C4       TChartListBox.PointInSection
+ 0001:000059C8       TChartListBox.RenameSeries
+ 0001:00005330       TChartListBox.SelectedSeries
+ 0001:0000538C       TChartListBox.SeriesAtMousePos
+ 0001:00004E58       TChartListBox.SetChart
+ 0001:00005C40       TChartListBox.SetSectionVisible
+ 0001:00005C80       TChartListBox.SetShowActive
+ 0001:00005CDC       TChartListBox.SetShowColor
+ 0001:00005CB0       TChartListBox.SetShowIcon
+ 0001:00005D0C       TChartListBox.SetShowTitle
+ 0001:00004EAC       TChartListBox.SwapSeries
+ 0001:00005C08       TChartListBox.UpdateSeries
+ 0001:00005B3C       TChartListBox.WMNCHitTest
+ 0001:00005B70       TChartListBox.WMSetCursor
+ 0001:0000E02C       TChartReader.Error
+ 0001:00015060       TChartShapeEditor.BShapeBrushClick
+ 0001:00015138       TChartShapeEditor.BShapeColorClick
+ 0001:00014C28       TChartShapeEditor.BShapePenClick
+ 0001:00015104       TChartShapeEditor.Button1Click
+ 0001:00015184       TChartShapeEditor.CBStyleChange
+ 0001:00015118       TChartShapeEditor.CBTransClick
+ 0001:00014C3C       TChartShapeEditor.FormShow
+ 0001:0001509C       TChartShapeEditor.MemoTextChange
+ 0001:000150C0       TChartShapeEditor.RGAlignClick
+ 0001:00014E50       TChartShapeEditor.SEX0Change
+ 0001:00014F58       TChartShapeEditor.SEX1Change
+ 0001:00014ED4       TChartShapeEditor.SEY0Change
+ 0001:00014FDC       TChartShapeEditor.SEY1Change
+ 0001:00014E38       TChartShapeEditor.SHColorMouseUp
+ 0001:00012A08       TCustomSeriesEditor.BLineBorderClick
+ 0001:000129E4       TCustomSeriesEditor.BLineColorClick
+ 0001:00012AA8       TCustomSeriesEditor.CBColorEachClick
+ 0001:00012AC8       TCustomSeriesEditor.CBDark3DClick
+ 0001:00012A88       TCustomSeriesEditor.CBInvStairsClick
+ 0001:00012A68       TCustomSeriesEditor.CBLineBrushChange
+ 0001:00012A1C       TCustomSeriesEditor.CBStairsClick
+ 0001:00012A58       TCustomSeriesEditor.FormCreate
+ 0001:00012898       TCustomSeriesEditor.FormShow
+ 0001:00012AE8       TCustomSeriesEditor.ShColorMouseUp
+ 0001:0000EDA0       TeeExportSaveChart
+ 0001:000043CC       TeeGally
+ 0001:000120A0       TeeInsertPointerForm
+ 0001:00005EBC       TeeLisB
+ 0001:0000CD50       TeeLoadClearImage
+ 0001:00012558       TeePoEdi
+ 0001:0000E9A8       TeeStore
+ 0001:000162B4       teeui
+ 0001:000146F4       TFastLineSeriesEditor.BLinePenClick
+ 0001:00014748       TFastLineSeriesEditor.FormShow
+ 0001:00014788       TFastLineSeriesEditor.SHColorMouseUp
+ 0001:000063DC       TFormPeriod.BChangeClick
+ 0001:00006558       TFormPeriod.Button2Click
+ 0001:00006564       TFormPeriod.Button3Click
+ 0001:00006570       TFormPeriod.CBAllClick
+ 0001:00006338       TFormPeriod.EnableControls
+ 0001:000065B4       TFormPeriod.ENumChange
+ 0001:000061B0       TFormPeriod.FormShow
+ 0001:000063A4       TFormPeriod.RBNumClick
+ 0001:0000636C       TFormPeriod.RBRangeClick
+ 0001:0000662C       TFormPeriod.RGAlignClick
+ 0001:0000FC50       TFormTee3D.CBOrthogonalClick
+ 0001:0000FE3C       TFormTee3D.CBView3dClick
+ 0001:0001019C       TFormTee3D.CBZoomTextClick
+ 0001:0000FBF4       TFormTee3D.CheckRotation
+ 0001:0000FBB0       TFormTee3D.CreateChart
+ 0001:00010194       TFormTee3D.FormCreate
+ 0001:0000FF30       TFormTee3D.FormShow
+ 0001:0000FDC4       TFormTee3D.SBElevationChange
+ 0001:0001007C       TFormTee3D.SBHOffsetChange
+ 0001:000101C4       TFormTee3D.SBPerspecChange
+ 0001:0000FD4C       TFormTee3D.SBRotationChange
+ 0001:000100F4       TFormTee3D.SBVOffsetChange
+ 0001:0000FCBC       TFormTee3D.SBZoomChange
+ 0001:0001016C       TFormTee3D.SE3dChange
+ 0001:0000A9C0       TFormTeeAxis.BAxisGridClick
+ 0001:0000AC70       TFormTeeAxis.BAxisMaxClick
+ 0001:0000ADBC       TFormTeeAxis.BAxisMinClick
+ 0001:0000B408       TFormTeeAxis.BAxisPenClick
+ 0001:0000AF08       TFormTeeAxis.BIncreClick
+ 0001:0000B3E8       TFormTeeAxis.BLabelsFontClick
+ 0001:0000BBEC       TFormTeeAxis.BMinorGridClick
+ 0001:0000A9D0       TFormTeeAxis.BTickInnerClick
+ 0001:0000A9E4       TFormTeeAxis.BTickMinorClick
+ 0001:0000B418       TFormTeeAxis.BTickPenClick
+ 0001:0000AC4C       TFormTeeAxis.BTitleFontClick
+ 0001:0000ABA8       TFormTeeAxis.CBAutomaticClick
+ 0001:0000B190       TFormTeeAxis.CBAutoMaxClick
+ 0001:0000B448       TFormTeeAxis.CBGridCenteredClick
+ 0001:0000B1E8       TFormTeeAxis.CBInvertedClick
+ 0001:0000B25C       TFormTeeAxis.CBLabelsClick
+ 0001:0000B090       TFormTeeAxis.CBLogarithmicClick
+ 0001:0000B468       TFormTeeAxis.CBMultilineClick
+ 0001:0000B2E4       TFormTeeAxis.CBOnAxisClick
+ 0001:0000B32C       TFormTeeAxis.CBRoundFirstClick
+ 0001:0000BA90       TFormTeeAxis.CBShowClick
+ 0001:0000B428       TFormTeeAxis.CBTickOnLabelsClick
+ 0001:0000AB60       TFormTeeAxis.CBVisibleClick
+ 0001:0000A97C       TFormTeeAxis.CreateAxis
+ 0001:0000BB7C       TFormTeeAxis.EEndChange
+ 0001:0000BAD8       TFormTeeAxis.EPosChange
+ 0001:0000BB0C       TFormTeeAxis.EStartChange
+ 0001:0000ABF4       TFormTeeAxis.ETitleChange
+ 0001:0000B34C       TFormTeeAxis.EValuesFormatChange
+ 0001:0000BAB8       TFormTeeAxis.FormCreate
+ 0001:0000A9F4       TFormTeeAxis.FormShow
+ 0001:0000B9F4       TFormTeeAxis.PageAxisChange
+ 0001:0000BAD0       TFormTeeAxis.PageAxisChanging
+ 0001:0000B2A4       TFormTeeAxis.RGLabelStyleClick
+ 0001:0000AACC       TFormTeeAxis.RGWhichClick
+ 0001:0000B140       TFormTeeAxis.SEAxisMinorTickLenChange
+ 0001:0000AB80       TFormTeeAxis.SEAxisTickLengthChange
+ 0001:0000B118       TFormTeeAxis.SEInnerTicksLengthChange
+ 0001:0000B27C       TFormTeeAxis.SELabelsAngleChange
+ 0001:0000B2BC       TFormTeeAxis.SELabelsSizeChange
+ 0001:0000B168       TFormTeeAxis.SEMinorCountChange
+ 0001:0000B304       TFormTeeAxis.SESeparChange
+ 0001:0000B488       TFormTeeAxis.SetAxisScales
+ 0001:0000B208       TFormTeeAxis.SETitleAngleChange
+ 0001:0000B234       TFormTeeAxis.SETitleSizeChange
+ 0001:0000EFEC       TFormTeeGeneral.BExportClick
+ 0001:0000EEA8       TFormTeeGeneral.BPrintClick
+ 0001:0000EEB4       TFormTeeGeneral.CBAllowZoomClick
+ 0001:0000EEF4       TFormTeeGeneral.CBAnimatedZoomClick
+ 0001:0000EED4       TFormTeeGeneral.CBClipPointsClick
+ 0001:0000F03C       TFormTeeGeneral.ChangeMargin
+ 0001:0000EE64       TFormTeeGeneral.CreateChart
+ 0001:0000F18C       TFormTeeGeneral.FormCreate
+ 0001:0000EF14       TFormTeeGeneral.FormShow
+ 0001:0000EFF8       TFormTeeGeneral.RGPanningClick
+ 0001:0000F014       TFormTeeGeneral.SEAniZoomStepsChange
+ 0001:0000F108       TFormTeeGeneral.SEBotMaChange
+ 0001:0000F14C       TFormTeeGeneral.SELeftMaChange
+ 0001:0000F084       TFormTeeGeneral.SERightMaChange
+ 0001:0000F0C4       TFormTeeGeneral.SETopMaChange
+ 0001:0000C238       TFormTeeLegend.BColorClick
+ 0001:0000C48C       TFormTeeLegend.BDivLinesClick
+ 0001:0000C218       TFormTeeLegend.BFontClick
+ 0001:0000C298       TFormTeeLegend.BFrameClick
+ 0001:0000C2E8       TFormTeeLegend.BShadowClick
+ 0001:0000C2C8       TFormTeeLegend.CBInvertedClick
+ 0001:0000C1A8       TFormTeeLegend.CBLegendStyleChange
+ 0001:0000C258       TFormTeeLegend.CBLegStyleChange
+ 0001:0000C2A8       TFormTeeLegend.CBResizeChartClick
+ 0001:0000C278       TFormTeeLegend.CBShowClick
+ 0001:0000C114       TFormTeeLegend.CreateLegend
+ 0001:0000C49C       TFormTeeLegend.EnableLegendMarginControls
+ 0001:0000C4D8       TFormTeeLegend.FormCreate
+ 0001:0000C330       TFormTeeLegend.FormShow
+ 0001:0000C470       TFormTeeLegend.RBBottomClick
+ 0001:0000C438       TFormTeeLegend.RBLeftClick
+ 0001:0000C454       TFormTeeLegend.RBRightClick
+ 0001:0000C41C       TFormTeeLegend.RBTopClick
+ 0001:0000C1C8       TFormTeeLegend.SEColWiChange
+ 0001:0000C158       TFormTeeLegend.SEMarginChange
+ 0001:0000C308       TFormTeeLegend.SEShadowSizeChange
+ 0001:0000C1F0       TFormTeeLegend.SETopPosChange
+ 0001:0000F708       TFormTeePage.BFirstPageClick
+ 0001:0000F6D8       TFormTeePage.BLastPageClick
+ 0001:0000F770       TFormTeePage.ButtonNextClick
+ 0001:0000F69C       TFormTeePage.ButtonPreviousClick
+ 0001:0000F6B8       TFormTeePage.CBScaleLastClick
+ 0001:0000F4B8       TFormTeePage.CreateChart
+ 0001:0000F78C       TFormTeePage.FormCreate
+ 0001:0000F72C       TFormTeePage.FormShow
+ 0001:0000F610       TFormTeePage.SEPointsPerPageChange
+ 0001:0000F4FC       TFormTeePage.TheChartPageChange
+ 0001:0000CE20       TFormTeePanel.BBrowseImageClick
+ 0001:0000CAB4       TFormTeePanel.BGradientEndClick
+ 0001:0000CA84       TFormTeePanel.BGradientStartClick
+ 0001:0000CF20       TFormTeePanel.BPanelColorClick
+ 0001:0000CB64       TFormTeePanel.CBGradVisibleClick
+ 0001:0000CE40       TFormTeePanel.CBImageInsideClick
+ 0001:0000CA18       TFormTeePanel.CBPanelBorderClick
+ 0001:0000CAE4       TFormTeePanel.CheckGradientVisible
+ 0001:0000CF78       TFormTeePanel.ComboBox1Change
+ 0001:0000C98C       TFormTeePanel.CreateChart
+ 0001:0000CC90       TFormTeePanel.EnableImageControls
+ 0001:0000CF4C       TFormTeePanel.FormCreate
+ 0001:0000CBB4       TFormTeePanel.FormShow
+ 0001:0000CEA0       TFormTeePanel.RepaintGradientColors
+ 0001:0000C9D0       TFormTeePanel.RGBevelInClick
+ 0001:0000C9F4       TFormTeePanel.RGBevelOutClick
+ 0001:0000CC78       TFormTeePanel.RGBitmapClick
+ 0001:0000CEDC       TFormTeePanel.SEPanelBorChange
+ 0001:0000CA40       TFormTeePanel.SEPanelWiChange
+ 0001:0000CB94       TFormTeePanel.Shape1MouseUp
+ 0001:0000CBA4       TFormTeePanel.Shape2MouseUp
+ 0001:000081D4       TFormTeeSeries.AddComponentDataSource
+ 0001:00007A38       TFormTeeSeries.AddSeriesForm
+ 0001:00008B28       TFormTeeSeries.BEditFuncClick
+ 0001:0000909C       TFormTeeSeries.BLeftAllClick
+ 0001:0000910C       TFormTeeSeries.BLeftOneClick
+ 0001:000098DC       TFormTeeSeries.BMarkFontClick
+ 0001:000098B4       TFormTeeSeries.BMarkLinColClick
+ 0001:000074BC       TFormTeeSeries.BMarksBackColorClick
+ 0001:000098C8       TFormTeeSeries.BMarksFrameClick
+ 0001:000090E8       TFormTeeSeries.BRightAllClick
+ 0001:00009130       TFormTeeSeries.BRightOneClick
+ 0001:00008DDC       TFormTeeSeries.CBDataSourcestyleChange
+ 0001:00009450       TFormTeeSeries.CBDateTimeClick
+ 0001:00009060       TFormTeeSeries.CBFunctionsChange
+ 0001:00009268       TFormTeeSeries.CBLabelsFieldChange
+ 0001:000097CC       TFormTeeSeries.CBListDataSetsChange
+ 0001:00009984       TFormTeeSeries.CBMarkClipClick
+ 0001:000099CC       TFormTeeSeries.CBMarksVisibleClick
+ 0001:00008D18       TFormTeeSeries.CBPersistentClick
+ 0001:00007D74       TFormTeeSeries.CBSeriesChange
+ 0001:00009818       TFormTeeSeries.CBSeriesCursorChange
+ 0001:000097E0       TFormTeeSeries.CBShowInLegendClick
+ 0001:000099A8       TFormTeeSeries.CBTransparentClick
+ 0001:00009374       TFormTeeSeries.CBValuesChange
+ 0001:00008D8C       TFormTeeSeries.CBXDateTimeClick
+ 0001:00008D64       TFormTeeSeries.CBYDateTimeClick
+ 0001:000090C0       TFormTeeSeries.ChangeApply
+ 0001:00008A60       TFormTeeSeries.CheckApplyChanges
+ 0001:00009A38       TFormTeeSeries.DataSourceStyle
+ 0001:00007B70       TFormTeeSeries.DestroySeriesForms
+ 0001:000095A8       TFormTeeSeries.DoApplyChangesDataset
+ 0001:00008EC4       TFormTeeSeries.DoApplyChangesFunction
+ 0001:000088A0       TFormTeeSeries.EnableDataSourceControls
+ 0001:00009154       TFormTeeSeries.EnableListButtons
+ 0001:0000755C       TFormTeeSeries.EPercentFormatChange
+ 0001:000074F0       TFormTeeSeries.EValueformatChange
+ 0001:00009254       TFormTeeSeries.FillFields
+ 0001:0000840C       TFormTeeSeries.FillSourceDatasets
+ 0001:00008350       TFormTeeSeries.FillSources
+ 0001:00009B60       TFormTeeSeries.FillSourceSeries
+ 0001:00009EC4       TFormTeeSeries.FormCloseQuery
+ 0001:00008A80       TFormTeeSeries.FormCreate
+ 0001:00009EE4       TFormTeeSeries.FormDestroy
+ 0001:00009EFC       TFormTeeSeries.FormShow
+ 0001:00009044       TFormTeeSeries.GetSelectedSource
+ 0001:00009050       TFormTeeSeries.GetSourceCombo
+ 0001:00007AF8       TFormTeeSeries.InsertSeriesForm
+ 0001:00008DB4       TFormTeeSeries.IsDateTimeSource
+ 0001:00008160       TFormTeeSeries.IsValidComponentSource
+ 0001:00009094       TFormTeeSeries.LBAvailSeriesDblClick
+ 0001:0000908C       TFormTeeSeries.LBSelectedSeriesDblClick
+ 0001:000079B0       TFormTeeSeries.PageSeriesChange
+ 0001:00009DB8       TFormTeeSeries.PageSeriesChanging
+ 0001:000076A8       TFormTeeSeries.ProcGetCursors
+ 0001:000074A4       TFormTeeSeries.RGHorizAxisClick
+ 0001:00008B0C       TFormTeeSeries.RGMarkStyleClick
+ 0001:00009800       TFormTeeSeries.RGVertAxisClick
+ 0001:00009900       TFormTeeSeries.SEArrowLengthChange
+ 0001:000075C8       TFormTeeSeries.SetCBSeries
+ 0001:000099F0       TFormTeeSeries.SetCurrentDataSource
+ 0001:00009A4C       TFormTeeSeries.SetSelectedSourceDatabase
+ 0001:00009D88       TFormTeeSeries.SetSelectedSourceSeries
+ 0001:0000893C       TFormTeeSeries.SetTabSeriesDataSource
+ 0001:00009BE8       TFormTeeSeries.SetTabSeriesFunctions
+ 0001:00009304       TFormTeeSeries.SetTextItemIndex
+ 0001:0000D590       TFormTeeTitle.BBrushClick
+ 0001:0000D620       TFormTeeTitle.BColorClick
+ 0001:0000D34C       TFormTeeTitle.BFontClick
+ 0001:0000D560       TFormTeeTitle.BFrameClick
+ 0001:0000D570       TFormTeeTitle.CBAdjustClick
+ 0001:0000D5DC       TFormTeeTitle.CBTitlesChange
+ 0001:0000D44C       TFormTeeTitle.CBVisibleClick
+ 0001:0000D2A0       TFormTeeTitle.CreateTitle
+ 0001:0000D408       TFormTeeTitle.FormShow
+ 0001:0000D51C       TFormTeeTitle.MTextChange
+ 0001:0000D5A0       TFormTeeTitle.RGAlignClick
+ 0001:0000D2EC       TFormTeeTitle.SetMemoFormat
+ 0001:0000D374       TFormTeeTitle.SetTitleControls
+ 0001:0000DAF4       TFormTeeWall.BWallBrushClick
+ 0001:0000DB04       TFormTeeWall.BWallColorClick
+ 0001:0000DAE4       TFormTeeWall.BWallPenClick
+ 0001:0000DCB8       TFormTeeWall.CBDark3DClick
+ 0001:0000DAC0       TFormTeeWall.CBView3dWallsClick
+ 0001:0000DC10       TFormTeeWall.CBWallTranspClick
+ 0001:0000D9C0       TFormTeeWall.CreateWall
+ 0001:0000DC90       TFormTeeWall.FormCreate
+ 0001:0000DA58       TFormTeeWall.FormShow
+ 0001:0000DB6C       TFormTeeWall.RefreshShape
+ 0001:0000DB98       TFormTeeWall.SetWallControls
+ 0001:0000DB2C       TFormTeeWall.SEWallSizeChange
+ 0001:0000DB88       TFormTeeWall.SHWallColorMouseUp
+ 0001:0000DA04       TFormTeeWall.TabSubWallsChange
+ 0001:000155D0       TGanttSeriesEditor.BConnLinesClick
+ 0001:0001560C       TGanttSeriesEditor.BitBtn1Click
+ 0001:0001557C       TGanttSeriesEditor.Button1Click
+ 0001:000155E4       TGanttSeriesEditor.CBColorEachClick
+ 0001:00015590       TGanttSeriesEditor.FormCreate
+ 0001:00015504       TGanttSeriesEditor.FormShow
+ 0001:000154CC       TGanttSeriesEditor.RefreshShape
+ 0001:000155A0       TGanttSeriesEditor.SEPointVertSizeChange
+ 0001:00015640       TGanttSeriesEditor.SHColorMouseUp
+ 0002:0000105C       TheSource
+ 0001:00004B50       TListBoxSections.AddSection
+ 0001:00004B74       TListBoxSections.GetSection
+ 0001:00004B0C       TListBoxSections.SectionLeft
+ 0001:00004B94       TListBoxSections.SetSection
+ 0001:000001B0       TlsAlloc
+ 0002:0000100C       tlsBuffer
+ 0001:000001B8       TlsFree
+ 0001:000001C0       TlsGetValue
+ 0002:00000000       TlsIndex
+ 0002:BF508000       TlsLast
+ 0002:0000001C       TlsProc
+ 0001:000001C8       TlsSetValue
+ 0001:00014294       TPieSeriesEditor.BBackPieColorClick
+ 0001:0001418C       TPieSeriesEditor.BPiePenClick
+ 0001:00014138       TPieSeriesEditor.CB3DClick
+ 0001:000142B8       TPieSeriesEditor.CBAutoXRClick
+ 0001:000142DC       TPieSeriesEditor.CBAutoYRClick
+ 0001:00014118       TPieSeriesEditor.CBCircledClick
+ 0001:000141A0       TPieSeriesEditor.CBDark3dClick
+ 0001:00014468       TPieSeriesEditor.CBOrderChange
+ 0001:00014300       TPieSeriesEditor.CBOtherChange
+ 0001:0001425C       TPieSeriesEditor.CBPatternsClick
+ 0001:000143DC       TPieSeriesEditor.EOtherLabelChange
+ 0001:00014358       TPieSeriesEditor.EOtherValueChange
+ 0001:00014460       TPieSeriesEditor.FormCreate
+ 0001:00013F38       TPieSeriesEditor.FormShow
+ 0001:00014438       TPieSeriesEditor.SEExpBigChange
+ 0001:00014164       TPieSeriesEditor.SERotationChange
+ 0001:000141CC       TPieSeriesEditor.SEXRadiusChange
+ 0001:00014214       TPieSeriesEditor.SEYRadiusChange
+ 0001:00012474       TSeriesPointerEditor.BPoinPenColClick
+ 0001:000123E4       TSeriesPointerEditor.BPointFillColorClick
+ 0001:0001239C       TSeriesPointerEditor.CB3dPointClick
+ 0001:000124FC       TSeriesPointerEditor.CBDefBrushColorClick
+ 0001:00012380       TSeriesPointerEditor.CBDrawPointClick
+ 0001:000124BC       TSeriesPointerEditor.CBInflateClick
+ 0001:000124DC       TSeriesPointerEditor.CBPoDarkClick
+ 0001:0001244C       TSeriesPointerEditor.CBPointStyleChange
+ 0001:00012118       TSeriesPointerEditor.Enable3DPoint
+ 0001:00012484       TSeriesPointerEditor.FormCreate
+ 0001:00012190       TSeriesPointerEditor.FormShow
+ 0001:000123BC       TSeriesPointerEditor.SEPointHorizSizeChange
+ 0001:00012494       TSeriesPointerEditor.SEPointVertSizeChange
+ 0001:000122D4       TSeriesPointerEditor.SetPointerVisible
+ 0001:00003CC4       TTeeGallery.CalcNumSeriesPage
+ 0001:00003E64       TTeeGallery.CB3DClick
+ 0001:00003D14       TTeeGallery.CreateGallery
+ 0001:000040F4       TTeeGallery.CreateGalleryList
+ 0001:00003F94       TTeeGallery.FormCreate
+ 0001:000040DC       TTeeGallery.FormKeyDown
+ 0001:00003F80       TTeeGallery.FormResize
+ 0001:00003E84       TTeeGallery.FormShow
+ 0001:00003E58       TTeeGallery.GalleryPanelOnSelected
+ 0001:00003C44       TTeeGallery.HideButtons
+ 0001:00003C20       TTeeGallery.HideFunctions
+ 0001:000040AC       TTeeGallery.TabControl1Change
+ 0001:00003C54       TTeeGallery.ValidSeries
+ 0001:000030DC       TTeeGalleryPanel.CalcChartWidthHeight
+ 0001:000039CC       TTeeGalleryPanel.ChartOnClick
+ 0001:000030B8       TTeeGalleryPanel.ChartOnDblClick
+ 0001:00003184       TTeeGalleryPanel.CheckShowLabels
+ 0001:00002F6C       TTeeGalleryPanel.Create
+ 0001:00003258       TTeeGalleryPanel.CreateChart
+ 0001:00003B6C       TTeeGalleryPanel.CreateChartList
+ 0001:00003000       TTeeGalleryPanel.Destroy
+ 0001:00003950       TTeeGalleryPanel.FindSelectedChart
+ 0001:00003648       TTeeGalleryPanel.GetChart
+ 0001:0000304C       TTeeGalleryPanel.GetChartXY
+ 0001:000036C8       TTeeGalleryPanel.ProcessKeyDown
+ 0001:00003080       TTeeGalleryPanel.RemoveCharts
+ 0001:00003BE8       TTeeGalleryPanel.Resize
+ 0001:00003784       TTeeGalleryPanel.ResizeChart
+ 0001:00003BB0       TTeeGalleryPanel.ResizeCharts
+ 0001:00003B18       TTeeGalleryPanel.SetMargins
+ 0001:00003038       TTeeGalleryPanel.SetRowCols
+ 0001:00003ABC       TTeeGalleryPanel.SetView3D
+ 0001:0000384C       TTeeGalleryPanel.ShowSelectedChart
+ 0001:00003BFC       TTeeTabControl.AlignTab
+ 0001:00003C04       TTeeTabControl.SetTabEvent
+ 0001:000002AC       UninitializeModule
+ 0001:00000E10       UrlMon
+ 0001:000003E8       Windows
+ 0001:00000E48       WinInet
+ 0001:00001108       WinSpool
+ 0001:0000E6EC       WriteChartData
+ 0001:0000E4F4       WriteLabel
+ 0001:0000E67C       WriteSeriesData
+ 0001:0000E538       WriteSeriesPoint
+ 0001:00009D8C       YesNoCancel
+
+
+  Address         Publics by Value
+
+ 0002:BF508000       TlsLast
+ 0001:00000198       FreeLibrary
+ 0001:000001A0       LocalAlloc
+ 0001:000001A8       LocalFree
+ 0001:000001B0       TlsAlloc
+ 0001:000001B8       TlsFree
+ 0001:000001C0       TlsGetValue
+ 0001:000001C8       TlsSetValue
+ 0001:000001D0       AllocTlsBuffer
+ 0001:000001DC       GetTlsSize
+ 0001:000001E4       InitThreadTLS
+ 0001:00000228       InitProcessTLS
+ 0001:00000254       ExitThreadTLS
+ 0001:0000027C       ExitProcessTLS
+ 0001:000002A0       InitializeModule
+ 0001:000002AC       UninitializeModule
+ 0001:000002D0       @InitPkg
+ 0001:00000334       @PackageLoad
+ 0001:00000340       @PackageUnload
+ 0001:0000034C       Finalization
+ 0001:0000037C       SysInit
+ 0001:00000384       GetCursorPos
+ 0001:0000038C       GetWindowPlacement
+ 0001:00000394       InflateRect
+ 0001:0000039C       SetCursor
+ 0001:000003A4       SmallPointToPoint
+ 0001:000003B8       Finalization
+ 0001:000003E8       Windows
+ 0001:00000400       Finalization
+ 0001:00000430       Messages
+ 0001:00000A68       Finalization
+ 0001:00000A98       CommCtrl
+ 0001:00000C60       Finalization
+ 0001:00000C90       Imm
+ 0001:00000DA8       Finalization
+ 0001:00000DD8       ShlObj
+ 0001:00000DE0       Finalization
+ 0001:00000E10       UrlMon
+ 0001:00000E18       Finalization
+ 0001:00000E48       WinInet
+ 0001:00000E50       Finalization
+ 0001:00000E80       RegStr
+ 0001:00000E88       Finalization
+ 0001:00000EB8       ShellAPI
+ 0001:000010D8       Finalization
+ 0001:00001108       WinSpool
+ 0001:00001110       Finalization
+ 0001:00001140       CommDlg
+ 0001:00001148       Finalization
+ 0001:00001178       Dlgs
+ 0001:000011C0       Finalization
+ 0001:000011F0       RichEdit
+ 0001:00001A94       TAxisMaxMin.FormShow
+ 0001:00001BDC       TAxisMaxMin.BitBtn1Click
+ 0001:00001D40       TAxisMaxMin.BitBtn2Click
+ 0001:00001D4C       Finalization
+ 0001:00001D7C       Axmaxmin
+ 0001:00001FE8       TAxisIncrement.FormShow
+ 0001:000021C4       TAxisIncrement.SetEditText
+ 0001:00002330       EnableControls
+ 0001:00002398       TAxisIncrement.RadioGroup1Click
+ 0001:00002430       TAxisIncrement.BitBtn1Click
+ 0001:0000268C       TAxisIncrement.CBExactClick
+ 0001:000026E0       TAxisIncrement.CBStepsChange
+ 0001:000026FC       GetDateTimeStepText
+ 0001:0000276C       GetIncrementText
+ 0001:000028BC       Finalization
+ 0001:000028EC       AxisIncr
+ 0001:00002F6C       TTeeGalleryPanel.Create
+ 0001:00003000       TTeeGalleryPanel.Destroy
+ 0001:00003038       TTeeGalleryPanel.SetRowCols
+ 0001:0000304C       TTeeGalleryPanel.GetChartXY
+ 0001:00003080       TTeeGalleryPanel.RemoveCharts
+ 0001:000030B8       TTeeGalleryPanel.ChartOnDblClick
+ 0001:000030DC       TTeeGalleryPanel.CalcChartWidthHeight
+ 0001:00003124       GetDefaultGalleryFontSize
+ 0001:00003184       TTeeGalleryPanel.CheckShowLabels
+ 0001:000031E4       CreateSeries
+ 0001:00003258       TTeeGalleryPanel.CreateChart
+ 0001:00003648       TTeeGalleryPanel.GetChart
+ 0001:00003660       FindChartXY
+ 0001:000036C8       TTeeGalleryPanel.ProcessKeyDown
+ 0001:00003784       TTeeGalleryPanel.ResizeChart
+ 0001:0000384C       TTeeGalleryPanel.ShowSelectedChart
+ 0001:00003950       TTeeGalleryPanel.FindSelectedChart
+ 0001:000039CC       TTeeGalleryPanel.ChartOnClick
+ 0001:00003ABC       TTeeGalleryPanel.SetView3D
+ 0001:00003B18       TTeeGalleryPanel.SetMargins
+ 0001:00003B6C       TTeeGalleryPanel.CreateChartList
+ 0001:00003BB0       TTeeGalleryPanel.ResizeCharts
+ 0001:00003BE8       TTeeGalleryPanel.Resize
+ 0001:00003BFC       TTeeTabControl.AlignTab
+ 0001:00003C04       TTeeTabControl.SetTabEvent
+ 0001:00003C20       TTeeGallery.HideFunctions
+ 0001:00003C44       TTeeGallery.HideButtons
+ 0001:00003C54       TTeeGallery.ValidSeries
+ 0001:00003CC4       TTeeGallery.CalcNumSeriesPage
+ 0001:00003D14       TTeeGallery.CreateGallery
+ 0001:00003E58       TTeeGallery.GalleryPanelOnSelected
+ 0001:00003E64       TTeeGallery.CB3DClick
+ 0001:00003E84       TTeeGallery.FormShow
+ 0001:00003F80       TTeeGallery.FormResize
+ 0001:00003F94       TTeeGallery.FormCreate
+ 0001:000040AC       TTeeGallery.TabControl1Change
+ 0001:000040DC       TTeeGallery.FormKeyDown
+ 0001:000040F4       TTeeGallery.CreateGalleryList
+ 0001:00004140       GetGallerySeriesName
+ 0001:00004190       GetChartGalleryClass
+ 0001:00004290       CreateNewSeriesGallery
+ 0001:0000430C       ChangeSeriesTypeGallery
+ 0001:00004340       ChangeAllSeriesGallery
+ 0001:0000439C       Finalization
+ 0001:000043CC       TeeGally
+ 0001:00004B0C       TListBoxSections.SectionLeft
+ 0001:00004B50       TListBoxSections.AddSection
+ 0001:00004B74       TListBoxSections.GetSection
+ 0001:00004B94       TListBoxSections.SetSection
+ 0001:00004BC4       TChartListBox.Create
+ 0001:00004D5C       TChartListBox.Destroy
+ 0001:00004DD4       TChartListBox.LBSeriesDragDrop
+ 0001:00004E38       TChartListBox.DoRefresh
+ 0001:00004E58       TChartListBox.SetChart
+ 0001:00004E84       TChartListBox.ClearItems
+ 0001:00004EAC       TChartListBox.SwapSeries
+ 0001:00004F28       TChartListBox.LBSeriesClick
+ 0001:00004F30       TChartListBox.LBSeriesDrawItem
+ 0001:00005330       TChartListBox.SelectedSeries
+ 0001:0000537C       TChartListBox.LBSeriesDragOver
+ 0001:0000538C       TChartListBox.SeriesAtMousePos
+ 0001:000053C4       TChartListBox.PointInSection
+ 0001:00005424       TChartListBox.FillSeries
+ 0001:00005554       TChartListBox.ChangeTypeSeries
+ 0001:000055E8       TChartListBox.DoDblClick
+ 0001:000056B0       TChartListBox.LBSeriesMouseDown
+ 0001:00005778       TChartListBox.MoveCurrentUp
+ 0001:000057AC       TChartListBox.MoveCurrentDown
+ 0001:000057FC       TChartListBox.DeleteSeries
+ 0001:00005984       TChartListBox.CloneSeries
+ 0001:000059AC       TChartListBox.LBSeriesKeyUp
+ 0001:000059C8       TChartListBox.RenameSeries
+ 0001:00005AC4       TChartListBox.AddSeriesGallery
+ 0001:00005B08       TChartListBox.Notification
+ 0001:00005B3C       TChartListBox.WMNCHitTest
+ 0001:00005B70       TChartListBox.WMSetCursor
+ 0001:00005C08       TChartListBox.UpdateSeries
+ 0001:00005C20       TChartListBox.GetShowActive
+ 0001:00005C40       TChartListBox.SetSectionVisible
+ 0001:00005C80       TChartListBox.SetShowActive
+ 0001:00005C90       TChartListBox.GetShowIcon
+ 0001:00005CB0       TChartListBox.SetShowIcon
+ 0001:00005CBC       TChartListBox.GetShowColor
+ 0001:00005CDC       TChartListBox.SetShowColor
+ 0001:00005CEC       TChartListBox.GetShowTitle
+ 0001:00005D0C       TChartListBox.SetShowTitle
+ 0001:00005D1C       MoveList
+ 0001:00005DEC       MoveListAll
+ 0001:00005E8C       Finalization
+ 0001:00005EBC       TeeLisB
+ 0001:000061B0       TFormPeriod.FormShow
+ 0001:00006338       TFormPeriod.EnableControls
+ 0001:0000636C       TFormPeriod.RBRangeClick
+ 0001:000063A4       TFormPeriod.RBNumClick
+ 0001:000063DC       TFormPeriod.BChangeClick
+ 0001:00006558       TFormPeriod.Button2Click
+ 0001:00006564       TFormPeriod.Button3Click
+ 0001:00006570       TFormPeriod.CBAllClick
+ 0001:000065B4       TFormPeriod.ENumChange
+ 0001:0000662C       TFormPeriod.RGAlignClick
+ 0001:00006640       Finalization
+ 0001:00006670       iEdiPeri
+ 0001:00007180       FillTeeFunctions
+ 0001:00007254       TChartEditSource.Destroy
+ 0001:000072A8       TChartEditSources.Create
+ 0001:00007314       TChartEditSources.SetSeriesDatabaseSource
+ 0001:00007388       TChartEditSources.ClearCombos
+ 0001:000073D0       TChartEditSources.SetSeries
+ 0001:00007444       TChartEditSources.ClearValueSources
+ 0001:0000746C       TChartEditSources.Destroy
+ 0001:000074A4       TFormTeeSeries.RGHorizAxisClick
+ 0001:000074BC       TFormTeeSeries.BMarksBackColorClick
+ 0001:000074F0       TFormTeeSeries.EValueformatChange
+ 0001:0000755C       TFormTeeSeries.EPercentFormatChange
+ 0001:000075C8       TFormTeeSeries.SetCBSeries
+ 0001:00007620       DeleteCursorPrefix
+ 0001:000076A8       TFormTeeSeries.ProcGetCursors
+ 0001:00007704       SetTabSeriesMarks
+ 0001:000077B4       SetTabSeriesGeneral
+ 0001:000079B0       TFormTeeSeries.PageSeriesChange
+ 0001:00007A38       TFormTeeSeries.AddSeriesForm
+ 0001:00007AF8       TFormTeeSeries.InsertSeriesForm
+ 0001:00007B70       TFormTeeSeries.DestroySeriesForms
+ 0001:00007BE8       CreateTheSeriesForm
+ 0001:00007C9C       HideSeriesPage
+ 0001:00007CDC       FindTab
+ 0001:00007D74       TFormTeeSeries.CBSeriesChange
+ 0001:00008160       TFormTeeSeries.IsValidComponentSource
+ 0001:000081D4       TFormTeeSeries.AddComponentDataSource
+ 0001:00008304       FillSourcesForm
+ 0001:00008350       TFormTeeSeries.FillSources
+ 0001:0000840C       TFormTeeSeries.FillSourceDatasets
+ 0001:00008448       SetTabSeriesDatabase
+ 0001:000087DC       SetTabDataSource
+ 0001:000088A0       TFormTeeSeries.EnableDataSourceControls
+ 0001:0000893C       TFormTeeSeries.SetTabSeriesDataSource
+ 0001:00008A60       TFormTeeSeries.CheckApplyChanges
+ 0001:00008A80       TFormTeeSeries.FormCreate
+ 0001:00008B0C       TFormTeeSeries.RGMarkStyleClick
+ 0001:00008B28       TFormTeeSeries.BEditFuncClick
+ 0001:00008D18       TFormTeeSeries.CBPersistentClick
+ 0001:00008D64       TFormTeeSeries.CBYDateTimeClick
+ 0001:00008D8C       TFormTeeSeries.CBXDateTimeClick
+ 0001:00008DB4       TFormTeeSeries.IsDateTimeSource
+ 0001:00008DDC       TFormTeeSeries.CBDataSourcestyleChange
+ 0001:00008EC4       TFormTeeSeries.DoApplyChangesFunction
+ 0001:00009044       TFormTeeSeries.GetSelectedSource
+ 0001:00009050       TFormTeeSeries.GetSourceCombo
+ 0001:00009060       TFormTeeSeries.CBFunctionsChange
+ 0001:0000908C       TFormTeeSeries.LBSelectedSeriesDblClick
+ 0001:00009094       TFormTeeSeries.LBAvailSeriesDblClick
+ 0001:0000909C       TFormTeeSeries.BLeftAllClick
+ 0001:000090C0       TFormTeeSeries.ChangeApply
+ 0001:000090E8       TFormTeeSeries.BRightAllClick
+ 0001:0000910C       TFormTeeSeries.BLeftOneClick
+ 0001:00009130       TFormTeeSeries.BRightOneClick
+ 0001:00009154       TFormTeeSeries.EnableListButtons
+ 0001:00009254       TFormTeeSeries.FillFields
+ 0001:00009268       TFormTeeSeries.CBLabelsFieldChange
+ 0001:00009304       TFormTeeSeries.SetTextItemIndex
+ 0001:00009374       TFormTeeSeries.CBValuesChange
+ 0001:00009450       TFormTeeSeries.CBDateTimeClick
+ 0001:00009458       CheckFieldIsBlank
+ 0001:000094C8       CheckValidFields
+ 0001:000095A8       TFormTeeSeries.DoApplyChangesDataset
+ 0001:000097CC       TFormTeeSeries.CBListDataSetsChange
+ 0001:000097E0       TFormTeeSeries.CBShowInLegendClick
+ 0001:00009800       TFormTeeSeries.RGVertAxisClick
+ 0001:00009818       TFormTeeSeries.CBSeriesCursorChange
+ 0001:000098B4       TFormTeeSeries.BMarkLinColClick
+ 0001:000098C8       TFormTeeSeries.BMarksFrameClick
+ 0001:000098DC       TFormTeeSeries.BMarkFontClick
+ 0001:00009900       TFormTeeSeries.SEArrowLengthChange
+ 0001:00009984       TFormTeeSeries.CBMarkClipClick
+ 0001:000099A8       TFormTeeSeries.CBTransparentClick
+ 0001:000099CC       TFormTeeSeries.CBMarksVisibleClick
+ 0001:000099F0       TFormTeeSeries.SetCurrentDataSource
+ 0001:00009A38       TFormTeeSeries.DataSourceStyle
+ 0001:00009A4C       TFormTeeSeries.SetSelectedSourceDatabase
+ 0001:00009B60       TFormTeeSeries.FillSourceSeries
+ 0001:00009BE8       TFormTeeSeries.SetTabSeriesFunctions
+ 0001:00009D88       TFormTeeSeries.SetSelectedSourceSeries
+ 0001:00009D8C       YesNoCancel
+ 0001:00009DB8       TFormTeeSeries.PageSeriesChanging
+ 0001:00009EC4       TFormTeeSeries.FormCloseQuery
+ 0001:00009EE4       TFormTeeSeries.FormDestroy
+ 0001:00009EFC       TFormTeeSeries.FormShow
+ 0001:00009F04       Finalization
+ 0001:00009F34       iEdiSeri
+ 0001:0000A97C       TFormTeeAxis.CreateAxis
+ 0001:0000A9C0       TFormTeeAxis.BAxisGridClick
+ 0001:0000A9D0       TFormTeeAxis.BTickInnerClick
+ 0001:0000A9E4       TFormTeeAxis.BTickMinorClick
+ 0001:0000A9F4       TFormTeeAxis.FormShow
+ 0001:0000AACC       TFormTeeAxis.RGWhichClick
+ 0001:0000AB60       TFormTeeAxis.CBVisibleClick
+ 0001:0000AB80       TFormTeeAxis.SEAxisTickLengthChange
+ 0001:0000ABA8       TFormTeeAxis.CBAutomaticClick
+ 0001:0000ABF4       TFormTeeAxis.ETitleChange
+ 0001:0000AC4C       TFormTeeAxis.BTitleFontClick
+ 0001:0000AC70       TFormTeeAxis.BAxisMaxClick
+ 0001:0000ADBC       TFormTeeAxis.BAxisMinClick
+ 0001:0000AF08       TFormTeeAxis.BIncreClick
+ 0001:0000B090       TFormTeeAxis.CBLogarithmicClick
+ 0001:0000B118       TFormTeeAxis.SEInnerTicksLengthChange
+ 0001:0000B140       TFormTeeAxis.SEAxisMinorTickLenChange
+ 0001:0000B168       TFormTeeAxis.SEMinorCountChange
+ 0001:0000B190       TFormTeeAxis.CBAutoMaxClick
+ 0001:0000B1E8       TFormTeeAxis.CBInvertedClick
+ 0001:0000B208       TFormTeeAxis.SETitleAngleChange
+ 0001:0000B234       TFormTeeAxis.SETitleSizeChange
+ 0001:0000B25C       TFormTeeAxis.CBLabelsClick
+ 0001:0000B27C       TFormTeeAxis.SELabelsAngleChange
+ 0001:0000B2A4       TFormTeeAxis.RGLabelStyleClick
+ 0001:0000B2BC       TFormTeeAxis.SELabelsSizeChange
+ 0001:0000B2E4       TFormTeeAxis.CBOnAxisClick
+ 0001:0000B304       TFormTeeAxis.SESeparChange
+ 0001:0000B32C       TFormTeeAxis.CBRoundFirstClick
+ 0001:0000B34C       TFormTeeAxis.EValuesFormatChange
+ 0001:0000B3E8       TFormTeeAxis.BLabelsFontClick
+ 0001:0000B408       TFormTeeAxis.BAxisPenClick
+ 0001:0000B418       TFormTeeAxis.BTickPenClick
+ 0001:0000B428       TFormTeeAxis.CBTickOnLabelsClick
+ 0001:0000B448       TFormTeeAxis.CBGridCenteredClick
+ 0001:0000B468       TFormTeeAxis.CBMultilineClick
+ 0001:0000B488       TFormTeeAxis.SetAxisScales
+ 0001:0000B6BC       SetAxisLabels
+ 0001:0000B840       SetAxisTicks
+ 0001:0000B8B4       SetAxisMinorTicks
+ 0001:0000B8F4       SetAxisTitle
+ 0001:0000B94C       SetAxisPositions
+ 0001:0000B9F4       TFormTeeAxis.PageAxisChange
+ 0001:0000BA90       TFormTeeAxis.CBShowClick
+ 0001:0000BAB8       TFormTeeAxis.FormCreate
+ 0001:0000BAD0       TFormTeeAxis.PageAxisChanging
+ 0001:0000BAD8       TFormTeeAxis.EPosChange
+ 0001:0000BB0C       TFormTeeAxis.EStartChange
+ 0001:0000BB7C       TFormTeeAxis.EEndChange
+ 0001:0000BBEC       TFormTeeAxis.BMinorGridClick
+ 0001:0000BBFC       Finalization
+ 0001:0000BC2C       iEdiAxis
+ 0001:0000C114       TFormTeeLegend.CreateLegend
+ 0001:0000C158       TFormTeeLegend.SEMarginChange
+ 0001:0000C1A8       TFormTeeLegend.CBLegendStyleChange
+ 0001:0000C1C8       TFormTeeLegend.SEColWiChange
+ 0001:0000C1F0       TFormTeeLegend.SETopPosChange
+ 0001:0000C218       TFormTeeLegend.BFontClick
+ 0001:0000C238       TFormTeeLegend.BColorClick
+ 0001:0000C258       TFormTeeLegend.CBLegStyleChange
+ 0001:0000C278       TFormTeeLegend.CBShowClick
+ 0001:0000C298       TFormTeeLegend.BFrameClick
+ 0001:0000C2A8       TFormTeeLegend.CBResizeChartClick
+ 0001:0000C2C8       TFormTeeLegend.CBInvertedClick
+ 0001:0000C2E8       TFormTeeLegend.BShadowClick
+ 0001:0000C308       TFormTeeLegend.SEShadowSizeChange
+ 0001:0000C330       TFormTeeLegend.FormShow
+ 0001:0000C41C       TFormTeeLegend.RBTopClick
+ 0001:0000C438       TFormTeeLegend.RBLeftClick
+ 0001:0000C454       TFormTeeLegend.RBRightClick
+ 0001:0000C470       TFormTeeLegend.RBBottomClick
+ 0001:0000C48C       TFormTeeLegend.BDivLinesClick
+ 0001:0000C49C       TFormTeeLegend.EnableLegendMarginControls
+ 0001:0000C4D8       TFormTeeLegend.FormCreate
+ 0001:0000C4E0       Finalization
+ 0001:0000C510       iEdiLege
+ 0001:0000C98C       TFormTeePanel.CreateChart
+ 0001:0000C9D0       TFormTeePanel.RGBevelInClick
+ 0001:0000C9F4       TFormTeePanel.RGBevelOutClick
+ 0001:0000CA18       TFormTeePanel.CBPanelBorderClick
+ 0001:0000CA40       TFormTeePanel.SEPanelWiChange
+ 0001:0000CA84       TFormTeePanel.BGradientStartClick
+ 0001:0000CAB4       TFormTeePanel.BGradientEndClick
+ 0001:0000CAE4       TFormTeePanel.CheckGradientVisible
+ 0001:0000CB64       TFormTeePanel.CBGradVisibleClick
+ 0001:0000CB94       TFormTeePanel.Shape1MouseUp
+ 0001:0000CBA4       TFormTeePanel.Shape2MouseUp
+ 0001:0000CBB4       TFormTeePanel.FormShow
+ 0001:0000CC78       TFormTeePanel.RGBitmapClick
+ 0001:0000CC90       TFormTeePanel.EnableImageControls
+ 0001:0000CD50       TeeLoadClearImage
+ 0001:0000CE20       TFormTeePanel.BBrowseImageClick
+ 0001:0000CE40       TFormTeePanel.CBImageInsideClick
+ 0001:0000CE60       SetShape
+ 0001:0000CEA0       TFormTeePanel.RepaintGradientColors
+ 0001:0000CEDC       TFormTeePanel.SEPanelBorChange
+ 0001:0000CF20       TFormTeePanel.BPanelColorClick
+ 0001:0000CF4C       TFormTeePanel.FormCreate
+ 0001:0000CF78       TFormTeePanel.ComboBox1Change
+ 0001:0000CFA0       Finalization
+ 0001:0000CFD0       iEdiPane
+ 0001:0000D2A0       TFormTeeTitle.CreateTitle
+ 0001:0000D2EC       TFormTeeTitle.SetMemoFormat
+ 0001:0000D34C       TFormTeeTitle.BFontClick
+ 0001:0000D374       TFormTeeTitle.SetTitleControls
+ 0001:0000D408       TFormTeeTitle.FormShow
+ 0001:0000D44C       TFormTeeTitle.CBVisibleClick
+ 0001:0000D46C       EqualStrings
+ 0001:0000D51C       TFormTeeTitle.MTextChange
+ 0001:0000D560       TFormTeeTitle.BFrameClick
+ 0001:0000D570       TFormTeeTitle.CBAdjustClick
+ 0001:0000D590       TFormTeeTitle.BBrushClick
+ 0001:0000D5A0       TFormTeeTitle.RGAlignClick
+ 0001:0000D5DC       TFormTeeTitle.CBTitlesChange
+ 0001:0000D620       TFormTeeTitle.BColorClick
+ 0001:0000D648       Finalization
+ 0001:0000D678       iEdiTitl
+ 0001:0000D9C0       TFormTeeWall.CreateWall
+ 0001:0000DA04       TFormTeeWall.TabSubWallsChange
+ 0001:0000DA58       TFormTeeWall.FormShow
+ 0001:0000DAC0       TFormTeeWall.CBView3dWallsClick
+ 0001:0000DAE4       TFormTeeWall.BWallPenClick
+ 0001:0000DAF4       TFormTeeWall.BWallBrushClick
+ 0001:0000DB04       TFormTeeWall.BWallColorClick
+ 0001:0000DB2C       TFormTeeWall.SEWallSizeChange
+ 0001:0000DB6C       TFormTeeWall.RefreshShape
+ 0001:0000DB88       TFormTeeWall.SHWallColorMouseUp
+ 0001:0000DB98       TFormTeeWall.SetWallControls
+ 0001:0000DC10       TFormTeeWall.CBWallTranspClick
+ 0001:0000DC90       TFormTeeWall.FormCreate
+ 0001:0000DCB8       TFormTeeWall.CBDark3DClick
+ 0001:0000DCD8       Finalization
+ 0001:0000DD08       iEdiWall
+ 0001:0000DD7C       ReadLabel
+ 0001:0000DDC0       ReadSeriesPoint
+ 0001:0000DF1C       ReadSeriesData
+ 0001:0000DF74       ReadChartData
+ 0001:0000E02C       TChartReader.Error
+ 0001:0000E04C       LoadChartFromStreamCheck
+ 0001:0000E1E8       LoadChartFromStream
+ 0001:0000E1F4       LoadChartFromFileCheck
+ 0001:0000E250       LoadChartFromFile
+ 0001:0000E25C       ConvertTeeFileToText
+ 0001:0000E310       HasNoMandatoryValues
+ 0001:0000E3B4       HasColors
+ 0001:0000E410       HasLabels
+ 0001:0000E498       SeriesGuessContents
+ 0001:0000E4F4       WriteLabel
+ 0001:0000E538       WriteSeriesPoint
+ 0001:0000E67C       WriteSeriesData
+ 0001:0000E6EC       WriteChartData
+ 0001:0000E720       SaveChartToStream
+ 0001:0000E75C       SaveChartToFile
+ 0001:0000E7B4       NotMandatoryList
+ 0001:0000E978       Finalization
+ 0001:0000E9A8       TeeStore
+ 0001:0000EDA0       TeeExportSaveChart
+ 0001:0000EDD0       ChartExport
+ 0001:0000EE64       TFormTeeGeneral.CreateChart
+ 0001:0000EEA8       TFormTeeGeneral.BPrintClick
+ 0001:0000EEB4       TFormTeeGeneral.CBAllowZoomClick
+ 0001:0000EED4       TFormTeeGeneral.CBClipPointsClick
+ 0001:0000EEF4       TFormTeeGeneral.CBAnimatedZoomClick
+ 0001:0000EF14       TFormTeeGeneral.FormShow
+ 0001:0000EFEC       TFormTeeGeneral.BExportClick
+ 0001:0000EFF8       TFormTeeGeneral.RGPanningClick
+ 0001:0000F014       TFormTeeGeneral.SEAniZoomStepsChange
+ 0001:0000F03C       TFormTeeGeneral.ChangeMargin
+ 0001:0000F084       TFormTeeGeneral.SERightMaChange
+ 0001:0000F0C4       TFormTeeGeneral.SETopMaChange
+ 0001:0000F108       TFormTeeGeneral.SEBotMaChange
+ 0001:0000F14C       TFormTeeGeneral.SELeftMaChange
+ 0001:0000F18C       TFormTeeGeneral.FormCreate
+ 0001:0000F194       Finalization
+ 0001:0000F1C4       iEdiGene
+ 0001:0000F4B8       TFormTeePage.CreateChart
+ 0001:0000F4FC       TFormTeePage.TheChartPageChange
+ 0001:0000F610       TFormTeePage.SEPointsPerPageChange
+ 0001:0000F69C       TFormTeePage.ButtonPreviousClick
+ 0001:0000F6B8       TFormTeePage.CBScaleLastClick
+ 0001:0000F6D8       TFormTeePage.BLastPageClick
+ 0001:0000F708       TFormTeePage.BFirstPageClick
+ 0001:0000F72C       TFormTeePage.FormShow
+ 0001:0000F770       TFormTeePage.ButtonNextClick
+ 0001:0000F78C       TFormTeePage.FormCreate
+ 0001:0000F794       Finalization
+ 0001:0000F7C4       iEdiPage
+ 0001:0000FBB0       TFormTee3D.CreateChart
+ 0001:0000FBF4       TFormTee3D.CheckRotation
+ 0001:0000FC50       TFormTee3D.CBOrthogonalClick
+ 0001:0000FCBC       TFormTee3D.SBZoomChange
+ 0001:0000FD4C       TFormTee3D.SBRotationChange
+ 0001:0000FDC4       TFormTee3D.SBElevationChange
+ 0001:0000FE3C       TFormTee3D.CBView3dClick
+ 0001:0000FF30       TFormTee3D.FormShow
+ 0001:0001007C       TFormTee3D.SBHOffsetChange
+ 0001:000100F4       TFormTee3D.SBVOffsetChange
+ 0001:0001016C       TFormTee3D.SE3dChange
+ 0001:00010194       TFormTee3D.FormCreate
+ 0001:0001019C       TFormTee3D.CBZoomTextClick
+ 0001:000101C4       TFormTee3D.SBPerspecChange
+ 0001:0001023C       Finalization
+ 0001:0001026C       iEdi3D
+ 0001:00010870       TChartEditForm.CheckHelpFile
+ 0001:000109B0       GetEditingCaption
+ 0001:00010A1C       HideTabs
+ 0001:00010BB0       TChartEditForm.FormShow
+ 0001:00010DA0       GetRegistryHelpPath
+ 0001:00010E9C       GetTeeChartHelpFile
+ 0001:00010EC8       GetTeeChartUserHelpFile
+ 0001:00010EF0       TChartEditForm.FormCreate
+ 0001:00010F8C       TChartEditForm.Notebook1Change
+ 0001:000111A8       TChartEditForm.BCloseClick
+ 0001:000111B4       TChartEditForm.MainPageChanging
+ 0001:000111C8       TChartEditForm.BMoveUPClick
+ 0001:000111D4       TChartEditForm.BMoveDownClick
+ 0001:000111E0       TChartEditForm.BAddSeriesClick
+ 0001:00011240       TChartEditForm.BDeleteSeriesClick
+ 0001:0001124C       TChartEditForm.BRenameSeriesClick
+ 0001:0001126C       TChartEditForm.BCloneSeriesClick
+ 0001:00011278       TChartEditForm.SetTabSeries
+ 0001:00011380       TChartEditForm.MainPageChange
+ 0001:0001139C       TChartEditForm.WMHelp
+ 0001:000113F0       TChartEditForm.HelpClick
+ 0001:0001140C       TChartEditForm.FormCloseQuery
+ 0001:00011420       TChartEditForm.LBSeriesEditSeries
+ 0001:00011450       TChartEditForm.LBSeriesOtherItemsChange
+ 0001:00011480       TChartEditForm.LBSeriesRefreshButtons
+ 0001:00011658       TChartEditForm.BChangeTypeSeriesClick
+ 0001:00011668       Finalization
+ 0001:00011698       iEditCha
+ 0001:00011764       OnDBChartGetSourceStyle
+ 0001:000117AC       AddField
+ 0001:00011854       OnDBChartFillFields
+ 0001:00011A50       OnDBChartIsDateTimeSource
+ 0001:00011A8C       OnDBChartIsValidComponentSource
+ 0001:00011AC8       OnCreateEditDBChart
+ 0001:00011C5C       Finalization
+ 0001:00011C98       DbEditCh
+ 0001:000120A0       TeeInsertPointerForm
+ 0001:00012118       TSeriesPointerEditor.Enable3DPoint
+ 0001:00012190       TSeriesPointerEditor.FormShow
+ 0001:000122D4       TSeriesPointerEditor.SetPointerVisible
+ 0001:00012380       TSeriesPointerEditor.CBDrawPointClick
+ 0001:0001239C       TSeriesPointerEditor.CB3dPointClick
+ 0001:000123BC       TSeriesPointerEditor.SEPointHorizSizeChange
+ 0001:000123E4       TSeriesPointerEditor.BPointFillColorClick
+ 0001:0001244C       TSeriesPointerEditor.CBPointStyleChange
+ 0001:00012474       TSeriesPointerEditor.BPoinPenColClick
+ 0001:00012484       TSeriesPointerEditor.FormCreate
+ 0001:00012494       TSeriesPointerEditor.SEPointVertSizeChange
+ 0001:000124BC       TSeriesPointerEditor.CBInflateClick
+ 0001:000124DC       TSeriesPointerEditor.CBPoDarkClick
+ 0001:000124FC       TSeriesPointerEditor.CBDefBrushColorClick
+ 0001:00012528       Finalization
+ 0001:00012558       TeePoEdi
+ 0001:00012898       TCustomSeriesEditor.FormShow
+ 0001:000129E4       TCustomSeriesEditor.BLineColorClick
+ 0001:00012A08       TCustomSeriesEditor.BLineBorderClick
+ 0001:00012A1C       TCustomSeriesEditor.CBStairsClick
+ 0001:00012A58       TCustomSeriesEditor.FormCreate
+ 0001:00012A68       TCustomSeriesEditor.CBLineBrushChange
+ 0001:00012A88       TCustomSeriesEditor.CBInvStairsClick
+ 0001:00012AA8       TCustomSeriesEditor.CBColorEachClick
+ 0001:00012AC8       TCustomSeriesEditor.CBDark3DClick
+ 0001:00012AE8       TCustomSeriesEditor.ShColorMouseUp
+ 0001:00012B28       Finalization
+ 0001:00012B58       CustEdit
+ 0001:00012EC4       TAreaSeriesEditor.FormShow
+ 0001:00012F84       TAreaSeriesEditor.RefreshShape
+ 0001:00012FD8       TAreaSeriesEditor.RGMultiAreaClick
+ 0001:00012FF0       TAreaSeriesEditor.CBColorEachClick
+ 0001:00013018       TAreaSeriesEditor.GetAreaColor
+ 0001:00013034       TAreaSeriesEditor.BAreaColorClick
+ 0001:00013060       TAreaSeriesEditor.CBStairsClick
+ 0001:00013098       TAreaSeriesEditor.CBAreaBrushChange
+ 0001:000130B8       TAreaSeriesEditor.BAreaLinesPenClick
+ 0001:000130CC       TAreaSeriesEditor.SHAreaColorMouseUp
+ 0001:000130DC       TAreaSeriesEditor.BAreaLinePenClick
+ 0001:000130F0       TAreaSeriesEditor.CBInvStairsClick
+ 0001:00013110       Finalization
+ 0001:00013140       Areaedit
+ 0001:000135C8       TBarSeriesEditor.FormShow
+ 0001:0001371C       TBarSeriesEditor.RefreshShape
+ 0001:0001376C       TBarSeriesEditor.SEBarwidthChange
+ 0001:00013794       TBarSeriesEditor.CBYOriginClick
+ 0001:000137F4       TBarSeriesEditor.EYOriginChange
+ 0001:00013878       TBarSeriesEditor.CBBarStyleChange
+ 0001:000138A4       TBarSeriesEditor.BBarPenClick
+ 0001:000138B8       TBarSeriesEditor.BBarBrushClick
+ 0001:000138CC       TBarSeriesEditor.RGMultiBarClick
+ 0001:000138F0       TBarSeriesEditor.CBColorEachClick
+ 0001:00013920       TBarSeriesEditor.BBarColorClick
+ 0001:0001395C       TBarSeriesEditor.CBDarkBarClick
+ 0001:00013988       TBarSeriesEditor.CBBarSideMarginsClick
+ 0001:000139B4       TBarSeriesEditor.SEBarOffsetChange
+ 0001:000139DC       TBarSeriesEditor.SHBarColorMouseUp
+ 0001:000139EC       TBarSeriesEditor.CBMarksAutoPositionClick
+ 0001:00013A0C       TBarSeriesEditor.FormCreate
+ 0001:00013A14       Finalization
+ 0001:00013A44       BarEdit
+ 0001:00013F38       TPieSeriesEditor.FormShow
+ 0001:00014118       TPieSeriesEditor.CBCircledClick
+ 0001:00014138       TPieSeriesEditor.CB3DClick
+ 0001:00014164       TPieSeriesEditor.SERotationChange
+ 0001:0001418C       TPieSeriesEditor.BPiePenClick
+ 0001:000141A0       TPieSeriesEditor.CBDark3dClick
+ 0001:000141CC       TPieSeriesEditor.SEXRadiusChange
+ 0001:00014214       TPieSeriesEditor.SEYRadiusChange
+ 0001:0001425C       TPieSeriesEditor.CBPatternsClick
+ 0001:00014294       TPieSeriesEditor.BBackPieColorClick
+ 0001:000142B8       TPieSeriesEditor.CBAutoXRClick
+ 0001:000142DC       TPieSeriesEditor.CBAutoYRClick
+ 0001:00014300       TPieSeriesEditor.CBOtherChange
+ 0001:00014358       TPieSeriesEditor.EOtherValueChange
+ 0001:000143DC       TPieSeriesEditor.EOtherLabelChange
+ 0001:00014438       TPieSeriesEditor.SEExpBigChange
+ 0001:00014460       TPieSeriesEditor.FormCreate
+ 0001:00014468       TPieSeriesEditor.CBOrderChange
+ 0001:000144C0       Finalization
+ 0001:000144F0       PieEdit
+ 0001:000146F4       TFastLineSeriesEditor.BLinePenClick
+ 0001:00014748       TFastLineSeriesEditor.FormShow
+ 0001:00014788       TFastLineSeriesEditor.SHColorMouseUp
+ 0001:000147C8       Finalization
+ 0001:000147F8       FLineEdi
+ 0001:00014C28       TChartShapeEditor.BShapePenClick
+ 0001:00014C3C       TChartShapeEditor.FormShow
+ 0001:00014E38       TChartShapeEditor.SHColorMouseUp
+ 0001:00014E50       TChartShapeEditor.SEX0Change
+ 0001:00014ED4       TChartShapeEditor.SEY0Change
+ 0001:00014F58       TChartShapeEditor.SEX1Change
+ 0001:00014FDC       TChartShapeEditor.SEY1Change
+ 0001:00015060       TChartShapeEditor.BShapeBrushClick
+ 0001:0001509C       TChartShapeEditor.MemoTextChange
+ 0001:000150C0       TChartShapeEditor.RGAlignClick
+ 0001:00015104       TChartShapeEditor.Button1Click
+ 0001:00015118       TChartShapeEditor.CBTransClick
+ 0001:00015138       TChartShapeEditor.BShapeColorClick
+ 0001:00015184       TChartShapeEditor.CBStyleChange
+ 0001:000151A4       Finalization
+ 0001:000151D4       ShapeEdi
+ 0001:000154CC       TGanttSeriesEditor.RefreshShape
+ 0001:00015504       TGanttSeriesEditor.FormShow
+ 0001:0001557C       TGanttSeriesEditor.Button1Click
+ 0001:00015590       TGanttSeriesEditor.FormCreate
+ 0001:000155A0       TGanttSeriesEditor.SEPointVertSizeChange
+ 0001:000155D0       TGanttSeriesEditor.BConnLinesClick
+ 0001:000155E4       TGanttSeriesEditor.CBColorEachClick
+ 0001:0001560C       TGanttSeriesEditor.BitBtn1Click
+ 0001:00015640       TGanttSeriesEditor.SHColorMouseUp
+ 0001:00015650       Finalization
+ 0001:00015680       GanttEdi
+ 0001:000159F4       TArrowSeriesEditor.CBColorEachClick
+ 0001:00015A64       TArrowSeriesEditor.BArrowColorClick
+ 0001:00015A9C       TArrowSeriesEditor.BPenClick
+ 0001:00015AB4       TArrowSeriesEditor.BBrushClick
+ 0001:00015ACC       TArrowSeriesEditor.SEArrowWidthChange
+ 0001:00015AF4       TArrowSeriesEditor.SEArrowHeightChange
+ 0001:00015B1C       TArrowSeriesEditor.FormShow
+ 0001:00015BA0       TArrowSeriesEditor.SHArrowColorMouseUp
+ 0001:00015BB0       TArrowSeriesEditor.FormCreate
+ 0001:00015BB8       Finalization
+ 0001:00015BE8       Arrowedi
+ 0001:00015C0C       EditFont
+ 0001:00015C14       GetChartEditClass
+ 0001:00015C40       EditSeries
+ 0001:00015C98       EditChartPage
+ 0001:00015CEC       EditChartTitle
+ 0001:00015D50       EditChartWall
+ 0001:00015DB4       EditChartAxis
+ 0001:00015E1C       EditDSSChart
+ 0001:00015E70       EditChart
+ 0001:00015E78       EditChartLegend
+ 0001:00015E84       EditChartPart
+ 0001:00015EEC       Finalization
+ 0001:00015F1C       EditChar
+ 0001:00016294       @GetPackageInfoTable
+ 0001:0001629C       @PackageLoad
+ 0001:000162A8       @PackageUnload
+ 0001:000162B4       teeui
+ 0002:00000000       TlsIndex
+ 0002:00000004       Module
+ 0002:0000001C       TlsProc
+ 0002:0000002C       Styles
+ 0002:00000030       Styles
+ 0002:00000034       InternalOnCreateEditSeries
+ 0002:00000038       InternalOnGetDesignerNames
+ 0002:00001000       ModuleIsLib
+ 0002:00001001       ModuleIsPackage
+ 0002:00001004       HInstance
+ 0002:00001008       .1
+ 0002:0000100C       tlsBuffer
+ 0002:00001010       .3
+ 0002:00001014       .1
+ 0002:00001018       .1
+ 0002:0000101C       .1
+ 0002:00001020       .1
+ 0002:00001024       .1
+ 0002:00001028       .1
+ 0002:0000102C       .1
+ 0002:00001030       .1
+ 0002:00001034       .3
+ 0002:00001038       .1
+ 0002:0000103C       .1
+ 0002:00001040       .1
+ 0002:00001044       .2
+ 0002:00001048       .2
+ 0002:0000104C       .4
+ 0002:00001050       .3
+ 0002:00001054       .2
+ 0002:00001058       .2
+ 0002:0000105C       TheSource
+ 0002:00001060       .2
+ 0002:00001064       .2
+ 0002:00001068       .2
+ 0002:0000106C       .2
+ 0002:00001070       .2
+ 0002:00001074       .1
+ 0002:00001078       .2
+ 0002:0000107C       .2
+ 0002:00001080       .2
+ 0002:00001084       .2
+ 0002:00001088       .1
+ 0002:0000108C       .2
+ 0002:00001090       .2
+ 0002:00001094       .2
+ 0002:00001098       .2
+ 0002:0000109C       .2
+ 0002:000010A0       .2
+ 0002:000010A4       .2
+ 0002:000010A8       .2
+ 0002:000010AC       .2
+ 0002:000010B0       .1
+
+
+Bound resource files
+
+Axmaxmin.dfm
+AxisIncr.dfm
+TeeGally.dfm
+teebmps.res
+iEdiPeri.dfm
+iEdiSeri.dfm
+iEdiAxis.dfm
+iEdiLege.dfm
+iEdiPane.dfm
+iEditItl.dfm
+iEdiWall.dfm
+iEdiGene.dfm
+iEdiPage.dfm
+iEdi3d.dfm
+iEditCha.dfm
+TeePoEdi.dfm
+CustEdit.dfm
+Areaedit.dfm
+BarEdit.dfm
+PieEdit.dfm
+FLineEdi.dfm
+ShapeEdi.dfm
+GanttEdi.dfm
+Arrowedi.dfm
+teeui.res
+C:\DOCUME~1\~KOKOP~1\LOCALS~1\Temp\dtf28B8.tmp
+
+
+Program entry point at 0001:000162B4

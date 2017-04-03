@@ -1,0 +1,284 @@
+object Form1: TForm1
+  Left = 458
+  Top = 275
+  Width = 800
+  Height = 600
+  VertScrollBar.Range = 193
+  ActiveControl = Memo1
+  Caption = 'rexec Client'
+  Color = clButton
+  Font.Color = clText
+  Font.Height = 13
+  Font.Name = 'helvetica'
+  Font.Pitch = fpVariable
+  Font.Style = []
+  ParentFont = False
+  PixelsPerInch = 86
+  TextHeight = 15
+  TextWidth = 7
+  object Panel1: TPanel
+    Left = 0
+    Top = 193
+    Width = 800
+    Height = 407
+    Align = alClient
+    TabOrder = 0
+    object Memo1: TMemo
+      Left = 1
+      Top = 1
+      Width = 798
+      Height = 405
+      Align = alClient
+      Color = clBlack
+      Font.CharSet = fcsLatin1
+      Font.Color = clLime
+      Font.Height = 16
+      Font.Name = 'misc-fixed'
+      Font.Pitch = fpVariable
+      Font.Style = []
+      Lines.Strings = (
+        'DEMO: rexec'
+        ''
+        'Usage: fill in the parameters and press execute.'
+        ''
+        'Parameter fields'
+        '----------------------------------------------------------'
+        'Server:  Host Name or IP of server with an '
+        '         RExec server running on port 512'
+        ''
+        'UserName: The name of the user to login to the server'
+        ''
+        'PassWord: Password for the user '
+        '          CAUTION: This is sent  as plaintext'
+        ''
+        'Command : The command to execute on the Server'
+        '          A series of commands can be used by seperating '
+        '          them with a semicolon ;'
+        ''
+        'Example Commands:'
+        '  ls -l'
+        '  DISPLAY=LOCALIP:0.0; xterm'
+        '  /usr/local/someApplication/startService'
+        '             '
+        '                   ')
+      ParentFont = False
+      ScrollBars = ssVertical
+      TabOrder = 0
+    end
+  end
+  object Panel2: TPanel
+    Left = 0
+    Top = 0
+    Width = 800
+    Height = 193
+    Align = alTop
+    TabOrder = 1
+    object ConnectLight: TShape
+      Left = 318
+      Top = 9
+      Width = 10
+      Height = 10
+      Brush.Color = clRed
+      Shape = stCircle
+    end
+    object Label3: TLabel
+      Left = 5
+      Top = 138
+      Width = 110
+      Height = 18
+      AutoSize = False
+      Caption = 'Command'
+      Font.CharSet = fcsLatin1
+      Font.Color = clBlack
+      Font.Height = 16
+      Font.Name = 'misc-fixed'
+      Font.Pitch = fpVariable
+      Font.Style = []
+      ParentFont = False
+      Layout = tlCenter
+    end
+    object Label4: TLabel
+      Left = 8
+      Top = 15
+      Width = 100
+      Height = 18
+      AutoSize = False
+      Caption = 'Server'
+      Font.CharSet = fcsLatin1
+      Font.Color = clBlack
+      Font.Height = 16
+      Font.Name = 'misc-fixed'
+      Font.Pitch = fpVariable
+      Font.Style = []
+      ParentFont = False
+      Layout = tlCenter
+    end
+    object Label1: TLabel
+      Left = 5
+      Top = 56
+      Width = 110
+      Height = 20
+      AutoSize = False
+      Caption = 'UserName'
+      Font.CharSet = fcsLatin1
+      Font.Color = clBlack
+      Font.Height = 16
+      Font.Name = 'misc-fixed'
+      Font.Pitch = fpVariable
+      Font.Style = []
+      ParentFont = False
+      Layout = tlCenter
+    end
+    object Label2: TLabel
+      Left = 4
+      Top = 98
+      Width = 100
+      Height = 19
+      AutoSize = False
+      Caption = 'PassWord'
+      Font.CharSet = fcsLatin1
+      Font.Color = clBlack
+      Font.Height = 16
+      Font.Name = 'misc-fixed'
+      Font.Pitch = fpVariable
+      Font.Style = []
+      ParentFont = False
+      Layout = tlCenter
+    end
+    object Label5: TLabel
+      Left = 338
+      Top = 7
+      Width = 154
+      Height = 18
+      AutoSize = False
+      Caption = 'Connection'
+      Font.CharSet = fcsLatin1
+      Font.Color = clBlack
+      Font.Height = 16
+      Font.Name = 'misc-fixed'
+      Font.Pitch = fpVariable
+      Font.Style = []
+      ParentFont = False
+      Layout = tlCenter
+    end
+    object EditServer: TEdit
+      Left = 124
+      Top = 2
+      Width = 181
+      Height = 37
+      Font.CharSet = fcsLatin1
+      Font.Color = clBlack
+      Font.Height = 25
+      Font.Name = 'fixedsys'
+      Font.Pitch = fpVariable
+      Font.Style = []
+      Font.Weight = 48
+      MaxLength = 32767
+      ParentFont = False
+      TabOrder = 0
+    end
+    object EditCommand: TEdit
+      Left = 122
+      Top = 129
+      Width = 365
+      Height = 37
+      Font.CharSet = fcsLatin1
+      Font.Color = clBlack
+      Font.Height = 25
+      Font.Name = 'fixedsys'
+      Font.Pitch = fpVariable
+      Font.Style = []
+      Font.Weight = 48
+      MaxLength = 32767
+      ParentFont = False
+      TabOrder = 3
+    end
+    object EditUser: TEdit
+      Left = 122
+      Top = 45
+      Width = 182
+      Height = 37
+      Font.CharSet = fcsLatin1
+      Font.Color = clBlack
+      Font.Height = 25
+      Font.Name = 'fixedsys'
+      Font.Pitch = fpVariable
+      Font.Style = []
+      Font.Weight = 48
+      MaxLength = 32767
+      ParentFont = False
+      TabOrder = 1
+    end
+    object EditPass: TEdit
+      Left = 122
+      Top = 87
+      Width = 182
+      Height = 37
+      Font.CharSet = fcsLatin1
+      Font.Color = clBlack
+      Font.Height = 25
+      Font.Name = 'fixedsys'
+      Font.Pitch = fpVariable
+      Font.Style = []
+      Font.Weight = 48
+      MaxLength = 32767
+      ParentFont = False
+      TabOrder = 2
+    end
+    object Button1: TButton
+      Left = 500
+      Top = 128
+      Width = 278
+      Height = 24
+      Caption = 'Execute'
+      Font.CharSet = fcsLatin1
+      Font.Color = clBlack
+      Font.Height = 16
+      Font.Name = 'misc-fixed'
+      Font.Pitch = fpVariable
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 4
+      OnClick = Button1Click
+    end
+    object ButtonClose: TButton
+      Left = 501
+      Top = 77
+      Width = 277
+      Height = 24
+      Caption = 'Close Connection'
+      Font.CharSet = fcsLatin1
+      Font.Color = clBlack
+      Font.Height = 16
+      Font.Name = 'misc-fixed'
+      Font.Pitch = fpVariable
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 5
+      OnClick = ButtonCloseClick
+    end
+    object ButtonClear: TButton
+      Left = 501
+      Top = 24
+      Width = 277
+      Height = 24
+      Caption = 'Clear Screen'
+      Font.CharSet = fcsLatin1
+      Font.Color = clBlack
+      Font.Height = 16
+      Font.Name = 'misc-fixed'
+      Font.Pitch = fpVariable
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 6
+      OnClick = ButtonClearClick
+    end
+  end
+  object client: TTcpClient
+    RemotePort = '512'
+    OnConnect = clientConnect
+    OnError = clientError
+    Left = 312
+    Top = 40
+  end
+end

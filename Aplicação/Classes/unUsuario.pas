@@ -3,7 +3,7 @@ unit unUsuario;
 interface
 
 uses
-  unClasseBasica;
+  unClasseBasica, DB;
 
   type TUsuario = class(TBasica)
     private
@@ -11,6 +11,9 @@ uses
       FsNome: String;
       FsSenha: String;
       FsConfirmacaoSenha: String;
+      FoFieldEmail: TField;
+      FoFieldNome: TField;
+      FoFieldSenha: TField;
 
       function GetEmail: String;
       function GetNome: String;
@@ -26,12 +29,13 @@ uses
       function VerificarEmailJahCadastrado: Boolean;
       function CarregarDadosUsuario: Boolean;
     protected
-      function Atualizar: Boolean; override;
-      function Inserir: Boolean; override;
+      function Atualizar: Integer; override;
+      function Inserir: Integer; override;
       procedure DefinirComponentesAcessoDados; override;
       procedure DefinirFieldsAcessoDados; override;
       procedure DefinirComponentesDadosParaNil; override;
       function ValidarFieldsAtivos: Boolean; override;
+      function ProcessarSalvamento: Integer; override;
     public
       property prpEmail: String read GetEmail write SetEmail;
       property prpNome: String read GetNome write SetNome;
@@ -44,24 +48,24 @@ uses
       function Editar: Boolean; override;
       function Novo: Boolean; override;
       function Salvar: Boolean; override;
-      function Deletar(const piCodigo: Integer): Boolean; override;
-      procedure DeletarCdsDados; override;      
+      function Deletar(const pnCodigo: Integer): Boolean; override;
       procedure Cancelar; override;
       function Login: Boolean;
-      function Buscar(const piCodigo: Integer): Boolean;
+      function Buscar(const pnCodigo: Integer): Boolean;
       procedure CarregarDadosUsuarioLogado;
   end;
 
 implementation
 
 uses
-  unConstantes, unDM, DB, unUsuarioSingleton;
+  unConstantes, unDM, unUsuarioSingleton;
 
 { TUsuario }
 
 constructor TUsuario.Create;
 begin
   inherited Create;
+  DefinirGenerator(sGEN_ID_USUARIOS);
 end;
 
 destructor TUsuario.Destroy;
@@ -120,20 +124,113 @@ end;
 
 function TUsuario.Editar: Boolean;
 begin
-//xxxxxxxxx
+  Result := False;
 end;
 
 function TUsuario.Novo: Boolean;
 begin
-//xxxxxxxxx
+  Result := False;
 end;
 
 function TUsuario.Salvar: Boolean;
 begin
   Result := inherited Salvar;
+end;
 
+function TUsuario.Deletar(const pnCodigo: Integer): Boolean;
+begin
+  Result := False;
+  Exit;
+end;
+
+procedure TUsuario.Cancelar;
+begin
+  Exit;
+end;
+
+function TUsuario.Atualizar: Integer;
+begin
+  try
+    FoQryExecutar.Close;
+    FoQryExecutar.SQL.Clear;
+    FoQryExecutar.SQL.Add('UPDATE usuarios ');
+    FoQryExecutar.SQL.Add('SET nome = :pNome, email = :pEmail, senha = :pSenha ');
+    FoQryExecutar.SQL.Add('WHERE codigo = :pCodigo');
+    FoQryExecutar.ParamByName('pNome').AsString := prpNome;
+    FoQryExecutar.ParamByName('pEmail').AsString := prpEmail;
+    FoQryExecutar.ParamByName('pSenha').AsString := prpSenha;
+    FoQryExecutar.ParamByName('pCodigo').AsInteger := prpCodigo;
+    FoQryExecutar.ExecSQL;
+    Result := prpCodigo;
+  except
+    Result := nNUMERO_INDEFINIDO;
+  end;
+end;
+
+function TUsuario.Inserir: Integer;
+begin
+  try
+    FoQryExecutar.Close;
+    FoQryExecutar.SQL.Clear;
+    FoQryExecutar.SQL.Add('INSERT INTO usuarios (nome, email, senha) ');
+    FoQryExecutar.SQL.Add('VALUES (:pNome, :pEmail, :pSenha)');
+    FoQryExecutar.ParamByName('pNome').AsString := prpNome;
+    FoQryExecutar.ParamByName('pEmail').AsString := prpEmail;
+    FoQryExecutar.ParamByName('pSenha').AsString := prpSenha;
+    FoQryExecutar.ExecSQL;
+    Result := PegarCodigoUltimoRegistro;
+  except
+    Result := nNUMERO_INDEFINIDO;
+  end;
+end;
+
+procedure TUsuario.DefinirComponentesAcessoDados;
+begin
+  inherited;
+  FoQryDados := DM.qryUsuarios;
+  FoDspDados := DM.dspUsuarios;
+  FoCdsDados := DM.cdsUsuarios;
+end;
+
+procedure TUsuario.DefinirFieldsAcessoDados;
+begin
+  inherited;
+
+  if (FoCdsDados.FindField(sFIELD_USUARIO_EMAIL) <> nil) then
+    FoFieldEmail := FoCdsDados.FindField(sFIELD_USUARIO_EMAIL);
+
+  if (FoCdsDados.FindField(sFIELD_USUARIO_NOME) <> nil) then
+    FoFieldNome := FoCdsDados.FindField(sFIELD_USUARIO_NOME);
+
+  if (FoCdsDados.FindField(sFIELD_USUARIO_SENHA) <> nil) then
+    FoFieldSenha := FoCdsDados.FindField(sFIELD_USUARIO_SENHA);
+end;
+
+procedure TUsuario.DefinirComponentesDadosParaNil;
+begin
+  inherited;
+  FoFieldEmail := nil;
+  FoFieldNome := nil;
+  FoFieldSenha := nil;
+end;
+
+function TUsuario.ValidarFieldsAtivos: Boolean;
+begin
+  Result := inherited ValidarFieldsAtivos;
   if not(Result) then
     Exit;
+
+  Result := (Assigned(FoFieldEmail)) and (Assigned(FoFieldNome)) and (Assigned(FoFieldSenha));
+end;
+
+function TUsuario.ProcessarSalvamento: Integer;
+begin
+  Result := inherited ProcessarSalvamento;
+
+  if (Result = nNUMERO_INDEFINIDO) or (Result = nCANCELA_SALVAMENTO) then
+    Exit;
+
+  Result := nNUMERO_INDEFINIDO;
 
   if not(VerificarSenhaIgualConfirmacaoSenha) then
     Exit;
@@ -155,13 +252,13 @@ begin
       else
         Result := Atualizar;
 
-      if not(Result) then
+      if (Result = nNUMERO_INDEFINIDO) then
       begin
         prpMensagem := sMSG_OCORREU_ERRO_SALVAR_USUARIO;
         Exit;
       end;
     finally
-      if not(Result) then
+      if (Result = nNUMERO_INDEFINIDO) then
         RollbackTransacao
       else
         ComitarTransacao;
@@ -170,79 +267,6 @@ begin
     prpMensagem := sMSG_OCORREU_ERRO_SALVAR_USUARIO;
     RollbackTransacao;
   end;
-
-  Result := True;
-end;
-
-function TUsuario.Deletar(const piCodigo: Integer): Boolean;
-begin
-  Result := False;
-  Exit;
-end;
-
-procedure TUsuario.DeletarCdsDados;
-begin
-  Exit;
-end;
-
-procedure TUsuario.Cancelar;
-begin
-//xxxxxxxxx
-end;
-
-function TUsuario.Atualizar: Boolean;
-begin
-  Result := False;
-  FoQryExecutar.Close;
-  FoQryExecutar.SQL.Clear;
-  FoQryExecutar.SQL.Add('UPDATE usuarios ');
-  FoQryExecutar.SQL.Add('SET nome = :pNome, email = :pEmail, senha = :pSenha ');
-  FoQryExecutar.SQL.Add('WHERE codigo = :pCodigo');
-  FoQryExecutar.ParamByName('pNome').AsString := prpNome;
-  FoQryExecutar.ParamByName('pEmail').AsString := prpEmail;
-  FoQryExecutar.ParamByName('pSenha').AsString := prpSenha;
-  FoQryExecutar.ParamByName('pCodigo').AsInteger := prpCodigo;
-  FoQryExecutar.ExecSQL;
-  Result := True;
-end;
-
-function TUsuario.Inserir: Boolean;
-begin
-  Result := False;
-  FoQryExecutar.Close;
-  FoQryExecutar.SQL.Clear;
-  FoQryExecutar.SQL.Add('INSERT INTO usuarios (nome, email, senha) ');
-  FoQryExecutar.SQL.Add('VALUES (:pNome, :pEmail, :pSenha)');
-  FoQryExecutar.ParamByName('pNome').AsString := prpNome;
-  FoQryExecutar.ParamByName('pEmail').AsString := prpEmail;
-  FoQryExecutar.ParamByName('pSenha').AsString := prpSenha;
-  FoQryExecutar.ExecSQL;
-  Result := True;
-end;
-
-procedure TUsuario.DefinirComponentesAcessoDados;
-begin
-  inherited;
-  FoQryDados := DM.qryUsuarios;
-  FoDspDados := DM.dspUsuarios;
-  FoCdsDados := DM.cdsUsuarios;
-end;
-
-procedure TUsuario.DefinirFieldsAcessoDados;
-begin
-  inherited;
-end;
-
-procedure TUsuario.DefinirComponentesDadosParaNil;
-begin
-  inherited;
-end;
-
-function TUsuario.ValidarFieldsAtivos: Boolean;
-begin
-  Result := inherited ValidarFieldsAtivos;
-  if not(Result) then
-    Exit;
 end;
 
 function TUsuario.VerificarSenhaIgualConfirmacaoSenha: Boolean;
@@ -297,6 +321,7 @@ function TUsuario.Login: Boolean;
 begin
   Result := False;
 
+  FoCdsDados.Close;
   FoQryDados.Close;
   FoQryDados.SQL.Clear;
   FoQryDados.SQL.Add('SELECT * FROM usuarios ');
@@ -305,8 +330,9 @@ begin
   FoQryDados.ParamByName('pEmail').AsString := prpEmail;
   FoQryDados.ParamByName('pSenha').AsString := prpSenha;
   FoQryDados.Open;
+  FoCdsDados.Open;
 
-  if (FoQryDados.RecordCount <> 1) then
+  if (FoCdsDados.RecordCount <> 1) then
   begin
     prpMensagem := sMSG_LOGIN_INCORRETO_VERIFIQUE_EMAIL_SENHA_INFORMADOS;
     Exit;
@@ -315,21 +341,23 @@ begin
   Result := CarregarDadosUsuario;
 end;
 
-function TUsuario.Buscar(const piCodigo: Integer): Boolean;
+function TUsuario.Buscar(const pnCodigo: Integer): Boolean;
 begin
   Result := False;
 
-  if not(ValidarQryDadosEstahAtivo) then
+  if (not(ValidarQryDadosEstahAtivo)) or (not(ValidarCdsDadosEstahAtivo)) then
     Exit;
 
+  FoCdsDados.Close;
   FoQryDados.Close;
   FoQryDados.SQL.Clear;
   FoQryDados.SQL.Add('SELECT * FROM usuarios ');
   FoQryDados.SQL.Add('WHERE codigo = :pCodigo');
-  FoQryDados.ParamByName('pCodigo').AsInteger := piCodigo;
+  FoQryDados.ParamByName('pCodigo').AsInteger := pnCodigo;
   FoQryDados.Open;
+  FoCdsDados.Open;
 
-  if (FoQryDados.RecordCount <> 1) then
+  if (FoCdsDados.RecordCount <> 1) then
   begin
     prpMensagem := sMSG_NAO_FOI_ENCONTRADO_USUARIO;
     Exit;
@@ -342,17 +370,17 @@ function TUsuario.CarregarDadosUsuario: Boolean;
 begin
   Result := False;
 
-  if not(ValidarQryDadosEstahAtivo) then
+  if not(ValidarQryDadosEstahAtivo) or (not(ValidarCdsDadosEstahAtivo)) then
     Exit;
 
-  if (not(FoQryDados.RecordCount = 1)) then
+  if (not(FoCdsDados.RecordCount = 1)) then
     Exit;
 
-  SetCodigo(FoQryDados.FieldByName('codigo').AsInteger);
-  prpEmail := FoQryDados.FieldByName('email').AsString;
-  prpNome := FoQryDados.FieldByName('nome').AsString;
-  prpSenha := FoQryDados.FieldByName('senha').AsString;
-  prpConfirmacaoSenha := FoQryDados.FieldByName('senha').AsString;
+  SetCodigo(FoFieldCodigo.AsInteger);
+  prpEmail := FoFieldEmail.AsString;
+  prpNome := FoFieldNome.AsString;
+  prpSenha := FoFieldSenha.AsString;
+  prpConfirmacaoSenha := FoFieldSenha.AsString;
 
   Result := True;
 end;

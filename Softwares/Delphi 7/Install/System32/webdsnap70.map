@@ -1,0 +1,1910 @@
+
+ Start         Length     Name                   Class
+ 0001:00000000 00024548H .text                   CODE
+ 0002:00000000 00000194H .data                   DATA
+ 0002:00000194 00000049H .bss                    BSS
+
+
+Detailed map of segments
+
+ 0001:00000000 00000256 C=CODE     S=.text    G=(none)   M=System   ACBP=A9
+ 0001:00000258 000001EC C=CODE     S=.text    G=(none)   M=SysInit  ACBP=A9
+ 0001:00000444 0000004E C=CODE     S=.text    G=(none)   M=Variants ACBP=A9
+ 0001:00000494 0000013E C=CODE     S=.text    G=(none)   M=SysUtils ACBP=A9
+ 0001:000005D4 0000000E C=CODE     S=.text    G=(none)   M=SysConst ACBP=A9
+ 0001:000005E4 00000038 C=CODE     S=.text    G=(none)   M=Windows  ACBP=A9
+ 0001:0000061C 0000000E C=CODE     S=.text    G=(none)   M=Types    ACBP=A9
+ 0001:0000062C 0000000E C=CODE     S=.text    G=(none)   M=VarUtils ACBP=A9
+ 0001:0000063C 000001AE C=CODE     S=.text    G=(none)   M=Classes  ACBP=A9
+ 0001:000007EC 0000000E C=CODE     S=.text    G=(none)   M=ActiveX  ACBP=A9
+ 0001:000007FC 00000038 C=CODE     S=.text    G=(none)   M=Messages ACBP=A9
+ 0001:00000834 0000000E C=CODE     S=.text    G=(none)   M=TypInfo  ACBP=A9
+ 0001:00000844 0000000E C=CODE     S=.text    G=(none)   M=RTLConsts ACBP=A9
+ 0001:00000854 000000DE C=CODE     S=.text    G=(none)   M=Provider ACBP=A9
+ 0001:00000934 0000000E C=CODE     S=.text    G=(none)   M=SqlTimSt ACBP=A9
+ 0001:00000944 0000000E C=CODE     S=.text    G=(none)   M=DBConsts ACBP=A9
+ 0001:00000954 0000000E C=CODE     S=.text    G=(none)   M=DateUtils ACBP=A9
+ 0001:00000964 00000016 C=CODE     S=.text    G=(none)   M=Math     ACBP=A9
+ 0001:0000097C 0000000E C=CODE     S=.text    G=(none)   M=Midas    ACBP=A9
+ 0001:0000098C 0000001E C=CODE     S=.text    G=(none)   M=DSIntf   ACBP=A9
+ 0001:000009AC 0000000E C=CODE     S=.text    G=(none)   M=DBCommon ACBP=A9
+ 0001:000009BC 0000031E C=CODE     S=.text    G=(none)   M=DB       ACBP=A9
+ 0001:00000CDC 0000000E C=CODE     S=.text    G=(none)   M=FMTBcd   ACBP=A9
+ 0001:00000CEC 0000000E C=CODE     S=.text    G=(none)   M=MaskUtils ACBP=A9
+ 0001:00000CFC 00000016 C=CODE     S=.text    G=(none)   M=ComObj   ACBP=A9
+ 0001:00000D14 0000000E C=CODE     S=.text    G=(none)   M=ComConst ACBP=A9
+ 0001:00000D24 0000000E C=CODE     S=.text    G=(none)   M=MidConst ACBP=A9
+ 0001:00000D34 0000035E C=CODE     S=.text    G=(none)   M=DBClient ACBP=A9
+ 0001:00001094 0000000E C=CODE     S=.text    G=(none)   M=DataBkr  ACBP=A9
+ 0001:000010A4 0000001E C=CODE     S=.text    G=(none)   M=xmldom   ACBP=A9
+ 0001:000010C4 0000000E C=CODE     S=.text    G=(none)   M=XMLConst ACBP=A9
+ 0001:000010D4 0000000E C=CODE     S=.text    G=(none)   M=msxmldom ACBP=A9
+ 0001:000010E4 0000000E C=CODE     S=.text    G=(none)   M=msxml    ACBP=A9
+ 0001:000010F4 000035B0 C=CODE     S=.text    G=(none)   M=xmlutil  ACBP=A9
+ 0001:000046A4 00002ADC C=CODE     S=.text    G=(none)   M=Xmlxform ACBP=A9
+ 0001:00007180 0000002E C=CODE     S=.text    G=(none)   M=HTTPApp  ACBP=A9
+ 0001:000071B0 0000002E C=CODE     S=.text    G=(none)   M=Contnrs  ACBP=A9
+ 0001:000071E0 0000000E C=CODE     S=.text    G=(none)   M=Masks    ACBP=A9
+ 0001:000071F0 0000000E C=CODE     S=.text    G=(none)   M=BrkrConst ACBP=A9
+ 0001:00007200 0000000E C=CODE     S=.text    G=(none)   M=WebConst ACBP=A9
+ 0001:00007210 0000006E C=CODE     S=.text    G=(none)   M=HTTPProd ACBP=A9
+ 0001:00007280 0000000E C=CODE     S=.text    G=(none)   M=CopyPrsr ACBP=A9
+ 0001:00007290 00000160 C=CODE     S=.text    G=(none)   M=WbmConst ACBP=A9
+ 0001:000073F0 0000000E C=CODE     S=.text    G=(none)   M=WebCntxt ACBP=A9
+ 0001:00007400 00002B90 C=CODE     S=.text    G=(none)   M=WebComp  ACBP=A9
+ 0001:00009F90 0000038C C=CODE     S=.text    G=(none)   M=CompProd ACBP=A9
+ 0001:0000A31C 00000598 C=CODE     S=.text    G=(none)   M=PagItems ACBP=A9
+ 0001:0000A8B4 00000026 C=CODE     S=.text    G=(none)   M=AutoDisp ACBP=A9
+ 0001:0000A8DC 0000000E C=CODE     S=.text    G=(none)   M=DBWeb    ACBP=A9
+ 0001:0000A8EC 00001EB4 C=CODE     S=.text    G=(none)   M=XMLBrokr ACBP=A9
+ 0001:0000C7A0 0000043C C=CODE     S=.text    G=(none)   M=MidComp  ACBP=A9
+ 0001:0000CBDC 00002AC8 C=CODE     S=.text    G=(none)   M=ScrptMgr ACBP=A9
+ 0001:0000F6A4 00003340 C=CODE     S=.text    G=(none)   M=MidProd  ACBP=A9
+ 0001:000129E4 0001197B C=CODE     S=.text    G=(none)   M=MidItems ACBP=A9
+ 0001:00024360 000001E5 C=CODE     S=.text    G=(none)   M=webdsnap ACBP=A9
+ 0002:00000000 00000030 C=DATA     S=.data    G=DGROUP   M=SysInit  ACBP=A9
+ 0002:00000030 00000010 C=DATA     S=.data    G=DGROUP   M=WebComp  ACBP=A9
+ 0002:00000040 00000090 C=DATA     S=.data    G=DGROUP   M=MidItems ACBP=A9
+ 0002:00001000 00000010 C=BSS      S=.bss     G=DGROUP   M=SysInit  ACBP=A9
+ 0002:00001010 00000004 C=BSS      S=.bss     G=DGROUP   M=Windows  ACBP=A9
+ 0002:00001014 00000004 C=BSS      S=.bss     G=DGROUP   M=Messages ACBP=A9
+ 0002:00001018 00000004 C=BSS      S=.bss     G=DGROUP   M=xmlutil  ACBP=A9
+ 0002:0000101C 00000004 C=BSS      S=.bss     G=DGROUP   M=Xmlxform ACBP=A9
+ 0002:00001020 00000004 C=BSS      S=.bss     G=DGROUP   M=WbmConst ACBP=A9
+ 0002:00001024 00000004 C=BSS      S=.bss     G=DGROUP   M=WebComp  ACBP=A9
+ 0002:00001028 00000004 C=BSS      S=.bss     G=DGROUP   M=CompProd ACBP=A9
+ 0002:0000102C 00000004 C=BSS      S=.bss     G=DGROUP   M=PagItems ACBP=A9
+ 0002:00001030 00000004 C=BSS      S=.bss     G=DGROUP   M=XMLBrokr ACBP=A9
+ 0002:00001034 00000004 C=BSS      S=.bss     G=DGROUP   M=MidComp  ACBP=A9
+ 0002:00001038 00000004 C=BSS      S=.bss     G=DGROUP   M=ScrptMgr ACBP=A9
+ 0002:0000103C 00000004 C=BSS      S=.bss     G=DGROUP   M=MidProd  ACBP=A9
+ 0002:00001040 00000008 C=BSS      S=.bss     G=DGROUP   M=MidItems ACBP=A9
+
+
+  Address         Publics by Name
+
+ 0002:00001020       .1
+ 0002:00001014       .1
+ 0002:00001034       .1
+ 0002:00001008       .1
+ 0002:00001028       .2
+ 0002:00001018       .2
+ 0002:00001024       .21
+ 0002:00001030       .3
+ 0002:0000102C       .3
+ 0002:00001010       .3
+ 0002:00001038       .32
+ 0002:00001040       .47
+ 0002:0000101C       .5
+ 0002:0000103C       .6
+ 0001:00024520       @GetPackageInfoTable
+ 0001:00000390       @InitPkg
+ 0001:000003F4       @PackageLoad
+ 0001:00024528       @PackageLoad
+ 0001:00024534       @PackageUnload
+ 0001:00000400       @PackageUnload
+ 0001:00019DBC       AddBoolAttrib
+ 0001:00019D24       AddCustomAttrib
+ 0001:0001D590       AddError
+ 0001:00019BF4       AddIntAttrib
+ 0001:00019E44       AddQuotedAttrib
+ 0001:00011CB8       AddStdIncludes
+ 0001:00019C8C       AddStringAttrib
+ 0001:00000290       AllocTlsBuffer
+ 0001:00019B60       CanAddClassHelper
+ 0001:000024F8       CloneDoc
+ 0001:00003F04       CloneNodeToDoc
+ 0001:0000E650       ComparePath
+ 0001:0000A314       CompProd
+ 0001:0001C5D8       CreateDefaultButtonClasses
+ 0001:00004F6C       CreateNestedTransform
+ 0001:0001CEBC       CrunchFieldName
+ 0001:0001E290       DeclareSubmitForm
+ 0001:00002F04       DecodeXmlDate
+ 0001:00003030       DecodeXmlTime
+ 0002:00000078       DefaultFormButtons
+ 0002:0000009C       DefaultGridButtons
+ 0002:000000C8       DefaultQueryButtons
+ 0001:0001AC18       DefineXMLDisplayBlock
+ 0001:000088E8       DesigningComponent
+ 0001:00008540       DirExpandFileName
+ 0001:000011C8       DocParseError
+ 0001:00002918       EncodeXmlDate
+ 0001:00002A1C       EncodeXmlTime
+ 0001:000089A0       EnumRegisteredWebComponents
+ 0002:00000038       EnumRegisteredWebComponentsProc
+ 0001:0000033C       ExitProcessTLS
+ 0001:00000314       ExitThreadTLS
+ 0001:0000F66C       Finalization
+ 0001:0000CBA4       Finalization
+ 0001:000242AC       Finalization
+ 0001:0000A87C       Finalization
+ 0001:000129AC       Finalization
+ 0001:0000A2E4       Finalization
+ 0001:0000040C       Finalization
+ 0001:000007FC       Finalization
+ 0001:0000466C       Finalization
+ 0001:00007148       Finalization
+ 0001:000005E4       Finalization
+ 0001:0000C768       Finalization
+ 0001:000073B8       Finalization
+ 0001:00009F58       Finalization
+ 0001:0001E264       FindDispatcher
+ 0001:000017E0       FindNode
+ 0001:0001E22C       FindProducer
+ 0001:000089E0       FindWebComponentEditorHelper
+ 0002:0000003C       FindWebComponentEditorHelperProc
+ 0001:0001C35C       FormatButton
+ 0001:0002084C       FormatButton
+ 0001:00019FC8       FormatColumnData
+ 0001:00019EDC       FormatColumnHeading
+ 0001:0001BE38       FormatField
+ 0001:00022E94       FormatField
+ 0001:00023A50       FormatField
+ 0001:00023108       FormatField
+ 0001:0001A7DC       FormatIdentifier
+ 0001:0001123C       FormatInclude
+ 0001:00011484       FormatStyles
+ 0001:0001A6AC       FormatText
+ 0001:0000B998       FormatXML
+ 0002:0000004C       FormMethodNames
+ 0001:00000258       FreeLibrary
+ 0001:00002808       GetAttribute
+ 0001:000037C0       GetEncoding
+ 0001:00001684       getIndex_Attrs
+ 0001:00020AD4       GetItemValuesFromDataSet
+ 0001:000126B8       GetLocateFileService
+ 0001:0000029C       GetTlsSize
+ 0001:00004F08       GetXMLData
+ 0001:000026B8       Head
+ 0002:00001004       HInstance
+ 0002:00000054       HTMLAlignValues
+ 0002:00000064       HTMLVAlignValues
+ 0001:00000360       InitializeModule
+ 0001:000002E8       InitProcessTLS
+ 0001:000002A4       InitThreadTLS
+ 0001:000013A0       LoadDocFromFile
+ 0001:000014E8       LoadDocFromString
+ 0001:00000260       LocalAlloc
+ 0001:00000268       LocalFree
+ 0001:000034C0       MakeValueMap
+ 0001:00003358       MapDateTime
+ 0001:000036EC       MapValues
+ 0001:0000082C       Messages
+ 0001:0000CBD4       MidComp
+ 0001:00024344       MidItems
+ 0001:000129DC       MidProd
+ 0002:00000008       Module
+ 0002:00001000       ModuleIsLib
+ 0002:00001001       ModuleIsPackage
+ 0001:000084D4       ModulePath
+ 0001:00001B84       NextCreateElement
+ 0001:0000A8AC       PagItems
+ 0001:00011C44       PathInfoToRelativePath
+ 0002:00000004       PtrToNil
+ 0001:00002228       PutValue
+ 0001:00008870       QualifyFileName
+ 0001:00008934       RegisterWebComponents
+ 0002:00000030       RegisterWebComponentsProc
+ 0001:00002768       replace
+ 0001:00021BB0       RowHeader
+ 0001:0000F69C       ScrptMgr
+ 0001:00001DE8       SelectCreateNode
+ 0001:000020DC       SelectCreateSibling
+ 0001:00001F7C       SelectNode
+ 0001:00003A54       SetEncoding
+ 0001:00003E4C       SetStandalone
+ 0001:0001B968       SpanAll
+ 0001:0001B9B4       SpanCalc
+ 0001:000025A4       Split0
+ 0001:00004EA8       StringToFile
+ 0001:00002B9C       StrToXmlDate
+ 0001:00002C9C       StrToXmlDateTime
+ 0001:00002DFC       StrToXmlTime
+ 0001:0000043C       SysInit
+ 0001:00021A50       TableHeader
+ 0001:0000EF68       TAddScriptElements.AddError
+ 0001:0000EE0C       TAddScriptElements.AddFunction
+ 0001:0000EBAC       TAddScriptElements.AddHTMLBlock
+ 0001:0000EE8C       TAddScriptElements.AddIncludeFile
+ 0001:0000EFB4       TAddScriptElements.AddPass
+ 0001:0000ECB8       TAddScriptElements.AddRowSet
+ 0001:0000EB20       TAddScriptElements.AddScriptBlock
+ 0001:0000F660       TAddScriptElements.AddScriptComponents
+ 0001:0000EC38       TAddScriptElements.AddVar
+ 0001:0000EEF8       TAddScriptElements.Create
+ 0001:0000EF38       TAddScriptElements.Destroy
+ 0001:0000EFCC       TAddScriptElements.GetScriptManager
+ 0001:0001E198       TApplyUpdatesButton.AddElements
+ 0001:0001E1E4       TApplyUpdatesButton.Create
+ 0001:0001E228       TApplyUpdatesButton.GetSubComponents
+ 0001:0001E83C       TApplyUpdatesButton.ImplAddElements
+ 0001:0001E894       TApplyUpdatesButton.ImplContent
+ 0001:00011B8C       TBaseInetXPageProducer.AddIncludes
+ 0001:00011A60       TBaseInetXPageProducer.AddScriptComponents
+ 0001:00012344       TBaseInetXPageProducer.CanAddClass
+ 0001:00010818       TBaseInetXPageProducer.ContentFromStream
+ 0001:00012004       TBaseInetXPageProducer.Create
+ 0001:00010808       TBaseInetXPageProducer.CreatePageElements
+ 0001:000107F8       TBaseInetXPageProducer.CreateScriptManager
+ 0001:000115DC       TBaseInetXPageProducer.DeclareFunctions
+ 0001:000112F8       TBaseInetXPageProducer.DeclareIncludes
+ 0001:000109C4       TBaseInetXPageProducer.DeclareRowSets
+ 0001:0001182C       TBaseInetXPageProducer.DeclareScript
+ 0001:000114F0       TBaseInetXPageProducer.DeclareStyles
+ 0001:000116C0       TBaseInetXPageProducer.DeclareWarnings
+ 0001:00010C14       TBaseInetXPageProducer.DeclareXMLDocuments
+ 0001:00010F60       TBaseInetXPageProducer.DeclareXMLIslands
+ 0001:0001297C       TBaseInetXPageProducer.Destroy
+ 0001:000123C4       TBaseInetXPageProducer.DoAfterGetContent
+ 0001:0001218C       TBaseInetXPageProducer.DoAfterGetXMLData
+ 0001:000123E4       TBaseInetXPageProducer.DoBeforeGetContent
+ 0001:00012218       TBaseInetXPageProducer.DoBeforeGetXMLData
+ 0001:00010420       TBaseInetXPageProducer.DoTagEvent
+ 0001:0001012C       TBaseInetXPageProducer.FindXMLBroker
+ 0001:00010100       TBaseInetXPageProducer.FindXMLBrokerName
+ 0001:00011DC4       TBaseInetXPageProducer.GeneratePageElements
+ 0001:00012404       TBaseInetXPageProducer.GetContentOptions
+ 0001:00012068       TBaseInetXPageProducer.GetDefaultTemplate
+ 0001:00012888       TBaseInetXPageProducer.GetRequiredTags
+ 0001:00012050       TBaseInetXPageProducer.GetScriptManager
+ 0001:00010240       TBaseInetXPageProducer.GetUseXMLIslands
+ 0001:00010358       TBaseInetXPageProducer.GetXMLData
+ 0001:000101A8       TBaseInetXPageProducer.GetXMLDelta
+ 0001:0001022C       TBaseInetXPageProducer.GetXMLErrors
+ 0001:0001234C       TBaseInetXPageProducer.ImplCanAddClass
+ 0001:000122A4       TBaseInetXPageProducer.SetIncludePathURL
+ 0001:0001237C       TBaseInetXPageProducer.SetStyles
+ 0001:00012394       TBaseInetXPageProducer.SetStylesFile
+ 0001:00012974       TBaseInetXPageProducer.SetWebContentOptions
+ 0001:0000A5DC       TBasePageItemsProducer.Create
+ 0001:0000A628       TBasePageItemsProducer.Destroy
+ 0001:0000A658       TBasePageItemsProducer.GetChildren
+ 0001:0000A6B8       TBasePageItemsProducer.GetComponentList
+ 0001:0000A6BC       TBasePageItemsProducer.GetDefaultComponentList
+ 0001:0000A6C0       TBasePageItemsProducer.SetChildOrder
+ 0001:00023D98       TCaptionAttributes.Create
+ 0001:00024264       TClientDataSetEvent.DataEvent
+ 0001:0000A0B4       TComponentsPageProducer.DoTagEvent
+ 0001:0000A174       TComponentsPageProducer.FindComponent
+ 0001:0000A14C       TComponentsPageProducer.FindComponentName
+ 0001:0000A1D8       TComponentsPageProducer.GetComponentContent
+ 0001:0000A2A4       TComponentsPageProducer.GetContentOptions
+ 0001:0000A2C0       TComponentsPageProducer.HandleTag
+ 0001:0001B1D8       TCustomDataForm.GetHTMLFormTag
+ 0001:0001B2C8       TCustomDataForm.ImplCanAddClass
+ 0001:0001BEBC       TCustomDataForm.ImplContent
+ 0001:000219D4       TCustomDataGrid.Create
+ 0001:00022048       TCustomDataGrid.Destroy
+ 0001:00021CB4       TCustomDataGrid.FormatTable
+ 0001:000220FC       TCustomDataGrid.ImplAddElements
+ 0001:000220D4       TCustomDataGrid.ImplCanAddClass
+ 0001:00021F44       TCustomDataGrid.ImplContent
+ 0001:000221E8       TCustomDataGrid.ImplIsMultipleRecordView
+ 0001:00022088       TCustomDataGrid.SetHeadingAttributes
+ 0001:000221DC       TCustomDataGrid.SetRowAttributes
+ 0001:0002203C       TCustomDataGrid.SetTableAttributes
+ 0001:0001C668       TCustomDataNavigator.GetDefaultButtons
+ 0001:0001C78C       TCustomDataNavigator.ImplCanAddClass
+ 0001:0001C3E0       TCustomDataNavigator.ImplContent
+ 0001:0001C828       TCustomDataNavigator.ImplGetSubComponents
+ 0001:0001C764       TCustomDataNavigator.VisibleButtons
+ 0001:00023094       TCustomFieldGroup.Create
+ 0001:000230D8       TCustomFieldGroup.Destroy
+ 0001:0002408C       TCustomFieldGroup.GetLayoutAttributes
+ 0001:0002318C       TCustomFieldGroup.ImplContent
+ 0001:00012570       TCustomInetXPageProducer.Content
+ 0001:000124A4       TCustomInetXPageProducer.Create
+ 0001:00012540       TCustomInetXPageProducer.Destroy
+ 0001:0001284C       TCustomInetXPageProducer.GetTemplateFileName
+ 0001:00012738       TCustomInetXPageProducer.GetTemplateStream
+ 0001:00012668       TCustomInetXPageProducer.SetHTMLDoc
+ 0001:00012684       TCustomInetXPageProducer.SetHTMLFile
+ 0001:000125D0       TCustomInetXPageProducer.WebContent
+ 0001:00023938       TCustomLayoutGroup.Create
+ 0001:00023984       TCustomLayoutGroup.Destroy
+ 0001:00023D38       TCustomLayoutGroup.GetLayoutAttributes
+ 0001:000239B4       TCustomLayoutGroup.ImplCanAddClass
+ 0001:00023AD4       TCustomLayoutGroup.ImplContent
+ 0001:000207CC       TCustomQueryButtons.GetDefaultButtons
+ 0001:00020800       TCustomQueryButtons.ImplAddElements
+ 0001:00020CC4       TCustomQueryButtons.ImplCanAddClass
+ 0001:000208D0       TCustomQueryButtons.ImplContent
+ 0001:00020C9C       TCustomQueryButtons.VisibleButtons
+ 0001:000201C4       TCustomQueryForm.AssignStrings
+ 0001:000200F4       TCustomQueryForm.AssignStringsCallback
+ 0001:000200B8       TCustomQueryForm.Create
+ 0001:0001FF60       TCustomQueryForm.GetHTMLFormTag
+ 0001:0001FE74       TCustomQueryForm.ImplAddElements
+ 0001:00022094       TCustomQueryForm.ImplCanAddClass
+ 0001:00022F18       TCustomQueryForm.ImplContent
+ 0001:0002009C       TCustomQueryForm.MethodString
+ 0001:0001DAD8       TDataSetButton.AddElements
+ 0001:0001DB24       TDataSetButton.GetCaption
+ 0001:0001DB48       TDataSetButton.GetMethodName
+ 0001:0001DEBC       TDataSetButton.GetSubComponents
+ 0001:0001DEC0       TDataSetButton.ImplAddElements
+ 0001:0001DF60       TDataSetButton.ImplContent
+ 0001:0001C02C       TDataSetWrapper.AddOnDataChange
+ 0001:0001C0A0       TDataSetWrapper.Create
+ 0001:0001C0FC       TDataSetWrapper.Destroy
+ 0001:0001C12C       TDataSetWrapper.FetchParams
+ 0001:0001C138       TDataSetWrapper.FieldCount
+ 0001:0001C144       TDataSetWrapper.Fields
+ 0001:0001C1BC       TDataSetWrapper.OnDataChange
+ 0001:0001C14C       TDataSetWrapper.ParamCount
+ 0001:0001C15C       TDataSetWrapper.Params
+ 0001:0001C168       TDataSetWrapper.RemoveOnDataChange
+ 0001:0001DDF8       TDeleteButton.Create
+ 0002:00000040       TextAreaWrap
+ 0001:00023380       TFieldGroup.ImplAddElements
+ 0001:00023460       TFieldGroup.ImplCanAddClass
+ 0001:0001DB5C       TFirstButton.Create
+ 0001:0001B330       TFormLayout.Create
+ 0001:0001BDE0       TFormLayout.EndButtons
+ 0001:0001BE0C       TFormLayout.EndFields
+ 0001:0001BCA8       TFormLayout.EndLayout
+ 0001:0001BBEC       TFormLayout.EndRow
+ 0001:0001BC2C       TFormLayout.EndTable
+ 0001:0001B3A4       TFormLayout.ImplLayoutButton
+ 0001:0001B4A0       TFormLayout.ImplLayoutField
+ 0001:0001B5C0       TFormLayout.ImplLayoutLabelAndField
+ 0001:0001B8B4       TFormLayout.ImplLayoutTable
+ 0001:0001BA28       TFormLayout.NextColumn
+ 0001:0001BD48       TFormLayout.StartButtons
+ 0001:0001B8D8       TFormLayout.StartFields
+ 0001:0001BBB0       TFormLayout.StartRow
+ 0001:0001BD20       TFormLayout.StartTable
+ 0001:0000F218       TFunction.GetBody
+ 0001:0000F22C       TFunction.GetFunctionName
+ 0001:0000F154       TFunctions.AddFunction
+ 0001:0000F178       TFunctions.FindFunctionName
+ 0001:0000F18C       TFunctions.GetItem
+ 0001:0000F1F8       TFunctions.GetObject
+ 0001:000240F8       TGridAttributes.AssignTo
+ 0001:00024168       TGridAttributes.Create
+ 0001:0001A5B0       TGridLayout.ImplLayoutButton
+ 0001:0001A5D4       TGridLayout.ImplLayoutField
+ 0001:0001A5EC       TGridLayout.ImplLayoutLabelAndField
+ 0001:00023D30       TGridLayout.ImplLayoutTable
+ 0001:000241BC       TGridRowAttributes.AssignTo
+ 0001:00024220       TGridRowAttributes.Create
+ 0001:0000F318       THTMLBlock.GetBlockName
+ 0001:0000F304       THTMLBlock.GetHTML
+ 0001:0000F240       THTMLBlocks.AddBlock
+ 0001:0000F264       THTMLBlocks.FindBlockName
+ 0001:0000F278       THTMLBlocks.GetItem
+ 0001:0000F2E4       THTMLBlocks.GetObject
+ 0001:0000F140       TIncludeFile.GetFileName
+ 0001:0000EFFC       TIncludeFiles.AddFileName
+ 0001:0000F02C       TIncludeFiles.FindFileName
+ 0001:0000F0B4       TIncludeFiles.GetItem
+ 0001:0000F120       TIncludeFiles.GetObject
+ 0001:00012864       TInetXPageElements.BodyContent
+ 0001:0001DD98       TInsertButton.Create
+ 0001:0001DBBC       TLastButton.Create
+ 0001:0000917C       TLayoutAttributes.Create
+ 0001:00009100       TLayoutWebContent.Create
+ 0001:00009024       TLayoutWebContent.LayoutButton
+ 0001:00009050       TLayoutWebContent.LayoutField
+ 0001:0000907C       TLayoutWebContent.LayoutLabelAndField
+ 0001:00009150       TLayoutWebContent.LayoutTable
+ 0001:000090D4       TLayoutWebContent.QueryInterface
+ 0001:000090AC       TLayoutWebContent._AddRef
+ 0001:000090C0       TLayoutWebContent._Release
+ 0001:0000B234       TLocalAppServer.AS_ApplyUpdates
+ 0001:0000B380       TLocalAppServer.AS_DataRequest
+ 0001:0000B4B0       TLocalAppServer.AS_Execute
+ 0001:0000B3E8       TLocalAppServer.AS_GetParams
+ 0001:0000B314       TLocalAppServer.AS_GetProviderNames
+ 0001:0000B2A8       TLocalAppServer.AS_GetRecords
+ 0001:0000B440       TLocalAppServer.AS_RowRequest
+ 0001:0000B1E0       TLocalAppServer.Create
+ 0001:0000B21C       TLocalAppServer.GetIDsOfNames
+ 0001:0000B210       TLocalAppServer.GetTypeInfo
+ 0001:0000B204       TLocalAppServer.GetTypeInfoCount
+ 0001:0000B4F8       TLocalAppServer.InterfaceSupportsErrorInfo
+ 0001:0000B228       TLocalAppServer.Invoke
+ 0001:0000B52C       TLocalAppServer.SafeCallException
+ 0001:00000270       TlsAlloc
+ 0002:0000100C       tlsBuffer
+ 0001:00000278       TlsFree
+ 0001:00000280       TlsGetValue
+ 0002:00000000       TlsIndex
+ 0002:BF38A000       TlsLast
+ 0002:00000020       TlsProc
+ 0001:00000288       TlsSetValue
+ 0001:0000F58C       TNameContentScriptObject.Create
+ 0001:0000F5E0       TNameContentScriptObject.GetContent
+ 0001:0000F5F4       TNameContentScriptObject.GetName
+ 0001:0000F608       TNameContentScriptObject.MatchName
+ 0001:0001DC78       TNextButton.Create
+ 0001:0001DCD8       TNextPageButton.Create
+ 0001:0000A748       TPageItemsProducer.Create
+ 0001:0000A794       TPageItemsProducer.Destroy
+ 0001:0000A7C4       TPageItemsProducer.GetTemplateStream
+ 0001:0000A864       TPageItemsProducer.SetHTMLDoc
+ 0001:0000A838       TPageItemsProducer.SetHTMLFile
+ 0001:0000F550       TPass.Create
+ 0001:0000F504       TPassList.Add
+ 0001:0000F530       TPassList.GetItem
+ 0001:0001FE14       TPostButton.Create
+ 0001:0001DC1C       TPriorButton.Create
+ 0001:0001DD38       TPriorPageButton.Create
+ 0001:00020790       TQueryButton.Create
+ 0001:00020640       TQueryButton.EventContent
+ 0001:0002043C       TQueryButton.GetCaption
+ 0001:0002064C       TQueryButton.GetHTMLControlName
+ 0001:00020658       TQueryButton.GetHTMLForm
+ 0001:00020460       TQueryButton.GetInputType
+ 0001:0002072C       TQueryButton.GetXMLComponent
+ 0001:00020474       TQueryButton.ImplContent
+ 0001:00020754       TQueryButton.Notification
+ 0001:000206A4       TQueryButton.ParentXMLComponent
+ 0001:0002073C       TQueryButton.SetXMLComponent
+ 0001:00020780       TQueryButton.SetXMLUseParent
+ 0001:00023E28       TQueryFieldGroup.FindParam
+ 0001:00023F00       TQueryFieldGroup.GetParamsList
+ 0001:00023FD4       TQueryFieldGroup.ImplCanAddClass
+ 0001:00023DD4       TQueryFieldGroup.IsParamInUse
+ 0001:00023794       TQueryRadioGroup.AddAttributes
+ 0001:000237CC       TQueryRadioGroup.GetCheckIndex
+ 0001:0002384C       TQueryRadioGroup.GetText
+ 0001:00023864       TQueryRadioGroup.IsQueryField
+ 0001:00023868       TQueryRadioGroup.SetText
+ 0001:00023880       TQuerySelectOptions.GetSelectIndex
+ 0001:00023900       TQuerySelectOptions.GetText
+ 0001:00023918       TQuerySelectOptions.IsQueryField
+ 0001:0002391C       TQuerySelectOptions.SetText
+ 0001:000234A4       TQueryText.AddAttributes
+ 0001:0002355C       TQueryText.Create
+ 0001:0002359C       TQueryText.GetText
+ 0001:000235B0       TQueryText.IsQueryField
+ 0001:000235B4       TQueryText.SetText
+ 0001:000235C8       TQueryTextArea.AddAttributes
+ 0001:00023600       TQueryTextArea.ControlContent
+ 0001:000236E4       TQueryTextArea.Create
+ 0001:0002372C       TQueryTextArea.Destroy
+ 0001:0002375C       TQueryTextArea.GetText
+ 0001:00023774       TQueryTextArea.IsQueryField
+ 0001:00023778       TQueryTextArea.SetLines
+ 0001:00023788       TQueryTextArea.SetText
+ 0001:00004E90       TransformError
+ 0001:0001A88C       TraverseSubComponents
+ 0001:00020334       TResetQueryButton.Create
+ 0001:00020394       TResetQueryButton.EventContent
+ 0001:0000F404       TScriptBlock.GetBlockName
+ 0001:0000F3F0       TScriptBlock.GetScript
+ 0001:0000F32C       TScriptBlocks.AddBlock
+ 0001:0000F350       TScriptBlocks.FindBlockName
+ 0001:0000F364       TScriptBlocks.GetItem
+ 0001:0000F3D0       TScriptBlocks.GetObject
+ 0001:0000E294       TScriptManager.AddError
+ 0001:0000E220       TScriptManager.AddScriptComponents
+ 0001:0000E0D0       TScriptManager.AddScriptComponentsInternal
+ 0001:0000DF78       TScriptManager.Create
+ 0001:0000E2C8       TScriptManager.Destroy
+ 0001:0000E36C       TScriptManager.GetAddElementsIntf
+ 0001:0000E314       TScriptManager.GetFunctions
+ 0001:0000E328       TScriptManager.GetHTMLBlocks
+ 0001:0000E300       TScriptManager.GetIncludeFiles
+ 0001:0000E368       TScriptManager.GetOptions
+ 0001:0000E354       TScriptManager.GetScriptBlocks
+ 0001:0000E33C       TScriptManager.GetVars
+ 0001:0000E350       TScriptManager.GetWarnings
+ 0001:0000E2B4       TScriptManager.GetXMLDocuments
+ 0001:0000EAE4       TScriptObject.Create
+ 0001:0000E380       TScriptObjectContainer.Add
+ 0001:0000E3FC       TScriptObjectContainer.Destroy
+ 0001:0000E424       TScriptObjectContainer.FindNameObject
+ 0001:0000E3D8       TScriptObjectContainer.GetAsIntf
+ 0001:0000E3F4       TScriptObjectContainer.GetAsObject
+ 0001:0000E3CC       TScriptObjectContainer.GetCount
+ 0001:0002308C       TSelectOptionsColumn.IsColumn
+ 0001:00023088       TStatusColumn.IsColumn
+ 0001:0002022C       TSubmitQueryButton.Create
+ 0001:0002028C       TSubmitQueryButton.EventContent
+ 0001:00023934       TTextAreaColumn.IsColumn
+ 0001:00023090       TTextColumn.IsColumn
+ 0001:0001DE5C       TUndoButton.Create
+ 0001:0000F4DC       TVar.GetScript
+ 0001:0000F4F0       TVar.GetVarName
+ 0001:0000F418       TVars.AddVar
+ 0001:0000F43C       TVars.FindVarName
+ 0001:0000F450       TVars.GetItem
+ 0001:0000F4BC       TVars.GetObject
+ 0001:00024050       TWebButton.Content
+ 0001:0002400C       TWebButton.Create
+ 0001:00024074       TWebButton.GetCaption
+ 0001:00024088       TWebButton.GetLayoutAttributes
+ 0001:00024044       TWebButton.IsCaptionStored
+ 0001:000240E4       TWebButton.SetCaption
+ 0001:00008B1C       TWebComponentList.Add
+ 0001:00008BAC       TWebComponentList.Changed
+ 0001:00008BEC       TWebComponentList.Clear
+ 0001:00008CB8       TWebComponentList.Create
+ 0001:00008D18       TWebComponentList.Destroy
+ 0001:00008D68       TWebComponentList.GetComponent
+ 0001:00008D8C       TWebComponentList.GetCount
+ 0001:00008F60       TWebComponentList.GetOwner
+ 0001:00008DA8       TWebComponentList.IndexOf
+ 0001:00008F7C       TWebComponentList.LockNotify
+ 0001:00008F48       TWebComponentList.NewComponent
+ 0001:00008F8C       TWebComponentList.NotifyLocked
+ 0001:00008DCC       TWebComponentList.QueryInterface
+ 0001:00008DF8       TWebComponentList.Remove
+ 0001:00008E88       TWebComponentList.SetComponentIndex
+ 0001:00008FA8       TWebComponentList.UnlockNotify
+ 0001:00008F08       TWebComponentList.WebComponentContainer_GetComponent
+ 0001:00008F2C       TWebComponentList.WebComponentContainer_GetComponentCount
+ 0001:00008AF4       TWebComponentList._AddRef
+ 0001:00008B08       TWebComponentList._Release
+ 0001:000091BC       TWebComponentsEditorHelper.CanAddClassHelper
+ 0001:000091EC       TWebComponentsEditorHelper.ImplCanAddClassHelper
+ 0001:00009230       TWebComponentsEditorHelper.QueryInterface
+ 0001:00009208       TWebComponentsEditorHelper._AddRef
+ 0001:0000921C       TWebComponentsEditorHelper._Release
+ 0001:00009B5C       TWebContainedComponent.Create
+ 0001:00009B00       TWebContainedComponent.Destroy
+ 0001:00009C08       TWebContainedComponent.GetContainerList
+ 0001:00009A44       TWebContainedComponent.GetParentComponent
+ 0001:00009C24       TWebContainedComponent.GetWebParent
+ 0001:00009A7C       TWebContainedComponent.HasParent
+ 0001:00009B3C       TWebContainedComponent.IsDefaultField
+ 0001:00009BD0       TWebContainedComponent.OnParentChanged
+ 0001:00009BC4       TWebContainedComponent.ParentChanged
+ 0001:00009AAC       TWebContainedComponent.ReadState
+ 0001:00009AD8       TWebContainedComponent.SetParentComponent
+ 0001:00009BE8       TWebContainedComponent.SetWebParent
+ 0001:000099AC       TWebContainedComponentHelper.Create
+ 0001:00009888       TWebContainedComponentHelper.Destroy
+ 0001:000098F0       TWebContainedComponentHelper.GetContainer
+ 0001:00009640       TWebContainedComponentHelper.GetIndex
+ 0001:00009990       TWebContainedComponentHelper.IsDefaultField
+ 0001:00009A20       TWebContainedComponentHelper.ParentChanged
+ 0001:000098D4       TWebContainedComponentHelper.SetComponentList
+ 0001:00009664       TWebContainedComponentHelper.SetContainer
+ 0001:00009690       TWebContainedComponentHelper.SetIndex
+ 0001:000096B4       TWebContainedComponentHelper.SetWebParent
+ 0001:00009C40       TWebContainedContainerComponent.Create
+ 0001:00009CCC       TWebContainedContainerComponent.Destroy
+ 0001:00009D14       TWebContainedContainerComponent.GetChildren
+ 0001:00009EF8       TWebContainedContainerComponent.GetContainerList
+ 0001:00009F14       TWebContainedContainerComponent.GetDefaultWebComponents
+ 0001:00009DB8       TWebContainedContainerComponent.GetParentComponent
+ 0001:00009D9C       TWebContainedContainerComponent.GetWebComponents
+ 0001:00009F2C       TWebContainedContainerComponent.GetWebParent
+ 0001:00009DF0       TWebContainedContainerComponent.HasParent
+ 0001:00009D5C       TWebContainedContainerComponent.ImplGetDefaultComponentList
+ 0001:00009E74       TWebContainedContainerComponent.IsDefaultField
+ 0001:00009D3C       TWebContainedContainerComponent.OnGetDefaultComponentList
+ 0001:00009EC0       TWebContainedContainerComponent.OnParentChanged
+ 0001:00009E94       TWebContainedContainerComponent.OnSetDefaultComponentList
+ 0001:00009EB4       TWebContainedContainerComponent.ParentChanged
+ 0001:00009E20       TWebContainedContainerComponent.ReadState
+ 0001:00009D78       TWebContainedContainerComponent.SetChildOrder
+ 0001:00009F48       TWebContainedContainerComponent.SetDefaultWebComponents
+ 0001:00009E4C       TWebContainedContainerComponent.SetParentComponent
+ 0001:00009ED8       TWebContainedContainerComponent.SetWebParent
+ 0001:000094A8       TWebContainerComponent.Create
+ 0001:00009534       TWebContainerComponent.Destroy
+ 0001:00009570       TWebContainerComponent.GetChildren
+ 0001:000095F8       TWebContainerComponent.GetDefaultWebComponents
+ 0001:00009518       TWebContainerComponent.GetWebComponents
+ 0001:000095B8       TWebContainerComponent.ImplGetDefaultComponentList
+ 0001:00009598       TWebContainerComponent.OnGetDefaultComponentList
+ 0001:00009610       TWebContainerComponent.OnSetDefaultComponentList
+ 0001:000095D4       TWebContainerComponent.SetChildOrder
+ 0001:00009630       TWebContainerComponent.SetDefaultWebComponents
+ 0001:0000925C       TWebContainerComponentHelper.Create
+ 0001:000092E4       TWebContainerComponentHelper.Destroy
+ 0001:00009320       TWebContainerComponentHelper.GetChildren
+ 0001:0000937C       TWebContainerComponentHelper.GetComponentList
+ 0001:00009398       TWebContainerComponentHelper.GetDefaultComponentList
+ 0001:000093B4       TWebContainerComponentHelper.GetDefaultWebComponents
+ 0001:000093E8       TWebContainerComponentHelper.SetChildOrder
+ 0001:0000947C       TWebContainerComponentHelper.SetDefaultWebComponents
+ 0001:00008FD4       TWebContentOptions.Create
+ 0001:00020FBC       TWebControlGroup.AddElements
+ 0001:00021008       TWebControlGroup.CanAddClass
+ 0001:0002108C       TWebControlGroup.ChangeFieldControls
+ 0001:00021044       TWebControlGroup.Content
+ 0001:00020F44       TWebControlGroup.Create
+ 0001:00020F8C       TWebControlGroup.Destroy
+ 0001:00021084       TWebControlGroup.GetDefaultWebComponents
+ 0001:00021078       TWebControlGroup.GetLayoutAttributes
+ 0001:00021010       TWebControlGroup.GetSubComponents
+ 0001:00021018       TWebControlGroup.ImplAddElements
+ 0001:00021040       TWebControlGroup.ImplCanAddClass
+ 0001:00021068       TWebControlGroup.ImplContent
+ 0001:0002107C       TWebControlGroup.ImplGetSubComponents
+ 0001:00021088       TWebControlGroup.SetDefaultWebComponents
+ 0001:0001C8C8       TWebDataDisplay.Content
+ 0001:0001C830       TWebDataDisplay.Create
+ 0001:0001C890       TWebDataDisplay.Destroy
+ 0001:0001C900       TWebDataDisplay.EventContent
+ 0001:0001CB68       TWebDataDisplay.FormatCaption
+ 0001:0001C8EC       TWebDataDisplay.GetCaption
+ 0001:0001CD24       TWebDataDisplay.GetHTMLControlName
+ 0001:0001CA1C       TWebDataDisplay.GetHTMLForm
+ 0001:0001CD18       TWebDataDisplay.GetLayoutAttributes
+ 0001:0001C90C       TWebDataDisplay.GetXmlDisplayName
+ 0001:0001C994       TWebDataDisplay.GetXmlRowSetName
+ 0001:0001CA78       TWebDataDisplay.ImplContent
+ 0001:0001CD38       TWebDataDisplay.ImplGetHTMLControlName
+ 0001:000242A0       TWebDataDisplay.IsCaptionStored
+ 0001:0001CD1C       TWebDataDisplay.IsColumn
+ 0001:0001CD20       TWebDataDisplay.IsQueryField
+ 0001:0001CD04       TWebDataDisplay.LabelContent
+ 0001:0001CD4C       TWebDataDisplay.SetCaption
+ 0001:0001CB5C       TWebDataDisplay.SetCaptionAttributes
+ 0001:0001D194       TWebDataInput.EventContent
+ 0001:0001D388       TWebDataInput.FindAssociatedField
+ 0001:0001D0F0       TWebDataInput.GetCaption
+ 0001:0001D490       TWebDataInput.GetFieldName
+ 0001:0001D4C0       TWebDataInput.GetParamName
+ 0001:0001D56C       TWebDataInput.GetRowSetFieldAttributes
+ 0001:0001D4A4       TWebDataInput.ImplGetFieldName
+ 0001:0001D00C       TWebDataInput.ImplGetHTMLControlName
+ 0001:0001D584       TWebDataInput.ImplGetRowSetFieldAttributes
+ 0001:0001D2DC       TWebDataInput.ImplRestoreDefaults
+ 0001:0001D4B8       TWebDataInput.RestoreDefaults
+ 0001:0001D43C       TWebDataInput.RestoreFieldDefaults
+ 0001:0001D134       TWebDataInput.SetCaption
+ 0001:0001CD98       TWebDataInput.SetFieldName
+ 0001:0001D4EC       TWebDataInput.SetParamName
+ 0001:0001D5E4       TWebDataInput.ValidateField
+ 0001:00022CF0       TWebDisplay.Changed
+ 0001:00022D04       TWebDisplay.ChangedDisplayComponent
+ 0001:00022D0C       TWebDisplay.Create
+ 0001:00022D48       TWebDisplay.GetDisplayComponent
+ 0001:00022D4C       TWebDisplay.Notification
+ 0001:00022D60       TWebDisplay.SetDisplayComponent
+ 0001:0001C204       TWebDisplayReferenceGroup.Create
+ 0001:0001C24C       TWebDisplayReferenceGroup.Destroy
+ 0001:0001C27C       TWebDisplayReferenceGroup.GetWebDisplayComponent
+ 0001:0001C290       TWebDisplayReferenceGroup.Notification
+ 0001:0001C284       TWebDisplayReferenceGroup.SetWebDisplayComponent
+ 0001:0001B0FC       TWebForm.AddElements
+ 0001:0001A6A4       TWebForm.CanAddClass
+ 0001:0001A680       TWebForm.Content
+ 0001:0001A60C       TWebForm.Create
+ 0001:0001A650       TWebForm.Destroy
+ 0001:0001B1D0       TWebForm.GetDefaultWebComponents
+ 0001:0001B148       TWebForm.GetHTMLFormName
+ 0001:0001B1BC       TWebForm.GetHTMLFormVarName
+ 0001:0001B15C       TWebForm.GetLayoutAttributes
+ 0001:0001B0F4       TWebForm.GetSubComponents
+ 0001:0001B0EC       TWebForm.GetVisibleFields
+ 0001:0001B0C4       TWebForm.ImplAddElements
+ 0001:0001B1D4       TWebForm.SetDefaultWebComponents
+ 0001:0001F11C       TWebListInput.AddElements
+ 0001:0001F00C       TWebListInput.ControlContent
+ 0001:0001EF80       TWebListInput.Create
+ 0001:0001EFD4       TWebListInput.Destroy
+ 0001:0001F168       TWebListInput.GetSubComponents
+ 0001:0001F16C       TWebListInput.ImplAddElements
+ 0001:0001F0F0       TWebListInput.Notification
+ 0001:0001F0C0       TWebListInput.SetDataSet
+ 0001:0001F0A0       TWebListInput.SetItems
+ 0001:0001F0B0       TWebListInput.SetValues
+ 0001:0001F268       TWebRadioGroupInput.AddAttributes
+ 0001:0001F214       TWebRadioGroupInput.Create
+ 0001:0001F884       TWebRadioGroupInput.EventContent
+ 0001:0001F31C       TWebRadioGroupInput.FormatInputs
+ 0001:0001F880       TWebRadioGroupInput.GetCheckIndex
+ 0001:0001F960       TWebRadioGroupInput.ImplGetRowSetFieldAttributes
+ 0001:0001F85C       TWebRadioGroupInput.RestoreFieldDefaults
+ 0001:0001FAD4       TWebSelectOptionsInput.AddAttributes
+ 0001:0001F9B8       TWebSelectOptionsInput.Create
+ 0001:0001F9F8       TWebSelectOptionsInput.EventContent
+ 0001:0001FBCC       TWebSelectOptionsInput.FormatInputs
+ 0001:0001FBC8       TWebSelectOptionsInput.GetSelectIndex
+ 0001:00020CF8       TWebStatus.ControlContent
+ 0001:00020E40       TWebStatus.Create
+ 0001:00020E98       TWebStatus.GetCaption
+ 0001:00020F24       TWebStatus.Identifier
+ 0001:00020EBC       TWebStatus.ImplGetHTMLControlName
+ 0001:0001EC3C       TWebTextAreaInput.AddAttributes
+ 0001:0001ED74       TWebTextAreaInput.ControlContent
+ 0001:0001EBF4       TWebTextAreaInput.Create
+ 0001:0001EE30       TWebTextAreaInput.EventContent
+ 0001:0001EF2C       TWebTextAreaInput.ImplGetRowSetFieldAttributes
+ 0001:0001EF0C       TWebTextAreaInput.RestoreFieldDefaults
+ 0001:0001D75C       TWebTextInput.AddAttributes
+ 0001:0001D84C       TWebTextInput.ControlContent
+ 0001:0001D720       TWebTextInput.Create
+ 0001:0001D924       TWebTextInput.ImplGetRowSetFieldAttributes
+ 0001:0001D904       TWebTextInput.RestoreFieldDefaults
+ 0001:0000C4E4       TXMLBroker.AddNotify
+ 0001:0000BB88       TXMLBroker.ApplyXMLUpdates
+ 0001:0000BC6C       TXMLBroker.AS_ApplyUpdates
+ 0001:0000C224       TXMLBroker.AS_FetchParams
+ 0001:0000B8DC       TXMLBroker.AS_GetRecords
+ 0001:0000B664       TXMLBroker.CheckInactive
+ 0001:0000B598       TXMLBroker.Create
+ 0001:0000B610       TXMLBroker.Destroy
+ 0001:0000BDA4       TXMLBroker.DispatchEnabled
+ 0001:0000BDAC       TXMLBroker.DispatchMask
+ 0001:0000BDB8       TXMLBroker.DispatchMethodType
+ 0001:0000BDC0       TXMLBroker.DispatchRequest
+ 0001:0000C2C0       TXMLBroker.FetchParams
+ 0001:0000B6E8       TXMLBroker.GetAppServer
+ 0001:0000BD2C       TXMLBroker.GetConnected
+ 0001:0000C194       TXMLBroker.GetDelta
+ 0001:0000BF14       TXMLBroker.GetErrorCount
+ 0001:0000BF1C       TXMLBroker.GetErrorResponse
+ 0001:0000BEFC       TXMLBroker.GetErrors
+ 0001:0000B7D8       TXMLBroker.GetHasAppServer
+ 0001:0000C4FC       TXMLBroker.GetNotify
+ 0001:0000C514       TXMLBroker.GetNotifyCount
+ 0001:0000C134       TXMLBroker.GetProducerName
+ 0001:0000C164       TXMLBroker.GetRedirect
+ 0001:0000C054       TXMLBroker.GetResponse
+ 0001:0000BA64       TXMLBroker.GetXMLRecords
+ 0001:0000C60C       TXMLBroker.GetXMLStream
+ 0001:0000C1D0       TXMLBroker.HTMLSubmitFormName
+ 0001:0000C3D0       TXMLBroker.MasterRowSetVarName
+ 0001:0000C5D8       TXMLBroker.Notification
+ 0001:0000C4F0       TXMLBroker.RemoveNotify
+ 0001:0000BB24       TXMLBroker.RequestRecords
+ 0001:0000BE2C       TXMLBroker.RequestUpdate
+ 0001:0000C2C8       TXMLBroker.RowSetVarName
+ 0001:0000C520       TXMLBroker.SendConnectEvent
+ 0001:0000B800       TXMLBroker.SetAppServer
+ 0001:0000BD34       TXMLBroker.SetConnected
+ 0001:0000BB78       TXMLBroker.SetParams
+ 0001:0000B85C       TXMLBroker.SetProvider
+ 0001:0000B894       TXMLBroker.SetProviderName
+ 0001:0000C5C4       TXMLBroker.SetReconcileProducer
+ 0001:0000B550       TXMLBroker.SetRemoteServer
+ 0001:0000C1C4       TXMLBroker.SetWebDispatch
+ 0001:0000C210       TXMLBroker.SubmitFormVarName
+ 0001:0001EAF0       TXMLButton.Create
+ 0001:0001EB4C       TXMLButton.Destroy
+ 0001:0001EB7C       TXMLButton.GetCaption
+ 0001:0001EBA0       TXMLButton.GetXMLBroker
+ 0001:0001EBAC       TXMLButton.GetXMLUseParent
+ 0001:0001EBB4       TXMLButton.Notification
+ 0001:0001EBDC       TXMLButton.SetXMLBroker
+ 0001:0001EBE8       TXMLButton.SetXMLUseParent
+ 0001:000221EC       TXMLData.Changed
+ 0001:00022200       TXMLData.ChangedXMLBroker
+ 0001:00022208       TXMLData.Create
+ 0001:00022290       TXMLData.GetXMLBroker
+ 0001:00022244       TXMLData.Notification
+ 0001:00022258       TXMLData.SetXMLBroker
+ 0001:00022B90       TXMLDataParent.ChangedUseParent
+ 0001:00022BB4       TXMLDataParent.ChangedXMLBroker
+ 0001:00022CDC       TXMLDataParent.GetXMLBroker
+ 0001:00022BCC       TXMLDataParent.ParentXMLBroker
+ 0001:00022BA4       TXMLDataParent.SetUseParent
+ 0001:00022294       TXMLDataSet.ChangedDataSetField
+ 0001:000222C8       TXMLDataSet.ChangedXMLBroker
+ 0001:00022904       TXMLDataSet.CompareXMLData
+ 0001:000229E0       TXMLDataSet.ConnectionChange
+ 0001:0002230C       TXMLDataSet.Create
+ 0001:00022460       TXMLDataSet.CreateDataSet
+ 0001:00022894       TXMLDataSet.Destroy
+ 0001:00022768       TXMLDataSet.FindDataSet
+ 0001:000227C8       TXMLDataSet.GetDataSet
+ 0001:0002298C       TXMLDataSet.GetDataSetField
+ 0001:00022374       TXMLDataSet.GetDataSetPath
+ 0001:000229B8       TXMLDataSet.QueryInterface
+ 0001:0002286C       TXMLDataSet.SetDataSetField
+ 0001:000229E8       TXMLDataSet.SetXMLBroker
+ 0001:00022738       TXMLDataSet.WrapperDataChange
+ 0001:000229A0       TXMLDataSet._AddRef
+ 0001:000229AC       TXMLDataSet._Release
+ 0001:00022A5C       TXMLDataSetParent.ChangedDataSetField
+ 0001:00022A2C       TXMLDataSetParent.ChangedUseParent
+ 0001:00022A70       TXMLDataSetParent.ChangedXMLBroker
+ 0001:00022AB0       TXMLDataSetParent.GetDataSetField
+ 0001:00022AE8       TXMLDataSetParent.GetXMLBroker
+ 0001:00022A88       TXMLDataSetParent.ParentDataSetField
+ 0001:00022AD4       TXMLDataSetParent.ParentXMLBroker
+ 0001:00022AFC       TXMLDataSetParent.ParentXMLDataSet
+ 0001:00022A4C       TXMLDataSetParent.SetUseParent
+ 0001:000210B0       TXMLDisplayGroup.Create
+ 0001:0002123C       TXMLDisplayGroup.CreateDefaultFields
+ 0001:00021128       TXMLDisplayGroup.Destroy
+ 0001:000213D0       TXMLDisplayGroup.FindField
+ 0001:000214A8       TXMLDisplayGroup.GetDataSet
+ 0001:00021750       TXMLDisplayGroup.GetDataSetField
+ 0001:00021904       TXMLDisplayGroup.GetEnableValidateFields
+ 0001:000214BC       TXMLDisplayGroup.GetFieldsList
+ 0001:000217F4       TXMLDisplayGroup.GetIsMultipleRecordView
+ 0001:000211F0       TXMLDisplayGroup.GetVisibleFields
+ 0001:00021648       TXMLDisplayGroup.GetXMLBroker
+ 0001:0002174C       TXMLDisplayGroup.GetXMLDataSet
+ 0001:00021184       TXMLDisplayGroup.GetXMLDisplayName
+ 0001:000217B8       TXMLDisplayGroup.GetXMLRowSetName
+ 0001:000216A8       TXMLDisplayGroup.HasStatusField
+ 0001:00021914       TXMLDisplayGroup.ImplAddElements
+ 0001:0002190C       TXMLDisplayGroup.ImplGetSubComponents
+ 0001:000217FC       TXMLDisplayGroup.ImplIsMultipleRecordView
+ 0001:00021654       TXMLDisplayGroup.IsFieldInUse
+ 0001:0002115C       TXMLDisplayGroup.Notification
+ 0001:00021764       TXMLDisplayGroup.SetDataSetField
+ 0001:00021908       TXMLDisplayGroup.SetEnableValidateFields
+ 0001:00021770       TXMLDisplayGroup.SetXMLBroker
+ 0001:0002177C       TXMLDisplayGroup.ValidateDataSet
+ 0001:00021800       TXMLDisplayGroup.ValidateFields
+ 0001:00021110       TXMLDisplayGroup.XMLDataChange
+ 0001:00022D84       TXMLDisplayParent.ChangedDisplayComponent
+ 0001:00022D9C       TXMLDisplayParent.ChangedUseParent
+ 0001:00022DB0       TXMLDisplayParent.Create
+ 0001:00022DEC       TXMLDisplayParent.GetDisplayComponent
+ 0001:00022E84       TXMLDisplayParent.SetUseParent
+ 0001:0001D978       TXMLDisplayReferenceButton.Create
+ 0001:0001D9D4       TXMLDisplayReferenceButton.Destroy
+ 0001:0001DA04       TXMLDisplayReferenceButton.GetDisplayComponent
+ 0001:0001DA0C       TXMLDisplayReferenceButton.GetDisplayComponentParent
+ 0001:0001DA2C       TXMLDisplayReferenceButton.GetXmlDisplayName
+ 0001:0001DAB0       TXMLDisplayReferenceButton.Notification
+ 0001:0001DA14       TXMLDisplayReferenceButton.SetDisplayComponent
+ 0001:0001DA20       TXMLDisplayReferenceButton.SetDisplayComponentParent
+ 0001:0001C2B8       TXMLDisplayReferenceGroup.ImplAddElements
+ 0001:0000E964       TXMLDocument.Create
+ 0001:0000E9C8       TXMLDocument.Destroy
+ 0001:0000E9F0       TXMLDocument.GetComponent
+ 0001:0000E9F4       TXMLDocument.GetDocumentVarName
+ 0001:0000EA60       TXMLDocument.GetRowSets
+ 0001:0000EA74       TXMLDocument.GetXMLBroker
+ 0001:0000EA78       TXMLDocument.GetXMLVarName
+ 0001:0000E4CC       TXMLDocuments.AddXMLBroker
+ 0001:0000E4F8       TXMLDocuments.FindXMLBroker
+ 0001:0000E52C       TXMLDocuments.GetItem
+ 0001:0000E598       TXMLDocuments.GetObject
+ 0001:0000C688       TXMLParams.AssignStrings
+ 0001:0000C738       TXMLParams.AssignTo
+ 0001:0000E7D0       TXMLRowSet.Create
+ 0001:0000E820       TXMLRowSet.Destroy
+ 0001:0000E850       TXMLRowSet.GetMasterDataSetFieldName
+ 0001:0000E8FC       TXMLRowSet.GetMasterRowSetVarName
+ 0001:0000E944       TXMLRowSet.GetPath
+ 0001:0000E948       TXMLRowSet.GetRowSetVarName
+ 0001:0000E5B8       TXMLRowSets.AddPath
+ 0001:0000E5E8       TXMLRowSets.Create
+ 0001:0000E628       TXMLRowSets.Destroy
+ 0001:0000E700       TXMLRowSets.FindPath
+ 0001:0000E744       TXMLRowSets.GetItem
+ 0001:0000E7B0       TXMLRowSets.GetObject
+ 0001:0000522C       TXMLTransform.DoTransform
+ 0001:00004FC0       TXMLTransform.GetData
+ 0001:000050B4       TXMLTransform.GetResultString
+ 0001:000057F8       TXMLTransform.Transform
+ 0001:00005154       TXMLTransform.TransformXML
+ 0001:00004F98       TXMLTransform.Translate
+ 0001:00006E44       TXMLTransformClient.ApplyUpdates
+ 0001:00006B28       TXMLTransformClient.Create
+ 0001:00006BFC       TXMLTransformClient.Destroy
+ 0001:00006CD0       TXMLTransformClient.GetDataAsXml
+ 0001:00006FB4       TXMLTransformClient.GetProviderName
+ 0001:00006FDC       TXMLTransformClient.GetRemoteServer
+ 0001:00006FF8       TXMLTransformClient.SetParams
+ 0001:00006FD0       TXMLTransformClient.SetProviderName
+ 0001:00006FE8       TXMLTransformClient.SetRemoteServer
+ 0001:00006C2C       TXMLTransformClient.SetupAppServer
+ 0001:00006798       TXMLTransformProvider.Create
+ 0001:00006844       TXMLTransformProvider.Destroy
+ 0001:00006AF0       TXMLTransformProvider.GetXMLDataFile
+ 0001:000068D8       TXMLTransformProvider.InternalApplyUpdates
+ 0001:0000686C       TXMLTransformProvider.InternalGetRecords
+ 0001:00006B0C       TXMLTransformProvider.SetXMLDataFile
+ 0001:0000036C       UninitializeModule
+ 0001:00008978       UnRegisterWebComponents
+ 0002:00000034       UnRegisterWebComponentsProc
+ 0001:00008A0C       ValidateWebParent
+ 0001:000073E8       WbmConst
+ 0001:00009F88       WebComp
+ 0001:00024540       webdsnap
+ 0001:00000614       Windows
+ 0001:0001A778       WrapParameters
+ 0001:0000C798       XMLBrokr
+ 0002:00001044       XMLDataSetList
+ 0001:000031F0       XmlDateTimeToStr
+ 0001:000032A8       XmlTimeToStr
+ 0001:0000469C       xmlutil
+ 0001:00007178       Xmlxform
+
+
+  Address         Publics by Value
+
+ 0002:BF38A000       TlsLast
+ 0001:00000258       FreeLibrary
+ 0001:00000260       LocalAlloc
+ 0001:00000268       LocalFree
+ 0001:00000270       TlsAlloc
+ 0001:00000278       TlsFree
+ 0001:00000280       TlsGetValue
+ 0001:00000288       TlsSetValue
+ 0001:00000290       AllocTlsBuffer
+ 0001:0000029C       GetTlsSize
+ 0001:000002A4       InitThreadTLS
+ 0001:000002E8       InitProcessTLS
+ 0001:00000314       ExitThreadTLS
+ 0001:0000033C       ExitProcessTLS
+ 0001:00000360       InitializeModule
+ 0001:0000036C       UninitializeModule
+ 0001:00000390       @InitPkg
+ 0001:000003F4       @PackageLoad
+ 0001:00000400       @PackageUnload
+ 0001:0000040C       Finalization
+ 0001:0000043C       SysInit
+ 0001:000005E4       Finalization
+ 0001:00000614       Windows
+ 0001:000007FC       Finalization
+ 0001:0000082C       Messages
+ 0001:000011C8       DocParseError
+ 0001:000013A0       LoadDocFromFile
+ 0001:000014E8       LoadDocFromString
+ 0001:00001684       getIndex_Attrs
+ 0001:000017E0       FindNode
+ 0001:00001B84       NextCreateElement
+ 0001:00001DE8       SelectCreateNode
+ 0001:00001F7C       SelectNode
+ 0001:000020DC       SelectCreateSibling
+ 0001:00002228       PutValue
+ 0001:000024F8       CloneDoc
+ 0001:000025A4       Split0
+ 0001:000026B8       Head
+ 0001:00002768       replace
+ 0001:00002808       GetAttribute
+ 0001:00002918       EncodeXmlDate
+ 0001:00002A1C       EncodeXmlTime
+ 0001:00002B9C       StrToXmlDate
+ 0001:00002C9C       StrToXmlDateTime
+ 0001:00002DFC       StrToXmlTime
+ 0001:00002F04       DecodeXmlDate
+ 0001:00003030       DecodeXmlTime
+ 0001:000031F0       XmlDateTimeToStr
+ 0001:000032A8       XmlTimeToStr
+ 0001:00003358       MapDateTime
+ 0001:000034C0       MakeValueMap
+ 0001:000036EC       MapValues
+ 0001:000037C0       GetEncoding
+ 0001:00003A54       SetEncoding
+ 0001:00003E4C       SetStandalone
+ 0001:00003F04       CloneNodeToDoc
+ 0001:0000466C       Finalization
+ 0001:0000469C       xmlutil
+ 0001:00004E90       TransformError
+ 0001:00004EA8       StringToFile
+ 0001:00004F08       GetXMLData
+ 0001:00004F6C       CreateNestedTransform
+ 0001:00004F98       TXMLTransform.Translate
+ 0001:00004FC0       TXMLTransform.GetData
+ 0001:000050B4       TXMLTransform.GetResultString
+ 0001:00005154       TXMLTransform.TransformXML
+ 0001:0000522C       TXMLTransform.DoTransform
+ 0001:000057F8       TXMLTransform.Transform
+ 0001:00006798       TXMLTransformProvider.Create
+ 0001:00006844       TXMLTransformProvider.Destroy
+ 0001:0000686C       TXMLTransformProvider.InternalGetRecords
+ 0001:000068D8       TXMLTransformProvider.InternalApplyUpdates
+ 0001:00006AF0       TXMLTransformProvider.GetXMLDataFile
+ 0001:00006B0C       TXMLTransformProvider.SetXMLDataFile
+ 0001:00006B28       TXMLTransformClient.Create
+ 0001:00006BFC       TXMLTransformClient.Destroy
+ 0001:00006C2C       TXMLTransformClient.SetupAppServer
+ 0001:00006CD0       TXMLTransformClient.GetDataAsXml
+ 0001:00006E44       TXMLTransformClient.ApplyUpdates
+ 0001:00006FB4       TXMLTransformClient.GetProviderName
+ 0001:00006FD0       TXMLTransformClient.SetProviderName
+ 0001:00006FDC       TXMLTransformClient.GetRemoteServer
+ 0001:00006FE8       TXMLTransformClient.SetRemoteServer
+ 0001:00006FF8       TXMLTransformClient.SetParams
+ 0001:00007148       Finalization
+ 0001:00007178       Xmlxform
+ 0001:000073B8       Finalization
+ 0001:000073E8       WbmConst
+ 0001:000084D4       ModulePath
+ 0001:00008540       DirExpandFileName
+ 0001:00008870       QualifyFileName
+ 0001:000088E8       DesigningComponent
+ 0001:00008934       RegisterWebComponents
+ 0001:00008978       UnRegisterWebComponents
+ 0001:000089A0       EnumRegisteredWebComponents
+ 0001:000089E0       FindWebComponentEditorHelper
+ 0001:00008A0C       ValidateWebParent
+ 0001:00008AF4       TWebComponentList._AddRef
+ 0001:00008B08       TWebComponentList._Release
+ 0001:00008B1C       TWebComponentList.Add
+ 0001:00008BAC       TWebComponentList.Changed
+ 0001:00008BEC       TWebComponentList.Clear
+ 0001:00008CB8       TWebComponentList.Create
+ 0001:00008D18       TWebComponentList.Destroy
+ 0001:00008D68       TWebComponentList.GetComponent
+ 0001:00008D8C       TWebComponentList.GetCount
+ 0001:00008DA8       TWebComponentList.IndexOf
+ 0001:00008DCC       TWebComponentList.QueryInterface
+ 0001:00008DF8       TWebComponentList.Remove
+ 0001:00008E88       TWebComponentList.SetComponentIndex
+ 0001:00008F08       TWebComponentList.WebComponentContainer_GetComponent
+ 0001:00008F2C       TWebComponentList.WebComponentContainer_GetComponentCount
+ 0001:00008F48       TWebComponentList.NewComponent
+ 0001:00008F60       TWebComponentList.GetOwner
+ 0001:00008F7C       TWebComponentList.LockNotify
+ 0001:00008F8C       TWebComponentList.NotifyLocked
+ 0001:00008FA8       TWebComponentList.UnlockNotify
+ 0001:00008FD4       TWebContentOptions.Create
+ 0001:00009024       TLayoutWebContent.LayoutButton
+ 0001:00009050       TLayoutWebContent.LayoutField
+ 0001:0000907C       TLayoutWebContent.LayoutLabelAndField
+ 0001:000090AC       TLayoutWebContent._AddRef
+ 0001:000090C0       TLayoutWebContent._Release
+ 0001:000090D4       TLayoutWebContent.QueryInterface
+ 0001:00009100       TLayoutWebContent.Create
+ 0001:00009150       TLayoutWebContent.LayoutTable
+ 0001:0000917C       TLayoutAttributes.Create
+ 0001:000091BC       TWebComponentsEditorHelper.CanAddClassHelper
+ 0001:000091EC       TWebComponentsEditorHelper.ImplCanAddClassHelper
+ 0001:00009208       TWebComponentsEditorHelper._AddRef
+ 0001:0000921C       TWebComponentsEditorHelper._Release
+ 0001:00009230       TWebComponentsEditorHelper.QueryInterface
+ 0001:0000925C       TWebContainerComponentHelper.Create
+ 0001:000092E4       TWebContainerComponentHelper.Destroy
+ 0001:00009320       TWebContainerComponentHelper.GetChildren
+ 0001:0000937C       TWebContainerComponentHelper.GetComponentList
+ 0001:00009398       TWebContainerComponentHelper.GetDefaultComponentList
+ 0001:000093B4       TWebContainerComponentHelper.GetDefaultWebComponents
+ 0001:000093E8       TWebContainerComponentHelper.SetChildOrder
+ 0001:0000947C       TWebContainerComponentHelper.SetDefaultWebComponents
+ 0001:000094A8       TWebContainerComponent.Create
+ 0001:00009518       TWebContainerComponent.GetWebComponents
+ 0001:00009534       TWebContainerComponent.Destroy
+ 0001:00009570       TWebContainerComponent.GetChildren
+ 0001:00009598       TWebContainerComponent.OnGetDefaultComponentList
+ 0001:000095B8       TWebContainerComponent.ImplGetDefaultComponentList
+ 0001:000095D4       TWebContainerComponent.SetChildOrder
+ 0001:000095F8       TWebContainerComponent.GetDefaultWebComponents
+ 0001:00009610       TWebContainerComponent.OnSetDefaultComponentList
+ 0001:00009630       TWebContainerComponent.SetDefaultWebComponents
+ 0001:00009640       TWebContainedComponentHelper.GetIndex
+ 0001:00009664       TWebContainedComponentHelper.SetContainer
+ 0001:00009690       TWebContainedComponentHelper.SetIndex
+ 0001:000096B4       TWebContainedComponentHelper.SetWebParent
+ 0001:00009888       TWebContainedComponentHelper.Destroy
+ 0001:000098D4       TWebContainedComponentHelper.SetComponentList
+ 0001:000098F0       TWebContainedComponentHelper.GetContainer
+ 0001:00009990       TWebContainedComponentHelper.IsDefaultField
+ 0001:000099AC       TWebContainedComponentHelper.Create
+ 0001:00009A20       TWebContainedComponentHelper.ParentChanged
+ 0001:00009A44       TWebContainedComponent.GetParentComponent
+ 0001:00009A7C       TWebContainedComponent.HasParent
+ 0001:00009AAC       TWebContainedComponent.ReadState
+ 0001:00009AD8       TWebContainedComponent.SetParentComponent
+ 0001:00009B00       TWebContainedComponent.Destroy
+ 0001:00009B3C       TWebContainedComponent.IsDefaultField
+ 0001:00009B5C       TWebContainedComponent.Create
+ 0001:00009BC4       TWebContainedComponent.ParentChanged
+ 0001:00009BD0       TWebContainedComponent.OnParentChanged
+ 0001:00009BE8       TWebContainedComponent.SetWebParent
+ 0001:00009C08       TWebContainedComponent.GetContainerList
+ 0001:00009C24       TWebContainedComponent.GetWebParent
+ 0001:00009C40       TWebContainedContainerComponent.Create
+ 0001:00009CCC       TWebContainedContainerComponent.Destroy
+ 0001:00009D14       TWebContainedContainerComponent.GetChildren
+ 0001:00009D3C       TWebContainedContainerComponent.OnGetDefaultComponentList
+ 0001:00009D5C       TWebContainedContainerComponent.ImplGetDefaultComponentList
+ 0001:00009D78       TWebContainedContainerComponent.SetChildOrder
+ 0001:00009D9C       TWebContainedContainerComponent.GetWebComponents
+ 0001:00009DB8       TWebContainedContainerComponent.GetParentComponent
+ 0001:00009DF0       TWebContainedContainerComponent.HasParent
+ 0001:00009E20       TWebContainedContainerComponent.ReadState
+ 0001:00009E4C       TWebContainedContainerComponent.SetParentComponent
+ 0001:00009E74       TWebContainedContainerComponent.IsDefaultField
+ 0001:00009E94       TWebContainedContainerComponent.OnSetDefaultComponentList
+ 0001:00009EB4       TWebContainedContainerComponent.ParentChanged
+ 0001:00009EC0       TWebContainedContainerComponent.OnParentChanged
+ 0001:00009ED8       TWebContainedContainerComponent.SetWebParent
+ 0001:00009EF8       TWebContainedContainerComponent.GetContainerList
+ 0001:00009F14       TWebContainedContainerComponent.GetDefaultWebComponents
+ 0001:00009F2C       TWebContainedContainerComponent.GetWebParent
+ 0001:00009F48       TWebContainedContainerComponent.SetDefaultWebComponents
+ 0001:00009F58       Finalization
+ 0001:00009F88       WebComp
+ 0001:0000A0B4       TComponentsPageProducer.DoTagEvent
+ 0001:0000A14C       TComponentsPageProducer.FindComponentName
+ 0001:0000A174       TComponentsPageProducer.FindComponent
+ 0001:0000A1D8       TComponentsPageProducer.GetComponentContent
+ 0001:0000A2A4       TComponentsPageProducer.GetContentOptions
+ 0001:0000A2C0       TComponentsPageProducer.HandleTag
+ 0001:0000A2E4       Finalization
+ 0001:0000A314       CompProd
+ 0001:0000A5DC       TBasePageItemsProducer.Create
+ 0001:0000A628       TBasePageItemsProducer.Destroy
+ 0001:0000A658       TBasePageItemsProducer.GetChildren
+ 0001:0000A6B8       TBasePageItemsProducer.GetComponentList
+ 0001:0000A6BC       TBasePageItemsProducer.GetDefaultComponentList
+ 0001:0000A6C0       TBasePageItemsProducer.SetChildOrder
+ 0001:0000A748       TPageItemsProducer.Create
+ 0001:0000A794       TPageItemsProducer.Destroy
+ 0001:0000A7C4       TPageItemsProducer.GetTemplateStream
+ 0001:0000A838       TPageItemsProducer.SetHTMLFile
+ 0001:0000A864       TPageItemsProducer.SetHTMLDoc
+ 0001:0000A87C       Finalization
+ 0001:0000A8AC       PagItems
+ 0001:0000B1E0       TLocalAppServer.Create
+ 0001:0000B204       TLocalAppServer.GetTypeInfoCount
+ 0001:0000B210       TLocalAppServer.GetTypeInfo
+ 0001:0000B21C       TLocalAppServer.GetIDsOfNames
+ 0001:0000B228       TLocalAppServer.Invoke
+ 0001:0000B234       TLocalAppServer.AS_ApplyUpdates
+ 0001:0000B2A8       TLocalAppServer.AS_GetRecords
+ 0001:0000B314       TLocalAppServer.AS_GetProviderNames
+ 0001:0000B380       TLocalAppServer.AS_DataRequest
+ 0001:0000B3E8       TLocalAppServer.AS_GetParams
+ 0001:0000B440       TLocalAppServer.AS_RowRequest
+ 0001:0000B4B0       TLocalAppServer.AS_Execute
+ 0001:0000B4F8       TLocalAppServer.InterfaceSupportsErrorInfo
+ 0001:0000B52C       TLocalAppServer.SafeCallException
+ 0001:0000B550       TXMLBroker.SetRemoteServer
+ 0001:0000B598       TXMLBroker.Create
+ 0001:0000B610       TXMLBroker.Destroy
+ 0001:0000B664       TXMLBroker.CheckInactive
+ 0001:0000B6E8       TXMLBroker.GetAppServer
+ 0001:0000B7D8       TXMLBroker.GetHasAppServer
+ 0001:0000B800       TXMLBroker.SetAppServer
+ 0001:0000B85C       TXMLBroker.SetProvider
+ 0001:0000B894       TXMLBroker.SetProviderName
+ 0001:0000B8DC       TXMLBroker.AS_GetRecords
+ 0001:0000B998       FormatXML
+ 0001:0000BA64       TXMLBroker.GetXMLRecords
+ 0001:0000BB24       TXMLBroker.RequestRecords
+ 0001:0000BB78       TXMLBroker.SetParams
+ 0001:0000BB88       TXMLBroker.ApplyXMLUpdates
+ 0001:0000BC6C       TXMLBroker.AS_ApplyUpdates
+ 0001:0000BD2C       TXMLBroker.GetConnected
+ 0001:0000BD34       TXMLBroker.SetConnected
+ 0001:0000BDA4       TXMLBroker.DispatchEnabled
+ 0001:0000BDAC       TXMLBroker.DispatchMask
+ 0001:0000BDB8       TXMLBroker.DispatchMethodType
+ 0001:0000BDC0       TXMLBroker.DispatchRequest
+ 0001:0000BE2C       TXMLBroker.RequestUpdate
+ 0001:0000BEFC       TXMLBroker.GetErrors
+ 0001:0000BF14       TXMLBroker.GetErrorCount
+ 0001:0000BF1C       TXMLBroker.GetErrorResponse
+ 0001:0000C054       TXMLBroker.GetResponse
+ 0001:0000C134       TXMLBroker.GetProducerName
+ 0001:0000C164       TXMLBroker.GetRedirect
+ 0001:0000C194       TXMLBroker.GetDelta
+ 0001:0000C1C4       TXMLBroker.SetWebDispatch
+ 0001:0000C1D0       TXMLBroker.HTMLSubmitFormName
+ 0001:0000C210       TXMLBroker.SubmitFormVarName
+ 0001:0000C224       TXMLBroker.AS_FetchParams
+ 0001:0000C2C0       TXMLBroker.FetchParams
+ 0001:0000C2C8       TXMLBroker.RowSetVarName
+ 0001:0000C3D0       TXMLBroker.MasterRowSetVarName
+ 0001:0000C4E4       TXMLBroker.AddNotify
+ 0001:0000C4F0       TXMLBroker.RemoveNotify
+ 0001:0000C4FC       TXMLBroker.GetNotify
+ 0001:0000C514       TXMLBroker.GetNotifyCount
+ 0001:0000C520       TXMLBroker.SendConnectEvent
+ 0001:0000C5C4       TXMLBroker.SetReconcileProducer
+ 0001:0000C5D8       TXMLBroker.Notification
+ 0001:0000C60C       TXMLBroker.GetXMLStream
+ 0001:0000C688       TXMLParams.AssignStrings
+ 0001:0000C738       TXMLParams.AssignTo
+ 0001:0000C768       Finalization
+ 0001:0000C798       XMLBrokr
+ 0001:0000CBA4       Finalization
+ 0001:0000CBD4       MidComp
+ 0001:0000DF78       TScriptManager.Create
+ 0001:0000E0D0       TScriptManager.AddScriptComponentsInternal
+ 0001:0000E220       TScriptManager.AddScriptComponents
+ 0001:0000E294       TScriptManager.AddError
+ 0001:0000E2B4       TScriptManager.GetXMLDocuments
+ 0001:0000E2C8       TScriptManager.Destroy
+ 0001:0000E300       TScriptManager.GetIncludeFiles
+ 0001:0000E314       TScriptManager.GetFunctions
+ 0001:0000E328       TScriptManager.GetHTMLBlocks
+ 0001:0000E33C       TScriptManager.GetVars
+ 0001:0000E350       TScriptManager.GetWarnings
+ 0001:0000E354       TScriptManager.GetScriptBlocks
+ 0001:0000E368       TScriptManager.GetOptions
+ 0001:0000E36C       TScriptManager.GetAddElementsIntf
+ 0001:0000E380       TScriptObjectContainer.Add
+ 0001:0000E3CC       TScriptObjectContainer.GetCount
+ 0001:0000E3D8       TScriptObjectContainer.GetAsIntf
+ 0001:0000E3F4       TScriptObjectContainer.GetAsObject
+ 0001:0000E3FC       TScriptObjectContainer.Destroy
+ 0001:0000E424       TScriptObjectContainer.FindNameObject
+ 0001:0000E4CC       TXMLDocuments.AddXMLBroker
+ 0001:0000E4F8       TXMLDocuments.FindXMLBroker
+ 0001:0000E52C       TXMLDocuments.GetItem
+ 0001:0000E598       TXMLDocuments.GetObject
+ 0001:0000E5B8       TXMLRowSets.AddPath
+ 0001:0000E5E8       TXMLRowSets.Create
+ 0001:0000E628       TXMLRowSets.Destroy
+ 0001:0000E650       ComparePath
+ 0001:0000E700       TXMLRowSets.FindPath
+ 0001:0000E744       TXMLRowSets.GetItem
+ 0001:0000E7B0       TXMLRowSets.GetObject
+ 0001:0000E7D0       TXMLRowSet.Create
+ 0001:0000E820       TXMLRowSet.Destroy
+ 0001:0000E850       TXMLRowSet.GetMasterDataSetFieldName
+ 0001:0000E8FC       TXMLRowSet.GetMasterRowSetVarName
+ 0001:0000E944       TXMLRowSet.GetPath
+ 0001:0000E948       TXMLRowSet.GetRowSetVarName
+ 0001:0000E964       TXMLDocument.Create
+ 0001:0000E9C8       TXMLDocument.Destroy
+ 0001:0000E9F0       TXMLDocument.GetComponent
+ 0001:0000E9F4       TXMLDocument.GetDocumentVarName
+ 0001:0000EA60       TXMLDocument.GetRowSets
+ 0001:0000EA74       TXMLDocument.GetXMLBroker
+ 0001:0000EA78       TXMLDocument.GetXMLVarName
+ 0001:0000EAE4       TScriptObject.Create
+ 0001:0000EB20       TAddScriptElements.AddScriptBlock
+ 0001:0000EBAC       TAddScriptElements.AddHTMLBlock
+ 0001:0000EC38       TAddScriptElements.AddVar
+ 0001:0000ECB8       TAddScriptElements.AddRowSet
+ 0001:0000EE0C       TAddScriptElements.AddFunction
+ 0001:0000EE8C       TAddScriptElements.AddIncludeFile
+ 0001:0000EEF8       TAddScriptElements.Create
+ 0001:0000EF38       TAddScriptElements.Destroy
+ 0001:0000EF68       TAddScriptElements.AddError
+ 0001:0000EFB4       TAddScriptElements.AddPass
+ 0001:0000EFCC       TAddScriptElements.GetScriptManager
+ 0001:0000EFFC       TIncludeFiles.AddFileName
+ 0001:0000F02C       TIncludeFiles.FindFileName
+ 0001:0000F0B4       TIncludeFiles.GetItem
+ 0001:0000F120       TIncludeFiles.GetObject
+ 0001:0000F140       TIncludeFile.GetFileName
+ 0001:0000F154       TFunctions.AddFunction
+ 0001:0000F178       TFunctions.FindFunctionName
+ 0001:0000F18C       TFunctions.GetItem
+ 0001:0000F1F8       TFunctions.GetObject
+ 0001:0000F218       TFunction.GetBody
+ 0001:0000F22C       TFunction.GetFunctionName
+ 0001:0000F240       THTMLBlocks.AddBlock
+ 0001:0000F264       THTMLBlocks.FindBlockName
+ 0001:0000F278       THTMLBlocks.GetItem
+ 0001:0000F2E4       THTMLBlocks.GetObject
+ 0001:0000F304       THTMLBlock.GetHTML
+ 0001:0000F318       THTMLBlock.GetBlockName
+ 0001:0000F32C       TScriptBlocks.AddBlock
+ 0001:0000F350       TScriptBlocks.FindBlockName
+ 0001:0000F364       TScriptBlocks.GetItem
+ 0001:0000F3D0       TScriptBlocks.GetObject
+ 0001:0000F3F0       TScriptBlock.GetScript
+ 0001:0000F404       TScriptBlock.GetBlockName
+ 0001:0000F418       TVars.AddVar
+ 0001:0000F43C       TVars.FindVarName
+ 0001:0000F450       TVars.GetItem
+ 0001:0000F4BC       TVars.GetObject
+ 0001:0000F4DC       TVar.GetScript
+ 0001:0000F4F0       TVar.GetVarName
+ 0001:0000F504       TPassList.Add
+ 0001:0000F530       TPassList.GetItem
+ 0001:0000F550       TPass.Create
+ 0001:0000F58C       TNameContentScriptObject.Create
+ 0001:0000F5E0       TNameContentScriptObject.GetContent
+ 0001:0000F5F4       TNameContentScriptObject.GetName
+ 0001:0000F608       TNameContentScriptObject.MatchName
+ 0001:0000F660       TAddScriptElements.AddScriptComponents
+ 0001:0000F66C       Finalization
+ 0001:0000F69C       ScrptMgr
+ 0001:00010100       TBaseInetXPageProducer.FindXMLBrokerName
+ 0001:0001012C       TBaseInetXPageProducer.FindXMLBroker
+ 0001:000101A8       TBaseInetXPageProducer.GetXMLDelta
+ 0001:0001022C       TBaseInetXPageProducer.GetXMLErrors
+ 0001:00010240       TBaseInetXPageProducer.GetUseXMLIslands
+ 0001:00010358       TBaseInetXPageProducer.GetXMLData
+ 0001:00010420       TBaseInetXPageProducer.DoTagEvent
+ 0001:000107F8       TBaseInetXPageProducer.CreateScriptManager
+ 0001:00010808       TBaseInetXPageProducer.CreatePageElements
+ 0001:00010818       TBaseInetXPageProducer.ContentFromStream
+ 0001:000109C4       TBaseInetXPageProducer.DeclareRowSets
+ 0001:00010C14       TBaseInetXPageProducer.DeclareXMLDocuments
+ 0001:00010F60       TBaseInetXPageProducer.DeclareXMLIslands
+ 0001:0001123C       FormatInclude
+ 0001:000112F8       TBaseInetXPageProducer.DeclareIncludes
+ 0001:00011484       FormatStyles
+ 0001:000114F0       TBaseInetXPageProducer.DeclareStyles
+ 0001:000115DC       TBaseInetXPageProducer.DeclareFunctions
+ 0001:000116C0       TBaseInetXPageProducer.DeclareWarnings
+ 0001:0001182C       TBaseInetXPageProducer.DeclareScript
+ 0001:00011A60       TBaseInetXPageProducer.AddScriptComponents
+ 0001:00011B8C       TBaseInetXPageProducer.AddIncludes
+ 0001:00011C44       PathInfoToRelativePath
+ 0001:00011CB8       AddStdIncludes
+ 0001:00011DC4       TBaseInetXPageProducer.GeneratePageElements
+ 0001:00012004       TBaseInetXPageProducer.Create
+ 0001:00012050       TBaseInetXPageProducer.GetScriptManager
+ 0001:00012068       TBaseInetXPageProducer.GetDefaultTemplate
+ 0001:0001218C       TBaseInetXPageProducer.DoAfterGetXMLData
+ 0001:00012218       TBaseInetXPageProducer.DoBeforeGetXMLData
+ 0001:000122A4       TBaseInetXPageProducer.SetIncludePathURL
+ 0001:00012344       TBaseInetXPageProducer.CanAddClass
+ 0001:0001234C       TBaseInetXPageProducer.ImplCanAddClass
+ 0001:0001237C       TBaseInetXPageProducer.SetStyles
+ 0001:00012394       TBaseInetXPageProducer.SetStylesFile
+ 0001:000123C4       TBaseInetXPageProducer.DoAfterGetContent
+ 0001:000123E4       TBaseInetXPageProducer.DoBeforeGetContent
+ 0001:00012404       TBaseInetXPageProducer.GetContentOptions
+ 0001:000124A4       TCustomInetXPageProducer.Create
+ 0001:00012540       TCustomInetXPageProducer.Destroy
+ 0001:00012570       TCustomInetXPageProducer.Content
+ 0001:000125D0       TCustomInetXPageProducer.WebContent
+ 0001:00012668       TCustomInetXPageProducer.SetHTMLDoc
+ 0001:00012684       TCustomInetXPageProducer.SetHTMLFile
+ 0001:000126B8       GetLocateFileService
+ 0001:00012738       TCustomInetXPageProducer.GetTemplateStream
+ 0001:0001284C       TCustomInetXPageProducer.GetTemplateFileName
+ 0001:00012864       TInetXPageElements.BodyContent
+ 0001:00012888       TBaseInetXPageProducer.GetRequiredTags
+ 0001:00012974       TBaseInetXPageProducer.SetWebContentOptions
+ 0001:0001297C       TBaseInetXPageProducer.Destroy
+ 0001:000129AC       Finalization
+ 0001:000129DC       MidProd
+ 0001:00019B60       CanAddClassHelper
+ 0001:00019BF4       AddIntAttrib
+ 0001:00019C8C       AddStringAttrib
+ 0001:00019D24       AddCustomAttrib
+ 0001:00019DBC       AddBoolAttrib
+ 0001:00019E44       AddQuotedAttrib
+ 0001:00019EDC       FormatColumnHeading
+ 0001:00019FC8       FormatColumnData
+ 0001:0001A5B0       TGridLayout.ImplLayoutButton
+ 0001:0001A5D4       TGridLayout.ImplLayoutField
+ 0001:0001A5EC       TGridLayout.ImplLayoutLabelAndField
+ 0001:0001A60C       TWebForm.Create
+ 0001:0001A650       TWebForm.Destroy
+ 0001:0001A680       TWebForm.Content
+ 0001:0001A6A4       TWebForm.CanAddClass
+ 0001:0001A6AC       FormatText
+ 0001:0001A778       WrapParameters
+ 0001:0001A7DC       FormatIdentifier
+ 0001:0001A88C       TraverseSubComponents
+ 0001:0001AC18       DefineXMLDisplayBlock
+ 0001:0001B0C4       TWebForm.ImplAddElements
+ 0001:0001B0EC       TWebForm.GetVisibleFields
+ 0001:0001B0F4       TWebForm.GetSubComponents
+ 0001:0001B0FC       TWebForm.AddElements
+ 0001:0001B148       TWebForm.GetHTMLFormName
+ 0001:0001B15C       TWebForm.GetLayoutAttributes
+ 0001:0001B1BC       TWebForm.GetHTMLFormVarName
+ 0001:0001B1D0       TWebForm.GetDefaultWebComponents
+ 0001:0001B1D4       TWebForm.SetDefaultWebComponents
+ 0001:0001B1D8       TCustomDataForm.GetHTMLFormTag
+ 0001:0001B2C8       TCustomDataForm.ImplCanAddClass
+ 0001:0001B330       TFormLayout.Create
+ 0001:0001B3A4       TFormLayout.ImplLayoutButton
+ 0001:0001B4A0       TFormLayout.ImplLayoutField
+ 0001:0001B5C0       TFormLayout.ImplLayoutLabelAndField
+ 0001:0001B8B4       TFormLayout.ImplLayoutTable
+ 0001:0001B8D8       TFormLayout.StartFields
+ 0001:0001B968       SpanAll
+ 0001:0001B9B4       SpanCalc
+ 0001:0001BA28       TFormLayout.NextColumn
+ 0001:0001BBB0       TFormLayout.StartRow
+ 0001:0001BBEC       TFormLayout.EndRow
+ 0001:0001BC2C       TFormLayout.EndTable
+ 0001:0001BCA8       TFormLayout.EndLayout
+ 0001:0001BD20       TFormLayout.StartTable
+ 0001:0001BD48       TFormLayout.StartButtons
+ 0001:0001BDE0       TFormLayout.EndButtons
+ 0001:0001BE0C       TFormLayout.EndFields
+ 0001:0001BE38       FormatField
+ 0001:0001BEBC       TCustomDataForm.ImplContent
+ 0001:0001C02C       TDataSetWrapper.AddOnDataChange
+ 0001:0001C0A0       TDataSetWrapper.Create
+ 0001:0001C0FC       TDataSetWrapper.Destroy
+ 0001:0001C12C       TDataSetWrapper.FetchParams
+ 0001:0001C138       TDataSetWrapper.FieldCount
+ 0001:0001C144       TDataSetWrapper.Fields
+ 0001:0001C14C       TDataSetWrapper.ParamCount
+ 0001:0001C15C       TDataSetWrapper.Params
+ 0001:0001C168       TDataSetWrapper.RemoveOnDataChange
+ 0001:0001C1BC       TDataSetWrapper.OnDataChange
+ 0001:0001C204       TWebDisplayReferenceGroup.Create
+ 0001:0001C24C       TWebDisplayReferenceGroup.Destroy
+ 0001:0001C27C       TWebDisplayReferenceGroup.GetWebDisplayComponent
+ 0001:0001C284       TWebDisplayReferenceGroup.SetWebDisplayComponent
+ 0001:0001C290       TWebDisplayReferenceGroup.Notification
+ 0001:0001C2B8       TXMLDisplayReferenceGroup.ImplAddElements
+ 0001:0001C35C       FormatButton
+ 0001:0001C3E0       TCustomDataNavigator.ImplContent
+ 0001:0001C5D8       CreateDefaultButtonClasses
+ 0001:0001C668       TCustomDataNavigator.GetDefaultButtons
+ 0001:0001C764       TCustomDataNavigator.VisibleButtons
+ 0001:0001C78C       TCustomDataNavigator.ImplCanAddClass
+ 0001:0001C828       TCustomDataNavigator.ImplGetSubComponents
+ 0001:0001C830       TWebDataDisplay.Create
+ 0001:0001C890       TWebDataDisplay.Destroy
+ 0001:0001C8C8       TWebDataDisplay.Content
+ 0001:0001C8EC       TWebDataDisplay.GetCaption
+ 0001:0001C900       TWebDataDisplay.EventContent
+ 0001:0001C90C       TWebDataDisplay.GetXmlDisplayName
+ 0001:0001C994       TWebDataDisplay.GetXmlRowSetName
+ 0001:0001CA1C       TWebDataDisplay.GetHTMLForm
+ 0001:0001CA78       TWebDataDisplay.ImplContent
+ 0001:0001CB5C       TWebDataDisplay.SetCaptionAttributes
+ 0001:0001CB68       TWebDataDisplay.FormatCaption
+ 0001:0001CD04       TWebDataDisplay.LabelContent
+ 0001:0001CD18       TWebDataDisplay.GetLayoutAttributes
+ 0001:0001CD1C       TWebDataDisplay.IsColumn
+ 0001:0001CD20       TWebDataDisplay.IsQueryField
+ 0001:0001CD24       TWebDataDisplay.GetHTMLControlName
+ 0001:0001CD38       TWebDataDisplay.ImplGetHTMLControlName
+ 0001:0001CD4C       TWebDataDisplay.SetCaption
+ 0001:0001CD98       TWebDataInput.SetFieldName
+ 0001:0001CEBC       CrunchFieldName
+ 0001:0001D00C       TWebDataInput.ImplGetHTMLControlName
+ 0001:0001D0F0       TWebDataInput.GetCaption
+ 0001:0001D134       TWebDataInput.SetCaption
+ 0001:0001D194       TWebDataInput.EventContent
+ 0001:0001D2DC       TWebDataInput.ImplRestoreDefaults
+ 0001:0001D388       TWebDataInput.FindAssociatedField
+ 0001:0001D43C       TWebDataInput.RestoreFieldDefaults
+ 0001:0001D490       TWebDataInput.GetFieldName
+ 0001:0001D4A4       TWebDataInput.ImplGetFieldName
+ 0001:0001D4B8       TWebDataInput.RestoreDefaults
+ 0001:0001D4C0       TWebDataInput.GetParamName
+ 0001:0001D4EC       TWebDataInput.SetParamName
+ 0001:0001D56C       TWebDataInput.GetRowSetFieldAttributes
+ 0001:0001D584       TWebDataInput.ImplGetRowSetFieldAttributes
+ 0001:0001D590       AddError
+ 0001:0001D5E4       TWebDataInput.ValidateField
+ 0001:0001D720       TWebTextInput.Create
+ 0001:0001D75C       TWebTextInput.AddAttributes
+ 0001:0001D84C       TWebTextInput.ControlContent
+ 0001:0001D904       TWebTextInput.RestoreFieldDefaults
+ 0001:0001D924       TWebTextInput.ImplGetRowSetFieldAttributes
+ 0001:0001D978       TXMLDisplayReferenceButton.Create
+ 0001:0001D9D4       TXMLDisplayReferenceButton.Destroy
+ 0001:0001DA04       TXMLDisplayReferenceButton.GetDisplayComponent
+ 0001:0001DA0C       TXMLDisplayReferenceButton.GetDisplayComponentParent
+ 0001:0001DA14       TXMLDisplayReferenceButton.SetDisplayComponent
+ 0001:0001DA20       TXMLDisplayReferenceButton.SetDisplayComponentParent
+ 0001:0001DA2C       TXMLDisplayReferenceButton.GetXmlDisplayName
+ 0001:0001DAB0       TXMLDisplayReferenceButton.Notification
+ 0001:0001DAD8       TDataSetButton.AddElements
+ 0001:0001DB24       TDataSetButton.GetCaption
+ 0001:0001DB48       TDataSetButton.GetMethodName
+ 0001:0001DB5C       TFirstButton.Create
+ 0001:0001DBBC       TLastButton.Create
+ 0001:0001DC1C       TPriorButton.Create
+ 0001:0001DC78       TNextButton.Create
+ 0001:0001DCD8       TNextPageButton.Create
+ 0001:0001DD38       TPriorPageButton.Create
+ 0001:0001DD98       TInsertButton.Create
+ 0001:0001DDF8       TDeleteButton.Create
+ 0001:0001DE5C       TUndoButton.Create
+ 0001:0001DEBC       TDataSetButton.GetSubComponents
+ 0001:0001DEC0       TDataSetButton.ImplAddElements
+ 0001:0001DF60       TDataSetButton.ImplContent
+ 0001:0001E198       TApplyUpdatesButton.AddElements
+ 0001:0001E1E4       TApplyUpdatesButton.Create
+ 0001:0001E228       TApplyUpdatesButton.GetSubComponents
+ 0001:0001E22C       FindProducer
+ 0001:0001E264       FindDispatcher
+ 0001:0001E290       DeclareSubmitForm
+ 0001:0001E83C       TApplyUpdatesButton.ImplAddElements
+ 0001:0001E894       TApplyUpdatesButton.ImplContent
+ 0001:0001EAF0       TXMLButton.Create
+ 0001:0001EB4C       TXMLButton.Destroy
+ 0001:0001EB7C       TXMLButton.GetCaption
+ 0001:0001EBA0       TXMLButton.GetXMLBroker
+ 0001:0001EBAC       TXMLButton.GetXMLUseParent
+ 0001:0001EBB4       TXMLButton.Notification
+ 0001:0001EBDC       TXMLButton.SetXMLBroker
+ 0001:0001EBE8       TXMLButton.SetXMLUseParent
+ 0001:0001EBF4       TWebTextAreaInput.Create
+ 0001:0001EC3C       TWebTextAreaInput.AddAttributes
+ 0001:0001ED74       TWebTextAreaInput.ControlContent
+ 0001:0001EE30       TWebTextAreaInput.EventContent
+ 0001:0001EF0C       TWebTextAreaInput.RestoreFieldDefaults
+ 0001:0001EF2C       TWebTextAreaInput.ImplGetRowSetFieldAttributes
+ 0001:0001EF80       TWebListInput.Create
+ 0001:0001EFD4       TWebListInput.Destroy
+ 0001:0001F00C       TWebListInput.ControlContent
+ 0001:0001F0A0       TWebListInput.SetItems
+ 0001:0001F0B0       TWebListInput.SetValues
+ 0001:0001F0C0       TWebListInput.SetDataSet
+ 0001:0001F0F0       TWebListInput.Notification
+ 0001:0001F11C       TWebListInput.AddElements
+ 0001:0001F168       TWebListInput.GetSubComponents
+ 0001:0001F16C       TWebListInput.ImplAddElements
+ 0001:0001F214       TWebRadioGroupInput.Create
+ 0001:0001F268       TWebRadioGroupInput.AddAttributes
+ 0001:0001F31C       TWebRadioGroupInput.FormatInputs
+ 0001:0001F85C       TWebRadioGroupInput.RestoreFieldDefaults
+ 0001:0001F880       TWebRadioGroupInput.GetCheckIndex
+ 0001:0001F884       TWebRadioGroupInput.EventContent
+ 0001:0001F960       TWebRadioGroupInput.ImplGetRowSetFieldAttributes
+ 0001:0001F9B8       TWebSelectOptionsInput.Create
+ 0001:0001F9F8       TWebSelectOptionsInput.EventContent
+ 0001:0001FAD4       TWebSelectOptionsInput.AddAttributes
+ 0001:0001FBC8       TWebSelectOptionsInput.GetSelectIndex
+ 0001:0001FBCC       TWebSelectOptionsInput.FormatInputs
+ 0001:0001FE14       TPostButton.Create
+ 0001:0001FE74       TCustomQueryForm.ImplAddElements
+ 0001:0001FF60       TCustomQueryForm.GetHTMLFormTag
+ 0001:0002009C       TCustomQueryForm.MethodString
+ 0001:000200B8       TCustomQueryForm.Create
+ 0001:000200F4       TCustomQueryForm.AssignStringsCallback
+ 0001:000201C4       TCustomQueryForm.AssignStrings
+ 0001:0002022C       TSubmitQueryButton.Create
+ 0001:0002028C       TSubmitQueryButton.EventContent
+ 0001:00020334       TResetQueryButton.Create
+ 0001:00020394       TResetQueryButton.EventContent
+ 0001:0002043C       TQueryButton.GetCaption
+ 0001:00020460       TQueryButton.GetInputType
+ 0001:00020474       TQueryButton.ImplContent
+ 0001:00020640       TQueryButton.EventContent
+ 0001:0002064C       TQueryButton.GetHTMLControlName
+ 0001:00020658       TQueryButton.GetHTMLForm
+ 0001:000206A4       TQueryButton.ParentXMLComponent
+ 0001:0002072C       TQueryButton.GetXMLComponent
+ 0001:0002073C       TQueryButton.SetXMLComponent
+ 0001:00020754       TQueryButton.Notification
+ 0001:00020780       TQueryButton.SetXMLUseParent
+ 0001:00020790       TQueryButton.Create
+ 0001:000207CC       TCustomQueryButtons.GetDefaultButtons
+ 0001:00020800       TCustomQueryButtons.ImplAddElements
+ 0001:0002084C       FormatButton
+ 0001:000208D0       TCustomQueryButtons.ImplContent
+ 0001:00020AD4       GetItemValuesFromDataSet
+ 0001:00020C9C       TCustomQueryButtons.VisibleButtons
+ 0001:00020CC4       TCustomQueryButtons.ImplCanAddClass
+ 0001:00020CF8       TWebStatus.ControlContent
+ 0001:00020E40       TWebStatus.Create
+ 0001:00020E98       TWebStatus.GetCaption
+ 0001:00020EBC       TWebStatus.ImplGetHTMLControlName
+ 0001:00020F24       TWebStatus.Identifier
+ 0001:00020F44       TWebControlGroup.Create
+ 0001:00020F8C       TWebControlGroup.Destroy
+ 0001:00020FBC       TWebControlGroup.AddElements
+ 0001:00021008       TWebControlGroup.CanAddClass
+ 0001:00021010       TWebControlGroup.GetSubComponents
+ 0001:00021018       TWebControlGroup.ImplAddElements
+ 0001:00021040       TWebControlGroup.ImplCanAddClass
+ 0001:00021044       TWebControlGroup.Content
+ 0001:00021068       TWebControlGroup.ImplContent
+ 0001:00021078       TWebControlGroup.GetLayoutAttributes
+ 0001:0002107C       TWebControlGroup.ImplGetSubComponents
+ 0001:00021084       TWebControlGroup.GetDefaultWebComponents
+ 0001:00021088       TWebControlGroup.SetDefaultWebComponents
+ 0001:0002108C       TWebControlGroup.ChangeFieldControls
+ 0001:000210B0       TXMLDisplayGroup.Create
+ 0001:00021110       TXMLDisplayGroup.XMLDataChange
+ 0001:00021128       TXMLDisplayGroup.Destroy
+ 0001:0002115C       TXMLDisplayGroup.Notification
+ 0001:00021184       TXMLDisplayGroup.GetXMLDisplayName
+ 0001:000211F0       TXMLDisplayGroup.GetVisibleFields
+ 0001:0002123C       TXMLDisplayGroup.CreateDefaultFields
+ 0001:000213D0       TXMLDisplayGroup.FindField
+ 0001:000214A8       TXMLDisplayGroup.GetDataSet
+ 0001:000214BC       TXMLDisplayGroup.GetFieldsList
+ 0001:00021648       TXMLDisplayGroup.GetXMLBroker
+ 0001:00021654       TXMLDisplayGroup.IsFieldInUse
+ 0001:000216A8       TXMLDisplayGroup.HasStatusField
+ 0001:0002174C       TXMLDisplayGroup.GetXMLDataSet
+ 0001:00021750       TXMLDisplayGroup.GetDataSetField
+ 0001:00021764       TXMLDisplayGroup.SetDataSetField
+ 0001:00021770       TXMLDisplayGroup.SetXMLBroker
+ 0001:0002177C       TXMLDisplayGroup.ValidateDataSet
+ 0001:000217B8       TXMLDisplayGroup.GetXMLRowSetName
+ 0001:000217F4       TXMLDisplayGroup.GetIsMultipleRecordView
+ 0001:000217FC       TXMLDisplayGroup.ImplIsMultipleRecordView
+ 0001:00021800       TXMLDisplayGroup.ValidateFields
+ 0001:00021904       TXMLDisplayGroup.GetEnableValidateFields
+ 0001:00021908       TXMLDisplayGroup.SetEnableValidateFields
+ 0001:0002190C       TXMLDisplayGroup.ImplGetSubComponents
+ 0001:00021914       TXMLDisplayGroup.ImplAddElements
+ 0001:000219D4       TCustomDataGrid.Create
+ 0001:00021A50       TableHeader
+ 0001:00021BB0       RowHeader
+ 0001:00021CB4       TCustomDataGrid.FormatTable
+ 0001:00021F44       TCustomDataGrid.ImplContent
+ 0001:0002203C       TCustomDataGrid.SetTableAttributes
+ 0001:00022048       TCustomDataGrid.Destroy
+ 0001:00022088       TCustomDataGrid.SetHeadingAttributes
+ 0001:00022094       TCustomQueryForm.ImplCanAddClass
+ 0001:000220D4       TCustomDataGrid.ImplCanAddClass
+ 0001:000220FC       TCustomDataGrid.ImplAddElements
+ 0001:000221DC       TCustomDataGrid.SetRowAttributes
+ 0001:000221E8       TCustomDataGrid.ImplIsMultipleRecordView
+ 0001:000221EC       TXMLData.Changed
+ 0001:00022200       TXMLData.ChangedXMLBroker
+ 0001:00022208       TXMLData.Create
+ 0001:00022244       TXMLData.Notification
+ 0001:00022258       TXMLData.SetXMLBroker
+ 0001:00022290       TXMLData.GetXMLBroker
+ 0001:00022294       TXMLDataSet.ChangedDataSetField
+ 0001:000222C8       TXMLDataSet.ChangedXMLBroker
+ 0001:0002230C       TXMLDataSet.Create
+ 0001:00022374       TXMLDataSet.GetDataSetPath
+ 0001:00022460       TXMLDataSet.CreateDataSet
+ 0001:00022738       TXMLDataSet.WrapperDataChange
+ 0001:00022768       TXMLDataSet.FindDataSet
+ 0001:000227C8       TXMLDataSet.GetDataSet
+ 0001:0002286C       TXMLDataSet.SetDataSetField
+ 0001:00022894       TXMLDataSet.Destroy
+ 0001:00022904       TXMLDataSet.CompareXMLData
+ 0001:0002298C       TXMLDataSet.GetDataSetField
+ 0001:000229A0       TXMLDataSet._AddRef
+ 0001:000229AC       TXMLDataSet._Release
+ 0001:000229B8       TXMLDataSet.QueryInterface
+ 0001:000229E0       TXMLDataSet.ConnectionChange
+ 0001:000229E8       TXMLDataSet.SetXMLBroker
+ 0001:00022A2C       TXMLDataSetParent.ChangedUseParent
+ 0001:00022A4C       TXMLDataSetParent.SetUseParent
+ 0001:00022A5C       TXMLDataSetParent.ChangedDataSetField
+ 0001:00022A70       TXMLDataSetParent.ChangedXMLBroker
+ 0001:00022A88       TXMLDataSetParent.ParentDataSetField
+ 0001:00022AB0       TXMLDataSetParent.GetDataSetField
+ 0001:00022AD4       TXMLDataSetParent.ParentXMLBroker
+ 0001:00022AE8       TXMLDataSetParent.GetXMLBroker
+ 0001:00022AFC       TXMLDataSetParent.ParentXMLDataSet
+ 0001:00022B90       TXMLDataParent.ChangedUseParent
+ 0001:00022BA4       TXMLDataParent.SetUseParent
+ 0001:00022BB4       TXMLDataParent.ChangedXMLBroker
+ 0001:00022BCC       TXMLDataParent.ParentXMLBroker
+ 0001:00022CDC       TXMLDataParent.GetXMLBroker
+ 0001:00022CF0       TWebDisplay.Changed
+ 0001:00022D04       TWebDisplay.ChangedDisplayComponent
+ 0001:00022D0C       TWebDisplay.Create
+ 0001:00022D48       TWebDisplay.GetDisplayComponent
+ 0001:00022D4C       TWebDisplay.Notification
+ 0001:00022D60       TWebDisplay.SetDisplayComponent
+ 0001:00022D84       TXMLDisplayParent.ChangedDisplayComponent
+ 0001:00022D9C       TXMLDisplayParent.ChangedUseParent
+ 0001:00022DB0       TXMLDisplayParent.Create
+ 0001:00022DEC       TXMLDisplayParent.GetDisplayComponent
+ 0001:00022E84       TXMLDisplayParent.SetUseParent
+ 0001:00022E94       FormatField
+ 0001:00022F18       TCustomQueryForm.ImplContent
+ 0001:00023088       TStatusColumn.IsColumn
+ 0001:0002308C       TSelectOptionsColumn.IsColumn
+ 0001:00023090       TTextColumn.IsColumn
+ 0001:00023094       TCustomFieldGroup.Create
+ 0001:000230D8       TCustomFieldGroup.Destroy
+ 0001:00023108       FormatField
+ 0001:0002318C       TCustomFieldGroup.ImplContent
+ 0001:00023380       TFieldGroup.ImplAddElements
+ 0001:00023460       TFieldGroup.ImplCanAddClass
+ 0001:000234A4       TQueryText.AddAttributes
+ 0001:0002355C       TQueryText.Create
+ 0001:0002359C       TQueryText.GetText
+ 0001:000235B0       TQueryText.IsQueryField
+ 0001:000235B4       TQueryText.SetText
+ 0001:000235C8       TQueryTextArea.AddAttributes
+ 0001:00023600       TQueryTextArea.ControlContent
+ 0001:000236E4       TQueryTextArea.Create
+ 0001:0002372C       TQueryTextArea.Destroy
+ 0001:0002375C       TQueryTextArea.GetText
+ 0001:00023774       TQueryTextArea.IsQueryField
+ 0001:00023778       TQueryTextArea.SetLines
+ 0001:00023788       TQueryTextArea.SetText
+ 0001:00023794       TQueryRadioGroup.AddAttributes
+ 0001:000237CC       TQueryRadioGroup.GetCheckIndex
+ 0001:0002384C       TQueryRadioGroup.GetText
+ 0001:00023864       TQueryRadioGroup.IsQueryField
+ 0001:00023868       TQueryRadioGroup.SetText
+ 0001:00023880       TQuerySelectOptions.GetSelectIndex
+ 0001:00023900       TQuerySelectOptions.GetText
+ 0001:00023918       TQuerySelectOptions.IsQueryField
+ 0001:0002391C       TQuerySelectOptions.SetText
+ 0001:00023934       TTextAreaColumn.IsColumn
+ 0001:00023938       TCustomLayoutGroup.Create
+ 0001:00023984       TCustomLayoutGroup.Destroy
+ 0001:000239B4       TCustomLayoutGroup.ImplCanAddClass
+ 0001:00023A50       FormatField
+ 0001:00023AD4       TCustomLayoutGroup.ImplContent
+ 0001:00023D30       TGridLayout.ImplLayoutTable
+ 0001:00023D38       TCustomLayoutGroup.GetLayoutAttributes
+ 0001:00023D98       TCaptionAttributes.Create
+ 0001:00023DD4       TQueryFieldGroup.IsParamInUse
+ 0001:00023E28       TQueryFieldGroup.FindParam
+ 0001:00023F00       TQueryFieldGroup.GetParamsList
+ 0001:00023FD4       TQueryFieldGroup.ImplCanAddClass
+ 0001:0002400C       TWebButton.Create
+ 0001:00024044       TWebButton.IsCaptionStored
+ 0001:00024050       TWebButton.Content
+ 0001:00024074       TWebButton.GetCaption
+ 0001:00024088       TWebButton.GetLayoutAttributes
+ 0001:0002408C       TCustomFieldGroup.GetLayoutAttributes
+ 0001:000240E4       TWebButton.SetCaption
+ 0001:000240F8       TGridAttributes.AssignTo
+ 0001:00024168       TGridAttributes.Create
+ 0001:000241BC       TGridRowAttributes.AssignTo
+ 0001:00024220       TGridRowAttributes.Create
+ 0001:00024264       TClientDataSetEvent.DataEvent
+ 0001:000242A0       TWebDataDisplay.IsCaptionStored
+ 0001:000242AC       Finalization
+ 0001:00024344       MidItems
+ 0001:00024520       @GetPackageInfoTable
+ 0001:00024528       @PackageLoad
+ 0001:00024534       @PackageUnload
+ 0001:00024540       webdsnap
+ 0002:00000000       TlsIndex
+ 0002:00000004       PtrToNil
+ 0002:00000008       Module
+ 0002:00000020       TlsProc
+ 0002:00000030       RegisterWebComponentsProc
+ 0002:00000034       UnRegisterWebComponentsProc
+ 0002:00000038       EnumRegisteredWebComponentsProc
+ 0002:0000003C       FindWebComponentEditorHelperProc
+ 0002:00000040       TextAreaWrap
+ 0002:0000004C       FormMethodNames
+ 0002:00000054       HTMLAlignValues
+ 0002:00000064       HTMLVAlignValues
+ 0002:00000078       DefaultFormButtons
+ 0002:0000009C       DefaultGridButtons
+ 0002:000000C8       DefaultQueryButtons
+ 0002:00001000       ModuleIsLib
+ 0002:00001001       ModuleIsPackage
+ 0002:00001004       HInstance
+ 0002:00001008       .1
+ 0002:0000100C       tlsBuffer
+ 0002:00001010       .3
+ 0002:00001014       .1
+ 0002:00001018       .2
+ 0002:0000101C       .5
+ 0002:00001020       .1
+ 0002:00001024       .21
+ 0002:00001028       .2
+ 0002:0000102C       .3
+ 0002:00001030       .3
+ 0002:00001034       .1
+ 0002:00001038       .32
+ 0002:0000103C       .6
+ 0002:00001040       .47
+ 0002:00001044       XMLDataSetList
+
+
+Line numbers for WebComp(WebComp.pas) segment .text
+
+   182 0001:000079E8   221 0001:00007B08   242 0001:00007D34   295 0001:00007F78
+   344 0001:0000816C   381 0001:000082D8   410 0001:000084D4   411 0001:000084F1
+   413 0001:000084FB   414 0001:00008508   417 0001:00008515   418 0001:0000853A
+   426 0001:00008540   427 0001:0000856B   428 0001:00008573   430 0001:00008583
+   431 0001:0000858E   435 0001:00008594   436 0001:0000859F   438 0001:000085A7
+   441 0001:000085B4   447 0001:000085EA   448 0001:00008606   451 0001:00008612
+   452 0001:0000861D   456 0001:00008622   457 0001:00008629   459 0001:00008630
+   463 0001:00008639   465 0001:0000864F   468 0001:0000865B   469 0001:0000866E
+   470 0001:00008691   472 0001:00008697   478 0001:000086A0   481 0001:000086AA
+   486 0001:000086BB   490 0001:000086E4   493 0001:000086F1   494 0001:00008714
+   498 0001:0000871F   500 0001:0000872B   501 0001:00008743   502 0001:0000875D
+   504 0001:00008776   505 0001:00008779   509 0001:00008782   513 0001:00008788
+   514 0001:000087A0   519 0001:000087A9   521 0001:000087AD   522 0001:000087C7
+   524 0001:000087E0   461 0001:000087E3   527 0001:000087F4   528 0001:0000880A
+   529 0001:0000882D   530 0001:0000885F   533 0001:00008870   534 0001:00008890
+   535 0001:0000889A   537 0001:000088AE   538 0001:000088E1   543 0001:000088E8
+   546 0001:000088F4   545 0001:00008903   547 0001:0000891C   548 0001:0000892C
+   552 0001:00008934   553 0001:00008943   554 0001:0000894C   555 0001:0000895D
+   556 0001:00008974   559 0001:00008978   560 0001:00008984   561 0001:0000898D
+   562 0001:00008999   565 0001:000089A0   566 0001:000089A7   567 0001:000089B0
+   568 0001:000089C1   569 0001:000089D8   572 0001:000089E0   573 0001:000089E9
+   574 0001:000089F2   576 0001:00008A00   577 0001:00008A08   583 0001:00008A0C
+   585 0001:00008A2D   586 0001:00008A33   588 0001:00008A39   589 0001:00008A41
+   590 0001:00008A58   586 0001:00008A67   592 0001:00008A6D   593 0001:00008A8F
+   594 0001:00008AA8   595 0001:00008ADC   600 0001:00008AF4   601 0001:00008AF8
+   602 0001:00008B02   605 0001:00008B08   606 0001:00008B0C   607 0001:00008B16
+   612 0001:00008B1C   613 0001:00008B3B   614 0001:00008B49   615 0001:00008B67
+   616 0001:00008B72   617 0001:00008B97   620 0001:00008BAC   621 0001:00008BB4
+   623 0001:00008BC0   624 0001:00008BC7   627 0001:00008BDF   628 0001:00008BE6
+   634 0001:00008BEC   635 0001:00008C08   638 0001:00008C0F   639 0001:00008C1D
+   641 0001:00008C3B   642 0001:00008C45   643 0001:00008C4D   644 0001:00008C55
+   636 0001:00008C6A   646 0001:00008C76   647 0001:00008C7C   648 0001:00008CA1
+   651 0001:00008CB8   652 0001:00008CD3   653 0001:00008CDD   654 0001:00008CEF
+   655 0001:00008D13   658 0001:00008D18   659 0001:00008D29   660 0001:00008D32
+   661 0001:00008D3A   662 0001:00008D45   663 0001:00008D61   666 0001:00008D68
+   667 0001:00008D74   669 0001:00008D88   672 0001:00008D8C   673 0001:00008D95
+   674 0001:00008DA4   677 0001:00008DA8   678 0001:00008DB4   679 0001:00008DC8
+   682 0001:00008DCC   683 0001:00008DD0   684 0001:00008DE9   686 0001:00008DF3
+   691 0001:00008DF8   692 0001:00008E17   693 0001:00008E25   694 0001:00008E43
+   695 0001:00008E4D   696 0001:00008E72   702 0001:00008E88   703 0001:00008E97
+   704 0001:00008EA8   706 0001:00008EAE   707 0001:00008EBA   708 0001:00008EC5
+   709 0001:00008ED4   711 0001:00008EDC   712 0001:00008EEA   713 0001:00008EFB
+   716 0001:00008F03   720 0001:00008F08   721 0001:00008F14   723 0001:00008F25
+   726 0001:00008F2C   727 0001:00008F35   729 0001:00008F43   732 0001:00008F48
+   735 0001:00008F54   736 0001:00008F5C   739 0001:00008F60   740 0001:00008F69
+   741 0001:00008F75   744 0001:00008F7C   745 0001:00008F83   746 0001:00008F89
+   749 0001:00008F8C   750 0001:00008F95   751 0001:00008FA3   754 0001:00008FA8
+   755 0001:00008FAF   757 0001:00008FB5   758 0001:00008FBE   759 0001:00008FC7
+   760 0001:00008FCF   765 0001:00008FD4   766 0001:00008FEF   767 0001:00008FF9
+   768 0001:0000901D   773 0001:00009024   774 0001:00009034   775 0001:00009046
+   778 0001:00009050   779 0001:00009060   780 0001:00009072   784 0001:0000907C
+   785 0001:0000908C   786 0001:000090A2   789 0001:000090AC   790 0001:000090B0
+   791 0001:000090BA   794 0001:000090C0   795 0001:000090C4   796 0001:000090CE
+   800 0001:000090D4   801 0001:000090D8   802 0001:000090F1   803 0001:000090FB
+   806 0001:00009100   807 0001:0000911B   808 0001:00009125   809 0001:00009149
+   812 0001:00009150   813 0001:00009160   814 0001:00009172   819 0001:0000917C
+   820 0001:00009194   821 0001:000091B6   827 0001:000091BC   828 0001:000091CC
+   829 0001:000091E4   833 0001:000091EC   834 0001:000091FB   835 0001:00009202
+   838 0001:00009208   839 0001:0000920C   840 0001:00009216   843 0001:0000921C
+   844 0001:00009220   845 0001:0000922A   849 0001:00009230   850 0001:00009234
+   851 0001:0000924D   852 0001:00009257   859 0001:0000925C   860 0001:00009277
+   861 0001:00009281   863 0001:0000928A   864 0001:00009299   865 0001:000092A8
+   866 0001:000092DB   869 0001:000092E4   870 0001:000092F5   871 0001:00009300
+   872 0001:0000931C   878 0001:00009320   879 0001:0000932C   881 0001:00009347
+   882 0001:00009358   883 0001:0000936C   879 0001:0000936F   884 0001:00009374
+   887 0001:0000937C   888 0001:00009385   889 0001:00009391   892 0001:00009398
+   893 0001:000093A1   894 0001:000093AF   897 0001:000093B4   898 0001:000093BE
+   899 0001:000093C8   903 0001:000093D9   905 0001:000093E1   911 0001:000093E8
+   912 0001:0000940B   913 0001:0000941D   914 0001:0000943F   917 0001:00009467
+   921 0001:0000947C   922 0001:00009489   923 0001:00009493   927 0001:000094A2
+   932 0001:000094A8   933 0001:000094C3   934 0001:000094D0   936 0001:00009512
+   939 0001:00009518   940 0001:00009521   941 0001:00009530   944 0001:00009534
+   945 0001:00009545   946 0001:00009550   947 0001:0000956C   950 0001:00009570
+   951 0001:0000957C   952 0001:00009590   955 0001:00009598   956 0001:000095A7
+   957 0001:000095B4   960 0001:000095B8   961 0001:000095C1   962 0001:000095CF
+   966 0001:000095D4   967 0001:000095E3   968 0001:000095F4   971 0001:000095F8
+   973 0001:00009601   974 0001:00009609   978 0001:00009610   979 0001:0000961F
+   980 0001:0000962A   984 0001:00009630   986 0001:0000963C   991 0001:00009640
+   992 0001:00009649   993 0001:00009660   996 0001:00009664   997 0001:00009670
+   998 0001:00009689  1001 0001:00009690  1002 0001:0000969C  1003 0001:000096B0
+  1009 0001:000096B4  1010 0001:000096D6  1012 0001:000096E5  1013 0001:000096EB
+  1015 0001:000096F8  1016 0001:00009706  1017 0001:00009712  1018 0001:00009720
+  1020 0001:00009729  1021 0001:0000974A  1022 0001:00009756  1024 0001:00009776
+  1026 0001:00009794  1028 0001:0000979E  1029 0001:000097BC  1030 0001:000097C2
+  1031 0001:000097FC  1032 0001:00009808  1034 0001:00009828  1036 0001:00009846
+  1037 0001:0000984F  1039 0001:00009873  1042 0001:00009888  1043 0001:00009899
+  1044 0001:000098A2  1045 0001:000098B3  1046 0001:000098CF  1049 0001:000098D4
+  1051 0001:000098E0  1052 0001:000098E9  1057 0001:000098F0  1058 0001:0000990C
+  1059 0001:00009931  1060 0001:0000993D  1062 0001:0000994A  1064 0001:00009957
+  1065 0001:0000997C  1068 0001:00009990  1069 0001:00009999  1070 0001:000099A5
+  1074 0001:000099AC  1075 0001:000099C7  1076 0001:000099D1  1077 0001:000099DA
+  1078 0001:000099ED  1079 0001:00009A17  1082 0001:00009A20  1083 0001:00009A28
+  1084 0001:00009A32  1085 0001:00009A3E  1090 0001:00009A44  1091 0001:00009A4D
+  1092 0001:00009A59  1093 0001:00009A67  1094 0001:00009A75  1097 0001:00009A7C
+  1098 0001:00009A85  1099 0001:00009A91  1100 0001:00009A97  1101 0001:00009AA5
+  1104 0001:00009AAC  1105 0001:00009AB8  1106 0001:00009AC3  1107 0001:00009AD4
+  1110 0001:00009AD8  1111 0001:00009AE4  1112 0001:00009AED  1113 0001:00009AFB
+  1116 0001:00009B00  1117 0001:00009B11  1118 0001:00009B1C  1119 0001:00009B38
+  1122 0001:00009B3C  1123 0001:00009B45  1124 0001:00009B56  1127 0001:00009B5C
+  1128 0001:00009B77  1129 0001:00009B84  1131 0001:00009BBD  1134 0001:00009BC4
+  1136 0001:00009BCB  1139 0001:00009BD0  1140 0001:00009BDC  1141 0001:00009BE4
+  1144 0001:00009BE8  1145 0001:00009BF4  1146 0001:00009C02  1149 0001:00009C08
+  1150 0001:00009C11  1151 0001:00009C20  1154 0001:00009C24  1155 0001:00009C2D
+  1156 0001:00009C3C  1161 0001:00009C40  1162 0001:00009C5B  1163 0001:00009C68
+  1165 0001:00009C8F  1167 0001:00009CC8  1170 0001:00009CCC  1171 0001:00009CDD
+  1172 0001:00009CE8  1173 0001:00009CF3  1174 0001:00009D0F  1177 0001:00009D14
+  1178 0001:00009D20  1179 0001:00009D34  1182 0001:00009D3C  1183 0001:00009D4B
+  1184 0001:00009D58  1187 0001:00009D5C  1188 0001:00009D65  1189 0001:00009D73
+  1193 0001:00009D78  1194 0001:00009D87  1195 0001:00009D98  1198 0001:00009D9C
+  1199 0001:00009DA5  1200 0001:00009DB4  1203 0001:00009DB8  1204 0001:00009DC1
+  1205 0001:00009DCD  1206 0001:00009DDB  1207 0001:00009DE9  1210 0001:00009DF0
+  1211 0001:00009DF9  1212 0001:00009E05  1213 0001:00009E0B  1214 0001:00009E19
+  1217 0001:00009E20  1218 0001:00009E2C  1219 0001:00009E37  1220 0001:00009E48
+  1223 0001:00009E4C  1224 0001:00009E58  1225 0001:00009E61  1226 0001:00009E6F
+  1229 0001:00009E74  1230 0001:00009E7D  1231 0001:00009E8E  1235 0001:00009E94
+  1236 0001:00009EA3  1237 0001:00009EAE  1240 0001:00009EB4  1242 0001:00009EBB
+  1245 0001:00009EC0  1246 0001:00009ECC  1247 0001:00009ED4  1250 0001:00009ED8
+  1251 0001:00009EE4  1252 0001:00009EF2  1255 0001:00009EF8  1256 0001:00009F01
+  1257 0001:00009F10  1260 0001:00009F14  1262 0001:00009F1D  1263 0001:00009F25
+  1266 0001:00009F2C  1267 0001:00009F35  1268 0001:00009F44  1272 0001:00009F48
+  1274 0001:00009F54  1276 0001:00009F88  1276 0001:00009F8F
+
+Bound resource files
+
+webdsnap.res
+C:\DOCUME~1\~KOKOP~1\LOCALS~1\Temp\dtf27CF.tmp
+
+
+Program entry point at 0001:00024540

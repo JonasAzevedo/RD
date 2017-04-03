@@ -1,0 +1,21 @@
+#define MSG_REMOVED 110
+#define MSG_FAILED 111
+#define MSG_NOTFOUND 112
+#define MSG_SUCCESS 113
+#define MSG_PARTSUCCESS 114
+#define MSG_COMPLETEFAILED 115
+#define MSG_REMOVEDBX 116
+#define TITLE_INFO 117
+
+STRINGTABLE
+{
+ MSG_REMOVED, "Removed HKEY_CURRENT_USER"
+ MSG_FAILED, "FAILED to remove HKEY_CURRENT_USER"
+ MSG_NOTFOUND, "Key not found: HKEY_CURRENT_USER"
+ MSG_SUCCESS, "Cleanup completed successfully!"
+ MSG_PARTSUCCESS, "Not all items were found....Cleanup removed the entries that did exist."
+ MSG_COMPLETEFAILED, "Cleanup failed."
+ MSG_REMOVEDBX, "Cleanup has detected dbExpress registry settings for your user account.\nIf you are using other dbExpress applications, then these entries should be kept,\notherwise they should be removed.\n\nDo you want these settings deleted?"
+ TITLE_INFO, "Information"
+}
+

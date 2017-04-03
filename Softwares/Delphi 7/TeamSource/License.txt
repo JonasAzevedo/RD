@@ -1,0 +1,465 @@
+
+BORLAND TEAM SOURCE
+
+BORLAND NO-NONSENSE LICENSE STATEMENT AND LIMITED WARRANTY
+
+IMPORTANT - READ CAREFULLY
+This license statement and limited warranty constitutes a
+legal agreement ("License Agreement") between you (either as
+an individual or a single entity) and Borland Software
+Corporation ("Borland") for the software product
+("Software") identified above, including any software,
+media, and accompanying on-line or printed documentation.
+
+BY INSTALLING, COPYING, OR OTHERWISE USING THE SOFTWARE, YOU
+AGREE TO BE BOUND BY ALL OF THE TERMS AND CONDITIONS OF THIS
+LICENSE AGREEMENT.
+If you are the original purchaser of the Software and you do
+not agree with the terms and conditions of the License
+Agreement, promptly return the unused Software to the place
+from which you obtained it for a full refund.
+
+If you are accepting this License Agreement on behalf of a
+corporation, partnership or other legal entity, the use of
+the terms "you" and "your" in this License Agreement will
+refer to such entity.
+
+TERMS AND CONDITIONS
+
+1.  GRANT OF LICENSE.
+a.  Subject to the terms and conditions of this License
+Agreement, Borland grants to you a personal, nonexclusive,
+nontransferable and limited license to install and use the
+Software for the purposes set forth herein. Unless you have
+purchased additional licenses from Borland, you may only
+install and use a single copy of the Software on a computer
+and freely move the Software from one computer to another,
+provided that you are the only individual using the
+Software. If you are an entity, Borland grants you the right
+to designate one individual within your organization ("Named
+User") to have the right to use the Software in the manner
+provided herein. If you have purchased additional licenses
+from Borland or a Borland authorized reseller, you may
+install and use the number of copies of the Software up to
+the number of users,  CPU's, servers and/or at the sites
+granted to you in writing by Borland ("Licensed Copies").
+
+b.  This Software is owned by Borland or its suppliers and
+is protected by copyright law, international copyright
+treaties, as well as other proprietary notices.  Therefore,
+you must treat this Software like any other copyrighted
+material (e.g., a book) and you agree that the total number
+of copies of the Software used by you may not exceed the
+number of Licensed Copies paid for by you, except that you
+may either make one copy of the Software solely for backup
+or archival purposes or transfer the Software to a single
+hard disk provided you keep the original solely for backup
+or archival purposes.
+
+c.  Subject to the further terms and conditions of this
+License Agreement, the term of this license is perpetual
+(unless terminated as provided below). You may transfer the
+Software and documentation on a permanent basis provided you
+retain no copies and the recipient agrees to the terms of
+this License Agreement.
+
+2.  LICENSE RESTRICTIONS.
+a.  Except as provided in this License Agreement, you
+receive no rights and agree not to transfer, rent, lease,
+lend, copy, modify, translate, port, localize, create
+derivative works of, market, distribute, sublicense, time-
+share or electronically transmit or receive the Software,
+media or documentation.  You acknowledge that the Software
+in source code form remains a confidential trade secret of
+Borland and/or its suppliers and therefore you agree not to
+modify the Software or attempt to reverse engineer,
+decompile, or disassemble the Software, except and only to
+the extent that such activity is expressly permitted by
+applicable law notwithstanding this limitation. As a
+confidential trade secret, you shall use your best efforts
+to protect the proprietary or confidential information
+supplied by Borland in its Software (including any source
+code), in the same manner in which you would protect your
+own proprietary or confidential information, but not less
+than reasonable precautions to protect such proprietary or
+confidential information and you shall not use such
+proprietary or confidential trade secret for your own
+benefit or the benefit of any other person or entity, except
+as may be specifically permitted hereunder.
+
+b.  If you have purchased an upgrade version of the
+Software, it constitutes a single product with the Borland
+software that you upgraded.  You may use or transfer the
+upgrade version of the Software together with the original
+only in accordance with this License Agreement.
+
+3.  REGISTRATION.
+You are required to register the Software with Borland. You
+will be prompted to register the Software at the time of
+your first use of the Software, at which time you will be
+notified (or directed to resources explaining) how
+information provided by you during registration may be used
+and you will be afforded the opportunity to opt out of
+certain uses of such information.
+
+4.  LICENSE TERMS FOR THE WORKS YOU CREATE USING BORLAND
+TEAM SOURCE
+Borland grants to you as an individual, a personal,
+nonexclusive license to install and use the Software for the
+sole purposes of designing, developing, testing, and
+deploying, in source and compiled form, the works which you
+create using the Software ("Works"), subject to the
+restrictions in this License Agreement.
+
+Nothing in this License Agreement permits you to derive the
+source code of files that Borland has provided to you in
+compiled form only, or to reproduce, modify, use, or
+distribute the source code of such files.  You are not, of
+course, restricted from distributing source code or compiled
+code that is entirely your own.  Source code which you
+generate with a Borland source code generator, such as the
+Application Wizard, is considered by Borland to be your
+code.
+
+GENERAL TERMS THAT APPLY TO COMPILED WORKS AND
+REDISTRIBUTABLES
+You may compile (including byte-code compile) your Works
+using the Software, including any libraries and source code
+included for such purpose with the Software. You may
+reproduce and distribute Works in compiled form, without
+additional license or fees, subject to all of the conditions
+in this License Agreement.
+
+The Software may include certain files ("Redistributables")
+intended for distribution by you to the users of your Works.
+Redistributables include, for example, those files
+identified in the accompanying printed or on-line
+documentation as redistributable files, those files
+preselected for deployment by an install utility provided
+with the Software (if any), or those files pre-selected by a
+third party install utility which operates under control of
+an install script which Borland has certified (if any) for
+use by licensed users of this Software for deploying
+applications.  In any event, the Redistributables for the
+Software are only those files specifically designated as
+such by Borland.  From time to time, Borland may designate
+other files as Redistributables.  You should refer to the
+documentation, including any "readme" or "deploy" files
+included with the Software, for additional information.
+
+Subject to all of the conditions in this License Agreement,
+you may reproduce and distribute exact copies of the
+Redistributables, provided that such copies are made from
+the original copy of the Software or the copy transferred to
+the single hard disk.  Copies of Redistributables may only
+be distributed with and for the sole purpose of executing
+the Works permitted under this License Agreement that you
+have created using the Software.  Under no circumstances may
+any copies of Redistributables be distributed separately.
+Regardless of any modifications which you make and
+regardless of how you might compile, link, and/or package
+your Works, under no circumstances may the libraries
+(including runtime libraries), code, Redistributables,
+and/or other files of the Software (including any portions
+thereof) be used for developing Works  by anyone other than
+you.  Only you as the licensed user (or the Named User for
+your entity) have the right to use the libraries (including
+runtime libraries), code, Redistributables, or other files
+of the Software (or any portions thereof) for developing
+Works.  In particular, you may not share copies of the
+Redistributables with other co-developers.  You may not
+reproduce or distribute any Borland documentation without
+Borland's permission.
+
+The license granted in this License Agreement for you to
+create the Works and distribute your Works and the
+Redistributables (if any) is subject to all of the following
+conditions:  (i) all copies of the Works you create must
+bear a valid copyright notice, either your own or the
+Borland copyright notice that appears on the Software; (ii)
+you may not remove or alter any Borland copyright, trademark
+or other proprietary rights notice contained in any portion
+of Borland libraries, source code, Redistributables or other
+files that bear such a notice; (iii) all rights and
+obligations of the parties here are personal to them and
+this License Agreement is not intended to benefit nor shall
+it be deemed to give rise to, any rights in any third party;
+consequently, Borland provides no warranty at all to any
+person, other than the Limited Warranty provided to the
+original purchaser of the Software, and you will remain
+solely responsible to anyone receiving your Works for
+support, service, upgrades, or technical or other
+assistance, and such recipients will have no right to
+contact Borland for such services or assistance; (iv) you
+will indemnify, defend and hold Borland, its related
+companies and its suppliers, harmless from and against any
+claims or liabilities arising out of the use, reproduction
+or distribution of your Works; (v) your Works must be
+written using a licensed, registered copy of the Software;
+(vi) your Works must add primary and substantial
+functionality, and may not be merely a set or subset of any
+of the libraries (including runtime libraries), code,
+Redistributables or other files of the Software; (vii)
+regardless of any modifications which you make and
+regardless of how you might compile, link, or package your
+Works, the libraries (including runtime libraries), code,
+Redistributables, and/or other files of the Software
+(including any portions thereof) may not be used in works
+created by your end users (i.e., users of your Works) and
+may not be further redistributed by your end users; and
+(viii) you may not use Borland's or any of its suppliers'
+names, logos, or trademarks to market your Works, except to
+state that your Work was written using the Software.
+
+The Software might include source code, redistributable
+files, and/or other files provided by a third party vendor
+("Third Party Software").  Since use of Third Party Software
+might be subject to license restrictions imposed by the
+third party vendor, you should refer to the on-line
+documentation (if any) provided with Third Party Software
+for any license restrictions imposed by the third party
+vendor.  In any event, any license restrictions imposed by a
+third party vendor are in addition to, not in lieu of, the
+terms and conditions of this License Agreement.
+
+All Borland Software provided under this License Agreement,
+including but not limited to libraries, source code,
+Redistributables and other files remain Borland's exclusive
+property.  Borland will retain all right, title and interest
+in and to the libraries, source code, Redistributables and
+other files, including the Intellectual Property contained
+in such property (including but not limited to, ownership of
+all copyrights, patents, trademarks, service marks
+worldwide).  Regardless of any modifications that you make,
+you may not distribute any files (particularly Borland
+source code and other non-compiled files) except those that
+Borland has expressly designated as Redistributables.
+
+Contact Borland for the applicable royalties due and other
+licensing terms for all other uses and/or distribution of
+the Redistributables.
+
+5. ADDITIONAL LICENSE TERMS
+
+None.
+
+6.  LIMITED WARRANTY
+a.  Software provided under this License Agreement,
+including but not limited to libraries, source code,
+Redistributables and other files are provided "as is,"
+without warranty of any kind except as expressly provided in
+this paragraph.  Borland warrants that, except with respect
+to the Redistributables, the Software, as updated and when
+properly used, will perform substantially in accordance with
+the accompanying documentation, and the Software media will
+be free from defects in materials and workmanship, for a
+period of ninety (90) days from the date of receipt.  Any
+implied warranties on the Software are limited to ninety
+(90) days.  Some states/jurisdictions do not allow
+limitations on duration of an implied warranty, so the above
+limitation may not apply to you.
+
+b.  Borland's and its suppliers' entire liability and your
+exclusive remedy shall be, at Borland's option, either (a)
+return of the price paid, or (b) repair or replacement of
+the Software that does not meet Borland's Limited Warranty
+and which is returned to Borland with a copy of your
+receipt.  DO NOT RETURN ANY PRODUCT UNTIL YOU HAVE CALLED
+THE BORLAND CUSTOMER SERVICE DEPARTMENT AND OBTAINED A
+RETURN AUTHORIZATION NUMBER.  This Limited Warranty is void
+if failure of the Software has resulted from accident,
+abuse, or misapplication.  Any replacement Software will be
+warranted for the remainder of the original warranty period
+or thirty (30) days, whichever is longer.  Outside the
+United States, neither these remedies nor any product
+support services offered by Borland are available without
+proof of purchase from an authorized non-U.S. source.
+
+c.  TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW,
+BORLAND AND ITS SUPPLIERS DISCLAIM ALL OTHER WARRANTIES AND
+CONDITIONS, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT
+LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT, WITH
+REGARD TO THE SOFTWARE, AND THE PROVISION OF OR FAILURE TO
+PROVIDE SUPPORT SERVICES. BORLAND DOES NOT WARRANT THAT THE
+BORLAND SOFTWARE WILL BE ERROR FREE OR WILL OPERATE WITHOUT
+INTERRUPTION.  THE ENTIRE RISK ARISING OUT OF THE USE OR
+PERFORMANCE OF THE BORLAND SOFTWARE AND ACCOMPANYING WRITTEN
+MATERIALS REMAINS WITH YOU. THIS LIMITED WARRANTY GIVES YOU
+SPECIFIC LEGAL RIGHTS. YOU MAY HAVE OTHERS, WHICH VARY FROM
+STATE/JURISDICTION TO STATE/JURISDICTION.
+
+7.  LIMITATION OF LIABILITY
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO
+EVENT SHALL BORLAND OR ITS LICENSORS OR SUPPLIERS BE LIABLE
+FOR ANY SPECIAL, INCIDENTAL, INDIRECT, CONSEQUENTIAL,
+PUNITIVE OR EXEMPLARY DAMAGES WHATSOEVER (INCLUDING, WITHOUT
+LIMITATION, DAMAGES FOR LOSS OF BUSINESS PROFITS OR BUSINESS
+INTERRUPTION, GOODWILL, LOSS OF BUSINESS INFORMATION, OR ANY
+OTHER PECUNIARY LOSS) WHETHER BASED ON PRINCIPLES OF
+CONTRACT, TORT (INCLUDING NEGLIGENCE), DUTY, INDEMNITY,
+CONTRIBUTION OR OTHERWISE, ARISING OUT OF THE USE OF OR
+INABILITY TO USE THE SOFTWARE OR THE PROVISION OF OR FAILURE
+TO PROVIDE SUPPORT SERVICES, EVEN IF BORLAND HAS BEEN
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN ANY CASE,
+BORLAND'S ENTIRE LIABILITY UNDER ANY PROVISION OF THIS
+LICENSE AGREEMENT SHALL BE LIMITED TO THE GREATER OF THE
+AMOUNT ACTUALLY PAID BY YOU FOR THE SOFTWARE PRODUCT OR U.S.
+$25; PROVIDED, HOWEVER, IF YOU HAVE ENTERED INTO A BORLAND
+SUPPORT SERVICES AGREEMENT, BORLAND'S ENTIRE LIABILITY
+REGARDING SUPPORT SERVICES SHALL BE GOVERNED BY THE TERMS OF
+THAT AGREEMENT. BECAUSE SOME STATES AND JURISDICTIONS DO NOT
+ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY, THE ABOVE
+LIMITATION MAY NOT APPLY TO YOU.
+
+8.  AUDIT RIGHTS
+You agree to keep all usual and proper records and books of
+account and all usual and proper entries relating to each
+installation, copy and authorized user of the Software.
+Borland may cause an audit and/or inspection to be made of
+your applicable records and facilities in order to verify
+your compliance with the terms of this License Agreement.
+Within thirty (30) days of notice by Borland to you of any
+error or omission disclosed by such audit, you will make
+prompt adjustment and reimbursement to Borland of such error
+or omission.  Any such audit or inspection will be conducted
+by an audit and/or inspection team selected by Borland
+(other than on a contingent fee basis).  Any audit and/or
+inspection will be conducted during regular business hours
+at your facilities, with five (5) days written notice.  You
+agree to provide Borland's designated audit or inspection
+team access to the relevant records and facilities and to
+otherwise cooperate with such audit or inspection team.  Any
+such audit and/or inspection will be paid for by Borland,
+provided, however, that in the event that any such
+examination discloses a shortfall in payment of more than
+five percent (5%) for any quarter, you agree to (i) pay or
+reimburse Borland for the reasonable expenses of the
+examination, as determined in good faith by the parties at
+the completion of the examination, and (ii) immediately
+remit payment to Borland for the full amount of any
+disclosed shortfalls (in addition to the reasonable expenses
+for such examination).
+
+9. EXPORT CONTROLS
+You may not download or otherwise export or re-export the
+Software or any underlying information or technology except
+in full compliance with all United States and other
+applicable laws and regulation.  In particular, without
+limiting the foregoing, the Software cannot be downloaded,
+exported or re-exported into (or to a national or resident
+of) Cuba, Iraq, Libya, Sudan, North Korea, Iran, Syria, or
+any other country to which the United States has embargoed
+goods; or to anyone on the United States Treasury
+Department's list of Specially Designated Nationals, the
+United States Commerce Department's Entity List, or the
+United States Commerce Department's Denied Parties list. You
+agree to the foregoing and you are representing and
+warranting that you are not located in, under the control
+of, or a national or resident of any such country or on any
+such list. In addition, you are responsible for complying
+with any local laws  in your jurisdiction which may impact
+your right to import, export or use this Software.
+
+10.  HIGH RISK ACTIVITIES
+The Software is not fault-tolerant and is not designed,
+intended, or licensed for use in line control equipment or
+in hazardous environments requiring fail-safe performance,
+such as in the operation of nuclear facilities, aircraft
+navigation or communication systems, air traffic control,
+and life support or weapons systems, in which the failure of
+the Software could lead directly to death, personal injury,
+or severe physical or environmental damage ("High Risk
+Activities").  Without limiting the generality of the
+foregoing, Borland and its suppliers specifically disclaim
+any express or implied warranty of fitness for High Risk
+Activities.
+
+11.  U.S. GOVERNMENT RESTRICTED RIGHTS
+The Software and any accompanying documentation are
+"Commercial Items", as that term is defined at 48 CFR
+Section 2.101, consisting of "Commercial Computer Software"
+and "Commercial Computer Software Documentation", as such
+terms are used in 48 CFR Sections 12.212 and 227.7202, as
+applicable. Consistent with 48 CFR Sections 12.212 or
+227.7202-1 through 227.7202-4, as applicable, the Commercial
+Computer Software and Commercial Computer Software
+Documentation are being licensed to U.S. Government end
+users (a) only as Commercial Items and (b) with only those
+rights as are granted to all other end users pursuant to the
+terms and conditions herein. Unpublished rights reserved
+under the copyright laws of the United States. Manufacturer
+is Borland Software Corporation, 100 Enterprise Way, Scotts
+Valley, CA 95066-3249.
+
+12. TERMINATION
+Your license to use the Software shall become effective on
+the date you agree to the terms and conditions of this
+License Agreement.  Your license to use the Software shall
+terminate automatically if you fail to comply with the
+limitations described in this License Agreement.  No notice
+shall be required from Borland to effectuate such
+termination.  Upon expiration or termination of this License
+Agreement for any reason, you shall make no further use of
+the Software and shall destroy all copies of the Software
+and all of its component parts on all systems, in all forms,
+in all types of media and computer memory, and whether or
+not modified or combined with other materials.
+
+13.  GENERAL PROVISIONS
+This License Agreement is governed by the laws of the State
+of California, U.S.A., excluding its or any other
+jurisdiction's choice of law rules and excluding the United
+Nations Convention for Contracts for the International Sale
+of Goods, and you further consent to the exclusive
+jurisdiction by the state and federal courts sitting in
+Santa Clara County in the State of California for any
+dispute regarding this License Agreement.  This License
+Agreement gives you specific legal rights; you may have
+others which vary from state to state and from country to
+country.  Borland reserves all rights not specifically
+granted in this License Agreement.
+
+This License Agreement will not be modified except by a
+properly executed written agreement.  Any terms and
+conditions of any purchase order or other instrument issued
+by you in connection with this License Agreement which are
+in addition to, inconsistent with or different from the
+terms and conditions of this License Agreement will be of no
+force or effect.
+
+If any provision of this License Agreement is found void or
+unenforceable, the remainder will remain valid and
+enforceable according to its terms.  If any remedy provided
+is determined to have failed for its essential purpose, all
+limitations of liability and exclusions of damages set forth
+in the Limited Warranty shall remain in effect.
+
+Failure by either party at any time to enforce any
+obligation by the other party, to claim a breach of any term
+of this License Agreement or to exercise any power agreed to
+hereunder will not be construed as a waiver of any right,
+power or obligation under this License Agreement, will not
+affect any subsequent breach, and will not prejudice either
+party as regards any subsequent action.
+
+Except as expressly permitted hereby, you may not assign any
+rights or obligations under this License Agreement without
+the prior consent of Borland.
+
+The provisions of this License Agreement that by their
+nature and content are intended to survive the performance
+hereof shall so survive the completion and termination of
+this License Agreement.
+
+
+IF YOU AGREE TO THE TERMS AND CONDITIONS OF THIS LICENSE
+AGREEMENT, please press the "I ACCEPT THE LICENSE AGREEMENT"
+button below.  This will be the legal equivalent of your
+signature on a written contract, and equally binding.  You
+must agree to these terms and conditions in order to
+download and install the Software.  If you do not agree with
+these terms and conditions, you should press the "EXIT"
+button below to exit this download process, as Borland is
+unwilling to license the Software to you in such case.
+

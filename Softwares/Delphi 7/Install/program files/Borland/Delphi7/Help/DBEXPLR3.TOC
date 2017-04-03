@@ -1,0 +1,47 @@
+:Base DBEXPLR3.HLP>main
+1 Database Explorer overview=dbxoverview
+1 Database Explorer user interface
+2 Database Explorer window=thedbexploreruserinterface
+2 Color-coded symbols=colorcodedsymbols
+2 Key commands=keycommands
+2 Database Explorer toolbar=usingdatabaseexplorerspeedbar
+2 Tabbed pages (left pane)
+3 Databases page=databases
+3 Dictionary page=dictionary
+3 Configuration page=idh_idapi_configutil
+2 Tabbed pages (right pane)
+3 Tabbed pages (right pane)=tabbedpages
+3 Definition page=definitionpage
+3 Summary page=summarypage
+3 Data page=datapage
+3 Enter SQL page=entersqlpage
+3 Text page=textpage
+2 Menu commands
+3 Menu commands=menubarcommands
+3 Object menu commands=objectmenubarcommands
+3 Dictionary menu commands=dictionarymenubarcommands
+3 Edit menu commands=editmenubarcommands
+3 View menu commands=viewmenubarcommands
+3 Options menu commands=optionsmenubarcommands
+3 Help menu commands=helpmenubarcommands
+3 Context menu commands (Data page)=popupcommandsdatapage
+3 Context menu commands (Enter SQL page)=popupcommandsentersql
+3 Context menu commands (Blob Explorer)=popupcommandsblobexplorer
+1 Data dictionary topics
+2 Dictionary page=dictionary
+2 Creating a data dictionary=creatingadictionary
+2 Importing attribute sets into a data dictionary=importingsattributesetsintodictionary
+2 Attribute sets
+3 About attribute sets=attributeset
+3 Creating a new attribute set=creatingattributesets
+3 Updating attribute sets=updatingattributesets
+3 Importing attribute sets into a data dictionary=importingsattributesetsintodictionary
+3 Applying an attribute set to a TField object=applyingattributesettotfield
+1 Database topics
+2 Databases page=databases
+2 Working with database aliases=workingwithdatabasealiases
+2 Working with table data=workingwithtabledata
+2 Using the Blob Explorer
+2 SQL and the Database Explorer
+3 Entering SQL statements=enteringsqlstatements
+

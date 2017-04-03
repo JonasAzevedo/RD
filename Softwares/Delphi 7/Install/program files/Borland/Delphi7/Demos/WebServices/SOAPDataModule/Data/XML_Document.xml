@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<Document><Row><StringField>abc</StringField><DateField></DateField><CurrencyField>123.456</CurrencyField><TimeField></TimeField><FloatField>2345</FloatField><BooleanField></BooleanField></Row></Document>

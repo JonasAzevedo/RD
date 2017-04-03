@@ -1,3 +1,4 @@
+
 unit unDM;
 
 interface
@@ -34,30 +35,12 @@ type
     qryContatos: TZQuery;
     dspContatos: TDataSetProvider;
     cdsContatos: TClientDataSet;
-    qryContatosCampos: TZQuery;
-    dspContatosCampos: TDataSetProvider;
-    cdsContatosCampos: TClientDataSet;
-    qryContatosCamposCODIGO: TIntegerField;
-    qryContatosCamposCODIGO_CONTATO: TIntegerField;
-    qryContatosCamposCODIGO_CAMPO: TIntegerField;
-    qryContatosCamposVALOR: TStringField;
-    qryContatosCamposDATA_CADASTRO: TDateTimeField;
-    cdsContatosCamposCODIGO: TIntegerField;
-    cdsContatosCamposCODIGO_CONTATO: TIntegerField;
-    cdsContatosCamposCODIGO_CAMPO: TIntegerField;
-    cdsContatosCamposVALOR: TStringField;
-    cdsContatosCamposDATA_CADASTRO: TDateTimeField;
     qryExecutar: TZQuery;
     qryContatosCODIGO: TIntegerField;
     qryContatosCODIGO_USUARIO: TIntegerField;
     qryContatosNOME: TStringField;
     qryContatosEMAIL: TStringField;
     qryContatosDATA_CADASTRO: TDateTimeField;
-    cdsContatosCODIGO: TIntegerField;
-    cdsContatosCODIGO_USUARIO: TIntegerField;
-    cdsContatosNOME: TStringField;
-    cdsContatosEMAIL: TStringField;
-    cdsContatosDATA_CADASTRO: TDateTimeField;
     qryCamposCODIGO: TIntegerField;
     qryCamposCODIGO_USUARIO: TIntegerField;
     qryCamposCODIGO_TIPO_CAMPO: TIntegerField;
@@ -68,23 +51,23 @@ type
     cdsCamposCODIGO_TIPO_CAMPO: TIntegerField;
     cdsCamposNOME: TStringField;
     cdsCamposdesc_tipo_campo: TStringField;
-    qryCamposConfigContato: TZQuery;
-    dspCamposConfigContato: TDataSetProvider;
-    cdsCamposConfigContato: TClientDataSet;
-    qryCamposConfigContatocodigo_campo: TIntegerField;
-    qryCamposConfigContatonome_campo: TStringField;
-    qryCamposConfigContatocodigo_tipo_campo: TIntegerField;
-    qryCamposConfigContatodescricao_tipo_campo: TStringField;
-    qryCamposConfigContatocodigo_contato_campo: TIntegerField;
-    qryCamposConfigContatocodigo_contato: TIntegerField;
-    qryCamposConfigContatovalor: TStringField;
-    cdsCamposConfigContatocodigo_campo: TIntegerField;
-    cdsCamposConfigContatonome_campo: TStringField;
-    cdsCamposConfigContatocodigo_tipo_campo: TIntegerField;
-    cdsCamposConfigContatodescricao_tipo_campo: TStringField;
-    cdsCamposConfigContatocodigo_contato_campo: TIntegerField;
-    cdsCamposConfigContatocodigo_contato: TIntegerField;
-    cdsCamposConfigContatovalor: TStringField;
+    qryContatoCampos: TZQuery;
+    dspContatoCampos: TDataSetProvider;
+    cdsContatoCampos: TClientDataSet;
+    qryContatoCamposcodigo_campo: TIntegerField;
+    qryContatoCamposnome_campo: TStringField;
+    qryContatoCamposcodigo_tipo_campo: TIntegerField;
+    qryContatoCamposdescricao_tipo_campo: TStringField;
+    qryContatoCamposcodigo_contato_campo: TIntegerField;
+    qryContatoCamposcodigo_contato: TIntegerField;
+    qryContatoCamposvalor: TStringField;
+    cdsContatoCamposcodigo_campo: TIntegerField;
+    cdsContatoCamposnome_campo: TStringField;
+    cdsContatoCamposcodigo_tipo_campo: TIntegerField;
+    cdsContatoCamposdescricao_tipo_campo: TStringField;
+    cdsContatoCamposcodigo_contato_campo: TIntegerField;
+    cdsContatoCamposcodigo_contato: TIntegerField;
+    cdsContatoCamposvalor: TStringField;
     qryCamposDATA_CADASTRO: TDateTimeField;
     cdsCamposDATA_CADASTRO: TDateTimeField;
     qryCriarCamposConfig: TZQuery;
@@ -98,12 +81,21 @@ type
     cdsCriarCamposConfignome_campo: TStringField;
     cdsCriarCamposConfigcodigo_tipo_campo: TIntegerField;
     cdsCriarCamposConfigdescricao_tipo_campo: TStringField;
+    cdsContatosCODIGO: TIntegerField;
+    cdsContatosCODIGO_USUARIO: TIntegerField;
+    cdsContatosNOME: TStringField;
+    cdsContatosEMAIL: TStringField;
+    cdsContatosDATA_CADASTRO: TDateTimeField;
+    cdsContatosCamposEdicao: TClientDataSet;
+    cdsContatosCamposEdicaocodigo: TIntegerField;
+    cdsContatosCamposEdicaocodigo_contato: TIntegerField;
+    cdsContatosCamposEdicaocodigo_campo: TIntegerField;
+    cdsContatosCamposEdicaovalor: TStringField;
+    cdsContatosCamposEdicaocc_contatoNovo: TIntegerField;
     procedure cdsCamposNewRecord(DataSet: TDataSet);
     procedure cdsContatosNewRecord(DataSet: TDataSet);
   private
-    { Private declarations }
   public
-    { Public declarations }
   end;
 
 var

@@ -1,0 +1,81 @@
+{*******************************************************}
+{                                                       }
+{ Borland Delphi Visual Component Library               }
+{                Interface Invoker Support              }
+{                                                       }
+{ Copyright (c) 2001 Borland Software Corporation       }
+{                                                       }
+{*******************************************************}
+
+unit Rio;
+
+{$IFDEF NO_SOAP_RUNTIME}
+{ If SOAP components are not packaged }
+(*$HPPEMIT '#pragma link "dclsoap.lib"' *)
+{$ENDIF}
+
+{ RIO is currently implemented with WININET }
+(*$HPPEMIT '#if defined(__WIN32__)'     *)
+(*$HPPEMIT '#pragma link "wininet.lib"' *)
+(*$HPPEMIT '#endif'                     *)
+
+interface
+
+uses Classes, IntfInfo, OPConvert, InvokeRegistry, WebNode, SOAPAttachIntf, WSDLIntf;
+
+const
+  StubSize = 19;    { Max size of call stubs in the generated vtables }
+
+type
+
+  TRIO = class;
+
+  { This interface provides access back to the RIO
+    from an interface that the RIO implements
+    NOTE: It is *NOT* implemented at  the RIO level;
+          therefore it cannot control the lifetime
+          of the RIO;
+          therefore you should not hang on to this interface
+          as it's underlying RIO could go away!
+          use the interface for quick RIO configuration
+          when you still have the interface implemented
+          by the RIO; then quickly "Let It Go!" }
+  IRIOAccess = interface
+  ['{FEF7C9CC-A477-40B7-ACBE-487EDA3E5DFE}']
+    function GetRIO: TRIO;
+    property RIO: TRIO;
+  end;
+
+  TBeforeExecuteEvent = procedure(const MethodName: string; var SOAPRequest: InvString) of object;
+  TAfterExecuteEvent  = procedure(const MethodName: string; SOAPResponse: TStream) of object;
+
+  TRIO = class(TComponent, IInterface, IRIOAccess)
+  protected
+    FIID: TGUID;
+    IntfMD: TIntfMetaData;
+    FConverter: IOPConvert;
+    FWebNode: IWebNode;
+    function QueryInterface(const IID: TGUID; out Obj): HResult; override; stdcall;
+
+    { Routines that derived RIOs may override }
+    procedure DoAfterExecute(const MethodName: string; Response: TStream); virtual;
+    procedure DoBeforeExecute(const MethodName: string; Request: TStream); virtual;
+    function  GetResponseStream(BindingType: TWebServiceBindingType): TStream; virtual;
+  public
+    constructor Create(AOwner: TComponent); override;
+    destructor Destroy; override;
+    procedure AfterConstruction; override;
+    procedure BeforeDestruction; override;
+    class function NewInstance: TObject; override;
+    property RefCount: Integer;
+    property Converter: IOPConvert;
+    property WebNode: IWebNode;
+    property SOAPHeaders: TSOAPHeaders;
+  published
+    property OnAfterExecute: TAfterExecuteEvent;
+    property OnBeforeExecute: TBeforeExecuteEvent;
+    property OnSendAttachment: TOnSendAttachmentEvent;
+    property OnGetAttachment: TOnGetAttachmentEvent;
+  end;
+
+implementation

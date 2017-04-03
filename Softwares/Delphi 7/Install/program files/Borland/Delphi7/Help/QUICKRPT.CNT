@@ -1,0 +1,5 @@
+:Base quickrpt.hlp>main
+:Title QuickReport Help
+:Index QuickReport Help=quickrpt.hlp
+:Include DELPHI6.OHL
+:INCLUDE QUICKRPT.TOC

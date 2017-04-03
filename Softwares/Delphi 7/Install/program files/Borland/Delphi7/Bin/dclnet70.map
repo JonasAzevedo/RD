@@ -1,0 +1,1803 @@
+
+ Start         Length     Name                   Class
+ 0001:00000000 00021080H .text                   CODE
+ 0002:00000000 000003CCH .data                   DATA
+ 0002:000003CC 000000C9H .bss                    BSS
+
+
+Detailed map of segments
+
+ 0001:00000000 000002A6 C=CODE     S=.text    G=(none)   M=System   ACBP=A9
+ 0001:000002A8 000001EC C=CODE     S=.text    G=(none)   M=SysInit  ACBP=A9
+ 0001:00000494 00000080 C=CODE     S=.text    G=(none)   M=Windows  ACBP=A9
+ 0001:00000514 0000000E C=CODE     S=.text    G=(none)   M=Types    ACBP=A9
+ 0001:00000524 00000038 C=CODE     S=.text    G=(none)   M=Messages ACBP=A9
+ 0001:0000055C 0000011E C=CODE     S=.text    G=(none)   M=SysUtils ACBP=A9
+ 0001:0000067C 0000000E C=CODE     S=.text    G=(none)   M=SysConst ACBP=A9
+ 0001:0000068C 000002C6 C=CODE     S=.text    G=(none)   M=Classes  ACBP=A9
+ 0001:00000954 00000016 C=CODE     S=.text    G=(none)   M=ActiveX  ACBP=A9
+ 0001:0000096C 0000001E C=CODE     S=.text    G=(none)   M=TypInfo  ACBP=A9
+ 0001:0000098C 0000008E C=CODE     S=.text    G=(none)   M=Variants ACBP=A9
+ 0001:00000A1C 0000000E C=CODE     S=.text    G=(none)   M=VarUtils ACBP=A9
+ 0001:00000A2C 0000000E C=CODE     S=.text    G=(none)   M=RTLConsts ACBP=A9
+ 0001:00000A3C 00000016 C=CODE     S=.text    G=(none)   M=Graphics ACBP=A9
+ 0001:00000A54 0000000E C=CODE     S=.text    G=(none)   M=Consts   ACBP=A9
+ 0001:00000A64 00000136 C=CODE     S=.text    G=(none)   M=Controls ACBP=A9
+ 0001:00000B9C 00000016 C=CODE     S=.text    G=(none)   M=ActnList ACBP=A9
+ 0001:00000BB4 0000000E C=CODE     S=.text    G=(none)   M=Contnrs  ACBP=A9
+ 0001:00000BC4 0000001E C=CODE     S=.text    G=(none)   M=Math     ACBP=A9
+ 0001:00000BE4 0000000E C=CODE     S=.text    G=(none)   M=ImgList  ACBP=A9
+ 0001:00000BF4 00000038 C=CODE     S=.text    G=(none)   M=CommCtrl ACBP=A9
+ 0001:00000C2C 00000166 C=CODE     S=.text    G=(none)   M=Forms    ACBP=A9
+ 0001:00000D94 0000000E C=CODE     S=.text    G=(none)   M=HelpIntfs ACBP=A9
+ 0001:00000DA4 0000000E C=CODE     S=.text    G=(none)   M=MultiMon ACBP=A9
+ 0001:00000DB4 00000038 C=CODE     S=.text    G=(none)   M=Imm      ACBP=A9
+ 0001:00000DEC 0000000E C=CODE     S=.text    G=(none)   M=Menus    ACBP=A9
+ 0001:00000DFC 0000000E C=CODE     S=.text    G=(none)   M=Themes   ACBP=A9
+ 0001:00000E0C 0000000E C=CODE     S=.text    G=(none)   M=UxTheme  ACBP=A9
+ 0001:00000E1C 0000000E C=CODE     S=.text    G=(none)   M=SyncObjs ACBP=A9
+ 0001:00000E2C 000000F6 C=CODE     S=.text    G=(none)   M=ComCtrls ACBP=A9
+ 0001:00000F24 00000038 C=CODE     S=.text    G=(none)   M=ShlObj   ACBP=A9
+ 0001:00000F5C 00000038 C=CODE     S=.text    G=(none)   M=UrlMon   ACBP=A9
+ 0001:00000F94 00000038 C=CODE     S=.text    G=(none)   M=WinInet  ACBP=A9
+ 0001:00000FCC 00000038 C=CODE     S=.text    G=(none)   M=RegStr   ACBP=A9
+ 0001:00001004 00000038 C=CODE     S=.text    G=(none)   M=ShellAPI ACBP=A9
+ 0001:0000103C 0000000E C=CODE     S=.text    G=(none)   M=ListActns ACBP=A9
+ 0001:0000104C 00000016 C=CODE     S=.text    G=(none)   M=ExtCtrls ACBP=A9
+ 0001:00001064 0000001E C=CODE     S=.text    G=(none)   M=StdCtrls ACBP=A9
+ 0001:00001084 0000000E C=CODE     S=.text    G=(none)   M=WinHelpViewer ACBP=A9
+ 0001:00001094 0000000E C=CODE     S=.text    G=(none)   M=StdActns ACBP=A9
+ 0001:000010A4 0000003E C=CODE     S=.text    G=(none)   M=Dialogs  ACBP=A9
+ 0001:000010E4 0000000E C=CODE     S=.text    G=(none)   M=Printers ACBP=A9
+ 0001:000010F4 00000038 C=CODE     S=.text    G=(none)   M=WinSpool ACBP=A9
+ 0001:0000112C 00000038 C=CODE     S=.text    G=(none)   M=CommDlg  ACBP=A9
+ 0001:00001164 00000038 C=CODE     S=.text    G=(none)   M=Dlgs     ACBP=A9
+ 0001:0000119C 0000000E C=CODE     S=.text    G=(none)   M=StrUtils ACBP=A9
+ 0001:000011AC 0000000E C=CODE     S=.text    G=(none)   M=Clipbrd  ACBP=A9
+ 0001:000011BC 0000000E C=CODE     S=.text    G=(none)   M=FlatSB   ACBP=A9
+ 0001:000011CC 0000000E C=CODE     S=.text    G=(none)   M=ToolWin  ACBP=A9
+ 0001:000011DC 00000038 C=CODE     S=.text    G=(none)   M=RichEdit ACBP=A9
+ 0001:00001214 00000016 C=CODE     S=.text    G=(none)   M=ExtActns ACBP=A9
+ 0001:0000122C 00000036 C=CODE     S=.text    G=(none)   M=Registry ACBP=A9
+ 0001:00001264 00000016 C=CODE     S=.text    G=(none)   M=IniFiles ACBP=A9
+ 0001:0000127C 0000000E C=CODE     S=.text    G=(none)   M=ExtDlgs  ACBP=A9
+ 0001:0000128C 0000000E C=CODE     S=.text    G=(none)   M=Buttons  ACBP=A9
+ 0001:0000129C 0000000E C=CODE     S=.text    G=(none)   M=Mapi     ACBP=A9
+ 0001:000012AC 0000000E C=CODE     S=.text    G=(none)   M=ComStrs  ACBP=A9
+ 0001:000012BC 0000008E C=CODE     S=.text    G=(none)   M=ColnEdit ACBP=A9
+ 0001:0000134C 0000000E C=CODE     S=.text    G=(none)   M=ActnPopup ACBP=A9
+ 0001:0000135C 0000000E C=CODE     S=.text    G=(none)   M=ActnCtrls ACBP=A9
+ 0001:0000136C 0000000E C=CODE     S=.text    G=(none)   M=GraphUtil ACBP=A9
+ 0001:0000137C 0000000E C=CODE     S=.text    G=(none)   M=ActnMan  ACBP=A9
+ 0001:0000138C 0000000E C=CODE     S=.text    G=(none)   M=ActnColorMaps ACBP=A9
+ 0001:0000139C 0000000E C=CODE     S=.text    G=(none)   M=ActnMenus ACBP=A9
+ 0001:000013AC 0000000E C=CODE     S=.text    G=(none)   M=ShadowWnd ACBP=A9
+ 0001:000013BC 00000038 C=CODE     S=.text    G=(none)   M=MMSystem ACBP=A9
+ 0001:000013F4 0000000E C=CODE     S=.text    G=(none)   M=XPActnCtrls ACBP=A9
+ 0001:00001404 000001F6 C=CODE     S=.text    G=(none)   M=DesignEditors ACBP=A9
+ 0001:000015FC 0000000E C=CODE     S=.text    G=(none)   M=DesignMenus ACBP=A9
+ 0001:0000160C 0000003E C=CODE     S=.text    G=(none)   M=DesignIntf ACBP=A9
+ 0001:0000164C 0000000E C=CODE     S=.text    G=(none)   M=Proxies  ACBP=A9
+ 0001:0000165C 0000000E C=CODE     S=.text    G=(none)   M=DesignConst ACBP=A9
+ 0001:0000166C 00000016 C=CODE     S=.text    G=(none)   M=ToolWnds ACBP=A9
+ 0001:00001684 00000056 C=CODE     S=.text    G=(none)   M=DesignWindows ACBP=A9
+ 0001:000016DC 0000000E C=CODE     S=.text    G=(none)   M=ComponentDesigner ACBP=A9
+ 0001:000016EC 0000000E C=CODE     S=.text    G=(none)   M=EditIntf ACBP=A9
+ 0001:000016FC 00000036 C=CODE     S=.text    G=(none)   M=VirtIntf ACBP=A9
+ 0001:00001734 0000000E C=CODE     S=.text    G=(none)   M=Events   ACBP=A9
+ 0001:00001744 0000000E C=CODE     S=.text    G=(none)   M=ToolUtils ACBP=A9
+ 0001:00001754 00000036 C=CODE     S=.text    G=(none)   M=ToolsAPI ACBP=A9
+ 0001:0000178C 0000000E C=CODE     S=.text    G=(none)   M=Update   ACBP=A9
+ 0001:0000179C 0000000E C=CODE     S=.text    G=(none)   M=LibConst ACBP=A9
+ 0001:000017AC 0000000E C=CODE     S=.text    G=(none)   M=Designer ACBP=A9
+ 0001:000017BC 0000000E C=CODE     S=.text    G=(none)   M=StFilSys ACBP=A9
+ 0001:000017CC 0000000E C=CODE     S=.text    G=(none)   M=IStreams ACBP=A9
+ 0001:000017DC 0000000E C=CODE     S=.text    G=(none)   M=AxCtrls  ACBP=A9
+ 0001:000017EC 0000000E C=CODE     S=.text    G=(none)   M=StdVCL   ACBP=A9
+ 0001:000017FC 0000000E C=CODE     S=.text    G=(none)   M=ComObj   ACBP=A9
+ 0001:0000180C 0000000E C=CODE     S=.text    G=(none)   M=ComConst ACBP=A9
+ 0001:0000181C 0000000E C=CODE     S=.text    G=(none)   M=TopLevels ACBP=A9
+ 0001:0000182C 000001CE C=CODE     S=.text    G=(none)   M=TreeIntf ACBP=A9
+ 0001:000019FC 0000000E C=CODE     S=.text    G=(none)   M=VCLEditors ACBP=A9
+ 0001:00001A0C 0000001E C=CODE     S=.text    G=(none)   M=OleCtrls ACBP=A9
+ 0001:00001A2C 0000000E C=CODE     S=.text    G=(none)   M=OleConst ACBP=A9
+ 0001:00001A3C 00000076 C=CODE     S=.text    G=(none)   M=DBWeb    ACBP=A9
+ 0001:00001AB4 0000003E C=CODE     S=.text    G=(none)   M=HTTPProd ACBP=A9
+ 0001:00001AF4 0000000E C=CODE     S=.text    G=(none)   M=Masks    ACBP=A9
+ 0001:00001B04 0000000E C=CODE     S=.text    G=(none)   M=HTTPApp  ACBP=A9
+ 0001:00001B14 0000000E C=CODE     S=.text    G=(none)   M=BrkrConst ACBP=A9
+ 0001:00001B24 0000000E C=CODE     S=.text    G=(none)   M=WebConst ACBP=A9
+ 0001:00001B34 0000000E C=CODE     S=.text    G=(none)   M=CopyPrsr ACBP=A9
+ 0001:00001B44 00000026 C=CODE     S=.text    G=(none)   M=DB       ACBP=A9
+ 0001:00001B6C 0000000E C=CODE     S=.text    G=(none)   M=FMTBcd   ACBP=A9
+ 0001:00001B7C 0000000E C=CODE     S=.text    G=(none)   M=DBConsts ACBP=A9
+ 0001:00001B8C 0000000E C=CODE     S=.text    G=(none)   M=SqlTimSt ACBP=A9
+ 0001:00001B9C 0000000E C=CODE     S=.text    G=(none)   M=DateUtils ACBP=A9
+ 0001:00001BAC 0000000E C=CODE     S=.text    G=(none)   M=MaskUtils ACBP=A9
+ 0001:00001BBC 00000016 C=CODE     S=.text    G=(none)   M=SHDocVw  ACBP=A9
+ 0001:00001BD4 0000000E C=CODE     S=.text    G=(none)   M=OleServer ACBP=A9
+ 0001:00001BE4 0000000E C=CODE     S=.text    G=(none)   M=MSHTML   ACBP=A9
+ 0001:00001BF4 00000108 C=CODE     S=.text    G=(none)   M=NetConst ACBP=A9
+ 0001:00001CFC 0000001E C=CODE     S=.text    G=(none)   M=HostIE   ACBP=A9
+ 0001:00001D1C 0000000E C=CODE     S=.text    G=(none)   M=IDocIntf ACBP=A9
+ 0001:00001D2C 0000158C C=CODE     S=.text    G=(none)   M=HtColEdt ACBP=A9
+ 0001:000032B8 00000036 C=CODE     S=.text    G=(none)   M=StrEdit  ACBP=A9
+ 0001:000032F0 0000000E C=CODE     S=.text    G=(none)   M=ValueEdit ACBP=A9
+ 0001:00003300 0000002E C=CODE     S=.text    G=(none)   M=ValEdit  ACBP=A9
+ 0001:00003330 0000000E C=CODE     S=.text    G=(none)   M=Grids    ACBP=A9
+ 0001:00003340 0000000E C=CODE     S=.text    G=(none)   M=Mask     ACBP=A9
+ 0001:00003350 0000000E C=CODE     S=.text    G=(none)   M=StringsEdit ACBP=A9
+ 0001:00003360 0000000E C=CODE     S=.text    G=(none)   M=LibHelp  ACBP=A9
+ 0001:00003370 0000000E C=CODE     S=.text    G=(none)   M=DBBdeWeb ACBP=A9
+ 0001:00003380 0000000E C=CODE     S=.text    G=(none)   M=DBTables ACBP=A9
+ 0001:00003390 0000000E C=CODE     S=.text    G=(none)   M=SMINTF   ACBP=A9
+ 0001:000033A0 0000000E C=CODE     S=.text    G=(none)   M=BDE      ACBP=A9
+ 0001:000033B0 0000000E C=CODE     S=.text    G=(none)   M=DBCommon ACBP=A9
+ 0001:000033C0 0000000E C=CODE     S=.text    G=(none)   M=bdeconst ACBP=A9
+ 0001:000033D0 0000000E C=CODE     S=.text    G=(none)   M=DBXpressWeb ACBP=A9
+ 0001:000033E0 0000000E C=CODE     S=.text    G=(none)   M=SqlExpr  ACBP=A9
+ 0001:000033F0 0000000E C=CODE     S=.text    G=(none)   M=DBXpress ACBP=A9
+ 0001:00003400 0000000E C=CODE     S=.text    G=(none)   M=DBConnAdmin ACBP=A9
+ 0001:00003410 0000000E C=CODE     S=.text    G=(none)   M=SqlConst ACBP=A9
+ 0001:00003420 0000000E C=CODE     S=.text    G=(none)   M=DSProd   ACBP=A9
+ 0001:00003430 0000001E C=CODE     S=.text    G=(none)   M=DMForm   ACBP=A9
+ 0001:00003450 0000000E C=CODE     S=.text    G=(none)   M=msxmldom ACBP=A9
+ 0001:00003460 00000036 C=CODE     S=.text    G=(none)   M=xmldom   ACBP=A9
+ 0001:00003498 0000000E C=CODE     S=.text    G=(none)   M=XMLConst ACBP=A9
+ 0001:000034A8 0000000E C=CODE     S=.text    G=(none)   M=msxml    ACBP=A9
+ 0001:000034B8 0000000E C=CODE     S=.text    G=(none)   M=oxmldom  ACBP=A9
+ 0001:000034C8 0000000E C=CODE     S=.text    G=(none)   M=xdom     ACBP=A9
+ 0001:000034D8 0000000E C=CODE     S=.text    G=(none)   M=xercesxmldom ACBP=A9
+ 0001:000034E8 0000000E C=CODE     S=.text    G=(none)   M=Sockets  ACBP=A9
+ 0001:000034F8 00000038 C=CODE     S=.text    G=(none)   M=WinSock  ACBP=A9
+ 0001:00003530 00000598 C=CODE     S=.text    G=(none)   M=SocketsEditor ACBP=A9
+ 0001:00003AC8 000001C6 C=CODE     S=.text    G=(none)   M=XMLDoc   ACBP=A9
+ 0001:00003C90 0000000E C=CODE     S=.text    G=(none)   M=XMLIntf  ACBP=A9
+ 0001:00003CA0 00000036 C=CODE     S=.text    G=(none)   M=XMLSchema ACBP=A9
+ 0001:00003CD8 0000000E C=CODE     S=.text    G=(none)   M=XMLSchemaTags ACBP=A9
+ 0001:00003CE8 0000000E C=CODE     S=.text    G=(none)   M=ExptIntf ACBP=A9
+ 0001:00003CF8 0000000E C=CODE     S=.text    G=(none)   M=ToolIntf ACBP=A9
+ 0001:00003D08 0000000E C=CODE     S=.text    G=(none)   M=FileIntf ACBP=A9
+ 0001:00003D18 0000000E C=CODE     S=.text    G=(none)   M=jpeg     ACBP=A9
+ 0001:00003D28 0000000E C=CODE     S=.text    G=(none)   M=JConsts  ACBP=A9
+ 0001:00003D38 00000016 C=CODE     S=.text    G=(none)   M=CppSym   ACBP=A9
+ 0001:00003D50 0000000E C=CODE     S=.text    G=(none)   M=Symbols  ACBP=A9
+ 0001:00003D60 00000016 C=CODE     S=.text    G=(none)   M=PasSym   ACBP=A9
+ 0001:00003D78 0000000E C=CODE     S=.text    G=(none)   M=DTDSchema ACBP=A9
+ 0001:00003D88 0000000E C=CODE     S=.text    G=(none)   M=XMLDataToSchema ACBP=A9
+ 0001:00003D98 0000000E C=CODE     S=.text    G=(none)   M=XDRSchema ACBP=A9
+ 0001:00003DA8 00000170 C=CODE     S=.text    G=(none)   M=XMLBindConst ACBP=A9
+ 0001:00003F18 0000489C C=CODE     S=.text    G=(none)   M=XMLBindPasGen ACBP=A9
+ 0001:000087B4 00005A2C C=CODE     S=.text    G=(none)   M=XMLBindCppGen ACBP=A9
+ 0001:0000E1E0 000052AD C=CODE     S=.text    G=(none)   M=XMLBindMgr ACBP=A9
+ 0001:00013490 0000063C C=CODE     S=.text    G=(none)   M=XMLBindOptions ACBP=A9
+ 0001:00013ACC 00004C49 C=CODE     S=.text    G=(none)   M=XMLBindForm ACBP=A9
+ 0001:00018718 00000EC7 C=CODE     S=.text    G=(none)   M=XMLBindExpert ACBP=A9
+ 0001:000195E0 00003015 C=CODE     S=.text    G=(none)   M=InetReg  ACBP=A9
+ 0001:0001C5F8 00000016 C=CODE     S=.text    G=(none)   M=ExpertFilter ACBP=A9
+ 0001:0001C610 00000850 C=CODE     S=.text    G=(none)   M=InetSource ACBP=A9
+ 0001:0001CE60 000005C4 C=CODE     S=.text    G=(none)   M=NwWebSrv ACBP=A9
+ 0001:0001D424 00000086 C=CODE     S=.text    G=(none)   M=ScktComp ACBP=A9
+ 0001:0001D4AC 0000229C C=CODE     S=.text    G=(none)   M=BISmtp   ACBP=A9
+ 0001:0001F748 00001396 C=CODE     S=.text    G=(none)   M=InetWiz  ACBP=A9
+ 0001:00020AE0 0000059D C=CODE     S=.text    G=(none)   M=dclnet   ACBP=A9
+ 0002:00000000 0000002C C=DATA     S=.data    G=DGROUP   M=SysInit  ACBP=A9
+ 0002:0000002C 00000040 C=DATA     S=.data    G=DGROUP   M=HtColEdt ACBP=A9
+ 0002:0000006C 000000EC C=DATA     S=.data    G=DGROUP   M=XMLBindPasGen ACBP=A9
+ 0002:00000158 000000D8 C=DATA     S=.data    G=DGROUP   M=XMLBindCppGen ACBP=A9
+ 0002:00000230 00000001 C=DATA     S=.data    G=DGROUP   M=XMLBindMgr ACBP=A9
+ 0002:00000234 00000008 C=DATA     S=.data    G=DGROUP   M=XMLBindForm ACBP=A9
+ 0002:0000023C 00000044 C=DATA     S=.data    G=DGROUP   M=InetSource ACBP=A9
+ 0002:00001000 00000010 C=BSS      S=.bss     G=DGROUP   M=SysInit  ACBP=A9
+ 0002:00001010 00000004 C=BSS      S=.bss     G=DGROUP   M=Windows  ACBP=A9
+ 0002:00001014 00000004 C=BSS      S=.bss     G=DGROUP   M=Messages ACBP=A9
+ 0002:00001018 00000004 C=BSS      S=.bss     G=DGROUP   M=CommCtrl ACBP=A9
+ 0002:0000101C 00000004 C=BSS      S=.bss     G=DGROUP   M=Imm      ACBP=A9
+ 0002:00001020 00000004 C=BSS      S=.bss     G=DGROUP   M=ShlObj   ACBP=A9
+ 0002:00001024 00000004 C=BSS      S=.bss     G=DGROUP   M=UrlMon   ACBP=A9
+ 0002:00001028 00000004 C=BSS      S=.bss     G=DGROUP   M=WinInet  ACBP=A9
+ 0002:0000102C 00000004 C=BSS      S=.bss     G=DGROUP   M=RegStr   ACBP=A9
+ 0002:00001030 00000004 C=BSS      S=.bss     G=DGROUP   M=ShellAPI ACBP=A9
+ 0002:00001034 00000004 C=BSS      S=.bss     G=DGROUP   M=WinSpool ACBP=A9
+ 0002:00001038 00000004 C=BSS      S=.bss     G=DGROUP   M=CommDlg  ACBP=A9
+ 0002:0000103C 00000004 C=BSS      S=.bss     G=DGROUP   M=Dlgs     ACBP=A9
+ 0002:00001040 00000004 C=BSS      S=.bss     G=DGROUP   M=RichEdit ACBP=A9
+ 0002:00001044 00000004 C=BSS      S=.bss     G=DGROUP   M=MMSystem ACBP=A9
+ 0002:00001048 00000004 C=BSS      S=.bss     G=DGROUP   M=NetConst ACBP=A9
+ 0002:0000104C 00000004 C=BSS      S=.bss     G=DGROUP   M=HtColEdt ACBP=A9
+ 0002:00001050 00000004 C=BSS      S=.bss     G=DGROUP   M=WinSock  ACBP=A9
+ 0002:00001054 00000004 C=BSS      S=.bss     G=DGROUP   M=SocketsEditor ACBP=A9
+ 0002:00001058 00000004 C=BSS      S=.bss     G=DGROUP   M=XMLBindConst ACBP=A9
+ 0002:0000105C 00000004 C=BSS      S=.bss     G=DGROUP   M=XMLBindPasGen ACBP=A9
+ 0002:00001060 00000004 C=BSS      S=.bss     G=DGROUP   M=XMLBindCppGen ACBP=A9
+ 0002:00001064 00000014 C=BSS      S=.bss     G=DGROUP   M=XMLBindMgr ACBP=A9
+ 0002:00001078 00000008 C=BSS      S=.bss     G=DGROUP   M=XMLBindOptions ACBP=A9
+ 0002:00001080 0000000C C=BSS      S=.bss     G=DGROUP   M=XMLBindForm ACBP=A9
+ 0002:0000108C 00000008 C=BSS      S=.bss     G=DGROUP   M=XMLBindExpert ACBP=A9
+ 0002:00001094 00000004 C=BSS      S=.bss     G=DGROUP   M=InetReg  ACBP=A9
+ 0002:00001098 0000000C C=BSS      S=.bss     G=DGROUP   M=InetSource ACBP=A9
+ 0002:000010A4 00000004 C=BSS      S=.bss     G=DGROUP   M=NwWebSrv ACBP=A9
+ 0002:000010A8 00000004 C=BSS      S=.bss     G=DGROUP   M=BISmtp   ACBP=A9
+ 0002:000010AC 0000001C C=BSS      S=.bss     G=DGROUP   M=InetWiz  ACBP=A9
+
+
+  Address         Publics by Name
+
+ 0002:0000103C       .1
+ 0002:00001038       .1
+ 0002:00001030       .1
+ 0002:0000102C       .1
+ 0002:00001028       .1
+ 0002:00001024       .1
+ 0002:00001020       .1
+ 0002:0000101C       .1
+ 0002:00001018       .1
+ 0002:00001014       .1
+ 0002:00001008       .1
+ 0002:00001058       .1
+ 0002:00001040       .1
+ 0002:00001048       .1
+ 0002:00001050       .1
+ 0002:00001074       .11
+ 0002:00001054       .2
+ 0002:000010AC       .2
+ 0002:000010A4       .2
+ 0002:0000107C       .2
+ 0002:000010A0       .2
+ 0002:00001088       .2
+ 0002:00001090       .3
+ 0002:00001010       .3
+ 0002:00001034       .3
+ 0002:0000104C       .4
+ 0002:000010A8       .41
+ 0002:0000105C       .61
+ 0002:00001060       .61
+ 0002:00001094       .61
+ 0002:00001044       .7
+ 0001:00021058       @GetPackageInfoTable
+ 0001:000003E0       @InitPkg
+ 0001:00021060       @PackageLoad
+ 0001:00000444       @PackageLoad
+ 0001:00000450       @PackageUnload
+ 0001:0002106C       @PackageUnload
+ 0001:0001FC48       AddBCBAppUnits
+ 0001:00015D34       AddCategory
+ 0001:00015D68       AddComplexTypes
+ 0001:0001250C       AddDataType
+ 0001:000162AC       AddElementDefs
+ 0001:00015F08       AddSimpleTypes
+ 0001:000002E0       AllocTlsBuffer
+ 0001:00014B68       AssignCodeGenDescs
+ 0001:00014B24       AssignOptDesc
+ 0002:00001068       BindingLanguage
+ 0001:0001F740       BISmtp
+ 0002:00000234       BoolStrs
+ 0001:00012730       CheckOrderDependencies
+ 0001:00000C24       CommCtrl
+ 0001:0000115C       CommDlg
+ 0001:00014594       ConfirmDlg
+ 0001:00012DA8       CreateCodeWriters
+ 0001:000146A8       CreateGuid
+ 0002:00001064       CreateGuidProc
+ 0001:00021078       dclnet
+ 0002:000001E0       DefaultCppCode
+ 0002:00000190       DefaultCppTypeMap
+ 0002:00000150       DefaultPart
+ 0002:00000220       DefaultPart
+ 0002:00000110       DefaultPasCode
+ 0002:000000C0       DefaultPasTypeMap
+ 0001:00001194       Dlgs
+ 0001:00012E4C       DoGenerate
+ 0001:00020A44       DoneWeb
+ 0001:00003778       Eol
+ 0001:0002090C       ExecuteWebWizardExt
+ 0001:0000038C       ExitProcessTLS
+ 0001:00000364       ExitThreadTLS
+ 0001:0001CA80       ExtractStringValue
+ 0001:000186B0       Finalization
+ 0001:00013A94       Finalization
+ 0001:00003268       Finalization
+ 0001:00019540       Finalization
+ 0001:0001C590       Finalization
+ 0001:000034F8       Finalization
+ 0001:00001CC4       Finalization
+ 0001:000013BC       Finalization
+ 0001:000011DC       Finalization
+ 0001:00001164       Finalization
+ 0001:0000112C       Finalization
+ 0001:00013414       Finalization
+ 0001:000010F4       Finalization
+ 0001:00001004       Finalization
+ 0001:00000FCC       Finalization
+ 0001:0001CCA8       Finalization
+ 0001:00000F94       Finalization
+ 0001:00000F5C       Finalization
+ 0001:00000F24       Finalization
+ 0001:00000DB4       Finalization
+ 0001:00000BF4       Finalization
+ 0001:00000524       Finalization
+ 0001:0001D3EC       Finalization
+ 0001:000004DC       Finalization
+ 0001:00003A90       Finalization
+ 0001:0001F710       Finalization
+ 0001:00003EE0       Finalization
+ 0001:0000045C       Finalization
+ 0001:0000E0FC       Finalization
+ 0001:00020A54       Finalization
+ 0001:000086E4       Finalization
+ 0001:00012E10       FreeCodeWriters
+ 0001:000002A8       FreeLibrary
+ 0001:00009CE0       GenerateCPPUnitComment
+ 0001:000071E0       GenerateUnitComment
+ 0001:00018D14       GetActiveProject
+ 0001:00018C4C       GetActiveProjectGroup
+ 0001:00016224       GetElementType
+ 0001:00000494       GetFileAttributes
+ 0001:0001ED60       GetGMTOffset
+ 0002:00001070       GetNewModuleName
+ 0001:00018D6C       GetNewModuleName
+ 0001:0001C9C4       GetSourceFromTemplate
+ 0001:0001CAD0       GetSourceFromTemplate
+ 0001:0000049C       GetTempPath
+ 0001:000004A4       GetTimeZoneInformation
+ 0001:000002EC       GetTlsSize
+ 0001:0000F9AC       GetValidIdent
+ 0001:000145F4       HasChildren
+ 0002:00001004       HInstance
+ 0001:000032B0       HtColEdt
+ 0002:0000002C       HTMLColors
+ 0001:00000DE4       Imm
+ 0002:00000218       IndexPart
+ 0002:00000138       IndexPart
+ 0002:00000140       IndexPart
+ 0002:00000148       IndexPart
+ 0002:00000228       IndexPart
+ 0002:00000208       IndexPart
+ 0002:00000210       IndexPart
+ 0001:0001C5CC       InetReg
+ 0001:0001CCF8       InetSource
+ 0002:000010C4       InetSources
+ 0001:00020AA8       InetWiz
+ 0001:000003B0       InitializeModule
+ 0001:000172E0       InitOutputSummary
+ 0001:00000338       InitProcessTLS
+ 0001:000002F4       InitThreadTLS
+ 0001:00020A30       InitWeb
+ 0002:00001084       InputFiles
+ 0002:00000230       IsCLXProject
+ 0002:00001098       IsPascal
+ 0001:0000F9C8       IsStringType
+ 0001:00016FB8       IsTypeUsedBy
+ 0001:000004AC       LoadIcon
+ 0001:00014AA8       LoadOptions
+ 0001:000156D8       LoadSchemaDoc
+ 0001:000002B0       LocalAlloc
+ 0001:000002B8       LocalFree
+ 0001:0000FA14       MakeValidIdent
+ 0001:00000554       Messages
+ 0001:000013EC       MMSystem
+ 0002:00000004       Module
+ 0002:00001000       ModuleIsLib
+ 0002:00001001       ModuleIsPackage
+ 0002:00000158       NativeCppTypes
+ 0002:0000006C       NativePasTypes
+ 0001:00001CF4       NetConst
+ 0002:000010B8       NewFormModule
+ 0002:000010B4       NewWebModule
+ 0002:000010BC       NewWebModuleExpert
+ 0002:000010C0       NewWebModuleExpertCounter
+ 0002:000010B0       NewWebProject
+ 0001:00003794       NextChar
+ 0001:000037B4       NextToken
+ 0001:0001D41C       NwWebSrv
+ 0002:00001078       OptionsForm
+ 0001:0001222C       OwningTypePure
+ 0001:00009C58       PadLine
+ 0001:00007158       PadLine
+ 0001:000004B4       PeekMessage
+ 0001:000004BC       PostMessage
+ 0001:00014568       QDialogExecute
+ 0001:0001C15C       Register
+ 0001:000194D8       Register
+ 0001:00020980       Register
+ 0001:00000FFC       RegStr
+ 0001:0000120C       RichEdit
+ 0001:0001759C       SaveSettings
+ 0001:000004C4       SendMessage
+ 0001:000133A4       SetBindingLanguage
+ 0001:00013844       SetCurrentList
+ 0001:00014570       SetImageIndex
+ 0001:00001034       ShellAPI
+ 0001:00000F54       ShlObj
+ 0001:00002394       ShowHTMLTableEditor
+ 0001:00003AC0       SocketsEditor
+ 0002:0000106C       SourceExt
+ 0002:0000023C       SourceTypeNames
+ 0001:00018F34       StringToIOTAFile
+ 0001:000004CC       Succeeded
+ 0001:0000048C       SysInit
+ 0001:0001E4B0       TAttachment.SetAttachmentType
+ 0001:0001E4C0       TAttachments.Add
+ 0001:0001E4CC       TAttachments.GetAttachment
+ 0001:0001E4E0       TAttachments.SetAttachment
+ 0001:0000FB48       TBindingOptions.Assign
+ 0001:0000FC58       TBindingOptions.AssignTo
+ 0001:0001001C       TBindingOptions.Clear
+ 0001:0000FA84       TBindingOptions.Create
+ 0001:0000FAF0       TBindingOptions.Destroy
+ 0001:0000FC88       TBindingOptions.DoOptionChange
+ 0001:0000FCA4       TBindingOptions.EnsureOption
+ 0001:0000FD6C       TBindingOptions.GetOption
+ 0001:0000FF40       TBindingOptions.GetOptionData
+ 0001:0000FE18       TBindingOptions.GetOptionValue
+ 0001:0000FFA8       TBindingOptions.InitializeOptions
+ 0001:0000FF84       TBindingOptions.InitializeOptions
+ 0001:0001007C       TBindingOptions.IsTrue
+ 0001:0000FE78       TBindingOptions.SetOption
+ 0001:0000FF60       TBindingOptions.SetOptionData
+ 0001:000131F0       TCodeWriter.Changed
+ 0001:00013174       TCodeWriter.Create
+ 0001:000132F0       TCodeWriter.Generate
+ 0001:00013200       TCodeWriter.PropGetPrefix
+ 0001:00013278       TCodeWriter.PropSetPrefix
+ 0001:00013394       TCodeWriter.Write
+ 0001:000132FC       TCodeWriter.Write
+ 0001:000132F4       TCodeWriter.WriteLine
+ 0001:0000C368       TCppClassDecl.WriteAncestorDelegators
+ 0001:0000BCC4       TCppClassDecl.WriteDecl
+ 0001:0000C8E8       TCppClassDecl.WriteListBinding
+ 0001:0000C8BC       TCppClassDecl.WriteProperties
+ 0001:0000BF08       TCppClassDecl.WriteProperty
+ 0001:0000C8FC       TCppClassDecl.WriteTypeDef
+ 0001:0000BC44       TCppClassForward.Generate
+ 0001:0000C904       TCppClassImpl.AfterConstruction
+ 0001:0000C920       TCppClassImpl.Generate
+ 0001:0000CA20       TCppClassImpl.WriteAddItem
+ 0001:0000CC44       TCppClassImpl.WriteCollAdd
+ 0001:0000CCC4       TCppClassImpl.WriteCollInsert
+ 0001:0000CD48       TCppClassImpl.WriteListBinding
+ 0001:0000CEA4       TCppClassImpl.WriteProperty
+ 0001:0000D564       TCppClassImpl.WriteRegistrationCode
+ 0001:0000A784       TCppCodeWriter.WriteAfterConstruction
+ 0001:0000A83C       TCppCodeWriter.WriteClassDecl
+ 0001:0000A97C       TCppCodeWriter.WriteCollCreate
+ 0001:0000AA1C       TCppCodeWriter.WriteCollGetItem
+ 0001:0000AB58       TCppCodeWriter.WriteCollItemInit
+ 0001:0000ABE4       TCppCodeWriter.WriteCollItemProp
+ 0001:00009F70       TCppCodeWriter.WriteComment
+ 0001:0000A738       TCppCodeWriter.WriteDataMember
+ 0001:0000A450       TCppCodeWriter.WriteDataProperty
+ 0001:00009FD0       TCppCodeWriter.WriteDeclComment
+ 0001:0000A114       TCppCodeWriter.WriteFunction
+ 0001:0000A050       TCppCodeWriter.WriteFunction
+ 0001:0000A240       TCppCodeWriter.WriteGetMethod
+ 0001:0000A900       TCppCodeWriter.WriteIntfDecl
+ 0001:00009FDC       TCppCodeWriter.WriteMethodBody
+ 0001:0000A588       TCppCodeWriter.WriteProperty
+ 0001:0000ACB8       TCppCodeWriter.WriteRegisterChildNode
+ 0001:0000A34C       TCppCodeWriter.WriteSetMethod
+ 0001:0000D764       TCppGlobalDecl.AfterConstruction
+ 0001:0000D794       TCppGlobalDecl.Generate
+ 0001:0000D830       TCppGlobalDecl.GenerateGetBinding
+ 0001:0000D91C       TCppGlobalDecl.GenerateGetBinding2
+ 0001:0000DA08       TCppGlobalDecl.GenerateLoadBinding
+ 0001:0000DAFC       TCppGlobalDecl.GenerateNewBinding
+ 0001:0000DBD8       TCppGlobalImpl.AfterConstruction
+ 0001:0000DBEC       TCppGlobalImpl.GenerateGetBinding
+ 0001:0000DCF0       TCppGlobalImpl.GenerateGetBinding2
+ 0001:0000DDE8       TCppGlobalImpl.GenerateLoadBinding
+ 0001:0000DF08       TCppGlobalImpl.GenerateNewBinding
+ 0001:0000B888       TCppIntfDecl.AfterConstruction
+ 0001:0000B8B4       TCppIntfDecl.WriteDecl
+ 0001:0000BB5C       TCppIntfDecl.WriteListBinding
+ 0001:0000BA1C       TCppIntfDecl.WriteProperty
+ 0001:0000B7A0       TCppIntfForward.Generate
+ 0001:0000B6DC       TCppIntfSectionEntry.Generate
+ 0001:0000B72C       TCppIntfSectionEntry.WriteDecl
+ 0001:0000B780       TCppIntfSectionEntry.WriteEnd
+ 0001:0000B79C       TCppIntfSectionEntry.WriteTypeDef
+ 0001:0000AD8C       TCppPropertyContainer.AfterConstruction
+ 0001:0000AEAC       TCppPropertyContainer.AppendCode
+ 0001:0000AE78       TCppPropertyContainer.AppendCode
+ 0001:0000ADD4       TCppPropertyContainer.Destroy
+ 0001:0000AE1C       TCppPropertyContainer.Generate
+ 0001:0000AEC8       TCppPropertyContainer.InitCodeWriters
+ 0001:0000B1F4       TCppPropertyContainer.WriteCollAdd
+ 0001:0000B0D0       TCppPropertyContainer.WriteCollectionMethods
+ 0001:0000B36C       TCppPropertyContainer.WriteCollInsert
+ 0001:0000B0CC       TCppPropertyContainer.WriteListBinding
+ 0001:0000B024       TCppPropertyContainer.WriteMethods
+ 0001:0000B520       TCppPropertyContainer.WriteProperties
+ 0001:0000B6D8       TCppPropertyContainer.WriteProperty
+ 0001:0000E020       TCppTargetNSDecl.Generate
+ 0001:0001EC50       TCustomSimpleMail.CheckResponse
+ 0001:0001EB88       TCustomSimpleMail.Create
+ 0001:0001EC18       TCustomSimpleMail.Destroy
+ 0001:0001ED18       TCustomSimpleMail.DoActivate
+ 0001:0001F674       TCustomSimpleMail.Error
+ 0001:0001F044       TCustomSimpleMail.Event
+ 0001:0001F6A0       TCustomSimpleMail.IsServiceStored
+ 0001:0001F6D8       TCustomSimpleMail.Send
+ 0001:0001F6E0       TCustomSimpleMail.SendRequest
+ 0001:0001F6C8       TCustomSimpleMail.SetOutBox
+ 0001:00020740       TCustomWebModule.ExecuteVerb
+ 0001:0002076C       TCustomWebModule.GetVerb
+ 0001:0002078C       TCustomWebModule.GetVerbCount
+ 0001:00020794       TCustomWebModule.ValidateComponent
+ 0001:0001ABB4       TDataSetPageProducerSprig.AnyProblems
+ 0001:0001ABD8       TDataSetPageProducerSprig.ParentProperty
+ 0001:0001AC34       TDataSetTableProducerSprig.ParentProperty
+ 0001:0001BD50       TDesignerFileManager.FindEditor
+ 0001:0001BF60       TDesignerFileManager.GetStream
+ 0001:0001BBA4       TDesignerFileManager.ProjectPath
+ 0001:0001BCCC       TDesignerFileManager.QualifyFileName
+ 0001:0001BE5C       TDesignerFileManager.ReadEditor
+ 0001:0001ABFC       TDSTableProducerSprig.AnyProblems
+ 0001:0000624C       TForwardDecl.AfterConstruction
+ 0001:0000AD30       TForwardDecl.AfterConstruction
+ 0001:0001A5A0       THTMLBgColorProperty.Edit
+ 0001:0001A678       THTMLBgColorProperty.GetAttributes
+ 0001:0001A698       THTMLBgColorProperty.GetValues
+ 0001:0001AA54       THTMLDSTableColumnFieldEditor.GetAttributes
+ 0001:0001AA60       THTMLDSTableColumnFieldEditor.GetValues
+ 0001:00002464       THTMLDSTableProducerEditor.Changed
+ 0001:000023E0       THTMLDSTableProducerEditor.Create
+ 0001:00002430       THTMLDSTableProducerEditor.Destroy
+ 0001:0001A9BC       THTMLDSTableProducerEditor.Edit
+ 0001:0001AA20       THTMLDSTableProducerEditor.ExecuteVerb
+ 0001:0001AA2C       THTMLDSTableProducerEditor.GetVerb
+ 0001:0001AA4C       THTMLDSTableProducerEditor.GetVerbCount
+ 0001:00002498       THTMLDSTableProducerEditor.PostChange
+ 0001:0001A814       THTMLFilePropertyEditor.Edit
+ 0001:0001A914       THTMLFilePropertyEditor.GetAttributes
+ 0001:0001A6BC       THTMLTableColumnsEditor.Edit
+ 0001:0001A720       THTMLTableColumnsEditor.GetAttributes
+ 0001:000031C0       THTMLTableEditor.ActionCheckCompleteUpdate
+ 0001:000024AC       THTMLTableEditor.AddAllFieldsClick
+ 0001:00003068       THTMLTableEditor.AddAllFieldsCmdUpdate
+ 0001:0000269C       THTMLTableEditor.CMPostChange
+ 0001:00002988       THTMLTableEditor.FormCreate
+ 0001:00002B10       THTMLTableEditor.FormDestroy
+ 0001:00002F70       THTMLTableEditor.FormShow
+ 0001:00002B3C       THTMLTableEditor.GetDataSet
+ 0001:000030C0       THTMLTableEditor.HTMLDocument2
+ 0001:000026C0       THTMLTableEditor.ItemsModified
+ 0001:00002B6C       THTMLTableEditor.PostChange
+ 0001:00002F9C       THTMLTableEditor.RestoreDefaultsClick
+ 0001:00003098       THTMLTableEditor.RestoreDefaultsCmdUpdate
+ 0001:00003160       THTMLTableEditor.SelectionUpdate
+ 0001:000026DC       THTMLTableEditor.SetHTMLContent
+ 0001:00002BB0       THTMLTableEditor.TableDataChanged
+ 0001:00002BB8       THTMLTableEditor.TableDataClicked
+ 0001:00002CA0       THTMLTableEditor.TableDataExit
+ 0001:00002BC8       THTMLTableEditor.TableDataKeyPress
+ 0001:000027DC       THTMLTableEditor.UpdateHTMLView
+ 0001:00002CEC       THTMLTableEditor.UpdateTableAttributes
+ 0001:00002DC8       THTMLTableEditor.UpdateTableComponent
+ 0001:0001A920       THTTPDispatcherComponentEditor.Edit
+ 0001:0001A988       THTTPDispatcherComponentEditor.ExecuteVerb
+ 0001:0001A994       THTTPDispatcherComponentEditor.GetVerb
+ 0001:0001A9B4       THTTPDispatcherComponentEditor.GetVerbCount
+ 0001:000207C8       TInetSources.Create
+ 0001:00020808       TInetSources.Destroy
+ 0001:00020838       TInetSources.GetInetSources
+ 0001:00020A50       TInetSources.SetPropValues
+ 0001:0001C07C       TInterfaceComponentProperty.GetValues
+ 0001:0001BFC8       TInterfaceComponentProperty.RcvComponentNames
+ 0001:0001C0E8       TInterfaceComponentProperty.SetValue
+ 0001:0001C00C       TInterfaceComponentProperty.SupportsInterface
+ 0001:0001E5E4       TInternetAddress.AssignTo
+ 0001:0001E62C       TInternetAddress.GetAddress
+ 0001:0001E640       TInternetAddress.GetFormattedAddress
+ 0001:0001E6F0       TInternetAddress.GetName
+ 0001:0001E6C4       TInternetAddress.SetAddress
+ 0001:0001E704       TInternetAddress.SetName
+ 0001:0001E730       TInternetOutBox.Create
+ 0001:0001E778       TInternetOutBox.SetItemName
+ 0001:000002C0       TlsAlloc
+ 0002:0000100C       tlsBuffer
+ 0001:000002C8       TlsFree
+ 0001:000002D0       TlsGetValue
+ 0002:00000000       TlsIndex
+ 0002:AFC8D000       TlsLast
+ 0002:0000001C       TlsProc
+ 0001:000002D8       TlsSetValue
+ 0001:0001E500       TMailAddresses.Add
+ 0001:0001E5B0       TMailAddresses.GetAddress
+ 0001:0001E514       TMailAddresses.GetAttr
+ 0001:0001E50C       TMailAddresses.GetAttrCount
+ 0001:0001E564       TMailAddresses.GetItemAttr
+ 0001:0001E5C4       TMailAddresses.SetAddress
+ 0001:0001E3CC       TMailBox.Add
+ 0001:0001E3E0       TMailBox.GetAttr
+ 0001:0001E3D8       TMailBox.GetAttrCount
+ 0001:0001E424       TMailBox.GetItemAttr
+ 0001:0001E47C       TMailBox.GetMail
+ 0001:0001E490       TMailBox.SetMail
+ 0001:0001EB40       TMIMEAttachment.AssignTo
+ 0001:0001EA30       TMIMEAttachment.Create
+ 0001:0001EA94       TMIMEAttachment.Destroy
+ 0001:0001EAD4       TMIMEAttachment.GetBody
+ 0001:0001EAF0       TMIMEAttachment.GetStream
+ 0001:0001EAF4       TMIMEAttachment.GetValue
+ 0001:0001EAD8       TMIMEAttachment.SetBody
+ 0001:0001EB10       TMIMEAttachment.SetValue
+ 0001:0001EB28       TMIMEAttachment.SetValues
+ 0001:0001E920       TMIMEMail.AssignTo
+ 0001:0001E780       TMIMEMail.Create
+ 0001:0001E848       TMIMEMail.Destroy
+ 0001:0001E8E0       TMIMEMail.GetAttachments
+ 0001:0001E8E8       TMIMEMail.GetBCCAddresses
+ 0001:0001E8DC       TMIMEMail.GetBody
+ 0001:0001E8EC       TMIMEMail.GetCCAddresses
+ 0001:0001E8E4       TMIMEMail.GetFromAddresses
+ 0001:0001E8A8       TMIMEMail.GetHeader
+ 0001:0001E8F0       TMIMEMail.GetSubject
+ 0001:0001E904       TMIMEMail.GetToAddresses
+ 0001:0001E9A0       TMIMEMail.SetAttachments
+ 0001:0001E9D0       TMIMEMail.SetBCCAddresses
+ 0001:0001E908       TMIMEMail.SetBody
+ 0001:0001E9E8       TMIMEMail.SetCCAddresses
+ 0001:0001E9B8       TMIMEMail.SetFromAddresses
+ 0001:0001E8C4       TMIMEMail.SetHeader
+ 0001:0001E9F8       TMIMEMail.SetSubject
+ 0001:0001EA20       TMIMEMail.SetToAddresses
+ 0001:00020590       TNewFormModule.Existing
+ 0001:00020694       TNewFormModule.FormCreated
+ 0001:0002059C       TNewFormModule.GetAncestorName
+ 0001:000205C0       TNewFormModule.GetFileName
+ 0001:000205D0       TNewFormModule.GetFileSystem
+ 0001:000205E0       TNewFormModule.GetFormName
+ 0001:0002069C       TNewFormModule.GetIntfName
+ 0001:000206AC       TNewFormModule.NewIntfSource
+ 0001:000205F0       TNewFormModule.NewModuleSource
+ 0001:0001D1C4       TNewWebAppForm.EnableActionExecute
+ 0001:0001D1C8       TNewWebAppForm.EnableActionUpdate
+ 0001:0001D2A4       TNewWebAppForm.EnableCoClassName
+ 0001:0001D264       TNewWebAppForm.EnableCrossPlatform
+ 0001:0001D3E4       TNewWebAppForm.FormCreate
+ 0001:0001D3E8       TNewWebAppForm.FormShow
+ 0001:0001D1AC       TNewWebAppForm.HelpButtonClick
+ 0001:0001D390       TNewWebAppForm.OKButtonClick
+ 0001:0001D1EC       TNewWebAppForm.ProjectType
+ 0001:0001D2C8       TNewWebAppForm.ValidateFields
+ 0001:0002037C       TNewWebModule.Existing
+ 0001:000204D4       TNewWebModule.FormCreated
+ 0001:00020388       TNewWebModule.GetAncestorName
+ 0001:000203B0       TNewWebModule.GetFileName
+ 0001:000203C0       TNewWebModule.GetFileSystem
+ 0001:000203D0       TNewWebModule.GetFormName
+ 0001:000204DC       TNewWebModule.GetIntfName
+ 0001:000204EC       TNewWebModule.NewIntfSource
+ 0001:000203E0       TNewWebModule.NewModuleSource
+ 0001:0001FDA8       TNewWebModuleExpert.Create
+ 0001:0001FDF0       TNewWebModuleExpert.Destroy
+ 0001:00020170       TNewWebModuleExpert.Destroyed
+ 0001:0001FED8       TNewWebModuleExpert.Execute
+ 0001:0001FE30       TNewWebModuleExpert.GetAuthor
+ 0001:0001FE54       TNewWebModuleExpert.GetComment
+ 0001:0001FE7C       TNewWebModuleExpert.GetGlyph
+ 0001:0001FEA4       TNewWebModuleExpert.GetIDString
+ 0001:0001FE1C       TNewWebModuleExpert.GetName
+ 0001:0001FE68       TNewWebModuleExpert.GetPage
+ 0001:0001FE98       TNewWebModuleExpert.GetState
+ 0001:00020180       TNewWebProject.Existing
+ 0001:0002018C       TNewWebProject.GetFileName
+ 0001:0002019C       TNewWebProject.GetFileSystem
+ 0001:00020338       TNewWebProject.GetOptionName
+ 0001:00020358       TNewWebProject.InitCOMProject
+ 0001:0002017C       TNewWebProject.InitProject
+ 0001:000202B8       TNewWebProject.NewDefaultModule
+ 0001:00020348       TNewWebProject.NewOptionSource
+ 0001:00020330       TNewWebProject.NewProjectResource
+ 0001:000201AC       TNewWebProject.NewProjectSource
+ 0001:00016714       ToggleSimpleState
+ 0001:000138C0       TOptionsForm.CategoryListClick
+ 0001:00013814       TOptionsForm.CheckForChanges
+ 0001:000139EC       TOptionsForm.FormCloseQuery
+ 0001:000137D0       TOptionsForm.FormCreate
+ 0001:0001380C       TOptionsForm.FormShow
+ 0001:000139F4       TOptionsForm.HelpBtnClick
+ 0001:00013A0C       TOptionsForm.ValueListEditorKeyPress
+ 0001:00013A14       TOptionsForm.ValueListEditorSetEditText
+ 0001:000139E4       TOptionsForm.ValueListEditorStringsChange
+ 0001:00013A34       TOptionsForm.ValueListEditorValidate
+ 0001:00018EBC       TOTAFile.Create
+ 0001:00018F1C       TOTAFile.GetAge
+ 0001:00018F08       TOTAFile.GetSource
+ 0001:0001E384       TOwnedCollection.Create
+ 0001:0001E3C8       TOwnedCollection.GetOwner
+ 0001:0001AB4C       TPageProducerSprig.AnyProblems
+ 0001:00006EB8       TPasClassDecl.WriteDecl
+ 0001:00007144       TPasClassDecl.WriteListBinding
+ 0001:0000710C       TPasClassDecl.WriteProperties
+ 0001:00007014       TPasClassDecl.WriteProperty
+ 0001:00006E38       TPasClassForward.Generate
+ 0001:00007470       TPasClassImpl.Generate
+ 0001:00007570       TPasClassImpl.WriteAddItem
+ 0001:00007700       TPasClassImpl.WriteCollAdd
+ 0001:0000777C       TPasClassImpl.WriteCollInsert
+ 0001:000077FC       TPasClassImpl.WriteListBinding
+ 0001:0000790C       TPasClassImpl.WriteProperty
+ 0001:00007ED8       TPasClassImpl.WriteRegistrationCode
+ 0001:00005B6C       TPasCodeWriter.WriteAfterConstruction
+ 0001:00005D48       TPasCodeWriter.WriteClassDecl
+ 0001:00005EE0       TPasCodeWriter.WriteCollCreate
+ 0001:00005F70       TPasCodeWriter.WriteCollGetItem
+ 0001:00006094       TPasCodeWriter.WriteCollItemInit
+ 0001:0000611C       TPasCodeWriter.WriteCollItemProp
+ 0001:000053D0       TPasCodeWriter.WriteComment
+ 0001:00005B1C       TPasCodeWriter.WriteDataMember
+ 0001:00005840       TPasCodeWriter.WriteDataProperty
+ 0001:00005430       TPasCodeWriter.WriteDeclComment
+ 0001:00005554       TPasCodeWriter.WriteFunction
+ 0001:000054B8       TPasCodeWriter.WriteFunction
+ 0001:00005C0C       TPasCodeWriter.WriteGetBindFunc
+ 0001:0000567C       TPasCodeWriter.WriteGetMethod
+ 0001:00005E58       TPasCodeWriter.WriteGuid
+ 0001:00005E00       TPasCodeWriter.WriteIntfDecl
+ 0001:00005C78       TPasCodeWriter.WriteLoadBindFunc
+ 0001:0000543C       TPasCodeWriter.WriteMethodBody
+ 0001:00005CF0       TPasCodeWriter.WriteNewBindFunc
+ 0001:00005974       TPasCodeWriter.WriteProperty
+ 0001:000061E8       TPasCodeWriter.WriteRegisterChildNode
+ 0001:00005768       TPasCodeWriter.WriteSetMethod
+ 0001:000080BC       TPasGlobalDecl.Generate
+ 0001:0000814C       TPasGlobalDecl.GenerateGetBinding
+ 0001:000081D4       TPasGlobalDecl.GenerateLoadBinding
+ 0001:0000825C       TPasGlobalDecl.GenerateNewBinding
+ 0001:000082E4       TPasGlobalImpl.GenerateGetBinding
+ 0001:000083D8       TPasGlobalImpl.GenerateLoadBinding
+ 0001:000084E8       TPasGlobalImpl.GenerateNewBinding
+ 0001:00006BE4       TPasIntfDecl.WriteDecl
+ 0001:00006DC8       TPasIntfDecl.WriteListBinding
+ 0001:00006CF0       TPasIntfDecl.WriteProperty
+ 0001:00006B60       TPasIntfForward.Generate
+ 0001:00006AA4       TPasIntfSectionEntry.Generate
+ 0001:00006AEC       TPasIntfSectionEntry.WriteDecl
+ 0001:00006B40       TPasIntfSectionEntry.WriteEnd
+ 0001:00006380       TPasPropertyContainer.AppendCode
+ 0001:0000634C       TPasPropertyContainer.AppendCode
+ 0001:000062A8       TPasPropertyContainer.Destroy
+ 0001:000062F0       TPasPropertyContainer.Generate
+ 0001:0000639C       TPasPropertyContainer.InitCodeWriters
+ 0001:00006610       TPasPropertyContainer.WriteCollAdd
+ 0001:0000656C       TPasPropertyContainer.WriteCollectionMethods
+ 0001:00006754       TPasPropertyContainer.WriteCollInsert
+ 0001:00006568       TPasPropertyContainer.WriteListBinding
+ 0001:000064C0       TPasPropertyContainer.WriteMethods
+ 0001:000068E8       TPasPropertyContainer.WriteProperties
+ 0001:00006AA0       TPasPropertyContainer.WriteProperty
+ 0001:000085F0       TPasTargetNSDecl.Generate
+ 0001:0001C134       TProducerIntfProperty.GetGuid
+ 0001:0001AC10       TQueryTableProducerSprig.ParentProperty
+ 0001:0000376C       TSocketPortProperty.GetAttributes
+ 0001:00003604       TSocketPortProperty.GetDatabasePath
+ 0001:0000391C       TSocketPortProperty.GetValues
+ 0001:0001A72C       TWebActionItemEventProperty.GetFormMethodName
+ 0001:00010250       TXMLBindingAppInfo.GetBindingAppInfoURI
+ 0001:00010278       TXMLBindingAppInfo.GetBound
+ 0001:00010390       TXMLBindingAppInfo.GetDataType
+ 0001:00010330       TXMLBindingAppInfo.GetDocElement
+ 0001:000102C0       TXMLBindingAppInfo.GetIdentifierName
+ 0001:000101F8       TXMLBindingAppInfo.GetPropReadOnly
+ 0001:000103E8       TXMLBindingAppInfo.GetRepeated
+ 0001:000100F4       TXMLBindingAppInfo.GetValue
+ 0001:00010198       TXMLBindingAppInfo.HasValueFor
+ 0001:000101A4       TXMLBindingAppInfo.RemoveValue
+ 0001:00010264       TXMLBindingAppInfo.SetBindingAppInfoURI
+ 0001:000102A0       TXMLBindingAppInfo.SetBound
+ 0001:000103C0       TXMLBindingAppInfo.SetDataType
+ 0001:00010364       TXMLBindingAppInfo.SetDocElement
+ 0001:000102FC       TXMLBindingAppInfo.SetIdentifierName
+ 0001:00010228       TXMLBindingAppInfo.SetPropReadOnly
+ 0001:00010418       TXMLBindingAppInfo.SetRepeated
+ 0001:00010110       TXMLBindingAppInfo.SetValue
+ 0001:00010440       TXMLBindingInfo.Create
+ 0001:00010520       TXMLBindingInfo.GetBindingAppInfo
+ 0001:00010A38       TXMLBindingInfo.GetBound
+ 0001:00010754       TXMLBindingInfo.GetDocumentation
+ 0001:00010890       TXMLBindingInfo.GetIdentifierName
+ 0001:000109E4       TXMLBindingInfo.GetSourceName
+ 0001:00010494       TXMLBindingInfo.HasAppInfo
+ 0001:000106D8       TXMLBindingInfo.MakeIdentifier
+ 0001:000105E4       TXMLBindingInfo.RemoveAppInfo
+ 0001:00010B6C       TXMLBindingInfo.SetBindingType
+ 0001:00010AC8       TXMLBindingInfo.SetBound
+ 0001:00010B68       TXMLBindingInfo.SetDataType
+ 0001:0001076C       TXMLBindingInfo.SetDocumentation
+ 0001:00010930       TXMLBindingInfo.SetIdentifierName
+ 0001:00012394       TXMLBindingManager.AfterConstruction
+ 0001:000124D4       TXMLBindingManager.Destroy
+ 0001:00012D94       TXMLBindingManager.DoIdentifierCheck
+ 0001:00012EF0       TXMLBindingManager.GenerateBinding
+ 0001:0001308C       TXMLBindingManager.GenerateBinding
+ 0001:00012864       TXMLBindingManager.GetBindableItems
+ 0001:00013108       TXMLBindingManager.GetBindingAppInfoURI
+ 0001:00012B2C       TXMLBindingManager.GetBindingInfo
+ 0001:00012A74       TXMLBindingManager.GetBindingInfo
+ 0001:00012C14       TXMLBindingManager.GetBindingInfo
+ 0001:00012C48       TXMLBindingManager.GetBindingInfo
+ 0001:0001314C       TXMLBindingManager.GetClassNameStr
+ 0001:0001311C       TXMLBindingManager.GetCodeGenOptions
+ 0001:00012C7C       TXMLBindingManager.GetListBindingInfo
+ 0001:00013120       TXMLBindingManager.GetNativeTypeMap
+ 0001:00012CB0       TXMLBindingManager.SchemaTypeToNativeType
+ 0001:00013124       TXMLBindingManager.SetBindingAppInfoURI
+ 0001:00013160       TXMLBindingManager.SetClassNameStr
+ 0001:00013138       TXMLBindingManager.SetOnIdentifierCheck
+ 0001:000110F0       TXMLComplexTypeBinding.AfterConstruction
+ 0001:0001127C       TXMLComplexTypeBinding.AncestorClass
+ 0001:00011390       TXMLComplexTypeBinding.AncestorInterface
+ 0001:000111D4       TXMLComplexTypeBinding.BaseBindingInfo
+ 0001:00011488       TXMLComplexTypeBinding.ClassIdent
+ 0001:00011B94       TXMLComplexTypeBinding.CollectionItem
+ 0001:0001180C       TXMLComplexTypeBinding.CollectionItemName
+ 0001:00011538       TXMLComplexTypeBinding.ComplexTypeDef
+ 0001:0001176C       TXMLComplexTypeBinding.GetBindingType
+ 0001:0001154C       TXMLComplexTypeBinding.GetDataType
+ 0001:00011560       TXMLComplexTypeBinding.GetDocElementName
+ 0001:000116E8       TXMLComplexTypeBinding.GetSourceType
+ 0001:00011258       TXMLComplexTypeBinding.HasComplexBase
+ 0001:00011694       TXMLComplexTypeBinding.IsDocElement
+ 0001:00011124       TXMLComplexTypeBinding.MakeIdentifier
+ 0001:00011770       TXMLComplexTypeBinding.PureCollection
+ 0001:000115F8       TXMLComplexTypeBinding.SetDocElementName
+ 0001:00019288       TXMLDataBindingModuleCreator.CheckCLXProject
+ 0001:000191E4       TXMLDataBindingModuleCreator.Create
+ 0001:00019330       TXMLDataBindingModuleCreator.FormCreated
+ 0001:00019334       TXMLDataBindingModuleCreator.GetAncestorName
+ 0001:00019340       TXMLDataBindingModuleCreator.GetCreatorType
+ 0001:00019364       TXMLDataBindingModuleCreator.GetExisting
+ 0001:00019368       TXMLDataBindingModuleCreator.GetFileSystem
+ 0001:00019374       TXMLDataBindingModuleCreator.GetFormName
+ 0001:00019380       TXMLDataBindingModuleCreator.GetImplFileName
+ 0001:00019400       TXMLDataBindingModuleCreator.GetIntfFileName
+ 0001:0001940C       TXMLDataBindingModuleCreator.GetMainForm
+ 0001:00019410       TXMLDataBindingModuleCreator.GetOwner
+ 0001:0001941C       TXMLDataBindingModuleCreator.GetShowForm
+ 0001:00019420       TXMLDataBindingModuleCreator.GetShowSource
+ 0001:00019424       TXMLDataBindingModuleCreator.GetUnnamed
+ 0001:00019428       TXMLDataBindingModuleCreator.NewFormFile
+ 0001:00019438       TXMLDataBindingModuleCreator.NewImplSource
+ 0001:00019488       TXMLDataBindingModuleCreator.NewIntfSource
+ 0001:00018F70       TXMLDataBindingWizard.AfterSave
+ 0001:00018F74       TXMLDataBindingWizard.BeforeSave
+ 0001:00018F78       TXMLDataBindingWizard.CreateUnits
+ 0001:00018F80       TXMLDataBindingWizard.Destroyed
+ 0001:00018F84       TXMLDataBindingWizard.Execute
+ 0001:00018F90       TXMLDataBindingWizard.GetAuthor
+ 0001:00018FA4       TXMLDataBindingWizard.GetComment
+ 0001:000191C4       TXMLDataBindingWizard.GetDesigner
+ 0001:00018FB8       TXMLDataBindingWizard.GetGlyph
+ 0001:00019014       TXMLDataBindingWizard.GetIDString
+ 0001:00019028       TXMLDataBindingWizard.GetName
+ 0001:0001903C       TXMLDataBindingWizard.GetPage
+ 0001:00019050       TXMLDataBindingWizard.GetState
+ 0001:00019060       TXMLDataBindingWizard.Invoke
+ 0001:0001905C       TXMLDataBindingWizard.Modified
+ 0001:00010B70       TXMLDataTypeBinding.AfterConstruction
+ 0001:00010B9C       TXMLDataTypeBinding.GetRepeated
+ 0001:00010C30       TXMLDataTypeBinding.SetRepeated
+ 0001:00010CD4       TXMLDataTypeBinding.TypeDef
+ 0001:0001185C       TXMLDataTypeListBinding.AfterConstruction
+ 0001:000118F8       TXMLDataTypeListBinding.AncestorClass
+ 0001:00011970       TXMLDataTypeListBinding.AncestorInterface
+ 0001:000119E8       TXMLDataTypeListBinding.ClassIdent
+ 0001:00011A3C       TXMLDataTypeListBinding.CollectionItemName
+ 0001:00011AE8       TXMLDataTypeListBinding.GetIdentifierName
+ 0001:00011B3C       TXMLDataTypeListBinding.GetRepeated
+ 0001:00011B40       TXMLDataTypeListBinding.ItemBindInfo
+ 0001:00011C18       TXMLDataTypeListBinding.PureCollection
+ 0001:0001B484       TXMLDocumentDOMVendorProperty.GetAttributes
+ 0001:0001B504       TXMLDocumentDOMVendorProperty.GetValue
+ 0001:0001B490       TXMLDocumentDOMVendorProperty.GetValues
+ 0001:0001B538       TXMLDocumentDOMVendorProperty.SetValue
+ 0001:0001AD58       TXMLDocumentEditor.AddVerbInfo
+ 0001:0001AD34       TXMLDocumentEditor.AfterConstruction
+ 0001:0001ADB4       TXMLDocumentEditor.Edit
+ 0001:0001AE4C       TXMLDocumentEditor.EditXMLFile
+ 0001:0001B0DC       TXMLDocumentEditor.ExecuteVerb
+ 0001:0001B100       TXMLDocumentEditor.GetVerb
+ 0001:0001B120       TXMLDocumentEditor.GetVerbCount
+ 0001:0001AF34       TXMLDocumentEditor.OpenXMLFile
+ 0001:0001B010       TXMLDocumentEditor.SaveXMLFile
+ 0001:0001B340       TXMLDocumentFileProperty.Edit
+ 0001:0001B334       TXMLDocumentFileProperty.GetAttributes
+ 0001:0001BB64       TXMLDocumentSelectionEditor.RequiresUnits
+ 0001:000170C8       TXMLNewBindingDlg.CanBeDocElement
+ 0001:00014FCC       TXMLNewBindingDlg.CancelButtonClick
+ 0001:000150BC       TXMLNewBindingDlg.CheckIdentifiers
+ 0001:000156A0       TXMLNewBindingDlg.ClearSchemaRefs
+ 0001:00016E68       TXMLNewBindingDlg.ComplexDataTypeDropDown
+ 0001:00017A34       TXMLNewBindingDlg.DocElementTypeClick
+ 0001:00017AF0       TXMLNewBindingDlg.FlagInput
+ 0001:00017858       TXMLNewBindingDlg.FlagMouseInput
+ 0001:000177EC       TXMLNewBindingDlg.FormCloseQuery
+ 0001:000146B0       TXMLNewBindingDlg.FormCreate
+ 0001:0001496C       TXMLNewBindingDlg.FormDestroy
+ 0001:00018574       TXMLNewBindingDlg.GenerateHeaderSource
+ 0001:00017488       TXMLNewBindingDlg.GeneratePageInit
+ 0001:00018324       TXMLNewBindingDlg.GenerateUnitSource
+ 0001:0001786C       TXMLNewBindingDlg.GetDocElementName
+ 0001:00017E94       TXMLNewBindingDlg.HelpDisplayExecute
+ 0001:00017F94       TXMLNewBindingDlg.InitSourceOptions
+ 0001:00014DC8       TXMLNewBindingDlg.InitWizardOptions
+ 0001:00015C50       TXMLNewBindingDlg.ItemTreeAdd
+ 0001:00016DAC       TXMLNewBindingDlg.ItemTreeChange
+ 0001:00016E48       TXMLNewBindingDlg.ItemTreeChanging
+ 0001:0001645C       TXMLNewBindingDlg.ItemTreeExpanding
+ 0001:00015974       TXMLNewBindingDlg.LoadInputFileHistory
+ 0001:00015778       TXMLNewBindingDlg.LoadSource
+ 0001:00015044       TXMLNewBindingDlg.NextPageAfterTabChange
+ 0001:0001506C       TXMLNewBindingDlg.NextPageBeforeTabChange
+ 0001:000175F0       TXMLNewBindingDlg.NextPageFinish
+ 0001:00014FDC       TXMLNewBindingDlg.NextPageValidatePage
+ 0001:00018194       TXMLNewBindingDlg.OptionChanged
+ 0001:00017D3C       TXMLNewBindingDlg.OutputSummarySelectItem
+ 0001:00016758       TXMLNewBindingDlg.ReadBindingInfo
+ 0001:00017B04       TXMLNewBindingDlg.RefreshSelection
+ 0001:00017B38       TXMLNewBindingDlg.RepeatingClick
+ 0001:00015AEC       TXMLNewBindingDlg.SaveInputFileHistory
+ 0001:00017BC8       TXMLNewBindingDlg.SaveSettingFileButtonClick
+ 0001:0001818C       TXMLNewBindingDlg.SchemaSourceChange
+ 0001:0001610C       TXMLNewBindingDlg.SelectionPageInit
+ 0001:00015524       TXMLNewBindingDlg.SelectSchemaButtonClick
+ 0001:00015CDC       TXMLNewBindingDlg.SetBindingType
+ 0001:00016570       TXMLNewBindingDlg.SetBoundStateExecute
+ 0001:00017EB4       TXMLNewBindingDlg.ShowOptionsExecute
+ 0001:00016F38       TXMLNewBindingDlg.SimpleDataTypeDropDown
+ 0001:00017B8C       TXMLNewBindingDlg.StoreButtonClick
+ 0001:000182B4       TXMLNewBindingDlg.UnitName
+ 0001:000165C4       TXMLNewBindingDlg.UpdateListView
+ 0001:00018208       TXMLNewBindingDlg.ValidateIdentifier
+ 0001:000182AC       TXMLNewBindingDlg.ValidateIdentKey
+ 0001:000152FC       TXMLNewBindingDlg.ValidateSelections
+ 0001:00016AA4       TXMLNewBindingDlg.WriteBindingInfo
+ 0001:0001B768       TXMLNodeIndentStrProperty.GetAttributes
+ 0001:0001B774       TXMLNodeIndentStrProperty.GetValue
+ 0001:0001B7C8       TXMLNodeIndentStrProperty.GetValues
+ 0001:0001B628       TXMLNodeIndentStrProperty.LiteralToDesc
+ 0001:0001B8C4       TXMLNodeIndentStrProperty.SetValue
+ 0001:0001BA30       TXMLProperty.GetValue
+ 0001:00011C1C       TXMLPropertyBinding.AfterConstruction
+ 0001:00012068       TXMLPropertyBinding.GetBindingType
+ 0001:00011CA0       TXMLPropertyBinding.GetBound
+ 0001:00011DD0       TXMLPropertyBinding.GetDataType
+ 0001:00011F1C       TXMLPropertyBinding.GetPropReadOnly
+ 0001:00012380       TXMLPropertyBinding.GetSchemaItem
+ 0001:00011FFC       TXMLPropertyBinding.GetSourceType
+ 0001:00012308       TXMLPropertyBinding.IsListProp
+ 0001:00011D1C       TXMLPropertyBinding.ReadDataType
+ 0001:00012128       TXMLPropertyBinding.SetBindingType
+ 0001:00011E6C       TXMLPropertyBinding.SetDataType
+ 0001:00011F58       TXMLPropertyBinding.SetPropReadOnly
+ 0001:00011C48       TXMLPropertyBinding.TypeBindInfo
+ 0001:00010CE8       TXMLSimpleTypeBinding.AfterConstruction
+ 0001:00010D28       TXMLSimpleTypeBinding.GetBindingType
+ 0001:00010D2C       TXMLSimpleTypeBinding.GetDataType
+ 0001:00010DE8       TXMLSimpleTypeBinding.GetIdentifierName
+ 0001:00011064       TXMLSimpleTypeBinding.GetSourceType
+ 0001:00010F00       TXMLSimpleTypeBinding.SetIdentifierName
+ 0001:00010D14       TXMLSimpleTypeBinding.SimpleTypeDef
+ 0002:00001080       UIOptions
+ 0001:000003BC       UninitializeModule
+ 0001:00000F8C       UrlMon
+ 0001:00013784       ValidateIdentifierKey
+ 0002:0000109C       WebModFileName
+ 0001:0000050C       Windows
+ 0001:00000FC4       WinInet
+ 0001:00003528       WinSock
+ 0001:00001124       WinSpool
+ 0001:0001EE40       WriteAddresses
+ 0001:0001EF74       WriteBody
+ 0001:0000C1D4       WriteDelegators
+ 0001:0000C080       WriteGetBody
+ 0001:0000C134       WriteSetBody
+ 0001:00003F10       XMLBindConst
+ 0001:0000E1D8       XMLBindCppGen
+ 0001:00019584       XMLBindExpert
+ 0001:00018700       XMLBindForm
+ 0001:00013450       XMLBindMgr
+ 0001:00013AC4       XMLBindOptions
+ 0001:000087AC       XMLBindPasGen
+ 0002:0000108C       XMLDataBindingWizard
+
+
+  Address         Publics by Value
+
+ 0002:AFC8D000       TlsLast
+ 0001:000002A8       FreeLibrary
+ 0001:000002B0       LocalAlloc
+ 0001:000002B8       LocalFree
+ 0001:000002C0       TlsAlloc
+ 0001:000002C8       TlsFree
+ 0001:000002D0       TlsGetValue
+ 0001:000002D8       TlsSetValue
+ 0001:000002E0       AllocTlsBuffer
+ 0001:000002EC       GetTlsSize
+ 0001:000002F4       InitThreadTLS
+ 0001:00000338       InitProcessTLS
+ 0001:00000364       ExitThreadTLS
+ 0001:0000038C       ExitProcessTLS
+ 0001:000003B0       InitializeModule
+ 0001:000003BC       UninitializeModule
+ 0001:000003E0       @InitPkg
+ 0001:00000444       @PackageLoad
+ 0001:00000450       @PackageUnload
+ 0001:0000045C       Finalization
+ 0001:0000048C       SysInit
+ 0001:00000494       GetFileAttributes
+ 0001:0000049C       GetTempPath
+ 0001:000004A4       GetTimeZoneInformation
+ 0001:000004AC       LoadIcon
+ 0001:000004B4       PeekMessage
+ 0001:000004BC       PostMessage
+ 0001:000004C4       SendMessage
+ 0001:000004CC       Succeeded
+ 0001:000004DC       Finalization
+ 0001:0000050C       Windows
+ 0001:00000524       Finalization
+ 0001:00000554       Messages
+ 0001:00000BF4       Finalization
+ 0001:00000C24       CommCtrl
+ 0001:00000DB4       Finalization
+ 0001:00000DE4       Imm
+ 0001:00000F24       Finalization
+ 0001:00000F54       ShlObj
+ 0001:00000F5C       Finalization
+ 0001:00000F8C       UrlMon
+ 0001:00000F94       Finalization
+ 0001:00000FC4       WinInet
+ 0001:00000FCC       Finalization
+ 0001:00000FFC       RegStr
+ 0001:00001004       Finalization
+ 0001:00001034       ShellAPI
+ 0001:000010F4       Finalization
+ 0001:00001124       WinSpool
+ 0001:0000112C       Finalization
+ 0001:0000115C       CommDlg
+ 0001:00001164       Finalization
+ 0001:00001194       Dlgs
+ 0001:000011DC       Finalization
+ 0001:0000120C       RichEdit
+ 0001:000013BC       Finalization
+ 0001:000013EC       MMSystem
+ 0001:00001CC4       Finalization
+ 0001:00001CF4       NetConst
+ 0001:00002394       ShowHTMLTableEditor
+ 0001:000023E0       THTMLDSTableProducerEditor.Create
+ 0001:00002430       THTMLDSTableProducerEditor.Destroy
+ 0001:00002464       THTMLDSTableProducerEditor.Changed
+ 0001:00002498       THTMLDSTableProducerEditor.PostChange
+ 0001:000024AC       THTMLTableEditor.AddAllFieldsClick
+ 0001:0000269C       THTMLTableEditor.CMPostChange
+ 0001:000026C0       THTMLTableEditor.ItemsModified
+ 0001:000026DC       THTMLTableEditor.SetHTMLContent
+ 0001:000027DC       THTMLTableEditor.UpdateHTMLView
+ 0001:00002988       THTMLTableEditor.FormCreate
+ 0001:00002B10       THTMLTableEditor.FormDestroy
+ 0001:00002B3C       THTMLTableEditor.GetDataSet
+ 0001:00002B6C       THTMLTableEditor.PostChange
+ 0001:00002BB0       THTMLTableEditor.TableDataChanged
+ 0001:00002BB8       THTMLTableEditor.TableDataClicked
+ 0001:00002BC8       THTMLTableEditor.TableDataKeyPress
+ 0001:00002CA0       THTMLTableEditor.TableDataExit
+ 0001:00002CEC       THTMLTableEditor.UpdateTableAttributes
+ 0001:00002DC8       THTMLTableEditor.UpdateTableComponent
+ 0001:00002F70       THTMLTableEditor.FormShow
+ 0001:00002F9C       THTMLTableEditor.RestoreDefaultsClick
+ 0001:00003068       THTMLTableEditor.AddAllFieldsCmdUpdate
+ 0001:00003098       THTMLTableEditor.RestoreDefaultsCmdUpdate
+ 0001:000030C0       THTMLTableEditor.HTMLDocument2
+ 0001:00003160       THTMLTableEditor.SelectionUpdate
+ 0001:000031C0       THTMLTableEditor.ActionCheckCompleteUpdate
+ 0001:00003268       Finalization
+ 0001:000032B0       HtColEdt
+ 0001:000034F8       Finalization
+ 0001:00003528       WinSock
+ 0001:00003604       TSocketPortProperty.GetDatabasePath
+ 0001:0000376C       TSocketPortProperty.GetAttributes
+ 0001:00003778       Eol
+ 0001:00003794       NextChar
+ 0001:000037B4       NextToken
+ 0001:0000391C       TSocketPortProperty.GetValues
+ 0001:00003A90       Finalization
+ 0001:00003AC0       SocketsEditor
+ 0001:00003EE0       Finalization
+ 0001:00003F10       XMLBindConst
+ 0001:000053D0       TPasCodeWriter.WriteComment
+ 0001:00005430       TPasCodeWriter.WriteDeclComment
+ 0001:0000543C       TPasCodeWriter.WriteMethodBody
+ 0001:000054B8       TPasCodeWriter.WriteFunction
+ 0001:00005554       TPasCodeWriter.WriteFunction
+ 0001:0000567C       TPasCodeWriter.WriteGetMethod
+ 0001:00005768       TPasCodeWriter.WriteSetMethod
+ 0001:00005840       TPasCodeWriter.WriteDataProperty
+ 0001:00005974       TPasCodeWriter.WriteProperty
+ 0001:00005B1C       TPasCodeWriter.WriteDataMember
+ 0001:00005B6C       TPasCodeWriter.WriteAfterConstruction
+ 0001:00005C0C       TPasCodeWriter.WriteGetBindFunc
+ 0001:00005C78       TPasCodeWriter.WriteLoadBindFunc
+ 0001:00005CF0       TPasCodeWriter.WriteNewBindFunc
+ 0001:00005D48       TPasCodeWriter.WriteClassDecl
+ 0001:00005E00       TPasCodeWriter.WriteIntfDecl
+ 0001:00005E58       TPasCodeWriter.WriteGuid
+ 0001:00005EE0       TPasCodeWriter.WriteCollCreate
+ 0001:00005F70       TPasCodeWriter.WriteCollGetItem
+ 0001:00006094       TPasCodeWriter.WriteCollItemInit
+ 0001:0000611C       TPasCodeWriter.WriteCollItemProp
+ 0001:000061E8       TPasCodeWriter.WriteRegisterChildNode
+ 0001:0000624C       TForwardDecl.AfterConstruction
+ 0001:000062A8       TPasPropertyContainer.Destroy
+ 0001:000062F0       TPasPropertyContainer.Generate
+ 0001:0000634C       TPasPropertyContainer.AppendCode
+ 0001:00006380       TPasPropertyContainer.AppendCode
+ 0001:0000639C       TPasPropertyContainer.InitCodeWriters
+ 0001:000064C0       TPasPropertyContainer.WriteMethods
+ 0001:00006568       TPasPropertyContainer.WriteListBinding
+ 0001:0000656C       TPasPropertyContainer.WriteCollectionMethods
+ 0001:00006610       TPasPropertyContainer.WriteCollAdd
+ 0001:00006754       TPasPropertyContainer.WriteCollInsert
+ 0001:000068E8       TPasPropertyContainer.WriteProperties
+ 0001:00006AA0       TPasPropertyContainer.WriteProperty
+ 0001:00006AA4       TPasIntfSectionEntry.Generate
+ 0001:00006AEC       TPasIntfSectionEntry.WriteDecl
+ 0001:00006B40       TPasIntfSectionEntry.WriteEnd
+ 0001:00006B60       TPasIntfForward.Generate
+ 0001:00006BE4       TPasIntfDecl.WriteDecl
+ 0001:00006CF0       TPasIntfDecl.WriteProperty
+ 0001:00006DC8       TPasIntfDecl.WriteListBinding
+ 0001:00006E38       TPasClassForward.Generate
+ 0001:00006EB8       TPasClassDecl.WriteDecl
+ 0001:00007014       TPasClassDecl.WriteProperty
+ 0001:0000710C       TPasClassDecl.WriteProperties
+ 0001:00007144       TPasClassDecl.WriteListBinding
+ 0001:00007158       PadLine
+ 0001:000071E0       GenerateUnitComment
+ 0001:00007470       TPasClassImpl.Generate
+ 0001:00007570       TPasClassImpl.WriteAddItem
+ 0001:00007700       TPasClassImpl.WriteCollAdd
+ 0001:0000777C       TPasClassImpl.WriteCollInsert
+ 0001:000077FC       TPasClassImpl.WriteListBinding
+ 0001:0000790C       TPasClassImpl.WriteProperty
+ 0001:00007ED8       TPasClassImpl.WriteRegistrationCode
+ 0001:000080BC       TPasGlobalDecl.Generate
+ 0001:0000814C       TPasGlobalDecl.GenerateGetBinding
+ 0001:000081D4       TPasGlobalDecl.GenerateLoadBinding
+ 0001:0000825C       TPasGlobalDecl.GenerateNewBinding
+ 0001:000082E4       TPasGlobalImpl.GenerateGetBinding
+ 0001:000083D8       TPasGlobalImpl.GenerateLoadBinding
+ 0001:000084E8       TPasGlobalImpl.GenerateNewBinding
+ 0001:000085F0       TPasTargetNSDecl.Generate
+ 0001:000086E4       Finalization
+ 0001:000087AC       XMLBindPasGen
+ 0001:00009C58       PadLine
+ 0001:00009CE0       GenerateCPPUnitComment
+ 0001:00009F70       TCppCodeWriter.WriteComment
+ 0001:00009FD0       TCppCodeWriter.WriteDeclComment
+ 0001:00009FDC       TCppCodeWriter.WriteMethodBody
+ 0001:0000A050       TCppCodeWriter.WriteFunction
+ 0001:0000A114       TCppCodeWriter.WriteFunction
+ 0001:0000A240       TCppCodeWriter.WriteGetMethod
+ 0001:0000A34C       TCppCodeWriter.WriteSetMethod
+ 0001:0000A450       TCppCodeWriter.WriteDataProperty
+ 0001:0000A588       TCppCodeWriter.WriteProperty
+ 0001:0000A738       TCppCodeWriter.WriteDataMember
+ 0001:0000A784       TCppCodeWriter.WriteAfterConstruction
+ 0001:0000A83C       TCppCodeWriter.WriteClassDecl
+ 0001:0000A900       TCppCodeWriter.WriteIntfDecl
+ 0001:0000A97C       TCppCodeWriter.WriteCollCreate
+ 0001:0000AA1C       TCppCodeWriter.WriteCollGetItem
+ 0001:0000AB58       TCppCodeWriter.WriteCollItemInit
+ 0001:0000ABE4       TCppCodeWriter.WriteCollItemProp
+ 0001:0000ACB8       TCppCodeWriter.WriteRegisterChildNode
+ 0001:0000AD30       TForwardDecl.AfterConstruction
+ 0001:0000AD8C       TCppPropertyContainer.AfterConstruction
+ 0001:0000ADD4       TCppPropertyContainer.Destroy
+ 0001:0000AE1C       TCppPropertyContainer.Generate
+ 0001:0000AE78       TCppPropertyContainer.AppendCode
+ 0001:0000AEAC       TCppPropertyContainer.AppendCode
+ 0001:0000AEC8       TCppPropertyContainer.InitCodeWriters
+ 0001:0000B024       TCppPropertyContainer.WriteMethods
+ 0001:0000B0CC       TCppPropertyContainer.WriteListBinding
+ 0001:0000B0D0       TCppPropertyContainer.WriteCollectionMethods
+ 0001:0000B1F4       TCppPropertyContainer.WriteCollAdd
+ 0001:0000B36C       TCppPropertyContainer.WriteCollInsert
+ 0001:0000B520       TCppPropertyContainer.WriteProperties
+ 0001:0000B6D8       TCppPropertyContainer.WriteProperty
+ 0001:0000B6DC       TCppIntfSectionEntry.Generate
+ 0001:0000B72C       TCppIntfSectionEntry.WriteDecl
+ 0001:0000B780       TCppIntfSectionEntry.WriteEnd
+ 0001:0000B79C       TCppIntfSectionEntry.WriteTypeDef
+ 0001:0000B7A0       TCppIntfForward.Generate
+ 0001:0000B888       TCppIntfDecl.AfterConstruction
+ 0001:0000B8B4       TCppIntfDecl.WriteDecl
+ 0001:0000BA1C       TCppIntfDecl.WriteProperty
+ 0001:0000BB5C       TCppIntfDecl.WriteListBinding
+ 0001:0000BC44       TCppClassForward.Generate
+ 0001:0000BCC4       TCppClassDecl.WriteDecl
+ 0001:0000BF08       TCppClassDecl.WriteProperty
+ 0001:0000C080       WriteGetBody
+ 0001:0000C134       WriteSetBody
+ 0001:0000C1D4       WriteDelegators
+ 0001:0000C368       TCppClassDecl.WriteAncestorDelegators
+ 0001:0000C8BC       TCppClassDecl.WriteProperties
+ 0001:0000C8E8       TCppClassDecl.WriteListBinding
+ 0001:0000C8FC       TCppClassDecl.WriteTypeDef
+ 0001:0000C904       TCppClassImpl.AfterConstruction
+ 0001:0000C920       TCppClassImpl.Generate
+ 0001:0000CA20       TCppClassImpl.WriteAddItem
+ 0001:0000CC44       TCppClassImpl.WriteCollAdd
+ 0001:0000CCC4       TCppClassImpl.WriteCollInsert
+ 0001:0000CD48       TCppClassImpl.WriteListBinding
+ 0001:0000CEA4       TCppClassImpl.WriteProperty
+ 0001:0000D564       TCppClassImpl.WriteRegistrationCode
+ 0001:0000D764       TCppGlobalDecl.AfterConstruction
+ 0001:0000D794       TCppGlobalDecl.Generate
+ 0001:0000D830       TCppGlobalDecl.GenerateGetBinding
+ 0001:0000D91C       TCppGlobalDecl.GenerateGetBinding2
+ 0001:0000DA08       TCppGlobalDecl.GenerateLoadBinding
+ 0001:0000DAFC       TCppGlobalDecl.GenerateNewBinding
+ 0001:0000DBD8       TCppGlobalImpl.AfterConstruction
+ 0001:0000DBEC       TCppGlobalImpl.GenerateGetBinding
+ 0001:0000DCF0       TCppGlobalImpl.GenerateGetBinding2
+ 0001:0000DDE8       TCppGlobalImpl.GenerateLoadBinding
+ 0001:0000DF08       TCppGlobalImpl.GenerateNewBinding
+ 0001:0000E020       TCppTargetNSDecl.Generate
+ 0001:0000E0FC       Finalization
+ 0001:0000E1D8       XMLBindCppGen
+ 0001:0000F9AC       GetValidIdent
+ 0001:0000F9C8       IsStringType
+ 0001:0000FA14       MakeValidIdent
+ 0001:0000FA84       TBindingOptions.Create
+ 0001:0000FAF0       TBindingOptions.Destroy
+ 0001:0000FB48       TBindingOptions.Assign
+ 0001:0000FC58       TBindingOptions.AssignTo
+ 0001:0000FC88       TBindingOptions.DoOptionChange
+ 0001:0000FCA4       TBindingOptions.EnsureOption
+ 0001:0000FD6C       TBindingOptions.GetOption
+ 0001:0000FE18       TBindingOptions.GetOptionValue
+ 0001:0000FE78       TBindingOptions.SetOption
+ 0001:0000FF40       TBindingOptions.GetOptionData
+ 0001:0000FF60       TBindingOptions.SetOptionData
+ 0001:0000FF84       TBindingOptions.InitializeOptions
+ 0001:0000FFA8       TBindingOptions.InitializeOptions
+ 0001:0001001C       TBindingOptions.Clear
+ 0001:0001007C       TBindingOptions.IsTrue
+ 0001:000100F4       TXMLBindingAppInfo.GetValue
+ 0001:00010110       TXMLBindingAppInfo.SetValue
+ 0001:00010198       TXMLBindingAppInfo.HasValueFor
+ 0001:000101A4       TXMLBindingAppInfo.RemoveValue
+ 0001:000101F8       TXMLBindingAppInfo.GetPropReadOnly
+ 0001:00010228       TXMLBindingAppInfo.SetPropReadOnly
+ 0001:00010250       TXMLBindingAppInfo.GetBindingAppInfoURI
+ 0001:00010264       TXMLBindingAppInfo.SetBindingAppInfoURI
+ 0001:00010278       TXMLBindingAppInfo.GetBound
+ 0001:000102A0       TXMLBindingAppInfo.SetBound
+ 0001:000102C0       TXMLBindingAppInfo.GetIdentifierName
+ 0001:000102FC       TXMLBindingAppInfo.SetIdentifierName
+ 0001:00010330       TXMLBindingAppInfo.GetDocElement
+ 0001:00010364       TXMLBindingAppInfo.SetDocElement
+ 0001:00010390       TXMLBindingAppInfo.GetDataType
+ 0001:000103C0       TXMLBindingAppInfo.SetDataType
+ 0001:000103E8       TXMLBindingAppInfo.GetRepeated
+ 0001:00010418       TXMLBindingAppInfo.SetRepeated
+ 0001:00010440       TXMLBindingInfo.Create
+ 0001:00010494       TXMLBindingInfo.HasAppInfo
+ 0001:00010520       TXMLBindingInfo.GetBindingAppInfo
+ 0001:000105E4       TXMLBindingInfo.RemoveAppInfo
+ 0001:000106D8       TXMLBindingInfo.MakeIdentifier
+ 0001:00010754       TXMLBindingInfo.GetDocumentation
+ 0001:0001076C       TXMLBindingInfo.SetDocumentation
+ 0001:00010890       TXMLBindingInfo.GetIdentifierName
+ 0001:00010930       TXMLBindingInfo.SetIdentifierName
+ 0001:000109E4       TXMLBindingInfo.GetSourceName
+ 0001:00010A38       TXMLBindingInfo.GetBound
+ 0001:00010AC8       TXMLBindingInfo.SetBound
+ 0001:00010B68       TXMLBindingInfo.SetDataType
+ 0001:00010B6C       TXMLBindingInfo.SetBindingType
+ 0001:00010B70       TXMLDataTypeBinding.AfterConstruction
+ 0001:00010B9C       TXMLDataTypeBinding.GetRepeated
+ 0001:00010C30       TXMLDataTypeBinding.SetRepeated
+ 0001:00010CD4       TXMLDataTypeBinding.TypeDef
+ 0001:00010CE8       TXMLSimpleTypeBinding.AfterConstruction
+ 0001:00010D14       TXMLSimpleTypeBinding.SimpleTypeDef
+ 0001:00010D28       TXMLSimpleTypeBinding.GetBindingType
+ 0001:00010D2C       TXMLSimpleTypeBinding.GetDataType
+ 0001:00010DE8       TXMLSimpleTypeBinding.GetIdentifierName
+ 0001:00010F00       TXMLSimpleTypeBinding.SetIdentifierName
+ 0001:00011064       TXMLSimpleTypeBinding.GetSourceType
+ 0001:000110F0       TXMLComplexTypeBinding.AfterConstruction
+ 0001:00011124       TXMLComplexTypeBinding.MakeIdentifier
+ 0001:000111D4       TXMLComplexTypeBinding.BaseBindingInfo
+ 0001:00011258       TXMLComplexTypeBinding.HasComplexBase
+ 0001:0001127C       TXMLComplexTypeBinding.AncestorClass
+ 0001:00011390       TXMLComplexTypeBinding.AncestorInterface
+ 0001:00011488       TXMLComplexTypeBinding.ClassIdent
+ 0001:00011538       TXMLComplexTypeBinding.ComplexTypeDef
+ 0001:0001154C       TXMLComplexTypeBinding.GetDataType
+ 0001:00011560       TXMLComplexTypeBinding.GetDocElementName
+ 0001:000115F8       TXMLComplexTypeBinding.SetDocElementName
+ 0001:00011694       TXMLComplexTypeBinding.IsDocElement
+ 0001:000116E8       TXMLComplexTypeBinding.GetSourceType
+ 0001:0001176C       TXMLComplexTypeBinding.GetBindingType
+ 0001:00011770       TXMLComplexTypeBinding.PureCollection
+ 0001:0001180C       TXMLComplexTypeBinding.CollectionItemName
+ 0001:0001185C       TXMLDataTypeListBinding.AfterConstruction
+ 0001:000118F8       TXMLDataTypeListBinding.AncestorClass
+ 0001:00011970       TXMLDataTypeListBinding.AncestorInterface
+ 0001:000119E8       TXMLDataTypeListBinding.ClassIdent
+ 0001:00011A3C       TXMLDataTypeListBinding.CollectionItemName
+ 0001:00011AE8       TXMLDataTypeListBinding.GetIdentifierName
+ 0001:00011B3C       TXMLDataTypeListBinding.GetRepeated
+ 0001:00011B40       TXMLDataTypeListBinding.ItemBindInfo
+ 0001:00011B94       TXMLComplexTypeBinding.CollectionItem
+ 0001:00011C18       TXMLDataTypeListBinding.PureCollection
+ 0001:00011C1C       TXMLPropertyBinding.AfterConstruction
+ 0001:00011C48       TXMLPropertyBinding.TypeBindInfo
+ 0001:00011CA0       TXMLPropertyBinding.GetBound
+ 0001:00011D1C       TXMLPropertyBinding.ReadDataType
+ 0001:00011DD0       TXMLPropertyBinding.GetDataType
+ 0001:00011E6C       TXMLPropertyBinding.SetDataType
+ 0001:00011F1C       TXMLPropertyBinding.GetPropReadOnly
+ 0001:00011F58       TXMLPropertyBinding.SetPropReadOnly
+ 0001:00011FFC       TXMLPropertyBinding.GetSourceType
+ 0001:00012068       TXMLPropertyBinding.GetBindingType
+ 0001:00012128       TXMLPropertyBinding.SetBindingType
+ 0001:0001222C       OwningTypePure
+ 0001:00012308       TXMLPropertyBinding.IsListProp
+ 0001:00012380       TXMLPropertyBinding.GetSchemaItem
+ 0001:00012394       TXMLBindingManager.AfterConstruction
+ 0001:000124D4       TXMLBindingManager.Destroy
+ 0001:0001250C       AddDataType
+ 0001:00012730       CheckOrderDependencies
+ 0001:00012864       TXMLBindingManager.GetBindableItems
+ 0001:00012A74       TXMLBindingManager.GetBindingInfo
+ 0001:00012B2C       TXMLBindingManager.GetBindingInfo
+ 0001:00012C14       TXMLBindingManager.GetBindingInfo
+ 0001:00012C48       TXMLBindingManager.GetBindingInfo
+ 0001:00012C7C       TXMLBindingManager.GetListBindingInfo
+ 0001:00012CB0       TXMLBindingManager.SchemaTypeToNativeType
+ 0001:00012D94       TXMLBindingManager.DoIdentifierCheck
+ 0001:00012DA8       CreateCodeWriters
+ 0001:00012E10       FreeCodeWriters
+ 0001:00012E4C       DoGenerate
+ 0001:00012EF0       TXMLBindingManager.GenerateBinding
+ 0001:0001308C       TXMLBindingManager.GenerateBinding
+ 0001:00013108       TXMLBindingManager.GetBindingAppInfoURI
+ 0001:0001311C       TXMLBindingManager.GetCodeGenOptions
+ 0001:00013120       TXMLBindingManager.GetNativeTypeMap
+ 0001:00013124       TXMLBindingManager.SetBindingAppInfoURI
+ 0001:00013138       TXMLBindingManager.SetOnIdentifierCheck
+ 0001:0001314C       TXMLBindingManager.GetClassNameStr
+ 0001:00013160       TXMLBindingManager.SetClassNameStr
+ 0001:00013174       TCodeWriter.Create
+ 0001:000131F0       TCodeWriter.Changed
+ 0001:00013200       TCodeWriter.PropGetPrefix
+ 0001:00013278       TCodeWriter.PropSetPrefix
+ 0001:000132F0       TCodeWriter.Generate
+ 0001:000132F4       TCodeWriter.WriteLine
+ 0001:000132FC       TCodeWriter.Write
+ 0001:00013394       TCodeWriter.Write
+ 0001:000133A4       SetBindingLanguage
+ 0001:00013414       Finalization
+ 0001:00013450       XMLBindMgr
+ 0001:00013784       ValidateIdentifierKey
+ 0001:000137D0       TOptionsForm.FormCreate
+ 0001:0001380C       TOptionsForm.FormShow
+ 0001:00013814       TOptionsForm.CheckForChanges
+ 0001:00013844       SetCurrentList
+ 0001:000138C0       TOptionsForm.CategoryListClick
+ 0001:000139E4       TOptionsForm.ValueListEditorStringsChange
+ 0001:000139EC       TOptionsForm.FormCloseQuery
+ 0001:000139F4       TOptionsForm.HelpBtnClick
+ 0001:00013A0C       TOptionsForm.ValueListEditorKeyPress
+ 0001:00013A14       TOptionsForm.ValueListEditorSetEditText
+ 0001:00013A34       TOptionsForm.ValueListEditorValidate
+ 0001:00013A94       Finalization
+ 0001:00013AC4       XMLBindOptions
+ 0001:00014568       QDialogExecute
+ 0001:00014570       SetImageIndex
+ 0001:00014594       ConfirmDlg
+ 0001:000145F4       HasChildren
+ 0001:000146A8       CreateGuid
+ 0001:000146B0       TXMLNewBindingDlg.FormCreate
+ 0001:0001496C       TXMLNewBindingDlg.FormDestroy
+ 0001:00014AA8       LoadOptions
+ 0001:00014B24       AssignOptDesc
+ 0001:00014B68       AssignCodeGenDescs
+ 0001:00014DC8       TXMLNewBindingDlg.InitWizardOptions
+ 0001:00014FCC       TXMLNewBindingDlg.CancelButtonClick
+ 0001:00014FDC       TXMLNewBindingDlg.NextPageValidatePage
+ 0001:00015044       TXMLNewBindingDlg.NextPageAfterTabChange
+ 0001:0001506C       TXMLNewBindingDlg.NextPageBeforeTabChange
+ 0001:000150BC       TXMLNewBindingDlg.CheckIdentifiers
+ 0001:000152FC       TXMLNewBindingDlg.ValidateSelections
+ 0001:00015524       TXMLNewBindingDlg.SelectSchemaButtonClick
+ 0001:000156A0       TXMLNewBindingDlg.ClearSchemaRefs
+ 0001:000156D8       LoadSchemaDoc
+ 0001:00015778       TXMLNewBindingDlg.LoadSource
+ 0001:00015974       TXMLNewBindingDlg.LoadInputFileHistory
+ 0001:00015AEC       TXMLNewBindingDlg.SaveInputFileHistory
+ 0001:00015C50       TXMLNewBindingDlg.ItemTreeAdd
+ 0001:00015CDC       TXMLNewBindingDlg.SetBindingType
+ 0001:00015D34       AddCategory
+ 0001:00015D68       AddComplexTypes
+ 0001:00015F08       AddSimpleTypes
+ 0001:0001610C       TXMLNewBindingDlg.SelectionPageInit
+ 0001:00016224       GetElementType
+ 0001:000162AC       AddElementDefs
+ 0001:0001645C       TXMLNewBindingDlg.ItemTreeExpanding
+ 0001:00016570       TXMLNewBindingDlg.SetBoundStateExecute
+ 0001:000165C4       TXMLNewBindingDlg.UpdateListView
+ 0001:00016714       ToggleSimpleState
+ 0001:00016758       TXMLNewBindingDlg.ReadBindingInfo
+ 0001:00016AA4       TXMLNewBindingDlg.WriteBindingInfo
+ 0001:00016DAC       TXMLNewBindingDlg.ItemTreeChange
+ 0001:00016E48       TXMLNewBindingDlg.ItemTreeChanging
+ 0001:00016E68       TXMLNewBindingDlg.ComplexDataTypeDropDown
+ 0001:00016F38       TXMLNewBindingDlg.SimpleDataTypeDropDown
+ 0001:00016FB8       IsTypeUsedBy
+ 0001:000170C8       TXMLNewBindingDlg.CanBeDocElement
+ 0001:000172E0       InitOutputSummary
+ 0001:00017488       TXMLNewBindingDlg.GeneratePageInit
+ 0001:0001759C       SaveSettings
+ 0001:000175F0       TXMLNewBindingDlg.NextPageFinish
+ 0001:000177EC       TXMLNewBindingDlg.FormCloseQuery
+ 0001:00017858       TXMLNewBindingDlg.FlagMouseInput
+ 0001:0001786C       TXMLNewBindingDlg.GetDocElementName
+ 0001:00017A34       TXMLNewBindingDlg.DocElementTypeClick
+ 0001:00017AF0       TXMLNewBindingDlg.FlagInput
+ 0001:00017B04       TXMLNewBindingDlg.RefreshSelection
+ 0001:00017B38       TXMLNewBindingDlg.RepeatingClick
+ 0001:00017B8C       TXMLNewBindingDlg.StoreButtonClick
+ 0001:00017BC8       TXMLNewBindingDlg.SaveSettingFileButtonClick
+ 0001:00017D3C       TXMLNewBindingDlg.OutputSummarySelectItem
+ 0001:00017E94       TXMLNewBindingDlg.HelpDisplayExecute
+ 0001:00017EB4       TXMLNewBindingDlg.ShowOptionsExecute
+ 0001:00017F94       TXMLNewBindingDlg.InitSourceOptions
+ 0001:0001818C       TXMLNewBindingDlg.SchemaSourceChange
+ 0001:00018194       TXMLNewBindingDlg.OptionChanged
+ 0001:00018208       TXMLNewBindingDlg.ValidateIdentifier
+ 0001:000182AC       TXMLNewBindingDlg.ValidateIdentKey
+ 0001:000182B4       TXMLNewBindingDlg.UnitName
+ 0001:00018324       TXMLNewBindingDlg.GenerateUnitSource
+ 0001:00018574       TXMLNewBindingDlg.GenerateHeaderSource
+ 0001:000186B0       Finalization
+ 0001:00018700       XMLBindForm
+ 0001:00018C4C       GetActiveProjectGroup
+ 0001:00018D14       GetActiveProject
+ 0001:00018D6C       GetNewModuleName
+ 0001:00018EBC       TOTAFile.Create
+ 0001:00018F08       TOTAFile.GetSource
+ 0001:00018F1C       TOTAFile.GetAge
+ 0001:00018F34       StringToIOTAFile
+ 0001:00018F70       TXMLDataBindingWizard.AfterSave
+ 0001:00018F74       TXMLDataBindingWizard.BeforeSave
+ 0001:00018F78       TXMLDataBindingWizard.CreateUnits
+ 0001:00018F80       TXMLDataBindingWizard.Destroyed
+ 0001:00018F84       TXMLDataBindingWizard.Execute
+ 0001:00018F90       TXMLDataBindingWizard.GetAuthor
+ 0001:00018FA4       TXMLDataBindingWizard.GetComment
+ 0001:00018FB8       TXMLDataBindingWizard.GetGlyph
+ 0001:00019014       TXMLDataBindingWizard.GetIDString
+ 0001:00019028       TXMLDataBindingWizard.GetName
+ 0001:0001903C       TXMLDataBindingWizard.GetPage
+ 0001:00019050       TXMLDataBindingWizard.GetState
+ 0001:0001905C       TXMLDataBindingWizard.Modified
+ 0001:00019060       TXMLDataBindingWizard.Invoke
+ 0001:000191C4       TXMLDataBindingWizard.GetDesigner
+ 0001:000191E4       TXMLDataBindingModuleCreator.Create
+ 0001:00019288       TXMLDataBindingModuleCreator.CheckCLXProject
+ 0001:00019330       TXMLDataBindingModuleCreator.FormCreated
+ 0001:00019334       TXMLDataBindingModuleCreator.GetAncestorName
+ 0001:00019340       TXMLDataBindingModuleCreator.GetCreatorType
+ 0001:00019364       TXMLDataBindingModuleCreator.GetExisting
+ 0001:00019368       TXMLDataBindingModuleCreator.GetFileSystem
+ 0001:00019374       TXMLDataBindingModuleCreator.GetFormName
+ 0001:00019380       TXMLDataBindingModuleCreator.GetImplFileName
+ 0001:00019400       TXMLDataBindingModuleCreator.GetIntfFileName
+ 0001:0001940C       TXMLDataBindingModuleCreator.GetMainForm
+ 0001:00019410       TXMLDataBindingModuleCreator.GetOwner
+ 0001:0001941C       TXMLDataBindingModuleCreator.GetShowForm
+ 0001:00019420       TXMLDataBindingModuleCreator.GetShowSource
+ 0001:00019424       TXMLDataBindingModuleCreator.GetUnnamed
+ 0001:00019428       TXMLDataBindingModuleCreator.NewFormFile
+ 0001:00019438       TXMLDataBindingModuleCreator.NewImplSource
+ 0001:00019488       TXMLDataBindingModuleCreator.NewIntfSource
+ 0001:000194D8       Register
+ 0001:00019540       Finalization
+ 0001:00019584       XMLBindExpert
+ 0001:0001A5A0       THTMLBgColorProperty.Edit
+ 0001:0001A678       THTMLBgColorProperty.GetAttributes
+ 0001:0001A698       THTMLBgColorProperty.GetValues
+ 0001:0001A6BC       THTMLTableColumnsEditor.Edit
+ 0001:0001A720       THTMLTableColumnsEditor.GetAttributes
+ 0001:0001A72C       TWebActionItemEventProperty.GetFormMethodName
+ 0001:0001A814       THTMLFilePropertyEditor.Edit
+ 0001:0001A914       THTMLFilePropertyEditor.GetAttributes
+ 0001:0001A920       THTTPDispatcherComponentEditor.Edit
+ 0001:0001A988       THTTPDispatcherComponentEditor.ExecuteVerb
+ 0001:0001A994       THTTPDispatcherComponentEditor.GetVerb
+ 0001:0001A9B4       THTTPDispatcherComponentEditor.GetVerbCount
+ 0001:0001A9BC       THTMLDSTableProducerEditor.Edit
+ 0001:0001AA20       THTMLDSTableProducerEditor.ExecuteVerb
+ 0001:0001AA2C       THTMLDSTableProducerEditor.GetVerb
+ 0001:0001AA4C       THTMLDSTableProducerEditor.GetVerbCount
+ 0001:0001AA54       THTMLDSTableColumnFieldEditor.GetAttributes
+ 0001:0001AA60       THTMLDSTableColumnFieldEditor.GetValues
+ 0001:0001AB4C       TPageProducerSprig.AnyProblems
+ 0001:0001ABB4       TDataSetPageProducerSprig.AnyProblems
+ 0001:0001ABD8       TDataSetPageProducerSprig.ParentProperty
+ 0001:0001ABFC       TDSTableProducerSprig.AnyProblems
+ 0001:0001AC10       TQueryTableProducerSprig.ParentProperty
+ 0001:0001AC34       TDataSetTableProducerSprig.ParentProperty
+ 0001:0001AD34       TXMLDocumentEditor.AfterConstruction
+ 0001:0001AD58       TXMLDocumentEditor.AddVerbInfo
+ 0001:0001ADB4       TXMLDocumentEditor.Edit
+ 0001:0001AE4C       TXMLDocumentEditor.EditXMLFile
+ 0001:0001AF34       TXMLDocumentEditor.OpenXMLFile
+ 0001:0001B010       TXMLDocumentEditor.SaveXMLFile
+ 0001:0001B0DC       TXMLDocumentEditor.ExecuteVerb
+ 0001:0001B100       TXMLDocumentEditor.GetVerb
+ 0001:0001B120       TXMLDocumentEditor.GetVerbCount
+ 0001:0001B334       TXMLDocumentFileProperty.GetAttributes
+ 0001:0001B340       TXMLDocumentFileProperty.Edit
+ 0001:0001B484       TXMLDocumentDOMVendorProperty.GetAttributes
+ 0001:0001B490       TXMLDocumentDOMVendorProperty.GetValues
+ 0001:0001B504       TXMLDocumentDOMVendorProperty.GetValue
+ 0001:0001B538       TXMLDocumentDOMVendorProperty.SetValue
+ 0001:0001B628       TXMLNodeIndentStrProperty.LiteralToDesc
+ 0001:0001B768       TXMLNodeIndentStrProperty.GetAttributes
+ 0001:0001B774       TXMLNodeIndentStrProperty.GetValue
+ 0001:0001B7C8       TXMLNodeIndentStrProperty.GetValues
+ 0001:0001B8C4       TXMLNodeIndentStrProperty.SetValue
+ 0001:0001BA30       TXMLProperty.GetValue
+ 0001:0001BB64       TXMLDocumentSelectionEditor.RequiresUnits
+ 0001:0001BBA4       TDesignerFileManager.ProjectPath
+ 0001:0001BCCC       TDesignerFileManager.QualifyFileName
+ 0001:0001BD50       TDesignerFileManager.FindEditor
+ 0001:0001BE5C       TDesignerFileManager.ReadEditor
+ 0001:0001BF60       TDesignerFileManager.GetStream
+ 0001:0001BFC8       TInterfaceComponentProperty.RcvComponentNames
+ 0001:0001C00C       TInterfaceComponentProperty.SupportsInterface
+ 0001:0001C07C       TInterfaceComponentProperty.GetValues
+ 0001:0001C0E8       TInterfaceComponentProperty.SetValue
+ 0001:0001C134       TProducerIntfProperty.GetGuid
+ 0001:0001C15C       Register
+ 0001:0001C590       Finalization
+ 0001:0001C5CC       InetReg
+ 0001:0001C9C4       GetSourceFromTemplate
+ 0001:0001CA80       ExtractStringValue
+ 0001:0001CAD0       GetSourceFromTemplate
+ 0001:0001CCA8       Finalization
+ 0001:0001CCF8       InetSource
+ 0001:0001D1AC       TNewWebAppForm.HelpButtonClick
+ 0001:0001D1C4       TNewWebAppForm.EnableActionExecute
+ 0001:0001D1C8       TNewWebAppForm.EnableActionUpdate
+ 0001:0001D1EC       TNewWebAppForm.ProjectType
+ 0001:0001D264       TNewWebAppForm.EnableCrossPlatform
+ 0001:0001D2A4       TNewWebAppForm.EnableCoClassName
+ 0001:0001D2C8       TNewWebAppForm.ValidateFields
+ 0001:0001D390       TNewWebAppForm.OKButtonClick
+ 0001:0001D3E4       TNewWebAppForm.FormCreate
+ 0001:0001D3E8       TNewWebAppForm.FormShow
+ 0001:0001D3EC       Finalization
+ 0001:0001D41C       NwWebSrv
+ 0001:0001E384       TOwnedCollection.Create
+ 0001:0001E3C8       TOwnedCollection.GetOwner
+ 0001:0001E3CC       TMailBox.Add
+ 0001:0001E3D8       TMailBox.GetAttrCount
+ 0001:0001E3E0       TMailBox.GetAttr
+ 0001:0001E424       TMailBox.GetItemAttr
+ 0001:0001E47C       TMailBox.GetMail
+ 0001:0001E490       TMailBox.SetMail
+ 0001:0001E4B0       TAttachment.SetAttachmentType
+ 0001:0001E4C0       TAttachments.Add
+ 0001:0001E4CC       TAttachments.GetAttachment
+ 0001:0001E4E0       TAttachments.SetAttachment
+ 0001:0001E500       TMailAddresses.Add
+ 0001:0001E50C       TMailAddresses.GetAttrCount
+ 0001:0001E514       TMailAddresses.GetAttr
+ 0001:0001E564       TMailAddresses.GetItemAttr
+ 0001:0001E5B0       TMailAddresses.GetAddress
+ 0001:0001E5C4       TMailAddresses.SetAddress
+ 0001:0001E5E4       TInternetAddress.AssignTo
+ 0001:0001E62C       TInternetAddress.GetAddress
+ 0001:0001E640       TInternetAddress.GetFormattedAddress
+ 0001:0001E6C4       TInternetAddress.SetAddress
+ 0001:0001E6F0       TInternetAddress.GetName
+ 0001:0001E704       TInternetAddress.SetName
+ 0001:0001E730       TInternetOutBox.Create
+ 0001:0001E778       TInternetOutBox.SetItemName
+ 0001:0001E780       TMIMEMail.Create
+ 0001:0001E848       TMIMEMail.Destroy
+ 0001:0001E8A8       TMIMEMail.GetHeader
+ 0001:0001E8C4       TMIMEMail.SetHeader
+ 0001:0001E8DC       TMIMEMail.GetBody
+ 0001:0001E8E0       TMIMEMail.GetAttachments
+ 0001:0001E8E4       TMIMEMail.GetFromAddresses
+ 0001:0001E8E8       TMIMEMail.GetBCCAddresses
+ 0001:0001E8EC       TMIMEMail.GetCCAddresses
+ 0001:0001E8F0       TMIMEMail.GetSubject
+ 0001:0001E904       TMIMEMail.GetToAddresses
+ 0001:0001E908       TMIMEMail.SetBody
+ 0001:0001E920       TMIMEMail.AssignTo
+ 0001:0001E9A0       TMIMEMail.SetAttachments
+ 0001:0001E9B8       TMIMEMail.SetFromAddresses
+ 0001:0001E9D0       TMIMEMail.SetBCCAddresses
+ 0001:0001E9E8       TMIMEMail.SetCCAddresses
+ 0001:0001E9F8       TMIMEMail.SetSubject
+ 0001:0001EA20       TMIMEMail.SetToAddresses
+ 0001:0001EA30       TMIMEAttachment.Create
+ 0001:0001EA94       TMIMEAttachment.Destroy
+ 0001:0001EAD4       TMIMEAttachment.GetBody
+ 0001:0001EAD8       TMIMEAttachment.SetBody
+ 0001:0001EAF0       TMIMEAttachment.GetStream
+ 0001:0001EAF4       TMIMEAttachment.GetValue
+ 0001:0001EB10       TMIMEAttachment.SetValue
+ 0001:0001EB28       TMIMEAttachment.SetValues
+ 0001:0001EB40       TMIMEAttachment.AssignTo
+ 0001:0001EB88       TCustomSimpleMail.Create
+ 0001:0001EC18       TCustomSimpleMail.Destroy
+ 0001:0001EC50       TCustomSimpleMail.CheckResponse
+ 0001:0001ED18       TCustomSimpleMail.DoActivate
+ 0001:0001ED60       GetGMTOffset
+ 0001:0001EE40       WriteAddresses
+ 0001:0001EF74       WriteBody
+ 0001:0001F044       TCustomSimpleMail.Event
+ 0001:0001F674       TCustomSimpleMail.Error
+ 0001:0001F6A0       TCustomSimpleMail.IsServiceStored
+ 0001:0001F6C8       TCustomSimpleMail.SetOutBox
+ 0001:0001F6D8       TCustomSimpleMail.Send
+ 0001:0001F6E0       TCustomSimpleMail.SendRequest
+ 0001:0001F710       Finalization
+ 0001:0001F740       BISmtp
+ 0001:0001FC48       AddBCBAppUnits
+ 0001:0001FDA8       TNewWebModuleExpert.Create
+ 0001:0001FDF0       TNewWebModuleExpert.Destroy
+ 0001:0001FE1C       TNewWebModuleExpert.GetName
+ 0001:0001FE30       TNewWebModuleExpert.GetAuthor
+ 0001:0001FE54       TNewWebModuleExpert.GetComment
+ 0001:0001FE68       TNewWebModuleExpert.GetPage
+ 0001:0001FE7C       TNewWebModuleExpert.GetGlyph
+ 0001:0001FE98       TNewWebModuleExpert.GetState
+ 0001:0001FEA4       TNewWebModuleExpert.GetIDString
+ 0001:0001FED8       TNewWebModuleExpert.Execute
+ 0001:00020170       TNewWebModuleExpert.Destroyed
+ 0001:0002017C       TNewWebProject.InitProject
+ 0001:00020180       TNewWebProject.Existing
+ 0001:0002018C       TNewWebProject.GetFileName
+ 0001:0002019C       TNewWebProject.GetFileSystem
+ 0001:000201AC       TNewWebProject.NewProjectSource
+ 0001:000202B8       TNewWebProject.NewDefaultModule
+ 0001:00020330       TNewWebProject.NewProjectResource
+ 0001:00020338       TNewWebProject.GetOptionName
+ 0001:00020348       TNewWebProject.NewOptionSource
+ 0001:00020358       TNewWebProject.InitCOMProject
+ 0001:0002037C       TNewWebModule.Existing
+ 0001:00020388       TNewWebModule.GetAncestorName
+ 0001:000203B0       TNewWebModule.GetFileName
+ 0001:000203C0       TNewWebModule.GetFileSystem
+ 0001:000203D0       TNewWebModule.GetFormName
+ 0001:000203E0       TNewWebModule.NewModuleSource
+ 0001:000204D4       TNewWebModule.FormCreated
+ 0001:000204DC       TNewWebModule.GetIntfName
+ 0001:000204EC       TNewWebModule.NewIntfSource
+ 0001:00020590       TNewFormModule.Existing
+ 0001:0002059C       TNewFormModule.GetAncestorName
+ 0001:000205C0       TNewFormModule.GetFileName
+ 0001:000205D0       TNewFormModule.GetFileSystem
+ 0001:000205E0       TNewFormModule.GetFormName
+ 0001:000205F0       TNewFormModule.NewModuleSource
+ 0001:00020694       TNewFormModule.FormCreated
+ 0001:0002069C       TNewFormModule.GetIntfName
+ 0001:000206AC       TNewFormModule.NewIntfSource
+ 0001:00020740       TCustomWebModule.ExecuteVerb
+ 0001:0002076C       TCustomWebModule.GetVerb
+ 0001:0002078C       TCustomWebModule.GetVerbCount
+ 0001:00020794       TCustomWebModule.ValidateComponent
+ 0001:000207C8       TInetSources.Create
+ 0001:00020808       TInetSources.Destroy
+ 0001:00020838       TInetSources.GetInetSources
+ 0001:0002090C       ExecuteWebWizardExt
+ 0001:00020980       Register
+ 0001:00020A30       InitWeb
+ 0001:00020A44       DoneWeb
+ 0001:00020A50       TInetSources.SetPropValues
+ 0001:00020A54       Finalization
+ 0001:00020AA8       InetWiz
+ 0001:00021058       @GetPackageInfoTable
+ 0001:00021060       @PackageLoad
+ 0001:0002106C       @PackageUnload
+ 0001:00021078       dclnet
+ 0002:00000000       TlsIndex
+ 0002:00000004       Module
+ 0002:0000001C       TlsProc
+ 0002:0000002C       HTMLColors
+ 0002:0000006C       NativePasTypes
+ 0002:000000C0       DefaultPasTypeMap
+ 0002:00000110       DefaultPasCode
+ 0002:00000138       IndexPart
+ 0002:00000140       IndexPart
+ 0002:00000148       IndexPart
+ 0002:00000150       DefaultPart
+ 0002:00000158       NativeCppTypes
+ 0002:00000190       DefaultCppTypeMap
+ 0002:000001E0       DefaultCppCode
+ 0002:00000208       IndexPart
+ 0002:00000210       IndexPart
+ 0002:00000218       IndexPart
+ 0002:00000220       DefaultPart
+ 0002:00000228       IndexPart
+ 0002:00000230       IsCLXProject
+ 0002:00000234       BoolStrs
+ 0002:0000023C       SourceTypeNames
+ 0002:00001000       ModuleIsLib
+ 0002:00001001       ModuleIsPackage
+ 0002:00001004       HInstance
+ 0002:00001008       .1
+ 0002:0000100C       tlsBuffer
+ 0002:00001010       .3
+ 0002:00001014       .1
+ 0002:00001018       .1
+ 0002:0000101C       .1
+ 0002:00001020       .1
+ 0002:00001024       .1
+ 0002:00001028       .1
+ 0002:0000102C       .1
+ 0002:00001030       .1
+ 0002:00001034       .3
+ 0002:00001038       .1
+ 0002:0000103C       .1
+ 0002:00001040       .1
+ 0002:00001044       .7
+ 0002:00001048       .1
+ 0002:0000104C       .4
+ 0002:00001050       .1
+ 0002:00001054       .2
+ 0002:00001058       .1
+ 0002:0000105C       .61
+ 0002:00001060       .61
+ 0002:00001064       CreateGuidProc
+ 0002:00001068       BindingLanguage
+ 0002:0000106C       SourceExt
+ 0002:00001070       GetNewModuleName
+ 0002:00001074       .11
+ 0002:00001078       OptionsForm
+ 0002:0000107C       .2
+ 0002:00001080       UIOptions
+ 0002:00001084       InputFiles
+ 0002:00001088       .2
+ 0002:0000108C       XMLDataBindingWizard
+ 0002:00001090       .3
+ 0002:00001094       .61
+ 0002:00001098       IsPascal
+ 0002:0000109C       WebModFileName
+ 0002:000010A0       .2
+ 0002:000010A4       .2
+ 0002:000010A8       .41
+ 0002:000010AC       .2
+ 0002:000010B0       NewWebProject
+ 0002:000010B4       NewWebModule
+ 0002:000010B8       NewFormModule
+ 0002:000010BC       NewWebModuleExpert
+ 0002:000010C0       NewWebModuleExpertCounter
+ 0002:000010C4       InetSources
+
+
+Bound resource files
+
+HtColEdt.dfm
+XMLBindOptions.dfm
+XMLBindForm.dfm
+XMLBindExpert.res
+NwWebSrv.dfm
+InetWiz.res
+dclnet.res
+InetReg.dcr
+C:\DOCUME~1\~KOKOP~1\LOCALS~1\Temp\dtf2869.tmp
+
+
+Program entry point at 0001:00021078

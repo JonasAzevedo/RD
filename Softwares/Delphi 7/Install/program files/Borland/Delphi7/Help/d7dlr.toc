@@ -1,0 +1,378 @@
+:Base d7dlr.hlp>main
+:Title Delphi Language Reference
+; 
+1 Delphi Language Guide
+2 Overview
+3 Using the Delphi language=idh_op_overview
+3 Program organization
+4 Program organization: Overview=idh_op_programorganization
+4 Delphi source files=idh_op_pascalsourcefiles
+4 Other files used to build applications=idh_op_otherfilesusedtobuildapplications
+4 Compiler-generated files=idh_op_compilergeneratedfiles
+3 Example programs
+4 About example programs=idh_op_exampleprograms
+4 A simple console application=idh_op_simpleconsoleapplication
+4 A more complicated example=idh_op_complicatedexample
+4 A native application=idh_op_windowsapplication
+2 Programs and units
+3 Programs and units: Overview=idh_op_programsandunits
+3 Program structure and syntax
+4 Program structure and syntax: Overview=idh_op_programstructureandsyntax
+4 The program heading=idh_op_theprogramheading
+4 The program uses clause=idh_op_theprogramusesclause
+4 The block=idh_op_theblock
+3 Unit structure and syntax
+4 Unit structure and syntax: Overview=idh_op_unitstructureandsyntax
+4 The unit heading=idh_op_theunitheading
+4 The interface section=idh_op_theinterfacesection
+4 The implementation section=idh_op_theimplementationsection
+4 The initialization section=idh_op_theinitializationsection
+4 The finalization section=idh_op_thefinalizationsection
+3 Unit references and the uses clause
+4 Unit references and the uses clause=idh_op_unitreferencesandtheusesclause
+4 The syntax of a uses clause=idh_op_thesyntaxofausesclause
+4 Multiple and indirect unit references=idh_op_multipleandindirectunitreferences
+4 Circular unit references=idh_op_circularunitreferences
+2 Syntactic elements
+3 Syntactic elements: Overview=idh_op_syntacticelements
+3 Fundamental syntactic elements
+4 Fundamental syntactic elements: Overview=idh_op_fundamentalsyntacticelements
+4 Special symbols=idh_op_specialsymbols
+4 Identifiers=idh_op_identifiers
+4 Reserved words=idh_op_reservedwords
+4 Directives=idh_op_directives
+4 Numerals=idh_op_numerals
+4 Labels=idh_op_labels
+4 Character strings=idh_op_characterstrings
+3 Comments and compiler directives=idh_op_commentsandcompilerdirectives
+3 Expressions
+4 About expressions=idh_op_expressions
+4 Operators
+5 About operators=idh_op_operators
+5 Arithmetic operators=idh_op_arithmeticoperators
+5 Boolean operators=idh_op_booleanoperators
+5 Logical (bitwise) operators=idh_op_logicaloperators
+5 String operators=idh_op_stringoperators
+5 Pointer operators=idh_op_pointeroperators
+5 Set operators=idh_op_setoperators
+5 Relational operators=idh_op_relationaloperators
+5 Class operators=idh_op_classoperators
+5 The @ operator=idh_op_addressoperator
+5 Operator precedence rules=idh_op_operatorprecedencerules
+3 Function calls=idh_op_functioncalls
+4 Set constructors=idh_op_setconstructors
+4 Indexes=idh_op_indexes
+4 Typecasts
+5 Typecasts: Overview=idh_op_typecasts
+5 Value typecasts=idh_op_valuetypecasts
+5 Variable typecasts=idh_op_variabletypecasts
+3 Declarations and statements
+4 About declarations and statements=idh_op_declarationsandstatements
+4 Declarations=idh_op_declarations
+4 Statements=idh_op_statements
+4 Simple statements
+5 Simple statements: Overview=idh_op_simplestatements
+5 Assignment statements=idh_op_assignmentstatements
+5 Procedure and function calls=idh_op_procedureandfunctioncalls
+5 Goto statements=idh_op_gotostatements
+4 Structured statements
+5 Structured statements: Overview=idh_op_structuredstatements
+5 Compound statements=idh_op_compoundstatements
+5 With statements=idh_op_withstatements
+5 If statements=idh_op_ifstatements
+5 Case statements=idh_op_casestatements
+5 Control loops=idh_op_controlloops
+5 Repeat statements=idh_op_repeatstatements
+5 While statements=idh_op_whilestatements
+5 For statements=idh_op_forstatements
+3 Blocks and scope
+4 Blocks and scope: Overview=idh_op_blocksandscope
+4 Blocks=idh_op_blocks
+4 Scope=idh_op_scope
+2 Data types, variables, and constants
+3 Data types and variables: Overview=idh_op_datatypesvariablesandconstants
+3 About types=idh_op_abouttypes
+3 Simple types
+4 Simple types: Overview=idh_op_simpletypes
+4 Ordinal types
+5 Ordinal types: Overview=idh_op_ordinaltypes
+5 Integer types=idh_op_integertypes
+5 Character types=idh_op_charactertypes
+5 Boolean types=idh_op_booleantypes
+5 Enumerated types=idh_op_enumeratedtypes
+5 Subrange types=idh_op_subrangetypes
+3 Real types=idh_op_realtypes
+3 String types
+4 About string types=idh_op_stringtypes
+4 Short strings=idh_op_shortstrings
+4 Long strings=idh_op_longstrings
+4 Wide strings
+5 WideString=idh_op_widestring
+5 About extended character sets=idh_op_extendedcharactersets
+4 Null-terminated strings
+5 Working with null-terminated strings=idh_op_nullterminatedstrings
+5 Using pointers, arrays, and string constants=idh_op_pointersarraysandstringconstants
+5 Mixing Delphi strings and null-terminated strings=idh_op_mixingpascalandnullterminatedstrings
+3 Structured types
+4 Structured types: Overview=idh_op_structuredtypes
+4 Sets=idh_op_sets
+4 Arrays
+5 Arrays: Overview=idh_op_arrays
+5 Static arrays=idh_op_staticarrays
+5 Dynamic arrays=idh_op_dynamicarrays
+5 Multidimensional dynamic arrays=idh_op_multidimensionaldynamicarrays
+5 Array types and assignments=idh_op_arraytypesandassignments
+4 Records
+5 About records=idh_op_records
+5 Variant parts in records=idh_op_variantpartsinrecords
+3 File types=idh_op_filetypes
+3 Pointers and pointer types
+4 Pointers and pointer types=idh_op_pointersandpointertypes
+4 Overview of pointers=idh_op_overviewofpointers
+4 Pointer types
+5 About pointer types=idh_op_pointertypes
+5 Character pointers=idh_op_characterpointers
+5 Other standard pointer types=idh_op_standardpointertypes
+3 Procedural types
+4 Procedural types: Overview=idh_op_proceduraltypes
+4 Procedural types in statements and expressions=idh_op_proceduraltypesinstatementsandexpressions
+3 Variant types
+4 Variant types: Overview=idh_op_varianttypes
+4 Variant type conversions=idh_op_varianttypeconversions
+4 Variants in expressions=idh_op_variantsinexpressions
+4 Variant arrays=idh_op_variantarrays
+4 OleVariant=idh_op_olevariant
+3 Type compatibility and identity
+4 Type compatibility and identity: Overview=idh_op_typecompatibilityandidentity
+4 Type identity=idh_op_typeidentity
+4 Type compatibility=idh_op_typecompatibility
+4 Assignment-compatibility=idh_op_assignmentcompatibility
+3 Declaring types
+4 Declaring types=idh_op_declaringtypes
+3 Variables
+4 Variables: Overview=idh_op_variables
+4 Declaring variables
+5 Declaring variables=idh_op_declaringvariables
+5 Absolute addresses=idh_op_absoluteaddresses
+5 Dynamic variables=idh_op_dynamicvariables
+5 Thread-local variables=idh_op_threadlocalvariables
+3 Declared constants
+4 Constants: Overview=idh_op_constants
+4 True constants
+5 True constants=idh_op_trueconstants
+5 Constant expressions=idh_op_constantexpressions
+5 Resource strings=idh_op_resourcestrings
+4 Typed constants
+5 About typed constants=idh_op_typedconstants
+5 Array constants=idh_op_arrayconstants
+5 Record constants=idh_op_recordconstants
+5 Procedural constants=idh_op_proceduralconstants
+5 Pointer constants=idh_op_pointerconstants
+2 Procedures and functions
+3 Procedures and functions: Overview=idh_op_proceduresandfunctions
+3 Declaring procedures and functions
+4 Declaring procedures and functions: Overview=idh_op_declaringproceduresandfunctions
+4 Procedure declarations=idh_op_declaringprocedures
+4 Function declarations=idh_op_declaringfunctions
+4 Calling conventions=idh_op_callingconventions
+4 Forward and interface declarations=idh_op_forwardandinterfacedeclarations
+4 External declarations=idh_op_externaldeclarations
+4 Overloading procedures and functions=idh_op_overloadingproceduresandfunctions
+4 Local declarations=idh_op_localdeclarations
+3 Parameters
+4 Parameters: Overview=idh_op_parameters
+4 Parameter semantics
+5 Parameter semantics: Overview=idh_op_parametersemantics
+5 Value and variable parameters=idh_op_valueandvariableparameters
+5 Constant parameters=idh_op_constantparameters
+5 Out parameters=idh_op_outparameters
+5 Untyped parameters=idh_op_untypedparameters
+4 String parameters
+5 About string parameters=idh_op_stringparameters
+4 Array parameters
+5 Array parameters: Overview=idh_op_arrayparameters
+5 Open array parameters=idh_op_openarrayparameters
+5 Variant open array parameters=idh_op_variantopenarrayparameters
+4 Default parameters
+5 Default parameters=idh_op_defaultparameters
+5 Default parameters and overloaded routines=idh_op_defaultparametersandoverloadedroutines
+5 Default parameters in forward and interface declarations=idh_op_defaultparametersinforwardandinterfacedeclarations
+3 Calling procedures and functions
+4 Calling procedures and functions=idh_op_callingproceduresandfunctions
+4 Open array constructors=idh_op_openarrayconstructors
+2 Classes and objects
+3 Classes and objects: Overview=idh_op_classesandobjects
+3 Class types
+4 About class types=idh_op_classtypes
+4 Inheritance and scope
+5 Inheritance and scope=idh_op_inheritanceandscope
+5 TObject and TClass=idh_op_tobjectandtclass
+5 Compatibility of class types=idh_op_compatibilityofclasstypes
+5 Object types=idh_op_objecttypes
+4 Visibility of class members
+5 Visibility of class members=idh_op_visibilityofclassmembers
+5 Private, protected, and public members=idh_op_privateprotectedandpublicmembers
+5 Published members=idh_op_publishedmembers
+5 Automated members=idh_op_automatedmembers
+3 Forward declarations and mutually dependent classes=idh_op_forwarddeclarationsandmutuallydependentclasses
+3 Fields=idh_op_fields
+3 Methods
+4 Methods: Overview=idh_op_methods
+4 Method declarations and implementations
+5 Method declarations and implementations=idh_op_methoddeclarationsandimplementations
+5 Inherited=idh_op_inherited
+5 Self=idh_op_self
+4 Method binding
+5 Method binding: Overview=idh_op_methodbinding
+5 Static methods=idh_op_staticmethods
+5 Virtual and dynamic methods=idh_op_virtualanddynamicmethods
+5 Overriding versus hiding=idh_op_overridingversushiding
+5 Reintroduce=idh_op_reintroduce
+5 Abstract methods=idh_op_abstractmethods
+3 Overloading methods=idh_op_overloadingmethods
+4 Constructors=idh_op_constructors
+4 Destructors=idh_op_destructors
+4 Message methods=idh_op_messagehandlers
+3 Properties
+4 Properties: Overview=idh_op_properties
+4 Property access=idh_op_propertyaccess
+4 Array properties=idh_op_arrayproperties
+4 Index specifiers=idh_op_indexspecifiers
+4 Storage specifiers=idh_op_storagespecifiers
+4 Property overrides and redeclarations=idh_op_propertyoverridesandredeclarations
+3 Class references
+4 Class references: Overview=idh_op_classreferences
+4 Class-reference types=idh_op_classreferencetypes
+4 Constructors and class references=idh_op_constructorsandclassreferences
+4 Class operators
+5 Class operators: Overview=idh_op_overviewclassoperators
+5 The is operator=idh_op_isoperator
+5 The as operator=idh_op_asoperator
+3 Class methods=idh_op_classmethods
+3 Exceptions
+4 Exceptions: Overview=idh_op_exceptions
+4 When to use exceptions=idh_op_whentouseexceptions
+4 Declaring exception types=idh_op_declaringexceptiontypes
+4 Raising and handling exceptions
+5 Raising and handling exceptions=idh_op_raisingandhandlingexceptions
+5 Try...except statements=idh_op_tryexceptstatements
+5 Re-raising exceptions=idh_op_reraisingexceptions
+5 Nested exceptions=idh_op_nestedexceptions
+5 Try...finally statements=idh_op_tryfinallystatements
+3 Standard exception classes and routines=idh_op_standardexceptionclassesandroutines
+2 Standard routines and I/O
+3 Standard routines and I/O: Overview=idh_op_standardroutinesandio
+3 File input and output
+4 File input and output=idh_op_fileio
+4 Text files=idh_op_textfiles
+4 Untyped files=idh_op_untypedfiles
+3Text-file device drivers
+4 Text file device drivers: Overview=idh_op_textfiledevicedrivers
+4 Device functions=idh_op_devicefunctions
+3 Handling null-terminated strings=idh_op_handlingnullterminatedstrings
+3 Other standard routines=idh_op_otherstandardroutines
+2 Libraries and packages
+3 Libraries and packages: Overview=idh_op_dynamiclinklibrariesandpackages
+3 Calling dynamically loadable libraries
+4 Calling dynamically loadable libraries=idh_op_callingdlls
+4 Dynamic loading=idh_op_dynamicloading
+3 Writing dynamically loadable libraries
+4 Writing dynamically loadable libraries=idh_op_writingdlls
+4 The exports clause=idh_op_theexportsclause
+4 Library initialization code=idh_op_libraryinitializationcode
+4 Global variables in a library=idh_op_globalvariablesinadll
+4 Libraries and system variables=idh_op_dllsandsystemvariables
+4 Exceptions and runtime errors in libraries=idh_op_exceptionsandruntimeerrorsindlls
+4 Shared-memory manager (Windows only)=idh_op_thesharedmemorymanager
+3 Packages
+4 Packages: Overview=idh_op_packages
+4 Package declarations and source files
+5 Package declarations and source files=idh_op_packagedeclarationsandsourcefiles
+5 Naming packages=idh_op_namingpackages
+5 The requires clause=idh_op_therequiresclause
+5 The contains clause=idh_op_thecontainsclause
+4 Compiling packages
+5 Compiling packages: Overview=idh_op_compilingpackages
+5 Generated files=idh_op_generatedfiles
+5 Package-specific compiler directives=idh_op_packagespecificcompilerdirectives
+5 Package-specific command-line compiler switches=idh_op_packagespecificcommandlinecompilerswitches
+2 Object interfaces
+3 Object interfaces: Overview=idh_op_objectinterfaces
+3 Interface types
+4 Interface types: Overview=idh_op_interfacetypes
+4 IInterface and inheritance=idh_op_iunknownandinheritance
+4 Interface identification=idh_op_interfaceidentification
+4 Calling conventions for interfaces=idh_op_interfacecallingconventions
+4 Interface properties=idh_op_interfaceproperties
+4 Forward declarations=idh_op_forwarddeclarations
+3 Implementing interfaces
+4 Implementing interfaces=idh_op_implementinginterfaces
+4 Method resolution clauses=idh_op_methodresolutionclauses
+4 Changing inherited implementations=idh_op_changinginheritedimplementations
+4 Implementing interfaces by delegation
+5 Implementing interfaces by delegation=idh_op_implementinginterfacesbydelegation
+5 Delegating to an interface-type property=idh_op_delegatingtoaninterfacetypeproperty
+5 Delegating to a class-type property=idh_op_delegatingtoaclasstypeproperty
+3 Interface references
+4 Interface references=idh_op_interfacereferences
+4 Interface assignment-compatibility=idh_op_interfaceassignmentcompatibility
+3 Interface typecasts=idh_op_interfacetypecasts
+3 Interface querying=idh_op_interfacequerying
+3 Automation objects
+4 Automation objects (Windows only)=idh_op_automationobjects
+4 Dispatch interface types (Windows only)=idh_op_dispatchinterfacetypes
+4 Accessing Automation objects (Windows only)=idh_op_accessingautomationobjects
+4 Dual interfaces (Windows only)=idh_op_dualinterfaces
+2 Memory management
+3 Memory management: Overview=idh_op_memorymanagement
+3 Variables=idh_op_variablesm
+3 Integer types=idh_op_integertypesm
+3 Character types=idh_op_charactertypesm
+3 Boolean types=idh_op_booleantypesm
+3 Enumerated types=idh_op_enumeratedtypesm
+3 Real types=idh_op_realtypesm
+3 Pointer types=idh_op_pointertypesm
+3 Short string types=idh_op_shortstringtypesm
+3 Long string types=idh_op_longstringtypesm
+3 Wide string types (Windows)=idh_op_widestringtypesm
+3 Set types=idh_op_settypesm
+3 Static array types=idh_op_staticarraytypesm
+3 Dynamic array types=idh_op_dynamicarraytypesm
+3 Record types=idh_op_recordtypesm
+3 File types=idh_op_filetypesm
+3 Procedural types=idh_op_proceduraltypesm
+3 Class types=idh_op_classtypesm
+3 Class reference types=idh_op_classreferencetypesm
+3 Variant types=idh_op_varianttypesm
+2 Program control
+3 Program control: Overview=idh_op_programcontrol
+3 Parameters and function results
+4 Parameters and function results: Overview=idh_op_parametersandfunctionresults
+4 Parameter passing=idh_op_parameterpassing
+4 Function results=idh_op_functionresuts
+4 Method calls=idh_op_methodcalls
+4 Constructors and destructors=idh_op_constructorsanddestructors
+3 Exit procedures=idh_op_exitprocedures
+2 Inline assembly code
+3 Inline assembly code: Overview=idh_op_inlineassemblercode
+3 The asm statement=idh_op_theasmstatement
+3 Assembler statement syntax
+4 Assembler statement syntax=idh_op_assemblerstatementsyntax
+4 Labels=idh_op_assemblerlabels
+4 Instruction opcodes=idh_op_instructionopcodes
+4 Assembly directives=idh_op_assemblerdirectives
+4 Operands=idh_op_operands
+3 Expressions
+4 Expressions: Overview=idh_op_assemblerexpressions
+4 Differences between Delphi and assembler expressions=idh_op_differencesbetweenobjectpascalandassemblerexpressions
+4 Expression elements
+5 Expression elements: Overview=idh_op_expressionelements
+5 Constants=idh_op_assemblerconstants
+5 Registers=idh_op_registers
+5 Symbols=idh_op_symbols
+3 Expression classes=idh_op_expressionclasses
+4 Expression types=idh_op_expressiontypes
+4 Expression operators=idh_op_expressionoperators
+3 Assembly procedures and functions=idh_op_assemblerproceduresandfunctions
+2 Object Pascal grammar
+3 Formal grammar=idh_op_objectpascalgrammar

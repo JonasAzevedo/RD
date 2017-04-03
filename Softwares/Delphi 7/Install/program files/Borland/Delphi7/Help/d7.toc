@@ -1,0 +1,5 @@
+:Base d7.hlp>main
+:Title Delphi Help
+;;
+;;
+

@@ -1,0 +1,751 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman{\*\falt Times};}{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New{\*\falt Courier};}
+{\f23\froman\fcharset128\fprq1{\*\panose 00000000000000000000}MS Mincho{\*\falt MS ??};}{\f28\fmodern\fcharset128\fprq1{\*\panose 02020609040205080304}@MS Mincho{\*\falt Andale Mono};}{\f33\froman\fcharset238\fprq2 Times New Roman CE{\*\falt Times};}
+{\f34\froman\fcharset204\fprq2 Times New Roman Cyr{\*\falt Times};}{\f36\froman\fcharset161\fprq2 Times New Roman Greek{\*\falt Times};}{\f37\froman\fcharset162\fprq2 Times New Roman Tur{\*\falt Times};}
+{\f38\froman\fcharset177\fprq2 Times New Roman (Hebrew){\*\falt Times};}{\f39\froman\fcharset178\fprq2 Times New Roman (Arabic){\*\falt Times};}{\f40\froman\fcharset186\fprq2 Times New Roman Baltic{\*\falt Times};}
+{\f49\fmodern\fcharset238\fprq1 Courier New CE{\*\falt Courier};}{\f50\fmodern\fcharset204\fprq1 Courier New Cyr{\*\falt Courier};}{\f52\fmodern\fcharset161\fprq1 Courier New Greek{\*\falt Courier};}
+{\f53\fmodern\fcharset162\fprq1 Courier New Tur{\*\falt Courier};}{\f54\fmodern\fcharset177\fprq1 Courier New (Hebrew){\*\falt Courier};}{\f55\fmodern\fcharset178\fprq1 Courier New (Arabic){\*\falt Courier};}
+{\f56\fmodern\fcharset186\fprq1 Courier New Baltic{\*\falt Courier};}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;
+\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{
+\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext0 Normal;}{\*\cs10 \additive Default Paragraph Font;}{
+\s15\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \f2\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext15 Plain Text;}}{\info{\title Delphi 7}{\author smckenzie}{\operator smckenzie}
+{\creatim\yr2002\mo6\dy20\hr15\min35}{\revtim\yr2002\mo8\dy9\hr13\min20}{\version19}{\edmins15}{\nofpages13}{\nofwords2990}{\nofchars17043}{\*\company Borland}{\nofcharsws0}{\vern8283}}\margl1320\margr1320 
+\widowctrl\ftnbj\aenddoc\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\hyphcaps0\formshade\horzdoc\dghspace180\dgvspace180\dghorigin1701\dgvorigin1984\dghshow0\dgvshow0\jexpand\viewkind4\viewscale75\pgbrdrhead\pgbrdrfoot\bdrrlswsix\nolnhtadjtbl 
+\fet0\sectd \linex0\endnhere\sectdefaultcl {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4
+\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}
+{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 
+\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\loch\af2\hich\af2\dbch\af23 \hich\af2\dbch\af23\loch\f2                     Delphi 7
+\par \hich\af2\dbch\af23\loch\f2                  Release Notes
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 =======================================================
+\par 
+\par \hich\af2\dbch\af23\loch\f2 This file contains important supplementary and late-
+\par \hich\af2\dbch\af23\loch\f2 breaking information that may not appear in the main
+\par \hich\af2\dbch\af23\loch\f2 product documentation. We recommend that you read this
+\par \hich\af2\dbch\af23\loch\f2 file in its entirety.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 For information on new features in this release, choose
+\par \hich\af2\dbch\af23\loch\f2 "What's New" in the online Help contents.
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 =========================\hich\af2\dbch\af23\loch\f2 ==============================
+\par \hich\af2\dbch\af23\loch\f2 CONTENTS
+\par 
+\par \hich\af2\dbch\af23\loch\f2 * OTHER RELEASE NOTES INCLUDED WITH THIS PRODUCT
+\par \hich\af2\dbch\af23\loch\f2 * NOTES AND ISSUES:
+\par \hich\af2\dbch\af23\loch\f2 * ABOUT EDITING THE REGISTRY
+\par \hich\af2\dbch\af23\loch\f2 * PRODUCT INFORMATION ON THE WEB
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 =======================================================
+\par \hich\af2\dbch\af23\loch\f2 OTHER RELEASE NOTES INCLUD\hich\af2\dbch\af23\loch\f2 ED WITH THIS PRODUCT
+\par 
+\par \hich\af2\dbch\af23\loch\f2 * INSTALL contains system requirements and product
+\par \hich\af2\dbch\af23\loch\f2   installation information.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 * DEPLOY contains information about redistributing your
+\par \hich\af2\dbch\af23\loch\f2   applications.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 * LICENSE contains information on licensing allowances
+\par \hich\af2\dbch\af23\loch\f2   and limitations for this product and other Borland
+\par \hich\af2\dbch\af23\loch\f2   software that is bundled with it.
+\par 
+\par \hich\af2\dbch\af23\loch\f2     The three files listed above, along with this file,
+\par \hich\af2\dbch\af23\loch\f2     are installed in your main product directory
+\par \hich\af2\dbch\af23\loch\f2     (default: C:\\Program Files\\Borland\\Delphi7).
+\par 
+\par \hich\af2\dbch\af23\loch\f2 ===========\hich\af2\dbch\af23\loch\f2 ============================================
+\par \hich\af2\dbch\af23\loch\f2 NOTES AND ISSUES
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Deprecated Components
+\par 
+\par \hich\af2\dbch\af23\loch\f2     Borland is deprecating the use of TSQLClientDataSet
+\par \hich\af2\dbch\af23\loch\f2     and TBDEClientDataSet. Borland recommends that you
+\par \hich\af2\dbch\af23\loch\f2     use TSimpleDataSet for simple, two-tier
+\par \hich\af2\dbch\af23\loch\f2     application\hich\af2\dbch\af23\loch\f2 s. TSQLClientDataSet and
+\par \hich\af2\dbch\af23\loch\f2     TBDEClientDataSet are no longer displayed on the
+\par \hich\af2\dbch\af23\loch\f2     Component palette. If you require backward
+\par \hich\af2\dbch\af23\loch\f2     compatibility, you can still access
+\par \hich\af2\dbch\af23\loch\f2     TSQLClientDataSet and TBDEClientDataSet in the
+\par \hich\af2\dbch\af23\loch\f2     Demos directory (by default, C:\\Prog\hich\af2\dbch\af23\loch\f2 ram
+\par \hich\af2\dbch\af23\loch\f2     Files\\Borland\\Delphi7\\Demos).
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2     Borland is deprecating the use of the TServerSocket
+\par \hich\af2\dbch\af23\loch\f2     and TClientSocket from the unit ScktComp. It is
+\par \hich\af2\dbch\af23\loch\f2     recommended that you use the Indy components for
+\par \hich\af2\dbch\af23\loch\f2     socket operations. The TServerSocket and
+\par \hich\af2\dbch\af23\loch\f2     TClientSocket will no longer be installed on the
+\par \hich\af2\dbch\af23\loch\f2     component palette by default. If you require the
+\par \hich\af2\dbch\af23\loch\f2     use of these components then you can install
+\par \hich\af2\dbch\af23\loch\f2     the design time package named dclsockets70.bpl,
+\par \hich\af2\dbch\af23\loch\f2     found in your bin directory. For deployment w\hich\af2\dbch\af23\loch\f2 ith
+\par \hich\af2\dbch\af23\loch\f2     runtime packages, you will need to deploy rtl70.bpl
+\par \hich\af2\dbch\af23\loch\f2     and any other required packages.
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Changes in StrUtils
+\par \hich\af2\dbch\af23\loch\f2 -------------------
+\par 
+\par \hich\af2\dbch\af23\loch\f2 The StrUtils unit contains three sets of changes, all
+\par \hich\af2\dbch\af23\loch\f2 relating to
+\par \hich\af2\dbch\af23\loch\f2 multi-byte character set (MBCS) support.
+\par 
+\par \hich\af2\dbch\af23\loch\f2    * Pre\hich\af2\dbch\af23\loch\f2 viously, LeftStr, RightStr, and MidStr each
+\par \hich\af2\dbch\af23\loch\f2      took and returned AnsiString values, and did not
+\par \hich\af2\dbch\af23\loch\f2      support MBCS strings. Each of these functions has
+\par \hich\af2\dbch\af23\loch\f2      been replaced by a pair of overloaded functions,
+\par \hich\af2\dbch\af23\loch\f2      one that takes and returns AnsiString, and o\hich\af2\dbch\af23\loch\f2 ne
+\par \hich\af2\dbch\af23\loch\f2      that takes and returns WideString. The new
+\par \hich\af2\dbch\af23\loch\f2      functions correctly handle MBCS strings. This
+\par \hich\af2\dbch\af23\loch\f2      change breaks code that uses these functions to
+\par \hich\af2\dbch\af23\loch\f2      store and retrieve byte values in AnsiStrings.
+\par \hich\af2\dbch\af23\loch\f2      Such code should use the new byte-level func\hich\af2\dbch\af23\loch\f2 tions
+\par \hich\af2\dbch\af23\loch\f2      described below.
+\par 
+\par \hich\af2\dbch\af23\loch\f2    * New functions LeftBStr, RightBStr, and MidBStr
+\par \hich\af2\dbch\af23\loch\f2      provide the byte-level manipulation previously
+\par \hich\af2\dbch\af23\loch\f2      provided by LeftStr, RightStr, and MidStr.
+\par 
+\par \hich\af2\dbch\af23\loch\f2    * New functions AnsiLeftStr, AnsiRightStr, and
+\par \hich\af2\dbch\af23\loch\f2      AnsiMidStr are the same as the new AnsiStr
+\par \hich\af2\dbch\af23\loch\f2      LeftStr, RightStr, and MidStr functions, except
+\par \hich\af2\dbch\af23\loch\f2      that they are not overloaded with equivalent
+\par \hich\af2\dbch\af23\loch\f2      WideString functions.
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 XP Themes
+\par \hich\af2\dbch\af23\loch\f2 ---------
+\par 
+\par \hich\af2\dbch\af23\loch\f2 This build does not include a manifest for your
+\par \hich\af2\dbch\af23\loch\f2 project\hich\af2\dbch\af23\loch\f2 s. To tell your applications to use version 6.0
+\par \hich\af2\dbch\af23\loch\f2 of comctl32.dll you need to create and edit the
+\par \hich\af2\dbch\af23\loch\f2 manifest yourself.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 There are two ways to do this:
+\par 
+\par \hich\af2\dbch\af23\loch\f2 1. With a stand-alone manifest file added to the same
+\par \hich\af2\dbch\af23\loch\f2    directory of the executable.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 2. With a manifest in\hich\af2\dbch\af23\loch\f2 cluded in the executable as a
+\par \hich\af2\dbch\af23\loch\f2    resource.
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 For the stand-alone manifest follow these steps:
+\par 
+\par \hich\af2\dbch\af23\loch\f2 I) Using Notepad create a file called
+\par \hich\af2\dbch\af23\loch\f2    "Project1.exe.manifest" and add the following lines:
+\par 
+\par \hich\af2\dbch\af23\loch\f2 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+\par \hich\af2\dbch\af23\loch\f2 <assembly xmlns="urn:schemas-microsoft-com:asm.v1"
+\par \hich\af2\dbch\af23\loch\f2 manifestVersion="1.0">
+\par \hich\af2\dbch\af23\loch\f2 <assemblyIdentity
+\par \hich\af2\dbch\af23\loch\f2 processorArchitecture="*"
+\par \hich\af2\dbch\af23\loch\f2 version="1.0.0.0"
+\par \hich\af2\dbch\af23\loch\f2 type="win32"
+\par \hich\af2\dbch\af23\loch\f2 name="Project1"/>
+\par \hich\af2\dbch\af23\loch\f2 <description>Project1 Description</description>
+\par \hich\af2\dbch\af23\loch\f2 <dependency>
+\par \hich\af2\dbch\af23\loch\f2 <dependentAssembly>
+\par \hich\af2\dbch\af23\loch\f2 <assembl\hich\af2\dbch\af23\loch\f2 yIdentity
+\par \hich\af2\dbch\af23\loch\f2 type="win32"
+\par \hich\af2\dbch\af23\loch\f2 name="Microsoft.Windows.Common-Controls"
+\par \hich\af2\dbch\af23\loch\f2 version="6.0.0.0"
+\par \hich\af2\dbch\af23\loch\f2 publicKeyToken="6595b64144ccf1df"
+\par \hich\af2\dbch\af23\loch\f2 language="*"
+\par \hich\af2\dbch\af23\loch\f2 processorArchitecture="*"   />
+\par \hich\af2\dbch\af23\loch\f2 </dependentAssembly>
+\par \hich\af2\dbch\af23\loch\f2 </dependency>
+\par \hich\af2\dbch\af23\loch\f2 </assembly>
+\par 
+\par \hich\af2\dbch\af23\loch\f2 II) Save the file and place it in the same direc\hich\af2\dbch\af23\loch\f2 tory as
+\par \hich\af2\dbch\af23\loch\f2     the application executable.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 If you don't like the idea of having the manifest as a
+\par \hich\af2\dbch\af23\loch\f2 separated file you can include it into your executable
+\par \hich\af2\dbch\af23\loch\f2 as a resource.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 I) Create a resource file (again using Notepad)
+\par \hich\af2\dbch\af23\loch\f2    containing the following line:
+\par 
+\par \hich\af2\dbch\af23\loch\f2    1 24 "Project1.exe.Manifest"
+\par 
+\par \hich\af2\dbch\af23\loch\f2 II) Compile the resource file with brcc32.exe with the
+\par \hich\af2\dbch\af23\loch\f2     following command:
+\par 
+\par \hich\af2\dbch\af23\loch\f2    C:\\Project1> brcc32 WindowsXP.RC
+\par 
+\par \hich\af2\dbch\af23\loch\f2 III) Now add the following line to your project's main
+\par \hich\af2\dbch\af23\loch\f2      form:
+\par 
+\par \hich\af2\dbch\af23\loch\f2    \{$R WindowsXP.RES\}
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 NOTE: To automat\hich\af2\dbch\af23\loch\f2 ically configure XP Themes in your
+\par \hich\af2\dbch\af23\loch\f2       project you can use the XP Application Wizard
+\par \hich\af2\dbch\af23\loch\f2       demo. For more information see the readme file in
+\par 
+\par \hich\af2\dbch\af23\loch\f2        Demos\\ToolsAPI\\XPAppWiz
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 .NET compiler warnings
+\par \hich\af2\dbch\af23\loch\f2 ----------------------
+\par 
+\par \hich\af2\dbch\af23\loch\f2 The Delphi 7 dcc32 compiler now supports three
+\par \hich\af2\dbch\af23\loch\f2 additional compiler warnings:  Unsafe_Type,
+\par \hich\af2\dbch\af23\loch\f2 Unsafe_Code, and Unsafe_Cast.  These warnings are
+\par \hich\af2\dbch\af23\loch\f2 disabled by default, but can be enabled with source
+\par \hich\af2\dbch\af23\loch\f2 code compiler directives \{$WARN UNSAFE_CODE ON\},
+\par \hich\af2\dbch\af23\loch\f2 compiler comma\hich\af2\dbch\af23\loch\f2 nd line switches (dcc32 -W+UNSAFE_CODE),
+\par \hich\af2\dbch\af23\loch\f2 and in Project|Options.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 NOTE: There is no space before or after the "+" in the
+\par \hich\af2\dbch\af23\loch\f2       command line switch)
+\par 
+\par \hich\af2\dbch\af23\loch\f2 "Unsafe" in all three messages refers to types or
+\par \hich\af2\dbch\af23\loch\f2 operations which static code analysis cannot prove to
+\par \hich\af2\dbch\af23\loch\f2 not\hich\af2\dbch\af23\loch\f2  overwrite memory.  For example, data types that
+\par \hich\af2\dbch\af23\loch\f2 carry bounds information at runtime such as Delphi
+\par \hich\af2\dbch\af23\loch\f2 Strings or dynamic arrays can be bounds-checked at
+\par \hich\af2\dbch\af23\loch\f2 runtime, and tracked in static analysis, to ensure that
+\par \hich\af2\dbch\af23\loch\f2 memory accesses are within the limits of the allo\hich\af2\dbch\af23\loch\f2 cated
+\par \hich\af2\dbch\af23\loch\f2 data.  Data types that do not carry bounds information
+\par \hich\af2\dbch\af23\loch\f2 at compile time or runtime (such as PChar) cannot be
+\par \hich\af2\dbch\af23\loch\f2 proven safe.  Unsafe doesn't necessarily mean the code
+\par \hich\af2\dbch\af23\loch\f2 is broken or flawed, it simply means that it uses
+\par \hich\af2\dbch\af23\loch\f2 programming techniques that cannot be\hich\af2\dbch\af23\loch\f2  verified as safe
+\par \hich\af2\dbch\af23\loch\f2 by static code analysis.  In a secured execution
+\par \hich\af2\dbch\af23\loch\f2 environment such as .NET, such code is assumed to be
+\par \hich\af2\dbch\af23\loch\f2 unsafe and a potential security risk.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Delphi 7 developers can use these new warnings to
+\par \hich\af2\dbch\af23\loch\f2 identify data types, code or programming techniques
+\par \hich\af2\dbch\af23\loch\f2 that may be difficult to port to a managed code
+\par \hich\af2\dbch\af23\loch\f2 environment such as .NET.  These messages are not
+\par \hich\af2\dbch\af23\loch\f2 specific to the .NET platform.  The warnings are
+\par \hich\af2\dbch\af23\loch\f2 conservative - some things we warn about in D7 we might
+\par \hich\af2\dbch\af23\loch\f2 a\hich\af2\dbch\af23\loch\f2 ctually be able to support in Delphi for .NET, but
+\par \hich\af2\dbch\af23\loch\f2 we're not sure yet.  The warnings are not complete -
+\par \hich\af2\dbch\af23\loch\f2 there may be problematic types or code situations for
+\par \hich\af2\dbch\af23\loch\f2 which the Delphi 7 compiler does not issue an unsafe
+\par \hich\af2\dbch\af23\loch\f2 warning.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Unsafe_Type:  Types such as PChar, \hich\af2\dbch\af23\loch\f2 untyped pointer,
+\par \hich\af2\dbch\af23\loch\f2 untyped var and out parameters, file of <type>, 6 byte
+\par \hich\af2\dbch\af23\loch\f2 reals (Real48), variant records (records containing
+\par \hich\af2\dbch\af23\loch\f2 overlapping fields) and old-style objects
+\par 
+\par \hich\af2\dbch\af23\loch\f2 ("TMyObject = object").
+\par 
+\par \hich\af2\dbch\af23\loch\f2   * "old" object type
+\par 
+\par \hich\af2\dbch\af23\loch\f2        c = object
+\par \hich\af2\dbch\af23\loch\f2          i: Integer;
+\par \hich\af2\dbch\af23\loch\f2   \hich\af2\dbch\af23\loch\f2        procedure p;
+\par \hich\af2\dbch\af23\loch\f2        end;
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Unsafe_Code:  absolute variables, Addr(), Ptr(), Hi(),
+\par \hich\af2\dbch\af23\loch\f2 Lo(), Swap() standard procedures, BlockRead and
+\par \hich\af2\dbch\af23\loch\f2 BlockWrite, the Fail() standard procedure, GetMem(),
+\par \hich\af2\dbch\af23\loch\f2 FreeMem(), and ReallocMem()
+\par 
+\par \hich\af2\dbch\af23\loch\f2   * inline assembler blocks (asm end)
+\par \hich\af2\dbch\af23\loch\f2   * @ operator
+\par \hich\af2\dbch\af23\loch\f2   * modifying string index elements, e.g
+\par 
+\par \hich\af2\dbch\af23\loch\f2       s := 'Hoho';
+\par \hich\af2\dbch\af23\loch\f2       s[2] := 'a'; // <-- "Unsafe code 'String index to
+\par \hich\af2\dbch\af23\loch\f2       var param'"
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Unsafe_Cast:  Casting an object instance to a type that
+\par \hich\af2\dbch\af23\loch\f2 is not an ancestor or descendent of the instance \hich\af2\dbch\af23\loch\f2 type,
+\par \hich\af2\dbch\af23\loch\f2 casting a record type to anything else
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Change to VCL SubComponents streaming
+\par \hich\af2\dbch\af23\loch\f2 -------------------------------------
+\par 
+\par \hich\af2\dbch\af23\loch\f2 In Delphi 7, we corrected a problem where the csLoading
+\par \hich\af2\dbch\af23\loch\f2 flag was never set for subcomponents, nor was the
+\par \hich\af2\dbch\af23\loch\f2 subcomponent's Loaded meth\hich\af2\dbch\af23\loch\f2 od called. When a component that
+\par \hich\af2\dbch\af23\loch\f2 has subcomponents is streamed, the subcomponents will have
+\par \hich\af2\dbch\af23\loch\f2 their csLoading flag set and their Loaded method called.
+\par \hich\af2\dbch\af23\loch\f2 This change creates a complication for any subcomponent
+\par \hich\af2\dbch\af23\loch\f2 properties that are writable. If you allow your
+\par \hich\af2\dbch\af23\loch\f2 sub\hich\af2\dbch\af23\loch\f2 component property to be assigned to an external
+\par \hich\af2\dbch\af23\loch\f2 component reference then you cannot free your subcomponent
+\par \hich\af2\dbch\af23\loch\f2 until it's owner's Loaded method is called otherwise the
+\par \hich\af2\dbch\af23\loch\f2 streaming system will attempt to call the subcomponent's
+\par \hich\af2\dbch\af23\loch\f2 Loaded method after the subcomponent has been freed.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Apache
+\par \hich\af2\dbch\af23\loch\f2 ------
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Support for Apache 2 is for the 2.0.39 version. It will
+\par \hich\af2\dbch\af23\loch\f2 work with later versions as long as they are binary
+\par \hich\af2\dbch\af23\loch\f2 compatible.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 NOTE: Due to a known bug with Apache 1.3.22, do not
+\par \hich\af2\dbch\af23\loch\f2       develop \hich\af2\dbch\af23\loch\f2 CGI programs or shared objects for this
+\par \hich\af2\dbch\af23\loch\f2       version.
+\par 
+\par \hich\af2\dbch\af23\loch\f2       See http://bugs.apache.org/index.cgi/full/8538
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 UDDI Registry entries
+\par \hich\af2\dbch\af23\loch\f2 ---------------------
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Some UDDI Registry entries contain an Accesspoint URL with
+\par \hich\af2\dbch\af23\loch\f2 a bookmark tag at the end. When accessed \hich\af2\dbch\af23\loch\f2 these services
+\par \hich\af2\dbch\af23\loch\f2 often generate the error message 'Method not allowed
+\par \hich\af2\dbch\af23\loch\f2 (405)'.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Workaround:
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Remove the tag from url in the global function
+\par \hich\af2\dbch\af23\loch\f2 that returns the Interface:
+\par 
+\par \hich\af2\dbch\af23\loch\f2      const
+\par \hich\af2\dbch\af23\loch\f2 //        defURL = 'http://someservice/somewhere#tag';
+\par \hich\af2\dbch\af23\loch\f2 //        is changed to
+\par 
+\par \hich\af2\dbch\af23\loch\f2         defURL = 'http://someservice/somewhere';
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Japanese Input system on Windows XP
+\par \hich\af2\dbch\af23\loch\f2 -----------------------------------
+\par 
+\par \hich\af2\dbch\af23\loch\f2 The MS IME2002 Japanese input system included with
+\par \hich\af2\dbch\af23\loch\f2 Windows XP can cause the Debugger in the IDE to
+\par \hich\af2\dbch\af23\loch\f2 stall.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Workaround:
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Remove Micr\hich\af2\dbch\af23\loch\f2 osoft IME Character Code Dictionary from
+\par \hich\af2\dbch\af23\loch\f2 your system dictionaries list. Simply un-checking this
+\par \hich\af2\dbch\af23\loch\f2 option from the dictionary list will not solve the
+\par \hich\af2\dbch\af23\loch\f2 problem. To remove this dictionary:
+\par 
+\par \hich\af2\dbch\af23\loch\f2 1) Open the IME Toolbar.
+\par \hich\af2\dbch\af23\loch\f2 2) Select Tools|Properties and click on the Dic\hich\af2\dbch\af23\loch\f2 tionary
+\par \hich\af2\dbch\af23\loch\f2    tab.
+\par \hich\af2\dbch\af23\loch\f2 3) Select "Microsoft IME Character Code Dictionary"
+\par \hich\af2\dbch\af23\loch\f2    from the System dictionaries listbox
+\par \hich\af2\dbch\af23\loch\f2 4) Click Remove.
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Database
+\par \hich\af2\dbch\af23\loch\f2 --------
+\par \hich\af2\dbch\af23\loch\f2 * The provided DB2 driver is certified for DB2 version
+\par \hich\af2\dbch\af23\loch\f2   7 only. The client version and server version must
+\par \hich\af2\dbch\af23\loch\f2   match. BDE also supports DB2 version 7 only.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 * The Oracle driver provided for dbExpress components
+\par \hich\af2\dbch\af23\loch\f2   is certified for Oracle 9i. BDE and ADO have been
+\par \hich\af2\dbch\af23\loch\f2   certified with Oracle 8.1.7 and 8.1.6. In all cases,
+\par \hich\af2\dbch\af23\loch\f2   the client version and server version must be\hich\af2\dbch\af23\loch\f2  the
+\par \hich\af2\dbch\af23\loch\f2   same.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 * Oracle 9i types - ORACLE 9i types TIMESTAMP
+\par \hich\af2\dbch\af23\loch\f2   (introduced for JDK 1.3.1 compliance) and other types
+\par \hich\af2\dbch\af23\loch\f2   like XMLType, Temp tables, etc. are not yet
+\par \hich\af2\dbch\af23\loch\f2   supported. Use "DATE" instead.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 * The Borland Database Engine CAB file (BDEINST.CAB) is
+\par \hich\af2\dbch\af23\loch\f2   no\hich\af2\dbch\af23\loch\f2  longer digitally signed. This CAB file is provided
+\par \hich\af2\dbch\af23\loch\f2   for backward compatibility. For new applications, we
+\par \hich\af2\dbch\af23\loch\f2   recommend deploying BDE with the BDE merge modules.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 InterBase version support, Dialect 3 features
+\par \hich\af2\dbch\af23\loch\f2 ---------------------------------------------
+\par 
+\par \hich\af2\dbch\af23\loch\f2 D\hich\af2\dbch\af23\loch\f2 elphi 7 supports InterBase 6.5. The client version and
+\par \hich\af2\dbch\af23\loch\f2 server version must be the same.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Currently, the driver does not support the ARRAY type.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 To use the new InterBase 6.5 Dialect 3 features in BDE,
+\par \hich\af2\dbch\af23\loch\f2 add an entry to your Windows registry under
+\par 
+\par \hich\af2\dbch\af23\loch\f2  HKEY_LOCAL_MACHINE\\SOFTWARE\\Borland\\Database Engine
+\par \hich\af2\dbch\af23\loch\f2  \\Settings\\Drivers\\Intrbase\\Db Open\\SQLDIALECT
+\par 
+\par \hich\af2\dbch\af23\loch\f2 and set the String Value to "3".
+\par 
+\par \hich\af2\dbch\af23\loch\f2 When an InterBase alias is created, the new entry will
+\par \hich\af2\dbch\af23\loch\f2 be available in the .CFG file.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 To use InterBase 5.6, SQLDIALECT c\hich\af2\dbch\af23\loch\f2 an be set to "1"
+\par \hich\af2\dbch\af23\loch\f2 (existing IB aliases which do not have the SQLDIALECT
+\par \hich\af2\dbch\af23\loch\f2 entry default to SQLDIALECT=1 or to the registry
+\par \hich\af2\dbch\af23\loch\f2 setting when the SQLDIALECT entry is added to the
+\par \hich\af2\dbch\af23\loch\f2 registry).
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 InterBase 6.5 implementation note
+\par \hich\af2\dbch\af23\loch\f2 ---------------------------------
+\par 
+\par \hich\af2\dbch\af23\loch\f2 If y\hich\af2\dbch\af23\loch\f2 ou are using a WebSnap application with InterBase
+\par \hich\af2\dbch\af23\loch\f2 6.5, a local database connection is not recommended.
+\par \hich\af2\dbch\af23\loch\f2 Instead, use a client/server connection specified by a
+\par \hich\af2\dbch\af23\loch\f2 protocol-specific prefix to the path to the database.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Examples:
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Local connection (not recommended):
+\par \hich\af2\dbch\af23\loch\f2     C:\\PathTo\\Database\\DBName.gdb
+\par 
+\par \hich\af2\dbch\af23\loch\f2 TCP/IP connection on Windows:
+\par \hich\af2\dbch\af23\loch\f2     saturn:C:\\PathTo\\Database\\DBName.gdb
+\par 
+\par \hich\af2\dbch\af23\loch\f2 TCP/IP connection on UNIX:
+\par \hich\af2\dbch\af23\loch\f2     jupiter:/usr/PathTo/Database/DBName.gdb
+\par 
+\par \hich\af2\dbch\af23\loch\f2 NetBEUI connection:
+\par \hich\af2\dbch\af23\loch\f2     \\\\venus\\C:\\PathTo\\\hich\af2\dbch\af23\loch\f2 Database\\DBName.gdb
+\par 
+\par \hich\af2\dbch\af23\loch\f2 IPX/SPX connection:
+\par \hich\af2\dbch\af23\loch\f2     mars@vol2:\\PathTo\\Database\\DBName.gdb
+\par 
+\par \hich\af2\dbch\af23\loch\f2 If the WebSnap application is on the same machine as
+\par \hich\af2\dbch\af23\loch\f2 the server, you can use localhost:
+\par 
+\par \hich\af2\dbch\af23\loch\f2     localhost:C:\\PathTo\\Database\\DBName.gdb
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 INTERBASE driver behavioral differen\hich\af2\dbch\af23\loch\f2 ce:
+\par \hich\af2\dbch\af23\loch\f2 ---------------------------------------
+\par 
+\par \hich\af2\dbch\af23\loch\f2 NUMERIC data type mapping.
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2    The dbExpress driver for INTERBASE  now maps NUMERIC
+\par \hich\af2\dbch\af23\loch\f2    data types to fldBCD instead of fldINT16, fldINT32,
+\par \hich\af2\dbch\af23\loch\f2    fldFLOAT.
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 dbExpress
+\par \hich\af2\dbch\af23\loch\f2 ---------
+\par 
+\par \hich\af2\dbch\af23\loch\f2 TSQLDataSet now has DefaultRowsetSize = 20 (Oracle
+\par \hich\af2\dbch\af23\loch\f2 only). To use a different RowSetSize, add the
+\par \hich\af2\dbch\af23\loch\f2 RowSetSize property manually (e.g., "RowsetSize = 200")
+\par \hich\af2\dbch\af23\loch\f2 into dbxconnections.ini, for existing connections, or
+\par \hich\af2\dbch\af23\loch\f2 into dbxdrivers.ini to have the RowSetSize proper\hich\af2\dbch\af23\loch\f2 ty
+\par \hich\af2\dbch\af23\loch\f2 included in new connections. RowsetSize can also be
+\par \hich\af2\dbch\af23\loch\f2 modified in code, as shown here:
+\par 
+\par \hich\af2\dbch\af23\loch\f2     "SQLConnection1.Params.Values['RowsetSize'] :=
+\par \hich\af2\dbch\af23\loch\f2     '200'"
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 dbExpress now includes MySQL 3.23.49 support with a new
+\par \hich\af2\dbch\af23\loch\f2 driver (dbexpmysql.dll). To use the new driver,\hich\af2\dbch\af23\loch\f2  specify
+\par 
+\par \hich\af2\dbch\af23\loch\f2     LibraryName = "dbexpmysql.dll"
+\par 
+\par \hich\af2\dbch\af23\loch\f2 in the Object Inspector or in dbxdrivers.ini.
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 dbExpress components and MySQL transactions
+\par \hich\af2\dbch\af23\loch\f2 -------------------------------------------
+\par 
+\par \hich\af2\dbch\af23\loch\f2 MySQL doesn't support more than one active statement
+\par \hich\af2\dbch\af23\loch\f2 per connection. To perform multiple SQL requests with a
+\par \hich\af2\dbch\af23\loch\f2 single TSQLConnection the dbExpress components clone
+\par \hich\af2\dbch\af23\loch\f2 connection. There is a bug in maintaining state
+\par \hich\af2\dbch\af23\loch\f2 information on the no.of active statements with respect
+\par \hich\af2\dbch\af23\loch\f2 to a TSQLConnection. This might cause serio\hich\af2\dbch\af23\loch\f2 us failures
+\par \hich\af2\dbch\af23\loch\f2 in transaction as the transaction might be started on
+\par \hich\af2\dbch\af23\loch\f2 one connection and commit or rollback might be
+\par \hich\af2\dbch\af23\loch\f2 happening on another connection.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Workaround:
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Before you start a MySQL transaction make sure
+\par \hich\af2\dbch\af23\loch\f2 TSQLConnection.ActiveStatements is 0. If it's not\hich\af2\dbch\af23\loch\f2  0 then
+\par \hich\af2\dbch\af23\loch\f2 close the TSQLConnection and reopen it and that should
+\par \hich\af2\dbch\af23\loch\f2 clear it. All your transaction activity should then go
+\par \hich\af2\dbch\af23\loch\f2 on a single connection.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 DB2 notes for dbExpress
+\par \hich\af2\dbch\af23\loch\f2 -----------------------
+\par 
+\par \hich\af2\dbch\af23\loch\f2 The provided DB2 driver is certified for DB2 version 7.
+\par \hich\af2\dbch\af23\loch\f2 The clie\hich\af2\dbch\af23\loch\f2 nt version and server version must be the
+\par \hich\af2\dbch\af23\loch\f2 same. BDE also supports DB2 version 7.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Because of a known DB2 bug, the DB2 client returns only
+\par \hich\af2\dbch\af23\loch\f2 one record at a time when a request for a block fetch
+\par \hich\af2\dbch\af23\loch\f2 is made, even with RowsetSize option > 1.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Timestamp issues
+\par \hich\af2\dbch\af23\loch\f2 ----------------
+\par 
+\par \hich\af2\dbch\af23\loch\f2 The dbExpress DB2 driver rounds the TIMESTAMP
+\par \hich\af2\dbch\af23\loch\f2 fractional value and there could be some precision lost
+\par \hich\af2\dbch\af23\loch\f2 depending upon the data retrieved. When you apply back
+\par \hich\af2\dbch\af23\loch\f2 changes the old value will not match the one on the
+\par \hich\af2\dbch\af23\loch\f2 server and ApplyUpdates() wil\hich\af2\dbch\af23\loch\f2 l fail.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Workaround:
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Make sure DB2 TIMESTAMP is not part of indexed columns
+\par \hich\af2\dbch\af23\loch\f2 and set the DataSetProvider Update mode to WhereKey
+\par \hich\af2\dbch\af23\loch\f2 instead of WhereAll.
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Informix BLOB/CLOB fields (dbExpress)
+\par \hich\af2\dbch\af23\loch\f2 -------------------------------------
+\par 
+\par \hich\af2\dbch\af23\loch\f2 A new global variable, Info\hich\af2\dbch\af23\loch\f2 rmixLob, is available to
+\par \hich\af2\dbch\af23\loch\f2 allow you to work with Informix BLOB and CLOB fields.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 The variable is required because Informix BLOB
+\par \hich\af2\dbch\af23\loch\f2 (fldBLOB, fldstHBINARY) and CLOB (fldBLOB, fldstHMEMO)
+\par \hich\af2\dbch\af23\loch\f2 fields are mapped as ftOraBlob and ftOraClob,
+\par \hich\af2\dbch\af23\loch\f2 respectively, and the DataSn\hich\af2\dbch\af23\loch\f2 ap resolver performs
+\par \hich\af2\dbch\af23\loch\f2 special query generation when resolving Oracle
+\par \hich\af2\dbch\af23\loch\f2 BLOB/CLOB fields, but not when resolving Informix
+\par \hich\af2\dbch\af23\loch\f2 BLOB/CLOBs. To address this issue, set InformixLob
+\par \hich\af2\dbch\af23\loch\f2 to True when using Informix BLOB/CLOBs, and switch it
+\par \hich\af2\dbch\af23\loch\f2 back to False (the default) when using Oracle
+\par \hich\af2\dbch\af23\loch\f2 BLOB/CLOBs.
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 NOTE: The new Informix driver (dbexpinf.dll) has been
+\par \hich\af2\dbch\af23\loch\f2       tested with Informix version 9.2.1 client/server
+\par \hich\af2\dbch\af23\loch\f2       and 9.2.1 client with SE server.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 MSSQL driver - Known issues
+\par \hich\af2\dbch\af23\loch\f2 -------------------\hich\af2\dbch\af23\loch\f2 --------
+\par 
+\par \hich\af2\dbch\af23\loch\f2 1) Connection with a Blank Password/OS Authentication:
+\par 
+\par \hich\af2\dbch\af23\loch\f2    With the current MSSQL driver you can't connect using a
+\par \hich\af2\dbch\af23\loch\f2    blank password or with OS Authentication = True.
+\par 
+\par \hich\af2\dbch\af23\loch\f2    A patch will be made available soon at Borland's support
+\par \hich\af2\dbch\af23\loch\f2    download site.
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 2) Master detail:
+\par 
+\par \hich\af2\dbch\af23\loch\f2    a) When trying to open a master-detail as a nested
+\par \hich\af2\dbch\af23\loch\f2       dataset and if the detail link field is an INTEGER
+\par \hich\af2\dbch\af23\loch\f2       type and defined NOT NULL you will get a SQL Error
+\par \hich\af2\dbch\af23\loch\f2       "SQL State:HY000, SQL Error Code: 0, Invalid Input
+\par \hich\af2\dbch\af23\loch\f2       para\hich\af2\dbch\af23\loch\f2 meter values. Check the status values for
+\par \hich\af2\dbch\af23\loch\f2       details"
+\par 
+\par \hich\af2\dbch\af23\loch\f2       A patch will be made available soon at Borland's
+\par \hich\af2\dbch\af23\loch\f2       support download site.
+\par 
+\par \hich\af2\dbch\af23\loch\f2    b) ApplyUpdates() on a master-detail with
+\par \hich\af2\dbch\af23\loch\f2       "poFetchDetailsOnDemand" = True causes a SQL error
+\par \hich\af2\dbch\af23\loch\f2       "Cannot create new connection because in manual or
+\par \hich\af2\dbch\af23\loch\f2       distributed transaction mode". Workaround:
+\par 
+\par \hich\af2\dbch\af23\loch\f2       poFetchDetailsOnDemand = False (default)
+\par 
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 dbExpress MSSQL driver BLOB access
+\par \hich\af2\dbch\af23\loch\f2 -----------------------------------
+\par 
+\par \hich\af2\dbch\af23\loch\f2 dbExpress MSSQL uses ISeque\hich\af2\dbch\af23\loch\f2 ntialStream (OLEDB
+\par \hich\af2\dbch\af23\loch\f2 interface) to access blobs from SQL Server. MS OLEDB
+\par \hich\af2\dbch\af23\loch\f2 provider (SQLOLEDB) doesn't support accessing more than
+\par \hich\af2\dbch\af23\loch\f2 one in a SELECT using ISequentialStream. So, if you are
+\par \hich\af2\dbch\af23\loch\f2 projecting more than one blob column in your queries
+\par \hich\af2\dbch\af23\loch\f2 the dbExpress drive\hich\af2\dbch\af23\loch\f2 r will not use the ISequentialStream
+\par \hich\af2\dbch\af23\loch\f2 to access blobs. Instead, it will bind huge buffers to
+\par \hich\af2\dbch\af23\loch\f2 get the blob data. The buffer size is determined by the
+\par \hich\af2\dbch\af23\loch\f2 BlobSize entry in dbxconnections.ini. Make sure to set
+\par \hich\af2\dbch\af23\loch\f2 it to an appropriate size to improve performance when
+\par \hich\af2\dbch\af23\loch\f2 more than one blob column is projected.
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 MySQL limitation (dbExpress)
+\par \hich\af2\dbch\af23\loch\f2 ----------------------------
+\par 
+\par \hich\af2\dbch\af23\loch\f2 MySQL can't filter with FLOAT fields in the WHERE
+\par \hich\af2\dbch\af23\loch\f2 clause. Since this limitation prevents updates with
+\par \hich\af2\dbch\af23\loch\f2 TClientDataset and TDataSetProvider, use DOUBLE
+\par \hich\af2\dbch\af23\loch\f2 instead. For more information, see the MySQL
+\par \hich\af2\dbch\af23\loch\f2 documentation.
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Huge Text in MySQL (dbExpress)
+\par \hich\af2\dbch\af23\loch\f2 ------------------------------
+\par 
+\par \hich\af2\dbch\af23\loch\f2 MySQL Server has a startup parameter called max-
+\par \hich\af2\dbch\af23\loch\f2 allowed-packet that, by default, is set to 1 megabyte
+\par \hich\af2\dbch\af23\loch\f2 for most MySQL servers. Incr\hich\af2\dbch\af23\loch\f2 ease the value of max-
+\par \hich\af2\dbch\af23\loch\f2 allowed-packet if you encounter difficulty writing
+\par \hich\af2\dbch\af23\loch\f2 large amounts of data (such as large strings) to MySQL.
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Oracle notes for dbExpress
+\par \hich\af2\dbch\af23\loch\f2 --------------------------
+\par 
+\par \hich\af2\dbch\af23\loch\f2 When qualifying a table name with a user name, you must
+\par \hich\af2\dbch\af23\loch\f2 use quotes ar\hich\af2\dbch\af23\loch\f2 ound the table name when CommandType is
+\par \hich\af2\dbch\af23\loch\f2 set to ctTable.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Oracle LONG and LONG RAW fields (dbExpress)
+\par \hich\af2\dbch\af23\loch\f2 -------------------------------------------
+\par 
+\par \hich\af2\dbch\af23\loch\f2 When using Oracle, the size of LONG and LONG RAW fields
+\par \hich\af2\dbch\af23\loch\f2 cannot be determined without fetching the whole field.
+\par \hich\af2\dbch\af23\loch\f2 So if BLOB SIZE is set to -1, LONG and LONG RAW fields
+\par \hich\af2\dbch\af23\loch\f2 are truncated to 64K. Recommendation: Set BLOB SIZE to
+\par \hich\af2\dbch\af23\loch\f2 your best estimate of the blob size.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Configuring driver files  (dbExpress)
+\par \hich\af2\dbch\af23\loch\f2 ---------------\hich\af2\dbch\af23\loch\f2 ----------------------
+\par \hich\af2\dbch\af23\loch\f2 The Oracle driver now supports Trim Char, Multiple
+\par \hich\af2\dbch\af23\loch\f2 Transaction and OS Authentication. You need to add
+\par \hich\af2\dbch\af23\loch\f2 these settings to your dbxdrivers for new aliases
+\par \hich\af2\dbch\af23\loch\f2 and/or update dbxconnections in order to include these
+\par \hich\af2\dbch\af23\loch\f2 settings for old aliases.
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Please append the following at the end of dbxdrivers
+\par \hich\af2\dbch\af23\loch\f2 file if you are using a driver file from an earlier
+\par \hich\af2\dbch\af23\loch\f2 version of Delphi:
+\par 
+\par \hich\af2\dbch\af23\loch\f2     [Multiple Transaction]
+\par \hich\af2\dbch\af23\loch\f2     False=0
+\par \hich\af2\dbch\af23\loch\f2     True=1
+\par 
+\par \hich\af2\dbch\af23\loch\f2     [Trim Char]
+\par \hich\af2\dbch\af23\loch\f2     False=0
+\par \hich\af2\dbch\af23\loch\f2     True=1
+\par 
+\par \hich\af2\dbch\af23\loch\f2     [OS Authentication]
+\par \hich\af2\dbch\af23\loch\f2     False=0
+\par \hich\af2\dbch\af23\loch\f2     True=1
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Add the following under the [Oracle] section in
+\par \hich\af2\dbch\af23\loch\f2 dbxdrivers and under your existent Oracle alias.
+\par 
+\par \hich\af2\dbch\af23\loch\f2     OS Authentication=False
+\par \hich\af2\dbch\af23\loch\f2     Multiple Transaction=False
+\par \hich\af2\dbch\af23\loch\f2     Trim Char=False
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Oracle OS authentication  (dbExpress)
+\par \hich\af2\dbch\af23\loch\f2 ---------------------------\hich\af2\dbch\af23\loch\f2 ----------
+\par 
+\par \hich\af2\dbch\af23\loch\f2 To get the correct list of tables and other schema
+\par \hich\af2\dbch\af23\loch\f2 objects in the dbExpress components, set the User_Name
+\par \hich\af2\dbch\af23\loch\f2 to OPS$XXX, where XXX is the OS Authenticated user.
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 =======================================================
+\par \hich\af2\dbch\af23\loch\f2 ABOUT EDITING THE WINDOWS RE\hich\af2\dbch\af23\loch\f2 GISTRY
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Warning:
+\par \hich\af2\dbch\af23\loch\f2     Registry edits are performed at your own risk.
+\par \hich\af2\dbch\af23\loch\f2     Several items in this document and in other parts
+\par \hich\af2\dbch\af23\loch\f2     of the documentation that accompany this product
+\par \hich\af2\dbch\af23\loch\f2     describe how to edit your Windows registry. In most
+\par \hich\af2\dbch\af23\loch\f2     cases, we recommend t\hich\af2\dbch\af23\loch\f2 hat you use the Microsoft
+\par \hich\af2\dbch\af23\loch\f2     Regedit tool to perform your editing. Whatever tool
+\par \hich\af2\dbch\af23\loch\f2     you use, however, you should, before making any
+\par \hich\af2\dbch\af23\loch\f2     edits, make backups of your registry and thoroughly
+\par \hich\af2\dbch\af23\loch\f2     familiarize yourself with the editing tool and the
+\par \hich\af2\dbch\af23\loch\f2     registry editing process. The registry is a
+\par \hich\af2\dbch\af23\loch\f2     critical component of your operating system, and
+\par \hich\af2\dbch\af23\loch\f2     any mistakes made while editing it can cause your
+\par \hich\af2\dbch\af23\loch\f2     machine to stop functioning.
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 =======================================================
+\par \hich\af2\dbch\af23\loch\f2 PRODUCT IN\hich\af2\dbch\af23\loch\f2 FORMATION ON THE WEB
+\par 
+\par \hich\af2\dbch\af23\loch\f2 In addition to numerous private sites that offer
+\par \hich\af2\dbch\af23\loch\f2 information, instruction, and samples, the following
+\par \hich\af2\dbch\af23\loch\f2 Borland Web-based resources provide a continuous stream
+\par \hich\af2\dbch\af23\loch\f2 of news, product information, updates, code, and other
+\par \hich\af2\dbch\af23\loch\f2 materials. You can co\hich\af2\dbch\af23\loch\f2 nnect to many of these resources
+\par \hich\af2\dbch\af23\loch\f2 directly from the Help menu.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Delphi Direct [Help|Delphi Direct]
+\par \hich\af2\dbch\af23\loch\f2 ----------------------------------
+\par 
+\par \hich\af2\dbch\af23\loch\f2 This IDE add-in resource provides an automatically
+\par \hich\af2\dbch\af23\loch\f2 updated list of links to the latest news, downloads,
+\par \hich\af2\dbch\af23\loch\f2 and other informat\hich\af2\dbch\af23\loch\f2 ion about Delphi and Borland.
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Code Central
+\par \hich\af2\dbch\af23\loch\f2 ------------
+\par 
+\par \hich\af2\dbch\af23\loch\f2 The CodeCentral Repository is a free, searchable
+\par \hich\af2\dbch\af23\loch\f2 database of code, tips, and other materials of interest
+\par \hich\af2\dbch\af23\loch\f2 to developers. For details and registration
+\par \hich\af2\dbch\af23\loch\f2 information, visit
+\par 
+\par \hich\af2\dbch\af23\loch\f2  http://codecentral.borland.com/
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 The Borland Web site
+\par \hich\af2\dbch\af23\loch\f2 --------------------
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Borland Software Corporation home page:
+\par \hich\af2\dbch\af23\loch\f2   http://www.borland.com
+\par \hich\af2\dbch\af23\loch\f2   [IDE: Help|Borland Home Page]
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Delphi home page:
+\par \hich\af2\dbch\af23\loch\f2   http://www.borland.com/delphi/
+\par \hich\af2\dbch\af23\loch\f2   [IDE: Help|Delphi Home Page\hich\af2\dbch\af23\loch\f2 ]
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Delphi developer support:
+\par \hich\af2\dbch\af23\loch\f2   http://www.borland.com/devsupport/delphi/
+\par \hich\af2\dbch\af23\loch\f2   [IDE: Help|Delphi Developer Support]
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Delphi updates and other downloads:
+\par \hich\af2\dbch\af23\loch\f2   http://www.borland.com/devsupport/delphi/downloads/
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Delphi documentation site:
+\par \hich\af2\dbch\af23\loch\f2   http://www.borland.com/\hich\af2\dbch\af23\loch\f2 techpubs/delphi
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Newsgroups:
+\par \hich\af2\dbch\af23\loch\f2   http://www.borland.com/newsgroups/
+\par 
+\par \hich\af2\dbch\af23\loch\f2 Worldwide offices and distributors:
+\par \hich\af2\dbch\af23\loch\f2   http://www.borland.com/bww/
+\par 
+\par \hich\af2\dbch\af23\loch\f2 FTP site (anonymous access):
+\par \hich\af2\dbch\af23\loch\f2   ftp.borland.com
+\par 
+\par 
+\par \hich\af2\dbch\af23\loch\f2 =======================================================
+\par \hich\af2\dbch\af23\loch\f2 Copyright (c) 2002 Borland Software Corporation.
+\par \hich\af2\dbch\af23\loch\f2 All rights reserved.
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }{\dbch\af23 
+\par }}

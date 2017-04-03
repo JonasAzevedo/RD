@@ -1,0 +1,93 @@
+*******************************************************************************
+        External Translation Manager (ETM)
+*******************************************************************************
+
+1.      How to install ETM on a translator's machine.
+2.      How to send Delphi projects for translation.
+3.      How to receive translated projects back into Delphi.
+4.      Repository files.
+
+-------------------------------------------------------------------------------
+1.      How to install ETM on a translator's machine.
+-------------------------------------------------------------------------------
+
+        On the translator's machine:
+
+        1) Create a directory (for example,"C:\ETM").
+
+        2) Copy the following files from the developer's machine into the
+           directory you just created:
+         
+             from delphi60\bin:
+             - etm60.exe
+             - itecore60.bpl
+             - rc60.bpl
+             - dfm60.bpl
+             - clxdesigner60.bpl
+             - designdgm60.bpl
+             - designide60.bpl
+             - dbx60.bpl
+             - dbx.dbi
+             - indy60.bpl
+             - vclide60.bpl
+             - vclhie60.bpl
+
+             - all dcl*60.bpl files, except dclemacsedit60.bpl,
+               dclite60.bpl, dclsmpedit60.bpl, dclsoap60.bpl, 
+               and dclwebsnap60.bpl.
+
+             from your appropriate Windows system directory, such as 
+             windows\system or \WINNT\System32:
+             - qtintf.dll
+             - *60.bpl
+
+             from delphi60\help:
+             - etm.hlp (the ETM help file)
+
+        3) Run ETM and select Tools | Options | Packages | Add.
+
+        4) Select all designtime package BPL files (dcl*.bpl) and click OK.
+
+
+-------------------------------------------------------------------------------
+2.      How to send Delphi projects for translation
+-------------------------------------------------------------------------------
+
+        1) The developer will run the Resource DLL Wizard on his current
+           project. ETM generated files will be saved under a root directory
+           named after the language.
+
+           For example:
+
+           C:\MyDelphiProjects\AFK
+
+           is the Afrikaan translation root directory for a project saved in
+           "C:\MyDelphiProjects".
+
+        2) To send this project for translation, zip up this directory and send
+           this kit to the translator.
+        
+           Note: In the kit, you must include the .bgp and .dof files in the
+                 zip file, either as individual files or alternatively, 
+                 combined into an ETM project file. If you want to send
+                 an ETM project file, use File | Save As to create the file,
+                 then make sure you include it in the zip file.
+
+        3) The translator will unzip the kit in a directory of his choice and
+           open the project file (.etm or .bpg) in ETM.
+
+     
+-------------------------------------------------------------------------------
+3.      How to receive translated projects back into Delphi.
+-------------------------------------------------------------------------------
+
+        1) Copy all translated .rc and .dfn files received from the translator
+           into your language root directory (for example, 
+           "C:\MyDelphiProjects\AFK").
+
+-------------------------------------------------------------------------------
+4.      Repository files.
+-------------------------------------------------------------------------------
+
+        Repository files are standalone files with an .rps extension. They can
+        be sent back and forth with the translation kits.

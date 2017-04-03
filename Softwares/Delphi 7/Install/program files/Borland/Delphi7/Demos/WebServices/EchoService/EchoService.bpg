@@ -1,0 +1,26 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = EchoService_WAD.exe EchoService_Client.exe EchoService_CGI.exe
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+EchoService_WAD.exe: Server\EchoService_WAD.dpr
+  $(DCC)
+
+EchoService_Client.exe: Client\EchoService_Client.dpr
+  $(DCC)
+
+EchoService_CGI.exe: Server\EchoService_CGI.dpr
+  $(DCC)
+
+

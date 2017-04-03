@@ -1,0 +1,57 @@
+:Include d7new.toc
+:Include d7.toc
+:Include d7prog.toc
+:Include d7dbd.toc
+:Include d7dap.toc
+:Include d7cw.toc
+:Include d7com.toc
+:Include d7ref.toc
+:Include d7ibx.toc
+:Include d7dlr.toc
+:Include d7xtra.toc
+:Include d7indy.toc
+:Include Rave50DevGuide.cnt
+:Include Rave.cnt
+1 Command-line Tools
+2 MAKE.EXE
+3 Using MAKE
+3 Using MAKE = UsingMAKE
+3 Default MAKE actions = DefaultMAKEActions
+3 Using makefiles = UsingMakefiles
+3 Symbolic targets = SymbolicTargets
+3 BUILTINS.MAK = BUILTINSMAK
+3 Using TOUCH = UsingTOUCH
+3 MAKE options
+4 MAKE options = MAKEOptions
+4 Compatibility with Microsoft's NMAKE = CompatibilityWithMicrosoftSNMAKE
+3 Explicit and implicit rules
+4 Explicit and implicit rules = ExplicitAndImplicitRules
+4 Explicit rule syntax = ExplicitRuleSyntax
+4 Implicit rule syntax = ImplicitRuleSyntax
+3 Command syntax
+4 Command syntax = CommandSyntax
+4 MAKE command operators = MakeCommandOperators
+3 MAKE macros
+4 Using MAKE macros = UsingMAKEMacros
+4 Defining MAKE macros = DefiningMAKEMacros
+4 String substitutions in MAKE macros = StringSubstitutionsInMAKEMacros
+4 Default MAKE macros = DefaultMAKEMacros
+4 Modifying default MAKE macros = ModifyingDefaultMAKEMacros
+3 Make directives
+4 Using MAKE directives = UsingMAKEDirectives
+4 .autodepend = MAKE_autodepend
+4 !error = MAKE_error
+4 !if and other conditional directives = MAKE_IfAndOtherConditionalDirectives
+4 !include = MAKE_include
+4 !message = MAKE_message
+4 .path.ext = MAKE_pathExt
+4 .precious = MAKE_precious
+4 .suffixes = MAKE_suffixes
+4 !undef = MAKE_undef
+4 Using macros in directives = UsingMacrosInDirectives
+4 Null macros = NullMacros
+2 WSDLIMP.EXE
+3 WSDLIMP: The WSDL document importer = WSDLIMP
+3 WSDLIMP command-line options = WSDLIMPCommandLineOptions 
+1 Glossary
+2 Glossary=glossary

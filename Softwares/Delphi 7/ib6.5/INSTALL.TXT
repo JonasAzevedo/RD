@@ -1,0 +1,93 @@
+---------------------------------------
+WELCOME TO INTERBASE 6.5
+---------------------------------------
+
+Installation notes and issues for InterBase 6.5
+for Windows XP/2000/NT and Windows 98/ME.
+
+______________________
+PREPARING TO INSTALL
+
+1. SAVING OLDER DATABASES
+InterBase 6.5 uses a new On-Disk Structure (ODS),
+ODS 10. Databases created with InterBase 4.0 
+used ODS 8.0 and InterBase 5 used ODS 9. To 
+take advantage of new Version 6.5 features, you 
+must use gbak to back up any databases that 
+you intend to use with Version 6.5. Version 3 
+databases must be backed up using the Version
+3 gbak. Version 4 databases can be backed up 
+using Version 4 gbak or Version 5 gbak.  Once 
+a database has been backed up, you need to 
+restore them With your new version 6.5 and they
+will be converted to ODS 10. 
+Please Note: ODS 10 databases cannot be 
+converted back to earlier versions of the ODS.
+
+
+2.  OLDER VERSIONS OF INTERBASE
+It is recommended that you uninstall any
+previous versions of InterBase prior to
+InterBase 6.5 that are present on the server 
+where you are installing new InterBase  
+software. With this software, as with any 
+software, it is recommended to remove any 
+field test versions prior to installing. 
+If InterBase 4.1 or earlier is present on 
+your database server, you *must* uninstall 
+it before proceeding with the Version 6.5 
+install.
+
+
+3.  GDS32.DLL
+There must be one and only one copy of
+gds32.dll on the server where InterBase 6.5
+is running. If gds32.dll exists on the
+server because you have previously
+installed Borland Database Engine as part
+of Delphi, C++Builder, or another Borland
+product, or because InterBase 4.1 or earlier
+was installed on the server, you must
+remove the older gds32.dll file.
+
+4.  For Windows 2000 users
+
+If you have a previous version of InterBase on you computer,
+you will need to follow these steps before you install:
+
+1.  Go to Services and shut down InterBase Guardian and Server
+2.  Close the Services application.
+3.  Go to Control Panel and Launch "Add-Remove Programs"
+4.  Remove InterBase.
+5.  Delete the full InterBase directory.
+6.  Delete gds32.dll from c:\winnt\system32
+7.  Now install InterBase.
+
+____________________________
+INSTALLING INTERBASE 6.5
+
+1. Windows system requirements: 
+Windows 98/ME, Windows 2000 with Service 
+Pack 1, or NT 4.0 with Service Pack 6a.  
+A full install requires approximately 36MB 
+of disk space. Only 11MB is needed to 
+install the InterBase product without 
+documents, or Acrobat Reader.
+
+You cannot install InterBase onto a network
+drive.
+
+2. To install:
+The CD should automatically start, but if you
+have this Windows feature turned off just
+Go to the IB65_win32 directory of your cd and 
+launch "setup.exe".  Now just relax and 
+follow our easy install instructions as 
+they appear on your monitor...
+
+3.  Have fun with InterBase! 
+
+
+-------------------------------------
+Copyright (c) 2001 Borland Software Corporation
+All rights reserved.

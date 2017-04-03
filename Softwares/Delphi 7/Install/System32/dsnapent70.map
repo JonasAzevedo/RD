@@ -1,0 +1,597 @@
+
+ Start         Length     Name                   Class
+ 0001:00000000 00005EFCH .text                   CODE
+ 0002:00000000 00000114H .data                   DATA
+ 0002:00000114 00000105H .bss                    BSS
+
+
+Detailed map of segments
+
+ 0001:00000000 000001BE C=CODE     S=.text    G=(none)   M=System   ACBP=A9
+ 0001:000001C0 000001EC C=CODE     S=.text    G=(none)   M=SysInit  ACBP=A9
+ 0001:000003AC 00000068 C=CODE     S=.text    G=(none)   M=Windows  ACBP=A9
+ 0001:00000414 0000000E C=CODE     S=.text    G=(none)   M=Types    ACBP=A9
+ 0001:00000424 00000066 C=CODE     S=.text    G=(none)   M=SysUtils ACBP=A9
+ 0001:0000048C 0000000E C=CODE     S=.text    G=(none)   M=SysConst ACBP=A9
+ 0001:0000049C 00000186 C=CODE     S=.text    G=(none)   M=Classes  ACBP=A9
+ 0001:00000624 0000000E C=CODE     S=.text    G=(none)   M=ActiveX  ACBP=A9
+ 0001:00000634 00000038 C=CODE     S=.text    G=(none)   M=Messages ACBP=A9
+ 0001:0000066C 0000000E C=CODE     S=.text    G=(none)   M=TypInfo  ACBP=A9
+ 0001:0000067C 000000CE C=CODE     S=.text    G=(none)   M=Variants ACBP=A9
+ 0001:0000074C 0000000E C=CODE     S=.text    G=(none)   M=VarUtils ACBP=A9
+ 0001:0000075C 0000000E C=CODE     S=.text    G=(none)   M=RTLConsts ACBP=A9
+ 0001:0000076C 000000D6 C=CODE     S=.text    G=(none)   M=Provider ACBP=A9
+ 0001:00000844 0000000E C=CODE     S=.text    G=(none)   M=SqlTimSt ACBP=A9
+ 0001:00000854 0000000E C=CODE     S=.text    G=(none)   M=DBConsts ACBP=A9
+ 0001:00000864 0000000E C=CODE     S=.text    G=(none)   M=DateUtils ACBP=A9
+ 0001:00000874 0000000E C=CODE     S=.text    G=(none)   M=Math     ACBP=A9
+ 0001:00000884 0000000E C=CODE     S=.text    G=(none)   M=Midas    ACBP=A9
+ 0001:00000894 0000000E C=CODE     S=.text    G=(none)   M=DSIntf   ACBP=A9
+ 0001:000008A4 0000000E C=CODE     S=.text    G=(none)   M=DBCommon ACBP=A9
+ 0001:000008B4 0000008E C=CODE     S=.text    G=(none)   M=DB       ACBP=A9
+ 0001:00000944 0000000E C=CODE     S=.text    G=(none)   M=FMTBcd   ACBP=A9
+ 0001:00000954 0000000E C=CODE     S=.text    G=(none)   M=MaskUtils ACBP=A9
+ 0001:00000964 00000026 C=CODE     S=.text    G=(none)   M=ComObj   ACBP=A9
+ 0001:0000098C 0000000E C=CODE     S=.text    G=(none)   M=ComConst ACBP=A9
+ 0001:0000099C 0000000E C=CODE     S=.text    G=(none)   M=MidConst ACBP=A9
+ 0001:000009AC 00000036 C=CODE     S=.text    G=(none)   M=DBClient ACBP=A9
+ 0001:000009E4 0000000E C=CODE     S=.text    G=(none)   M=DataBkr  ACBP=A9
+ 0001:000009F4 000000C8 C=CODE     S=.text    G=(none)   M=ENTCONST ACBP=A9
+ 0001:00000ABC 000009DB C=CODE     S=.text    G=(none)   M=ENTINTF  ACBP=A9
+ 0001:00001498 000038F0 C=CODE     S=.text    G=(none)   M=ENTPROV  ACBP=A9
+ 0001:00004D88 0000001E C=CODE     S=.text    G=(none)   M=Forms    ACBP=A9
+ 0001:00004DA8 0000000E C=CODE     S=.text    G=(none)   M=HelpIntfs ACBP=A9
+ 0001:00004DB8 0000000E C=CODE     S=.text    G=(none)   M=Contnrs  ACBP=A9
+ 0001:00004DC8 0000000E C=CODE     S=.text    G=(none)   M=MultiMon ACBP=A9
+ 0001:00004DD8 0000000E C=CODE     S=.text    G=(none)   M=ActnList ACBP=A9
+ 0001:00004DE8 0000000E C=CODE     S=.text    G=(none)   M=ImgList  ACBP=A9
+ 0001:00004DF8 00000038 C=CODE     S=.text    G=(none)   M=CommCtrl ACBP=A9
+ 0001:00004E30 0000000E C=CODE     S=.text    G=(none)   M=Graphics ACBP=A9
+ 0001:00004E40 0000000E C=CODE     S=.text    G=(none)   M=Consts   ACBP=A9
+ 0001:00004E50 0000000E C=CODE     S=.text    G=(none)   M=Controls ACBP=A9
+ 0001:00004E60 00000038 C=CODE     S=.text    G=(none)   M=Imm      ACBP=A9
+ 0001:00004E98 0000000E C=CODE     S=.text    G=(none)   M=Menus    ACBP=A9
+ 0001:00004EA8 0000000E C=CODE     S=.text    G=(none)   M=Themes   ACBP=A9
+ 0001:00004EB8 0000000E C=CODE     S=.text    G=(none)   M=UxTheme  ACBP=A9
+ 0001:00004EC8 0000000E C=CODE     S=.text    G=(none)   M=SyncObjs ACBP=A9
+ 0001:00004ED8 0000000E C=CODE     S=.text    G=(none)   M=ComCtrls ACBP=A9
+ 0001:00004EE8 00000038 C=CODE     S=.text    G=(none)   M=ShlObj   ACBP=A9
+ 0001:00004F20 00000038 C=CODE     S=.text    G=(none)   M=UrlMon   ACBP=A9
+ 0001:00004F58 00000038 C=CODE     S=.text    G=(none)   M=WinInet  ACBP=A9
+ 0001:00004F90 00000038 C=CODE     S=.text    G=(none)   M=RegStr   ACBP=A9
+ 0001:00004FC8 00000038 C=CODE     S=.text    G=(none)   M=ShellAPI ACBP=A9
+ 0001:00005000 0000000E C=CODE     S=.text    G=(none)   M=ListActns ACBP=A9
+ 0001:00005010 0000000E C=CODE     S=.text    G=(none)   M=ExtCtrls ACBP=A9
+ 0001:00005020 0000000E C=CODE     S=.text    G=(none)   M=StdCtrls ACBP=A9
+ 0001:00005030 0000000E C=CODE     S=.text    G=(none)   M=WinHelpViewer ACBP=A9
+ 0001:00005040 0000000E C=CODE     S=.text    G=(none)   M=StdActns ACBP=A9
+ 0001:00005050 0000000E C=CODE     S=.text    G=(none)   M=Dialogs  ACBP=A9
+ 0001:00005060 0000000E C=CODE     S=.text    G=(none)   M=Printers ACBP=A9
+ 0001:00005070 00000038 C=CODE     S=.text    G=(none)   M=WinSpool ACBP=A9
+ 0001:000050A8 00000038 C=CODE     S=.text    G=(none)   M=CommDlg  ACBP=A9
+ 0001:000050E0 00000038 C=CODE     S=.text    G=(none)   M=Dlgs     ACBP=A9
+ 0001:00005118 0000000E C=CODE     S=.text    G=(none)   M=StrUtils ACBP=A9
+ 0001:00005128 0000000E C=CODE     S=.text    G=(none)   M=Clipbrd  ACBP=A9
+ 0001:00005138 0000000E C=CODE     S=.text    G=(none)   M=FlatSB   ACBP=A9
+ 0001:00005148 0000000E C=CODE     S=.text    G=(none)   M=ToolWin  ACBP=A9
+ 0001:00005158 00000038 C=CODE     S=.text    G=(none)   M=RichEdit ACBP=A9
+ 0001:00005190 0000000E C=CODE     S=.text    G=(none)   M=ExtActns ACBP=A9
+ 0001:000051A0 0000000E C=CODE     S=.text    G=(none)   M=Registry ACBP=A9
+ 0001:000051B0 0000000E C=CODE     S=.text    G=(none)   M=IniFiles ACBP=A9
+ 0001:000051C0 0000000E C=CODE     S=.text    G=(none)   M=ExtDlgs  ACBP=A9
+ 0001:000051D0 0000000E C=CODE     S=.text    G=(none)   M=Buttons  ACBP=A9
+ 0001:000051E0 0000000E C=CODE     S=.text    G=(none)   M=Mapi     ACBP=A9
+ 0001:000051F0 0000000E C=CODE     S=.text    G=(none)   M=ComStrs  ACBP=A9
+ 0001:00005200 00000A64 C=CODE     S=.text    G=(none)   M=SQLPARSE ACBP=A9
+ 0001:00005C64 00000295 C=CODE     S=.text    G=(none)   M=dsnapent ACBP=A9
+ 0002:00000000 0000002C C=DATA     S=.data    G=DGROUP   M=SysInit  ACBP=A9
+ 0002:0000002C 00000034 C=DATA     S=.data    G=DGROUP   M=ENTPROV  ACBP=A9
+ 0002:00001000 00000010 C=BSS      S=.bss     G=DGROUP   M=SysInit  ACBP=A9
+ 0002:00001010 00000004 C=BSS      S=.bss     G=DGROUP   M=Windows  ACBP=A9
+ 0002:00001014 00000004 C=BSS      S=.bss     G=DGROUP   M=Messages ACBP=A9
+ 0002:00001018 00000004 C=BSS      S=.bss     G=DGROUP   M=ENTCONST ACBP=A9
+ 0002:0000101C 000000A8 C=BSS      S=.bss     G=DGROUP   M=ENTINTF  ACBP=A9
+ 0002:000010C4 00000004 C=BSS      S=.bss     G=DGROUP   M=ENTPROV  ACBP=A9
+ 0002:000010C8 00000004 C=BSS      S=.bss     G=DGROUP   M=CommCtrl ACBP=A9
+ 0002:000010CC 00000004 C=BSS      S=.bss     G=DGROUP   M=Imm      ACBP=A9
+ 0002:000010D0 00000004 C=BSS      S=.bss     G=DGROUP   M=ShlObj   ACBP=A9
+ 0002:000010D4 00000004 C=BSS      S=.bss     G=DGROUP   M=UrlMon   ACBP=A9
+ 0002:000010D8 00000004 C=BSS      S=.bss     G=DGROUP   M=WinInet  ACBP=A9
+ 0002:000010DC 00000004 C=BSS      S=.bss     G=DGROUP   M=RegStr   ACBP=A9
+ 0002:000010E0 00000004 C=BSS      S=.bss     G=DGROUP   M=ShellAPI ACBP=A9
+ 0002:000010E4 00000004 C=BSS      S=.bss     G=DGROUP   M=WinSpool ACBP=A9
+ 0002:000010E8 00000004 C=BSS      S=.bss     G=DGROUP   M=CommDlg  ACBP=A9
+ 0002:000010EC 00000004 C=BSS      S=.bss     G=DGROUP   M=Dlgs     ACBP=A9
+ 0002:000010F0 00000004 C=BSS      S=.bss     G=DGROUP   M=RichEdit ACBP=A9
+ 0002:000010F4 00000010 C=BSS      S=.bss     G=DGROUP   M=SQLPARSE ACBP=A9
+
+
+  Address         Publics by Name
+
+ 0002:000010F0       .1
+ 0002:00001014       .1
+ 0002:000010EC       .1
+ 0002:000010E8       .1
+ 0002:000010E0       .1
+ 0002:00001008       .1
+ 0002:000010DC       .1
+ 0002:000010D8       .1
+ 0002:000010C8       .1
+ 0002:000010D4       .1
+ 0002:000010B0       .1
+ 0002:000010CC       .1
+ 0002:000010D0       .1
+ 0002:00001018       .1
+ 0002:000010F4       .2
+ 0002:00001010       .3
+ 0002:000010E4       .3
+ 0002:000010C4       .7
+ 0001:00005ED4       @GetPackageInfoTable
+ 0001:000002F8       @InitPkg
+ 0001:0000035C       @PackageLoad
+ 0001:00005EDC       @PackageLoad
+ 0001:00000368       @PackageUnload
+ 0001:00005EE8       @PackageUnload
+ 0001:000001F8       AllocTlsBuffer
+ 0001:0000308C       CallRPC
+ 0001:0000375C       CallRPC
+ 0001:00004E28       CommCtrl
+ 0001:000050D8       CommDlg
+ 0001:00005708       CreateParam
+ 0001:00003AAC       DCERelease
+ 0002:00001024       dce_checkver
+ 0002:00001020       dce_close_env
+ 0002:0000102C       dce_close_socket
+ 0002:00001040       dce_element_get
+ 0002:00001050       dce_errstr
+ 0002:00001028       dce_findserver
+ 0002:00001038       dce_pop_long
+ 0001:0000132C       dce_pop_retcode
+ 0002:0000103C       dce_pop_void_Dstr
+ 0002:00001034       dce_push_char_Nstr
+ 0002:0000104C       dce_release
+ 0002:0000101C       dce_setenv
+ 0002:00001030       dce_submit
+ 0002:00001048       dce_table_destroy
+ 0002:00001044       dce_table_find
+ 0001:00005110       Dlgs
+ 0001:00005EF4       dsnapent
+ 0001:00000AB4       ENTCONST
+ 0001:00001468       ENTINTF
+ 0001:00004D74       ENTPROV
+ 0001:000002A4       ExitProcessTLS
+ 0001:0000027C       ExitThreadTLS
+ 0002:000010B8       FDapFile
+ 0002:000010C0       FDCELibrary
+ 0002:000010B4       FEnvFile
+ 0002:00000058       FieldTypes
+ 0001:00004EE8       Finalization
+ 0001:00001418       Finalization
+ 0001:000050E0       Finalization
+ 0001:00000374       Finalization
+ 0001:00005C24       Finalization
+ 0001:000050A8       Finalization
+ 0001:00005070       Finalization
+ 0001:00004FC8       Finalization
+ 0001:00004F90       Finalization
+ 0001:00005158       Finalization
+ 0001:00004DF8       Finalization
+ 0001:00004F58       Finalization
+ 0001:00004D10       Finalization
+ 0001:000003DC       Finalization
+ 0001:00000634       Finalization
+ 0001:00004E60       Finalization
+ 0001:00000A84       Finalization
+ 0001:00004F20       Finalization
+ 0001:0000580C       FindFieldName
+ 0001:00005748       FindWhereOfs
+ 0002:000010F8       FParserLib
+ 0001:00001300       FreeDCELibrary
+ 0001:000001C0       FreeLibrary
+ 0001:000003AC       FreeLibrary
+ 0001:000053F8       FreeParser
+ 0002:00001100       FreeParseTable
+ 0001:00000DF0       FreeTCPLibrary
+ 0002:000010BC       FTCPLibrary
+ 0001:0000283C       GetFromArray
+ 0001:000027A0       GetFromBlobData
+ 0001:00002700       GetFromString
+ 0001:000025CC       GetFromVariant
+ 0001:00005864       GetFunctionInfo
+ 0001:000055F8       GetHeaderInfo
+ 0001:000003B4       GetLastError
+ 0001:000003BC       GetModuleFileName
+ 0001:00000ABC       GetProcAddr
+ 0001:0000528C       GetProcAddr
+ 0001:00000E1C       GetProcAddr
+ 0001:000003C4       GetProcAddress
+ 0001:00000204       GetTlsSize
+ 0002:00001004       HInstance
+ 0001:00004E90       Imm
+ 0001:0000348C       InitArgData
+ 0001:00002D80       InitContext
+ 0001:000002C8       InitializeModule
+ 0001:00000250       InitProcessTLS
+ 0001:00005AF0       InitRPCList
+ 0001:0000020C       InitThreadTLS
+ 0001:00000E38       LoadDCELibrary
+ 0001:000003CC       LoadLibrary
+ 0001:000052A8       LoadParser
+ 0001:00000AD8       LoadTCPLibrary
+ 0001:000001C8       LocalAlloc
+ 0001:000001D0       LocalFree
+ 0001:000003D4       MessageBox
+ 0001:00000664       Messages
+ 0002:00000004       Module
+ 0002:00001000       ModuleIsLib
+ 0002:00001001       ModuleIsPackage
+ 0001:00001374       ode_check
+ 0002:00001058       ode_cln_close_session
+ 0002:0000105C       ode_cln_get_errstr
+ 0001:000013E8       ode_cln_get_ifspec
+ 0002:00001054       ode_cln_open_session
+ 0002:0000107C       ode_dstb_call_pc_rpc
+ 0002:00001078       ode_dstb_call_rpc
+ 0002:00001070       ode_dstb_init_ptr_table
+ 0001:00001408       ode_dstb_mar_cleanup
+ 0002:0000106C       ode_dstb_mar_cleanupX
+ 0002:00001068       ode_dstb_mar_init
+ 0002:00001074       ode_dstb_new_ifspec
+ 0002:000010AC       ode_dstb_pop_char_Narr
+ 0002:000010A4       ode_dstb_pop_double_Dstr
+ 0002:000010A0       ode_dstb_pop_float_Dstr
+ 0002:000010A8       ode_dstb_pop_idl_byte_Dstr
+ 0002:0000109C       ode_dstb_pop_signed16_Dstr
+ 0002:00001094       ode_dstb_pop_signed32
+ 0002:00001098       ode_dstb_pop_signed32_Dstr
+ 0002:00001090       ode_dstb_push_char_Nstr
+ 0002:00001088       ode_dstb_push_double
+ 0002:0000108C       ode_dstb_push_float
+ 0002:00001084       ode_dstb_push_signed16
+ 0002:00001080       ode_dstb_push_signed32
+ 0002:00001064       ode_dstb_use_smallocate
+ 0001:00001348       ode_error
+ 0002:00001060       ode_mem_release
+ 0001:00003AF0       OLERelease
+ 0001:00002A6C       OpenSocket
+ 0001:000054E4       ParseFile
+ 0002:000010FC       ParseSQLFile
+ 0001:00002B8C       PopParams
+ 0001:00003194       PopParams
+ 0001:00003848       PopParams
+ 0001:00003500       PushParams
+ 0001:00002EB0       PushParams
+ 0001:00002AF8       PushParams
+ 0001:00004FC0       RegStr
+ 0001:00005188       RichEdit
+ 0001:000054A8       RPCListUpToDate
+ 0001:00004FF8       ShellAPI
+ 0001:00004F18       ShlObj
+ 0001:00005C5C       SQLPARSE
+ 0001:000003A4       SysInit
+ 0001:00003A74       TCPRelease
+ 0001:00002934       TEnteraConnection.Create
+ 0001:00003458       TEnteraConnection.DCEInvoke
+ 0001:00002978       TEnteraConnection.Destroy
+ 0001:00002A04       TEnteraConnection.GetPassword
+ 0001:000038D4       TEnteraConnection.OLEInvoke
+ 0001:000029B4       TEnteraConnection.ReleaseAll
+ 0001:00003998       TEnteraConnection.RPCInvoke
+ 0001:00003B30       TEnteraConnection.RPCRelease
+ 0001:000029DC       TEnteraConnection.SetConfigFile
+ 0001:00002A54       TEnteraConnection.SetRPCList
+ 0001:00002A3C       TEnteraConnection.SetTransportMode
+ 0001:00002D28       TEnteraConnection.TCPInvoke
+ 0001:00004A24       TEnteraProvider.ApplyUpdates
+ 0001:000046B8       TEnteraProvider.BindParameters
+ 0001:00003B7C       TEnteraProvider.Create
+ 0001:00003CCC       TEnteraProvider.CreatePacketData
+ 0001:00003C1C       TEnteraProvider.Destroy
+ 0001:000047A0       TEnteraProvider.DoUpdate
+ 0001:0000414C       TEnteraProvider.GetRecords
+ 0001:00003C88       TEnteraProvider.GetRPCFunction
+ 0001:00004610       TEnteraProvider.HandleUpdateError
+ 0001:00004310       TEnteraProvider.InitializeConflictBuffer
+ 0001:000044C0       TEnteraProvider.LogUpdateError
+ 0001:00003C58       TEnteraProvider.Notification
+ 0001:00004068       TEnteraProvider.PackageRecords
+ 0001:00003DB4       TEnteraProvider.Reset
+ 0001:00003E68       TEnteraProvider.SetParams
+ 0001:00003C90       TEnteraProvider.SetRPCFunction
+ 0001:00003CA4       TEnteraProvider.SetServer
+ 0001:000001D8       TlsAlloc
+ 0002:0000100C       tlsBuffer
+ 0001:000001E0       TlsFree
+ 0001:000001E8       TlsGetValue
+ 0002:00000000       TlsIndex
+ 0002:BFA99000       TlsLast
+ 0002:0000001C       TlsProc
+ 0001:000001F0       TlsSetValue
+ 0001:00002064       TParamDef.Assign
+ 0001:00002028       TParamDef.Create
+ 0001:000020F0       TParamDef.FieldNameStored
+ 0001:000020C8       TParamDef.GetDisplayName
+ 0001:00002130       TParamDef.SetDataType
+ 0001:0000214C       TParamDef.SetFieldType
+ 0001:00002104       TParamDef.SetParamName
+ 0001:00002588       TRPCFunction.AddDataRef
+ 0001:000023DC       TRPCFunction.Assign
+ 0001:00002354       TRPCFunction.Create
+ 0001:000023A4       TRPCFunction.Destroy
+ 0001:00002928       TRPCFunction.EndOfData
+ 0001:00002518       TRPCFunction.GetFieldCount
+ 0001:00002888       TRPCFunction.GetFieldData
+ 0001:00002504       TRPCFunction.GetFieldParam
+ 0001:000024E0       TRPCFunction.GetOwner
+ 0001:000024F8       TRPCFunction.GetParamCount
+ 0001:00002528       TRPCFunction.InitFieldParams
+ 0001:00002428       TRPCFunction.Invoke
+ 0001:000024E4       TRPCFunction.ParamsStored
+ 0001:000024A0       TRPCFunction.Release
+ 0001:00005414       TRPCList.Destroy
+ 0001:0000545C       TRPCList.GetRPC
+ 0001:00005470       TRPCList.IndexOfRPC
+ 0001:000021C8       TRPCParams.Add
+ 0001:0000216C       TRPCParams.Create
+ 0001:000021AC       TRPCParams.GetItem
+ 0001:000021D4       TRPCParams.GetOwner
+ 0001:000021D8       TRPCParams.ParamByFieldName
+ 0001:0000229C       TRPCParams.ParamByName
+ 0001:000021C0       TRPCParams.SetItem
+ 0001:000002D4       UninitializeModule
+ 0002:0000002C       UpdateKindStr
+ 0001:00004F50       UrlMon
+ 0002:00000038       VarTypes
+ 0001:0000040C       Windows
+ 0001:00004F88       WinInet
+ 0001:000050A0       WinSpool
+
+
+  Address         Publics by Value
+
+ 0002:BFA99000       TlsLast
+ 0001:000001C0       FreeLibrary
+ 0001:000001C8       LocalAlloc
+ 0001:000001D0       LocalFree
+ 0001:000001D8       TlsAlloc
+ 0001:000001E0       TlsFree
+ 0001:000001E8       TlsGetValue
+ 0001:000001F0       TlsSetValue
+ 0001:000001F8       AllocTlsBuffer
+ 0001:00000204       GetTlsSize
+ 0001:0000020C       InitThreadTLS
+ 0001:00000250       InitProcessTLS
+ 0001:0000027C       ExitThreadTLS
+ 0001:000002A4       ExitProcessTLS
+ 0001:000002C8       InitializeModule
+ 0001:000002D4       UninitializeModule
+ 0001:000002F8       @InitPkg
+ 0001:0000035C       @PackageLoad
+ 0001:00000368       @PackageUnload
+ 0001:00000374       Finalization
+ 0001:000003A4       SysInit
+ 0001:000003AC       FreeLibrary
+ 0001:000003B4       GetLastError
+ 0001:000003BC       GetModuleFileName
+ 0001:000003C4       GetProcAddress
+ 0001:000003CC       LoadLibrary
+ 0001:000003D4       MessageBox
+ 0001:000003DC       Finalization
+ 0001:0000040C       Windows
+ 0001:00000634       Finalization
+ 0001:00000664       Messages
+ 0001:00000A84       Finalization
+ 0001:00000AB4       ENTCONST
+ 0001:00000ABC       GetProcAddr
+ 0001:00000AD8       LoadTCPLibrary
+ 0001:00000DF0       FreeTCPLibrary
+ 0001:00000E1C       GetProcAddr
+ 0001:00000E38       LoadDCELibrary
+ 0001:00001300       FreeDCELibrary
+ 0001:0000132C       dce_pop_retcode
+ 0001:00001348       ode_error
+ 0001:00001374       ode_check
+ 0001:000013E8       ode_cln_get_ifspec
+ 0001:00001408       ode_dstb_mar_cleanup
+ 0001:00001418       Finalization
+ 0001:00001468       ENTINTF
+ 0001:00002028       TParamDef.Create
+ 0001:00002064       TParamDef.Assign
+ 0001:000020C8       TParamDef.GetDisplayName
+ 0001:000020F0       TParamDef.FieldNameStored
+ 0001:00002104       TParamDef.SetParamName
+ 0001:00002130       TParamDef.SetDataType
+ 0001:0000214C       TParamDef.SetFieldType
+ 0001:0000216C       TRPCParams.Create
+ 0001:000021AC       TRPCParams.GetItem
+ 0001:000021C0       TRPCParams.SetItem
+ 0001:000021C8       TRPCParams.Add
+ 0001:000021D4       TRPCParams.GetOwner
+ 0001:000021D8       TRPCParams.ParamByFieldName
+ 0001:0000229C       TRPCParams.ParamByName
+ 0001:00002354       TRPCFunction.Create
+ 0001:000023A4       TRPCFunction.Destroy
+ 0001:000023DC       TRPCFunction.Assign
+ 0001:00002428       TRPCFunction.Invoke
+ 0001:000024A0       TRPCFunction.Release
+ 0001:000024E0       TRPCFunction.GetOwner
+ 0001:000024E4       TRPCFunction.ParamsStored
+ 0001:000024F8       TRPCFunction.GetParamCount
+ 0001:00002504       TRPCFunction.GetFieldParam
+ 0001:00002518       TRPCFunction.GetFieldCount
+ 0001:00002528       TRPCFunction.InitFieldParams
+ 0001:00002588       TRPCFunction.AddDataRef
+ 0001:000025CC       GetFromVariant
+ 0001:00002700       GetFromString
+ 0001:000027A0       GetFromBlobData
+ 0001:0000283C       GetFromArray
+ 0001:00002888       TRPCFunction.GetFieldData
+ 0001:00002928       TRPCFunction.EndOfData
+ 0001:00002934       TEnteraConnection.Create
+ 0001:00002978       TEnteraConnection.Destroy
+ 0001:000029B4       TEnteraConnection.ReleaseAll
+ 0001:000029DC       TEnteraConnection.SetConfigFile
+ 0001:00002A04       TEnteraConnection.GetPassword
+ 0001:00002A3C       TEnteraConnection.SetTransportMode
+ 0001:00002A54       TEnteraConnection.SetRPCList
+ 0001:00002A6C       OpenSocket
+ 0001:00002AF8       PushParams
+ 0001:00002B8C       PopParams
+ 0001:00002D28       TEnteraConnection.TCPInvoke
+ 0001:00002D80       InitContext
+ 0001:00002EB0       PushParams
+ 0001:0000308C       CallRPC
+ 0001:00003194       PopParams
+ 0001:00003458       TEnteraConnection.DCEInvoke
+ 0001:0000348C       InitArgData
+ 0001:00003500       PushParams
+ 0001:0000375C       CallRPC
+ 0001:00003848       PopParams
+ 0001:000038D4       TEnteraConnection.OLEInvoke
+ 0001:00003998       TEnteraConnection.RPCInvoke
+ 0001:00003A74       TCPRelease
+ 0001:00003AAC       DCERelease
+ 0001:00003AF0       OLERelease
+ 0001:00003B30       TEnteraConnection.RPCRelease
+ 0001:00003B7C       TEnteraProvider.Create
+ 0001:00003C1C       TEnteraProvider.Destroy
+ 0001:00003C58       TEnteraProvider.Notification
+ 0001:00003C88       TEnteraProvider.GetRPCFunction
+ 0001:00003C90       TEnteraProvider.SetRPCFunction
+ 0001:00003CA4       TEnteraProvider.SetServer
+ 0001:00003CCC       TEnteraProvider.CreatePacketData
+ 0001:00003DB4       TEnteraProvider.Reset
+ 0001:00003E68       TEnteraProvider.SetParams
+ 0001:00004068       TEnteraProvider.PackageRecords
+ 0001:0000414C       TEnteraProvider.GetRecords
+ 0001:00004310       TEnteraProvider.InitializeConflictBuffer
+ 0001:000044C0       TEnteraProvider.LogUpdateError
+ 0001:00004610       TEnteraProvider.HandleUpdateError
+ 0001:000046B8       TEnteraProvider.BindParameters
+ 0001:000047A0       TEnteraProvider.DoUpdate
+ 0001:00004A24       TEnteraProvider.ApplyUpdates
+ 0001:00004D10       Finalization
+ 0001:00004D74       ENTPROV
+ 0001:00004DF8       Finalization
+ 0001:00004E28       CommCtrl
+ 0001:00004E60       Finalization
+ 0001:00004E90       Imm
+ 0001:00004EE8       Finalization
+ 0001:00004F18       ShlObj
+ 0001:00004F20       Finalization
+ 0001:00004F50       UrlMon
+ 0001:00004F58       Finalization
+ 0001:00004F88       WinInet
+ 0001:00004F90       Finalization
+ 0001:00004FC0       RegStr
+ 0001:00004FC8       Finalization
+ 0001:00004FF8       ShellAPI
+ 0001:00005070       Finalization
+ 0001:000050A0       WinSpool
+ 0001:000050A8       Finalization
+ 0001:000050D8       CommDlg
+ 0001:000050E0       Finalization
+ 0001:00005110       Dlgs
+ 0001:00005158       Finalization
+ 0001:00005188       RichEdit
+ 0001:0000528C       GetProcAddr
+ 0001:000052A8       LoadParser
+ 0001:000053F8       FreeParser
+ 0001:00005414       TRPCList.Destroy
+ 0001:0000545C       TRPCList.GetRPC
+ 0001:00005470       TRPCList.IndexOfRPC
+ 0001:000054A8       RPCListUpToDate
+ 0001:000054E4       ParseFile
+ 0001:000055F8       GetHeaderInfo
+ 0001:00005708       CreateParam
+ 0001:00005748       FindWhereOfs
+ 0001:0000580C       FindFieldName
+ 0001:00005864       GetFunctionInfo
+ 0001:00005AF0       InitRPCList
+ 0001:00005C24       Finalization
+ 0001:00005C5C       SQLPARSE
+ 0001:00005ED4       @GetPackageInfoTable
+ 0001:00005EDC       @PackageLoad
+ 0001:00005EE8       @PackageUnload
+ 0001:00005EF4       dsnapent
+ 0002:00000000       TlsIndex
+ 0002:00000004       Module
+ 0002:0000001C       TlsProc
+ 0002:0000002C       UpdateKindStr
+ 0002:00000038       VarTypes
+ 0002:00000058       FieldTypes
+ 0002:00001000       ModuleIsLib
+ 0002:00001001       ModuleIsPackage
+ 0002:00001004       HInstance
+ 0002:00001008       .1
+ 0002:0000100C       tlsBuffer
+ 0002:00001010       .3
+ 0002:00001014       .1
+ 0002:00001018       .1
+ 0002:0000101C       dce_setenv
+ 0002:00001020       dce_close_env
+ 0002:00001024       dce_checkver
+ 0002:00001028       dce_findserver
+ 0002:0000102C       dce_close_socket
+ 0002:00001030       dce_submit
+ 0002:00001034       dce_push_char_Nstr
+ 0002:00001038       dce_pop_long
+ 0002:0000103C       dce_pop_void_Dstr
+ 0002:00001040       dce_element_get
+ 0002:00001044       dce_table_find
+ 0002:00001048       dce_table_destroy
+ 0002:0000104C       dce_release
+ 0002:00001050       dce_errstr
+ 0002:00001054       ode_cln_open_session
+ 0002:00001058       ode_cln_close_session
+ 0002:0000105C       ode_cln_get_errstr
+ 0002:00001060       ode_mem_release
+ 0002:00001064       ode_dstb_use_smallocate
+ 0002:00001068       ode_dstb_mar_init
+ 0002:0000106C       ode_dstb_mar_cleanupX
+ 0002:00001070       ode_dstb_init_ptr_table
+ 0002:00001074       ode_dstb_new_ifspec
+ 0002:00001078       ode_dstb_call_rpc
+ 0002:0000107C       ode_dstb_call_pc_rpc
+ 0002:00001080       ode_dstb_push_signed32
+ 0002:00001084       ode_dstb_push_signed16
+ 0002:00001088       ode_dstb_push_double
+ 0002:0000108C       ode_dstb_push_float
+ 0002:00001090       ode_dstb_push_char_Nstr
+ 0002:00001094       ode_dstb_pop_signed32
+ 0002:00001098       ode_dstb_pop_signed32_Dstr
+ 0002:0000109C       ode_dstb_pop_signed16_Dstr
+ 0002:000010A0       ode_dstb_pop_float_Dstr
+ 0002:000010A4       ode_dstb_pop_double_Dstr
+ 0002:000010A8       ode_dstb_pop_idl_byte_Dstr
+ 0002:000010AC       ode_dstb_pop_char_Narr
+ 0002:000010B0       .1
+ 0002:000010B4       FEnvFile
+ 0002:000010B8       FDapFile
+ 0002:000010BC       FTCPLibrary
+ 0002:000010C0       FDCELibrary
+ 0002:000010C4       .7
+ 0002:000010C8       .1
+ 0002:000010CC       .1
+ 0002:000010D0       .1
+ 0002:000010D4       .1
+ 0002:000010D8       .1
+ 0002:000010DC       .1
+ 0002:000010E0       .1
+ 0002:000010E4       .3
+ 0002:000010E8       .1
+ 0002:000010EC       .1
+ 0002:000010F0       .1
+ 0002:000010F4       .2
+ 0002:000010F8       FParserLib
+ 0002:000010FC       ParseSQLFile
+ 0002:00001100       FreeParseTable
+
+
+Bound resource files
+
+dsnapent.res
+C:\DOCUME~1\~KOKOP~1\LOCALS~1\Temp\dtf2727.tmp
+
+
+Program entry point at 0001:00005EF4

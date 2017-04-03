@@ -1,0 +1,13 @@
+:Base IBSERVER.HLP
+:Title InterBase Server Properties Help
+2 InterBase Server Properties
+3 Starting InterBase on Windows 95=ibsp_Starting_InterBase_on_Windows_95
+3 Selecting Server Startup Options=ibsp_Selecting_Server_Startup_Options_95
+3 Shutting Down InterBase on Windows 95=ibsp_Shutting_Down_InterBase_on_Windows_95
+3 Starting InterBase on Windows NT (Non-Service)=ibsp_Starting_InterBase_on_Windows_NT
+3 Selecting Server Startup Options on Windows NT=ibsp_Selecting_Server_Startup_Options_NT
+3 Shutting Down the Server on Windows NT=ibsp_Shutting_Down_the_Server_on_Windows_NT
+3 Viewing Server Properties=ibsp_Viewing_Server_Properties
+3 General Properties=ibsp_Server_Information_Properties
+3 IB Settings Properties=ibsp_IB_Settings_Properties
+3 OS Settings Properties=ibsp_OS_Settings_Properties
